@@ -1,0 +1,176 @@
+{
+ "as_of": "2026-08-26T13:50:00Z",
+ "summary": "Energy led the pullback in the Wednesday 26 August session: WTI crude fell for a third straight day to a more than two-week low near 80 USD/Bbl, down about 2% on the day, as Iran and Oman discussed a temporary joint maritime corridor in the Strait of Hormuz and Washington stopped short of secondary sanctions, reviving hopes the key shipping lane could reopen. US natural gas rebounded about 2.7% to 2.84 USD/MMBtu on hotter weather forecasts, while Newcastle thermal coal held near three-week highs at 131.65 USD/T on firm Asian demand. Precious metals eased after stronger-than-expected July PCE inflation (3.7% y/y vs 3.6% expected) and solid US data trimmed the odds of a September Fed cut: gold slipped about 1% to 4,615 USD/oz, silver and platinum were little changed, and palladium edged up, with attention turning to Fed Chair Kevin Warsh's Jackson Hole speech on Friday. Base metals were mixed as copper eased about 0.6% to 6.67 USD/lb but stayed near record highs on supply risks including flooding at the Kamoa-Kakula complex and falling LME inventories, while aluminum and nickel slipped and lithium fell 2.7% to 152,750 CNY/T. In single names, MP Materials, our rare earths proxy, rose about 3.4% to 62.20 USD/share after Morgan Stanley lifted its price target to 73, extending a post-Q2 rally on strong NdPr demand and US critical-minerals policy support.",
+ "summary_sources": [
+  {
+   "title": "Oil drops to more than two-week low on Iran-Oman talks to reopen Strait of Hormuz",
+   "url": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/"
+  },
+  {
+   "title": "Gold looks to PCE inflation, Jackson Hole for direction next week",
+   "url": "https://www.kitco.com/news/article/2026-08-21/gold-looks-pce-inflation-jackson-hole-direction-next-week"
+  },
+  {
+   "title": "Gold Falls as Investors Digest Stronger US Data",
+   "url": "https://tradingeconomics.com/commodity/gold/news/578292"
+  },
+  {
+   "title": "Copper Hits Fresh Record High",
+   "url": "https://tradingeconomics.com/commodity/copper/news/578130"
+  },
+  {
+   "title": "MP Materials price target raised to $73 from $71.50 at Morgan Stanley",
+   "url": "https://www.tipranks.com/news/the-fly/mp-materials-price-target-raised-to-73-from-71-50-at-morgan-stanley-thefly-news"
+  },
+  {
+   "title": "Trading Economics - Commodities live quotes",
+   "url": "https://tradingeconomics.com/commodities"
+  }
+ ],
+ "commodities": [
+  {
+   "name": "Petroleum (WTI)",
+   "price": "80.65",
+   "unit": "USD/Bbl",
+   "chg": "-2.07%",
+   "url": "https://tradingeconomics.com/commodity/crude-oil",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Natural Gas",
+   "price": "2.8443",
+   "unit": "USD/MMBtu",
+   "chg": "+2.68%",
+   "url": "https://tradingeconomics.com/commodity/natural-gas",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Coal (Newcastle)",
+   "price": "131.65",
+   "unit": "USD/T",
+   "chg": "+0.11%",
+   "url": "https://tradingeconomics.com/commodity/coal",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Iron Ore 62% Fe",
+   "price": "95.40",
+   "unit": "USD/T",
+   "chg": "+0.06%",
+   "url": "https://tradingeconomics.com/commodity/iron-ore",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Copper",
+   "price": "6.6672",
+   "unit": "USD/Lbs",
+   "chg": "-0.63%",
+   "url": "https://tradingeconomics.com/commodity/copper",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Aluminum",
+   "price": "3219.55",
+   "unit": "USD/T",
+   "chg": "-0.74%",
+   "url": "https://tradingeconomics.com/commodity/aluminum",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Gold",
+   "price": "4615.74",
+   "unit": "USD/t oz",
+   "chg": "-0.91%",
+   "url": "https://tradingeconomics.com/commodity/gold",
+   "flag": null,
+   "source": "tradingeconomics (cross-checked vs kitco 4,610.10 -1.03%; no material disagreement)"
+  },
+  {
+   "name": "Silver",
+   "price": "68.357",
+   "unit": "USD/t oz",
+   "chg": "-0.35%",
+   "url": "https://tradingeconomics.com/commodity/silver",
+   "flag": null,
+   "source": "tradingeconomics (cross-checked vs kitco 68.89; no material disagreement)"
+  },
+  {
+   "name": "Platinum",
+   "price": "1863.70",
+   "unit": "USD/t oz",
+   "chg": "+0.12%",
+   "url": "https://tradingeconomics.com/commodity/platinum",
+   "flag": null,
+   "source": "tradingeconomics (cross-checked vs kitco 1,869.90; ~0.3% gap, not material)"
+  },
+  {
+   "name": "Rhodium",
+   "price": "8800",
+   "unit": "USD/t oz",
+   "chg": "0.00%",
+   "url": "https://tradingeconomics.com/commodity/rhodium",
+   "flag": null,
+   "source": "tradingeconomics (kitco shows 8,550.00 bid, also 0.00%; ~2.9% level gap between sources, both unchanged on the day)"
+  },
+  {
+   "name": "Palladium",
+   "price": "1340.00",
+   "unit": "USD/t oz",
+   "chg": "+0.49%",
+   "url": "https://tradingeconomics.com/commodity/palladium",
+   "flag": null,
+   "source": "tradingeconomics (cross-checked vs kitco 1,349.05; ~0.7% gap, not material)"
+  },
+  {
+   "name": "Lithium (carbonate)",
+   "price": "152750",
+   "unit": "CNY/T",
+   "chg": "-2.71%",
+   "url": "https://tradingeconomics.com/commodity/lithium",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Nickel",
+   "price": "16918.63",
+   "unit": "USD/T",
+   "chg": "-0.77%",
+   "url": "https://tradingeconomics.com/commodity/nickel",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Cobalt",
+   "price": "56290",
+   "unit": "USD/T",
+   "chg": "0.00%",
+   "url": "https://tradingeconomics.com/commodity/cobalt",
+   "flag": null,
+   "source": "tradingeconomics (last print Aug/25, unchanged)"
+  },
+  {
+   "name": "Rare Earth Elements",
+   "price": "62.20",
+   "unit": "USD/share",
+   "chg": "+3.37%",
+   "url": "https://stockanalysis.com/stocks/mp/",
+   "flag": "proxy",
+   "source": "stockanalysis (MP Materials Corp, NYSE: MP, intraday Aug 26 2026; prev close 60.17)"
+  },
+  {
+   "name": "Uranium (U3O8)",
+   "price": "89.55",
+   "unit": "USD/Lbs",
+   "chg": "0.00%",
+   "url": "https://tradingeconomics.com/commodity/uranium",
+   "flag": null,
+   "source": "tradingeconomics (last print Aug/25, unchanged)"
+  }
+ ]
+}

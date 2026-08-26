@@ -1,0 +1,230 @@
+{
+ "as_of": "Wednesday 26 August 2026, 13:40 UTC (Wednesday 26 August 2026, 23:40 AEST Sydney)",
+ "btc": {
+  "price": "$78,376",
+  "chg": "-0.67%",
+  "source": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
+ },
+ "btc_crosschecks": [
+  {
+   "source": "CoinGecko API",
+   "price": "$78,376",
+   "chg": "-0.67%"
+  }
+ ],
+ "fx": [
+  {
+   "code": "AUD",
+   "rate": "1.3980",
+   "chg": "+0.12%"
+  },
+  {
+   "code": "EUR",
+   "rate": "0.8575",
+   "chg": "+0.02%"
+  },
+  {
+   "code": "GBP",
+   "rate": "0.7336",
+   "chg": "+0.02%"
+  },
+  {
+   "code": "JPY",
+   "rate": "159.24",
+   "chg": "+0.08%"
+  },
+  {
+   "code": "CNY",
+   "rate": "6.7198",
+   "chg": "-0.04%"
+  },
+  {
+   "code": "NZD",
+   "rate": "1.6761",
+   "chg": "-0.09%"
+  },
+  {
+   "code": "CAD",
+   "rate": "1.3860",
+   "chg": "+0.08%"
+  },
+  {
+   "code": "CHF",
+   "rate": "0.8027",
+   "chg": "+0.01%"
+  },
+  {
+   "code": "SGD",
+   "rate": "1.2703",
+   "chg": "-0.02%"
+  },
+  {
+   "code": "HKD",
+   "rate": "7.8380",
+   "chg": "+0.02%"
+  },
+  {
+   "code": "INR",
+   "rate": "95.42",
+   "chg": "-0.36%"
+  },
+  {
+   "code": "KRW",
+   "rate": "1383",
+   "chg": "-0.09%"
+  },
+  {
+   "code": "MXN",
+   "rate": "16.95",
+   "chg": "+0.11%"
+  },
+  {
+   "code": "BRL",
+   "rate": "5.1580",
+   "chg": "+0.16%"
+  },
+  {
+   "code": "ZAR",
+   "rate": "15.99",
+   "chg": "-0.09%"
+  },
+  {
+   "code": "ILS",
+   "rate": "2.9824",
+   "chg": "-0.33%"
+  },
+  {
+   "code": "SEK",
+   "rate": "9.4896",
+   "chg": "-0.11%"
+  },
+  {
+   "code": "NOK",
+   "rate": "9.3397",
+   "chg": "+0.27%"
+  },
+  {
+   "code": "THB",
+   "rate": "32.73",
+   "chg": "+0.15%"
+  },
+  {
+   "code": "MYR",
+   "rate": "4.0470",
+   "chg": "+0.11%"
+  },
+  {
+   "code": "PHP",
+   "rate": "61.72",
+   "chg": "-0.00%"
+  },
+  {
+   "code": "IDR",
+   "rate": "17684",
+   "chg": "-0.16%"
+  }
+ ],
+ "fx_base_date": "2026-08-25",
+ "fx_prior_date": "2026-08-24",
+ "fx_notes": "All 22 requested currencies were available from Frankfurter (ECB daily reference fixings). Rates are USD base (units of foreign currency per 1 USD). Day-over-day % change computed against the prior business day fixing. Formatting: 4dp under 10, 2dp for 10-1000, 0dp for IDR.",
+ "indices": [
+  {
+   "name": "S&P 500",
+   "symbol": "^GSPC",
+   "value": "7,683.14",
+   "chg": "+0.08%"
+  },
+  {
+   "name": "Dow Jones",
+   "symbol": "^DJI",
+   "value": "53,631.11",
+   "chg": "+0.10%"
+  },
+  {
+   "name": "Nasdaq Composite",
+   "symbol": "^IXIC",
+   "value": "26,152.88",
+   "chg": "+0.01%"
+  },
+  {
+   "name": "Russell 2000",
+   "symbol": "^RUT",
+   "value": "3,010.02",
+   "chg": "+0.50%"
+  },
+  {
+   "name": "S&P/ASX 200",
+   "symbol": "^AXJO",
+   "value": "9,127.8",
+   "chg": "-0.40%"
+  },
+  {
+   "name": "All Ordinaries",
+   "symbol": "^AORD",
+   "value": "9,338.8",
+   "chg": "-0.39%"
+  },
+  {
+   "name": "FTSE 100",
+   "symbol": "^FTSE",
+   "value": "10,905.02",
+   "chg": "+0.17%"
+  },
+  {
+   "name": "DAX",
+   "symbol": "^GDAXI",
+   "value": "26,372.24",
+   "chg": "+0.40%"
+  },
+  {
+   "name": "CAC 40",
+   "symbol": "^FCHI",
+   "value": "8,494.69",
+   "chg": "+0.66%"
+  },
+  {
+   "name": "Hang Seng",
+   "symbol": "^HSI",
+   "value": "25,652.97",
+   "chg": "+0.56%"
+  },
+  {
+   "name": "Nikkei 225",
+   "symbol": "^N225",
+   "value": "66,262.16",
+   "chg": "+0.62%"
+  },
+  {
+   "name": "KOSPI",
+   "symbol": "^KS11",
+   "value": "6,808.21",
+   "chg": "+0.97%"
+  },
+  {
+   "name": "SSE Composite",
+   "symbol": "000001.SS",
+   "value": "3,912.52",
+   "chg": "+0.59%"
+  },
+  {
+   "name": "Ibovespa",
+   "symbol": "^BVSP",
+   "value": "176,140",
+   "chg": "+0.90%"
+  },
+  {
+   "name": "Straits Times",
+   "symbol": "^STI",
+   "value": "5,721.59",
+   "chg": "-0.25%"
+  },
+  {
+   "name": "BSE Sensex",
+   "symbol": "^BSESN",
+   "value": "77,472.94",
+   "chg": "-0.24%"
+  }
+ ],
+ "indices_source": "https://finance.yahoo.com/world-indices",
+ "indices_asof": "Wednesday 26 August 2026, 13:40 UTC"
+}

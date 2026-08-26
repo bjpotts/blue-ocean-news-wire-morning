@@ -1,0 +1,237 @@
+{
+ "outlets": [
+  {
+   "key": "abc",
+   "name": "ABC News Australia",
+   "site": "abc.net.au/news",
+   "summary": "ABC is leading with the deadly flash flood on the Nepal-Tibet border that has left an Australian among hundreds missing, alongside a hospital fire that killed 14 babies in Pakistan and the RBA's renewed rate-hike risk as inflation data lands.",
+   "note": null,
+   "items": [
+    {
+     "headline": "An Australian is among hundreds missing after the Nepal-Tibet flash flood",
+     "detail": "At least 22 people have been confirmed dead and nearly 300 foreign nationals, including an Australian, are reported missing after a torrent of water swept through the Himalayan border region.",
+     "url": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672"
+    },
+    {
+     "headline": "A hospital fire in Pakistan's capital kills 14 babies",
+     "detail": "A blaze tore through a maternity ward in Islamabad, killing 14 infants, with witnesses saying the door to the ward was locked at the time.",
+     "url": "https://www.abc.net.au/news/2026-08-26/pakistan-fire-kills-babies-islamabad-hospital/107081404"
+    },
+    {
+     "headline": "Ukraine awards Elon Musk the Order of Freedom for Starlink support",
+     "detail": "President Volodymyr Zelenskyy honoured the tech billionaire for keeping Starlink satellite internet running for Ukraine during the war.",
+     "url": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694"
+    },
+    {
+     "headline": "July inflation data heightens the risk of an RBA rate hike",
+     "detail": "Economists described the latest inflation figures as an unfortunate kick in the guts, raising the odds the Reserve Bank will lift rates again.",
+     "url": "https://www.abc.net.au/news/2026-08-26/july-inflation-slows-heightened-risk-rba-rate-hike/107078580"
+    },
+    {
+     "headline": "The historic antisemitism inquiry closes with an impassioned plea",
+     "detail": "The royal commission into antisemitism wrapped up its public hearings with a rabbi's emotional call for social cohesion in Australia.",
+     "url": "https://www.abc.net.au/news/2026-08-26/bondi-antisemitism-social-cohesion-royal-commission-closes/107081712"
+    }
+   ]
+  },
+  {
+   "key": "sbs",
+   "name": "SBS News Australia",
+   "site": "sbs.com.au/news",
+   "summary": "SBS is balancing the global reaction to Dolly Parton's death with domestic politics, including National Cabinet's push on AI data centre rules and the wrap-up of the antisemitism royal commission.",
+   "note": "Homepage returned images only - headlines taken from the SBS News bulletin and Just In feeds.",
+   "items": [
+    {
+     "headline": "AI data centre rules face opposition at National Cabinet",
+     "detail": "The federal government's push for national rules requiring large new data centres to underwrite renewable energy met resistance from the states.",
+     "url": "https://www.sbs.com.au/news/podcast-episode/ai-data-centre-rules-face-opposition-at-national-cabinet-midday-news-bulletin-26-august-2026/jdnfg60f7"
+    },
+    {
+     "headline": "Country music icon Dolly Parton dies aged 80",
+     "detail": "The legendary singer-songwriter died after a brief battle with cancer, prompting tributes from around the world.",
+     "url": "https://www.sbs.com.au/news/podcast-episode/dolly-parton-dies-aged-80-morning-news-bulletin-26-august-2026/266o7sdwn"
+    },
+    {
+     "headline": "The antisemitism royal commission wraps up its public hearings",
+     "detail": "Commissioner Bell said the inquiry now has enough material to reach its conclusions after examining sensitive evidence linked to the Bondi attack.",
+     "url": "https://www.sbs.com.au/news/podcast-episode/antisemitism-royal-commission-wraps-up-public-hearings-evening-news-bulletin-26-august-2026/ebrvgu4tf"
+    },
+    {
+     "headline": "NSW's gambling reforms draw criticism",
+     "detail": "The state's new gambling measures have been criticised by advocates who argue they do not go far enough to curb harm.",
+     "url": "https://www.sbs.com.au/news/podcast-episode/nsw-gambling-reforms-criticised-evening-news-bulletin-25-august-2026/qrqf0fje1"
+    },
+    {
+     "headline": "New South Wales unveils major gambling reforms",
+     "detail": "The state announced sweeping changes to gambling rules, including tighter restrictions on advertising and inducements.",
+     "url": "https://www.sbs.com.au/news/podcast-episode/new-gambling-reforms-in-nsw-midday-news-bulletin-25-august-2026/x1vodi1xk"
+    }
+   ]
+  },
+  {
+   "key": "rnz",
+   "name": "RNZ New Zealand",
+   "site": "rnz.co.nz",
+   "summary": "RNZ's Wednesday file mixes crime and emergency stories with health and business news, including a free flu vaccine for under-fives and a $40m claim against Gloriavale's leader.",
+   "note": null,
+   "items": [
+    {
+     "headline": "A person is assaulted and a vehicle shot at after a two-car crash",
+     "detail": "Police are investigating an incident in which a person was assaulted and a vehicle shot at following a collision between a Toyota and a Volkswagen.",
+     "url": "https://www.rnz.co.nz/news/emergency/1140220/person-assaulted-vehicle-shot-at-after-car-crash-between-toyota-and-volkswagen"
+    },
+    {
+     "headline": "The flu vaccine is to be free for all children under five",
+     "detail": "The government announced the free flu jab for under-fives as hospitalisations from the virus soar.",
+     "url": "https://www.rnz.co.nz/news/health/1131646/flu-vaccine-to-be-free-for-all-under-fives"
+    },
+    {
+     "headline": "Gloriavale leavers file a $40m lost wages claim against the Overseeing Shepherd",
+     "detail": "Former members describe the community as modern day slavery in a claim for decades of unpaid wages and entitlements.",
+     "url": "https://www.rnz.co.nz/news/business/1133404/modern-day-slavery-gloriavale-leavers-file-40m-lost-wages-and-entitlements-claim-against-overseeing-shepherd"
+    },
+    {
+     "headline": "Fire and Emergency is treating the large Wanaka blaze as suspicious",
+     "detail": "Investigators are treating the major fire near Wanaka as suspicious as crews continue to battle the blaze.",
+     "url": "https://www.rnz.co.nz/news/emergencies_local/1131285/fire-and-emergency-treating-large-wanaka-blaze-as-suspicious"
+    },
+    {
+     "headline": "Ghislaine Maxwell loses her bid to overturn her US conviction",
+     "detail": "The Jeffrey Epstein accomplice failed in her latest attempt to overturn her conviction in the United States.",
+     "url": "https://www.rnz.co.nz/news/world/1123409/jeffrey-epstein-accomplice-ghislaine-maxwell-loses-bid-to-overturn-us-conviction"
+    }
+   ]
+  },
+  {
+   "key": "scmp",
+   "name": "South China Morning Post",
+   "site": "scmp.com",
+   "summary": "SCMP is leading on the landslide that destroyed a China-Nepal border crossing and Xi Jinping's expected visit to India, alongside US visa freezes and a Hong Kong court ruling on PwC and Evergrande.",
+   "note": null,
+   "items": [
+    {
+     "headline": "A landslide engulfs a China-Nepal border checkpoint causing major casualties",
+     "detail": "The landslide began in Nepal's Rasuwa region and struck Tibet's Gyirong county, with Xi ordering authorities to spare no effort in the search for the missing.",
+     "url": "https://www.scmp.com/news/china/politics/article/3365346/landslide-china-nepal-border-engulfs-checkpoint-causing-major-casualties"
+    },
+    {
+     "headline": "Xi Jinping is expected to visit India after seven years",
+     "detail": "Sources caution against overplaying expectations, saying the offers on the table fall well short of a breakthrough or grand bargain.",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3365318/chinas-xi-jinping-expected-visit-india-after-7-years-whats-agenda"
+    },
+    {
+     "headline": "Frustration grows in China as the US freezes green card interviews worldwide",
+     "detail": "Cancelled appointments mark the latest squeeze on legal immigration during Donald Trump's second term.",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3365330/frustration-china-us-freezes-green-card-interviews-worldwide-citing-training"
+    },
+    {
+     "headline": "PwC International must face trial over Evergrande claims, Hong Kong court rules",
+     "detail": "Liquidators are seeking about 38 billion yuan from PwC International over alleged audit failures at the property giant.",
+     "url": "https://www.scmp.com/business/china-business/article/3365340/pwc-international-must-face-trial-evergrande-scandals-claims-hong-kong-high-court"
+    },
+    {
+     "headline": "The delay to China's moon mission could ease pressure on Nasa",
+     "detail": "The postponement of the especially ambitious Chang'e-7 mission was no surprise to space specialists, but the US agency will not be celebrating.",
+     "url": "https://www.scmp.com/news/china/science/article/3365283/could-delay-chinas-moon-mission-ease-pressure-nasa"
+    }
+   ]
+  },
+  {
+   "key": "cnn",
+   "name": "CNN",
+   "site": "cnn.com",
+   "summary": "CNN's front page is anchored by the Nepal flash flood disaster and the death of Dolly Parton, alongside Meta's landmark $18 billion child-harm settlement and the fallout from Trump's revived tariffs.",
+   "note": null,
+   "items": [
+    {
+     "headline": "Meta settles a landmark child harm case for $18 billion",
+     "detail": "The company agreed to the settlement with US states and promised changes to its platforms over allegations of harm to children.",
+     "url": "https://www.cnn.com/2026/08/26/tech/meta-states-settle-trial-children"
+    },
+    {
+     "headline": "Dolly Parton, country music queen and humanitarian, dead at 80",
+     "detail": "The legendary singer died surrounded by loved ones, her representatives said, prompting tributes from around the world.",
+     "url": "https://www.cnn.com/interactive/2026/08/26/entertainment/dolly-parton-dead-vis/"
+    },
+    {
+     "headline": "At least 31 killed and hundreds missing in a huge flash flood on the Nepal-China border",
+     "detail": "Nepal's foreign minister said a quake triggered a landslide that blocked a river, sending a torrent of water downstream.",
+     "url": "https://www.cnn.com/2026/08/26/world/live-news/nepal-flash-flooding-floods-intl"
+    },
+    {
+     "headline": "Trump gets a much-needed South Carolina win in Tuesday's elections",
+     "detail": "The president's preferred candidate won the GOP Senate primary runoff, giving him a boost heading into the midterms.",
+     "url": "https://www.cnn.com/2026/08/25/politics/south-carolina-georgia-oklahoma-takeaways"
+    },
+    {
+     "headline": "Trump spurs backlash from his own party after reviving unpopular tariffs",
+     "detail": "Republicans are pushing back against the president's renewed tariff push as the trade war with Canada escalates.",
+     "url": "https://www.cnn.com/2026/08/26/politics/republicans-trump-tariffs-midterms"
+    }
+   ]
+  },
+  {
+   "key": "fox",
+   "name": "Fox News",
+   "site": "foxnews.com",
+   "summary": "Fox is leading with the death of Dolly Parton and the cause of her illness, alongside the Pakistan hospital fire, a manhunt arrest and primary results, with the Iran war and Smithsonian stories in the hot topics.",
+   "note": "Homepage returned navigation only - headlines taken from Fox News Digital and the latest RSS feed.",
+   "items": [
+    {
+     "headline": "Country music legend Dolly Parton dead at 80",
+     "detail": "Parton died Tuesday at 80 following a brief battle with cancer, her representatives confirmed.",
+     "url": "https://www.foxnews.com/entertainment/dolly-parton-dead-80"
+    },
+    {
+     "headline": "At least 14 newborns killed in a Pakistan nursery hospital fire",
+     "detail": "A blaze swept through a hospital nursery in Pakistan, killing at least 14 newborn babies.",
+     "url": "https://www.foxnews.com/world/least-14-newborns-killed-pakistan-nursery-hospital-fire"
+    },
+    {
+     "headline": "The Philadelphia mask suspect is arrested in Las Vegas",
+     "detail": "The man accused of terrorising people while wearing a Chucky mask was taken into custody in Las Vegas and faces extradition.",
+     "url": "https://www.foxnews.com/us/philadelphia-man-chucky-mask-accused-terrorizing-citizens-nabbed-las-vegas-manhunt"
+    },
+    {
+     "headline": "Three Secret Service officials are under internal investigation",
+     "detail": "The officials are being investigated over potential misconduct, Fox News reported.",
+     "url": "https://www.foxnews.com/us/3-secret-service-officials-internal-investigation-potential-misconduct"
+    },
+    {
+     "headline": "A conservative firebrand who went viral with an anti-CCP ad survives a key primary",
+     "detail": "The candidate held on in a closely watched primary race, according to Fox News.",
+     "url": "https://www.foxnews.com/politics/conservative-firebrand-went-viral-anti-ccp-ad-survives-key-primary"
+    }
+   ]
+  },
+  {
+   "key": "wsj",
+   "name": "The Wall Street Journal",
+   "site": "wsj.com",
+   "summary": "The Journal is leading on Canada's retaliatory tariff package targeting US midterm states and the oil market's slide as Iran and Oman push to reopen the Strait of Hormuz.",
+   "note": "Paywalled - headlines via the Dow Jones World News RSS feed and dated article URLs.",
+   "items": [
+    {
+     "headline": "Canada hits back at the US with tariffs targeting midterm states",
+     "detail": "Ottawa plans to impose tariffs of up to 50% on roughly 700 American products in retaliation for new US levies.",
+     "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b"
+    },
+    {
+     "headline": "Why oil prices are down 10% this week",
+     "detail": "Crude has fallen sharply as Iran and Oman discuss reopening the Strait of Hormuz and Persian Gulf shipping insurance costs climb.",
+     "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026/card/why-oil-prices-are-down-10-this-week-rXrbEY7u9PdjI67peyAE"
+    },
+    {
+     "headline": "GM says the Iran war and high gas prices are not denting sales",
+     "detail": "The US automaker raised its adjusted profit guidance on lower tariff costs, saying demand for its large trucks and SUVs remains strong.",
+     "url": "https://www.wsj.com/business/earnings/gm-raises-adjusted-profit-guidance-on-lower-tariff-costs-52a449ab"
+    },
+    {
+     "headline": "What is getting hit with the new US-Canada tariffs",
+     "detail": "New tariffs kicked in on billions of dollars' worth of US imports from Canada after trade talks between the two nations collapsed.",
+     "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c"
+    }
+   ]
+  }
+ ]
+}
