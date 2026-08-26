@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Send the latest Market Wrap Up snapshot PDF to bjpotts@gmail.com via macOS Mail.app.
+"""Send the latest Market Wrap Up full PDF to bjpotts@gmail.com via macOS Mail.app.
 
-Delivers the condensed 1-page snapshot PDF (the file that make_snapshot.py writes),
+Delivers the full multi-page PDF (the file that make_pdf.py writes),
 with the standing subject/body. Uses the locally configured Mail.app account since
 the Gmail MCP tool is not available in this environment.
 """
@@ -20,8 +20,8 @@ Regards
 Brandon Potts"""
 
 
-def latest_snapshot():
-    pdfs = sorted(glob.glob(os.path.join(BASE, "public-news-wire-snapshot-*.pdf")))
+def latest_pdf():
+    pdfs = sorted(glob.glob(os.path.join(BASE, "market-wrap-up-*.pdf")))
     return pdfs[-1] if pdfs else None
 
 
@@ -57,9 +57,9 @@ end tell
 
 def main():
     dry = "--dry-run" in sys.argv
-    pdf = latest_snapshot()
+    pdf = latest_pdf()
     if not pdf:
-        print("No snapshot PDF found; run make_snapshot.py first.", file=sys.stderr)
+        print("No full PDF found; run make_pdf.py first.", file=sys.stderr)
         return 1
     return 0 if send(pdf, dry_run=dry) else 1
 
