@@ -10,6 +10,7 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
 cd "$PROJ"
 {
   echo "===== RUN $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
+  python3 fetch_guardian.py
   python3 build.py
   python3 make_snapshot.py
   python3 make_pdf.py

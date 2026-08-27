@@ -331,6 +331,18 @@ outlets.insert(cnn_idx, wsj)
 alj = [o for o in outlets if o["key"] == "aljazeera"]
 outlets = [o for o in outlets if o["key"] != "aljazeera"] + alj
 
+# The Guardian's five regional editions slot into their matching regional groups:
+# Australia (with the AU/NZ outlets), US (with the US outlets), and
+# UK / Europe / International (with the UK/European outlets).
+if os.path.exists(os.path.join(D, "guardian.json")):
+    gd = {o["key"]: o for o in load("guardian.json")["outlets"]}
+    def _after(key):
+        return [o["key"] for o in outlets].index(key) + 1
+    for gk, after in (("gau", "rnz"), ("gus", "abcus"), ("guk", "bbc"),
+                      ("geu", "guk"), ("gint", "geu")):
+        if gk in gd and any(o["key"] == after for o in outlets):
+            outlets.insert(_after(after), gd[gk])
+
 # ----------------------------------------------------------------- story ordering
 # Within every World News outlet, business/financial stories lead, followed by
 # national/international general news, then local/entertainment/lifestyle/sport.
@@ -404,9 +416,9 @@ news_html = []
 for o in outlets:
     note = '<p class="caption">%s</p>' % E(o["note"]) if o.get("note") else ""
     news_html.append('<div class="outlet-section"><h3 class="subhead">%s '
-                     '<a class="site" href="https://%s" target="_blank" rel="noopener">%s</a></h3>'
+                     '<a class="site" href="%s" target="_blank" rel="noopener">%s</a></h3>'
                      '<p class="outlet-summary">%s</p>%s%s</div>'
-                     % (E(o["name"]), E(o["site"].split("/")[0]), E(o["site"]),
+                     % (E(o["name"]), E(("https://" + o["site"]) if o["key"].startswith("g") else "https://" + o["site"].split("/")[0]), E(o["site"]),
                         E(o["summary"]), note, headline_list(o["items"], o["name"])))
 news_html = "".join(news_html)
 

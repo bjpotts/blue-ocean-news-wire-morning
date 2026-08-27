@@ -1,0 +1,204 @@
+{
+ "outlets": [
+  {
+   "key": "gint",
+   "name": "The Guardian — International",
+   "site": "theguardian.com/international",
+   "rss": "https://www.theguardian.com/international/rss",
+   "summary": "The Guardian's International edition round-up, blending the paper's global reporting on politics, climate and conflict with its in-depth features and analysis.",
+   "note": null,
+   "items": [
+    {
+     "headline": "How to spot a psychopath: ‘It’s like the difference between a domestic cat and a wild cat’",
+     "detail": "How to spot a psychopath: ‘It’s like the difference between a domestic cat and a wild cat’",
+     "url": "https://www.theguardian.com/science/2026/aug/27/how-to-spot-a-psychopath-its-like-the-difference-between-a-domestic-cat-and-a-wild-cat"
+    },
+    {
+     "headline": "Modern cowboys are saddling up in the US West. And they’re on a whole new mission",
+     "detail": "Modern cowboys are saddling up in the US West. And they’re on a whole new mission",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/modern-cowboy-new-west-predators"
+    },
+    {
+     "headline": "Nepal flash flood live updates: more than 500 missing in Tibet, reports China, amid search for hundreds of tourists",
+     "detail": "Nepal flash flood live updates: more than 500 missing in Tibet, reports China, amid search for hundreds of tourists",
+     "url": "https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news"
+    },
+    {
+     "headline": "Meta agrees to major changes to Facebook and Instagram as it settles US trial over teen addiction for up to $18bn",
+     "detail": "Meta agrees to major changes to Facebook and Instagram as it settles US trial over teen addiction for up to $18bn",
+     "url": "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement"
+    },
+    {
+     "headline": "Trump downplays Moscow visit by CIA director as ‘semi-routine’",
+     "detail": "Trump downplays Moscow visit by CIA director as ‘semi-routine’",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/trump-cia-director-moscow-visit"
+    },
+    {
+     "headline": "London neurosurgeons perform first successful AI-assisted operation to remove brain tumour",
+     "detail": "London neurosurgeons perform first successful AI-assisted operation to remove brain tumour",
+     "url": "https://www.theguardian.com/technology/2026/aug/27/london-neurosurgeons-ai-assisted-operation-brain-tumour"
+    }
+   ]
+  },
+  {
+   "key": "guk",
+   "name": "The Guardian — UK",
+   "site": "theguardian.com/uk",
+   "rss": "https://www.theguardian.com/uk/rss",
+   "summary": "The Guardian's UK edition, covering British politics, the economy, public services and society from Westminster to the regions.",
+   "note": null,
+   "items": [
+    {
+     "headline": "The Nazis drove Bauhaus out of town. Now the far right is waging another war against the movement",
+     "detail": "The Nazis drove Bauhaus out of town. Now the far right is waging another war against the movement",
+     "url": "https://www.theguardian.com/world/2026/aug/27/the-nazis-drove-bauhaus-out-of-town-now-the-far-right-is-waging-another-war-against-the-movement"
+    },
+    {
+     "headline": "With Nige still sulking, Honest Bob was left to unveil Reform’s latest ‘policies’",
+     "detail": "With Nige still sulking, Honest Bob was left to unveil Reform’s latest ‘policies’ | John Crace",
+     "url": "https://www.theguardian.com/politics/2026/aug/26/nigel-farage-sulking-robert-jenrick-unveil-reform-latest-policies"
+    },
+    {
+     "headline": "Burnham drops support for political funding cap aimed at curbing mega-donors",
+     "detail": "Burnham drops support for political funding cap aimed at curbing mega-donors",
+     "url": "https://www.theguardian.com/politics/2026/aug/26/burnham-political-donations-influence-elections-bill"
+    },
+    {
+     "headline": "Forty children reported missing from UK asylum hotels still not found",
+     "detail": "Forty children reported missing from UK asylum hotels still not found",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/27/forty-children-reported-missing-uk-asylum-hotels-2023-still-not-found"
+    },
+    {
+     "headline": "Plug-in balcony solar panels to go on sale in UK for first time",
+     "detail": "Plug-in balcony solar panels to go on sale in UK for first time",
+     "url": "https://www.theguardian.com/environment/2026/aug/26/plug-in-balcony-solar-panels-to-go-on-sale-in-uk-for-first-time"
+    },
+    {
+     "headline": "Trial date set for four accused of involvement in 9/11 plot",
+     "detail": "Trial date set for four accused of involvement in 9/11 plot",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/trial-date-set-for-four-accused-of-involvement-in-911-plot"
+    }
+   ]
+  },
+  {
+   "key": "gus",
+   "name": "The Guardian — US",
+   "site": "theguardian.com/us",
+   "rss": "https://www.theguardian.com/us-news/rss",
+   "summary": "The Guardian's US edition, reporting on the White House, Congress, the midterm campaign and American social and cultural stories.",
+   "note": null,
+   "items": [
+    {
+     "headline": "Democratic states sue to block postal service from carrying out Trump’s mail-in voting order – as it happened",
+     "detail": "Democratic states sue to block postal service from carrying out Trump’s mail-in voting order – as it happened",
+     "url": "https://www.theguardian.com/us-news/live/2026/aug/26/darline-graham-lindsey-south-carolina-gop-post-office-voting-senate-midterms-donald-trump-latest-news-updates"
+    },
+    {
+     "headline": "Man in prison in New York advances in primary for Alaska’s US House seat",
+     "detail": "Man in prison in New York advances in primary for Alaska’s US House seat",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/alaska-us-house-primary-federal-prisoner-eric-hafner"
+    },
+    {
+     "headline": "Alexandria Ocasio-Cortez rejoins DSA after membership lapse of seven years",
+     "detail": "Alexandria Ocasio-Cortez rejoins DSA after membership lapse of seven years",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/alexandria-ocasio-cortez-rejoins-dsa"
+    },
+    {
+     "headline": "Final witness in Lindsay Clancy trial says he doesn’t believe she heard a voice during killings",
+     "detail": "Final witness in Lindsay Clancy trial says he doesn’t believe she heard a voice during killings",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/lindsay-clancy-trial-fbi-psychiatrist-final-witness"
+    },
+    {
+     "headline": "Judge blocks Minnesota bid to extradite Texas ICE agent accused of shooting man",
+     "detail": "Judge blocks Minnesota bid to extradite Texas ICE agent accused of shooting man",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/ice-agent-shooting-texas-minnesota-extradition"
+    },
+    {
+     "headline": "How to lose Trump’s trade war: test Canada’s resolve with threats to hockey sticks",
+     "detail": "How to lose Trump’s trade war: test Canada’s resolve with threats to hockey sticks",
+     "url": "https://www.theguardian.com/us-news/2026/aug/26/trump-canada-trade-war"
+    }
+   ]
+  },
+  {
+   "key": "gau",
+   "name": "The Guardian — Australia",
+   "site": "theguardian.com/au",
+   "rss": "https://www.theguardian.com/australia-news/rss",
+   "summary": "The Guardian's Australian edition, covering federal politics, the economy, the environment and domestic news from an independent, progressive lens.",
+   "note": null,
+   "items": [
+    {
+     "headline": "Australia news live: most banks now predict another rate hike; Ken Henry delivers warning over ‘stupid’ GST deal",
+     "detail": "Australia news live: most banks now predict another rate hike; Ken Henry delivers warning over ‘stupid’ GST deal",
+     "url": "https://www.theguardian.com/australia-news/live/2026/aug/27/australia-news-live-ai-datacentres-national-cabinet-renewable-energy-icac-perrottet-alan-jones-bruce-lehrmann-qantas-sydney-melbourne-nepal-floods-ntwnfb"
+    },
+    {
+     "headline": "‘No transparency’: Labor to scrap levy secretly placed on Victorian public transport fares",
+     "detail": "‘No transparency’: Labor to scrap levy secretly placed on Victorian public transport fares",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/27/labor-scrap-secret-public-transport-levy-suburban-loop-melbourne-victoria"
+    },
+    {
+     "headline": "Anthony Albanese says 34 Australians among hundreds of people missing in deadly Nepal flash floods",
+     "detail": "Anthony Albanese says 34 Australians among hundreds of people missing in deadly Nepal flash floods",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods"
+    },
+    {
+     "headline": "Nepal floods: children as young as 11 among Australian tour group missing after flash flooding",
+     "detail": "Nepal floods: children as young as 11 among Australian tour group missing after flash flooding",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/27/children-among-australian-tourists-missing-feared-dead-nepal-tibet-floods"
+    },
+    {
+     "headline": "Police investigate death of teenage girl two days after alleged ‘sexual choking’ act in Sydney",
+     "detail": "Police investigate death of teenage girl two days after alleged ‘sexual choking’ act in Sydney",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/27/sydney-16yo-girl-death-suspected-sexual-choking-asphyxiation-ntwnfb"
+    },
+    {
+     "headline": "Cyborg cockroaches with tiny syringes designed to join search and rescue teams in major disasters",
+     "detail": "Cyborg cockroaches with tiny syringes designed to join search and rescue teams in major disasters",
+     "url": "https://www.theguardian.com/technology/2026/aug/27/cockroaches-used-search-rescue-earthquakes-science-technology-australia"
+    }
+   ]
+  },
+  {
+   "key": "geu",
+   "name": "The Guardian — Europe",
+   "site": "theguardian.com/europe",
+   "rss": "https://www.theguardian.com/europe/rss",
+   "summary": "The Guardian's Europe edition, tracking the EU, the war in Ukraine and political and economic developments across the continent.",
+   "note": null,
+   "items": [
+    {
+     "headline": "‘A Bible-sized blind spot’: congressman sounds alarm on rising Christian nationalism",
+     "detail": "‘A Bible-sized blind spot’: congressman sounds alarm on rising Christian nationalism",
+     "url": "https://www.theguardian.com/world/2026/aug/26/jared-huffman-rising-christian-nationalism-no-prophets-book"
+    },
+    {
+     "headline": "France to relax cheese production rules after drought takes toll on grazing land",
+     "detail": "France to relax cheese production rules after drought takes toll on grazing land",
+     "url": "https://www.theguardian.com/world/2026/aug/27/france-cheese-production-rules-drought-comte-beaufort-abondance"
+    },
+    {
+     "headline": "Flight attendant’s breast cancer was occupational disease, court rules",
+     "detail": "Flight attendant’s breast cancer was occupational disease, court rules",
+     "url": "https://www.theguardian.com/society/2026/aug/26/flight-attendant-breast-cancer-occupational-disease"
+    },
+    {
+     "headline": "Queensland woman gave birth to twins with different parents after surrogacy coincides with natural pregnancy",
+     "detail": "Queensland woman gave birth to twins with different parents after surrogacy coincides with natural pregnancy",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/27/queensland-surrogacy-laws-twins-birth-separate-parents-ntwnfb"
+    },
+    {
+     "headline": "Japan killed 14,000 bears after a rise in deadly attacks on people – but will it work?",
+     "detail": "Japan killed 14,000 bears after a rise in deadly attacks on people – but will it work?",
+     "url": "https://www.theguardian.com/environment/2026/aug/27/bears-killed-13-people-japan-14000-bears"
+    },
+    {
+     "headline": "Ukraine war briefing: Reboot of ‘fortress belt’ defences as Zelenskyy visits frontline",
+     "detail": "Ukraine war briefing: Reboot of ‘fortress belt’ defences as Zelenskyy visits frontline",
+     "url": "https://www.theguardian.com/world/2026/aug/27/ukraine-war-briefing-reboot-of-fortress-belt-defences-as-zelenskyy-visits-frontline"
+    }
+   ]
+  }
+ ]
+}
