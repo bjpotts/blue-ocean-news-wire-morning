@@ -51,7 +51,7 @@ Rendered through headless Chrome to confirm the baked-in `@media print` block be
 be pushed to `https://claude.ai/code/artifact/843fe9ec-75b9-43fe-b1f1-19454a9716c4`. The published copy at
 that URL is therefore unchanged from the previous run. Delivered as files instead:
 
-- `public-news-wire.html` - the self-contained artifact body (style block + content, no doctype/head/body)
+- `market-wrap-up.html` - the self-contained artifact body (style block + content, no doctype/head/body)
 - `preview.html` - the same content wrapped in a minimal document for local viewing and PDF export
 - `public-news-wire-full-print.pdf` - the 42-page print render
 
