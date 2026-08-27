@@ -168,35 +168,6 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
 }
 .page-break-before{}
 
-/* ---------------- auth UI ---------------- */
-.auth-bar{
-  max-width:1180px;margin:0 auto;padding:12px 26px 0;
-  display:flex;justify-content:flex-end;align-items:center;gap:10px;
-  font-family:var(--mono);font-size:.75rem;
-}
-.auth-bar button{
-  font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;border-radius:3px;padding:6px 12px;cursor:pointer;
-  border:1px solid var(--cerulean);background:var(--cerulean);color:#fff;
-}
-.auth-bar button.secondary{
-  background:transparent;color:var(--cerulean);
-}
-.auth-bar button:hover{
-  background:var(--teal);border-color:var(--teal);color:#fff;
-}
-.auth-bar .user{
-  color:var(--muted);
-}
-@media (prefers-color-scheme: dark){
-  .auth-bar button{color:#06222a;}
-  .auth-bar button.secondary{background:transparent;color:var(--cerulean);}
-  .auth-bar button:hover{color:#fff;}
-}
-@media print{
-  .auth-bar{display:none;}
-}
-
 </style>
 <div class="pnw">
 
@@ -306,7 +277,7 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
 <a class="rate-cell" href="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;amp;From=USD&amp;amp;To=IDR" target="_blank" rel="noopener"><span class="rc-label"><span class="rc-code">IDR</span></span><span class="rc-val">17684</span> <small class="chg-neg">-0.16%</small></a>
 </div>
 
-<h3 class="subhead">World Indices</h3>
+<h3 class="subhead page-break-before">World Indices</h3>
 <p class="caption">Latest closing prints for the sessions of Wednesday 26 August 2026 via <a href="https://finance.yahoo.com/world-indices" target="_blank" rel="noopener">Yahoo Finance World Indices</a>; indexes from exchanges still open at time of collection reflect their latest prints.</p>
 <div class="rate-grid">
 <a class="rate-cell" href="https://finance.yahoo.com/quote/%5EGSPC" target="_blank" rel="noopener"><span class="rc-label"><span class="rc-code">S&amp;P 500</span></span><span class="rc-val">7,683.14</span> <small class="chg-pos">+0.08%</small></a>
