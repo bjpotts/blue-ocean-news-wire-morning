@@ -13,6 +13,11 @@ cd "$PROJ"
   python3 build.py
   python3 make_snapshot.py
   python3 make_pdf.py
+  python3 /Users/brandonpotts/.verdent/verdent-projects/market-wrap-up-data/ingest.py \
+    --project "$PROJ" \
+    --run-id "$(date '+%Y-%m-%d')-am" \
+    --edition "Morning Edition"
+  python3 /Users/brandonpotts/.verdent/verdent-projects/market-wrap-up-data/compare.py
   python3 "$PROJ/scripts/send_email.py"
   echo "===== DONE $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
 } >> "$LOG" 2>&1
