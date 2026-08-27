@@ -184,6 +184,13 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
 .auth-bar .user{
   color:var(--muted);
 }
+.auth-bar .auth-link{
+  color:var(--cerulean);text-decoration:none;font-family:var(--mono);
+  font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+}
+.auth-bar .auth-link:hover{
+  color:var(--teal);text-decoration:underline;
+}
 @media (prefers-color-scheme: dark){
   .auth-bar button{color:#06222a;}
   .auth-bar button.secondary{background:transparent;color:var(--cerulean);}

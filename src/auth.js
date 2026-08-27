@@ -54,13 +54,13 @@ export function onAuthStateChange(callback) {
 }
 
 export function openSignIn() {
-  auth.openSignInModal();
+  auth.openSignInModal({ initialView: 'signIn' });
 }
 
 export function openSignUp() {
-  auth.openSignUpModal?.() || auth.openSignInModal({ view: 'sign_up' });
+  auth.openSignInModal({ initialView: 'signUp' });
 }
 
 export function openPasswordRecovery() {
-  auth.openForgotPasswordModal?.() || auth.openSignInModal({ view: 'forgotten_password' });
+  auth.openSignInModal({ initialView: 'forgotPassword' });
 }
