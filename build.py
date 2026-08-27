@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build the Market Wrap Up digest page for Blue Ocean Equities Pty Ltd."""
 import json, html, os, re
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public", "digest.html")
@@ -100,9 +102,17 @@ if abcau is not None:
     if isinstance(_abc_bf, dict) and _abc_bf.get("url"):
         abcau["items"].append(_abc_bf)
 
-EDITION = "Morning Edition"
-DATELINE = "Thursday 27 August 2026 \u00b7 08:00 AEST \u00b7 Sydney, NSW"
-GEN_NOTE = "Generated Thursday 27 August 2026 at 08:00 AEST / 22:00 UTC."
+def _sydney_now():
+    return datetime.now(ZoneInfo("Australia/Sydney"))
+
+_now = _sydney_now()
+_hr = _now.hour
+EDITION = "Morning Edition" if 4 <= _hr < 16 else "Evening Edition"
+_DATELINE_DATE = _now.strftime("%A %d %B %Y")
+_DATELINE_TIME = _now.strftime("%H:%M AEST")
+_DATELINE_UTC = _now.astimezone(ZoneInfo("UTC")).strftime("%H:%M UTC")
+DATELINE = f"{EDITION} \u00b7 {_DATELINE_DATE} \u00b7 {_DATELINE_TIME} \u00b7 Sydney, NSW"
+GEN_NOTE = f"Generated {_DATELINE_DATE} at {_DATELINE_TIME} / {_DATELINE_UTC}."
 
 def chg_class(c):
     c = (c or "").strip()

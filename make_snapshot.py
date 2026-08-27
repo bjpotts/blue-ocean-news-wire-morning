@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Build the condensed 1-page snapshot PDF (standard Helvetica, no embedded fonts)."""
 import json, html, os, base64
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.lib import colors
@@ -8,9 +10,15 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DATE, AMPM = "2026-08-27", "am"
-EDITION = "Morning Edition"
-DATELINE = "Morning Edition \u00b7 Thursday 27 August 2026 \u00b7 08:00 AEST \u00b7 Sydney, NSW"
+
+_now = datetime.now(ZoneInfo("Australia/Sydney"))
+_hr = _now.hour
+EDITION = "Morning Edition" if 4 <= _hr < 16 else "Evening Edition"
+AMPM = "am" if EDITION == "Morning Edition" else "pm"
+DATE = _now.strftime("%Y-%m-%d")
+_DATELINE_DATE = _now.strftime("%A %d %B %Y")
+_DATELINE_TIME = _now.strftime("%H:%M AEST")
+DATELINE = f"{EDITION} \u00b7 {_DATELINE_DATE} \u00b7 {_DATELINE_TIME} \u00b7 Sydney, NSW"
 ARTIFACT = "https://claude.ai/code/artifact/843fe9ec-75b9-43fe-b1f1-19454a9716c4"
 OUT = os.path.join(BASE, "public-news-wire-snapshot-%s-%s.pdf" % (DATE, AMPM))
 
