@@ -163,39 +163,3 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
   a{color:#0b6a8c !important;}
 }
 .page-break-before{}
-
-/* ---------------- auth UI ---------------- */
-.auth-bar{
-  max-width:1180px;margin:0 auto;padding:12px 26px 0;
-  display:flex;justify-content:flex-end;align-items:center;gap:10px;
-  font-family:var(--mono);font-size:.75rem;
-}
-.auth-bar button{
-  font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;border-radius:3px;padding:6px 12px;cursor:pointer;
-  border:1px solid var(--cerulean);background:var(--cerulean);color:#fff;
-}
-.auth-bar button.secondary{
-  background:transparent;color:var(--cerulean);
-}
-.auth-bar button:hover{
-  background:var(--teal);border-color:var(--teal);color:#fff;
-}
-.auth-bar .user{
-  color:var(--muted);
-}
-.auth-bar .auth-link{
-  color:var(--cerulean);text-decoration:none;font-family:var(--mono);
-  font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
-}
-.auth-bar .auth-link:hover{
-  color:var(--teal);text-decoration:underline;
-}
-@media (prefers-color-scheme: dark){
-  .auth-bar button{color:#06222a;}
-  .auth-bar button.secondary{background:transparent;color:var(--cerulean);}
-  .auth-bar button:hover{color:#fff;}
-}
-@media print{
-  .auth-bar{display:none;}
-}

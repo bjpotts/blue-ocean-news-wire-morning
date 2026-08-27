@@ -1,21 +1,6 @@
 import './style.css';
-import {
-  getSession,
-  getUser,
-  signOut,
-  onAuthStateChange,
-  openSignIn,
-  openSignUp,
-  openPasswordRecovery,
-} from './auth.js';
 
 const app = document.getElementById('app');
-const authBar = document.getElementById('auth-bar');
-const authUser = document.getElementById('auth-user');
-const signInBtn = document.getElementById('auth-signin');
-const signOutBtn = document.getElementById('auth-signout');
-const signUpLink = document.getElementById('auth-signup');
-const forgotLink = document.getElementById('auth-forgot');
 
 async function loadDigest() {
   try {
@@ -46,59 +31,8 @@ function rehydrateWeatherScript() {
   oldScript.replaceWith(newScript);
 }
 
-async function updateAuthUI(session) {
-  if (session) {
-    const user = await getUser();
-    authUser.textContent = user?.email ? `Signed in as ${user.email}` : 'Signed in';
-    signInBtn.style.display = 'none';
-    signOutBtn.style.display = 'inline-block';
-    signUpLink.style.display = 'none';
-    forgotLink.style.display = 'none';
-  } else {
-    authUser.textContent = '';
-    signInBtn.style.display = 'inline-block';
-    signOutBtn.style.display = 'none';
-    signUpLink.style.display = 'inline';
-    forgotLink.style.display = 'inline';
-  }
-}
-
-async function initAuth() {
-  authBar.style.display = 'flex';
-
-  signInBtn.addEventListener('click', () => {
-    openSignIn();
-  });
-
-  signUpLink.addEventListener('click', (e) => {
-    e.preventDefault();
-    openSignUp();
-  });
-
-  forgotLink.addEventListener('click', (e) => {
-    e.preventDefault();
-    openPasswordRecovery();
-  });
-
-  signOutBtn.addEventListener('click', async () => {
-    try {
-      await signOut();
-    } catch (err) {
-      alert('Sign out failed: ' + err.message);
-    }
-  });
-
-  const session = await getSession();
-  await updateAuthUI(session);
-
-  onAuthStateChange(async (session) => {
-    await updateAuthUI(session);
-  });
-}
-
 async function main() {
   await loadDigest();
-  await initAuth();
 }
 
 main();
