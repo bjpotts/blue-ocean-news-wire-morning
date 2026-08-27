@@ -451,7 +451,7 @@ HTML = """<div class="pnw">
 <p class="caption">Bitcoin spot via <a href="https://www.coindesk.com/price/bitcoin" target="_blank" rel="noopener">CoinDesk</a> and <a href="https://www.coingecko.com/en/coins/bitcoin" target="_blank" rel="noopener">CoinGecko</a>. FX are ECB daily reference fixings from <a href="https://api.frankfurter.dev/v1/latest?from=USD" target="_blank" rel="noopener">Frankfurter</a>, base USD, %s versus prior business day %s; cells link to <a href="https://www.xe.com/currencyconverter/" target="_blank" rel="noopener">xe.com</a>.</p>
 %s
 
-<h3 class="subhead">World Indices</h3>
+<h3 class="subhead page-break-before">World Indices</h3>
 <p class="caption">Latest closing prints for the sessions of Wednesday 26 August 2026 via <a href="https://finance.yahoo.com/world-indices" target="_blank" rel="noopener">Yahoo Finance World Indices</a>; indexes from exchanges still open at time of collection reflect their latest prints.</p>
 %s
 
