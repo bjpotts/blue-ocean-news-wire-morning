@@ -32,7 +32,7 @@ Every data point is a clickable link to a real, working source URL.
 ## Tech stack
 
 - [Vite](https://vitejs.dev/) — build tooling
-- [Supabase](https://supabase.com/) — backend integration via `@verdent/auth-js`
+- [Supabase](https://supabase.com/) — backend database (schema in `supabase/migrations/`)
 - [@verdent/auth-js](https://www.npmjs.com/package/@verdent/auth-js) — auth integration (UI currently hidden)
 - Python scripts in the project root for data fetching and PDF generation
 
