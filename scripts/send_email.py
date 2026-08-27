@@ -9,6 +9,7 @@ import glob
 import os
 import subprocess
 import sys
+import time
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TO = "bjpotts@gmail.com"
@@ -30,11 +31,31 @@ def esc(s):
     return s.replace("\\", "\\\\").replace('"', '\\"')
 
 
+def ensure_mail_running():
+    """Make sure Mail.app is up and responding before sending.
+
+    Under launchd (non-interactive background context) Mail can be cold or not
+    yet responding, which caused the "AppleEvent timed out (-1712)" error on
+    scheduled runs. Launching it and waiting for it to be reachable avoids that.
+    """
+    subprocess.run(["open", "-a", "Mail"], check=False)
+    for _ in range(30):
+        p = subprocess.run(
+            ["osascript", "-e", 'tell application "System Events" to count (application processes whose name is "Mail")'],
+            capture_output=True, text=True, timeout=10,
+        )
+        if p.returncode == 0 and p.stdout.strip() != "0":
+            return True
+        time.sleep(1)
+    return False
+
+
 def send(pdf, dry_run=False):
     subject = esc(SUBJECT)
     body = esc(BODY)
     attachment = esc(os.path.abspath(pdf))
     script = f"""
+with timeout of 120 seconds
 tell application "Mail"
     set theMessage to make new outgoing message with properties {{subject:"{subject}", content:"{body}", visible:false}}
     tell theMessage
@@ -43,16 +64,23 @@ tell application "Mail"
     end tell
     send theMessage
 end tell
+end timeout
 """
     if dry_run:
         print("DRY RUN: would send %s to %s" % (pdf, TO))
         return True
-    p = subprocess.run(["osascript", "-e", script], capture_output=True, text=True)
-    if p.returncode != 0:
-        print("MAIL ERROR: %s" % p.stderr.strip(), file=sys.stderr)
+    if not ensure_mail_running():
+        print("MAIL ERROR: Mail.app did not become responsive", file=sys.stderr)
         return False
-    print("EMAIL SENT: %s -> %s" % (os.path.basename(pdf), TO))
-    return True
+    for attempt in range(1, 4):
+        p = subprocess.run(["osascript", "-e", script], capture_output=True, text=True, timeout=150)
+        if p.returncode == 0:
+            print("EMAIL SENT: %s -> %s" % (os.path.basename(pdf), TO))
+            return True
+        print("MAIL ATTEMPT %d/3 failed: %s" % (attempt, p.stderr.strip() or "osascript timed out"), file=sys.stderr)
+        if attempt < 3:
+            time.sleep(10 * attempt)
+    return False
 
 
 def main():
