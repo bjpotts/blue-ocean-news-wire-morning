@@ -18,34 +18,50 @@ CURRENCY_CODES = [
     "PHP", "IDR"
 ]
 
-# 24 indices, ordered so the 4-column grid reads geographically: US, then the
-# rest of the Americas, ANZ, UK/Europe, Asia, Middle East/Africa, South America.
+# The 24 indices shown in the World Indices grid, in the order requested, so the
+# 4-column grid reads down from the most-watched benchmarks to the smaller ones.
 INDICES = [
     ("S&P 500", "^GSPC"),
-    ("Dow Jones", "^DJI"),
     ("Nasdaq Composite", "^IXIC"),
-    ("Russell 2000", "^RUT"),
-    ("TSX Composite", "^GSPTSE"),
-    ("IPC Mexico", "^MXX"),
-    ("S&P/ASX 200", "^AXJO"),
-    ("All Ordinaries", "^AORD"),
-    ("NZX 50", "^NZ50"),
     ("FTSE 100", "^FTSE"),
+    ("Nikkei 225", "^N225"),
+    ("Shanghai Composite", "000001.SS"),
     ("DAX", "^GDAXI"),
     ("CAC 40", "^FCHI"),
-    ("EURO STOXX 50", "^STOXX50E"),
-    ("IBEX 35", "^IBEX"),
     ("Hang Seng", "^HSI"),
-    ("Nikkei 225", "^N225"),
-    ("KOSPI", "^KS11"),
-    ("SSE Composite", "000001.SS"),
-    ("Taiwan Weighted", "^TWII"),
-    ("Straits Times", "^STI"),
     ("BSE Sensex", "^BSESN"),
-    ("TA-125", "^TA125.TA"),
-    ("JSE All Share", "^J203.JO"),
+    ("S&P/ASX 200", "^AXJO"),
+    ("TSX Composite", "^GSPTSE"),
+    ("KOSPI", "^KS11"),
+    ("IBEX 35", "^IBEX"),
+    ("FTSE MIB", "FTSEMIB.MI"),
     ("Ibovespa", "^BVSP"),
+    ("EURO STOXX 50", "^STOXX50E"),
+    ("OMX Stockholm 30", "^OMX"),
+    ("MOEX Russia", "IMOEX"),
+    ("TAIEX", "^TWII"),
+    ("PSI 20", "PSI20.LS"),
+    ("ATX", "^ATX"),
+    ("SET Index", "^SET.BK"),
+    ("IPC Mexico", "^MXX"),
+    ("NZX 50", "^NZ50"),
 ]
+
+# Indices the Market News paragraph talks about but the grid no longer shows.
+# They are fetched so the written summary keeps its full regional coverage, and
+# are kept out of "indices" so the displayed grid stays exactly 24 cells.
+NARRATIVE_INDICES = [
+    ("Dow Jones", "^DJI"),
+    ("Russell 2000", "^RUT"),
+    ("All Ordinaries", "^AORD"),
+    ("Straits Times", "^STI"),
+]
+
+# Yahoo keeps serving a "price" for indices it stopped tracking years ago, so a
+# quote is only trusted while its timestamp is recent. Markets close over
+# weekends and holidays, hence the week of slack before anything is flagged.
+STALE_AFTER_DAYS = 7
+DROP_AFTER_DAYS = 30
 
 
 def _fmt(n):
@@ -115,24 +131,100 @@ def fetch_btc():
     }
 
 
-def fetch_indices():
+def _stale_flag(name, symbol, quote_ts):
+    """Return ("keep"|"flag"|"drop", age_days) for a quote's timestamp."""
+    if not quote_ts:
+        return "keep", None
+    age = (datetime.now(UTC) - quote_ts).days
+    if age > DROP_AFTER_DAYS:
+        print(f"WARN: dropping index {name} ({symbol}); last quote is {age} days old",
+              file=sys.stderr)
+        return "drop", age
+    if age > STALE_AFTER_DAYS:
+        print(f"WARN: index {name} ({symbol}) last quoted {age} days ago; flagging stale",
+              file=sys.stderr)
+        return "flag", age
+    return "keep", age
+
+
+def _fetch_moex_index(name, symbol):
+    """MOEX Russia from the exchange's own API.
+
+    Yahoo still answers for IMOEX.ME but its series froze in July 2022, so it
+    would publish a four-year-old number as if it were today's close.
+    """
+    url = ("https://iss.moex.com/iss/engines/stock/markets/index/securities/"
+           "IMOEX.json?iss.meta=off")
+    resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
+    resp.raise_for_status()
+    md = resp.json()["marketdata"]
+    rec = dict(zip(md["columns"], md["data"][0]))
+
+    price = rec.get("CURRENTVALUE") or rec.get("LASTVALUE")
+    if price is None:
+        raise ValueError("MOEX returned no index value")
+
+    quote_ts = None
+    if rec.get("SYSTIME"):
+        quote_ts = datetime.strptime(rec["SYSTIME"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=UTC)
+    state, _ = _stale_flag(name, symbol, quote_ts)
+    if state == "drop":
+        return None
+
+    chg = rec.get("LASTCHANGEPRC")
+    row = {
+        "name": name,
+        "symbol": symbol,
+        "value": _fmt(price),
+        "chg": f"{chg:+.2f}%" if chg is not None else _pct(rec.get("LASTVALUE"), price),
+    }
+    if state == "flag":
+        row["flag"] = "stale"
+    return row
+
+
+def _fetch_yahoo_index(name, symbol):
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
+    resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
+    resp.raise_for_status()
+    result = resp.json()["chart"]["result"][0]
+    meta = result["meta"]
+    closes = [c for c in result["indicators"]["quote"][0]["close"] if c]
+
+    price = meta.get("regularMarketPrice") or (closes[-1] if closes else None)
+    if price is None:
+        raise ValueError("no price in response")
+
+    # Thinly-covered exchanges return only one daily close (or none), which used
+    # to make the change silently read +0.00%. The chart's own previous close is
+    # the reliable fallback.
+    if len(closes) >= 2:
+        prev = closes[-2]
+    else:
+        prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+    if not prev:
+        raise ValueError("no previous close to compare against")
+
+    quote_ts = None
+    if meta.get("regularMarketTime"):
+        quote_ts = datetime.fromtimestamp(meta["regularMarketTime"], UTC)
+    state, _ = _stale_flag(name, symbol, quote_ts)
+    if state == "drop":
+        return None
+
+    row = {"name": name, "symbol": symbol, "value": _fmt(price), "chg": _pct(prev, price)}
+    if state == "flag":
+        row["flag"] = "stale"
+    return row
+
+
+def fetch_indices(entries=None):
     rows = []
-    for name, symbol in INDICES:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d"
+    for name, symbol in (INDICES if entries is None else entries):
         try:
-            resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
-            resp.raise_for_status()
-            result = resp.json()["chart"]["result"][0]
-            meta = result["meta"]
-            closes = [c for c in result["indicators"]["quote"][0]["close"] if c]
-            price = meta.get("regularMarketPrice") or closes[-1]
-            prev = closes[-2] if len(closes) >= 2 else closes[-1]
-            rows.append({
-                "name": name,
-                "symbol": symbol,
-                "value": _fmt(price),
-                "chg": _pct(prev, price),
-            })
+            row = (_fetch_moex_index if symbol == "IMOEX" else _fetch_yahoo_index)(name, symbol)
+            if row:
+                rows.append(row)
         except Exception as exc:
             print(f"WARN: could not fetch index {name} ({symbol}): {exc}", file=sys.stderr)
     return rows
@@ -143,6 +235,7 @@ def main():
     fx, fx_base, fx_prior = fetch_fx()
     btc = fetch_btc()
     indices = fetch_indices()
+    narrative = fetch_indices(NARRATIVE_INDICES)
 
     out = {
         "as_of": now.strftime("%A %d %B %Y, %H:%M %Z"),
@@ -153,6 +246,7 @@ def main():
         "fx_prior_date": fx_prior,
         "fx_source": "https://api.frankfurter.dev/v1/latest?from=USD",
         "indices": indices,
+        "narrative_indices": narrative,
         "indices_source": "https://finance.yahoo.com/world-indices",
         "indices_asof": now.astimezone(UTC).strftime("%A %d %B %Y, %H:%M %Z"),
         "indices_asof_label": now.strftime("%A %d %B %Y"),
@@ -161,7 +255,8 @@ def main():
     path = os.path.join(D, "markets.json")
     with open(path, "w") as f:
         json.dump(out, f, indent=1)
-    print(f"wrote {path} ({len(fx)} FX rates, {len(indices)} indices)")
+    print(f"wrote {path} ({len(fx)} FX rates, {len(indices)} indices, "
+          f"{len(narrative)} narrative-only indices)")
 
 
 if __name__ == "__main__":

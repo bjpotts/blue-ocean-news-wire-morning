@@ -344,7 +344,8 @@ def idx_url(sym):
     if sym == "000001.SS":
         return YQ % "000001.SS"
     return YQ % sym.replace("^", "%5E")
-idx_cells = [rate_cell(i["name"], i["value"], i["chg"], idx_url(i["symbol"])) for i in mk["indices"]]
+idx_cells = [rate_cell(i["name"], i["value"], i["chg"], idx_url(i["symbol"]), i.get("flag"))
+             for i in mk["indices"]]
 
 com_cells = []
 for c in cm["commodities"]:

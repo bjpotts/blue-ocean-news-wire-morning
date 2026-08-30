@@ -259,7 +259,11 @@ def market_news(now):
     except Exception:
         return None
 
-    idx = {i["name"]: i for i in mk.get("indices", [])}
+    # The paragraph also names benchmarks that are no longer in the 24-cell grid
+    # (Dow, Russell 2000, All Ordinaries, Straits Times), which are fetched
+    # alongside it purely so this summary keeps its regional coverage.
+    idx = {i["name"]: i for i in
+           mk.get("indices", []) + mk.get("narrative_indices", [])}
 
     def phr(name, label=None):
         i = idx.get(name)
@@ -279,7 +283,7 @@ def market_news(now):
 
     us = group(["S&P 500", "Dow Jones", "Nasdaq Composite", "Russell 2000"])
     eu = group(["FTSE 100", "DAX", "CAC 40"])
-    asia = group(["Nikkei 225", "Hang Seng", "KOSPI", "SSE Composite",
+    asia = group(["Nikkei 225", "Hang Seng", "KOSPI", "Shanghai Composite",
                   "BSE Sensex", "Straits Times"])
     other = group(["Ibovespa"])
     au = group(["S&P/ASX 200", "All Ordinaries"])
