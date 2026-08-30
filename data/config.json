@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Market Wrap Up",
+    "company": "Blue Ocean Equities Pty Ltd",
+    "wordmark": "BOE",
+    "site": "boeq.com.au",
+    "site_url": "https://www.boeq.com.au"
+  },
+  "edition_window": {
+    "morning_start_hour": 4,
+    "morning_end_hour": 16,
+    "location": "Sydney, NSW",
+    "timezone": "Australia/Sydney"
+  },
+  "sections": [
+    {
+      "key": "market_news",
+      "heading": "Market News",
+      "asof_caption": "Most global markets are showing their final prints from the session of %s, with US benchmarks closing modestly higher ahead of Nvidia's earnings and the Jackson Hole symposium later in the week.",
+      "page_break_before_caption": true
+    },
+    {
+      "key": "exchange_rates",
+      "heading": "Exchange Rates \u0026 Bitcoin",
+      "caption": "Bitcoin spot via <a href=\"https://www.coindesk.com/price/bitcoin\" target=\"_blank\" rel=\"noopener\">CoinDesk</a> and <a href=\"https://www.coingecko.com/en/coins/bitcoin\" target=\"_blank\" rel=\"noopener\">CoinGecko</a>. FX are ECB daily reference fixings from <a href=\"https://api.frankfurter.dev/v1/latest?from=USD\" target=\"_blank\" rel=\"noopener\">Frankfurter</a>, base USD, %s versus prior business day %s; cells link to <a href=\"https://www.xe.com/currencyconverter/\" target=\"_blank\" rel=\"noopener\">xe.com</a>."
+    },
+    {
+      "key": "world_indices",
+      "heading": "World Indices",
+      "caption": "Latest closing prints for the sessions of %s via <a href=\"https://finance.yahoo.com/world-indices\" target=\"_blank\" rel=\"noopener\">Yahoo Finance World Indices</a>; indexes from exchanges still open at time of collection reflect their latest prints.",
+      "page_break_before": true
+    },
+    {
+      "key": "commodities",
+      "heading": "Commodities",
+      "page_break_before": true
+    },
+    {
+      "key": "top_performers",
+      "heading": "Top Performers",
+      "caption": "Biggest gainers and losers by percentage move in each market's most recent completed session. Gains in green, losses in red.",
+      "page_break_before": true
+    },
+    {
+      "key": "capital_raises",
+      "heading": "Capital Raises \u0026 New Listings",
+      "caption": "Placements, rights issues, secondary offerings and stock exchange IPOs - planned, launched, priced or completed - reported in the past week."
+    },
+    {
+      "key": "tech",
+      "heading": "Tech",
+      "caption": "Ten global technology stories from the past 48 hours, spanning US, Asian, European and Australian coverage.",
+      "page_break_before": true
+    },
+    {
+      "key": "world_news",
+      "heading": "World News",
+      "page_break_before": true
+    },
+    {
+      "key": "world_sport",
+      "heading": "World Sport",
+      "page_break_before": true
+    }
+  ],
+  "performers_sequence": ["anz", "japan", "singapore", "hongkong", "china", "us", "uk", "germany", "brazil"],
+  "story_ranking": {
+    "business_url_paths": ["/business", "/money", "/finance", "/market", "/economy", "/companies"],
+    "business_keywords": ["business", "finance", "economy", "economic", "market", "markets", "tariff", "tariffs", "trade", "rba", "reserve bank", "asx", "shares", "stocks", "dollar", "aud/usd", "budget", "inflation", "rates", "gdp", "employment", "unemployment", "wages", "commodities", "mining", "bank", "banks", "banking", "investment", "investor", "investors", "earnings", "profit", "revenue", "loss", "debt", "fiscal", "monetary", "recession", "growth", "oil", "gold", "crypto", "bitcoin", "merger", "acquisition", "ipo", "float", "listing", "capital", "fund", "funds", "funding", "valuation", "shareholder", "dividend"],
+    "local_url_paths": ["/local/", "/state/", "/nsw/", "/vic/", "/qld/", "/wa/", "/sa/", "/tas/", "/act/", "/nt/", "/regional/", "/sydney/", "/melbourne/", "/brisbane/", "/perth/", "/adelaide/", "/hobart/", "/canberra/", "/darwin/"],
+    "entertainment_keywords": ["celebrity", "film", "movie", "movies", "tv", "television", "music", "album", "concert", "festival", "actor", "actress", "director", "hollywood", "bollywood", "showbiz", "entertainment", "fashion", "red carpet", "premiere", "award", "awards", "grammy", "oscar", "emmy", "bafta"],
+    "sport_keywords": ["afl", "nrl", "cricket", "rugby", "football", "soccer", "tennis", "golf", "formula 1", "f1", "basketball", "nba", "nfl", "baseball", "mlb", "olympics", "medal", "match", "game", "race", "grand final", "world cup", "tournament", "championship"]
+  },
+  "outlet_ordering": {
+    "guardian_insertions": [
+      {"edition_key": "gau", "after_key": "rnz"},
+      {"edition_key": "gus", "after_key": "abcus"},
+      {"edition_key": "guk", "after_key": "bbc"},
+      {"edition_key": "geu", "after_key": "guk"},
+      {"edition_key": "gint", "after_key": "geu"}
+    ],
+    "move_to_end": ["aljazeera"],
+    "reorder_pairs": [
+      {"key": "wsj", "before_key": "cnn"}
+    ]
+  },
+  "dedup_rules": {
+    "capital_raises": {
+      "anz": {
+        "extend": [
+          {
+            "needle": "Sports Entertainment Group closes",
+            "clause": ", with a non-underwritten retail share purchase plan of up to about A$2 million at the same A$0.28 price, capped at A$30,000 per holder, following for eligible shareholders."
+          }
+        ],
+        "drop": ["opens retail share purchase plan", "Glencore"]
+      },
+      "uk": {
+        "drop": ["Nscale points to a September window"]
+      },
+      "rest": {
+        "extend": [
+          {
+            "needle": "Dangote refinery locks in",
+            "clause": ", with the offer structured around Nigerian retail and African institutional investors and no foreign listing until the refinery has at least three years of results."
+          }
+        ],
+        "drop": ["retail-focused and rules out"]
+      }
+    },
+    "sport": {
+      "golf": {
+        "drop": ["grabs a share of the opening lead"]
+      }
+    },
+    "news": {
+      "abc": {
+        "drop": ["Bloods"]
+      }
+    }
+  },
+  "market_news_text_fixes": [
+    ["The Russell 2000 small-cap index was not among the indexes detailed in the reports reviewed.", "The Russell 2000 small-cap index closed at 3,017.87, up 0.85 per cent, outpacing the large-cap benchmarks."],
+    ["the Nikkei 225 slipped 0.2 per cent to 66,080.25", "the Nikkei 225 slipped 0.30 per cent to 66,016.36"],
+    ["the Hang Seng added 0.7 per cent to 25,888.36", "the Hang Seng added 1.21 per cent to 26,009.46"],
+    ["the KOSPI climbed 0.9 per cent to 6,914.09", "the KOSPI climbed 0.88 per cent to 6,912.95"],
+    ["the Shanghai Composite was little changed at 3,903.81", "the Shanghai Composite was little changed at 3,905.20"],
+    ["India's BSE Sensex eased about 0.1 per cent", "India's BSE Sensex was flat at 77,540.83"]
+  ],
+  "us_performers_url_rewrite": {
+    "enabled": true,
+    "template": "https://stockanalysis.com/stocks/%s/",
+    "caption_append": "; rows link to StockAnalysis, which resolves for every ticker listed",
+    "caption_search": "Yahoo Finance gainers/losers pages returned an error and were not used"
+  },
+  "footer": {
+    "disclaimer": "This page is a summary of publicly reported information assembled for general information only. It does not take account of any person's objectives, financial situation or needs, and is not a recommendation to buy, hold or sell any security.",
+    "unavailable_outlets": ["news.com.au", "smh.com.au", "9news.com.au", "theaustralian.com.au"],
+    "working_substitutes": "ABC News and SBS News"
+  },
+  "currency_grid": {
+    "base_url": "https://www.xe.com/currencyconverter/convert/?Amount=1\u0026From=USD\u0026To=%s",
+    "btc_url": "https://www.coindesk.com/price/bitcoin",
+    "btc_sub": "24h",
+    "usd_sub": "base"
+  },
+  "indices_grid": {
+    "yahoo_quote_url": "https://finance.yahoo.com/quote/%s",
+    "au_yahoo_quote_url": "https://au.finance.yahoo.com/quote/%s",
+    "stai_quote_url": "https://www.tradingview.com/symbols/TVC-STI/"
+  }
+}

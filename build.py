@@ -24,6 +24,7 @@ na = load("news-a.json")
 nb = load("news-b.json")
 sp = load("sport.json")
 wx = load("weather.json")
+cfg = load("config.json")
 
 E = lambda s: html.escape(str(s), quote=True)
 
@@ -51,6 +52,7 @@ for _doc in (na, nb, sp, tech, cr):
 # Guards are tolerant: if a needle isn't present in the fresh data, we skip rather
 # than crash the build (the hardcoded needles below are edition-specific).
 bf = load("backfill.json")
+cfg = load("config.json")
 
 def _region(key):
     return next((r for r in cr["regions"] if r["key"] == key), None)
@@ -67,51 +69,52 @@ def _extend(items, needle, clause):
         hit[0]["detail"] = hit[0]["detail"][:-1] + clause
     return items
 
-anz = _region("anz")
-if anz is not None:
-    _extend(anz["items"], "Sports Entertainment Group closes",
-            ", with a non-underwritten retail share purchase plan of up to about A$2 million at the "
-            "same A$0.28 price, capped at A$30,000 per holder, following for eligible shareholders.")
-    anz["items"] = _drop(anz["items"], "opens retail share purchase plan")
-    anz["items"] = _drop(anz["items"], "Glencore")
-    anz["items"] += bf.get("anz_items", [])
-    anz["summary"] = bf["summaries"]["anz"] if "summaries" in bf and "anz" in bf["summaries"] else anz["summary"]
+def _apply_dedup_rules(rules):
+    for region_key, rule in rules.get("capital_raises", {}).items():
+        region = _region(region_key)
+        if region is None:
+            continue
+        for ext in rule.get("extend", []):
+            _extend(region["items"], ext["needle"], ext["clause"])
+        for drop in rule.get("drop", []):
+            region["items"] = _drop(region["items"], drop)
+        region["items"] += bf.get(f"{region_key}_items", [])
+        region["summary"] = bf.get("summaries", {}).get(region_key, region["summary"])
 
-uk = _region("uk")
-if uk is not None:
-    uk["items"] = _drop(uk["items"], "Nscale points to a September window")
-    uk["items"] += bf.get("uk_items", [])
-    uk["summary"] = bf["summaries"]["uk"] if "summaries" in bf and "uk" in bf["summaries"] else uk["summary"]
+    for code_key, rule in rules.get("sport", {}).items():
+        code = next((c for c in sp["codes"] if c["key"] == code_key), None)
+        if code is None:
+            continue
+        for drop in rule.get("drop", []):
+            code["items"] = _drop(code["items"], drop)
 
-rest = _region("rest")
-if rest is not None:
-    _extend(rest["items"], "Dangote refinery locks in",
-            ", with the offer structured around Nigerian retail and African institutional investors and "
-            "no foreign listing until the refinery has at least three years of results.")
-    rest["items"] = _drop(rest["items"], "retail-focused and rules out")
-    rest["summary"] = bf["summaries"]["rest"] if "summaries" in bf and "rest" in bf["summaries"] else rest["summary"]
+    for outlet_key, rule in rules.get("news", {}).items():
+        outlet = next((o for o in na["outlets"] if o["key"] == outlet_key), None)
+        if outlet is None:
+            continue
+        for drop in rule.get("drop", []):
+            outlet["items"] = _drop(outlet["items"], drop)
+        _bf_item = bf.get(f"{outlet_key}_item") or {}
+        if isinstance(_bf_item, dict) and _bf_item.get("url"):
+            outlet["items"].append(_bf_item)
 
-golf = next((c for c in sp["codes"] if c["key"] == "golf"), None)
-if golf is not None:
-    golf["items"] = _drop(golf["items"], "grabs a share of the opening lead")
+_apply_dedup_rules(cfg.get("dedup_rules", {}))
 
-abcau = next((o for o in na["outlets"] if o["key"] == "abc"), None)
-if abcau is not None:
-    abcau["items"] = _drop(abcau["items"], "Bloods")
-    _abc_bf = bf.get("abc_item") or {}
-    if isinstance(_abc_bf, dict) and _abc_bf.get("url"):
-        abcau["items"].append(_abc_bf)
+ew = cfg["edition_window"]
+br = cfg["brand"]
+secs = {s["key"]: s for s in cfg["sections"]}
 
 def _sydney_now():
-    return datetime.now(ZoneInfo("Australia/Sydney"))
+    return datetime.now(ZoneInfo(ew["timezone"]))
 
 _now = _sydney_now()
 _hr = _now.hour
-EDITION = "Morning Edition" if 4 <= _hr < 16 else "Evening Edition"
+EDITION = "Morning Edition" if ew["morning_start_hour"] <= _hr < ew["morning_end_hour"] else "Evening Edition"
 _DATELINE_DATE = _now.strftime("%A %d %B %Y")
 _DATELINE_TIME = _now.strftime("%H:%M AEST")
 _DATELINE_UTC = _now.astimezone(ZoneInfo("UTC")).strftime("%H:%M UTC")
-DATELINE = f"{EDITION} \u00b7 {_DATELINE_DATE} \u00b7 {_DATELINE_TIME} \u00b7 Sydney, NSW"
+_DATELINE_LOC = ew["location"]
+DATELINE = f"{EDITION} \u00b7 {_DATELINE_DATE} \u00b7 {_DATELINE_TIME} \u00b7 {_DATELINE_LOC}"
 GEN_NOTE = f"Generated {_DATELINE_DATE} at {_DATELINE_TIME} / {_DATELINE_UTC}."
 
 def chg_class(c):
@@ -124,18 +127,7 @@ def chg_class(c):
 
 # ---------------------------------------------------------------- market news
 mnp = pc["market_news"]["paragraph"]
-fixes = [
-    ("The Russell 2000 small-cap index was not among the indexes detailed in the reports reviewed.",
-     "The Russell 2000 small-cap index closed at 3,017.87, up 0.85 per cent, outpacing the large-cap benchmarks."),
-    ("the Nikkei 225 slipped 0.2 per cent to 66,080.25", "the Nikkei 225 slipped 0.30 per cent to 66,016.36"),
-    ("the Hang Seng added 0.7 per cent to 25,888.36", "the Hang Seng added 1.21 per cent to 26,009.46"),
-    ("the KOSPI climbed 0.9 per cent to 6,914.09", "the KOSPI climbed 0.88 per cent to 6,912.95"),
-    ("the Shanghai Composite was little changed at 3,903.81", "the Shanghai Composite was little changed at 3,905.20"),
-    ("India's BSE Sensex eased about 0.1 per cent", "India's BSE Sensex was flat at 77,540.83"),
-]
-# The fixes above are edition-specific. Apply each only when its source string
-# is present so a freshly written paragraph for the new run does not break.
-for a, b in fixes:
+for a, b in cfg.get("market_news_text_fixes", []):
     if a in mnp:
         mnp = mnp.replace(a, b)
 MARKET_NEWS = E(mnp)
@@ -235,21 +227,21 @@ def rate_cell(code, value, chg, url, sub=None):
     out.append('</a>')
     return "".join(out)
 
-XE = "https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=USD&amp;To=%s"
+XE = cfg["currency_grid"]["base_url"]
 fx_cells = [rate_cell("BTC", mk["btc"]["price"], mk["btc"]["chg"],
-                      "https://www.coindesk.com/price/bitcoin", "24h"),
+                      cfg["currency_grid"]["btc_url"], cfg["currency_grid"]["btc_sub"]),
             rate_cell("USD", "1.0000", None,
-                      "https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=USD&amp;To=USD", "base")]
+                      XE % "USD", cfg["currency_grid"]["usd_sub"])]
 for r in mk["fx"]:
     fx_cells.append(rate_cell(r["code"], r["rate"], r["chg"], XE % r["code"]))
 
-YQ = "https://finance.yahoo.com/quote/%s"
+idx_cfg = cfg["indices_grid"]
+YQ = idx_cfg["yahoo_quote_url"]
 def idx_url(sym):
     if sym == "^STI":
-        return "https://www.tradingview.com/symbols/TVC-STI/"
+        return idx_cfg["stai_quote_url"]
     if sym in ("^AXJO", "^AORD"):
-        # us Yahoo 404s the Australian index quote pages; the AU edition serves them
-        return "https://au.finance.yahoo.com/quote/%s" % sym.replace("^", "%5E")
+        return idx_cfg["au_yahoo_quote_url"] % sym.replace("^", "%5E")
     if sym == "000001.SS":
         return YQ % "000001.SS"
     return YQ % sym.replace("^", "%5E")
@@ -294,16 +286,17 @@ for src in (pa, pb, pc):
 
 # Yahoo 404s several of the US small-cap movers; the US block was scraped from
 # StockAnalysis, so point the rows at the source that actually resolves.
-for side in ("gainers", "losers"):
-    for row in order["us"][side]:
-        tkr = row["url"].rstrip("/").split("/")[-1]
-        row["url"] = "https://stockanalysis.com/stocks/%s/" % tkr.lower()
-order["us"]["caption"] = order["us"]["caption"].replace(
-    "Yahoo Finance gainers/losers pages returned an error and were not used",
-    "Yahoo Finance gainers/losers pages returned an error and were not used; rows link to StockAnalysis, "
-    "which resolves for every ticker listed")
+us_rewrite = cfg.get("us_performers_url_rewrite", {})
+if us_rewrite.get("enabled"):
+    for side in ("gainers", "losers"):
+        for row in order["us"][side]:
+            tkr = row["url"].rstrip("/").split("/")[-1]
+            row["url"] = us_rewrite["template"] % tkr.lower()
+    order["us"]["caption"] = order["us"]["caption"].replace(
+        us_rewrite["caption_search"],
+        us_rewrite["caption_search"] + us_rewrite.get("caption_append", ""))
 
-seq = ["anz", "japan", "singapore", "hongkong", "china", "us", "uk", "germany", "brazil"]
+seq = cfg["performers_sequence"]
 perf_html = "\n".join(perf_block(order[k], first=(i == 0)) for i, k in enumerate(seq))
 
 # ---------------------------------------------------------------- lists
@@ -332,24 +325,28 @@ outlets = na["outlets"] + nb["outlets"]
 abcus = load("news-abcus.json")["outlet"]
 outlets.insert([o["key"] for o in outlets].index("fox") + 1, abcus)
 
-# Reorder the US/UK business-heavy outlets so WSJ (market-first) sits ahead of CNN.
-idx = {o["key"]: i for i, o in enumerate(outlets)}
-wsj = outlets.pop(idx["wsj"])
-cnn_idx = idx["cnn"]
-outlets.insert(cnn_idx, wsj)
+# Apply configurable outlet reordering.
+oo = cfg.get("outlet_ordering", {})
+for pair in oo.get("reorder_pairs", []):
+    if pair["key"] in [o["key"] for o in outlets] and pair["before_key"] in [o["key"] for o in outlets]:
+        idx_map = {o["key"]: i for i, o in enumerate(outlets)}
+        moving = outlets.pop(idx_map[pair["key"]])
+        target_idx = idx_map[pair["before_key"]]
+        if idx_map[pair["key"]] > target_idx:
+            outlets.insert(target_idx, moving)
+        else:
+            outlets.insert(target_idx, moving)
 
-alj = [o for o in outlets if o["key"] == "aljazeera"]
-outlets = [o for o in outlets if o["key"] != "aljazeera"] + alj
+for key in oo.get("move_to_end", []):
+    outlets = [o for o in outlets if o["key"] != key] + [o for o in outlets if o["key"] == key]
 
-# The Guardian's five regional editions slot into their matching regional groups:
-# Australia (with the AU/NZ outlets), US (with the US outlets), and
-# UK / Europe / International (with the UK/European outlets).
+# The Guardian's five regional editions slot into their matching regional groups.
 if os.path.exists(os.path.join(D, "guardian.json")):
     gd = {o["key"]: o for o in load("guardian.json")["outlets"]}
     def _after(key):
         return [o["key"] for o in outlets].index(key) + 1
-    for gk, after in (("gau", "rnz"), ("gus", "abcus"), ("guk", "bbc"),
-                      ("geu", "guk"), ("gint", "geu")):
+    for ins in oo.get("guardian_insertions", []):
+        gk, after = ins["edition_key"], ins["after_key"]
         if gk in gd and any(o["key"] == after for o in outlets):
             outlets.insert(_after(after), gd[gk])
 
@@ -358,39 +355,12 @@ if os.path.exists(os.path.join(D, "guardian.json")):
 # national/international general news, then local/entertainment/lifestyle/sport.
 # This applies to the Australian outlets (ABC, SBS) and is kept consistent
 # across all World News sections.
-BUSINESS_KEYWORDS = [
-    "business", "finance", "economy", "economic", "market", "markets",
-    "tariff", "tariffs", "trade", "rba", "reserve bank", "asx", "shares",
-    "stocks", "dollar", "aud/usd", "budget", "inflation", "rates", "gdp",
-    "employment", "unemployment", "wages", "commodities", "mining", "bank",
-    "banks", "banking", "investment", "investor", "investors", "earnings",
-    "profit", "revenue", "loss", "debt", "fiscal", "monetary", "recession",
-    "growth", "oil", "gold", "crypto", "bitcoin", "merger", "acquisition",
-    "ipo", "float", "listing", "capital", "fund", "funds", "funding",
-    "valuation", "shareholder", "dividend"
-]
-
-LOCAL_PATH_PATTERNS = [
-    "/local/", "/state/", "/nsw/", "/vic/", "/qld/", "/wa/", "/sa/",
-    "/tas/", "/act/", "/nt/", "/regional/", "/sydney/", "/melbourne/",
-    "/brisbane/", "/perth/", "/adelaide/", "/hobart/", "/canberra/",
-    "/darwin/"
-]
-
-ENTERTAINMENT_KEYWORDS = [
-    "celebrity", "film", "movie", "movies", "tv", "television", "music",
-    "album", "concert", "festival", "actor", "actress", "director",
-    "hollywood", "bollywood", "showbiz", "entertainment", "fashion",
-    "red carpet", "premiere", "award", "awards", "grammy", "oscar",
-    "emmy", "bafta"
-]
-
-SPORT_KEYWORDS = [
-    "afl", "nrl", "cricket", "rugby", "football", "soccer", "tennis",
-    "golf", "formula 1", "f1", "basketball", "nba", "nfl", "baseball",
-    "mlb", "olympics", "medal", "match", "game", "race", "grand final",
-    "world cup", "tournament", "championship"
-]
+sr = cfg.get("story_ranking", {})
+BUSINESS_URL_PATHS = sr.get("business_url_paths", [])
+BUSINESS_KEYWORDS = sr.get("business_keywords", [])
+LOCAL_URL_PATHS = sr.get("local_url_paths", [])
+ENTERTAINMENT_KEYWORDS = sr.get("entertainment_keywords", [])
+SPORT_KEYWORDS = sr.get("sport_keywords", [])
 
 
 def story_rank(item):
@@ -398,23 +368,18 @@ def story_rank(item):
     url = item.get("url", "").lower()
     text = (item.get("headline", "") + " " + item.get("detail", "")).lower()
 
-    # Business/finance via URL path
-    if any(p in url for p in ["/business", "/money", "/finance", "/market", "/economy", "/companies"]):
+    if any(p in url for p in BUSINESS_URL_PATHS):
         return 0
 
-    # Business/finance via keywords
     if any(kw in text for kw in BUSINESS_KEYWORDS):
         return 0
 
-    # Local via URL path
-    if any(p in url for p in LOCAL_PATH_PATTERNS):
+    if any(p in url for p in LOCAL_URL_PATHS):
         return 2
 
-    # Entertainment / sport / lifestyle via keywords
     if any(kw in text for kw in ENTERTAINMENT_KEYWORDS) or any(kw in text for kw in SPORT_KEYWORDS):
         return 2
 
-    # Default to national/international general news
     return 1
 
 
@@ -442,66 +407,82 @@ sport_html = '<div class="sport-grid">%s</div>' % sport_html
 HTML = """<div class="pnw">
 
 <header class="masthead">
-  <div class="kicker"><span class="wordmark">BOE</span> Blue Ocean Equities Pty Ltd</div>
-  <h1>Market Wrap Up</h1>
+  <div class="kicker"><span class="wordmark">%s</span> %s</div>
+  <h1>%s</h1>
   <div class="dateline">
     <span class="edition-chip">%s</span>
     <span>%s</span>
     <span>·</span>
-    <span><a href="https://www.boeq.com.au" target="_blank" rel="noopener">boeq.com.au</a></span>
+    <span><a href="%s" target="_blank" rel="noopener">%s</a></span>
   </div>
 </header>
 
 %s
 %s
 <p class="market-summary">%s</p>
-<p class="section-caption page-break-before">%s</p>
+<p class="section-caption %s">%s</p>
 
-<h3 class="subhead">Exchange Rates &amp; Bitcoin</h3>
-<p class="caption">Bitcoin spot via <a href="https://www.coindesk.com/price/bitcoin" target="_blank" rel="noopener">CoinDesk</a> and <a href="https://www.coingecko.com/en/coins/bitcoin" target="_blank" rel="noopener">CoinGecko</a>. FX are ECB daily reference fixings from <a href="https://api.frankfurter.dev/v1/latest?from=USD" target="_blank" rel="noopener">Frankfurter</a>, base USD, %s versus prior business day %s; cells link to <a href="https://www.xe.com/currencyconverter/" target="_blank" rel="noopener">xe.com</a>.</p>
+<h3 class="subhead">%s</h3>
+<p class="caption">%s</p>
 %s
 
-<h3 class="subhead page-break-before">World Indices</h3>
-<p class="caption">Latest closing prints for the sessions of Wednesday 26 August 2026 via <a href="https://finance.yahoo.com/world-indices" target="_blank" rel="noopener">Yahoo Finance World Indices</a>; indexes from exchanges still open at time of collection reflect their latest prints.</p>
+<h3 class="subhead %s">%s</h3>
+<p class="caption">%s</p>
 %s
 
-<h3 class="subhead page-break-before">Commodities</h3>
+<h3 class="subhead %s">%s</h3>
 <p class="market-summary">%s</p>
 %s
 
-<h3 class="subhead page-break-before">Top Performers</h3>
-<p class="caption">Biggest gainers and losers by percentage move in each market's most recent completed session. Gains in green, losses in red.</p>
+<h3 class="subhead %s">%s</h3>
+<p class="caption">%s</p>
 %s
 
-<h2>Capital Raises &amp; New Listings</h2>
-<p class="section-caption">Placements, rights issues, secondary offerings and stock exchange IPOs - planned, launched, priced or completed - reported in the past week.</p>
+<h2>%s</h2>
+<p class="section-caption">%s</p>
 %s
 
-<h2 class="page-break-before">Tech</h2>
-<p class="section-caption">Ten global technology stories from the past 48 hours, spanning US, Asian, European and Australian coverage.</p>
+<h2 class="page-break-before">%s</h2>
+<p class="section-caption">%s</p>
 %s
 
-<h2 class="page-break-before">World News</h2>
+<h2 class="page-break-before">%s</h2>
 %s
 
-<h2 class="page-break-before">World Sport</h2>
+<h2 class="page-break-before">%s</h2>
 %s
 
 <footer>
-<p><strong>Market Wrap Up</strong> - a public news digest published by Blue Ocean Equities Pty Ltd, an independent Australian securities and equities advisory firm (<a href="https://www.boeq.com.au" target="_blank" rel="noopener">boeq.com.au</a>). %s Edition: %s.</p>
+<p><strong>%s</strong> - a public news digest published by %s, an independent Australian securities and equities advisory firm (<a href="%s" target="_blank" rel="noopener">%s</a>). %s Edition: %s.</p>
 <p><strong>Story rotation policy:</strong> each edition is compared against the previously published version of this page. A headline carried in the prior edition is not repeated verbatim unless it remains the leading, actively developing story on its topic, in which case it is refreshed with the latest angle. Market data, mover tables and all written summary paragraphs are re-gathered and rewritten every run. On this run the previously published artifact could not be retrieved for comparison (the hosted copy returned a sign-in wall and no local prior edition exists in the project), so every item was sourced fresh.</p>
 <p><strong>Sourcing:</strong> every headline, rate, index, commodity, equity and sports result on this page links to its source. Items without a verifiable working URL were dropped rather than published unlinked. Where a source publishes turnover rather than share volume, volumes are derived as turnover divided by last price and prefixed with a tilde, as noted in the relevant caption. Commodity cells marked <span class="rc-sub">stale</span> had not refreshed past the prior day's print; the rare earths cell is an equity <span class="rc-sub">proxy</span> (MP Materials, NYSE: MP) as no reliable daily spot benchmark is published.</p>
-<p><strong>Not investment advice.</strong> This page is a summary of publicly reported information assembled for general information only. It does not take account of any person's objectives, financial situation or needs, and is not a recommendation to buy, hold or sell any security.</p>
-<p>Outlets attempted and still unavailable this run: news.com.au, smh.com.au, 9news.com.au, theaustralian.com.au. Working Australian substitutes ABC News and SBS News are carried above.</p>
+<p><strong>Not investment advice.</strong> %s</p>
+<p>Outlets attempted and still unavailable this run: %s. Working Australian substitutes %s are carried above.</p>
 </footer>
 
 </div>
-""" % (EDITION, DATELINE, WEATHER, WEATHER_JS, MARKET_NEWS, ASOF_CAPTION,
-       E(mk["fx_base_date"]), E(mk["fx_prior_date"]),
-       grid(fx_cells), grid(idx_cells),
-       E(cm["summary"]), grid(com_cells), perf_html,
-       cr_html, tech_html, news_html, sport_html,
-       GEN_NOTE, EDITION)
+""" % (
+    E(br["wordmark"]), E(br["company"]), E(br["name"]), EDITION, DATELINE,
+    E(br["site_url"]), E(br["site"]),
+    WEATHER, WEATHER_JS, MARKET_NEWS,
+    "page-break-before" if secs["market_news"].get("page_break_before_caption") else "",
+    E(ASOF_CAPTION),
+    E(secs["exchange_rates"]["heading"]), secs["exchange_rates"]["caption"] % (E(mk["fx_base_date"]), E(mk["fx_prior_date"])), grid(fx_cells),
+    "page-break-before" if secs["world_indices"].get("page_break_before") else "",
+    E(secs["world_indices"]["heading"]), secs["world_indices"]["caption"] % "Tuesday 25 and Wednesday 26 August 2026", grid(idx_cells),
+    "page-break-before" if secs["commodities"].get("page_break_before") else "",
+    E(secs["commodities"]["heading"]), E(cm["summary"]), grid(com_cells),
+    "page-break-before" if secs["top_performers"].get("page_break_before") else "",
+    E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_html,
+    E(secs["capital_raises"]["heading"]), secs["capital_raises"]["caption"], cr_html,
+    E(secs["tech"]["heading"]), secs["tech"]["caption"], tech_html,
+    E(secs["world_news"]["heading"]), news_html,
+    E(secs["world_sport"]["heading"]), sport_html,
+    E(br["name"]), E(br["company"]), E(br["site_url"]), E(br["site"]), GEN_NOTE, EDITION,
+    E(cfg["footer"]["disclaimer"]),
+    ", ".join(cfg["footer"]["unavailable_outlets"]),
+    cfg["footer"]["working_substitutes"]
+)
 
 with open(OUT, "w") as f:
     f.write(HTML)
