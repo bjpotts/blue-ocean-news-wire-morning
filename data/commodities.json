@@ -1,6 +1,6 @@
 {
- "as_of": "2026-08-31T08:00:16.867257+10:00",
- "summary": "Commodity markets are mixed in the latest session. Energy prices are reacting to supply and demand signals, precious metals are adjusting to rate expectations, and industrial metals are tracking global manufacturing data. Rare earths are represented by the MP Materials equity proxy as no reliable daily spot benchmark is published.",
+ "as_of": "2026-08-31T09:14:45.461092+10:00",
+ "summary": "Commodity markets are mixed in the latest session. Energy prices are reacting to supply and demand signals across both the WTI and Brent benchmarks, precious metals are adjusting to rate expectations, and base metals across the LME complex are tracking global manufacturing data. Grains and softs are moving on weather and harvest expectations. Rare earths are represented by the MP Materials equity proxy as no reliable daily spot benchmark is published.",
  "summary_sources": [
   {
    "title": "Trading Economics - Commodities",
@@ -10,10 +10,19 @@
  "commodities": [
   {
    "name": "Petroleum (WTI)",
-   "price": "83.44",
+   "price": "84.91",
    "unit": "USD/Bbl",
-   "chg": "-0.11%",
+   "chg": "+1.77%",
    "url": "https://tradingeconomics.com/commodity/crude-oil",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Brent Crude",
+   "price": "89.80",
+   "unit": "USD/Bbl",
+   "chg": "+1.71%",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "flag": null,
    "source": "tradingeconomics"
   },
@@ -21,7 +30,7 @@
    "name": "Natural Gas",
    "price": "2.88",
    "unit": "USD/MMBtu",
-   "chg": "-1.15%",
+   "chg": "-0.05%",
    "url": "https://tradingeconomics.com/commodity/natural-gas",
    "flag": null,
    "source": "tradingeconomics"
@@ -36,19 +45,55 @@
    "source": "tradingeconomics"
   },
   {
-   "name": "Iron Ore 62% Fe",
-   "price": "95.84",
-   "unit": "USD/T",
-   "chg": "+0.17%",
-   "url": "https://tradingeconomics.com/commodity/iron-ore",
+   "name": "Gold",
+   "price": "4460.73",
+   "unit": "USD/t oz",
+   "chg": "+0.15%",
+   "url": "https://tradingeconomics.com/commodity/gold",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Silver",
+   "price": "66.56",
+   "unit": "USD/t oz",
+   "chg": "+0.61%",
+   "url": "https://tradingeconomics.com/commodity/silver",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Platinum",
+   "price": "1833.60",
+   "unit": "USD/t oz",
+   "chg": "-1.09%",
+   "url": "https://tradingeconomics.com/commodity/platinum",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Palladium",
+   "price": "1439",
+   "unit": "USD/t oz",
+   "chg": "+0.91%",
+   "url": "https://tradingeconomics.com/commodity/palladium",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Rhodium",
+   "price": "8900",
+   "unit": "USD/t oz",
+   "chg": "+0.85%",
+   "url": "https://tradingeconomics.com/commodity/rhodium",
    "flag": null,
    "source": "tradingeconomics"
   },
   {
    "name": "Copper",
-   "price": "6.54",
+   "price": "6.55",
    "unit": "USD/Lbs",
-   "chg": "-0.70%",
+   "chg": "+0.03%",
    "url": "https://tradingeconomics.com/commodity/copper",
    "flag": null,
    "source": "tradingeconomics"
@@ -63,47 +108,47 @@
    "source": "tradingeconomics"
   },
   {
-   "name": "Gold",
-   "price": "4454.40",
-   "unit": "USD/t oz",
-   "chg": "-3.18%",
-   "url": "https://tradingeconomics.com/commodity/gold",
-   "flag": null,
-   "source": "kitco"
-  },
-  {
-   "name": "Silver",
-   "price": "66.25",
-   "unit": "USD/t oz",
-   "chg": "-4.17%",
-   "url": "https://tradingeconomics.com/commodity/silver",
-   "flag": null,
-   "source": "kitco"
-  },
-  {
-   "name": "Platinum",
-   "price": "1819.00",
-   "unit": "USD/t oz",
-   "chg": "-1.36%",
-   "url": "https://tradingeconomics.com/commodity/platinum",
-   "flag": null,
-   "source": "kitco"
-  },
-  {
-   "name": "Rhodium",
-   "price": "8900",
-   "unit": "USD/t oz",
-   "chg": "+0.85%",
-   "url": "https://tradingeconomics.com/commodity/rhodium",
+   "name": "Nickel",
+   "price": "16673.38",
+   "unit": "USD/T",
+   "chg": "-0.58%",
+   "url": "https://tradingeconomics.com/commodity/nickel",
    "flag": null,
    "source": "tradingeconomics"
   },
   {
-   "name": "Palladium",
-   "price": "1426",
-   "unit": "USD/t oz",
-   "chg": "+6.50%",
-   "url": "https://tradingeconomics.com/commodity/palladium",
+   "name": "Zinc",
+   "price": "3857.80",
+   "unit": "USD/T",
+   "chg": "-0.46%",
+   "url": "https://tradingeconomics.com/commodity/zinc",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Lead",
+   "price": "1907.73",
+   "unit": "USD/T",
+   "chg": "-0.63%",
+   "url": "https://tradingeconomics.com/commodity/lead",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Tin",
+   "price": "55034",
+   "unit": "USD/T",
+   "chg": "-0.58%",
+   "url": "https://tradingeconomics.com/commodity/tin",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Iron Ore 62% Fe",
+   "price": "95.84",
+   "unit": "USD/T",
+   "chg": "+0.17%",
+   "url": "https://tradingeconomics.com/commodity/iron-ore",
    "flag": null,
    "source": "tradingeconomics"
   },
@@ -113,15 +158,6 @@
    "unit": "CNY/T",
    "chg": "+0.33%",
    "url": "https://tradingeconomics.com/commodity/lithium",
-   "flag": null,
-   "source": "tradingeconomics"
-  },
-  {
-   "name": "Nickel",
-   "price": "16673.38",
-   "unit": "USD/T",
-   "chg": "-0.58%",
-   "url": "https://tradingeconomics.com/commodity/nickel",
    "flag": null,
    "source": "tradingeconomics"
   },
@@ -149,6 +185,42 @@
    "unit": "USD/Lbs",
    "chg": "-0.61%",
    "url": "https://tradingeconomics.com/commodity/uranium",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Wheat",
+   "price": "766",
+   "unit": "USd/Bu",
+   "chg": "+3.13%",
+   "url": "https://tradingeconomics.com/commodity/wheat",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Corn",
+   "price": "511.02",
+   "unit": "USd/Bu",
+   "chg": "+0.15%",
+   "url": "https://tradingeconomics.com/commodity/corn",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Soybeans",
+   "price": "1277.75",
+   "unit": "USd/Bu",
+   "chg": "+1.69%",
+   "url": "https://tradingeconomics.com/commodity/soybeans",
+   "flag": null,
+   "source": "tradingeconomics"
+  },
+  {
+   "name": "Sugar",
+   "price": "17.55",
+   "unit": "USd/Lbs",
+   "chg": "-3.51%",
+   "url": "https://tradingeconomics.com/commodity/sugar",
    "flag": null,
    "source": "tradingeconomics"
   }

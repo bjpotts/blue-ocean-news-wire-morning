@@ -13,23 +13,33 @@ D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 os.makedirs(D, exist_ok=True)
 SYD = ZoneInfo("Australia/Sydney")
 
+# 24 commodities, grouped by family so the 4-column grid reads a row at a time:
+# energy, precious metals, base metals, bulk/battery/nuclear, then agriculture.
 COMMODITIES = [
     ("Petroleum (WTI)", "crude-oil", "USD/Bbl", None),
+    ("Brent Crude", "brent-crude-oil", "USD/Bbl", None),
     ("Natural Gas", "natural-gas", "USD/MMBtu", None),
     ("Coal (Newcastle)", "coal", "USD/T", None),
-    ("Iron Ore 62% Fe", "iron-ore", "USD/T", None),
-    ("Copper", "copper", "USD/Lbs", None),
-    ("Aluminum", "aluminum", "USD/T", None),
     ("Gold", "gold", "USD/t oz", "https://www.kitco.com/charts/gold"),
     ("Silver", "silver", "USD/t oz", "https://www.kitco.com/charts/silver"),
     ("Platinum", "platinum", "USD/t oz", "https://www.kitco.com/charts/platinum"),
-    ("Rhodium", "rhodium", "USD/t oz", "https://www.kitco.com/charts/rhodium"),
     ("Palladium", "palladium", "USD/t oz", "https://www.kitco.com/charts/palladium"),
-    ("Lithium (carbonate)", "lithium", "CNY/T", None),
+    ("Rhodium", "rhodium", "USD/t oz", "https://www.kitco.com/charts/rhodium"),
+    ("Copper", "copper", "USD/Lbs", None),
+    ("Aluminum", "aluminum", "USD/T", None),
     ("Nickel", "nickel", "USD/T", None),
+    ("Zinc", "zinc", "USD/T", None),
+    ("Lead", "lead", "USD/T", None),
+    ("Tin", "tin", "USD/T", None),
+    ("Iron Ore 62% Fe", "iron-ore", "USD/T", None),
+    ("Lithium (carbonate)", "lithium", "CNY/T", None),
     ("Cobalt", "cobalt", "USD/T", None),
     ("Rare Earth Elements", "rare-earths", "USD/share", None),  # proxy below
     ("Uranium (U3O8)", "uranium", "USD/Lbs", None),
+    ("Wheat", "wheat", "USd/Bu", None),
+    ("Corn", "corn", "USd/Bu", None),
+    ("Soybeans", "soybeans", "USd/Bu", None),
+    ("Sugar", "sugar", "USd/Lbs", None),
 ]
 
 
@@ -132,16 +142,20 @@ def main():
             })
             continue
 
-        data = None
+        data, source = None, "tradingeconomics"
         if kitco_url:
             data = _parse_kitco(slug)
+            if data is not None:
+                source = "kitco"
 
         if data is None:
             data = _parse_tradingeconomics(slug)
 
         if data is None:
-            print(f"WARN: could not fetch {name}; leaving placeholder", file=sys.stderr)
-            data = {"price": "0.00", "chg": "0.00%"}
+            # Publishing a 0.00 placeholder would put an invented price on the
+            # page, so the cell is dropped instead and the grid runs one short.
+            print(f"WARN: could not fetch {name}; dropping the cell", file=sys.stderr)
+            continue
 
         rows.append({
             "name": name,
@@ -150,7 +164,7 @@ def main():
             "chg": data["chg"],
             "url": f"https://tradingeconomics.com/commodity/{slug}",
             "flag": _stale_flag(None),
-            "source": "kitco" if kitco_url and _parse_kitco(slug) else "tradingeconomics",
+            "source": source,
         })
 
     # Summary is intentionally left as a short placeholder; the richer narrative
@@ -158,7 +172,7 @@ def main():
     # a neutral fallback summary so the build is never blocked.
     out = {
         "as_of": now.isoformat(),
-        "summary": "Commodity markets are mixed in the latest session. Energy prices are reacting to supply and demand signals, precious metals are adjusting to rate expectations, and industrial metals are tracking global manufacturing data. Rare earths are represented by the MP Materials equity proxy as no reliable daily spot benchmark is published.",
+        "summary": "Commodity markets are mixed in the latest session. Energy prices are reacting to supply and demand signals across both the WTI and Brent benchmarks, precious metals are adjusting to rate expectations, and base metals across the LME complex are tracking global manufacturing data. Grains and softs are moving on weather and harvest expectations. Rare earths are represented by the MP Materials equity proxy as no reliable daily spot benchmark is published.",
         "summary_sources": [{"title": "Trading Economics - Commodities", "url": "https://tradingeconomics.com/commodities"}],
         "commodities": rows,
     }
