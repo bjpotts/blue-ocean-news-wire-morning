@@ -19,6 +19,7 @@ import json
 import os
 import sqlite3
 import sys
+from datetime import datetime, timezone
 import urllib.error
 import urllib.request
 
@@ -126,14 +127,50 @@ def sync_run(env, con, run):
     return sum(counts.values())
 
 
-def market_summary_for(run_id):
-    """The Market News paragraph is not kept in SQLite; read it from the run's
-    data directory when the run being synced is the one on disk."""
+def on_disk_market_news():
+    """The Market News paragraph is not kept in SQLite, only in the data
+    directory, which always holds exactly one run: the most recent build.
+
+    Returns (paragraph, fetched_utc) so the caller can attach the paragraph to
+    the run it actually belongs to. Older runs keep a null summary rather than
+    being back-stamped with today's copy, which would make every past edition
+    look like it carried identical market commentary."""
     try:
         pc = json.load(open(os.path.join(HERE, "data", "perf-c.json")))
-        return (pc.get("market_news") or {}).get("paragraph")
+        mn = pc.get("market_news") or {}
+        para, fetched = mn.get("paragraph"), mn.get("fetched")
+        if not para or not fetched:
+            return None, None
+        dt = datetime.fromisoformat(fetched)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return para, dt.astimezone(timezone.utc).replace(tzinfo=None)
     except Exception:
+        return None, None
+
+
+def owning_run_id(runs, fetched_utc):
+    """Identify which run the on-disk data directory belongs to.
+
+    The pipeline fetches, then ingests, so the owning run's created_at is the
+    first one at or after the fetch timestamp. Two editions can be built minutes
+    apart, so match the single closest run rather than everything inside a
+    window -- otherwise a neighbouring run gets back-stamped with a paragraph
+    that was never its own."""
+    if not fetched_utc:
         return None
+    best, best_delta = None, None
+    for run in runs:
+        if not run.get("created_at"):
+            continue
+        try:
+            created = datetime.strptime(run["created_at"][:19], "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            continue
+        delta = (created - fetched_utc).total_seconds()
+        if 0 <= delta <= 6 * 3600 and (best_delta is None or delta < best_delta):
+            best, best_delta = run["run_id"], delta
+    return best
 
 
 def main():
@@ -149,6 +186,13 @@ def main():
     con.row_factory = sqlite3.Row
 
     local = [dict(r) for r in con.execute("select * from runs order by run_id")]
+    try:
+        remote_rows = get(env, "/rest/v1/digest_runs?select=run_id,market_summary")
+    except urllib.error.HTTPError as exc:
+        sys.exit("ERROR: could not read Supabase: %s %s"
+                 % (exc.code, exc.read().decode()[:200]))
+    remote_summary = {r["run_id"]: r.get("market_summary") for r in remote_rows}
+
     if args.run_id:
         wanted = [r for r in local if r["run_id"] == args.run_id]
         if not wanted:
@@ -156,22 +200,25 @@ def main():
     elif args.all:
         wanted = local
     else:
-        try:
-            remote = {r["run_id"] for r in get(env, "/rest/v1/digest_runs?select=run_id")}
-        except urllib.error.HTTPError as exc:
-            sys.exit("ERROR: could not read Supabase: %s %s"
-                     % (exc.code, exc.read().decode()[:200]))
-        wanted = [r for r in local if r["run_id"] not in remote]
+        wanted = [r for r in local if r["run_id"] not in remote_summary]
 
     if not wanted:
         print("Supabase is already up to date (%d runs)." % len(local))
         return 0
 
+    para, fetched_utc = on_disk_market_news()
+    # Resolve the owner against every local run, not just the ones being
+    # synced, so a partial sync cannot mis-assign the paragraph.
+    owner = owning_run_id(local, fetched_utc)
     print("syncing %d run(s) to Supabase" % len(wanted))
     total = 0
     failed = []
     for run in wanted:
-        run["market_summary"] = market_summary_for(run["run_id"])
+        # Only this project's own run carries a paragraph on disk. For every
+        # other run keep whatever Supabase already holds, so the morning and
+        # evening projects do not wipe each other's summary when resyncing.
+        run["market_summary"] = (para if run["run_id"] == owner
+                                 else remote_summary.get(run["run_id"]))
         try:
             total += sync_run(env, con, run)
         except urllib.error.HTTPError as exc:
