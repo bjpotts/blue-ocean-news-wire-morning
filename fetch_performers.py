@@ -332,6 +332,8 @@ def market_news(now):
 
     return {
         "paragraph": paragraph,
+        "fetched": now.isoformat(timespec="seconds"),
+        "stale": False,
         "sources": [
             {"title": "Yahoo Finance world indices", "url": "https://finance.yahoo.com/world-indices"},
             {"title": "Frankfurter foreign exchange reference rates", "url": "https://api.frankfurter.dev/v1/latest?from=USD"},
@@ -478,8 +480,17 @@ def main():
         if letter == "c":
             mn = market_news(now)
             if mn is None:
-                print("WARN: could not build market news; keeping previous", file=sys.stderr)
-                mn = prev.get("market_news")
+                # The opening Market News paragraph is derived from markets.json.
+                # If that could not be read, carry the previous text but mark it
+                # so build.py refuses to publish last run's market recap as this
+                # run's.
+                print("WARN: could not build market news from markets.json; "
+                      "previous paragraph retained and flagged stale",
+                      file=sys.stderr)
+                mn = dict(prev.get("market_news") or {})
+                mn["stale"] = True
+                mn.setdefault("fetched", "1970-01-01T00:00:00+00:00")
+                failures.append(("market_news", "markets.json unreadable or empty"))
             out = {"market_news": mn, "markets": merged}
 
         with open(path, "w") as f:

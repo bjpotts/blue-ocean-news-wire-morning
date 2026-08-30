@@ -82,29 +82,38 @@ def _check_performers_fresh(*sources):
         return
     now = datetime.now(ZoneInfo("Australia/Sydney"))
     stale = []
+
+    def _age_problem(label, block):
+        fetched = block.get("fetched")
+        if block.get("stale") or not fetched:
+            return "%s (not refreshed this run)" % label
+        try:
+            age = (now - datetime.fromisoformat(fetched)).total_seconds() / 3600
+        except ValueError:
+            return "%s (unreadable fetch timestamp)" % label
+        if age > MAX_AGE_HOURS:
+            return "%s (%.1f hours old, limit %dh)" % (label, age, MAX_AGE_HOURS)
+        return None
+
     for src in sources:
+        mn = src.get("market_news")
+        if mn is not None:
+            problem = _age_problem("Market News opening paragraph", mn)
+            if problem:
+                stale.append(problem)
         for market in src.get("markets", []):
-            title = market.get("title", market.get("key", "?"))
-            fetched = market.get("fetched")
-            if market.get("stale") or not fetched:
-                stale.append("%s (not refreshed this run)" % title)
-                continue
-            try:
-                age = (now - datetime.fromisoformat(fetched)).total_seconds() / 3600
-            except ValueError:
-                stale.append("%s (unreadable fetch timestamp)" % title)
-                continue
-            if age > MAX_AGE_HOURS:
-                stale.append("%s (%.1f hours old, limit %dh)"
-                             % (title, age, MAX_AGE_HOURS))
+            problem = _age_problem(market.get("title", market.get("key", "?")), market)
+            if problem:
+                stale.append(problem)
 
     if stale:
-        print("ERROR: gainers/losers regions are not current; refusing to build.",
+        print("ERROR: market sections are not current; refusing to build.",
               file=sys.stderr)
         for line in stale:
             print("  - %s" % line, file=sys.stderr)
-        print("Re-run fetch_performers.py so every region is pulled for the "
-              "current session.", file=sys.stderr)
+        print("Re-run fetch_markets.py then fetch_performers.py so every region "
+              "and the Market News paragraph are pulled for the current session.",
+              file=sys.stderr)
         sys.exit(1)
 
 
@@ -210,11 +219,9 @@ def chg_class(c):
     return "chg-flat"
 
 # ---------------------------------------------------------------- market news
-mnp = pc["market_news"]["paragraph"]
-for a, b in cfg.get("market_news_text_fixes", []):
-    if a in mnp:
-        mnp = mnp.replace(a, b)
-MARKET_NEWS = E(mnp)
+# The paragraph is generated from live index/FX/bitcoin data on every run, so no
+# text substitutions are applied to it here.
+MARKET_NEWS = E(pc["market_news"]["paragraph"])
 ASOF_CAPTION = E(pc["market_news"]["asof_caption"])
 
 # ---------------------------------------------------------------- local weather
@@ -587,6 +594,6 @@ with open(PREVIEW, "w") as f:
 
 print("wrote", OUT, len(HTML), "bytes")
 print("wrote", PREVIEW, len(preview_doc), "bytes")
-print("market-news words:", len(mnp.split()))
+print("market-news words:", len(pc["market_news"]["paragraph"].split()))
 print("rate cells:", len(fx_cells), "indices:", len(idx_cells), "commodities:", len(com_cells))
 print("perf blocks:", len(seq), "outlets:", len(outlets), "sport codes:", len(sp["codes"]))
