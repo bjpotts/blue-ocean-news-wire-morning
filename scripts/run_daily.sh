@@ -29,6 +29,11 @@ cd "$PROJ"
     --project "$PROJ" \
     --run-id "$(date '+%Y-%m-%d')-am" \
     --edition "Morning Edition"
+  # Mirror the run into Supabase so the published report and comparison
+  # view can read history from the cloud database. Non-fatal: the local
+  # SQLite store stays the source of truth and a missed run is picked up
+  # by the next sync, which backfills anything Supabase is missing.
+  python3 sync_supabase.py || echo "WARN: sync_supabase.py failed"
   python3 /Users/brandonpotts/.verdent/verdent-projects/market-wrap-up-data/compare.py
   python3 "$PROJ/scripts/send_email.py"
   echo "===== DONE $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
