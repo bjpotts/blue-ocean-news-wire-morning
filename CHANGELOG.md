@@ -26,7 +26,7 @@ Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
   and all gainers and losers regions, which could previously carry over.
 - MOEX Russia now comes from the Moscow Exchange API. Yahoo's IMOEX series froze in July
   2022 and would have published a four-year-old level as the day's close.
-- All sections are config-driven through `data/config.json`.
+- All sections are now config-driven through `data/config.json`.
 
 ### Fixed
 
