@@ -3,7 +3,9 @@
   {
    "key": "china",
    "title": "China (Mainland) Top Performers",
-   "caption": "Source: TradingView Mainland China market movers, captured Monday 31 August 2026 at 00:48 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
+   "caption": "Source: TradingView Mainland China market movers, captured Monday 31 August 2026 at 00:53 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
+   "fetched": "2026-08-31T00:53:12+10:00",
+   "stale": false,
    "gainer_note": "Hunan Kylinsec Technology Co., Ltd. Class A led the China (Mainland) board for the session, up 20.00 per cent to CN\u00a538.04 on reported volume of 7.33M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
    "loser_note": "Anhui Wanbang Pharmaceutical Technology Co., Ltd. Class A was the steepest decliner on the China (Mainland) board for the session, down 17.55 per cent to CN\u00a571.11 on reported volume of 16.14M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
@@ -156,7 +158,9 @@
   {
    "key": "us",
    "title": "US Top Performers",
-   "caption": "Source: Yahoo Finance US market movers, captured Monday 31 August 2026 at 00:48 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
+   "caption": "Source: Yahoo Finance US market movers, captured Monday 31 August 2026 at 00:53 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
+   "fetched": "2026-08-31T00:53:12+10:00",
+   "stale": false,
    "gainer_note": "Elastic N.V. led the US board for the session, up 19.31 per cent to $99.91 on reported volume of 10.078M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
    "loser_note": "SELLAS Life Sciences Group, Inc. was the steepest decliner on the US board for the session, down 13.15 per cent to $13.21 on reported volume of 9.758M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
@@ -309,7 +313,9 @@
   {
    "key": "uk",
    "title": "UK (London) Top Performers",
-   "caption": "Source: TradingView United Kingdom market movers, captured Monday 31 August 2026 at 00:48 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
+   "caption": "Source: TradingView United Kingdom market movers, captured Monday 31 August 2026 at 00:53 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
+   "fetched": "2026-08-31T00:53:12+10:00",
+   "stale": false,
    "gainer_note": "Sunda Energy PLC led the UK (London) board for the session, up 26.09 per cent to 2.900p on reported volume of 22.83M shares. The move is reported here as captured from TradingView United Kingdom market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
    "loser_note": "GenIP Plc was the steepest decliner on the UK (London) board for the session, down 17.65 per cent to 2.80p on reported volume of 181.59K shares. The move is reported here as captured from TradingView United Kingdom market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",

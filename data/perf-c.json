@@ -15,13 +15,15 @@
     "url": "https://www.coingecko.com/en/coins/bitcoin"
    }
   ],
-  "asof_caption": "Market data on this page was captured at Monday 31 August 2026 at 00:48 AEST, reflecting the most recent completed or in-progress session at each of the exchanges listed."
+  "asof_caption": "Market data on this page was captured at Monday 31 August 2026 at 00:53 AEST, reflecting the most recent completed or in-progress session at each of the exchanges listed."
  },
  "markets": [
   {
    "key": "germany",
    "title": "European Top Performers (Germany / XETR)",
-   "caption": "Source: TradingView Germany market movers (Deutsche B\u00f6rse XETR), captured Monday 31 August 2026 at 00:48 AEST, covering the CET session most recently published at that time. Prices in euros; share volume as published by TradingView.",
+   "caption": "Source: TradingView Germany market movers (Deutsche B\u00f6rse XETR), captured Monday 31 August 2026 at 00:53 AEST, covering the CET session most recently published at that time. Prices in euros; share volume as published by TradingView.",
+   "fetched": "2026-08-31T00:53:12+10:00",
+   "stale": false,
    "gainer_note": "Circus SE led the European board for the session, up 27.21 per cent to \u20ac3.740 on reported volume of 196.75K shares. The move is reported here as captured from TradingView Germany market movers (Deutsche B\u00f6rse XETR) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
    "loser_note": "PLANETHIC GROUP AG was the steepest decliner on the European board for the session, down 6.81 per cent to \u20ac1.300 on reported volume of 2.38K shares. The move is reported here as captured from TradingView Germany market movers (Deutsche B\u00f6rse XETR) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
@@ -174,7 +176,9 @@
   {
    "key": "brazil",
    "title": "Latin American Top Performers (Brazil / B3)",
-   "caption": "Source: TradingView Brazil market movers (B3), captured Monday 31 August 2026 at 00:48 AEST, covering the BRT session most recently published at that time. Prices in Brazilian reais; share volume as published by TradingView.",
+   "caption": "Source: TradingView Brazil market movers (B3), captured Monday 31 August 2026 at 00:53 AEST, covering the BRT session most recently published at that time. Prices in Brazilian reais; share volume as published by TradingView.",
+   "fetched": "2026-08-31T00:53:12+10:00",
+   "stale": false,
    "gainer_note": "Grupo Casas Bahia S.A. led the Latin American board for the session, up 17.65 per cent to R$0.400 on reported volume of 21.66M shares. The move is reported here as captured from TradingView Brazil market movers (B3) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
    "loser_note": "Azevedo & Travassos SA was the steepest decliner on the Latin American board for the session, down 49.94 per cent to R$4.11 on reported volume of 2.44M shares. The move is reported here as captured from TradingView Brazil market movers (B3) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",

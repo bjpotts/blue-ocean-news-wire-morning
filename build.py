@@ -69,6 +69,47 @@ sp = load("sport.json")
 wx = load("weather.json")
 cfg = load("config.json")
 
+
+def _check_performers_fresh(*sources):
+    """Every gainers/losers region must have been re-pulled by this run.
+
+    fetch_performers.py stamps each region with the time it was fetched and
+    flags any region it had to carry over from a previous run. Publishing a
+    carried-over region would present an earlier session's movers as today's,
+    so the build stops instead.
+    """
+    if MAX_AGE_HOURS <= 0:
+        return
+    now = datetime.now(ZoneInfo("Australia/Sydney"))
+    stale = []
+    for src in sources:
+        for market in src.get("markets", []):
+            title = market.get("title", market.get("key", "?"))
+            fetched = market.get("fetched")
+            if market.get("stale") or not fetched:
+                stale.append("%s (not refreshed this run)" % title)
+                continue
+            try:
+                age = (now - datetime.fromisoformat(fetched)).total_seconds() / 3600
+            except ValueError:
+                stale.append("%s (unreadable fetch timestamp)" % title)
+                continue
+            if age > MAX_AGE_HOURS:
+                stale.append("%s (%.1f hours old, limit %dh)"
+                             % (title, age, MAX_AGE_HOURS))
+
+    if stale:
+        print("ERROR: gainers/losers regions are not current; refusing to build.",
+              file=sys.stderr)
+        for line in stale:
+            print("  - %s" % line, file=sys.stderr)
+        print("Re-run fetch_performers.py so every region is pulled for the "
+              "current session.", file=sys.stderr)
+        sys.exit(1)
+
+
+_check_performers_fresh(pa, pb, pc)
+
 E = lambda s: html.escape(str(s), quote=True)
 
 # Some sources came back with markdown bold wrappers around the headline text.

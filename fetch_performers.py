@@ -374,30 +374,66 @@ def fetch_market(cfg):
     return gainers, losers
 
 
+# A region must yield at least this many rows on each side to be publishable.
+# Below this the scrape is treated as broken rather than as a thin market.
+MIN_ROWS = 5
+ATTEMPTS = 3
+
+
+def fetch_market_with_retry(cfg):
+    """Pull a region, retrying transient scrape failures before giving up.
+
+    Every run must genuinely re-pull each region, so a partial result is
+    retried rather than quietly accepted.
+    """
+    last_error = None
+    best = ([], [])
+    for attempt in range(1, ATTEMPTS + 1):
+        try:
+            gainers, losers = fetch_market(cfg)
+        except Exception as exc:
+            last_error = exc
+            gainers, losers = [], []
+        if len(gainers) >= ROWS and len(losers) >= ROWS:
+            return gainers, losers, None
+        if min(len(gainers), len(losers)) > min(len(best[0]), len(best[1])):
+            best = (gainers, losers)
+        if attempt < ATTEMPTS:
+            print("    %s attempt %d/%d thin (g=%d l=%d), retrying"
+                  % (cfg["key"], attempt, ATTEMPTS, len(gainers), len(losers)),
+                  file=sys.stderr)
+            time.sleep(3 * attempt)
+
+    gainers, losers = best
+    if len(gainers) >= MIN_ROWS and len(losers) >= MIN_ROWS:
+        return gainers, losers, None
+    reason = ("fetch error: %s" % last_error if last_error
+              else "only g=%d l=%d rows after %d attempts"
+                   % (len(gainers), len(losers), ATTEMPTS))
+    return None, None, reason
+
+
 def main():
     now = datetime.now(SYD)
     stamp = now.strftime("%A %d %B %Y at %H:%M")
+    iso = now.isoformat(timespec="seconds")
     buckets = {"a": [], "b": [], "c": []}
     failures = []
 
     for cfg in MARKETS:
-        try:
-            gainers, losers = fetch_market(cfg)
-        except Exception as exc:
-            print("WARN: %s fetch failed: %s" % (cfg["key"], exc), file=sys.stderr)
-            failures.append(cfg["key"])
-            continue
-
-        if len(gainers) < 3 or len(losers) < 3:
-            print("WARN: %s returned too few rows (g=%d l=%d); keeping previous data"
-                  % (cfg["key"], len(gainers), len(losers)), file=sys.stderr)
-            failures.append(cfg["key"])
+        gainers, losers, reason = fetch_market_with_retry(cfg)
+        if reason:
+            print("WARN: %s could not be refreshed this run (%s)"
+                  % (cfg["key"], reason), file=sys.stderr)
+            failures.append((cfg["key"], reason))
             continue
 
         buckets[cfg["file"]].append({
             "key": cfg["key"],
             "title": cfg["title"],
             "caption": caption(cfg, stamp),
+            "fetched": iso,
+            "stale": False,
             "gainer_note": note(cfg, gainers[0] if gainers else None, "gainer"),
             "gainer_note_sources": [],
             "loser_note": note(cfg, losers[0] if losers else None, "loser"),
@@ -421,8 +457,22 @@ def main():
         except Exception:
             prev = {}
         fresh = {m["key"]: m for m in buckets[letter]}
-        merged = [fresh.get(k) or existing.get(k) for k in keys]
-        merged = [m for m in merged if m]
+
+        merged = []
+        for k in keys:
+            if k in fresh:
+                merged.append(fresh[k])
+                continue
+            old = existing.get(k)
+            if not old:
+                continue
+            # Carry the previous rows through so the page still renders, but
+            # mark them so build.py can refuse to publish a stale region rather
+            # than passing off an old session's movers as today's.
+            old = dict(old)
+            old["stale"] = True
+            old.setdefault("fetched", "1970-01-01T00:00:00+00:00")
+            merged.append(old)
 
         out = {"markets": merged}
         if letter == "c":
@@ -437,8 +487,15 @@ def main():
         print("wrote %s (%d markets)" % (path, len(merged)))
 
     if failures:
-        print("NOTE: kept previous data for: %s" % ", ".join(failures), file=sys.stderr)
+        for key, reason in failures:
+            print("STALE: %s is carrying the previous run's movers (%s)"
+                  % (key, reason), file=sys.stderr)
+        print("%d of %d regions could not be refreshed; build.py will refuse to "
+              "publish them." % (len(failures), len(MARKETS)), file=sys.stderr)
+        return 1
+    print("all %d regions refreshed" % len(MARKETS))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
