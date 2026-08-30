@@ -3,18 +3,18 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with 'Approximately' 85 Americans remain missing in Nepal floods: State Dept. spokesperson; 7 dead after ferry carrying 260 passengers capsizes off Cyprus, officials say; Tropical Storm Karina strengthens into a hurricane in the Pacific.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Ontario's premier says trade war would be 'devastating' for US and Canada; Nepal-Tibet flood death toll rises to 750, officials say, more than 3,000 missing; Tropical Storm Karina strengthens into a hurricane in the Pacific.",
   "note": null,
   "items": [
    {
-    "headline": "'Approximately' 85 Americans remain missing in Nepal floods: State Dept. spokesperson",
-    "detail": "State Department Spokesperson Tommy Pigott said approximately 85 Americans remain missing in Nepal on \"This Week.\"",
-    "url": "https://abcnews.go.com/Politics/approximately-85-americans-remain-missing-nepal-floods-state/story?id=136069352"
+    "headline": "Ontario's premier says trade war would be 'devastating' for US and Canada",
+    "detail": "Ford also called Trump's renaming of Lake Ontario \"disappointing.\"",
+    "url": "https://abcnews.go.com/Politics/ontarios-premier-trade-war-devastating-us-canada/story?id=136068676"
    },
    {
-    "headline": "7 dead after ferry carrying 260 passengers capsizes off Cyprus, officials say",
-    "detail": "A ferry carrying more than 260 people capsized in the Mediterranean Sea off the northern coast of Cyprus on Sunday, local officials said.",
-    "url": "https://abcnews.go.com/International/7-dead-after-ferry-carrying-260-passengers-capsizes/story?id=136068073"
+    "headline": "Nepal-Tibet flood death toll rises to 750, officials say, more than 3,000 missing",
+    "detail": "The death toll in last week's flash flooding disaster in the Nepal-Tibet border region rose to at least 750 people as of Sunday.",
+    "url": "https://abcnews.go.com/International/nepal-tibet-flood-death-toll-rises-750-officials/story?id=136067514"
    },
    {
     "headline": "Tropical Storm Karina strengthens into a hurricane in the Pacific",

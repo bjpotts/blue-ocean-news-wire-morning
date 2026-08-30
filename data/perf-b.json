@@ -3,8 +3,8 @@
   {
    "key": "china",
    "title": "China (Mainland) Top Performers",
-   "caption": "Source: TradingView Mainland China market movers, captured Monday 31 August 2026 at 00:56 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
-   "fetched": "2026-08-31T00:56:40+10:00",
+   "caption": "Source: TradingView Mainland China market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
+   "fetched": "2026-08-31T01:18:26+10:00",
    "stale": false,
    "gainer_note": "Hunan Kylinsec Technology Co., Ltd. Class A led the China (Mainland) board for the session, up 20.00 per cent to CN\u00a538.04 on reported volume of 7.33M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
@@ -158,8 +158,8 @@
   {
    "key": "us",
    "title": "US Top Performers",
-   "caption": "Source: Yahoo Finance US market movers, captured Monday 31 August 2026 at 00:56 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
-   "fetched": "2026-08-31T00:56:40+10:00",
+   "caption": "Source: Yahoo Finance US market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
+   "fetched": "2026-08-31T01:18:26+10:00",
    "stale": false,
    "gainer_note": "Elastic N.V. led the US board for the session, up 19.31 per cent to $99.91 on reported volume of 10.078M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
@@ -313,8 +313,8 @@
   {
    "key": "uk",
    "title": "UK (London) Top Performers",
-   "caption": "Source: TradingView United Kingdom market movers, captured Monday 31 August 2026 at 00:56 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
-   "fetched": "2026-08-31T00:56:40+10:00",
+   "caption": "Source: TradingView United Kingdom market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
+   "fetched": "2026-08-31T01:18:26+10:00",
    "stale": false,
    "gainer_note": "Sunda Energy PLC led the UK (London) board for the session, up 26.09 per cent to 2.900p on reported volume of 22.83M shares. The move is reported here as captured from TradingView United Kingdom market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],

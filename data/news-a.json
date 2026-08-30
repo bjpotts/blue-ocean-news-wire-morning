@@ -4,9 +4,24 @@
    "key": "abc",
    "name": "ABC News Australia",
    "site": "abc.net.au/news",
-   "summary": "The ABC's Australian and international news file is leading with 'There's only one Tony Mundine': Legendary boxer dies aged 75; Iceland rejects EU-accession talks in close-fought referendum; One Nation could revive NSW trade posts scrapped in 'jobs for the boys' saga.",
+   "summary": "The ABC's Australian and international news file is leading with Hundreds lost in Nepal mourned in vigils across Australia; At least 7 killed with more missing after boat capsizes off northern Cyprus; Manhunt underway for rave shooter in Switzerland.",
    "note": null,
    "items": [
+    {
+     "headline": "Hundreds lost in Nepal mourned in vigils across Australia",
+     "detail": "Hundreds lost in Nepal mourned in vigils across Australia",
+     "url": "https://www.abc.net.au/news/2026-08-31/hundreds-attend-vigils-for-nepal/107095694"
+    },
+    {
+     "headline": "At least 7 killed with more missing after boat capsizes off northern Cyprus",
+     "detail": "At least 7 killed with more missing after boat capsizes off northern Cyprus",
+     "url": "https://www.abc.net.au/news/2026-08-31/north-cyprus-boat-capsizes/107095814"
+    },
+    {
+     "headline": "Manhunt underway for rave shooter in Switzerland",
+     "detail": "Manhunt underway for rave shooter in Switzerland",
+     "url": "https://www.abc.net.au/news/2026-08-31/swiss-police-search-for-person-behind-deadly-rave-shooting/107095672"
+    },
     {
      "headline": "'There's only one Tony Mundine': Legendary boxer dies aged 75",
      "detail": "'There's only one Tony Mundine': Legendary boxer dies aged 75",
@@ -16,21 +31,6 @@
      "headline": "Iceland rejects EU-accession talks in close-fought referendum",
      "detail": "Iceland rejects EU-accession talks in close-fought referendum",
      "url": "https://www.abc.net.au/news/2026-08-30/iceland-eu-referendum-result/107095748"
-    },
-    {
-     "headline": "One Nation could revive NSW trade posts scrapped in 'jobs for the boys' saga",
-     "detail": "One Nation could revive NSW trade posts scrapped in 'jobs for the boys' saga",
-     "url": "https://www.abc.net.au/news/2026-08-30/nsw-overseas-trade-commissioners-may-return-under-one-nation/107095056"
-    },
-    {
-     "headline": "Rider dies after 'critical incident' during motorcycle racing event",
-     "detail": "Rider dies after 'critical incident' during motorcycle racing event",
-     "url": "https://www.abc.net.au/news/2026-08-30/critical-incident-at-the-bend-motorsport-park/107095364"
-    },
-    {
-     "headline": "'I was a wreck': Popyrin bares his soul before US Open bid",
-     "detail": "'I was a wreck': Popyrin bares his soul before US Open bid",
-     "url": "https://www.abc.net.au/news/2026-08-30/popyrin-bares-his-soul-before-us-open-tennis-bid/107095458"
     }
    ]
   },
@@ -140,33 +140,33 @@
    "key": "cnn",
    "name": "CNN",
    "site": "cnn.com",
-   "summary": "CNN's international edition is leading with Rep. Khanna: Meta settlement impact ‘doesn’t go far enough’; Missouri’s William Jewell College running back dies after experiencing medical emergency during game; Rescuers search for missing workers as death toll rises from devastating China-Nepal floods.",
+   "summary": "CNN's international edition is leading with Russian attack on Ukrainian ammunition warehouse triggers waves of blasts, killing 38; ‘We just saw something crashing into buses’: Survivors of flood at border crossing speak to CNN’s Will Ripley; Homan on reports of ICE targeting school bus stops: ‘Not aware of that, but ICE is out there to enforce law’.",
    "note": null,
    "items": [
     {
-     "headline": "Rep. Khanna: Meta settlement impact ‘doesn’t go far enough’",
-     "detail": "Rep. Khanna: Meta settlement impact ‘doesn’t go far enough’",
-     "url": "https://www.cnn.com/2026/08/30/politics/video/ro-khanna-meta-settlement-sotu"
+     "headline": "Russian attack on Ukrainian ammunition warehouse triggers waves of blasts, killing 38",
+     "detail": "Russian attack on Ukrainian ammunition warehouse triggers waves of blasts, killing 38",
+     "url": "https://www.cnn.com/2026/08/29/europe/ukraine-kyiv-russia-war-attack-intl"
     },
     {
-     "headline": "Missouri’s William Jewell College running back dies after experiencing medical emergency during game",
-     "detail": "Missouri’s William Jewell College running back dies after experiencing medical emergency during game",
-     "url": "https://www.cnn.com/2026/08/30/sport/william-jewell-college-football-player-death"
+     "headline": "‘We just saw something crashing into buses’: Survivors of flood at border crossing speak to CNN’s Will Ripley",
+     "detail": "‘We just saw something crashing into buses’: Survivors of flood at border crossing speak to CNN’s Will Ripley",
+     "url": "https://www.cnn.com/2026/08/30/world/video/flood-nepal-china-intldsk"
+    },
+    {
+     "headline": "Homan on reports of ICE targeting school bus stops: ‘Not aware of that, but ICE is out there to enforce law’",
+     "detail": "Homan on reports of ICE targeting school bus stops: ‘Not aware of that, but ICE is out there to enforce law’",
+     "url": "https://www.cnn.com/2026/08/30/politics/video/homan-sotu-connecticut-ice"
+    },
+    {
+     "headline": "‘I do think that he is a liability’: Panel spars over El-Sayed’s ties with Hasan Piker",
+     "detail": "‘I do think that he is a liability’: Panel spars over El-Sayed’s ties with Hasan Piker",
+     "url": "https://www.cnn.com/2026/08/30/politics/video/el-sayed-sotu-piker"
     },
     {
      "headline": "Rescuers search for missing workers as death toll rises from devastating China-Nepal floods",
      "detail": "Rescuers search for missing workers as death toll rises from devastating China-Nepal floods",
      "url": "https://www.cnn.com/2026/08/30/world/live-news/nepal-china-flood"
-    },
-    {
-     "headline": "Rep. Khanna: AOC running for President would have ‘no bearing’ on my decision",
-     "detail": "Rep. Khanna: AOC running for President would have ‘no bearing’ on my decision",
-     "url": "https://www.cnn.com/2026/08/30/politics/video/ro-khanna-2028-aoc-sotu"
-    },
-    {
-     "headline": "NASA launches ‘discovery machine’ to unravel the invisible universe",
-     "detail": "NASA launches ‘discovery machine’ to unravel the invisible universe",
-     "url": "https://www.cnn.com/2026/08/30/science/nancy-grace-roman-space-telescope-launch"
     }
    ]
   },
@@ -174,33 +174,33 @@
    "key": "fox",
    "name": "Fox News",
    "site": "foxnews.com",
-   "summary": "Fox News, covering US politics and national affairs is leading with AEW star reflects on All In ahead of tag team championship match at this year's pay-per-view; Colorado city leader dies after collapsing on mountain hike: 'Loss for our city'; Unexpected ancient complex emerges near biblical city linked to Jonah and St Peter.",
+   "summary": "Fox News, covering US politics and national affairs is leading with Major US vacation destination could get more expensive as officials eye new fees; 'Hercules' star Kevin Sorbo says California can keep its taxes, traffic and 'negativity': 'I'm done'; Logan Gilbert's dominant road numbers give Mariners hope in must-win series against Blue Jays.",
    "note": null,
    "items": [
+    {
+     "headline": "Major US vacation destination could get more expensive as officials eye new fees",
+     "detail": "The new U.S. Forest Service proposal would impose fees at Kiva Beach, Taylor Creek Visitor Center and other Lake Tahoe sites that are currently free for visitors.",
+     "url": "https://www.foxnews.com/travel/major-us-vacation-destination-could-get-more-expensive-officials-eye-new-fees"
+    },
+    {
+     "headline": "'Hercules' star Kevin Sorbo says California can keep its taxes, traffic and 'negativity': 'I'm done'",
+     "detail": "\"Elijah Peel\" actor Kevin Sorbo says California can keep its taxes, traffic, and \"negativity\" after moving to Florida nearly seven years ago for his family and career.",
+     "url": "https://www.foxnews.com/entertainment/hercules-star-kevin-sorbo-says-california-keep-taxes-traffic-negativity-im-done"
+    },
+    {
+     "headline": "Logan Gilbert's dominant road numbers give Mariners hope in must-win series against Blue Jays",
+     "detail": "Logan Gilbert's dominant road numbers give the Seattle Mariners hope against Max Scherzer and the Toronto Blue Jays in a crucial AL West chase.",
+     "url": "https://www.foxnews.com/outkick-sports/logan-gilbert-dominant-road-numbers-give-mariners-hope-must-win-series-blue-jays"
+    },
+    {
+     "headline": "Chiefs face critical 2026 season with Patrick Mahomes returning from ACL tear",
+     "detail": "Patrick Mahomes faces a critical recovery from his ACL tear as the Kansas City Chiefs try to bounce back from a disastrous 6-11 season in 2025.",
+     "url": "https://www.foxnews.com/outkick-sports/chiefs-face-critical-2026-season-patrick-mahomes-returning-acl-tear"
+    },
     {
      "headline": "AEW star reflects on All In ahead of tag team championship match at this year's pay-per-view",
      "detail": "Nick Jackson reflects on All In's origins as The Young Bucks prepare to face Adam Copeland and Christian Cage for the tag team championship at Wembley.",
      "url": "https://www.foxnews.com/outkick-sports/aew-star-reflects-all-ahead-tag-team-championship-match-years-pay-per-view"
-    },
-    {
-     "headline": "Colorado city leader dies after collapsing on mountain hike: 'Loss for our city'",
-     "detail": "Joe Anderson, Englewood Colorado's mayor pro tem, collapsed on Quandary Peak's lower slopes as fellow hikers rushed to perform CPR before help arrived.",
-     "url": "https://www.foxnews.com/us/colorado-city-leader-dies-collapsing-mountain-hike-loss-city"
-    },
-    {
-     "headline": "Unexpected ancient complex emerges near biblical city linked to Jonah and St Peter",
-     "detail": "A 1,300-year-old industrial complex with pottery kilns, warehouses and shops was unearthed in Ramat Gan near a route linking Jaffa and Jerusalem.",
-     "url": "https://www.foxnews.com/travel/unexpected-ancient-complex-emerges-near-biblical-city-linked-jonah-st-peter"
-    },
-    {
-     "headline": "Dolly Parton once performed for Queen Elizabeth II and was 'scared to death' about her curtsy",
-     "detail": "Dolly Parton recalled being \"scared to death\" about curtsying when she performed for Queen Elizabeth II during the Queen's Silver Jubilee in 1977.",
-     "url": "https://www.foxnews.com/entertainment/dolly-parton-performed-queen-elizabeth-ii-scared-death-curtsy"
-    },
-    {
-     "headline": "Celebrity evangelist reflects on 2024 meeting with Hayden Panettiere after actress's sudden passing",
-     "detail": "Celebrity pastor Dylan Novak opened up about his 2024 encounter with Hayden Panettiere, revealing a \"heartbreaking sadness\" that hung over the late star.",
-     "url": "https://www.foxnews.com/media/celebrity-evangelist-reflects-2024-meeting-hayden-panettiere-after-actresss-sudden-passing"
     }
    ]
   },
@@ -208,9 +208,14 @@
    "key": "wsj",
    "name": "The Wall Street Journal",
    "site": "wsj.com",
-   "summary": "The Wall Street Journal's world news wire is leading with Icelanders Reject EU-Membership Talks; Putin Turns Again to China’s Xi as Russia’s Clout Crumbles; Nearly 770 Dead in Devastating Nepal, Tibet Floods.",
+   "summary": "The Wall Street Journal's world news wire is leading with Young Women Bear the Brunt of India’s Anti-Protester Vitriol; Icelanders Reject EU-Membership Talks; Putin Turns Again to China’s Xi as Russia’s Clout Crumbles.",
    "note": null,
    "items": [
+    {
+     "headline": "Young Women Bear the Brunt of India’s Anti-Protester Vitriol",
+     "detail": "After a summer of Gen Z discontent, political workers and members of the public chastised women for violating social norms.",
+     "url": "https://www.wsj.com/world/india/young-women-bear-the-brunt-of-indias-anti-protester-vitriol-4b056b60?mod=rss_worldnews"
+    },
     {
      "headline": "Icelanders Reject EU-Membership Talks",
      "detail": "Voters weighed the nation’s security in the wake of President Trump saying he would like the U.S. to acquire Greenland.",
@@ -230,11 +235,6 @@
      "headline": "One of Asia’s Most Liveable Cities Tackles a New Threat: Cicadas",
      "detail": "Singapore is famous for its ruthless efficiency. But the government met its match in the form of tens of thousands of loud, clumsy bugs.",
      "url": "https://www.wsj.com/world/asia/singapore-cicada-swarms-ebddd127?mod=rss_worldnews"
-    },
-    {
-     "headline": "Russia Is Bombarding Europe With a New Wave of ‘Gray Zone’ Attacks",
-     "detail": "NATO countries see Moscow’s appetite for conflict increasing as it flounders against Ukraine.",
-     "url": "https://www.wsj.com/world/europe/russia-is-bombarding-europe-with-a-new-wave-of-gray-zone-attacks-c5eab3fa?mod=rss_worldnews"
     }
    ]
   }

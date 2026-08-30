@@ -202,7 +202,11 @@ def _sydney_now():
 
 _now = _sydney_now()
 _hr = _now.hour
-EDITION = "Morning Edition" if ew["morning_start_hour"] <= _hr < ew["morning_end_hour"] else "Evening Edition"
+# Scheduled runs derive the edition from the Sydney clock. A manual run
+# outside the normal window can set EDITION_OVERRIDE so the masthead
+# matches the edition actually being produced.
+_auto_edition = "Morning Edition" if ew["morning_start_hour"] <= _hr < ew["morning_end_hour"] else "Evening Edition"
+EDITION = os.environ.get("EDITION_OVERRIDE", "").strip() or _auto_edition
 _DATELINE_DATE = _now.strftime("%A %d %B %Y")
 _DATELINE_TIME = _now.strftime("%H:%M AEST")
 _DATELINE_UTC = _now.astimezone(ZoneInfo("UTC")).strftime("%H:%M UTC")

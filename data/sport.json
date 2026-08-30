@@ -77,6 +77,12 @@
    "name": "World Golf",
    "items": [
     {
+     "headline": "Dean snatches extraordinary comeback win at British Masters",
+     "detail": "Joe Dean produced a remarkable final-day comeback to snatch a maiden DP World Tour title with an impressive victory at the Husqvarna British Masters.",
+     "url": "https://www.skysports.com/golf/news/12176/13578954/british-masters-englands-joe-dean-snatches-maiden-dp-world-tour-title-with-extraordinary-comeback-win-at-the-belfry",
+     "outlet": "Sky Sports Golf"
+    },
+    {
      "headline": "Hovland leads Scheffler in FedExCup thriller as McIlroy makes late push",
      "detail": "Viktor Hovland takes a one-shot lead into the final round of the Tour Championship, as Scottie Scheffler stayed in contention and Rory McIlroy kept his FedExCup hopes alive.",
      "url": "https://www.skysports.com/golf/news/12176/13578716/tour-championship-viktor-hovland-leads-heading-into-final-day-as-scottie-scheffler-and-rory-mcilroy-keep-fedexcup-hopes-alive",
@@ -105,12 +111,6 @@
      "detail": "Marco Penge holds a share of the lead heading into marathon final day at the weather-affected Husqvarna British Masters, with Tom McKibbin heading the chasing pack.",
      "url": "https://www.skysports.com/golf/news/12176/13578746/british-masters-marco-penge-co-leads-alongside-daniel-hillier-as-marathon-sunday-lies-ahead",
      "outlet": "Sky Sports Golf"
-    },
-    {
-     "headline": "Penge shares lead with Hillier ahead of final day at British Masters",
-     "detail": "Highlights from day three of the Husqvarna British Masters hosted by Sir Nick Faldo at The Belfry.",
-     "url": "https://www.skysports.com/watch/video/13578887/husqvarna-british-masters-day-three-highlights",
-     "outlet": "Sky Sports Golf"
     }
    ]
   },
@@ -119,21 +119,21 @@
    "name": "Cricket - Worldwide",
    "items": [
     {
-     "headline": "Robinson breaks Pakistan resistance as England push for series win LIVE!",
-     "detail": "Robinson breaks Pakistan resistance as England push for series win LIVE!",
+     "headline": "Robinson ripping through Pakistan as England push for series win LIVE!",
+     "detail": "Robinson ripping through Pakistan as England push for series win LIVE!",
      "url": "https://www.skysports.com/cricket/live-blog/12123/13578951/england-vs-pakistan-second-test-day-four-live-latest-cricket-score-updates-videos-and-analysis-from-lords-as-joe-roots-side-target-series-win",
+     "outlet": "Sky Sports Cricket"
+    },
+    {
+     "headline": "Abbas joins the Lord's honours board as Robinson shines in the second innings",
+     "detail": "Highlights from the morning session on day four of the second Test match between England and Pakistan.",
+     "url": "https://www.skysports.com/watch/video/13579009/england-vs-pakistan-2nd-test-day-four-morning-session-highlights",
      "outlet": "Sky Sports Cricket"
     },
     {
      "headline": "Scorecard: England vs Pakistan, second Test, Lord's",
      "detail": "Scorecard: England vs Pakistan, second Test, Lord's",
      "url": "https://www.skysports.com/cricket/england-v-pakistan/scorecard/1063b9b8-e3e5-5f0a-8be8-66743bae740b",
-     "outlet": "Sky Sports Cricket"
-    },
-    {
-     "headline": "Cricket scorecards: County Championship and more",
-     "detail": "Latest cricket scores from around the world, including Test matches, white-ball internationals, the County Championship and more.",
-     "url": "https://www.skysports.com/cricket/scores-fixtures",
      "outlet": "Sky Sports Cricket"
     }
    ]
@@ -143,21 +143,21 @@
    "name": "NFL - US",
    "items": [
     {
-     "headline": "Miami Dolphins 2026 roster cuts tracker: Sunday moves start",
-     "detail": "The Miami Dolphins must drop to the NFL’s regular season roster limit by Sunday evening. We keep up with all the cuts.",
-     "url": "https://sports.yahoo.com/articles/miami-dolphins-2026-roster-cuts-024700177.html",
+     "headline": "NFL roster cuts 2026: Look at how 53-man rosters are taking shape at the cutdown deadline",
+     "detail": "Plenty of decisions are being made at football headquarters in order to trim the roster from the 90-man squad mandated during training camp to 53 players.",
+     "url": "https://sports.yahoo.com/nfl/article/nfl-roster-cuts-tracker-2026-53-man-due-sunday-as-rosters-take-shape-at-the-cutdown-deadline-160435884.html",
      "outlet": "Yahoo Sports"
     },
     {
-     "headline": "Patriots roster cuts tracker: All the latest moves, news, rumors, and more",
-     "detail": "Tracking New England’s transactions ahead of the upcoming roster deadline",
-     "url": "https://sports.yahoo.com/articles/patriots-roster-cuts-tracker-latest-040000073.html",
+     "headline": "Bucs cut Browning, elevating UDFA Jalon Daniels to QB2 behind Mayfield",
+     "detail": "Daniels started 45 games in college for Kansas, but the rookie has no regular-season experience.",
+     "url": "https://sports.yahoo.com/nfl/article/bucs-cut-browning-elevating-udfa-jalon-daniels-to-qb2-behind-mayfield-151614591.html",
      "outlet": "Yahoo Sports"
     },
     {
-     "headline": "Eagles News: Philadelphia’s most likely first-time Pro Bowl candidate",
-     "detail": "Philadelphia Eagles news and links for 8/30/26.",
-     "url": "https://sports.yahoo.com/articles/eagles-news-philadelphia-most-likely-143430543.html",
+     "headline": "How does the waiver wire work after cutdown day for the Jets?",
+     "detail": "Today is cutdown day in the NFL. Teams must have their rosters at 53 players by 6:00 pm Eastern Time. Over the next day or two, you will hear a lot about the waiver wire. You might be curious what that is.",
+     "url": "https://sports.yahoo.com/articles/does-waiver-wire-cutdown-day-151228376.html",
      "outlet": "Yahoo Sports"
     }
    ]
@@ -191,21 +191,21 @@
    "name": "MLB - US",
    "items": [
     {
-     "headline": "River Ryan is the Tigers’ X factor for the future",
-     "detail": "The Tigers deadline trades hinged on River Ryan. Soon, their season may hinge on him as well.",
-     "url": "https://sports.yahoo.com/articles/river-ryan-tigers-x-factor-143000823.html",
+     "headline": "Shelley Duncan reaches milestone in managerial career",
+     "detail": "The RailRiders’ skipper reflects after 1,000 games in the minor leagues.",
+     "url": "https://sports.yahoo.com/articles/shelley-duncan-reaches-milestone-managerial-150000483.html",
      "outlet": "Yahoo Sports"
     },
     {
-     "headline": "Emmet Sheehan on a roll in Triple-A, Will Smith doubles twice",
-     "detail": "Plus, Oklahoma City faced old friend Brent Honeywell in his first game in 669 days, since 2024 World Series Game 4",
-     "url": "https://sports.yahoo.com/articles/emmet-sheehan-roll-triple-smith-140200655.html",
+     "headline": "The Mets’ All-Stretch-Run Team",
+     "detail": "An honor for those who finished their seasons on a high note.",
+     "url": "https://sports.yahoo.com/articles/mets-stretch-run-team-150000082.html",
      "outlet": "Yahoo Sports"
     },
     {
-     "headline": "2026 Cubs Heroes and Goats: Pete Crow-Armstrong is the Superhero vs. the Reds",
-     "detail": "The Cubs pound the Reds behind six homers, including three from PCA.",
-     "url": "https://sports.yahoo.com/articles/2026-cubs-heroes-goats-pete-140000755.html",
+     "headline": "Red Sox activate outfielder Roman Anthony, shortstop Trevor Story from injured list",
+     "detail": "Anthony has been sidelined since May 7, with a torn tendon in his right ring finger, while Story has been out since May 16 due to a sports hernia.",
+     "url": "https://sports.yahoo.com/mlb/article/red-sox-activate-outfielder-roman-anthony-shortstop-trevor-story-from-injured-list-145300011.html",
      "outlet": "Yahoo Sports"
     }
    ]

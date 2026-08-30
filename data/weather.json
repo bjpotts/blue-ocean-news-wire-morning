@@ -6,14 +6,14 @@
  "source_url": "https://www.bom.gov.au/nsw/forecasts/sydney.shtml",
  "source_label": "Bureau of Meteorology",
  "obs_url": "https://api.open-meteo.com/v1/forecast?latitude=-33.8688&longitude=151.2093&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,wind_direction_10m,precipitation&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Australia%2FSydney&forecast_days=1",
- "observed": "12:45 AM, Mon 31 August 2026",
+ "observed": "1:15 AM, Mon 31 August 2026",
  "condition": "Overcast",
- "temp": "9.2&deg;C",
- "feels": "8.3&deg;C",
+ "temp": "8.9&deg;C",
+ "feels": "7.8&deg;C",
  "humidity": "99%",
  "wind": "5 km/h NW",
  "high": "19.0&deg;C",
  "low": "8.2&deg;C",
  "rain_chance": "0%",
- "fetched": "12:45 AM AEST, 31 August 2026"
+ "fetched": "1:19 AM AEST, 31 August 2026"
 }

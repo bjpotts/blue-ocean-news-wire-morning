@@ -9,6 +9,11 @@
    "note": null,
    "items": [
     {
+     "headline": "Meet the gen Zers finding job opportunities teaching English abroad",
+     "detail": "Meet the gen Zers finding job opportunities teaching English abroad",
+     "url": "https://www.theguardian.com/money/2026/aug/30/young-americans-teaching-abroad"
+    },
+    {
      "headline": "‘You’re at war when you get attacked’: Mark Carney shows combative nature in face-off with Trump",
      "detail": "‘You’re at war when you get attacked’: Mark Carney shows combative nature in face-off with Trump",
      "url": "https://www.theguardian.com/world/ng-interactive/2026/aug/30/youre-at-war-when-you-get-attacked-mark-carney-shows-combative-nature-in-face-off-with-trump"
@@ -19,6 +24,11 @@
      "url": "https://www.theguardian.com/world/2026/aug/30/definitely-no-or-maybe-yes-what-tipped-the-icelandic-referendum"
     },
     {
+     "headline": "‘There’s no place to go’: providers see more abortions later in pregnancy as bans spread in US",
+     "detail": "‘There’s no place to go’: providers see more abortions later in pregnancy as bans spread in US",
+     "url": "https://www.theguardian.com/world/2026/aug/30/abortion-bans-later-procedures"
+    },
+    {
      "headline": "Nepal-Tibet death toll rises amid new flood fears and race to free group trapped in tunnel",
      "detail": "Nepal-Tibet death toll rises amid new flood fears and race to free group trapped in tunnel",
      "url": "https://www.theguardian.com/world/2026/aug/30/nepal-tibet-floods-china-search-rescue-operations-looking-for-survivors"
@@ -27,16 +37,6 @@
      "headline": "Iceland rejects EU accession talks in referendum after divisive campaign",
      "detail": "Iceland rejects EU accession talks in referendum after divisive campaign",
      "url": "https://www.theguardian.com/world/2026/aug/30/iceland-eu-accession-talks-referendum-result"
-    },
-    {
-     "headline": "One person killed and five wounded in shooting at rave party in Switzerland, police say",
-     "detail": "One person killed and five wounded in shooting at rave party in Switzerland, police say",
-     "url": "https://www.theguardian.com/world/2026/aug/30/shooting-rave-party-switzerland"
-    },
-    {
-     "headline": "Ghislaine Maxwell has virtually run out of legal routes to overturn conviction, experts say",
-     "detail": "Ghislaine Maxwell has virtually run out of legal routes to overturn conviction, experts say",
-     "url": "https://www.theguardian.com/us-news/2026/aug/30/ghislaine-maxwell-conviction-overturn-attempts"
     }
    ]
   },
@@ -49,8 +49,13 @@
    "note": null,
    "items": [
     {
-     "headline": "Andy Burnham pledge to end indefinite jail terms ‘a step towards healing’",
-     "detail": "Andy Burnham pledge to end indefinite jail terms ‘a step towards healing’",
+     "headline": "What is Burnham doing to the early prison release scheme and why?",
+     "detail": "What is Burnham doing to the early prison release scheme and why?",
+     "url": "https://www.theguardian.com/society/2026/aug/30/early-prison-release-scheme-changes-backlash"
+    },
+    {
+     "headline": "Andy Burnham pledge to end indefinite prison terms ‘a step towards healing’",
+     "detail": "Andy Burnham pledge to end indefinite prison terms ‘a step towards healing’",
      "url": "https://www.theguardian.com/society/2026/aug/30/andy-burnham-end-indefinite-jail-terms-ipp"
     },
     {
@@ -59,9 +64,9 @@
      "url": "https://www.theguardian.com/world/live/2026/aug/30/northern-cyprus-ferry-capsizes-latest-news-updates"
     },
     {
-     "headline": "Nasa space telescope launches after surviving Trump budget cuts",
-     "detail": "Nasa space telescope launches after surviving Trump budget cuts",
-     "url": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+     "headline": "Ghislaine Maxwell has virtually run out of legal routes to overturn conviction, experts say",
+     "detail": "Ghislaine Maxwell has virtually run out of legal routes to overturn conviction, experts say",
+     "url": "https://www.theguardian.com/us-news/2026/aug/30/ghislaine-maxwell-conviction-overturn-attempts"
     },
     {
      "headline": "Man arrested over fatal stabbing of British woman in Germany",
@@ -69,14 +74,9 @@
      "url": "https://www.theguardian.com/world/2026/aug/30/man-arrested-fatal-stabbing-british-woman-germany-rosenheim-train-station"
     },
     {
-     "headline": "Researchers find Britain’s 11th-century ‘Conquest Man’ was Scandinavian – but did he land with the Norman army?",
-     "detail": "Researchers find Britain’s 11th-century ‘Conquest Man’ was Scandinavian – but did he land with the Norman army?",
-     "url": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
-    },
-    {
-     "headline": "How has early prison release scheme been tightened after backlash?",
-     "detail": "How has early prison release scheme been tightened after backlash?",
-     "url": "https://www.theguardian.com/society/2026/aug/30/early-prison-release-scheme-changes-backlash"
+     "headline": "Recruiter places ‘phoenix’ firm into liquidation just months after repurchase erased millions in debt",
+     "detail": "Recruiter places ‘phoenix’ firm into liquidation just months after repurchase erased millions in debt",
+     "url": "https://www.theguardian.com/business/2026/aug/30/phoenix-redundancies-recruiter-hmrc"
     }
    ]
   },
@@ -88,6 +88,11 @@
    "summary": "The Guardian's US edition, reporting on the White House, Congress, the midterm campaign and American social and cultural stories.",
    "note": null,
    "items": [
+    {
+     "headline": "Canada erects giant ‘Lake Ontario’ sign as spat with Trump over name escalates",
+     "detail": "Canada erects giant ‘Lake Ontario’ sign as spat with Trump over name escalates",
+     "url": "https://www.theguardian.com/us-news/2026/aug/30/canada-trump-lake-ontario-name"
+    },
     {
      "headline": "Abdul El-Sayed apologizes for comment about Michigan synagogue attack",
      "detail": "Abdul El-Sayed apologizes for comment about Michigan synagogue attack",
@@ -112,11 +117,6 @@
      "headline": "Documents leaked by Trump official to bolster a conspiracy show ‘absolutely nothing’",
      "detail": "Documents leaked by Trump official to bolster a conspiracy show ‘absolutely nothing’",
      "url": "https://www.theguardian.com/us-news/2026/aug/30/state-department-global-engagement-center-leaked-documents-foreign-propaganda"
-    },
-    {
-     "headline": "‘Grassroots will beat big money every day’: can a DSA member flip a Republican Senate seat?",
-     "detail": "‘Grassroots will beat big money every day’: can a DSA member flip a Republican Senate seat?",
-     "url": "https://www.theguardian.com/us-news/2026/aug/30/angie-nixon-florida-senate-candidate"
     }
    ]
   },
@@ -129,6 +129,21 @@
    "note": null,
    "items": [
     {
+     "headline": "Cash settlements on home insurance claims leaving vulnerable Australians short-changed, Asic says",
+     "detail": "Cash settlements on home insurance claims leaving vulnerable Australians short-changed, Asic says",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/31/cash-settlements-home-insurance-cyclone-disaster-repairs-vulnerable-australians-asic"
+    },
+    {
+     "headline": "The American painting that sparked an Australian culture war - podcast",
+     "detail": "The American painting that sparked an Australian culture war - podcast",
+     "url": "https://www.theguardian.com/australia-news/audio/2026/aug/31/blue-poles-jackson-pollock-the-american-painting-that-sparked-an-australian-culture-war-full-story-podcast"
+    },
+    {
+     "headline": "Smart glasses should automatically blur people’s faces while filming, Australia’s online safety regulator says",
+     "detail": "Smart glasses should automatically blur people’s faces while filming, Australia’s online safety regulator says",
+     "url": "https://www.theguardian.com/technology/2026/aug/31/smart-glasses-automatic-blur-faces-meta-ray-ban-kmart-privacy"
+    },
+    {
      "headline": "Pacific Islands Forum meeting in turmoil after several leaders pull out of Palau summit",
      "detail": "Pacific Islands Forum meeting in turmoil after several leaders pull out of Palau summit",
      "url": "https://www.theguardian.com/world/2026/aug/30/pacific-islands-forum-meeting-in-turmoil-after-several-leaders-pull-out-of-palau-summit"
@@ -139,24 +154,9 @@
      "url": "https://www.theguardian.com/world/2026/aug/30/renee-gyirong-port-flood-nepal-family-australia-help-search"
     },
     {
-     "headline": "‘We owe it to history’ to defeat One Nation, PM tells Labor faithful – as it happened",
-     "detail": "‘We owe it to history’ to defeat One Nation, PM tells Labor faithful – as it happened",
-     "url": "https://www.theguardian.com/australia-news/live/2026/aug/30/nepal-tibet-floods-missing-australians-secret-harbour-byelection-wa-tanya-plibersek-insiders-pacific-islands-forum-ntwnfb"
-    },
-    {
-     "headline": "One Nation’s Secret Harbour byelection win shows Labor is at a loss when it comes to calming angry voters",
-     "detail": "One Nation’s Secret Harbour byelection win shows Labor is at a loss when it comes to calming angry voters | Analysis",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/30/one-nations-secret-harbour-byelection-win-shows-labor-is-at-a-loss-when-it-comes-to-calming-angry-voters"
-    },
-    {
-     "headline": "Australia could make social media algorithms optional and follow UK ban on pornography depicting strangulation",
-     "detail": "Australia could make social media algorithms optional and follow UK ban on pornography depicting strangulation",
-     "url": "https://www.theguardian.com/australia-news/2026/aug/30/australia-could-make-social-media-algorithms-optional-and-follow-uk-ban-on-pornography-depicting-strangulation"
-    },
-    {
-     "headline": "Families balance hope and despair in race to find survivors in Nepal as 41 Australians still missing",
-     "detail": "Families balance hope and despair in race to find survivors in Nepal as 41 Australians still missing",
-     "url": "https://www.theguardian.com/world/2026/aug/30/families-balance-hope-and-despair-in-race-to-find-survivors-in-nepal-as-australians-still-missing"
+     "headline": "Barack Obama, JFK and … Josh Frydenberg: what can a memoir do for an ambitious politician?",
+     "detail": "Barack Obama, JFK and … Josh Frydenberg: what can a memoir do for an ambitious politician?",
+     "url": "https://www.theguardian.com/australia-news/2026/aug/31/obama-jfk-and-josh-frydenberg-australian-treasurer-political-memoir"
     }
    ]
   },
@@ -169,34 +169,34 @@
    "note": null,
    "items": [
     {
+     "headline": "Woman, 22, killed and five injured in shooting at Swiss rave",
+     "detail": "Woman, 22, killed and five injured in shooting at Swiss rave",
+     "url": "https://www.theguardian.com/world/2026/aug/30/shooting-rave-party-switzerland"
+    },
+    {
      "headline": "The president and the penthouse: how Madrid’s government spent €6.3m on a temporary ‘office’",
      "detail": "The president and the penthouse: how Madrid’s government spent €6.3m on a temporary ‘office’",
      "url": "https://www.theguardian.com/world/2026/aug/30/president-penthouse-madrid-government-63m-euros-temporary-office-isabel-diaz-ayuso"
     },
     {
+     "headline": "Researchers find Britain’s 11th-century ‘Conquest Man’ was Scandinavian – but did he land with the Norman army?",
+     "detail": "Researchers find Britain’s 11th-century ‘Conquest Man’ was Scandinavian – but did he land with the Norman army?",
+     "url": "https://www.theguardian.com/uk-news/2026/aug/30/11th-century-conquest-man-scandinavian-norman-army"
+    },
+    {
+     "headline": "Nasa space telescope launches after surviving Trump budget cuts",
+     "detail": "Nasa space telescope launches after surviving Trump budget cuts",
+     "url": "https://www.theguardian.com/science/2026/aug/29/nasa-telescope-launch-nancy-grace-roman"
+    },
+    {
+     "headline": "The sadistic online groomers targeting victims around the world – and a mother’s struggle to keep her daughter safe",
+     "detail": "The sadistic online groomers targeting victims around the world – and a mother’s struggle to keep her daughter safe",
+     "url": "https://www.theguardian.com/society/ng-interactive/2026/aug/31/online-extortion-grooming-764-social-media-apps-ntwnfb"
+    },
+    {
      "headline": "A lone Black woman’s defiance of Swedish neo-Nazis, 10 years on",
      "detail": "A lone Black woman’s defiance of Swedish neo-Nazis, 10 years on",
      "url": "https://www.theguardian.com/world/2026/aug/30/sweden-neo-nazi-resistance-2016-tess-asplund-far-right"
-    },
-    {
-     "headline": "Giorgia on their minds: Farage and Badenoch scrap to be mates with Meloni",
-     "detail": "Giorgia on their minds: Farage and Badenoch scrap to be mates with Meloni",
-     "url": "https://www.theguardian.com/politics/2026/aug/30/giorgia-meloni-farage-badenoch-row"
-    },
-    {
-     "headline": "Meet the gen Zers finding job opportunities teaching English abroad",
-     "detail": "Meet the gen Zers finding job opportunities teaching English abroad",
-     "url": "https://www.theguardian.com/money/2026/aug/30/young-americans-teaching-abroad"
-    },
-    {
-     "headline": "Big business has shown small firms what to do – and what not to do – with AI",
-     "detail": "Big business has shown small firms what to do – and what not to do – with AI | Gene Marks",
-     "url": "https://www.theguardian.com/technology/2026/aug/30/ai-small-business"
-    },
-    {
-     "headline": "Nurture not nature? How young women can learn to better wield economic power",
-     "detail": "Nurture not nature? How young women can learn to better wield economic power | Heather Stewart",
-     "url": "https://www.theguardian.com/business/2026/aug/30/nurture-not-nature-how-young-women-can-learn-to-better-wield-economic-power"
     }
    ]
   }

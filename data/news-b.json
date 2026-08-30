@@ -38,33 +38,33 @@
    "key": "thehill",
    "name": "The Hill",
    "site": "thehill.com",
-   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with What China's delay means for the US-China moon race; Why we should bring back the draft; Venezuelan interim president offers details on US oil deal.",
+   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with Trump promises NBC's Welker will be reported to FCC 'for rebuke or punishment'; Sunrises before 5 a.m.? How permanent standard time would impact summer mornings; An incentive for investment: How the US tax code can help America rebuild.",
    "note": null,
    "items": [
     {
-     "headline": "What China's delay means for the US-China moon race",
-     "detail": "The liftoff of China’s Chang’e 7 mission to the moon has been delayed into 2027.",
-     "url": "https://thehill.com/opinion/technology/6059278-what-chinas-delay-means-for-the-us-china-moon-race/"
+     "headline": "Trump promises NBC's Welker will be reported to FCC 'for rebuke or punishment'",
+     "detail": "President Trump said Sunday that NBC News's \"Meet the Press\" host Kristen Welker will be reported to the Federal Communications Commission (FCC) after she reportedly said on the program that Trump-endorsed candidates have had mixed results…",
+     "url": "https://thehill.com/homenews/media/6059558-trump-threatens-nbc-welker-fcc/"
     },
     {
-     "headline": "Why we should bring back the draft",
-     "detail": "University of Pennsylvania professor Jonathan Zimmerman argues that reinstating a military draft would encourage student activism against the ongoing war in Iran and ensure a more equitable distribution of national defense responsibilities.",
-     "url": "https://thehill.com/opinion/national-security/6058792-iran-war-college-protest/"
+     "headline": "Sunrises before 5 a.m.? How permanent standard time would impact summer mornings",
+     "detail": "Summer mornings could feel a lot different if we stopped observing daylight saving time during part of the year.",
+     "url": "https://thehill.com/policy/energy-environment/6047539-sunrises-before-5-a-m-how-permanent-standard-time-would-impact-summer-mornings/"
     },
     {
-     "headline": "Venezuelan interim president offers details on US oil deal",
-     "detail": "Venezuelan interim President Delcy Rodríguez on Saturday provided details on her country's new oil deal with the U.S., after President Trump said much of Venezuela's oil reserves will be under \"majority U.S.",
-     "url": "https://thehill.com/policy/international/6059462-venezuela-us-oil-deal/"
+     "headline": "An incentive for investment: How the US tax code can help America rebuild",
+     "detail": "Leaders in Gary, Ind., have recognized a truth facing many older American communities — that revitalization sometimes requires preserving the past, sometimes adapting it, and sometimes removing what no longer serves any productive purpose.",
+     "url": "https://thehill.com/opinion/finance/6055864-tax-policy-urban-revitalization/"
     },
     {
-     "headline": "Live updates: US-Venezuela oil deal sparks debate; Doug Ford set for Sunday show appearance",
-     "detail": "President Trump this weekend announced a new deal for the U.S. to acquire majority control of over 65 million barrels of Venezuelan oil, which has prompted a mixed response on the home front.",
+     "headline": "Live updates: US-Venezuela oil deal sparks debate; Doug Ford mocks Trump's Lake Ontario renaming",
+     "detail": "Ontario Premier Doug Ford on Sunday mocked President Trump’s executive order renaming Lake Ontario to “Lake America,” saying the move resembled “something out of ‘Saturday Night Live.'” Ford has traded barbs with the president many times…",
      "url": "https://thehill.com/homenews/administration/6059344-live-updates-trump-venezuela-oil-deal/"
     },
     {
-     "headline": "What happens when Republican senators have nothing left to lose? Not much.",
-     "detail": "Often called the “Wounded Bear” or YOLO (“you only live once”) Caucus, these lawmakers have nothing to lose.",
-     "url": "https://thehill.com/opinion/congress-blog/6057763-senators-abandoning-constitutional-checks/"
+     "headline": "Homan pushes back on alleged ICE arrests of parents at bus stops",
+     "detail": "White House border czar Tom Homan on Sunday pushed back on the idea of Immigration and Customs Enforcement (ICE) arresting parents at bus stops in Connecticut, as alleged by Sen. Chris Murphy (D-Conn.) this week.",
+     "url": "https://thehill.com/policy/national-security/6059574-homan-ice-bus-stop-arrests/"
     }
    ]
   },
@@ -106,9 +106,14 @@
    "key": "variety",
    "name": "Variety",
    "site": "variety.com",
-   "summary": "Variety, on the business of entertainment is leading with Here’s How to Watch the 2026 Little League World Series Championship Game Live Online; Laura Dern to Give George Clooney Venice Golden Lion for Lifetime Achievement; ’17’ Review: Harrowing Teen Pregnancy Drama from Macedonia Could Be the Feel-Bad Movie of the Year.",
+   "summary": "Variety, on the business of entertainment is leading with ‘Call My Agent! The Movie’ Review: Love-Hate Energy Keeps the Gang Together in a Fast, Funny Feature-Length Return; Here’s How to Watch the 2026 Little League World Series Championship Game Live Online; Laura Dern to Give George Clooney Venice Golden Lion for Lifetime Achievement.",
    "note": null,
    "items": [
+    {
+     "headline": "‘Call My Agent! The Movie’ Review: Love-Hate Energy Keeps the Gang Together in a Fast, Funny Feature-Length Return",
+     "detail": "The rare reboot pitch that that can actually be greeted with “this again!” rather than “this again?,” “Call My Agent! The Movie” makes sense of its rote title in two ways.",
+     "url": "https://variety.com/2026/film/news/call-my-agent-the-movie-review-1236846824/"
+    },
     {
      "headline": "Here’s How to Watch the 2026 Little League World Series Championship Game Live Online",
      "detail": "The 2026 Little League World Series Championship Game features Nevada vs. Curaçao on Sunday, Aug. 30 at 3 p.m. ET/12 p.m. PT on ESPN. Games take place at Lamade Stadium in South Williamsport, Pennsylvania.",
@@ -128,11 +133,6 @@
      "headline": "‘Sea of Glass’ Review: A Widow’s Coastal Healing Retreat Turns Into a Stately, Moody Greek Tragedy",
      "detail": "There are Greek waves aplenty lapping at the forlorn beachside setting of “Sea of Glass,” though they’re not especially weird ones.",
      "url": "https://variety.com/2026/film/news/sea-of-glass-review-1236846714/"
-    },
-    {
-     "headline": "Inside the Global Rise of CJ ENM’s ‘The Legend of Kitchen Soldier’",
-     "detail": "When “The Legend of Kitchen Soldier” was selected as the only K-drama in the Special Screening section at Series Mania in Lille earlier this year, it marked an early signal that something unusual was happening with a show that had started…",
-     "url": "https://variety.com/2026/tv/news/legend-of-kitchen-soldier-cj-enm-global-success-1236846772/"
     }
    ]
   },
@@ -140,9 +140,14 @@
    "key": "bloomberg",
    "name": "Bloomberg",
    "site": "bloomberg.com",
-   "summary": "Bloomberg's markets and business file is leading with How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline; Investors Bet on a Hair Loss Treatment Boom; Shein’s $100 Billion Valuation Falls to $26 Billion.",
+   "summary": "Bloomberg's markets and business file is leading with Rep. Krishnamoorthi Warns Iran War Weakens US in Asia; How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline; Investors Bet on a Hair Loss Treatment Boom.",
    "note": null,
    "items": [
+    {
+     "headline": "Rep. Krishnamoorthi Warns Iran War Weakens US in Asia",
+     "detail": "Representative Raja Krishnamoorthi (D) says the Iran war is depleting key US munitions and pulling military assets from the Indo Pacific, potentially weakening deterrence against China as concerns over Taiwan grow.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/rep-krishnamoorthi-warns-iran-war-weakens-us-in-asia-video"
+    },
     {
      "headline": "How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline",
      "detail": "YouTube creators are turning online audiences into big-screen opportunities, with filmmakers like Alex Kister moving from DIY horror videos to studio deals.",
@@ -162,11 +167,6 @@
      "headline": "Venezuela Oil Deal Raises Questions Over US Role",
      "detail": "The Trump administration’s deal giving a US-led venture access to 65 billion barrels of Venezuelan oil could reshape the countries’ economic relationship, but questions remain over its political durability and whether it will provoke a…",
      "url": "https://www.bloomberg.com/news/videos/2026-08-30/venezuela-oil-deal-raises-questions-over-us-role-video"
-    },
-    {
-     "headline": "Gold Bulls Turn to Exotic Options, Spreads in ‘Orderly’ Rally",
-     "detail": "Gold bulls rejuvenated by the Treasury Department’s efforts to keep US borrowing costs in check are turning to exotic options and spreads to bet on higher bullion prices.",
-     "url": "https://www.bloomberg.com/news/articles/2026-08-30/gold-bulls-turn-to-exotic-options-spreads-in-orderly-rally"
     }
    ]
   },
@@ -174,12 +174,12 @@
    "key": "bbc",
    "name": "BBC",
    "site": "bbc.com",
-   "summary": "The BBC's world news service is leading with Iceland votes against restarting talks on joining EU; Manhunt after shooting at Swiss rave kills woman, 22, and injures five; Canada installs large Lake Ontario sign in latest jab at US.",
+   "summary": "The BBC's world news service is leading with Iceland votes against restarting EU membership talks; Manhunt after shooting at Swiss rave kills woman, 22, and injures five; Canada installs large Lake Ontario sign in latest jab at US.",
    "note": null,
    "items": [
     {
-     "headline": "Iceland votes against restarting talks on joining EU",
-     "detail": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume talks.",
+     "headline": "Iceland votes against restarting EU membership talks",
+     "detail": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume accession talks.",
      "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
     },
     {
@@ -208,33 +208,33 @@
    "key": "france24",
    "name": "France 24",
    "site": "france24.com",
-   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with Cyprus: Ferry capsizes with hundreds on board; Nepal: Hopes fade for thousands still missing; Norway’s New King breaks silence after father’s death.",
+   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with NASA launches new space telescope; Iceland rejects EU accession talks; Week in pictures: devastating floods in Nepal, death of Dolly Parton and a tornado in France.",
    "note": null,
    "items": [
+    {
+     "headline": "NASA launches new space telescope",
+     "detail": "NASA has successfully launched its newest space telescope from the Kennedy Space Center in Florida.",
+     "url": "https://www.france24.com/en/video/20260830-nasa-launches-new-space-telescope"
+    },
+    {
+     "headline": "Iceland rejects EU accession talks",
+     "detail": "Iceland has voted against resuming membership talks with the European Union. The “No” camp won with nearly 53% of the vote, while just over 47% backed the “Yes” side, with only 9,500 votes separating the two.",
+     "url": "https://www.france24.com/en/video/20260830-iceland-rejects-eu-accession-talks"
+    },
+    {
+     "headline": "Week in pictures: devastating floods in Nepal, death of Dolly Parton and a tornado in France",
+     "detail": "A look back at some of the week's key news stories and the most striking images: a devastating flood tears through Nepal and Tibet, the death of global icon Dolly Parton, a tornado devastates a village in southern France and the Humanoid…",
+     "url": "https://www.france24.com/en/asia-pacific/20260830-week-in-pictures-devastating-floods-in-nepal-death-of-dolly-parton-and-a-tornado-in-france"
+    },
+    {
+     "headline": "France: Far-right and far-left lead polls",
+     "detail": "On April 18 and May 2 next year, France will vote to elect a new president to replace Emmanuel Macron.",
+     "url": "https://www.france24.com/en/france-far-right-and-far-left-lead-polls"
+    },
     {
      "headline": "Cyprus: Ferry capsizes with hundreds on board",
      "detail": "Authorities say at least six people have died after a catamaran-style ferry carrying 267 passengers and crew capsized off the coast of northern Cyprus.",
      "url": "https://www.france24.com/en/video/20260830-cyprus-ferry-capsizes-with-hundreds-of-board"
-    },
-    {
-     "headline": "Nepal: Hopes fade for thousands still missing",
-     "detail": "Four days have passed since catastrophic floods killed more than 750 people. More than 3,000 people are still missing, and hopes of finding survivors are fading.",
-     "url": "https://www.france24.com/en/nepal-hopes-fade-for-thousands-still-missing"
-    },
-    {
-     "headline": "Norway’s New King breaks silence after father’s death",
-     "detail": "Norway’s new king addressed the nation for the first time since taking the throne, paying tribute to his 89-year-old father, who died the previous day. Morgan Ayre has the details.",
-     "url": "https://www.france24.com/en/video/20260830-norway-s-new-king-breaks-silence-after-father-s-death"
-    },
-    {
-     "headline": "Pacific Summit opens amid Taiwan row",
-     "detail": "The annual Pacific Islands Forum begins on Monday in Palau, bringing together the 18-member intergovernmental organisation to discuss regional cooperation and security.",
-     "url": "https://www.france24.com/en/pacific-summit-opens-amid-taiwan-row"
-    },
-    {
-     "headline": "Ferry carrying more than 260 people capsizes off northern Cyprus",
-     "detail": "Authorities say several people have died after a ferry accident off the coast of northern Cyprus. The catamaran-style vessel was carrying nearly 270 passengers and crew when it capsized.",
-     "url": "https://www.france24.com/en/ferry-carrying-more-than-260-people-capsizes-off-northern-cyprus"
     }
    ]
   },
@@ -242,9 +242,14 @@
    "key": "aljazeera",
    "name": "Al Jazeera",
    "site": "aljazeera.com",
-   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with How does your name taste? The strange science of synaesthesia; Iceland votes to reject EU accession talks: What happens next?; Banque Misr, Egypt’s second-largest, hit by US sanctions: What to know.",
+   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with Why did Australia give visas to Israeli soldiers but not Bassem Youssef?; How does your name taste? The strange science of synaesthesia; Iceland votes to reject EU accession talks: What happens next?.",
    "note": null,
    "items": [
+    {
+     "headline": "Why did Australia give visas to Israeli soldiers but not Bassem Youssef?",
+     "detail": "The Australian government is under pressure to explain why it allowed dozens of Israeli soldiers into the country.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/30-08-sydney-marathon-israeli-soldiers-idf-fm?traffic_source=rss"
+    },
     {
      "headline": "How does your name taste? The strange science of synaesthesia",
      "detail": "Experiencing names as tastes - a form of synaesthesia - reveals how differently people perceive the same world.",
@@ -264,11 +269,6 @@
      "headline": "Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest",
      "detail": "Liverpool's Dutch forward Gakpo is a transfer target for Premier League rivals Manchester City.",
      "url": "https://www.aljazeera.com/sports/2026/8/30/van-dijk-wants-cody-gakpo-to-stay-at-liverpool-despite-man-city-interest?traffic_source=rss"
-    },
-    {
-     "headline": "Dozens of soldiers arrested after apparent coup attempt in Niger’s capital",
-     "detail": "Dozens of soldiers arrested after apparent coup attempt in Niger’s capital",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/dozens-of-soldiers-arrested-after-apparent-coup-attempt-in-nigers-capital?traffic_source=rss"
     }
    ]
   }
