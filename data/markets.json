@@ -1,15 +1,15 @@
 {
- "as_of": "Monday 31 August 2026, 08:00 AEST",
+ "as_of": "Monday 31 August 2026, 08:52 AEST",
  "btc": {
-  "price": "$78,649",
-  "chg": "+0.62%",
+  "price": "$78,403",
+  "chg": "+0.28%",
   "source": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
  },
  "btc_crosschecks": [
   {
    "source": "CoinGecko API",
-   "price": "$78,649",
-   "chg": "+0.62%"
+   "price": "$78,403",
+   "chg": "+0.28%"
   }
  ],
  "fx": [
@@ -153,6 +153,18 @@
    "chg": "-1.12%"
   },
   {
+   "name": "TSX Composite",
+   "symbol": "^GSPTSE",
+   "value": "36,554",
+   "chg": "-0.71%"
+  },
+  {
+   "name": "IPC Mexico",
+   "symbol": "^MXX",
+   "value": "65,484",
+   "chg": "-1.07%"
+  },
+  {
    "name": "S&P/ASX 200",
    "symbol": "^AXJO",
    "value": "9,092.30",
@@ -163,6 +175,12 @@
    "symbol": "^AORD",
    "value": "9,294.30",
    "chg": "-0.48%"
+  },
+  {
+   "name": "NZX 50",
+   "symbol": "^NZ50",
+   "value": "13,815",
+   "chg": "-0.47%"
   },
   {
    "name": "FTSE 100",
@@ -181,6 +199,18 @@
    "symbol": "^FCHI",
    "value": "8,401.18",
    "chg": "-0.72%"
+  },
+  {
+   "name": "EURO STOXX 50",
+   "symbol": "^STOXX50E",
+   "value": "6,485.67",
+   "chg": "+0.23%"
+  },
+  {
+   "name": "IBEX 35",
+   "symbol": "^IBEX",
+   "value": "20,042",
+   "chg": "-0.13%"
   },
   {
    "name": "Hang Seng",
@@ -207,10 +237,10 @@
    "chg": "+1.01%"
   },
   {
-   "name": "Ibovespa",
-   "symbol": "^BVSP",
-   "value": "175,665",
-   "chg": "+0.62%"
+   "name": "Taiwan Weighted",
+   "symbol": "^TWII",
+   "value": "46,331",
+   "chg": "+1.09%"
   },
   {
    "name": "Straits Times",
@@ -223,9 +253,27 @@
    "symbol": "^BSESN",
    "value": "77,265",
    "chg": "-0.27%"
+  },
+  {
+   "name": "TA-125",
+   "symbol": "^TA125.TA",
+   "value": "4,081.95",
+   "chg": "+0.96%"
+  },
+  {
+   "name": "JSE All Share",
+   "symbol": "^J203.JO",
+   "value": "118,173",
+   "chg": "+1.16%"
+  },
+  {
+   "name": "Ibovespa",
+   "symbol": "^BVSP",
+   "value": "175,665",
+   "chg": "+0.62%"
   }
  ],
  "indices_source": "https://finance.yahoo.com/world-indices",
- "indices_asof": "Sunday 30 August 2026, 22:00 UTC",
+ "indices_asof": "Sunday 30 August 2026, 22:52 UTC",
  "indices_asof_label": "Monday 31 August 2026"
 }

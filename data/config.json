@@ -321,6 +321,10 @@
  "indices_grid": {
   "yahoo_quote_url": "https://finance.yahoo.com/quote/%s",
   "au_yahoo_quote_url": "https://au.finance.yahoo.com/quote/%s",
-  "stai_quote_url": "https://www.tradingview.com/symbols/TVC-STI/"
+  "stai_quote_url": "https://www.tradingview.com/symbols/TVC-STI/",
+  "tradingview_quote_urls": {
+   "^TA125.TA": "https://www.tradingview.com/symbols/TASE-TA125/",
+   "^J203.JO": "https://www.tradingview.com/symbols/JSE-J203/"
+  }
  }
 }

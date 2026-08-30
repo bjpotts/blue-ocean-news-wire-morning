@@ -333,6 +333,10 @@ for r in mk["fx"]:
 idx_cfg = cfg["indices_grid"]
 YQ = idx_cfg["yahoo_quote_url"]
 def idx_url(sym):
+    # A few indices have live Yahoo data but no Yahoo quote page, so they link
+    # to their TradingView symbol page instead of a URL that 404s.
+    if sym in idx_cfg["tradingview_quote_urls"]:
+        return idx_cfg["tradingview_quote_urls"][sym]
     if sym == "^STI":
         return idx_cfg["stai_quote_url"]
     if sym in ("^AXJO", "^AORD"):

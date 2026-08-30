@@ -18,23 +18,33 @@ CURRENCY_CODES = [
     "PHP", "IDR"
 ]
 
+# 24 indices, ordered so the 4-column grid reads geographically: US, then the
+# rest of the Americas, ANZ, UK/Europe, Asia, Middle East/Africa, South America.
 INDICES = [
     ("S&P 500", "^GSPC"),
     ("Dow Jones", "^DJI"),
     ("Nasdaq Composite", "^IXIC"),
     ("Russell 2000", "^RUT"),
+    ("TSX Composite", "^GSPTSE"),
+    ("IPC Mexico", "^MXX"),
     ("S&P/ASX 200", "^AXJO"),
     ("All Ordinaries", "^AORD"),
+    ("NZX 50", "^NZ50"),
     ("FTSE 100", "^FTSE"),
     ("DAX", "^GDAXI"),
     ("CAC 40", "^FCHI"),
+    ("EURO STOXX 50", "^STOXX50E"),
+    ("IBEX 35", "^IBEX"),
     ("Hang Seng", "^HSI"),
     ("Nikkei 225", "^N225"),
     ("KOSPI", "^KS11"),
     ("SSE Composite", "000001.SS"),
-    ("Ibovespa", "^BVSP"),
+    ("Taiwan Weighted", "^TWII"),
     ("Straits Times", "^STI"),
     ("BSE Sensex", "^BSESN"),
+    ("TA-125", "^TA125.TA"),
+    ("JSE All Share", "^J203.JO"),
+    ("Ibovespa", "^BVSP"),
 ]
 
 
