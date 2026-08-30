@@ -27,7 +27,7 @@
   {
    "key": "world_indices",
    "heading": "World Indices",
-   "caption": "Latest closing prints for the sessions of %s via <a href=\"https://finance.yahoo.com/world-indices\" target=\"_blank\" rel=\"noopener\">Yahoo Finance World Indices</a>, with MOEX Russia direct from the <a href=\"https://www.moex.com/en/index/IMOEX\" target=\"_blank\" rel=\"noopener\">Moscow Exchange</a>; indexes from exchanges still open at time of collection reflect their latest prints.",
+   "caption": "Latest closing prints for the sessions of %s via <a href=\"https://finance.yahoo.com/world-indices\" target=\"_blank\" rel=\"noopener\">Yahoo Finance World Indices</a>; indexes from exchanges still open at time of collection reflect their latest prints.",
    "page_break_before": true
   },
   {
@@ -324,10 +324,8 @@
   "stai_quote_url": "https://www.tradingview.com/symbols/TVC-STI/",
   "tradingview_quote_urls": {
    "FTSEMIB.MI": "https://www.tradingview.com/symbols/INDEX-FTSEMIB/",
-   "^OMX": "https://www.tradingview.com/symbols/OMXSTO-OMXS30/",
-   "PSI20.LS": "https://www.tradingview.com/symbols/EURONEXT-PSI20/",
    "^SET.BK": "https://www.tradingview.com/symbols/SET-SET/",
-   "IMOEX": "https://www.tradingview.com/symbols/MOEX-IMOEX/"
+   "DFMGI.AE": "https://www.tradingview.com/symbols/DFM-DFMGI/"
   }
  }
 }

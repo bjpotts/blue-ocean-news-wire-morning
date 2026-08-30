@@ -18,42 +18,38 @@ CURRENCY_CODES = [
     "PHP", "IDR"
 ]
 
-# The 24 indices shown in the World Indices grid, in the order requested, so the
-# 4-column grid reads down from the most-watched benchmarks to the smaller ones.
+# The 20 indices shown in the World Indices grid, ordered west to east so the
+# 4-column grid reads as five geographic rows: the Americas, Europe, then the
+# Middle East into Asia, the rest of Asia, and finally India with ANZ.
 INDICES = [
     ("S&P 500", "^GSPC"),
     ("Nasdaq Composite", "^IXIC"),
+    ("TSX Composite", "^GSPTSE"),
+    ("Ibovespa", "^BVSP"),
     ("FTSE 100", "^FTSE"),
-    ("Nikkei 225", "^N225"),
-    ("Shanghai Composite", "000001.SS"),
     ("DAX", "^GDAXI"),
     ("CAC 40", "^FCHI"),
+    ("FTSE MIB", "FTSEMIB.MI"),
+    ("EURO STOXX 50", "^STOXX50E"),
+    ("DFM General (Dubai)", "DFMGI.AE"),
+    ("Nikkei 225", "^N225"),
     ("Hang Seng", "^HSI"),
+    ("Shanghai Composite", "000001.SS"),
+    ("KOSPI", "^KS11"),
+    ("TAIEX", "^TWII"),
+    ("SET Index", "^SET.BK"),
     ("BSE Sensex", "^BSESN"),
     ("S&P/ASX 200", "^AXJO"),
-    ("TSX Composite", "^GSPTSE"),
-    ("KOSPI", "^KS11"),
-    ("IBEX 35", "^IBEX"),
-    ("FTSE MIB", "FTSEMIB.MI"),
-    ("Ibovespa", "^BVSP"),
-    ("EURO STOXX 50", "^STOXX50E"),
-    ("OMX Stockholm 30", "^OMX"),
-    ("MOEX Russia", "IMOEX"),
-    ("TAIEX", "^TWII"),
-    ("PSI 20", "PSI20.LS"),
-    ("ATX", "^ATX"),
-    ("SET Index", "^SET.BK"),
-    ("IPC Mexico", "^MXX"),
+    ("All Ordinaries", "^AORD"),
     ("NZX 50", "^NZ50"),
 ]
 
 # Indices the Market News paragraph talks about but the grid no longer shows.
 # They are fetched so the written summary keeps its full regional coverage, and
-# are kept out of "indices" so the displayed grid stays exactly 24 cells.
+# are kept out of "indices" so the displayed grid stays exactly 20 cells.
 NARRATIVE_INDICES = [
     ("Dow Jones", "^DJI"),
     ("Russell 2000", "^RUT"),
-    ("All Ordinaries", "^AORD"),
     ("Straits Times", "^STI"),
 ]
 

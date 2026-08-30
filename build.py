@@ -339,7 +339,9 @@ def idx_url(sym):
         return idx_cfg["tradingview_quote_urls"][sym]
     if sym == "^STI":
         return idx_cfg["stai_quote_url"]
-    if sym in ("^AXJO", "^AORD"):
+    # Yahoo's US edition 404s on the Australasian indices; its AU edition serves
+    # all three.
+    if sym in ("^AXJO", "^AORD", "^NZ50"):
         return idx_cfg["au_yahoo_quote_url"] % sym.replace("^", "%5E")
     if sym == "000001.SS":
         return YQ % "000001.SS"
