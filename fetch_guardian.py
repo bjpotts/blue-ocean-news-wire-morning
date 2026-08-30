@@ -16,6 +16,8 @@ import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
+from feedlib import provenance
+
 EDITIONS = [
     {"key": "gint", "name": "The Guardian — International", "site": "theguardian.com/international",
      "rss": "https://www.theguardian.com/international/rss",
@@ -130,6 +132,7 @@ def main():
                 "headline": it["title"].split(" | ")[0].strip(),
                 "detail": it["title"],
                 "url": it["url"],
+                **provenance(it, ed["rss"]),
             })
             used_urls.add(it["url"])
         outlets.append({**ed, "note": None, "items": items_out})

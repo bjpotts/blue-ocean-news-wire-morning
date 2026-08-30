@@ -10,7 +10,8 @@ import json
 import os
 import sys
 
-from feedlib import fetch, parse_feed, parse_news_sitemap, recent, trim, dedupe
+from feedlib import (fetch, parse_feed, parse_news_sitemap, provenance,
+                     recent, trim, dedupe)
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -103,6 +104,7 @@ def build_outlet(spec, seen_urls, seen_titles):
             "headline": it["title"],
             "detail": detail,
             "url": it["url"],
+            **provenance(it, rss),
         })
 
     if out_items:

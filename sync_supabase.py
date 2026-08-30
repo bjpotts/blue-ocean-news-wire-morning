@@ -30,8 +30,10 @@ TABLES = {
     "market_data": ["kind", "symbol", "value", "unit", "chg_pct", "note", "url"],
     "performers": ["region", "side", "ticker", "name", "price", "chg_pct",
                    "volume", "url"],
-    "capital_raises": ["region", "headline", "detail", "outlet", "url"],
-    "news": ["section", "outlet", "code", "headline", "detail", "url"],
+    "capital_raises": ["region", "headline", "detail", "outlet", "url",
+                       "source_url", "published_at", "fetched_at"],
+    "news": ["section", "outlet", "code", "headline", "detail", "url",
+             "source_url", "published_at", "fetched_at"],
     "weather": ["place", "condition", "temp", "feels", "humidity", "wind",
                 "high", "low", "rain_chance"],
 }

@@ -9,7 +9,7 @@ import json
 import os
 import sys
 
-from feedlib import fetch, parse_feed, recent, trim, dedupe
+from feedlib import dedupe, fetch, parse_feed, provenance, recent, trim
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -72,6 +72,7 @@ def main():
                     "detail": trim(it["detail"]) or it["title"],
                     "url": it["url"],
                     "outlet": outlet,
+                    **provenance(it, rss),
                 })
                 if len(items_out) >= count:
                     break

@@ -45,11 +45,25 @@ DATE_FORMATS = [
     "%Y-%m-%dT%H:%M:%SZ",
 ]
 
+# Feeds quote named zones that strptime's %Z will not accept, so translate the
+# ones actually seen across the outlets on this page into numeric offsets.
+NAMED_ZONES = {
+    "GMT": "+0000", "UTC": "+0000", "BST": "+0100",
+    "CET": "+0100", "CEST": "+0200", "EST": "-0500", "EDT": "-0400",
+    "CST": "-0600", "CDT": "-0500", "MST": "-0700", "MDT": "-0600",
+    "PST": "-0800", "PDT": "-0700", "IST": "+0530", "JST": "+0900",
+    "HKT": "+0800", "SGT": "+0800", "AEST": "+1000", "AEDT": "+1100",
+    "NZST": "+1200", "NZDT": "+1300",
+}
+
 
 def _parse_date(raw):
     if not raw:
         return None
-    raw = raw.strip().replace("GMT", "+0000").replace("UTC", "+0000")
+    raw = raw.strip()
+    # Drop fractional seconds (CNN's sitemap emits 2026-08-30T16:01:57.933Z).
+    raw = re.sub(r"(\d{2}:\d{2}:\d{2})\.\d+", r"\1", raw)
+    raw = re.sub(r"\b([A-Z]{2,4})\s*$", lambda m: NAMED_ZONES.get(m.group(1), m.group(1)), raw)
     raw = re.sub(r"(\+\d{2}):(\d{2})$", r"\1\2", raw)
     for fmt in DATE_FORMATS:
         try:
@@ -150,3 +164,26 @@ def dedupe(items, seen_urls, seen_titles):
         seen_titles.add(key)
         out.append(it)
     return out
+
+
+def provenance(item, source_url):
+    """Discovery record for a story, kept alongside it so a headline can be
+    traced back later: the feed it was found in, the publication time the feed
+    reported, and when this run pulled it.
+
+    Fetchers differ in how they carry the item date -- parse_feed yields a
+    datetime, while the Guardian fetcher keeps the raw <dc:date> string -- so
+    normalise both to an ISO string here."""
+    published = item.get("date")
+    if isinstance(published, str):
+        parsed = _parse_date(published)
+        # Drop anything that will not parse rather than passing a raw string
+        # through to a timestamp column downstream.
+        published = parsed.isoformat() if parsed else None
+    elif published is not None:
+        published = published.isoformat()
+    return {
+        "source_url": source_url,
+        "published": published,
+        "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
