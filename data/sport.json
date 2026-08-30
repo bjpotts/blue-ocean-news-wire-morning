@@ -5,22 +5,31 @@
    "name": "Rugby League (NRL) - Australia",
    "items": [
     {
-     "headline": "Eels confirm TEN player departures",
-     "detail": "Parramatta will farewell a bunch of NRL players following next weekend.",
-     "url": "https://www.zerotackle.com/eels-confirm-10-player-departures-237535/",
-     "outlet": "Zero Tackle"
+     "headline": "Sharks crash, Fitzgibbon cracks in Eels demolition",
+     "detail": "The Cronulla coach was left visibly frustrated by the 38-12 loss.",
+     "url": "https://www.zerotackle.com/sharks-crash-fitzgibbon-cracks-in-eels-demolition-237558/",
+     "outlet": "Zero Tackle",
+     "source_url": "https://www.zerotackle.com/feed/",
+     "published": "2026-08-30T21:48:39+00:00",
+     "fetched": "2026-08-30T22:01:19+00:00"
     },
     {
-     "headline": "Sharks circle Dragons centre",
-     "detail": "There will be outside back spots up for grabs in the Sharks backline next year.",
-     "url": "https://www.zerotackle.com/sharks-circle-dragons-centre-237533/",
-     "outlet": "Zero Tackle"
+     "headline": "Can you keep the score low in today’s NRL Rankr?",
+     "detail": "One misplaced category can change everything. How low can you go in today's Rankr?",
+     "url": "https://www.zerotackle.com/daily-game-nrl-rankr-2026-08-31-237518/",
+     "outlet": "Zero Tackle",
+     "source_url": "https://www.zerotackle.com/feed/",
+     "published": "2026-08-30T21:00:00+00:00",
+     "fetched": "2026-08-30T22:01:19+00:00"
     },
     {
-     "headline": "Knights stars’ season in doubt following shocking send off incident",
-     "detail": "The Knights suffer a massive blow for their finals campaign.",
-     "url": "https://www.zerotackle.com/knights-stars-season-in-doubt-following-shocking-send-off-incident-237534/",
-     "outlet": "Zero Tackle"
+     "headline": "One week to go: Every NRL team’s final game scenarios, best and worst case scenarios, ladder prediction",
+     "detail": "Eight games remain, and 16 of the 17 teams can still change position.",
+     "url": "https://www.zerotackle.com/one-week-to-go-every-nrl-teams-final-game-scenarios-best-and-worst-case-scenarios-ladder-prediction-237539/",
+     "outlet": "Zero Tackle",
+     "source_url": "https://www.zerotackle.com/feed/",
+     "published": "2026-08-30T20:41:04+00:00",
+     "fetched": "2026-08-30T22:01:19+00:00"
     }
    ]
   },
@@ -29,22 +38,31 @@
    "name": "AFL - Australia",
    "items": [
     {
+     "headline": "Nine things we learned: This Bomber is in career-best form",
+     "detail": "Geelong's forwards are going to cause headaches, a big Hawk is making her mark, plus more lessons from round three",
+     "url": "https://www.afl.com.au/aflw/news/1594985/nine-things-we-learned-this-bomber-is-in-career-best-form",
+     "outlet": "AFL.com.au",
+     "source_url": "https://www.afl.com.au/rss",
+     "published": "2026-08-30T20:00:00+00:00",
+     "fetched": "2026-08-30T22:01:19+00:00"
+    },
+    {
      "headline": "In case you missed it, R3: Dees' statement win, Swans' perfect start, Power's hero",
      "detail": "All the headlines and major talking points from AFLW round three",
      "url": "https://www.afl.com.au/aflw/news/1594981/in-case-you-missed-it-r3-dees-statement-win-swans-perfect-start-powers-hero",
-     "outlet": "AFL.com.au"
+     "outlet": "AFL.com.au",
+     "source_url": "https://www.afl.com.au/rss",
+     "published": "2026-08-30T12:19:00+00:00",
+     "fetched": "2026-08-30T22:01:19+00:00"
     },
     {
      "headline": "Tigers leave it late to edge Bombers in Dreamtime thriller",
      "detail": "The Tigers have edged the Bombers in a Dreamtime thriller",
      "url": "https://www.afl.com.au/aflw/news/1598373/richmond-tigers-leave-it-late-to-edge-essendon-bombers-in-dreamtime-thriller",
-     "outlet": "AFL.com.au"
-    },
-    {
-     "headline": "Blues hang on in a thriller against fast-finishing Dockers",
-     "detail": "Carlton held off a late comeback from Walyalup to win by six points",
-     "url": "https://www.afl.com.au/aflw/news/1598369/carlton-blues-hang-on-in-a-thriller-against-fast-finishing-fremantle-walyalup-dockers",
-     "outlet": "AFL.com.au"
+     "outlet": "AFL.com.au",
+     "source_url": "https://www.afl.com.au/rss",
+     "published": "2026-08-30T11:31:00+00:00",
+     "fetched": "2026-08-30T22:01:19+00:00"
     }
    ]
   },
@@ -56,19 +74,28 @@
      "headline": "Kolbe stars, Kolisi returns to XV as Springboks level series with New Zealand",
      "detail": "South Africa roared back into Rugby’s Greatest Rivalry as returning captain Siya Kolisi marked his comeback with a try in a thrilling 33-26 victory over New Zealand in Cape Town, levelling the four-Test series at 1-1.",
      "url": "https://www.skysports.com/rugby-union/south-africa-vs-new-zealand/report/111659",
-     "outlet": "Sky Sports Rugby Union"
+     "outlet": "Sky Sports Rugby Union",
+     "source_url": "https://www.skysports.com/rss/12321",
+     "published": "2026-08-29T16:58:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
+    },
+    {
+     "headline": "'That was mighty low!' | Flyover SO CLOSE to stadium roof before SA-NZ Test!",
+     "detail": "Two planes were involved in a very close call doing a flyover before South Africa and New Zealand's rugby union Test in Cape Town.",
+     "url": "https://www.skysports.com/watch/video/13578870/that-was-mighty-low-flyover-so-close-to-stadium-roof",
+     "outlet": "Sky Sports Rugby Union",
+     "source_url": "https://www.skysports.com/rss/12321",
+     "published": "2026-08-29T20:53:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
     },
     {
      "headline": "Can All Blacks weather the inevitable Springboks backlash?",
      "detail": "The second instalment of 'Rugby's Greatest Rivalry' sees South Africa host New Zealand in Cape Town on Saturday, live on Sky Sports, with Springbok hopes already at the make-or-break stage and the All Blacks presented with a historic…",
      "url": "https://www.skysports.com/rugby-union/news/12321/13578065/south-africa-vs-new-zealand-can-all-blacks-weather-springboks-backlash-to-cement-progress-in-cape-town",
-     "outlet": "Sky Sports Rugby Union"
-    },
-    {
-     "headline": "New Zealand and South Africa both make changes ahead of second Test",
-     "detail": "New Zealand have made three changes to their starting XV for Saturday's second Test against South Africa as they look to secure an unassailable 2-0 series lead in Cape Town.",
-     "url": "https://www.skysports.com/rugby-union/news/12321/13577745/south-africa-vs-new-zealand-all-blacks-make-three-changes-ahead-of-second-test-in-cape-town",
-     "outlet": "Sky Sports Rugby Union"
+     "outlet": "Sky Sports Rugby Union",
+     "source_url": "https://www.skysports.com/rss/12321",
+     "published": "2026-08-28T10:46:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
     }
    ]
   },
@@ -77,40 +104,58 @@
    "name": "World Golf",
    "items": [
     {
+     "headline": "Scheffler beats Hovland to FedExCup title at Tour Championship LIVE!",
+     "detail": "Scheffler beats Hovland to FedExCup title at Tour Championship LIVE!",
+     "url": "https://www.skysports.com/golf/live-blog/12176/13578968/tour-championship-final-round-live-latest-updates-highlights-as-scottie-scheffler-rory-mcilroy-chase-viktor-hovland",
+     "outlet": "Sky Sports Golf",
+     "source_url": "https://www.skysports.com/rss/12176",
+     "published": "2026-08-30T22:44:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
+    },
+    {
+     "headline": "Nordqvist bids emotional farewell to playing career ahead of Solheim Cup captaincy",
+     "detail": "Anna Nordqvist brought an emotional end to her 18-year playing career at the FM Championship on Sunday, 12 days before she leads Team Europe into the Solheim Cup as captain, live on Sky Sports .",
+     "url": "https://www.skysports.com/golf/news/12176/13579242/anna-nordqvist-team-europes-solheim-cup-captain-bids-emotional-farewell-to-playing-career-at-lpga-tours-fm-championship",
+     "outlet": "Sky Sports Golf",
+     "source_url": "https://www.skysports.com/rss/12176",
+     "published": "2026-08-30T20:07:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
+    },
+    {
+     "headline": "SLAM-DUNK ACE! | Justin Rose makes incredible hole-in-one!",
+     "detail": "Justin Rose made a slam-dunk ace during his final round of the Tour Championship.",
+     "url": "https://www.skysports.com/watch/video/13579228/slam-dunk-ace-justin-rose-makes-incredible-hole-in-one",
+     "outlet": "Sky Sports Golf",
+     "source_url": "https://www.skysports.com/rss/12176",
+     "published": "2026-08-30T19:30:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
+    },
+    {
+     "headline": "'That was sensational!' | Scheffler inches from ACE!",
+     "detail": "Scottie Scheffler almost made a hole-in-one on the second hole of his final round at the Tour Championship.",
+     "url": "https://www.skysports.com/watch/video/13579199/that-was-sensational-scottie-scheffler-inches-from-ace",
+     "outlet": "Sky Sports Golf",
+     "source_url": "https://www.skysports.com/rss/12176",
+     "published": "2026-08-30T18:50:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
+    },
+    {
      "headline": "Dean snatches extraordinary comeback win at British Masters",
-     "detail": "Joe Dean produced a remarkable final-day comeback to snatch a maiden DP World Tour title with an impressive victory at the Husqvarna British Masters.",
+     "detail": "Joe Dean produced a remarkable final-day comeback to snatch a maiden DP World Tour title with an impressive three-shot victory at the Husqvarna British Masters.",
      "url": "https://www.skysports.com/golf/news/12176/13578954/british-masters-englands-joe-dean-snatches-maiden-dp-world-tour-title-with-extraordinary-comeback-win-at-the-belfry",
-     "outlet": "Sky Sports Golf"
+     "outlet": "Sky Sports Golf",
+     "source_url": "https://www.skysports.com/rss/12176",
+     "published": "2026-08-30T15:40:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
     },
     {
-     "headline": "Hovland leads Scheffler in FedExCup thriller as McIlroy makes late push",
-     "detail": "Viktor Hovland takes a one-shot lead into the final round of the Tour Championship, as Scottie Scheffler stayed in contention and Rory McIlroy kept his FedExCup hopes alive.",
-     "url": "https://www.skysports.com/golf/news/12176/13578716/tour-championship-viktor-hovland-leads-heading-into-final-day-as-scottie-scheffler-and-rory-mcilroy-keep-fedexcup-hopes-alive",
-     "outlet": "Sky Sports Golf"
-    },
-    {
-     "headline": "Hovland leads Tour Championship as Scheffler and McIlroy impress",
-     "detail": "Highlights from day three of the Tour Championship held at East Lake Golf Club in Atlanta, Georgia.",
-     "url": "https://www.skysports.com/watch/video/13578919/tour-championship-day-three-highlights",
-     "outlet": "Sky Sports Golf"
-    },
-    {
-     "headline": "McIlroy eyes late FedExCup run: 'I got myself back in the tournament!'",
-     "detail": "McIlroy eyes late FedExCup run: 'I got myself back in the tournament!'",
-     "url": "https://www.skysports.com/golf/live-blog/12176/13578675/tour-championship-third-round-live-latest-updates-highlights-as-scottie-scheffler-rory-mcilroy-chase-viktor-hovland",
-     "outlet": "Sky Sports Golf"
-    },
-    {
-     "headline": "Latest golf leaderboards: British Masters, Women's Irish Open and more",
-     "detail": "Latest golf scores and results from around the world, including the PGA Tour's Tour Championship, the Husqvarna British Masters and more.",
-     "url": "https://www.skysports.com/golf/news/12176/12950625/golf-leaderboards-pga-tour-lpga-tour-liv-golf-dp-world-tour-ladies-european-tour-major-championships-and-more",
-     "outlet": "Sky Sports Golf"
-    },
-    {
-     "headline": "Marathon Sunday ahead as England's Penge co-leads British Masters",
-     "detail": "Marco Penge holds a share of the lead heading into marathon final day at the weather-affected Husqvarna British Masters, with Tom McKibbin heading the chasing pack.",
-     "url": "https://www.skysports.com/golf/news/12176/13578746/british-masters-marco-penge-co-leads-alongside-daniel-hillier-as-marathon-sunday-lies-ahead",
-     "outlet": "Sky Sports Golf"
+     "headline": "Dean claims first DP World Tour title with remarkable comeback win on home soil!",
+     "detail": "Highlights from day four of the Husqvarna British Masters hosted by Sir Nick Faldo at The Belfry.",
+     "url": "https://www.skysports.com/watch/video/13579133/husqvarna-british-masters-day-four-highlights",
+     "outlet": "Sky Sports Golf",
+     "source_url": "https://www.skysports.com/rss/12176",
+     "published": "2026-08-30T17:13:00+01:00",
+     "fetched": "2026-08-30T22:01:20+00:00"
     }
    ]
   },
@@ -119,22 +164,31 @@
    "name": "Cricket - Worldwide",
    "items": [
     {
-     "headline": "Robinson ripping through Pakistan as England push for series win LIVE!",
-     "detail": "Robinson ripping through Pakistan as England push for series win LIVE!",
-     "url": "https://www.skysports.com/cricket/live-blog/12123/13578951/england-vs-pakistan-second-test-day-four-live-latest-cricket-score-updates-videos-and-analysis-from-lords-as-joe-roots-side-target-series-win",
-     "outlet": "Sky Sports Cricket"
+     "headline": "England seal series victory against Pakistan as Robinson shines",
+     "detail": "Joe Root’s second stint as England captain is off to a flying start as his side cruised to a 194-run win over Pakistan at Lord’s to seal the series, going 2-0 up with a game to go.",
+     "url": "https://www.skysports.com/cricket/news/12123/13579083/england-vs-pakistan-joe-roots-side-seal-series-victory-in-second-test-at-lords-as-ruthless-ollie-robinson-shines-again",
+     "outlet": "Sky Sports Cricket",
+     "source_url": "https://www.skysports.com/rss/12123",
+     "published": "2026-08-30T15:49:00+01:00",
+     "fetched": "2026-08-30T22:01:21+00:00"
     },
     {
-     "headline": "Abbas joins the Lord's honours board as Robinson shines in the second innings",
-     "detail": "Highlights from the morning session on day four of the second Test match between England and Pakistan.",
+     "headline": "Highlights: England cruise past Pakistan to clinch series win on Root’s captaincy return",
+     "detail": "Watch the best of day four at Lord's as England thumped Pakistan by 194 runs to take an unassailable 2-0 lead in the three-match Test series.",
      "url": "https://www.skysports.com/watch/video/13579009/england-vs-pakistan-2nd-test-day-four-morning-session-highlights",
-     "outlet": "Sky Sports Cricket"
+     "outlet": "Sky Sports Cricket",
+     "source_url": "https://www.skysports.com/rss/12123",
+     "published": "2026-08-30T13:34:00+01:00",
+     "fetched": "2026-08-30T22:01:21+00:00"
     },
     {
-     "headline": "Scorecard: England vs Pakistan, second Test, Lord's",
-     "detail": "Scorecard: England vs Pakistan, second Test, Lord's",
-     "url": "https://www.skysports.com/cricket/england-v-pakistan/scorecard/1063b9b8-e3e5-5f0a-8be8-66743bae740b",
-     "outlet": "Sky Sports Cricket"
+     "headline": "'Any side in world cricket would find it hard against England bowling attack'",
+     "detail": "Nasser Hussain says any side in the world would find it tough against England's bowling attack in current conditions after they shredded Pakistan yet again to help Joe Root's side to a series win with a game to spare.",
+     "url": "https://www.skysports.com/cricket/news/12123/13579236/nasser-hussain-says-any-side-in-world-cricket-would-struggle-against-england-bowling-attack-in-current-conditions",
+     "outlet": "Sky Sports Cricket",
+     "source_url": "https://www.skysports.com/rss/12123",
+     "published": "2026-08-30T20:00:00+01:00",
+     "fetched": "2026-08-30T22:01:21+00:00"
     }
    ]
   },
@@ -143,22 +197,31 @@
    "name": "NFL - US",
    "items": [
     {
-     "headline": "NFL roster cuts 2026: Look at how 53-man rosters are taking shape at the cutdown deadline",
-     "detail": "Plenty of decisions are being made at football headquarters in order to trim the roster from the 90-man squad mandated during training camp to 53 players.",
-     "url": "https://sports.yahoo.com/nfl/article/nfl-roster-cuts-tracker-2026-53-man-due-sunday-as-rosters-take-shape-at-the-cutdown-deadline-160435884.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Arizona Cardinals 2026 live cut tracker",
+     "detail": "Following along with all the Arizona Cardinals roster cuts.",
+     "url": "https://sports.yahoo.com/articles/arizona-cardinals-2026-live-cut-033000913.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/nfl/rss.xml",
+     "published": "2026-08-30T21:51:04+00:00",
+     "fetched": "2026-08-30T22:01:24+00:00"
     },
     {
-     "headline": "Bucs cut Browning, elevating UDFA Jalon Daniels to QB2 behind Mayfield",
-     "detail": "Daniels started 45 games in college for Kansas, but the rookie has no regular-season experience.",
-     "url": "https://sports.yahoo.com/nfl/article/bucs-cut-browning-elevating-udfa-jalon-daniels-to-qb2-behind-mayfield-151614591.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Here is the ongoing Dallas Cowboys 53-man roster",
+     "detail": "We are tracking all Dallas Cowboys 53-man roster moves right here.",
+     "url": "https://sports.yahoo.com/articles/ongoing-dallas-cowboys-53-man-041500306.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/nfl/rss.xml",
+     "published": "2026-08-30T21:50:55+00:00",
+     "fetched": "2026-08-30T22:01:24+00:00"
     },
     {
-     "headline": "How does the waiver wire work after cutdown day for the Jets?",
-     "detail": "Today is cutdown day in the NFL. Teams must have their rosters at 53 players by 6:00 pm Eastern Time. Over the next day or two, you will hear a lot about the waiver wire. You might be curious what that is.",
-     "url": "https://sports.yahoo.com/articles/does-waiver-wire-cutdown-day-151228376.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Odell Beckham Jr. making the Giants is one of the coolest stories of the NFL season",
+     "detail": "Odell Beckham Jr. was a star during his first stint with the Giants.",
+     "url": "https://sports.yahoo.com/nfl/article/odell-beckham-jr-making-the-giants-is-one-of-the-coolest-stories-of-the-nfl-season-214923204.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/nfl/rss.xml",
+     "published": "2026-08-30T21:49:23+00:00",
+     "fetched": "2026-08-30T22:01:24+00:00"
     }
    ]
   },
@@ -167,22 +230,31 @@
    "name": "NBA - US",
    "items": [
     {
-     "headline": "3 reasons the Suns could disappoint this season",
-     "detail": "The Phoenix Suns have more talent, but are they actually better now?",
-     "url": "https://sports.yahoo.com/articles/3-reasons-suns-could-disappoint-120000725.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Boston Celtics Daily Links 8/30/26",
+     "detail": "All the Celtics news you need in one convenient place.",
+     "url": "https://sports.yahoo.com/articles/boston-celtics-daily-links-8-191804146.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/nba/rss.xml",
+     "published": "2026-08-30T19:18:04+00:00",
+     "fetched": "2026-08-30T22:01:26+00:00"
     },
     {
-     "headline": "Dallas Mavericks star Kyrie Irving dazzles in latest open-run footage",
-     "detail": "Kyrie Irving’s recent open-run highlights should encourage Dallas Mavericks fans ahead of the 2026-27 NBA season.",
-     "url": "https://sports.yahoo.com/articles/dallas-mavericks-star-kyrie-irving-110600666.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Watch Victor Wembanyama put on show leading France past Sweden in FIBA World Cup qualifying",
+     "detail": "Wembanyama had 18 points on 6-of-7 shooting with three blocks.",
+     "url": "https://sports.yahoo.com/articles/watch-victor-wembanyama-put-show-184418823.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/nba/rss.xml",
+     "published": "2026-08-30T18:44:18+00:00",
+     "fetched": "2026-08-30T22:01:26+00:00"
     },
     {
-     "headline": "Open Thread: The brightest light to shine during the Spurs darkest times",
-     "detail": "How one player can make an impact when the team struggles to find its footing",
-     "url": "https://sports.yahoo.com/articles/open-thread-brightest-light-shine-110000598.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Where do things stand with Jalen Duren, Pistons? Don't expect a sign-and-trade.",
+     "detail": "The sides continue to talk and likely will reach a deal close to the start of training camp.",
+     "url": "https://sports.yahoo.com/articles/where-things-stand-jalen-duren-174556162.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/nba/rss.xml",
+     "published": "2026-08-30T17:45:56+00:00",
+     "fetched": "2026-08-30T22:01:26+00:00"
     }
    ]
   },
@@ -191,22 +263,31 @@
    "name": "MLB - US",
    "items": [
     {
-     "headline": "Shelley Duncan reaches milestone in managerial career",
-     "detail": "The RailRiders’ skipper reflects after 1,000 games in the minor leagues.",
-     "url": "https://sports.yahoo.com/articles/shelley-duncan-reaches-milestone-managerial-150000483.html",
-     "outlet": "Yahoo Sports"
+     "headline": "67-70 – Rangers prevent Brewer brooms with 7-4 finale win",
+     "detail": "Ezequiel Duran carries Texas to victory",
+     "url": "https://sports.yahoo.com/articles/67-70-rangers-prevent-brewer-214231916.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/mlb/rss.xml",
+     "published": "2026-08-30T21:42:31+00:00",
+     "fetched": "2026-08-30T22:01:29+00:00"
     },
     {
-     "headline": "The Mets’ All-Stretch-Run Team",
-     "detail": "An honor for those who finished their seasons on a high note.",
-     "url": "https://sports.yahoo.com/articles/mets-stretch-run-team-150000082.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Chicago Cubs vs. Cincinnati Reds preview, Sunday 8/30, 6:20 CT",
+     "detail": "The Cubs go for the series win.",
+     "url": "https://sports.yahoo.com/articles/chicago-cubs-vs-cincinnati-reds-213100671.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/mlb/rss.xml",
+     "published": "2026-08-30T21:31:00+00:00",
+     "fetched": "2026-08-30T22:01:29+00:00"
     },
     {
-     "headline": "Red Sox activate outfielder Roman Anthony, shortstop Trevor Story from injured list",
-     "detail": "Anthony has been sidelined since May 7, with a torn tendon in his right ring finger, while Story has been out since May 16 due to a sports hernia.",
-     "url": "https://sports.yahoo.com/mlb/article/red-sox-activate-outfielder-roman-anthony-shortstop-trevor-story-from-injured-list-145300011.html",
-     "outlet": "Yahoo Sports"
+     "headline": "Dodgers 2026 game results",
+     "detail": "Keeping track of every game this season, all in one place",
+     "url": "https://sports.yahoo.com/articles/dodgers-2026-game-results-052516142.html",
+     "outlet": "Yahoo Sports",
+     "source_url": "https://sports.yahoo.com/mlb/rss.xml",
+     "published": "2026-08-30T21:23:38+00:00",
+     "fetched": "2026-08-30T22:01:29+00:00"
     }
    ]
   },
@@ -218,19 +299,28 @@
      "headline": "Norris: I can be forceful to get what I want at McLaren",
      "detail": "Reigning world champion Lando Norris says he is in a position at McLaren where he \"can be forceful to try to get what I want\" after signing a contract extension with the team.",
      "url": "https://www.skysports.com/f1/news/12433/13578159/lando-norris-mclaren-driver-says-he-can-be-forceful-to-get-what-he-wants-with-team-after-signing-new-contract",
-     "outlet": "Sky Sports F1"
+     "outlet": "Sky Sports F1",
+     "source_url": "https://www.skysports.com/rss/12433",
+     "published": "2026-08-30T07:00:00+01:00",
+     "fetched": "2026-08-30T22:01:29+00:00"
     },
     {
      "headline": "'Nowhere else I want to be' - Norris extends McLaren contract until 2030",
      "detail": "Reigning Formula 1 world champion Lando Norris has extended his contract with McLaren until at least 2030.",
      "url": "https://www.skysports.com/f1/news/12433/13577711/lando-norris-mclaren-driver-signs-contract-extension-until-2030-with-target-of-more-world-championships",
-     "outlet": "Sky Sports F1"
+     "outlet": "Sky Sports F1",
+     "source_url": "https://www.skysports.com/rss/12433",
+     "published": "2026-08-29T10:24:00+01:00",
+     "fetched": "2026-08-30T22:01:29+00:00"
     },
     {
      "headline": "F1 contracts: How long is each driver signed up for?",
      "detail": "A look at how long each Formula 1 driver's contract is believed to be, as it stands in 2026, amid the potential for some key moves heading into the 2027 season.",
      "url": "https://www.skysports.com/f1/news/12433/13511938/f1-driver-contracts-how-long-are-lewis-hamilton-max-verstappen-lando-norris-and-other-formula-1-stars-signed-for-ahead-of-2026-season",
-     "outlet": "Sky Sports F1"
+     "outlet": "Sky Sports F1",
+     "source_url": "https://www.skysports.com/rss/12433",
+     "published": "2026-08-29T11:18:00+01:00",
+     "fetched": "2026-08-30T22:01:29+00:00"
     }
    ]
   },
@@ -239,22 +329,31 @@
    "name": "Tennis - Rest of World",
    "items": [
     {
-     "headline": "Coco Gauff, Jessica Pegula Locked in Fierce No. 1 Battle With Aryna Sabalenka, Elena Rybakina at US Open",
-     "detail": "The 2026 US Open is upon us, and the women’s draw promises an intense four-way battle between Aryna Sabalenka, Elena Rybakina, Jessica Pegula, and Coco Gauff for the World No. 1 ranking.",
-     "url": "https://sports.yahoo.com/articles/coco-gauff-jessica-pegula-locked-141545726.html",
-     "outlet": "Yahoo Sports Tennis"
+     "headline": "Tennis bookmakers: Best tennis bookies ranked and reviewed",
+     "detail": "There are numerous online tennis bookmakers, but which ones are serving up a high-quality betting experience?",
+     "url": "https://sports.yahoo.com/articles/best-tennis-betting-sites-uk-221242017.html",
+     "outlet": "Yahoo Sports Tennis",
+     "source_url": "https://sports.yahoo.com/tennis/rss.xml",
+     "published": "2026-08-30T20:56:20+00:00",
+     "fetched": "2026-08-30T22:01:31+00:00"
     },
     {
-     "headline": "US Open 2026 Day 1: Schedule, Matches, Results, Start Time & How To Watch",
-     "detail": "The US Open 2026 Day 1 main draw begins Sunday, August 30, with 128 men and 128 women opening the tournament’s first round across Flushing Meadows.",
-     "url": "https://sports.yahoo.com/articles/us-open-2026-day-1-140025356.html",
-     "outlet": "Yahoo Sports Tennis"
+     "headline": "Pegula shakes off nerves in US Open first-round win",
+     "detail": "World number three Jessica Pegula conquered US Open first-round nerves to dispatch Elena-Gabriela Ruse on Sunday, kicking off the action on Arthur Ashe Stadium as Novak Djokovic waited in the wings.The 39-year-old, seeded fourth in a draw…",
+     "url": "https://sports.yahoo.com/articles/pegula-shakes-off-nerves-ruse-in-us-open-first-round-win-175853817.html",
+     "outlet": "Yahoo Sports Tennis",
+     "source_url": "https://sports.yahoo.com/tennis/rss.xml",
+     "published": "2026-08-30T20:33:55+00:00",
+     "fetched": "2026-08-30T22:01:31+00:00"
     },
     {
-     "headline": "US Open 2026 free live streams: How to watch tennis grand slam for free without cable",
-     "detail": "TV channel and live stream information for US Open 2026 as the world’s best tennis players head to New York, USA.",
-     "url": "https://sports.yahoo.com/articles/us-open-2026-free-live-140001154.html",
-     "outlet": "Yahoo Sports Tennis"
+     "headline": "Former World No. 2 Who Beat Alcaraz, Djokovic Suddenly Pulls Out of U.S. Open",
+     "detail": "The World No. 20 men's player, who has beaten Carlos Alcaraz and Novak Djokovic, suddenly pulled out of the U.S. Open.",
+     "url": "https://sports.yahoo.com/articles/former-world-no-2-beat-192341290.html",
+     "outlet": "Yahoo Sports Tennis",
+     "source_url": "https://sports.yahoo.com/tennis/rss.xml",
+     "published": "2026-08-30T19:23:41+00:00",
+     "fetched": "2026-08-30T22:01:31+00:00"
     }
    ]
   }

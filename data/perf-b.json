@@ -3,8 +3,8 @@
   {
    "key": "china",
    "title": "China (Mainland) Top Performers",
-   "caption": "Source: TradingView Mainland China market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: TradingView Mainland China market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
    "gainer_note": "Hunan Kylinsec Technology Co., Ltd. Class A led the China (Mainland) board for the session, up 20.00 per cent to CN\u00a538.04 on reported volume of 7.33M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
@@ -158,62 +158,69 @@
   {
    "key": "us",
    "title": "US Top Performers",
-   "caption": "Source: Yahoo Finance US market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: Yahoo Finance US market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
-   "gainer_note": "Elastic N.V. led the US board for the session, up 19.31 per cent to $99.91 on reported volume of 10.078M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
+   "gainer_note": "Pasqal Holding SA Ordinary Share led the US board for the session, up 95.20 per cent to $19.11 on reported volume of 3.661M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
-   "loser_note": "SELLAS Life Sciences Group, Inc. was the steepest decliner on the US board for the session, down 13.15 per cent to $13.21 on reported volume of 9.758M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
+   "loser_note": "SELLAS Life Sciences Group, Inc. was the steepest decliner on the US board for the session, down 13.15 per cent to $13.21 on reported volume of 9.814M shares. The move is reported here as captured from Yahoo Finance US market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "loser_note_sources": [],
    "gainers": [
+    {
+     "name": "Pasqal Holding SA Ordinary Share (PSQL)",
+     "url": "https://finance.yahoo.com/quote/PSQL/",
+     "price": "$19.11",
+     "chg": "+95.20%",
+     "vol": "3.661M"
+    },
     {
      "name": "Elastic N.V. (ESTC)",
      "url": "https://finance.yahoo.com/quote/ESTC/",
      "price": "$99.91",
      "chg": "+19.31%",
-     "vol": "10.078M"
+     "vol": "10.114M"
     },
     {
      "name": "The Gap, Inc. (GAP)",
      "url": "https://finance.yahoo.com/quote/GAP/",
      "price": "$23.48",
      "chg": "+12.94%",
-     "vol": "26.397M"
+     "vol": "26.386M"
     },
     {
      "name": "Solstice Advanced Materials, Inc. (SOLS)",
      "url": "https://finance.yahoo.com/quote/SOLS/",
      "price": "$63.53",
      "chg": "+12.76%",
-     "vol": "16.437M"
+     "vol": "16.47M"
     },
     {
      "name": "TOP Financial Group Limited (TOP)",
      "url": "https://finance.yahoo.com/quote/TOP/",
      "price": "$16.73",
      "chg": "+8.50%",
-     "vol": "246,943"
+     "vol": "247,279"
     },
     {
      "name": "Trulieve Cannabis Corp. (TRLV)",
      "url": "https://finance.yahoo.com/quote/TRLV/",
      "price": "$11.82",
      "chg": "+7.16%",
-     "vol": "1.363M"
+     "vol": "1.366M"
     },
     {
      "name": "Flutter Entertainment plc (FLUT)",
      "url": "https://finance.yahoo.com/quote/FLUT/",
      "price": "$101.78",
      "chg": "+7.13%",
-     "vol": "3.016M"
+     "vol": "3.017M"
     },
     {
      "name": "Workday, Inc. (WDAY)",
      "url": "https://finance.yahoo.com/quote/WDAY/",
      "price": "$204.72",
      "chg": "+5.76%",
-     "vol": "8.656M"
+     "vol": "8.671M"
     },
     {
      "name": "Domino's Pizza, Inc. (DPZ)",
@@ -227,14 +234,7 @@
      "url": "https://finance.yahoo.com/quote/LULU/",
      "price": "$120.81",
      "chg": "+5.05%",
-     "vol": "3.901M"
-    },
-    {
-     "name": "CVR Energy, Inc. (CVI)",
-     "url": "https://finance.yahoo.com/quote/CVI/",
-     "price": "$41.76",
-     "chg": "+5.03%",
-     "vol": "929,420"
+     "vol": "3.915M"
     }
    ],
    "losers": [
@@ -243,78 +243,78 @@
      "url": "https://finance.yahoo.com/quote/SLS/",
      "price": "$13.21",
      "chg": "-13.15%",
-     "vol": "9.758M"
+     "vol": "9.814M"
     },
     {
      "name": "Rubrik, Inc. (RBRK)",
      "url": "https://finance.yahoo.com/quote/RBRK/",
      "price": "$93.05",
      "chg": "-13.05%",
-     "vol": "9.408M"
+     "vol": "9.439M"
     },
     {
      "name": "PayPal Holdings, Inc. (PYPL)",
      "url": "https://finance.yahoo.com/quote/PYPL/",
      "price": "$53.66",
      "chg": "-12.71%",
-     "vol": "36.208M"
+     "vol": "36.316M"
     },
     {
      "name": "IREN Limited (IREN)",
      "url": "https://finance.yahoo.com/quote/IREN/",
      "price": "$35.45",
      "chg": "-12.53%",
-     "vol": "88.621M"
+     "vol": "89.748M"
     },
     {
      "name": "Kailera Therapeutics, Inc. (KLRA)",
      "url": "https://finance.yahoo.com/quote/KLRA/",
      "price": "$16.21",
      "chg": "-12.52%",
-     "vol": "531,875"
+     "vol": "531,965"
     },
     {
      "name": "AXT, Inc. (AXTI)",
      "url": "https://finance.yahoo.com/quote/AXTI/",
      "price": "$58.63",
      "chg": "-12.39%",
-     "vol": "8.261M"
+     "vol": "8.311M"
     },
     {
      "name": "Aehr Test Systems, Inc. (AEHR)",
      "url": "https://finance.yahoo.com/quote/AEHR/",
      "price": "$80.81",
      "chg": "-10.67%",
-     "vol": "2.275M"
+     "vol": "2.287M"
     },
     {
      "name": "Infleqtion, Inc. (INFQ)",
      "url": "https://finance.yahoo.com/quote/INFQ/",
      "price": "$12.80",
      "chg": "-10.61%",
-     "vol": "8.885M"
+     "vol": "8.929M"
     },
     {
      "name": "Marvell Technology, Inc. (MRVL)",
      "url": "https://finance.yahoo.com/quote/MRVL/",
      "price": "$216.62",
      "chg": "-10.28%",
-     "vol": "48.739M"
+     "vol": "48.903M"
     },
     {
      "name": "MARA Holdings, Inc. (MARA)",
      "url": "https://finance.yahoo.com/quote/MARA/",
      "price": "$10.67",
      "chg": "-10.11%",
-     "vol": "41.744M"
+     "vol": "41.863M"
     }
    ]
   },
   {
    "key": "uk",
    "title": "UK (London) Top Performers",
-   "caption": "Source: TradingView United Kingdom market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: TradingView United Kingdom market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
    "gainer_note": "Sunda Energy PLC led the UK (London) board for the session, up 26.09 per cent to 2.900p on reported volume of 22.83M shares. The move is reported here as captured from TradingView United Kingdom market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],

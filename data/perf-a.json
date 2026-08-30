@@ -3,8 +3,8 @@
   {
    "key": "anz",
    "title": "ANZ Top Performers",
-   "caption": "Source: TradingView Australia market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: TradingView Australia market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
    "gainer_note": "Articore Group Limited led the ANZ board for the session, up 28.79 per cent to $0.425 on reported volume of 10M shares. The move is reported here as captured from TradingView Australia market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
@@ -158,8 +158,8 @@
   {
    "key": "japan",
    "title": "Japan Top Performers",
-   "caption": "Source: TradingView Japan market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: TradingView Japan market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
    "gainer_note": "FIXER Inc. led the Japan board for the session, up 30.53 per cent to \u00a5342 on reported volume of 1.13M shares. The move is reported here as captured from TradingView Japan market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
@@ -313,8 +313,8 @@
   {
    "key": "singapore",
    "title": "Singapore Top Performers",
-   "caption": "Source: TradingView Singapore market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: TradingView Singapore market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
    "gainer_note": "Suntar Eco-City Ltd. led the Singapore board for the session, up 15.38 per cent to S$0.300 on reported volume of 7.2K shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],
@@ -468,8 +468,8 @@
   {
    "key": "hongkong",
    "title": "Hong Kong Top Performers",
-   "caption": "Source: TradingView Hong Kong market movers, captured Monday 31 August 2026 at 01:18 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-08-31T01:18:26+10:00",
+   "caption": "Source: TradingView Hong Kong market movers, captured Monday 31 August 2026 at 08:00 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-08-31T08:00:31+10:00",
    "stale": false,
    "gainer_note": "International Business Settlement Holdings Limited led the Hong Kong board for the session, up 37.32 per cent to HK$0.195 on reported volume of 608.43M shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
    "gainer_note_sources": [],

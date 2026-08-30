@@ -4,33 +4,48 @@
    "key": "nbc",
    "name": "NBC News",
    "site": "nbcnews.com",
-   "summary": "NBC News, covering US national news and politics is leading with NASA launches its next-generation space telescope; Ted Cruz says ‘there will be a time’ to make a decision on a 2028 run for president; Minnesota Supreme Court rejects Mike Lindell’s bid to recount GOP primary.",
+   "summary": "NBC News, covering US national news and politics is leading with Jim Clyburn calls to expand the Supreme Court to ‘a baker’s dozen’; Ted Cruz says ‘there will be a time’ to make a decision on a 2028 run for president; At least 20 missing at Grand Canyon after extreme flash flooding.",
    "note": null,
    "items": [
     {
-     "headline": "NASA launches its next-generation space telescope",
-     "detail": "NASA launched the Nancy Grace Roman Space Telescope into space and is expected to survey hundreds of millions of stars and billions of galaxies.",
-     "url": "https://www.nbcnews.com/video/nasa-launches-its-next-generation-space-telescope-269068357947"
+     "headline": "Jim Clyburn calls to expand the Supreme Court to ‘a baker’s dozen’",
+     "detail": "Rep. James Clyburn (D-S.C.) tells Meet the Press Congress should expand the Supreme Court to 13 justices “who will follow the constitutional underpinnings” of America.",
+     "url": "https://www.nbcnews.com/meet-the-press/video/jim-clyburn-calls-to-expand-the-supreme-court-to-a-baker-s-dozen-269070917504",
+     "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
+     "published": "2026-08-30T13:52:44+00:00",
+     "fetched": "2026-08-30T22:01:11+00:00"
     },
     {
      "headline": "Ted Cruz says ‘there will be a time’ to make a decision on a 2028 run for president",
      "detail": "Sen. Ted Cruz (R-Texas) tells Meet the Press he plans to be on the road “nonstop” heading into the midterms and says “there’s a time for every season” when asked if he’s considering a run for president in 2028.",
-     "url": "https://www.nbcnews.com/meet-the-press/video/ted-cruz-says-there-will-be-a-time-to-make-a-decision-on-a-2028-run-for-president-269067334000"
+     "url": "https://www.nbcnews.com/meet-the-press/video/ted-cruz-says-there-will-be-a-time-to-make-a-decision-on-a-2028-run-for-president-269067334000",
+     "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
+     "published": "2026-08-30T13:40:12+00:00",
+     "fetched": "2026-08-30T22:01:11+00:00"
     },
     {
-     "headline": "Minnesota Supreme Court rejects Mike Lindell’s bid to recount GOP primary",
-     "detail": "MyPillow founder Mike Lindell has long denied Donald Trump’s loss in the 2020 presidential election.",
-     "url": "https://www.nbcnews.com/politics/2026-election/minnesota-supreme-court-rejects-mike-lindells-bid-recount-gop-gubernat-rcna595080"
+     "headline": "At least 20 missing at Grand Canyon after extreme flash flooding",
+     "detail": "At least 20 people are missing or unaccounted for after flash floods overwhelmed a remote area of the Grand Canyon, including a historic lodge near the bottom of the site, officials said Sunday.",
+     "url": "https://www.nbcnews.com/news/us-news/20-missing-grand-canyon-extreme-flash-flooding-rcna595197",
+     "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
+     "published": "2026-08-30T21:13:50+00:00",
+     "fetched": "2026-08-30T22:01:11+00:00"
     },
     {
-     "headline": "Iran’s supreme leader urges Gulf rulers to confront ‘real enemy’ in written message",
-     "detail": "Iran’s Supreme Leader ​Mojtaba Khamenei urged Muslim countries, particularly those in the Gulf, to unite against what he called their “real enemy” and said divisions among Muslims served the interests of their adversaries.",
-     "url": "https://www.nbcnews.com/world/iran/irans-mojtaba-khamenei-urges-gulf-rulers-message-rcna595092"
+     "headline": "Water cuts are coming for Arizona. Is your salad on the chopping block?",
+     "detail": "Yuma County, Arizona grows 90% of the U.S.’ winter salad greens. But the state relies on the depleted Colorado River, and water cuts are about to hit.",
+     "url": "https://www.nbcnews.com/science/environment/colorado-river-water-cuts-arizona-farming-salad-greens-rcna592937",
+     "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
+     "published": "2026-08-30T10:30:40+00:00",
+     "fetched": "2026-08-30T22:01:11+00:00"
     },
     {
-     "headline": "Sen. Ted Cruz calls for elections in Venezuela to proceed ‘rapidly’",
-     "detail": "Sen. Ted Cruz renewed calls for free and fair elections to be held in Venezuela, just two days after Trump announced that the U.S. would take of 65 billion barrels of oil",
-     "url": "https://www.nbcnews.com/politics/congress/ted-cruz-elections-venezuela-oil-maduro-delcy-rodriguez-rcna595110"
+     "headline": "Dolly Parton’s niece shares emotional tribute after singer’s private funeral",
+     "detail": "Dolly Parton was laid to rest in a private funeral service attended by family on Friday, according to her niece.",
+     "url": "https://www.nbcnews.com/news/us-news/dolly-partons-grand-niece-shares-tribute-singers-private-funeral-rcna595191",
+     "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
+     "published": "2026-08-30T21:05:55+00:00",
+     "fetched": "2026-08-30T22:01:11+00:00"
     }
    ]
   },
@@ -38,33 +53,48 @@
    "key": "thehill",
    "name": "The Hill",
    "site": "thehill.com",
-   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with Trump promises NBC's Welker will be reported to FCC 'for rebuke or punishment'; Sunrises before 5 a.m.? How permanent standard time would impact summer mornings; An incentive for investment: How the US tax code can help America rebuild.",
+   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with Freedom Fuel gas stations sold stolen fuel, lawsuit claims; This week on the Hill: House aims to pass measure to avert shutdown ahead of midterms; Republicans ready for 'very hasty' 'Trump-a-palooza' convention in Texas.",
    "note": null,
    "items": [
     {
-     "headline": "Trump promises NBC's Welker will be reported to FCC 'for rebuke or punishment'",
-     "detail": "President Trump said Sunday that NBC News's \"Meet the Press\" host Kristen Welker will be reported to the Federal Communications Commission (FCC) after she reportedly said on the program that Trump-endorsed candidates have had mixed results…",
-     "url": "https://thehill.com/homenews/media/6059558-trump-threatens-nbc-welker-fcc/"
+     "headline": "Freedom Fuel gas stations sold stolen fuel, lawsuit claims",
+     "detail": "Freedom Fuel gas stations, which the Trump administration promoted last month, sold fuel that its supplier never paid for, according to a lawsuit filed earlier this month. The suit, which attorneys for Mansfield Oil Company filed in U.S.",
+     "url": "https://thehill.com/policy/energy-environment/6059912-freedom-fuel-lawsuit-unpaid-gas/",
+     "source_url": "https://thehill.com/news/feed/",
+     "published": "2026-08-30T21:20:01+00:00",
+     "fetched": "2026-08-30T22:01:12+00:00"
     },
     {
-     "headline": "Sunrises before 5 a.m.? How permanent standard time would impact summer mornings",
-     "detail": "Summer mornings could feel a lot different if we stopped observing daylight saving time during part of the year.",
-     "url": "https://thehill.com/policy/energy-environment/6047539-sunrises-before-5-a-m-how-permanent-standard-time-would-impact-summer-mornings/"
+     "headline": "This week on the Hill: House aims to pass measure to avert shutdown ahead of midterms",
+     "detail": "The House is back in session this week after a monthlong August recess, with lawmakers aiming to avert a government shutdown before funding expires Sept. 30 amid the 2026 election season.",
+     "url": "https://thehill.com/newsletters/this-week-on-the-hill/6058323-government-funding-socialism-edwards/",
+     "source_url": "https://thehill.com/news/feed/",
+     "published": "2026-08-30T21:00:00+00:00",
+     "fetched": "2026-08-30T22:01:12+00:00"
     },
     {
-     "headline": "An incentive for investment: How the US tax code can help America rebuild",
-     "detail": "Leaders in Gary, Ind., have recognized a truth facing many older American communities — that revitalization sometimes requires preserving the past, sometimes adapting it, and sometimes removing what no longer serves any productive purpose.",
-     "url": "https://thehill.com/opinion/finance/6055864-tax-policy-urban-revitalization/"
+     "headline": "Republicans ready for 'very hasty' 'Trump-a-palooza' convention in Texas",
+     "detail": "The Republican National Committee’s (RNC) first-of-its-kind midterm convention has been cloaked in mystery until a few weeks ago.",
+     "url": "https://thehill.com/homenews/campaign/6058289-rnc-midterm-convention-dallas/",
+     "source_url": "https://thehill.com/news/feed/",
+     "published": "2026-08-30T21:00:00+00:00",
+     "fetched": "2026-08-30T22:01:12+00:00"
     },
     {
-     "headline": "Live updates: US-Venezuela oil deal sparks debate; Doug Ford mocks Trump's Lake Ontario renaming",
-     "detail": "Ontario Premier Doug Ford on Sunday mocked President Trump’s executive order renaming Lake Ontario to “Lake America,” saying the move resembled “something out of ‘Saturday Night Live.'” Ford has traded barbs with the president many times…",
-     "url": "https://thehill.com/homenews/administration/6059344-live-updates-trump-venezuela-oil-deal/"
+     "headline": "Greene condemns Loomer’s rhetoric: ‘This is Trump’s new MAGA and Republican Party’",
+     "detail": "Former Rep. Marjorie Taylor Greene (R-Ga.) on Sunday slammed right-wing influencer Laura Loomer's remarks posted on social media, condemning them as President Trump's \"new MAGA and Republican Party.\" Greene reacted to an inflammatory post…",
+     "url": "https://thehill.com/homenews/media/6059887-marjorie-taylor-greene-denounces-loomer/",
+     "source_url": "https://thehill.com/news/feed/",
+     "published": "2026-08-30T20:21:53+00:00",
+     "fetched": "2026-08-30T22:01:12+00:00"
     },
     {
-     "headline": "Homan pushes back on alleged ICE arrests of parents at bus stops",
-     "detail": "White House border czar Tom Homan on Sunday pushed back on the idea of Immigration and Customs Enforcement (ICE) arresting parents at bus stops in Connecticut, as alleged by Sen. Chris Murphy (D-Conn.) this week.",
-     "url": "https://thehill.com/policy/national-security/6059574-homan-ice-bus-stop-arrests/"
+     "headline": "Trump: 'I don't want Canadian anything'",
+     "detail": "President Trump said Sunday he does not want U.S. businesses to import Canadian goods amid continued tariff tensions between the two countries.",
+     "url": "https://thehill.com/homenews/administration/6059848-trump-canada-import-tariffs/",
+     "source_url": "https://thehill.com/news/feed/",
+     "published": "2026-08-30T20:10:36+00:00",
+     "fetched": "2026-08-30T22:01:12+00:00"
     }
    ]
   },
@@ -72,33 +102,48 @@
    "key": "time",
    "name": "Time",
    "site": "time.com",
-   "summary": "Time magazine, covering US and world affairs is leading with Doing Random Acts of Kindness Is Good for You; Trump Promises His Venezuela Oil Deal Will Lower Gas Prices. But When?; Therapy Has a Relationship Problem.",
+   "summary": "Time magazine, covering US and world affairs is leading with What Is Trump’s U.S. Space Academy?; Doing Random Acts of Kindness Is Good for You; Trump Promises His Venezuela Oil Deal Will Lower Gas Prices. But When?.",
    "note": null,
    "items": [
     {
+     "headline": "What Is Trump’s U.S. Space Academy?",
+     "detail": "President Donald Trump has set plans in motion for a first-of-its-kind federal academy dedicated to the future leaders of a new space age.",
+     "url": "https://time.com/article/2026/08/30/what-is-trumps-us-space-academy-/",
+     "source_url": "https://time.com/feed/",
+     "published": "2026-08-30T20:00:47+00:00",
+     "fetched": "2026-08-30T22:01:13+00:00"
+    },
+    {
      "headline": "Doing Random Acts of Kindness Is Good for You",
      "detail": "Research indicates that engaging in random acts of kindness boosts happiness in both those who give and those who receive, writes Joan M. Cook.",
-     "url": "https://time.com/article/2026/08/30/doing-random-acts-of-kindness-is-good-for-you/"
+     "url": "https://time.com/article/2026/08/30/doing-random-acts-of-kindness-is-good-for-you/",
+     "source_url": "https://time.com/feed/",
+     "published": "2026-08-30T10:00:04+00:00",
+     "fetched": "2026-08-30T22:01:13+00:00"
     },
     {
      "headline": "Trump Promises His Venezuela Oil Deal Will Lower Gas Prices. But When?",
      "detail": "Developing the country’s vast oil reserves will require significant investment and infrastructure work—and officials have provided no public timeline.",
-     "url": "https://time.com/article/2026/08/29/trump-says-his-venezuela-oil-deal-will-lower-gas-prices-but-when-/"
+     "url": "https://time.com/article/2026/08/29/trump-says-his-venezuela-oil-deal-will-lower-gas-prices-but-when-/",
+     "source_url": "https://time.com/feed/",
+     "published": "2026-08-30T00:29:20+00:00",
+     "fetched": "2026-08-30T22:01:13+00:00"
     },
     {
      "headline": "Therapy Has a Relationship Problem",
      "detail": "When therapy mistakes relational distress for dysfunction, it leaves people with fewer meaningful connections and worse mental health, writes David H. Rosmarin.",
-     "url": "https://time.com/article/2026/08/29/therapy-has-a-relationship-problem/"
+     "url": "https://time.com/article/2026/08/29/therapy-has-a-relationship-problem/",
+     "source_url": "https://time.com/feed/",
+     "published": "2026-08-29T10:00:05+00:00",
+     "fetched": "2026-08-30T22:01:13+00:00"
     },
     {
      "headline": "Dire Strait: Why Economic Threats Might Escalate the War in Iran",
      "detail": "Instead of unclogging Hormuz and bringing Iran to heel, Washington’s so-called “economic D-day” might drive Tehran to double down.",
-     "url": "https://time.com/article/2026/08/29/iran-escalation-trump-economic-war/"
-    },
-    {
-     "headline": "The Trouble With Trump’s Attempt to Rename Lake Ontario",
-     "detail": "Trump’s renaming of Lake Ontario is symbolic political theater aimed at diverting our attention away from the fallout of his trade war with Canada, write Reuben Rose-Redwood and Derek Alderman.",
-     "url": "https://time.com/article/2026/08/28/the-trouble-with-trump-s-attempt-to-rename-lake-ontario/"
+     "url": "https://time.com/article/2026/08/29/iran-escalation-trump-economic-war/",
+     "source_url": "https://time.com/feed/",
+     "published": "2026-08-29T10:00:00+00:00",
+     "fetched": "2026-08-30T22:01:13+00:00"
     }
    ]
   },
@@ -106,33 +151,48 @@
    "key": "variety",
    "name": "Variety",
    "site": "variety.com",
-   "summary": "Variety, on the business of entertainment is leading with ‘Call My Agent! The Movie’ Review: Love-Hate Energy Keeps the Gang Together in a Fast, Funny Feature-Length Return; Here’s How to Watch the 2026 Little League World Series Championship Game Live Online; Laura Dern to Give George Clooney Venice Golden Lion for Lifetime Achievement.",
+   "summary": "Variety, on the business of entertainment is leading with Enhypen Lands First No. 1, Dolly Parton Reenters Top Five on Albums Chart; ‘Days of Thunder’ Star Randy Quaid Says Anne Hathaway Is ‘Woke’ and a ‘Horrible Choice’ for the Sequel: ‘You Need the Original Girl’; Sandra Bullock Seemingly Drops Hint That Olivia Rodrigo and Stevie Nicks Have Music in ‘Practical Magic 2’.",
    "note": null,
    "items": [
     {
-     "headline": "‘Call My Agent! The Movie’ Review: Love-Hate Energy Keeps the Gang Together in a Fast, Funny Feature-Length Return",
-     "detail": "The rare reboot pitch that that can actually be greeted with “this again!” rather than “this again?,” “Call My Agent! The Movie” makes sense of its rote title in two ways.",
-     "url": "https://variety.com/2026/film/news/call-my-agent-the-movie-review-1236846824/"
+     "headline": "Enhypen Lands First No. 1, Dolly Parton Reenters Top Five on Albums Chart",
+     "detail": "Enhypen has scored its first No. 1 on the Billboard 200 with “The Sin : Bliss,” while Dolly Parton reentered the top 5 with “Ultimate Dolly Parton” following news of her death earlier this week.",
+     "url": "https://variety.com/2026/music/news/enhypen-land-first-no-1-dolly-parton-returns-albums-chart-1236846995/",
+     "source_url": "https://variety.com/feed/",
+     "published": "2026-08-30T21:45:38+00:00",
+     "fetched": "2026-08-30T22:01:16+00:00"
     },
     {
-     "headline": "Here’s How to Watch the 2026 Little League World Series Championship Game Live Online",
-     "detail": "The 2026 Little League World Series Championship Game features Nevada vs. Curaçao on Sunday, Aug. 30 at 3 p.m. ET/12 p.m. PT on ESPN. Games take place at Lamade Stadium in South Williamsport, Pennsylvania.",
-     "url": "https://variety.com/2026/shopping/news/how-to-watch-little-league-world-series-online-livestream-free-1236487338/"
+     "headline": "‘Days of Thunder’ Star Randy Quaid Says Anne Hathaway Is ‘Woke’ and a ‘Horrible Choice’ for the Sequel: ‘You Need the Original Girl’",
+     "detail": "“Days of Thunder” star Randy Quaid sounded off on Anne Hathaway after it was revealed that she has joined Tom Cruise in the racing drama’s upcoming sequel. “We need Nicole [Kidman] back,” Quaid wrote on X Saturday.",
+     "url": "https://variety.com/2026/film/news/days-of-thunder-2-anne-hathaway-horrible-choice-randy-quaid-1236846972/",
+     "source_url": "https://variety.com/feed/",
+     "published": "2026-08-30T20:17:20+00:00",
+     "fetched": "2026-08-30T22:01:16+00:00"
     },
     {
-     "headline": "Laura Dern to Give George Clooney Venice Golden Lion for Lifetime Achievement",
-     "detail": "Laura Dern is set to give the Laudatio speech honoring George Clooney at Venice Film Festival where, as previously announced, he will be honored on Wed., Sept. 2, with a Golden Lion for Lifetime Achievement.",
-     "url": "https://variety.com/2026/film/festivals/laura-dern-george-clooney-venice-golden-lion-lifetime-1236846829/"
+     "headline": "Sandra Bullock Seemingly Drops Hint That Olivia Rodrigo and Stevie Nicks Have Music in ‘Practical Magic 2’",
+     "detail": "Will Olivia Rodrigo and Stevie Nicks bring their musical talents to “Practical Magic 2?” Star Sandra Bullock seemed to teased the two pop stars’ involvement in the Warner Bros. sequel in a post on her Instagram Story Sunday morning.",
+     "url": "https://variety.com/2026/film/news/sandra-bullock-olivia-rodrigo-stevie-nicks-practical-magic-2-1236846948/",
+     "source_url": "https://variety.com/feed/",
+     "published": "2026-08-30T19:31:03+00:00",
+     "fetched": "2026-08-30T22:01:16+00:00"
     },
     {
-     "headline": "’17’ Review: Harrowing Teen Pregnancy Drama from Macedonia Could Be the Feel-Bad Movie of the Year",
-     "detail": "From the first frame, Kosara Mitić’s “17” refuses to pull any punches, plunging us immediately into the traumatic moment when a hookup between high-school student Sara (Eva Kostić) and two boys takes a violent turn.",
-     "url": "https://variety.com/2026/film/reviews/17-review-1236846790/"
+     "headline": "At Daisy Chain Fields, Olivia Rodrigo, Chappell Roan and Honored Forebears Convene for a Superb Festival That’s Hot to Go in Every Way: Concert Review",
+     "detail": "You know an inaugural festival has been a success when, after the temperature reached 95 degrees, humidity topped 80%… perspiration stains were so pervasive that it was the odd dry spots that looked like stains… constant 12-minute trudges…",
+     "url": "https://variety.com/2026/music/concert-reviews/daisy-chain-fields-olivia-rodrigo-chappell-roan-concert-review-1236846844/",
+     "source_url": "https://variety.com/feed/",
+     "published": "2026-08-30T18:05:11+00:00",
+     "fetched": "2026-08-30T22:01:16+00:00"
     },
     {
-     "headline": "‘Sea of Glass’ Review: A Widow’s Coastal Healing Retreat Turns Into a Stately, Moody Greek Tragedy",
-     "detail": "There are Greek waves aplenty lapping at the forlorn beachside setting of “Sea of Glass,” though they’re not especially weird ones.",
-     "url": "https://variety.com/2026/film/news/sea-of-glass-review-1236846714/"
+     "headline": "President Trump Calls For FCC Punishment of NBC News’ Kristen Welker Following Promotional ‘Meet the Press’ Banter",
+     "detail": "President Donald Trump suggested referring NBC News anchor Kristen Welker for possible punishment by the Federal Communications Commission after the “Meet the Press” moderator made innocuous remarks about candidates the President has…",
+     "url": "https://variety.com/2026/tv/news/trump-kristen-welker-fcc-punishment-meet-the-press-1236846910/",
+     "source_url": "https://variety.com/feed/",
+     "published": "2026-08-30T17:29:02+00:00",
+     "fetched": "2026-08-30T22:01:16+00:00"
     }
    ]
   },
@@ -140,33 +200,48 @@
    "key": "bloomberg",
    "name": "Bloomberg",
    "site": "bloomberg.com",
-   "summary": "Bloomberg's markets and business file is leading with Rep. Krishnamoorthi Warns Iran War Weakens US in Asia; How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline; Investors Bet on a Hair Loss Treatment Boom.",
+   "summary": "Bloomberg's markets and business file is leading with Japan’s NYK CEO on Alternative Routes Amid Iran War; Australian Dollar’s Top Forecasters Say Winning Run Likely Over; Bond Investors Wary After Warsh Fans Wagers Fed Poised to Hike.",
    "note": null,
    "items": [
     {
-     "headline": "Rep. Krishnamoorthi Warns Iran War Weakens US in Asia",
-     "detail": "Representative Raja Krishnamoorthi (D) says the Iran war is depleting key US munitions and pulling military assets from the Indo Pacific, potentially weakening deterrence against China as concerns over Taiwan grow.",
-     "url": "https://www.bloomberg.com/news/videos/2026-08-30/rep-krishnamoorthi-warns-iran-war-weakens-us-in-asia-video"
+     "headline": "Japan’s NYK CEO on Alternative Routes Amid Iran War",
+     "detail": "Japanese shipping giant NYK's head Takaya Soga in an exclusive conversation with Bloomberg's Shery Ahn discusses how the company is exploring alternative routes due to the conflict in the Middle East. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/japan-s-nyk-ceo-on-alternative-routes-amid-iran-war-video",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-08-30T21:00:06+00:00",
+     "fetched": "2026-08-30T22:01:17+00:00"
     },
     {
-     "headline": "How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline",
-     "detail": "YouTube creators are turning online audiences into big-screen opportunities, with filmmakers like Alex Kister moving from DIY horror videos to studio deals.",
-     "url": "https://www.bloomberg.com/news/videos/2026-08-30/is-hollywood-losing-its-stranglehold-on-filmmaking-video"
+     "headline": "Australian Dollar’s Top Forecasters Say Winning Run Likely Over",
+     "detail": "The Australian dollar’s two-month rally may be nearing a peak, with some of its top forecasters warning that bets on another central bank interest-rate hike have gone too far.",
+     "url": "https://www.bloomberg.com/news/articles/2026-08-30/australian-dollar-s-top-forecasters-say-winning-run-likely-over",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-08-30T21:00:00+00:00",
+     "fetched": "2026-08-30T22:01:17+00:00"
     },
     {
-     "headline": "Investors Bet on a Hair Loss Treatment Boom",
-     "detail": "Drugmakers are developing a new generation of hair loss treatments, including lotions, pills and longer-lasting injections, targeting a US market where tens of millions of men and women experience pattern hair loss.",
-     "url": "https://www.bloomberg.com/news/videos/2026-08-30/investors-bet-on-a-hair-loss-treatment-boom-video"
+     "headline": "Bond Investors Wary After Warsh Fans Wagers Fed Poised to Hike",
+     "detail": "Bond investors at firms including ABN AMRO Investment Solutions and Brandywine Global Investment Management are voicing skepticism about mounting speculation that Federal Reserve Chairman Kevin Warsh is poised to raise interest rates.",
+     "url": "https://www.bloomberg.com/news/articles/2026-08-30/bond-investors-wary-after-warsh-fans-wagers-fed-poised-to-hike",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-08-30T19:00:00+00:00",
+     "fetched": "2026-08-30T22:01:17+00:00"
     },
     {
-     "headline": "Shein’s $100 Billion Valuation Falls to $26 Billion",
-     "detail": "Shein is heading toward a Hong Kong listing at a valuation of about $26.5 billion, roughly a quarter of its 2022 peak, after earlier efforts to list in New York and London ran into regulatory hurdles.",
-     "url": "https://www.bloomberg.com/news/videos/2026-08-30/shein-s-100-billion-valuation-falls-to-26-billion-video"
+     "headline": "Bloomberg This Weekend 08/30/2026",
+     "detail": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/bloomberg-this-weekend-08-30-2026-video",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-08-30T16:13:19+00:00",
+     "fetched": "2026-08-30T22:01:17+00:00"
     },
     {
-     "headline": "Venezuela Oil Deal Raises Questions Over US Role",
-     "detail": "The Trump administration’s deal giving a US-led venture access to 65 billion barrels of Venezuelan oil could reshape the countries’ economic relationship, but questions remain over its political durability and whether it will provoke a…",
-     "url": "https://www.bloomberg.com/news/videos/2026-08-30/venezuela-oil-deal-raises-questions-over-us-role-video"
+     "headline": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+     "detail": "Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-08-30T15:23:30+00:00",
+     "fetched": "2026-08-30T22:01:17+00:00"
     }
    ]
   },
@@ -174,33 +249,48 @@
    "key": "bbc",
    "name": "BBC",
    "site": "bbc.com",
-   "summary": "The BBC's world news service is leading with Iceland votes against restarting EU membership talks; Manhunt after shooting at Swiss rave kills woman, 22, and injures five; Canada installs large Lake Ontario sign in latest jab at US.",
+   "summary": "The BBC's world news service is leading with Eight killed and others missing after ferry capsizes off northern Cyprus; US strikes Iranian launchers on Larak Island in first known attack in weeks; Iceland votes against restarting EU membership talks.",
    "note": null,
    "items": [
     {
+     "headline": "Eight killed and others missing after ferry capsizes off northern Cyprus",
+     "detail": "A search and rescue operation is under way after a ferry carrying nearly 270 people turns over after leaving port.",
+     "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "published": "2026-08-30T20:02:43+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
+    },
+    {
+     "headline": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
+     "detail": "Iran says the attack killed some civilians and is the first known US strike on Iran since late July.",
+     "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "published": "2026-08-30T21:15:42+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
+    },
+    {
      "headline": "Iceland votes against restarting EU membership talks",
      "detail": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume accession talks.",
-     "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "published": "2026-08-30T16:11:44+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     },
     {
      "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
      "detail": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
-     "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "published": "2026-08-30T17:49:31+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     },
     {
-     "headline": "Canada installs large Lake Ontario sign in latest jab at US",
-     "detail": "Ontario Premier Doug Ford unveiled a billboard on Canada's shoreline with the message: \"Lake Ontario. Now and Always.\"",
-     "url": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "headline": "WhatsApp chat used to send cash for crime and extremism",
-     "detail": "The WhatsApp money launderers arranged cash transfers in the UK and around the world with no paper trail.",
-     "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
-     "detail": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
-     "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+     "headline": "Hikers feared missing after flash flooding hits Grand Canyon",
+     "detail": "More than 20 people are thought to be unaccounted for after flash flooding on Saturday.",
+     "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
+     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "published": "2026-08-30T21:32:32+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     }
    ]
   },
@@ -208,33 +298,48 @@
    "key": "france24",
    "name": "France 24",
    "site": "france24.com",
-   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with NASA launches new space telescope; Iceland rejects EU accession talks; Week in pictures: devastating floods in Nepal, death of Dolly Parton and a tornado in France.",
+   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with US forces strike Iranian launchers on Larak island in Strait of Hormuz; Trump says NBC journalist to be reported to FCC for ‘punishment’ over endorsement coverage; French LGBTQ rights leader hospitalised after ‘despicable homophobic attack’ in Paris.",
    "note": null,
    "items": [
     {
+     "headline": "US forces strike Iranian launchers on Larak island in Strait of Hormuz",
+     "detail": "US forces struck Iranian rocket launchers on the Strait of Hormuz in the first military action in a month, a US official said Sunday.",
+     "url": "https://www.france24.com/en/middle-east/20260830-us-forces-strike-iranian-launchers-on-larak-island-in-strait-of-hormuz",
+     "source_url": "https://www.france24.com/en/rss",
+     "published": "2026-08-30T20:27:09+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
+    },
+    {
+     "headline": "Trump says NBC journalist to be reported to FCC for ‘punishment’ over endorsement coverage",
+     "detail": "President Donald Trump on Sunday said prominent NBC anchor ​Kristen Welker will be reported to the Federal Communications Commission (FCC) for \"rebuke or punishment\" after she reported theRepublican president had \"mixed results\" in his…",
+     "url": "https://www.france24.com/en/americas/20260830-trump-says-nbc-journalist-to-be-reported-to-fcc-for-punishment-over-endorsement-coverage",
+     "source_url": "https://www.france24.com/en/rss",
+     "published": "2026-08-30T17:06:53+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
+    },
+    {
+     "headline": "French LGBTQ rights leader hospitalised after ‘despicable homophobic attack’ in Paris",
+     "detail": "Pierre Picave, a French police officer and head of an LGBTQ rights association, was hospitalised after a nighttime attack in the Marais district in central Paris, prosecutors said Sunday.",
+     "url": "https://www.france24.com/en/france/20260830-french-lgbtq-activist-hospitalised-after-despicable-homophobic-attack-in-paris",
+     "source_url": "https://www.france24.com/en/rss",
+     "published": "2026-08-30T15:41:50+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
+    },
+    {
+     "headline": "Niger junta puts down mutiny with help from Russia's Africa Corps",
+     "detail": "Life returned to normal in Niger's capital on Sunday, a day after mutineers stormed the presidential palace and a military base at Niamey's main airport, resisting forces loyal to the ruling junta until Russia’s Africa Corps intervened.",
+     "url": "https://www.france24.com/en/africa/20260830-niger-junta-aided-by-russian-paramilitary-forces-regains-control-after-mutiny",
+     "source_url": "https://www.france24.com/en/rss",
+     "published": "2026-08-30T15:20:01+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
+    },
+    {
      "headline": "NASA launches new space telescope",
      "detail": "NASA has successfully launched its newest space telescope from the Kennedy Space Center in Florida.",
-     "url": "https://www.france24.com/en/video/20260830-nasa-launches-new-space-telescope"
-    },
-    {
-     "headline": "Iceland rejects EU accession talks",
-     "detail": "Iceland has voted against resuming membership talks with the European Union. The “No” camp won with nearly 53% of the vote, while just over 47% backed the “Yes” side, with only 9,500 votes separating the two.",
-     "url": "https://www.france24.com/en/video/20260830-iceland-rejects-eu-accession-talks"
-    },
-    {
-     "headline": "Week in pictures: devastating floods in Nepal, death of Dolly Parton and a tornado in France",
-     "detail": "A look back at some of the week's key news stories and the most striking images: a devastating flood tears through Nepal and Tibet, the death of global icon Dolly Parton, a tornado devastates a village in southern France and the Humanoid…",
-     "url": "https://www.france24.com/en/asia-pacific/20260830-week-in-pictures-devastating-floods-in-nepal-death-of-dolly-parton-and-a-tornado-in-france"
-    },
-    {
-     "headline": "France: Far-right and far-left lead polls",
-     "detail": "On April 18 and May 2 next year, France will vote to elect a new president to replace Emmanuel Macron.",
-     "url": "https://www.france24.com/en/france-far-right-and-far-left-lead-polls"
-    },
-    {
-     "headline": "Cyprus: Ferry capsizes with hundreds on board",
-     "detail": "Authorities say at least six people have died after a catamaran-style ferry carrying 267 passengers and crew capsized off the coast of northern Cyprus.",
-     "url": "https://www.france24.com/en/video/20260830-cyprus-ferry-capsizes-with-hundreds-of-board"
+     "url": "https://www.france24.com/en/video/20260830-nasa-launches-new-space-telescope",
+     "source_url": "https://www.france24.com/en/rss",
+     "published": "2026-08-30T14:55:58+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     }
    ]
   },
@@ -242,33 +347,48 @@
    "key": "aljazeera",
    "name": "Al Jazeera",
    "site": "aljazeera.com",
-   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with Why did Australia give visas to Israeli soldiers but not Bassem Youssef?; How does your name taste? The strange science of synaesthesia; Iceland votes to reject EU accession talks: What happens next?.",
+   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says; Israeli strike kills 3-year-old child in Gaza; Jose Andres renews call for investigation into WCK Gaza staff killings.",
    "note": null,
    "items": [
     {
-     "headline": "Why did Australia give visas to Israeli soldiers but not Bassem Youssef?",
-     "detail": "The Australian government is under pressure to explain why it allowed dozens of Israeli soldiers into the country.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/30-08-sydney-marathon-israeli-soldiers-idf-fm?traffic_source=rss"
+     "headline": "Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says",
+     "detail": "Teenager struggled in Barca's La Liga start at Elche but improves against Athletic Bilbao, according to Hansi Flick.",
+     "url": "https://www.aljazeera.com/sports/2026/8/30/lamine-yamal-getting-back-to-top-level-barcelona-coach-flick-says?traffic_source=rss",
+     "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+     "published": "2026-08-30T21:28:16+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     },
     {
-     "headline": "How does your name taste? The strange science of synaesthesia",
-     "detail": "Experiencing names as tastes - a form of synaesthesia - reveals how differently people perceive the same world.",
-     "url": "https://www.aljazeera.com/features/longform/2026/8/30/how-does-your-name-taste-the-strange-science-of-synaesthesia?traffic_source=rss"
+     "headline": "Israeli strike kills 3-year-old child in Gaza",
+     "detail": "A deadly Israeli strike on Deir el-Balah killed two Palestinians including a 3-year-old child.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/israeli-strike-kills-3-year-old-child-in-gaza?traffic_source=rss",
+     "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+     "published": "2026-08-30T21:02:45+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     },
     {
-     "headline": "Iceland votes to reject EU accession talks: What happens next?",
-     "detail": "The referendum result halts Iceland's bid to reopen EU membership talks, with 52.5 percent voting against the proposal.",
-     "url": "https://www.aljazeera.com/news/2026/8/30/iceland-votes-to-reject-eu-accession-talks-what-happens-next?traffic_source=rss"
+     "headline": "Jose Andres renews call for investigation into WCK Gaza staff killings",
+     "detail": "World Central Kitchen founder José Andrés is renewing his call for an independent investigation into Israeli strikes.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/jose-andres-renews-call-for-investigation-into-wck-gaza-staff-killings?traffic_source=rss",
+     "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+     "published": "2026-08-30T20:50:04+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     },
     {
-     "headline": "Banque Misr, Egypt’s second-largest, hit by US sanctions: What to know",
-     "detail": "Move comes as Washington steps up its efforts to economically pressure Iran amid deadlock in truce talks.",
-     "url": "https://www.aljazeera.com/news/2026/8/30/banque-misr-egypts-second-largest-hit-by-us-sanctions-what-to-know?traffic_source=rss"
+     "headline": "‘Opening a new chapter’: Syria reopens embassy in Libya after talks",
+     "detail": "Syrian foreign minister and Libyan PM agree to cooperation committee and reopening of diplomatic missions.",
+     "url": "https://www.aljazeera.com/news/2026/8/30/opening-a-new-chapter-syria-to-reopen-embassy-in-libya-after-talks?traffic_source=rss",
+     "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+     "published": "2026-08-30T20:38:56+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     },
     {
-     "headline": "Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest",
-     "detail": "Liverpool's Dutch forward Gakpo is a transfer target for Premier League rivals Manchester City.",
-     "url": "https://www.aljazeera.com/sports/2026/8/30/van-dijk-wants-cody-gakpo-to-stay-at-liverpool-despite-man-city-interest?traffic_source=rss"
+     "headline": "Video: Raging floodwaters sweep away lorry in the Philippines",
+     "detail": "Video shows a lorry being swept away by raging floodwaters in Rodriguez as torrential rains batter the Philippines.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/video-raging-floodwaters-sweep-away-lorry-in-the-philippines?traffic_source=rss",
+     "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+     "published": "2026-08-30T20:31:34+00:00",
+     "fetched": "2026-08-30T22:01:18+00:00"
     }
    ]
   }

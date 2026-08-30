@@ -1,15 +1,15 @@
 {
- "as_of": "Monday 31 August 2026, 01:18 AEST",
+ "as_of": "Monday 31 August 2026, 08:00 AEST",
  "btc": {
-  "price": "$78,655",
-  "chg": "+0.90%",
+  "price": "$78,649",
+  "chg": "+0.62%",
   "source": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
  },
  "btc_crosschecks": [
   {
    "source": "CoinGecko API",
-   "price": "$78,655",
-   "chg": "+0.90%"
+   "price": "$78,649",
+   "chg": "+0.62%"
   }
  ],
  "fx": [
@@ -226,6 +226,6 @@
   }
  ],
  "indices_source": "https://finance.yahoo.com/world-indices",
- "indices_asof": "Sunday 30 August 2026, 15:18 UTC",
+ "indices_asof": "Sunday 30 August 2026, 22:00 UTC",
  "indices_asof_label": "Monday 31 August 2026"
 }

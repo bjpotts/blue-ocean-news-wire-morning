@@ -3,33 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Ontario's premier says trade war would be 'devastating' for US and Canada; Nepal-Tibet flood death toll rises to 750, officials say, more than 3,000 missing; Tropical Storm Karina strengthens into a hurricane in the Pacific.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: US forces strike 2 Iranian rocket launch sites; Dolly Parton laid to rest in private Nashville burial; Tropical Storm Karina strengthens into a hurricane in the Pacific.",
   "note": null,
   "items": [
    {
-    "headline": "Ontario's premier says trade war would be 'devastating' for US and Canada",
-    "detail": "Ford also called Trump's renaming of Lake Ontario \"disappointing.\"",
-    "url": "https://abcnews.go.com/Politics/ontarios-premier-trade-war-devastating-us-canada/story?id=136068676"
+    "headline": "Iran live updates: US forces strike 2 Iranian rocket launch sites",
+    "detail": "The Strait of Hormuz remains the primary flashpoint in the conflict.",
+    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates/?id=135895428",
+    "source_url": "https://abcnews.go.com/abcnews/topstories",
+    "published": "2026-08-30T16:22:22-04:00",
+    "fetched": "2026-08-30T22:01:11+00:00"
    },
    {
-    "headline": "Nepal-Tibet flood death toll rises to 750, officials say, more than 3,000 missing",
-    "detail": "The death toll in last week's flash flooding disaster in the Nepal-Tibet border region rose to at least 750 people as of Sunday.",
-    "url": "https://abcnews.go.com/International/nepal-tibet-flood-death-toll-rises-750-officials/story?id=136067514"
+    "headline": "Dolly Parton laid to rest in private Nashville burial",
+    "detail": "The Grand Ole Opry also honored the country music legend days after her death.",
+    "url": "https://abcnews.go.com/GMA/Culture/dolly-parton-laid-rest-private-nashville-burial/story?id=136074943",
+    "source_url": "https://abcnews.go.com/abcnews/topstories",
+    "published": "2026-08-30T16:59:08-04:00",
+    "fetched": "2026-08-30T22:01:11+00:00"
    },
    {
     "headline": "Tropical Storm Karina strengthens into a hurricane in the Pacific",
     "detail": "It could become a major storm this week, forecasters say.",
-    "url": "https://abcnews.go.com/Technology/wireStory/tropical-storm-karina-strengthens-hurricane-pacific-major-storm-136067970"
+    "url": "https://abcnews.go.com/Technology/wireStory/tropical-storm-karina-strengthens-hurricane-pacific-major-storm-136067970",
+    "source_url": "https://abcnews.go.com/abcnews/topstories",
+    "published": "2026-08-30T09:16:51-04:00",
+    "fetched": "2026-08-30T22:01:11+00:00"
    },
    {
     "headline": "WATCH: Divers save the day for bride-to-be",
     "detail": "A group of divers from the Hudson Valley Commercial Diving School happened to be at the restaurant where Denise Rivera dropped her engagement ring into the Hudson River.",
-    "url": "https://abcnews.go.com/video/136064662/"
+    "url": "https://abcnews.go.com/video/136064662/",
+    "source_url": "https://abcnews.go.com/abcnews/topstories",
+    "published": "2026-08-30T08:00:40-04:00",
+    "fetched": "2026-08-30T22:01:11+00:00"
    },
    {
     "headline": "WATCH: Woman alleges she was ejected from mountain coaster in Colorado",
     "detail": "A woman alleges she was thrown from her seat, dragged along the tracks and seriously injured as a result.",
-    "url": "https://abcnews.go.com/video/136065136/"
+    "url": "https://abcnews.go.com/video/136065136/",
+    "source_url": "https://abcnews.go.com/abcnews/topstories",
+    "published": "2026-08-30T08:00:54-04:00",
+    "fetched": "2026-08-30T22:01:11+00:00"
    }
   ]
  }

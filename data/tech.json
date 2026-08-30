@@ -1,74 +1,104 @@
 {
  "items": [
   {
-   "headline": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-   "detail": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+   "headline": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
+   "detail": "The Liux Big microcar is made in Spain. The startup thinks it can compete in a crowded market with its tiny electric car built around sustainability.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-   "region": "US"
+   "url": "https://techcrunch.com/2026/08/30/liuxs-big-microcar-bets-on-sustainability-to-take-on-chinese-rivals/",
+   "region": "US",
+   "source_url": "https://techcrunch.com/feed/",
+   "published": "2026-08-30T18:33:44+00:00",
+   "fetched": "2026-08-30T22:01:04+00:00"
   },
   {
-   "headline": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
-   "detail": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+   "headline": "Musk’s faster path to more gas turbines comes with pollution problem",
+   "detail": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies…",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-   "region": "US"
+   "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+   "region": "US",
+   "source_url": "https://techcrunch.com/feed/",
+   "published": "2026-08-30T16:54:25+00:00",
+   "fetched": "2026-08-30T22:01:04+00:00"
   },
   {
-   "headline": "Chess.com launched a poker site and is planning even more classic games",
-   "detail": "Chess.com has done one thing, and one thing very well, for almost 20 years, but now it's going beyond its domain name.",
+   "headline": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
+   "detail": "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit",
-   "region": "US"
+   "url": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review",
+   "region": "US",
+   "source_url": "https://www.theverge.com/rss/index.xml",
+   "published": "2026-08-30T17:18:59-04:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
-   "headline": "China’s robots race ahead",
-   "detail": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on falling robots and the US-China AI race, follow Robert Hart. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET.",
+   "headline": "Enormous 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
+   "detail": "Over 12 terabytes of data, containing builds of every game uploaded to Steam between 2003 and 2013, has been leaked. We don't know everything in the archives yet because of its massive size.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
-   "region": "US"
+   "url": "https://www.theverge.com/games/986552/12tb-steam-leak-half-life-2-episode-3",
+   "region": "US",
+   "source_url": "https://www.theverge.com/rss/index.xml",
+   "published": "2026-08-30T15:14:08-04:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
    "headline": "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
    "detail": "Mike Moore beat Big Tobacco. Will the same playbook work against Meta and social media?",
    "outlet": "CNBC Technology",
    "url": "https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html",
-   "region": "US"
+   "region": "US",
+   "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
+   "published": "2026-08-30T15:48:10+00:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
    "headline": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
    "detail": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
    "outlet": "CNBC Technology",
    "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-   "region": "US"
+   "region": "US",
+   "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
+   "published": "2026-08-29T19:06:22+00:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
-   "headline": "Inside Meta’s push to put robots to work in data centers",
-   "detail": "Inside Meta’s push to put robots to work in data centers",
+   "headline": "Why it matters that President Trump just dialed into a NASA news conference",
+   "detail": "Why it matters that President Trump just dialed into a NASA news conference",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-   "region": "US"
+   "url": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/",
+   "region": "US",
+   "source_url": "https://feeds.arstechnica.com/arstechnica/index",
+   "published": "2026-08-30T17:40:30+00:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
    "headline": "I've been to Gamescom six times - here's what excited me this year",
    "detail": "The BBC's Laura Cress gets a first look at the biggest games in Cologne from Witcher 3 to Alien: Isolation 2.",
    "outlet": "BBC Technology",
    "url": "https://www.bbc.co.uk/news/articles/cew92lp2g45o?at_medium=RSS&at_campaign=rss",
-   "region": "Europe"
+   "region": "Europe",
+   "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+   "published": "2026-08-29T23:02:28+00:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
    "headline": "Matt Lucas and Hugh Bonneville among actors calling for law on AI voice cloning",
    "detail": "The performers are asking the government to give every person in the UK a legal right to own their voice.",
    "outlet": "BBC Technology",
    "url": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_medium=RSS&at_campaign=rss",
-   "region": "Europe"
+   "region": "Europe",
+   "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+   "published": "2026-08-28T05:11:16+00:00",
+   "fetched": "2026-08-30T22:01:05+00:00"
   },
   {
    "headline": "Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit",
    "detail": "Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in…",
    "outlet": "South China Morning Post",
    "url": "https://www.scmp.com/tech/big-tech/article/3365770/sony-music-warner-accuse-anthropic-blatant-theft-major-new-lawsuit?utm_source=rss_feed",
-   "region": "Asia"
+   "region": "Asia",
+   "source_url": "https://www.scmp.com/rss/36/feed",
+   "published": "2026-08-30T13:44:43+00:00",
+   "fetched": "2026-08-30T22:01:06+00:00"
   }
  ]
 }

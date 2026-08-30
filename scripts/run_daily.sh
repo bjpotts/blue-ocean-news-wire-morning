@@ -25,15 +25,18 @@ cd "$PROJ"
   python3 build.py
   python3 make_snapshot.py
   python3 make_pdf.py
+  RUN_ID="$(date '+%Y-%m-%d')-am"
   python3 /Users/brandonpotts/.verdent/verdent-projects/market-wrap-up-data/ingest.py \
     --project "$PROJ" \
-    --run-id "$(date '+%Y-%m-%d')-am" \
+    --run-id "$RUN_ID" \
     --edition "Morning Edition"
   # Mirror the run into Supabase so the published report and comparison
-  # view can read history from the cloud database. Non-fatal: the local
-  # SQLite store stays the source of truth and a missed run is picked up
-  # by the next sync, which backfills anything Supabase is missing.
-  python3 sync_supabase.py || echo "WARN: sync_supabase.py failed"
+  # view can read history from the cloud database. Sync this run by id
+  # rather than letting the default "only what is missing" mode decide:
+  # a rebuild of a run_id that already exists must overwrite it, otherwise
+  # a re-run silently leaves the cloud copy on the earlier build's data.
+  # Non-fatal, since the local SQLite store stays the source of truth.
+  python3 sync_supabase.py --run-id "$RUN_ID" || echo "WARN: sync_supabase.py failed"
   python3 /Users/brandonpotts/.verdent/verdent-projects/market-wrap-up-data/compare.py
   python3 "$PROJ/scripts/send_email.py"
   echo "===== DONE $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
