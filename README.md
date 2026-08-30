@@ -53,6 +53,10 @@ npm run build
 
 Scheduled runs execute `scripts/run_daily.sh`, which fetches fresh data and rebuilds the digest. The resulting `digest.html` is loaded dynamically by the frontend.
 
+## Changelog
+
+Notable changes are recorded in [`CHANGELOG.md`](CHANGELOG.md).
+
 ## License
 
 Private — for Blue Ocean Equities Pty Ltd internal use.
