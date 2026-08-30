@@ -18,19 +18,24 @@ CURRENCY_CODES = [
     "PHP", "IDR"
 ]
 
-# The 20 indices shown in the World Indices grid, ordered west to east so the
-# 4-column grid reads as five geographic rows: the Americas, Europe, then the
-# Middle East into Asia, the rest of Asia, and finally India with ANZ.
+# The 24 indices shown in the World Indices grid, ordered west to east so the
+# 4-column grid reads as six geographic rows: North America, South America into
+# Europe, the rest of Europe, Russia and the Middle East into Asia, the rest of
+# Asia, then India with ANZ.
 INDICES = [
     ("S&P 500", "^GSPC"),
     ("Nasdaq Composite", "^IXIC"),
     ("TSX Composite", "^GSPTSE"),
+    ("IPC Mexico", "^MXX"),
     ("Ibovespa", "^BVSP"),
     ("FTSE 100", "^FTSE"),
     ("DAX", "^GDAXI"),
     ("CAC 40", "^FCHI"),
     ("FTSE MIB", "FTSEMIB.MI"),
+    ("IBEX 35", "^IBEX"),
     ("EURO STOXX 50", "^STOXX50E"),
+    ("OMX Stockholm 30", "^OMX"),
+    ("MOEX Russia", "IMOEX"),
     ("DFM General (Dubai)", "DFMGI.AE"),
     ("Nikkei 225", "^N225"),
     ("Hang Seng", "^HSI"),
@@ -46,7 +51,7 @@ INDICES = [
 
 # Indices the Market News paragraph talks about but the grid no longer shows.
 # They are fetched so the written summary keeps its full regional coverage, and
-# are kept out of "indices" so the displayed grid stays exactly 20 cells.
+# are kept out of "indices" so the displayed grid stays exactly 24 cells.
 NARRATIVE_INDICES = [
     ("Dow Jones", "^DJI"),
     ("Russell 2000", "^RUT"),

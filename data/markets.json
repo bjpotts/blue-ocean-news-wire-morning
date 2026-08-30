@@ -1,15 +1,15 @@
 {
- "as_of": "Monday 31 August 2026, 09:25 AEST",
+ "as_of": "Monday 31 August 2026, 09:29 AEST",
  "btc": {
-  "price": "$78,338",
-  "chg": "+0.18%",
+  "price": "$78,031",
+  "chg": "-0.25%",
   "source": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
  },
  "btc_crosschecks": [
   {
    "source": "CoinGecko API",
-   "price": "$78,338",
-   "chg": "+0.18%"
+   "price": "$78,031",
+   "chg": "-0.25%"
   }
  ],
  "fx": [
@@ -132,55 +132,79 @@
    "name": "S&P 500",
    "symbol": "^GSPC",
    "value": "7,711.76",
-   "chg": "-0.25%"
+   "chg": "+0.47%"
   },
   {
    "name": "Nasdaq Composite",
    "symbol": "^IXIC",
    "value": "26,402",
-   "chg": "-0.52%"
+   "chg": "+1.04%"
   },
   {
    "name": "TSX Composite",
    "symbol": "^GSPTSE",
    "value": "36,554",
-   "chg": "-0.76%"
+   "chg": "-0.71%"
+  },
+  {
+   "name": "IPC Mexico",
+   "symbol": "^MXX",
+   "value": "65,484",
+   "chg": "-1.07%"
   },
   {
    "name": "Ibovespa",
    "symbol": "^BVSP",
    "value": "175,665",
-   "chg": "+0.30%"
+   "chg": "+0.62%"
   },
   {
    "name": "FTSE 100",
    "symbol": "^FTSE",
    "value": "10,824",
-   "chg": "+0.29%"
+   "chg": "-0.49%"
   },
   {
    "name": "DAX",
    "symbol": "^GDAXI",
    "value": "26,570",
-   "chg": "+0.77%"
+   "chg": "+1.08%"
   },
   {
    "name": "CAC 40",
    "symbol": "^FCHI",
    "value": "8,401.18",
-   "chg": "+0.98%"
+   "chg": "-0.72%"
   },
   {
    "name": "FTSE MIB",
    "symbol": "FTSEMIB.MI",
    "value": "52,616",
-   "chg": "+0.67%"
+   "chg": "-0.50%"
+  },
+  {
+   "name": "IBEX 35",
+   "symbol": "^IBEX",
+   "value": "20,042",
+   "chg": "-0.13%"
   },
   {
    "name": "EURO STOXX 50",
    "symbol": "^STOXX50E",
    "value": "6,485.67",
-   "chg": "+0.95%"
+   "chg": "+0.23%"
+  },
+  {
+   "name": "OMX Stockholm 30",
+   "symbol": "^OMX",
+   "value": "3,331.26",
+   "chg": "+0.15%"
+  },
+  {
+   "name": "MOEX Russia",
+   "symbol": "IMOEX",
+   "value": "2,114.93",
+   "chg": "+1.03%"
   },
   {
    "name": "DFM General (Dubai)",
@@ -192,31 +216,31 @@
    "name": "Nikkei 225",
    "symbol": "^N225",
    "value": "66,406",
-   "chg": "+0.41%"
+   "chg": "+0.22%"
   },
   {
    "name": "Hang Seng",
    "symbol": "^HSI",
    "value": "25,585",
-   "chg": "+0.07%"
+   "chg": "-0.27%"
   },
   {
    "name": "Shanghai Composite",
    "symbol": "000001.SS",
    "value": "3,952.18",
-   "chg": "-0.11%"
+   "chg": "+1.01%"
   },
   {
    "name": "KOSPI",
    "symbol": "^KS11",
    "value": "6,788.88",
-   "chg": "-1.79%"
+   "chg": "-0.28%"
   },
   {
    "name": "TAIEX",
    "symbol": "^TWII",
    "value": "46,331",
-   "chg": "+0.77%"
+   "chg": "+1.09%"
   },
   {
    "name": "SET Index",
@@ -228,7 +252,7 @@
    "name": "BSE Sensex",
    "symbol": "^BSESN",
    "value": "77,265",
-   "chg": "+0.43%"
+   "chg": "-0.27%"
   },
   {
    "name": "S&P/ASX 200",
@@ -245,7 +269,7 @@
   {
    "name": "NZX 50",
    "symbol": "^NZ50",
-   "value": "13,808",
+   "value": "13,807",
    "chg": "-0.52%"
   }
  ],
@@ -270,6 +294,6 @@
   }
  ],
  "indices_source": "https://finance.yahoo.com/world-indices",
- "indices_asof": "Sunday 30 August 2026, 23:25 UTC",
+ "indices_asof": "Sunday 30 August 2026, 23:29 UTC",
  "indices_asof_label": "Monday 31 August 2026"
 }
