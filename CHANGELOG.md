@@ -9,11 +9,11 @@ Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
 ### Added
 
-- World Indices widened from 16 to 24 benchmarks, matching the Exchange Rates & Bitcoin grid
-  at six rows of four, ordered west to east so each row reads as a region.
-- Commodities widened from 16 to 24: Brent Crude, the rest of the LME base metals, and a
-  grains and softs row. Agriculture had been absent entirely, and Brent was named in the
-  Market News copy without appearing in the grid.
+- Eight more benchmarks in World Indices, taking the grid to 24 — six rows of four, matching
+  Exchange Rates & Bitcoin, ordered west to east so each row reads as a region.
+- Eight more commodities, taking that grid to 24 as well: Brent Crude, the rest of the LME
+  base metals, and a grains and softs row. Agriculture had been absent entirely, and Brent
+  was named in the Market News copy without appearing in the grid.
 - Supabase ingest, through a `SECURITY DEFINER` RPC gated by a secret in a gitignored
   `.env.local`, so the browser-visible anon key stays read-only.
 - A discovery record for every story: source URL, published timestamp, fetched timestamp.
