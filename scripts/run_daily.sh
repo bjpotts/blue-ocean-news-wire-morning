@@ -10,7 +10,18 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
 cd "$PROJ"
 {
   echo "===== RUN $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
-  python3 fetch_guardian.py
+  # Refresh live data first. A fetch failure must not abort the run: each
+  # fetcher leaves the previous file in place, and build.py's freshness guard
+  # is what decides whether the resulting data is too stale to publish.
+  python3 fetch_markets.py || echo "WARN: fetch_markets.py failed"
+  python3 fetch_commodities.py || echo "WARN: fetch_commodities.py failed"
+  python3 fetch_performers.py || echo "WARN: fetch_performers.py failed"
+  python3 fetch_capraises.py || echo "WARN: fetch_capraises.py failed"
+  python3 fetch_tech.py || echo "WARN: fetch_tech.py failed"
+  python3 fetch_news.py || echo "WARN: fetch_news.py failed"
+  python3 fetch_sport.py || echo "WARN: fetch_sport.py failed"
+  python3 fetch_weather.py || echo "WARN: fetch_weather.py failed"
+  python3 fetch_guardian.py || echo "WARN: fetch_guardian.py failed"
   python3 build.py
   python3 make_snapshot.py
   python3 make_pdf.py

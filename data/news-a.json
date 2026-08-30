@@ -4,33 +4,33 @@
    "key": "abc",
    "name": "ABC News Australia",
    "site": "abc.net.au/news",
-   "summary": "ABC is leading with the deadly flash flood on the Nepal-Tibet border that has left an Australian among hundreds missing, alongside a hospital fire that killed 14 babies in Pakistan and the RBA's renewed rate-hike risk as inflation data lands.",
+   "summary": "The ABC's Australian and international news file is leading with 'There's only one Tony Mundine': Legendary boxer dies aged 75; Iceland rejects EU-accession talks in close-fought referendum; One Nation could revive NSW trade posts scrapped in 'jobs for the boys' saga.",
    "note": null,
    "items": [
     {
-     "headline": "An Australian is among hundreds missing after the Nepal-Tibet flash flood",
-     "detail": "At least 22 people have been confirmed dead and nearly 300 foreign nationals, including an Australian, are reported missing after a torrent of water swept through the Himalayan border region.",
-     "url": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672"
+     "headline": "'There's only one Tony Mundine': Legendary boxer dies aged 75",
+     "detail": "'There's only one Tony Mundine': Legendary boxer dies aged 75",
+     "url": "https://www.abc.net.au/news/2026-08-30/tony-mundine-boxer-dies-aged-75/107095836"
     },
     {
-     "headline": "A hospital fire in Pakistan's capital kills 14 babies",
-     "detail": "A blaze tore through a maternity ward in Islamabad, killing 14 infants, with witnesses saying the door to the ward was locked at the time.",
-     "url": "https://www.abc.net.au/news/2026-08-26/pakistan-fire-kills-babies-islamabad-hospital/107081404"
+     "headline": "Iceland rejects EU-accession talks in close-fought referendum",
+     "detail": "Iceland rejects EU-accession talks in close-fought referendum",
+     "url": "https://www.abc.net.au/news/2026-08-30/iceland-eu-referendum-result/107095748"
     },
     {
-     "headline": "Ukraine awards Elon Musk the Order of Freedom for Starlink support",
-     "detail": "President Volodymyr Zelenskyy honoured the tech billionaire for keeping Starlink satellite internet running for Ukraine during the war.",
-     "url": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694"
+     "headline": "One Nation could revive NSW trade posts scrapped in 'jobs for the boys' saga",
+     "detail": "One Nation could revive NSW trade posts scrapped in 'jobs for the boys' saga",
+     "url": "https://www.abc.net.au/news/2026-08-30/nsw-overseas-trade-commissioners-may-return-under-one-nation/107095056"
     },
     {
-     "headline": "July inflation data heightens the risk of an RBA rate hike",
-     "detail": "Economists described the latest inflation figures as an unfortunate kick in the guts, raising the odds the Reserve Bank will lift rates again.",
-     "url": "https://www.abc.net.au/news/2026-08-26/july-inflation-slows-heightened-risk-rba-rate-hike/107078580"
+     "headline": "Rider dies after 'critical incident' during motorcycle racing event",
+     "detail": "Rider dies after 'critical incident' during motorcycle racing event",
+     "url": "https://www.abc.net.au/news/2026-08-30/critical-incident-at-the-bend-motorsport-park/107095364"
     },
     {
-     "headline": "The historic antisemitism inquiry closes with an impassioned plea",
-     "detail": "The royal commission into antisemitism wrapped up its public hearings with a rabbi's emotional call for social cohesion in Australia.",
-     "url": "https://www.abc.net.au/news/2026-08-26/bondi-antisemitism-social-cohesion-royal-commission-closes/107081712"
+     "headline": "'I was a wreck': Popyrin bares his soul before US Open bid",
+     "detail": "'I was a wreck': Popyrin bares his soul before US Open bid",
+     "url": "https://www.abc.net.au/news/2026-08-30/popyrin-bares-his-soul-before-us-open-tennis-bid/107095458"
     }
    ]
   },
@@ -38,33 +38,33 @@
    "key": "sbs",
    "name": "SBS News Australia",
    "site": "sbs.com.au/news",
-   "summary": "SBS is balancing the global reaction to Dolly Parton's death with domestic politics, including National Cabinet's push on AI data centre rules and the wrap-up of the antisemitism royal commission.",
-   "note": "Homepage returned images only - headlines taken from the SBS News bulletin and Just In feeds.",
+   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with 'Unsafe': Barnaby Joyce invokes disaster-hit Nepal to explain One Nation's refugee policy; Australia should look 'very seriously' at UK-style ban on strangulation porn: minister; 'Massive changes': What you might find missing in Aussie supermarkets.",
+   "note": null,
    "items": [
     {
-     "headline": "AI data centre rules face opposition at National Cabinet",
-     "detail": "The federal government's push for national rules requiring large new data centres to underwrite renewable energy met resistance from the states.",
-     "url": "https://www.sbs.com.au/news/podcast-episode/ai-data-centre-rules-face-opposition-at-national-cabinet-midday-news-bulletin-26-august-2026/jdnfg60f7"
+     "headline": "'Unsafe': Barnaby Joyce invokes disaster-hit Nepal to explain One Nation's refugee policy",
+     "detail": "The One Nation MP suggested that refugees should not come from \"countries which are dangerous\".",
+     "url": "https://www.sbs.com.au/news/article/barnaby-joyce-one-nation-nepal-refugee-intake/e5kk4odry"
     },
     {
-     "headline": "Country music icon Dolly Parton dies aged 80",
-     "detail": "The legendary singer-songwriter died after a brief battle with cancer, prompting tributes from around the world.",
-     "url": "https://www.sbs.com.au/news/podcast-episode/dolly-parton-dies-aged-80-morning-news-bulletin-26-august-2026/266o7sdwn"
+     "headline": "Australia should look 'very seriously' at UK-style ban on strangulation porn: minister",
+     "detail": "Tanya Plibersek has also flagged the government is considering a crackdown on 'smart glasses'.",
+     "url": "https://www.sbs.com.au/news/article/tanya-plibersek-uk-porn-ban-strangulation/83g6exomj"
     },
     {
-     "headline": "The antisemitism royal commission wraps up its public hearings",
-     "detail": "Commissioner Bell said the inquiry now has enough material to reach its conclusions after examining sensitive evidence linked to the Bondi attack.",
-     "url": "https://www.sbs.com.au/news/podcast-episode/antisemitism-royal-commission-wraps-up-public-hearings-evening-news-bulletin-26-august-2026/ebrvgu4tf"
+     "headline": "'Massive changes': What you might find missing in Aussie supermarkets",
+     "detail": "'Sardinemaxxing' has emptied supermarket shelves — but the real risk might not be the one you think.",
+     "url": "https://www.sbs.com.au/news/article/sardinemaxxing-tiktok-latest-obsession-is-there-a-catch/nta3qx3to"
     },
     {
-     "headline": "NSW's gambling reforms draw criticism",
-     "detail": "The state's new gambling measures have been criticised by advocates who argue they do not go far enough to curb harm.",
-     "url": "https://www.sbs.com.au/news/podcast-episode/nsw-gambling-reforms-criticised-evening-news-bulletin-25-august-2026/qrqf0fje1"
+     "headline": "US news team attacked in occupied West Bank amid fresh settler violence",
+     "detail": "Residents said masked settlers attacked Palestinian homes, trapping families and leaving several people injured.",
+     "url": "https://www.sbs.com.au/news/article/us-news-team-attacked-in-occupied-west-bank-amid-fresh-settler-violence/ytrmezfd7"
     },
     {
-     "headline": "New South Wales unveils major gambling reforms",
-     "detail": "The state announced sweeping changes to gambling rules, including tighter restrictions on advertising and inducements.",
-     "url": "https://www.sbs.com.au/news/podcast-episode/new-gambling-reforms-in-nsw-midday-news-bulletin-25-august-2026/x1vodi1xk"
+     "headline": "Labor vows to listen to voters after One Nation's historic WA upset",
+     "detail": "The WA state by-election in the previously safe Labor seat of Secret Harbour was seen as a test of One Nation's popularity.",
+     "url": "https://www.sbs.com.au/news/article/one-nation-secret-harbour-by-election-win/ypln12qea"
     }
    ]
   },
@@ -72,33 +72,33 @@
    "key": "rnz",
    "name": "RNZ New Zealand",
    "site": "rnz.co.nz",
-   "summary": "RNZ's Wednesday file mixes crime and emergency stories with health and business news, including a free flu vaccine for under-fives and a $40m claim against Gloriavale's leader.",
+   "summary": "Radio New Zealand's national news file is leading with Garage blaze spreads to two homes on Kapiti Coast; SH2 north of Wellington closed by serious crash; Taiarahia documentary captures kotahitanga in action.",
    "note": null,
    "items": [
     {
-     "headline": "A person is assaulted and a vehicle shot at after a two-car crash",
-     "detail": "Police are investigating an incident in which a person was assaulted and a vehicle shot at following a collision between a Toyota and a Volkswagen.",
-     "url": "https://www.rnz.co.nz/news/emergency/1140220/person-assaulted-vehicle-shot-at-after-car-crash-between-toyota-and-volkswagen"
+     "headline": "Garage blaze spreads to two homes on Kapiti Coast",
+     "detail": "Garage blaze spreads to two homes on Kapiti Coast",
+     "url": "https://www.rnz.co.nz/news/emergencies_local/1189669/garage-blaze-spreads-to-two-homes-on-kapiti-coast"
     },
     {
-     "headline": "The flu vaccine is to be free for all children under five",
-     "detail": "The government announced the free flu jab for under-fives as hospitalisations from the virus soar.",
-     "url": "https://www.rnz.co.nz/news/health/1131646/flu-vaccine-to-be-free-for-all-under-fives"
+     "headline": "SH2 north of Wellington closed by serious crash",
+     "detail": "SH2 north of Wellington closed by serious crash",
+     "url": "https://www.rnz.co.nz/news/emergencies_local/1189616/sh2-north-of-wellington-closed-by-serious-crash"
     },
     {
-     "headline": "Gloriavale leavers file a $40m lost wages claim against the Overseeing Shepherd",
-     "detail": "Former members describe the community as modern day slavery in a claim for decades of unpaid wages and entitlements.",
-     "url": "https://www.rnz.co.nz/news/business/1133404/modern-day-slavery-gloriavale-leavers-file-40m-lost-wages-and-entitlements-claim-against-overseeing-shepherd"
+     "headline": "Taiarahia documentary captures kotahitanga in action",
+     "detail": "Taiarahia documentary captures kotahitanga in action",
+     "url": "https://www.rnz.co.nz/news/te-manu-korihi/1184422/taiarahia-documentary-captures-kotahitanga-in-action"
     },
     {
-     "headline": "Fire and Emergency is treating the large Wanaka blaze as suspicious",
-     "detail": "Investigators are treating the major fire near Wanaka as suspicious as crews continue to battle the blaze.",
-     "url": "https://www.rnz.co.nz/news/emergencies_local/1131285/fire-and-emergency-treating-large-wanaka-blaze-as-suspicious"
+     "headline": "Person critically injured after fight in Lower Hutt",
+     "detail": "Person critically injured after fight in Lower Hutt",
+     "url": "https://www.rnz.co.nz/news/emergencies_local/1175720/person-critically-injured-after-fight-in-lower-hutt"
     },
     {
-     "headline": "Ghislaine Maxwell loses her bid to overturn her US conviction",
-     "detail": "The Jeffrey Epstein accomplice failed in her latest attempt to overturn her conviction in the United States.",
-     "url": "https://www.rnz.co.nz/news/world/1123409/jeffrey-epstein-accomplice-ghislaine-maxwell-loses-bid-to-overturn-us-conviction"
+     "headline": "Auckland and Canterbury university enrolments rise as trades training struggles",
+     "detail": "Auckland and Canterbury university enrolments rise as trades training struggles",
+     "url": "https://www.rnz.co.nz/news/education/1187278/auckland-and-canterbury-university-enrolments-rise-as-trades-training-struggles"
     }
    ]
   },
@@ -106,33 +106,33 @@
    "key": "scmp",
    "name": "South China Morning Post",
    "site": "scmp.com",
-   "summary": "SCMP is leading on the landslide that destroyed a China-Nepal border crossing and Xi Jinping's expected visit to India, alongside US visa freezes and a Hong Kong court ruling on PwC and Evergrande.",
+   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with PLA shift to systems warfare means Taiwan’s defences need to change: experts; Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit; Orangutan rescued from Borneo fire battles respiratory illness.",
    "note": null,
    "items": [
     {
-     "headline": "A landslide engulfs a China-Nepal border checkpoint causing major casualties",
-     "detail": "The landslide began in Nepal's Rasuwa region and struck Tibet's Gyirong county, with Xi ordering authorities to spare no effort in the search for the missing.",
-     "url": "https://www.scmp.com/news/china/politics/article/3365346/landslide-china-nepal-border-engulfs-checkpoint-causing-major-casualties"
+     "headline": "PLA shift to systems warfare means Taiwan’s defences need to change: experts",
+     "detail": "The People’s Liberation Army is increasingly embracing broader “systems-oriented warfare” rather than relying on individual weapons platforms – a shift Taiwanese analysts say could pose new challenges to the island’s defences.",
+     "url": "https://www.scmp.com/news/china/military/article/3365761/pla-shift-systems-warfare-means-taiwans-defences-need-change-experts?utm_source=rss_feed"
     },
     {
-     "headline": "Xi Jinping is expected to visit India after seven years",
-     "detail": "Sources caution against overplaying expectations, saying the offers on the table fall well short of a breakthrough or grand bargain.",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3365318/chinas-xi-jinping-expected-visit-india-after-7-years-whats-agenda"
+     "headline": "Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit",
+     "detail": "Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in…",
+     "url": "https://www.scmp.com/tech/big-tech/article/3365770/sony-music-warner-accuse-anthropic-blatant-theft-major-new-lawsuit?utm_source=rss_feed"
     },
     {
-     "headline": "Frustration grows in China as the US freezes green card interviews worldwide",
-     "detail": "Cancelled appointments mark the latest squeeze on legal immigration during Donald Trump's second term.",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3365330/frustration-china-us-freezes-green-card-interviews-worldwide-citing-training"
+     "headline": "Orangutan rescued from Borneo fire battles respiratory illness",
+     "detail": "On Sunday morning, ⁠Jais, a farmer in ⁠Ketapang, West Kalimantan on Borneo island – the ⁠province hardest-hit by raging forest fires – was en route to his farm when he found an orangutan writhing on the ground in a weak state on a palm-oil…",
+     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365769/orangutan-rescued-borneo-fire-battles-respiratory-illness?utm_source=rss_feed"
     },
     {
-     "headline": "PwC International must face trial over Evergrande claims, Hong Kong court rules",
-     "detail": "Liquidators are seeking about 38 billion yuan from PwC International over alleged audit failures at the property giant.",
-     "url": "https://www.scmp.com/business/china-business/article/3365340/pwc-international-must-face-trial-evergrande-scandals-claims-hong-kong-high-court"
+     "headline": "13-year-old among 321 arrested as Hong Kong police seize drugs worth HK$130m",
+     "detail": "Hong Kong police have arrested 321 people, including a 13-year-old, and seized HK$130 million (US$16.5 million) worth of suspected illegal drugs during a seven-week citywide crackdown.",
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3365766/13-year-old-among-321-arrested-hong-kong-police-seize-drugs-worth-hk130m?utm_source=rss_feed"
     },
     {
-     "headline": "The delay to China's moon mission could ease pressure on Nasa",
-     "detail": "The postponement of the especially ambitious Chang'e-7 mission was no surprise to space specialists, but the US agency will not be celebrating.",
-     "url": "https://www.scmp.com/news/china/science/article/3365283/could-delay-chinas-moon-mission-ease-pressure-nasa"
+     "headline": "Will US threats over Iran be the last straw for Beijing?",
+     "detail": "Earlier this month, when US Treasury Secretary Scott Bessent threatened sanctions against any nation continuing to purchase Iranian crude oil, he did not name China. He did not need to.",
+     "url": "https://www.scmp.com/opinion/china-opinion/article/3365472/will-us-threats-over-iran-be-last-straw-beijing?utm_source=rss_feed"
     }
    ]
   },
@@ -140,33 +140,33 @@
    "key": "cnn",
    "name": "CNN",
    "site": "cnn.com",
-   "summary": "CNN's front page is anchored by the Nepal flash flood disaster and the death of Dolly Parton, alongside Meta's landmark $18 billion child-harm settlement and the fallout from Trump's revived tariffs.",
+   "summary": "CNN's international edition is leading with Rep. Khanna: Meta settlement impact ‘doesn’t go far enough’; Missouri’s William Jewell College running back dies after experiencing medical emergency during game; Rescuers search for missing workers as death toll rises from devastating China-Nepal floods.",
    "note": null,
    "items": [
     {
-     "headline": "Meta settles a landmark child harm case for $18 billion",
-     "detail": "The company agreed to the settlement with US states and promised changes to its platforms over allegations of harm to children.",
-     "url": "https://www.cnn.com/2026/08/26/tech/meta-states-settle-trial-children"
+     "headline": "Rep. Khanna: Meta settlement impact ‘doesn’t go far enough’",
+     "detail": "Rep. Khanna: Meta settlement impact ‘doesn’t go far enough’",
+     "url": "https://www.cnn.com/2026/08/30/politics/video/ro-khanna-meta-settlement-sotu"
     },
     {
-     "headline": "Dolly Parton, country music queen and humanitarian, dead at 80",
-     "detail": "The legendary singer died surrounded by loved ones, her representatives said, prompting tributes from around the world.",
-     "url": "https://www.cnn.com/interactive/2026/08/26/entertainment/dolly-parton-dead-vis/"
+     "headline": "Missouri’s William Jewell College running back dies after experiencing medical emergency during game",
+     "detail": "Missouri’s William Jewell College running back dies after experiencing medical emergency during game",
+     "url": "https://www.cnn.com/2026/08/30/sport/william-jewell-college-football-player-death"
     },
     {
-     "headline": "At least 31 killed and hundreds missing in a huge flash flood on the Nepal-China border",
-     "detail": "Nepal's foreign minister said a quake triggered a landslide that blocked a river, sending a torrent of water downstream.",
-     "url": "https://www.cnn.com/2026/08/26/world/live-news/nepal-flash-flooding-floods-intl"
+     "headline": "Rescuers search for missing workers as death toll rises from devastating China-Nepal floods",
+     "detail": "Rescuers search for missing workers as death toll rises from devastating China-Nepal floods",
+     "url": "https://www.cnn.com/2026/08/30/world/live-news/nepal-china-flood"
     },
     {
-     "headline": "Trump gets a much-needed South Carolina win in Tuesday's elections",
-     "detail": "The president's preferred candidate won the GOP Senate primary runoff, giving him a boost heading into the midterms.",
-     "url": "https://www.cnn.com/2026/08/25/politics/south-carolina-georgia-oklahoma-takeaways"
+     "headline": "Rep. Khanna: AOC running for President would have ‘no bearing’ on my decision",
+     "detail": "Rep. Khanna: AOC running for President would have ‘no bearing’ on my decision",
+     "url": "https://www.cnn.com/2026/08/30/politics/video/ro-khanna-2028-aoc-sotu"
     },
     {
-     "headline": "Trump spurs backlash from his own party after reviving unpopular tariffs",
-     "detail": "Republicans are pushing back against the president's renewed tariff push as the trade war with Canada escalates.",
-     "url": "https://www.cnn.com/2026/08/26/politics/republicans-trump-tariffs-midterms"
+     "headline": "NASA launches ‘discovery machine’ to unravel the invisible universe",
+     "detail": "NASA launches ‘discovery machine’ to unravel the invisible universe",
+     "url": "https://www.cnn.com/2026/08/30/science/nancy-grace-roman-space-telescope-launch"
     }
    ]
   },
@@ -174,33 +174,33 @@
    "key": "fox",
    "name": "Fox News",
    "site": "foxnews.com",
-   "summary": "Fox is leading with the death of Dolly Parton and the cause of her illness, alongside the Pakistan hospital fire, a manhunt arrest and primary results, with the Iran war and Smithsonian stories in the hot topics.",
-   "note": "Homepage returned navigation only - headlines taken from Fox News Digital and the latest RSS feed.",
+   "summary": "Fox News, covering US politics and national affairs is leading with AEW star reflects on All In ahead of tag team championship match at this year's pay-per-view; Colorado city leader dies after collapsing on mountain hike: 'Loss for our city'; Unexpected ancient complex emerges near biblical city linked to Jonah and St Peter.",
+   "note": null,
    "items": [
     {
-     "headline": "Country music legend Dolly Parton dead at 80",
-     "detail": "Parton died Tuesday at 80 following a brief battle with cancer, her representatives confirmed.",
-     "url": "https://www.foxnews.com/entertainment/dolly-parton-dead-80"
+     "headline": "AEW star reflects on All In ahead of tag team championship match at this year's pay-per-view",
+     "detail": "Nick Jackson reflects on All In's origins as The Young Bucks prepare to face Adam Copeland and Christian Cage for the tag team championship at Wembley.",
+     "url": "https://www.foxnews.com/outkick-sports/aew-star-reflects-all-ahead-tag-team-championship-match-years-pay-per-view"
     },
     {
-     "headline": "At least 14 newborns killed in a Pakistan nursery hospital fire",
-     "detail": "A blaze swept through a hospital nursery in Pakistan, killing at least 14 newborn babies.",
-     "url": "https://www.foxnews.com/world/least-14-newborns-killed-pakistan-nursery-hospital-fire"
+     "headline": "Colorado city leader dies after collapsing on mountain hike: 'Loss for our city'",
+     "detail": "Joe Anderson, Englewood Colorado's mayor pro tem, collapsed on Quandary Peak's lower slopes as fellow hikers rushed to perform CPR before help arrived.",
+     "url": "https://www.foxnews.com/us/colorado-city-leader-dies-collapsing-mountain-hike-loss-city"
     },
     {
-     "headline": "The Philadelphia mask suspect is arrested in Las Vegas",
-     "detail": "The man accused of terrorising people while wearing a Chucky mask was taken into custody in Las Vegas and faces extradition.",
-     "url": "https://www.foxnews.com/us/philadelphia-man-chucky-mask-accused-terrorizing-citizens-nabbed-las-vegas-manhunt"
+     "headline": "Unexpected ancient complex emerges near biblical city linked to Jonah and St Peter",
+     "detail": "A 1,300-year-old industrial complex with pottery kilns, warehouses and shops was unearthed in Ramat Gan near a route linking Jaffa and Jerusalem.",
+     "url": "https://www.foxnews.com/travel/unexpected-ancient-complex-emerges-near-biblical-city-linked-jonah-st-peter"
     },
     {
-     "headline": "Three Secret Service officials are under internal investigation",
-     "detail": "The officials are being investigated over potential misconduct, Fox News reported.",
-     "url": "https://www.foxnews.com/us/3-secret-service-officials-internal-investigation-potential-misconduct"
+     "headline": "Dolly Parton once performed for Queen Elizabeth II and was 'scared to death' about her curtsy",
+     "detail": "Dolly Parton recalled being \"scared to death\" about curtsying when she performed for Queen Elizabeth II during the Queen's Silver Jubilee in 1977.",
+     "url": "https://www.foxnews.com/entertainment/dolly-parton-performed-queen-elizabeth-ii-scared-death-curtsy"
     },
     {
-     "headline": "A conservative firebrand who went viral with an anti-CCP ad survives a key primary",
-     "detail": "The candidate held on in a closely watched primary race, according to Fox News.",
-     "url": "https://www.foxnews.com/politics/conservative-firebrand-went-viral-anti-ccp-ad-survives-key-primary"
+     "headline": "Celebrity evangelist reflects on 2024 meeting with Hayden Panettiere after actress's sudden passing",
+     "detail": "Celebrity pastor Dylan Novak opened up about his 2024 encounter with Hayden Panettiere, revealing a \"heartbreaking sadness\" that hung over the late star.",
+     "url": "https://www.foxnews.com/media/celebrity-evangelist-reflects-2024-meeting-hayden-panettiere-after-actresss-sudden-passing"
     }
    ]
   },
@@ -208,28 +208,33 @@
    "key": "wsj",
    "name": "The Wall Street Journal",
    "site": "wsj.com",
-   "summary": "The Journal is leading on Canada's retaliatory tariff package targeting US midterm states and the oil market's slide as Iran and Oman push to reopen the Strait of Hormuz.",
-   "note": "Paywalled - headlines via the Dow Jones World News RSS feed and dated article URLs.",
+   "summary": "The Wall Street Journal's world news wire is leading with Icelanders Reject EU-Membership Talks; Putin Turns Again to China’s Xi as Russia’s Clout Crumbles; Nearly 770 Dead in Devastating Nepal, Tibet Floods.",
+   "note": null,
    "items": [
     {
-     "headline": "Canada hits back at the US with tariffs targeting midterm states",
-     "detail": "Ottawa plans to impose tariffs of up to 50% on roughly 700 American products in retaliation for new US levies.",
-     "url": "https://www.wsj.com/world/americas/canada-targets-u-s-metals-foods-motorcycles-in-retaliatory-tariff-package-f677222b"
+     "headline": "Icelanders Reject EU-Membership Talks",
+     "detail": "Voters weighed the nation’s security in the wake of President Trump saying he would like the U.S. to acquire Greenland.",
+     "url": "https://www.wsj.com/world/europe/icelanders-reject-eu-membership-talks-national-broadcaster-projects-05a2c74d?mod=rss_worldnews"
     },
     {
-     "headline": "Why oil prices are down 10% this week",
-     "detail": "Crude has fallen sharply as Iran and Oman discuss reopening the Strait of Hormuz and Persian Gulf shipping insurance costs climb.",
-     "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026/card/why-oil-prices-are-down-10-this-week-rXrbEY7u9PdjI67peyAE"
+     "headline": "Putin Turns Again to China’s Xi as Russia’s Clout Crumbles",
+     "detail": "The shifting power status of the two leaders will be front and center on Monday, when they are set to meet in Kyrgyzstan.",
+     "url": "https://www.wsj.com/world/russia/putin-turns-again-to-chinas-xi-as-russias-clout-crumbles-125c56be?mod=rss_worldnews"
     },
     {
-     "headline": "GM says the Iran war and high gas prices are not denting sales",
-     "detail": "The US automaker raised its adjusted profit guidance on lower tariff costs, saying demand for its large trucks and SUVs remains strong.",
-     "url": "https://www.wsj.com/business/earnings/gm-raises-adjusted-profit-guidance-on-lower-tariff-costs-52a449ab"
+     "headline": "Nearly 770 Dead in Devastating Nepal, Tibet Floods",
+     "detail": "More than 3,000 people are missing after a partial detachment of a glacier on a Nepalese mountain sparked the disaster.",
+     "url": "https://www.wsj.com/world/asia/nearly-770-dead-in-devastating-nepal-tibet-floods-1bd43215?mod=rss_worldnews"
     },
     {
-     "headline": "What is getting hit with the new US-Canada tariffs",
-     "detail": "New tariffs kicked in on billions of dollars' worth of US imports from Canada after trade talks between the two nations collapsed.",
-     "url": "https://www.wsj.com/economy/trade/whats-getting-hit-with-the-new-u-s-canada-tariffs-4cb8141c"
+     "headline": "One of Asia’s Most Liveable Cities Tackles a New Threat: Cicadas",
+     "detail": "Singapore is famous for its ruthless efficiency. But the government met its match in the form of tens of thousands of loud, clumsy bugs.",
+     "url": "https://www.wsj.com/world/asia/singapore-cicada-swarms-ebddd127?mod=rss_worldnews"
+    },
+    {
+     "headline": "Russia Is Bombarding Europe With a New Wave of ‘Gray Zone’ Attacks",
+     "detail": "NATO countries see Moscow’s appetite for conflict increasing as it flounders against Ukraine.",
+     "url": "https://www.wsj.com/world/europe/russia-is-bombarding-europe-with-a-new-wave-of-gray-zone-attacks-c5eab3fa?mod=rss_worldnews"
     }
    ]
   }

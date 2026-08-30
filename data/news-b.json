@@ -1,36 +1,104 @@
 {
  "outlets": [
   {
-   "key": "time",
-   "name": "Time",
-   "site": "time.com",
-   "summary": "Time is leading with the Trump administration's threat to demolish the Kennedy Center and an apparent Iranian threat against Barron Trump, alongside the South Carolina primary result and Canada's tariff retaliation.",
+   "key": "nbc",
+   "name": "NBC News",
+   "site": "nbcnews.com",
+   "summary": "NBC News, covering US national news and politics is leading with NASA launches its next-generation space telescope; Ted Cruz says ‘there will be a time’ to make a decision on a 2028 run for president; Minnesota Supreme Court rejects Mike Lindell’s bid to recount GOP primary.",
    "note": null,
    "items": [
     {
-     "headline": "Trump administration warns the Kennedy Center could be demolished",
-     "detail": "The Justice Department argues the memorial faces a financial and structural death spiral without Trump's help.",
-     "url": "https://time.com/article/2026/08/26/kennedy-center-demolish-threat-trump-justice-department/"
+     "headline": "NASA launches its next-generation space telescope",
+     "detail": "NASA launched the Nancy Grace Roman Space Telescope into space and is expected to survey hundreds of millions of stars and billions of galaxies.",
+     "url": "https://www.nbcnews.com/video/nasa-launches-its-next-generation-space-telescope-269068357947"
     },
     {
-     "headline": "What to know about the apparent Iranian threat against Barron Trump",
-     "detail": "Time examines the reported threat against the president's son as the Iran conflict continues.",
-     "url": "https://time.com/article/2026/08/26/iran-state-media-threat-barron-trump/"
+     "headline": "Ted Cruz says ‘there will be a time’ to make a decision on a 2028 run for president",
+     "detail": "Sen. Ted Cruz (R-Texas) tells Meet the Press he plans to be on the road “nonstop” heading into the midterms and says “there’s a time for every season” when asked if he’s considering a run for president in 2028.",
+     "url": "https://www.nbcnews.com/meet-the-press/video/ted-cruz-says-there-will-be-a-time-to-make-a-decision-on-a-2028-run-for-president-269067334000"
     },
     {
-     "headline": "Darline Graham Nordone wins the South Carolina GOP Senate primary runoff",
-     "detail": "The Trump-backed candidate won the runoff to contest the seat of her late brother, Lindsey Graham.",
-     "url": "https://time.com/article/2026/08/26/darline-graham-nordone-runoff-south-carolina-special-gop-senate-primary/"
+     "headline": "Minnesota Supreme Court rejects Mike Lindell’s bid to recount GOP primary",
+     "detail": "MyPillow founder Mike Lindell has long denied Donald Trump’s loss in the 2020 presidential election.",
+     "url": "https://www.nbcnews.com/politics/2026-election/minnesota-supreme-court-rejects-mike-lindells-bid-recount-gop-gubernat-rcna595080"
     },
     {
-     "headline": "Canada retaliates against Trump's tariffs with levies of up to 50%",
-     "detail": "Ottawa announced retaliatory tariffs on US goods as the trade war between the two countries escalates.",
-     "url": "https://time.com/article/2026/08/25/canada-retaliates-trumps-tariffs-with-levies/"
+     "headline": "Iran’s supreme leader urges Gulf rulers to confront ‘real enemy’ in written message",
+     "detail": "Iran’s Supreme Leader ​Mojtaba Khamenei urged Muslim countries, particularly those in the Gulf, to unite against what he called their “real enemy” and said divisions among Muslims served the interests of their adversaries.",
+     "url": "https://www.nbcnews.com/world/iran/irans-mojtaba-khamenei-urges-gulf-rulers-message-rcna595092"
     },
     {
-     "headline": "Two people have died of measles in Pennsylvania",
-     "detail": "The deaths come amid a measles outbreak in the state, according to Time.",
-     "url": "https://time.com/article/2026/08/25/two-people-have-died-of-measles-in-pennsylvania/"
+     "headline": "Sen. Ted Cruz calls for elections in Venezuela to proceed ‘rapidly’",
+     "detail": "Sen. Ted Cruz renewed calls for free and fair elections to be held in Venezuela, just two days after Trump announced that the U.S. would take of 65 billion barrels of oil",
+     "url": "https://www.nbcnews.com/politics/congress/ted-cruz-elections-venezuela-oil-maduro-delcy-rodriguez-rcna595110"
+    }
+   ]
+  },
+  {
+   "key": "thehill",
+   "name": "The Hill",
+   "site": "thehill.com",
+   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with What China's delay means for the US-China moon race; Why we should bring back the draft; Venezuelan interim president offers details on US oil deal.",
+   "note": null,
+   "items": [
+    {
+     "headline": "What China's delay means for the US-China moon race",
+     "detail": "The liftoff of China’s Chang’e 7 mission to the moon has been delayed into 2027.",
+     "url": "https://thehill.com/opinion/technology/6059278-what-chinas-delay-means-for-the-us-china-moon-race/"
+    },
+    {
+     "headline": "Why we should bring back the draft",
+     "detail": "University of Pennsylvania professor Jonathan Zimmerman argues that reinstating a military draft would encourage student activism against the ongoing war in Iran and ensure a more equitable distribution of national defense responsibilities.",
+     "url": "https://thehill.com/opinion/national-security/6058792-iran-war-college-protest/"
+    },
+    {
+     "headline": "Venezuelan interim president offers details on US oil deal",
+     "detail": "Venezuelan interim President Delcy Rodríguez on Saturday provided details on her country's new oil deal with the U.S., after President Trump said much of Venezuela's oil reserves will be under \"majority U.S.",
+     "url": "https://thehill.com/policy/international/6059462-venezuela-us-oil-deal/"
+    },
+    {
+     "headline": "Live updates: US-Venezuela oil deal sparks debate; Doug Ford set for Sunday show appearance",
+     "detail": "President Trump this weekend announced a new deal for the U.S. to acquire majority control of over 65 million barrels of Venezuelan oil, which has prompted a mixed response on the home front.",
+     "url": "https://thehill.com/homenews/administration/6059344-live-updates-trump-venezuela-oil-deal/"
+    },
+    {
+     "headline": "What happens when Republican senators have nothing left to lose? Not much.",
+     "detail": "Often called the “Wounded Bear” or YOLO (“you only live once”) Caucus, these lawmakers have nothing to lose.",
+     "url": "https://thehill.com/opinion/congress-blog/6057763-senators-abandoning-constitutional-checks/"
+    }
+   ]
+  },
+  {
+   "key": "time",
+   "name": "Time",
+   "site": "time.com",
+   "summary": "Time magazine, covering US and world affairs is leading with Doing Random Acts of Kindness Is Good for You; Trump Promises His Venezuela Oil Deal Will Lower Gas Prices. But When?; Therapy Has a Relationship Problem.",
+   "note": null,
+   "items": [
+    {
+     "headline": "Doing Random Acts of Kindness Is Good for You",
+     "detail": "Research indicates that engaging in random acts of kindness boosts happiness in both those who give and those who receive, writes Joan M. Cook.",
+     "url": "https://time.com/article/2026/08/30/doing-random-acts-of-kindness-is-good-for-you/"
+    },
+    {
+     "headline": "Trump Promises His Venezuela Oil Deal Will Lower Gas Prices. But When?",
+     "detail": "Developing the country’s vast oil reserves will require significant investment and infrastructure work—and officials have provided no public timeline.",
+     "url": "https://time.com/article/2026/08/29/trump-says-his-venezuela-oil-deal-will-lower-gas-prices-but-when-/"
+    },
+    {
+     "headline": "Therapy Has a Relationship Problem",
+     "detail": "When therapy mistakes relational distress for dysfunction, it leaves people with fewer meaningful connections and worse mental health, writes David H. Rosmarin.",
+     "url": "https://time.com/article/2026/08/29/therapy-has-a-relationship-problem/"
+    },
+    {
+     "headline": "Dire Strait: Why Economic Threats Might Escalate the War in Iran",
+     "detail": "Instead of unclogging Hormuz and bringing Iran to heel, Washington’s so-called “economic D-day” might drive Tehran to double down.",
+     "url": "https://time.com/article/2026/08/29/iran-escalation-trump-economic-war/"
+    },
+    {
+     "headline": "The Trouble With Trump’s Attempt to Rename Lake Ontario",
+     "detail": "Trump’s renaming of Lake Ontario is symbolic political theater aimed at diverting our attention away from the fallout of his trade war with Canada, write Reuben Rose-Redwood and Derek Alderman.",
+     "url": "https://time.com/article/2026/08/28/the-trouble-with-trump-s-attempt-to-rename-lake-ontario/"
     }
    ]
   },
@@ -38,33 +106,33 @@
    "key": "variety",
    "name": "Variety",
    "site": "variety.com",
-   "summary": "Variety is dominated by the death of Dolly Parton and the ongoing Paramount-Warner Bros merger fight, including Iowa's Supreme Court push and Jane Fonda's clash with the studio, plus Meta's $17.1 billion settlement.",
+   "summary": "Variety, on the business of entertainment is leading with Here’s How to Watch the 2026 Little League World Series Championship Game Live Online; Laura Dern to Give George Clooney Venice Golden Lion for Lifetime Achievement; ’17’ Review: Harrowing Teen Pregnancy Drama from Macedonia Could Be the Feel-Bad Movie of the Year.",
    "note": null,
    "items": [
     {
-     "headline": "Dolly Parton, queen of country music, dies at 80",
-     "detail": "The singer, songwriter and actress died Tuesday in Nashville at 80.",
-     "url": "https://variety.com/2026/music/news/dolly-parton-dead-dies-country-music-1236842727/"
+     "headline": "Here’s How to Watch the 2026 Little League World Series Championship Game Live Online",
+     "detail": "The 2026 Little League World Series Championship Game features Nevada vs. Curaçao on Sunday, Aug. 30 at 3 p.m. ET/12 p.m. PT on ESPN. Games take place at Lamade Stadium in South Williamsport, Pennsylvania.",
+     "url": "https://variety.com/2026/shopping/news/how-to-watch-little-league-world-series-online-livestream-free-1236487338/"
     },
     {
-     "headline": "Meta to pay $17.1 billion in a settlement with 29 states over social-media addiction",
-     "detail": "The deal resolves claims brought by state attorneys general over the platforms' alleged harm to young users.",
-     "url": "https://variety.com/2026/digital/news/meta-pay-17-billion-settlement-29-states-ags-social-media-addiction-1236843725/"
+     "headline": "Laura Dern to Give George Clooney Venice Golden Lion for Lifetime Achievement",
+     "detail": "Laura Dern is set to give the Laudatio speech honoring George Clooney at Venice Film Festival where, as previously announced, he will be honored on Wed., Sept. 2, with a Golden Lion for Lifetime Achievement.",
+     "url": "https://variety.com/2026/film/festivals/laura-dern-george-clooney-venice-golden-lion-lifetime-1236846829/"
     },
     {
-     "headline": "Iowa's attorney general says she is taking California to the Supreme Court over the Paramount-Warner Bros lawsuit",
-     "detail": "Brenna Bird wrote she is suing California for leading the charge in the antitrust challenge to the merger.",
-     "url": "https://variety.com/2026/film/news/iowa-attorney-general-sue-california-paramount-warner-bros-1236843385/"
+     "headline": "’17’ Review: Harrowing Teen Pregnancy Drama from Macedonia Could Be the Feel-Bad Movie of the Year",
+     "detail": "From the first frame, Kosara Mitić’s “17” refuses to pull any punches, plunging us immediately into the traumatic moment when a hookup between high-school student Sara (Eva Kostić) and two boys takes a violent turn.",
+     "url": "https://variety.com/2026/film/reviews/17-review-1236846790/"
     },
     {
-     "headline": "Jane Fonda slams Paramount for calling Mark Ruffalo's comments antisemitic",
-     "detail": "The actress called the studio's response a smear to delegitimise criticism of the merger.",
-     "url": "https://variety.com/2026/film/news/jane-fonda-paramount-mark-ruffalo-smear-merger-warner-bros-1236843419/"
+     "headline": "‘Sea of Glass’ Review: A Widow’s Coastal Healing Retreat Turns Into a Stately, Moody Greek Tragedy",
+     "detail": "There are Greek waves aplenty lapping at the forlorn beachside setting of “Sea of Glass,” though they’re not especially weird ones.",
+     "url": "https://variety.com/2026/film/news/sea-of-glass-review-1236846714/"
     },
     {
-     "headline": "'Heroes' stars throw a reunion to celebrate the life of Hayden Panettiere",
-     "detail": "The cast gathered to honour the late actress, sharing so much love, gratitude and warmth.",
-     "url": "https://variety.com/2026/tv/news/heroes-cast-reunion-celebrate-life-of-hayden-panettiere-1236843535/"
+     "headline": "Inside the Global Rise of CJ ENM’s ‘The Legend of Kitchen Soldier’",
+     "detail": "When “The Legend of Kitchen Soldier” was selected as the only K-drama in the Special Screening section at Series Mania in Lille earlier this year, it marked an early signal that something unusual was happening with a show that had started…",
+     "url": "https://variety.com/2026/tv/news/legend-of-kitchen-soldier-cj-enm-global-success-1236846772/"
     }
    ]
   },
@@ -72,28 +140,33 @@
    "key": "bloomberg",
    "name": "Bloomberg",
    "site": "bloomberg.com",
-   "summary": "Bloomberg is leading on the ECB's hawkish signal on rates, the slide in oil as Iran and Oman push to reopen Hormuz, and copper's record run, with the Bessent bond-market play in focus.",
-   "note": "Homepage fetch timed out; items sourced from the Bloomberg markets RSS feed and dated article URLs.",
+   "summary": "Bloomberg's markets and business file is leading with How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline; Investors Bet on a Hair Loss Treatment Boom; Shein’s $100 Billion Valuation Falls to $26 Billion.",
+   "note": null,
    "items": [
     {
-     "headline": "ECB's Schnabel says rates must rise more on a resilient economy",
-     "detail": "European Central Bank Executive Board member Isabel Schnabel said interest rates must rise further as the Middle East conflict keeps pressure on the economy.",
-     "url": "https://www.bloomberg.com/news/articles/2026-08-26/ecb-s-schnabel-says-rates-must-rise-more-on-resilient-economy"
+     "headline": "How YouTube Filmmakers Are Reshaping Hollywood’s Talent Pipeline",
+     "detail": "YouTube creators are turning online audiences into big-screen opportunities, with filmmakers like Alex Kister moving from DIY horror videos to studio deals.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/is-hollywood-losing-its-stranglehold-on-filmmaking-video"
     },
     {
-     "headline": "Oil extends declines as Iran and Oman push talks to reopen Hormuz",
-     "detail": "Crude fell for a third day as the two countries discussed a potential deal to resume shipping through the Strait of Hormuz.",
-     "url": "https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26"
+     "headline": "Investors Bet on a Hair Loss Treatment Boom",
+     "detail": "Drugmakers are developing a new generation of hair loss treatments, including lotions, pills and longer-lasting injections, targeting a US market where tens of millions of men and women experience pattern hair loss.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/investors-bet-on-a-hair-loss-treatment-boom-video"
     },
     {
-     "headline": "Copper climbs from a record-high close with supply still tight",
-     "detail": "Copper steadied after earlier gains took it closer to a record high, with short-term supplies continuing to look tight.",
-     "url": "https://www.bloomberg.com/news/articles/2026-08-26/copper-climbs-from-record-high-close-with-supply-still-tight"
+     "headline": "Shein’s $100 Billion Valuation Falls to $26 Billion",
+     "detail": "Shein is heading toward a Hong Kong listing at a valuation of about $26.5 billion, roughly a quarter of its 2022 peak, after earlier efforts to list in New York and London ran into regulatory hurdles.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/shein-s-100-billion-valuation-falls-to-26-billion-video"
     },
     {
-     "headline": "The 'Bessent Put' might actually be working for the bond market",
-     "detail": "A week after Treasury Secretary Scott Bessent jolted markets with his plan to bring down US borrowing costs, the impact is becoming clearer.",
-     "url": "https://www.bloomberg.com/news/newsletters/2026-08-26/the-bessent-put-might-actually-be-working-for-the-bond-market"
+     "headline": "Venezuela Oil Deal Raises Questions Over US Role",
+     "detail": "The Trump administration’s deal giving a US-led venture access to 65 billion barrels of Venezuelan oil could reshape the countries’ economic relationship, but questions remain over its political durability and whether it will provoke a…",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/venezuela-oil-deal-raises-questions-over-us-role-video"
+    },
+    {
+     "headline": "Gold Bulls Turn to Exotic Options, Spreads in ‘Orderly’ Rally",
+     "detail": "Gold bulls rejuvenated by the Treasury Department’s efforts to keep US borrowing costs in check are turning to exotic options and spreads to bet on higher bullion prices.",
+     "url": "https://www.bloomberg.com/news/articles/2026-08-30/gold-bulls-turn-to-exotic-options-spreads-in-orderly-rally"
     }
    ]
   },
@@ -101,33 +174,33 @@
    "key": "bbc",
    "name": "BBC",
    "site": "bbc.com",
-   "summary": "The BBC is leading with the deadly flash flood on the Nepal-Tibet border and the death of Dolly Parton, alongside the Pakistan hospital fire, Prince Harry and Meghan's return to the UK, and the escalating US-Canada trade war.",
+   "summary": "The BBC's world news service is leading with Iceland votes against restarting talks on joining EU; Manhunt after shooting at Swiss rave kills woman, 22, and injures five; Canada installs large Lake Ontario sign in latest jab at US.",
    "note": null,
    "items": [
     {
-     "headline": "Hundreds missing and 31 dead as a flash flood hits the Nepal-Tibet border",
-     "detail": "The missing include more than 100 people from India and 12 from the UK, with CCTV capturing a wall of mud and water hitting a border crossing.",
-     "url": "https://www.bbc.com/news/articles/cx2zyerv2lmo"
+     "headline": "Iceland votes against restarting talks on joining EU",
+     "detail": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume talks.",
+     "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
     },
     {
-     "headline": "The door was locked at the Pakistan hospital where a fire killed 14 babies",
-     "detail": "Witnesses said the door to the ward was locked, though a hospital official told the BBC it was manned with security guards to protect the babies.",
-     "url": "https://www.bbc.com/news/articles/czdz13elezlo"
+     "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+     "detail": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+     "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss"
     },
     {
-     "headline": "Prince Harry and Meghan land in the UK days after announcing their move",
-     "detail": "The couple and their two children are believed to have flown into the country privately from California.",
-     "url": "https://www.bbc.com/news/articles/czrzm6p6zxeo"
+     "headline": "Canada installs large Lake Ontario sign in latest jab at US",
+     "detail": "Ontario Premier Doug Ford unveiled a billboard on Canada's shoreline with the message: \"Lake Ontario. Now and Always.\"",
+     "url": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "headline": "Dolly Parton dies from cancer aged 80 as the world remembers her",
-     "detail": "The legendary country music singer died surrounded by loved ones, her representatives said.",
-     "url": "https://www.bbc.com/news/live/c0ry0yzxeyxt"
+     "headline": "WhatsApp chat used to send cash for crime and extremism",
+     "detail": "The WhatsApp money launderers arranged cash transfers in the UK and around the world with no paper trail.",
+     "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss"
     },
     {
-     "headline": "Canada's retaliation tests the limit of American power under Trump",
-     "detail": "The president is using US dominance to challenge allies and enemies alike, but both Canada and Iran have found ways to fight back.",
-     "url": "https://www.bbc.com/news/articles/ce8xd5k1krpo"
+     "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+     "detail": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
+     "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
     }
    ]
   },
@@ -135,33 +208,33 @@
    "key": "france24",
    "name": "France 24",
    "site": "france24.com",
-   "summary": "France 24 is leading with the Nepal-Tibet flash flood disaster and the Middle East live coverage of the Iran conflict, alongside the CIA chief's Moscow visit and El Nino-fuelled drought emergencies in the Americas.",
-   "note": "Items taken from the dated live-news wire index, all with 20260826 URL stamps.",
+   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with Cyprus: Ferry capsizes with hundreds on board; Nepal: Hopes fade for thousands still missing; Norway’s New King breaks silence after father’s death.",
+   "note": null,
    "items": [
     {
-     "headline": "At least 22 bodies recovered and hundreds missing after Nepal-Tibet flash floods",
-     "detail": "Chinese state media reported the mudslide disaster resulted in major casualties and missing people at the Gyirong Port on the Tibetan side of the border.",
-     "url": "https://www.france24.com/en/asia-pacific/20260826-at-least-22-bodies-recovered-hundreds-missing-after-nepal-tibet-flash-floods"
+     "headline": "Cyprus: Ferry capsizes with hundreds on board",
+     "detail": "Authorities say at least six people have died after a catamaran-style ferry carrying 267 passengers and crew capsized off the coast of northern Cyprus.",
+     "url": "https://www.france24.com/en/video/20260830-cyprus-ferry-capsizes-with-hundreds-of-board"
     },
     {
-     "headline": "Netanyahu says a diplomatic deal is not possible with Iranian 'savages'",
-     "detail": "The Middle East live blog tracks the latest as Iran says the Strait of Hormuz remains closed despite transit-corridor talks with Oman.",
-     "url": "https://www.france24.com/en/middle-east/20260826-middle-east-live-iran-says-hormuz-strait-still-closed-despite-transit-corridor-talks-with-oman"
+     "headline": "Nepal: Hopes fade for thousands still missing",
+     "detail": "Four days have passed since catastrophic floods killed more than 750 people. More than 3,000 people are still missing, and hopes of finding survivors are fading.",
+     "url": "https://www.france24.com/en/nepal-hopes-fade-for-thousands-still-missing"
     },
     {
-     "headline": "Kremlin says the CIA chief met Russian counterparts, not Putin, in Moscow",
-     "detail": "Russia confirmed CIA Director John Ratcliffe met Russian intelligence services during a visit to the capital.",
-     "url": "https://www.france24.com/en/europe/20260826-kremlin-says-cia-chief-met-russian-counterparts-not-putin-in-moscow"
+     "headline": "Norway’s New King breaks silence after father’s death",
+     "detail": "Norway’s new king addressed the nation for the first time since taking the throne, paying tribute to his 89-year-old father, who died the previous day. Morgan Ayre has the details.",
+     "url": "https://www.france24.com/en/video/20260830-norway-s-new-king-breaks-silence-after-father-s-death"
     },
     {
-     "headline": "Panama and El Salvador declare an emergency over El Nino-fuelled drought",
-     "detail": "Both countries declared emergencies as a powerful El Nino drives severe drought conditions across the region.",
-     "url": "https://www.france24.com/en/americas/20260826-panama-and-el-salvador-declare-emergency-over-el-nino-fuelled-drought"
+     "headline": "Pacific Summit opens amid Taiwan row",
+     "detail": "The annual Pacific Islands Forum begins on Monday in Palau, bringing together the 18-member intergovernmental organisation to discuss regional cooperation and security.",
+     "url": "https://www.france24.com/en/pacific-summit-opens-amid-taiwan-row"
     },
     {
-     "headline": "Trump sends the Saudi civil nuclear agreement to Congress for review",
-     "detail": "The classified pact is aimed at bolstering Riyadh's nuclear programme but remains contingent on Saudi Arabia normalising relations with Israel.",
-     "url": "https://www.france24.com/en/americas/20260826-trump-saudi-civil-nuclear-agreement-congress"
+     "headline": "Ferry carrying more than 260 people capsizes off northern Cyprus",
+     "detail": "Authorities say several people have died after a ferry accident off the coast of northern Cyprus. The catamaran-style vessel was carrying nearly 270 passengers and crew when it capsized.",
+     "url": "https://www.france24.com/en/ferry-carrying-more-than-260-people-capsizes-off-northern-cyprus"
     }
    ]
   },
@@ -169,33 +242,33 @@
    "key": "aljazeera",
    "name": "Al Jazeera",
    "site": "aljazeera.com",
-   "summary": "Al Jazeera is leading with the Iran war's economic toll, including the rial's collapse and the Hormuz route talks with Oman, alongside the Nepal flash flood and the Pakistan hospital fire.",
+   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with How does your name taste? The strange science of synaesthesia; Iceland votes to reject EU accession talks: What happens next?; Banque Misr, Egypt’s second-largest, hit by US sanctions: What to know.",
    "note": null,
    "items": [
     {
-     "headline": "Iran says it received new military equipment as Hormuz remains closed",
-     "detail": "Tehran said damaged infrastructure has been repaired even as the Strait of Hormuz stays shut despite a route deal with Oman.",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/8/26/iran-war-live-iran-says-hormuz-remains-closed-despite-oman-rout-deal"
+     "headline": "How does your name taste? The strange science of synaesthesia",
+     "detail": "Experiencing names as tastes - a form of synaesthesia - reveals how differently people perceive the same world.",
+     "url": "https://www.aljazeera.com/features/longform/2026/8/30/how-does-your-name-taste-the-strange-science-of-synaesthesia?traffic_source=rss"
     },
     {
-     "headline": "At least 22 killed and hundreds missing after a Nepal flash flood",
-     "detail": "An avalanche of ice and rock triggered massive flash floods that swept through parts of Nepal, killing at least 22 people.",
-     "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads"
+     "headline": "Iceland votes to reject EU accession talks: What happens next?",
+     "detail": "The referendum result halts Iceland's bid to reopen EU membership talks, with 52.5 percent voting against the proposal.",
+     "url": "https://www.aljazeera.com/news/2026/8/30/iceland-votes-to-reject-eu-accession-talks-what-happens-next?traffic_source=rss"
     },
     {
-     "headline": "Iran and Oman agree on a temporary Hormuz route",
-     "detail": "The two countries reached an agreement on a temporary shipping route through the strategic strait, according to Al Jazeera.",
-     "url": "https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know"
+     "headline": "Banque Misr, Egypt’s second-largest, hit by US sanctions: What to know",
+     "detail": "Move comes as Washington steps up its efforts to economically pressure Iran amid deadlock in truce talks.",
+     "url": "https://www.aljazeera.com/news/2026/8/30/banque-misr-egypts-second-largest-hit-by-us-sanctions-what-to-know?traffic_source=rss"
     },
     {
-     "headline": "At least 14 babies killed in a Pakistan hospital nursery fire",
-     "detail": "A fire swept through a hospital nursery in Pakistan, killing at least 14 newborn babies.",
-     "url": "https://www.aljazeera.com/news/2026/8/26/at-least-15-newborns-killed-in-pakistan-hospital-fire"
+     "headline": "Van Dijk wants Cody Gakpo to stay at Liverpool despite Man City interest",
+     "detail": "Liverpool's Dutch forward Gakpo is a transfer target for Premier League rivals Manchester City.",
+     "url": "https://www.aljazeera.com/sports/2026/8/30/van-dijk-wants-cody-gakpo-to-stay-at-liverpool-despite-man-city-interest?traffic_source=rss"
     },
     {
-     "headline": "One US dollar now costs 2 million rials in Iran",
-     "detail": "Sanctions and the US-Israel war on Iran have left the country's people unable to keep pace with rising prices.",
-     "url": "https://www.aljazeera.com/economy/2026/8/26/one-us-dollar-now-costs-2-million-rials-in-iran-and-heres-what-it-can-buy"
+     "headline": "Dozens of soldiers arrested after apparent coup attempt in Niger’s capital",
+     "detail": "Dozens of soldiers arrested after apparent coup attempt in Niger’s capital",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/dozens-of-soldiers-arrested-after-apparent-coup-attempt-in-nigers-capital?traffic_source=rss"
     }
    ]
   }

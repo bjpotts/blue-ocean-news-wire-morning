@@ -3,174 +3,114 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ equity capital markets activity in the window to 26 August was led by a single large institutional placement - GR Engineering Services locking in a $100 million raise at $6.10 a share to strengthen its balance sheet against a contracted and near-term workload - while the listing calendar stayed busy with small-cap floats. Powerhaus Uranium began trading on 25 August after a $9 million IPO at 20 cents, and Almasar Minerals is set to debut on 31 August after raising $27 million for Saudi gold and copper exploration, with sovereign AI infrastructure play SCX.ai's $40 million float from the prior week still the standout new listing by scale. The common thread is a market where the biggest money is going to established engineering and services names via placements, while the IPO queue remains dominated by exploration and thematic small caps rather than large new floats.",
+   "summary": "A single verifiable equity capital markets item was found for ANZ this run: Black Bear wins $12.5m backing for Shafter restart push",
    "items": [
     {
-     "headline": "GR Engineering Services locks in a $100 million institutional placement",
-     "detail": "The ASX-listed engineering group (ASX:GNG) received binding commitments for a non-underwritten placement of new shares at $6.10 each - a 3.3% discount to its last close and nil discount to the 10-day VWAP - with settlement on 1 September, alongside a non-underwritten share purchase plan of up to $10 million, to strengthen its balance sheet for its contracted and near-term pipeline of work.",
-     "outlet": "Listcorp",
-     "url": "https://www.listcorp.com/asx/gng/gr-engineering-services-limited/news/successful-completion-of-100-million-placement-3395627.html"
-    },
-    {
-     "headline": "Powerhaus Uranium begins trading on the ASX after a $9 million IPO",
-     "detail": "The uranium explorer (ASX:POW) was admitted to the ASX on 21 August and commenced quotation on 25 August after raising $9 million through the issue of 45 million shares at $0.20 each, with Canaccord Genuity and Pamplona as joint lead managers, to fund exploration across projects in Argentina and Canada.",
-     "outlet": "Market Index",
-     "url": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX:POW:6A1339625/pdf/inline/admission-and-quotation"
-    },
-    {
-     "headline": "Almasar Minerals set to debut on the ASX after a $27 million raise",
-     "detail": "The Saudi-focused gold and copper explorer (ASX:AMK) is scheduled to list on 31 August 2026 at an issue price of $0.20 per share, having raised $27 million to advance its wholly owned exploration portfolio across the Arabian Shield.",
-     "outlet": "ASX",
-     "url": "https://www.asx.com.au/listings/upcoming-floats-and-listings"
-    },
-    {
-     "headline": "SCX.ai makes its ASX debut after a $40 million sovereign AI IPO",
-     "detail": "SCX.ai Holdings (ASX:SCX) began trading on 21 August after completing a $40 million initial public offering at $0.30 per share, with the sovereign AI infrastructure provider reporting growth in contracted annual recurring revenue, customers and platform usage ahead of its debut.",
-     "outlet": "Proactive Investors",
-     "url": "https://www.proactiveinvestors.com/companies/news/1097385/scx-ai-makes-asx-debut-after-40-million-ipo-as-ai-demand-accelerates-1097385.html"
+     "headline": "Black Bear wins $12.5m backing for Shafter restart push",
+     "detail": "Black Bear’s placement at 55c a share attracted new and existing domestic and international institutions and sophisticated investors. ... Read More",
+     "url": "https://stockhead.com.au/resources/black-bear-wins-12-5m-backing-for-shafter-restart-push/",
+     "outlet": "Stockhead"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia remained the busiest region, and the story is still overwhelmingly a mainland Chinese semiconductor and AI capital-raising wave routed through Hong Kong. The week's marquee deal was Ingenic Semiconductor's HK$3.22 billion (about US$410 million) Hong Kong secondary listing, which debuted on 25 August and gave the niche memory-chip leader a dual mainland-Hong Kong listing, while AI chip designer Moore Threads flagged plans to follow suit. HKEX chief executive Bonnie Chan underscored the momentum, noting more than 100 companies have listed in Hong Kong this year raising over $40 billion - already past the full-year 2025 total - with follow-on offerings adding more than $50 billion. The common thread is Beijing's technological self-reliance push and AI-driven demand giving Chinese chip and AI issuers strong pricing power in Hong Kong's deep liquidity pool.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by China’s CXMT posts massive 870% revenue surge as ‘aggressive expansion’ pays off. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "items": [
     {
-     "headline": "Ingenic Semiconductor debuts in Hong Kong with a HK$3.22 billion secondary listing",
-     "detail": "The Beijing-based niche memory-chip leader raised up to HK$3.22 billion (about US$410 million) by offering 31.29 million H shares at up to HK$102.80 each, listing on 25 August under code 3223 to secure a dual mainland-Hong Kong listing, with proceeds earmarked for memory, computing and analogue chip development plus strategic investments.",
-     "outlet": "South China Morning Post",
-     "url": "https://www.scmp.com/tech/tech-trends/article/3364263/ingenic-launches-ipo-join-wave-mainland-china-chipmakers-raising-funds-hong-kong"
+     "headline": "China’s CXMT posts massive 870% revenue surge as ‘aggressive expansion’ pays off",
+     "detail": "Chinese chipmaker ChangXin Memory Technologies (CXMT) reported a sharp surge in first-half revenue on Friday, as the firm released its first financial results since becoming China’s most valuable publicly traded company in a blockbuster…",
+     "url": "https://www.scmp.com/tech/big-tech/article/3365623/chinas-cxmt-posts-massive-870-revenue-surge-aggressive-expansion-pays?utm_source=rss_feed",
+     "outlet": "South China Morning Post"
     },
     {
-     "headline": "HKEX CEO says Hong Kong's IPO boom extends beyond tech as fundraising tops $40 billion",
-     "detail": "Bonnie Chan told CNBC that more than 100 companies have listed in Hong Kong so far in 2026 with proceeds exceeding $40 billion - already surpassing the $37 billion raised in all of 2025 - with a diversified pipeline spanning biotech, mining and consumer names and follow-on offerings adding over $50 billion year to date.",
-     "outlet": "CNBC",
-     "url": "https://www.cnbc.com/2026/08/20/hong-kong-ipo-hkex-bonnie-chan-investors.html"
+     "headline": "Macau tycoon Lawrence Ho’s family office expands into space sector in de-SPAC deal",
+     "detail": "Black Spade Capital, the family office of Macau casino billionaire Lawrence Ho Yau-lung, has announced its third “de-SPAC” deal through a merger with a satellite communications firm, a move granting it access to the space technology…",
+     "url": "https://www.scmp.com/business/companies/article/3365579/macau-tycoon-lawrence-hos-family-office-expands-space-sector-de-spac-deal?utm_source=rss_feed",
+     "outlet": "South China Morning Post"
     },
     {
-     "headline": "AI chip designer Moore Threads plans a Hong Kong listing",
-     "detail": "The Beijing-based AI accelerator maker said it plans to list in Hong Kong at an 'appropriate time' after its shares surged more than 420% since their Shanghai debut last year, as it deepens its internationalisation strategy and attracts R&D and management talent.",
-     "outlet": "China Daily (via Bloomberg)",
-     "url": "https://www.chinadailyhk.com/hk/article/637671"
+     "headline": "Bitcoin rally and Alibaba share purchases: the numbers moving markets",
+     "detail": "Bitcoin and gold rallied this week as the size of America’s sovereign debt continued to haunt global financial markets.",
+     "url": "https://www.scmp.com/business/china-business/article/3365540/bitcoin-rally-and-alibaba-share-purchases-numbers-moving-markets?utm_source=rss_feed",
+     "outlet": "South China Morning Post"
     },
     {
-     "headline": "Ingenic's HKEX debut values the memory-chip leader above HK$50 billion",
-     "detail": "Ingenic issued 31.29 million H shares at HK$100 each on 25 August, with its market capitalisation exceeding HK$50 billion after trading opened, in a dual listing that follows its 2011 Shenzhen Stock Exchange IPO and was sponsored by Guotai Junan International.",
-     "outlet": "Law.asia",
-     "url": "https://law.asia/ingenic-hkex-debut/"
+     "headline": "US surgical robotics firm eyes Hong Kong listing to power push into mainland China",
+     "detail": "SoftBank-backed surgical robotics company Noah Medical has begun preparations for a Hong Kong initial public offering, joining a wave of cutting-edge technology firms tapping the city’s international fundraising pool.",
+     "url": "https://www.scmp.com/business/companies/article/3365539/softbank-backed-surgical-robotics-firm-eyes-hong-kong-listing-power-mainland-china-push?utm_source=rss_feed",
+     "outlet": "South China Morning Post"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "The US market is in its late-August summer lull, with the calendar thin but the pipeline building for the post-Labor Day window. The week's most significant development was UK-based power equipment provider Aggreko filing for an estimated $1.5 billion NYSE IPO on 24 August, tapping surging investor appetite for energy infrastructure amid the AI data centre boom, while Hawaiian community bank American Savings Bank filed for a NYSE listing and Japanese fintech Advasa Holdings completed a Nasdaq direct listing. The much larger stories remain ahead of the market, with Anthropic widely reported to be preparing a mega IPO at a valuation near $2 trillion. The common thread is that the quiet pricing calendar is being offset by a steady stream of sizeable filings, particularly in energy infrastructure and AI.",
+   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "items": [
     {
-     "headline": "UK power equipment firm Aggreko files for an estimated $1.5 billion US IPO",
-     "detail": "The Glasgow-based provider of portable energy, HVAC and compressor equipment filed with the SEC on 24 August to list on the NYSE under the ticker AGKO, seeking up to an estimated $1.5 billion, with Goldman Sachs, J.P. Morgan and BofA Securities as joint lead bookrunners, as data centre demand drives a surge in power infrastructure investor interest.",
-     "outlet": "Reuters",
-     "url": "https://www.reuters.com/business/energy/power-supply-firm-aggreko-files-us-ipo-2026-08-24"
+     "headline": "The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million",
+     "detail": "Inflection Point Acquisition Corp. VIII (IPHXU) – part of Michael Blitzer’s SPAC franchise – raised $250 million – pricing 25 million units at $10.00 each – in its SPAC IPO on Thursday night, Aug. 27, 2026.",
+     "url": "https://www.iposcoop.com/the-spac-ipo-buzz-inflection-point-acquisition-viii-raises-250-million/",
+     "outlet": "IPOScoop"
     },
     {
-     "headline": "Hawaiian community bank American Savings Bank files for an IPO",
-     "detail": "The Hawaii-based bank with 35 branches filed on 24 August with the Office of the Comptroller of the Currency for an initial public offering, with Renaissance Capital estimating it could raise about $50 million, planning to list on the NYSE under the ticker ASBH with Piper Sandler and Keefe Bruyette Woods as joint bookrunners.",
-     "outlet": "Renaissance Capital",
-     "url": "https://www.renaissancecapital.com/IPO-Center/News/121282/Hawaiian-community-bank-American-Savings-Bank-files-for-an-IPO"
+     "headline": "The SPAC IPO Buzz: JATT III Acquisition (JTTT) Jumps 15 Percent in its NASDAQ Debut",
+     "detail": "JATT III Acquisition, a newly minted healthcare SPAC, soared in its NASDAQ debut – up 14.5 percent to close at $11.45 on Wednesday (Aug. 26, 2026).",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-jatt-iii-acquisition-jttt-jumps-15-percent-in-its-nasdaq-debut/",
+     "outlet": "IPOScoop"
     },
     {
-     "headline": "Japanese fintech Advasa Holdings completes a Nasdaq direct listing",
-     "detail": "The Tokyo-based earned wage access software provider completed its direct listing on the Nasdaq on 25 August, serving 12 clients primarily in Japan and preparing to expand into additional markets in Asia and the Middle East.",
-     "outlet": "Renaissance Capital",
-     "url": "https://www.renaissancecapital.com/IPO-Center/News/121297/Japanese-software-firm-Advasa-Holdings-completes-direct-listing-on-the-Nasd"
+     "headline": "The SPAC IPO Buzz: Southern Cross Acquisition II (SCATU) Raises $75 Million",
+     "detail": "Southern Cross Acquisition II (SCATU), a New York-based SPAC with ties to China, raised $75 million with the pricing of its SPAC IPO – 7.5 million units at $10.00 each – on Tuesday night, Aug. 25, 2026. On Wednesday, Aug.",
+     "url": "https://www.iposcoop.com/the-spac-ipo-buzz-southern-cross-acquisition-ii-scatu-raises-75-million/",
+     "outlet": "IPOScoop"
     },
     {
-     "headline": "Anthropic's mega IPO looms as the market's next big test",
-     "detail": "Renaissance Capital's weekly IPO review flagged Anthropic's anticipated listing, with investors hoping for a valuation near $2 trillion in an October debut that would rank among the largest IPOs of all time, as the AI infrastructure theme continues to dominate the US pipeline.",
-     "outlet": "Renaissance Capital",
-     "url": "https://www.renaissancecapital.com/IPO-Center/News/121256/IPO-Winners-and-Losers-Anthropic%E2%80%99s-Mega-IPO-OpenAI-Steps-Back-and-AI-Infra-"
+     "headline": "The IPO Buzz: CoVolt Power (KVLT Proposed) of Texas Files to Go Public",
+     "detail": "Friday night lights with solar power and battery storage: CoVolt Power (KVLT Proposed) of Houston filed to go public after the closing bell tonight.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-covolt-power-kvlt-proposed-of-texas-files-to-go-public/",
+     "outlet": "IPOScoop"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "UK news flow was again dominated by British companies raising capital somewhere other than London, with Glasgow-based Aggreko filing for a US IPO of up to an estimated $1.5 billion on the back of the AI data centre boom - the latest in a pattern of large UK issuers heading to New York for deeper pools of capital. Against that, the domestic primary market showed signs of life, with Malibu Life Holdings completing a landmark $125 million placing and open offer - the first fully pre-emptive Main Market raise under the UK's new prospectus regime - and EY-Parthenon data pointing to a gradual reopening of the London listing window. The common thread is a market where regulatory reform is beginning to unlock domestic issuance even as the largest UK-linked deals continue to migrate to the US.",
+   "summary": "A single verifiable equity capital markets item was found for UK this run: Xenom: Hyrox and CrossFit mash-up backed by tech moguls set for London bow",
    "items": [
     {
-     "headline": "Glasgow-based Aggreko files for a US IPO of up to an estimated $1.5 billion",
-     "detail": "The portable power and energy equipment provider, taken private in 2021 by TDR Capital and I Squared Capital, filed with the SEC on 24 August to list on the NYSE under AGKO, citing $6 billion in secured net revenue and data centre-driven demand, with Goldman Sachs, J.P. Morgan and BofA Securities leading the offering.",
-     "outlet": "Reuters",
-     "url": "https://www.reuters.com/business/energy/power-supply-firm-aggreko-files-us-ipo-2026-08-24"
-    },
-    {
-     "headline": "Malibu Life Holdings completes a landmark $125 million capital raise under the new UK prospectus regime",
-     "detail": "The London-listed life and annuity company raised up to $125 million through a placing and open offer of 8.6 million new shares at $14.50 each - the first fully pre-emptive Main Market raise to take advantage of the UK's new prospectus regime, using a short-form offering memorandum rather than a full FCA-approved prospectus.",
-     "outlet": "Mondaq (Herbert Smith Freehills Kramer)",
-     "url": "https://www.mondaq.com/pressrelease/206360/herbert-smith-freehills-kramer-advises-malibu-life-holdings-limited-on-landmark-capital-raise-the-first-fully-pre-emptive-main-market-capital-raise-to-take-advantage-of-the-new-uk-prospectus-regime"
-    },
-    {
-     "headline": "UK IPO market shows early signs of revival as London listings pick up",
-     "detail": "The London Stock Exchange recorded seven new listings in the first half of 2026 raising \u00a3577 million - a 215% increase in proceeds on the \u00a3183 million raised in H1 2025 - with EY-Parthenon noting the direction of travel is encouraging and listing windows are becoming more frequent.",
-     "outlet": "UKTN",
-     "url": "https://www.uktech.news/news/investment-news/uk-ipo-market-shows-early-signs-of-revival-20260708"
+     "headline": "Xenom: Hyrox and CrossFit mash-up backed by tech moguls set for London bow",
+     "detail": "Fresh from providing the backdrop to elite padel’s London debut, Kensington Olympia is playing host this weekend to another sport with a rising participation base: Xenom.",
+     "url": "https://www.cityam.com/xenom-hyrox-and-crossfit-mash-up-backed-by-tech-moguls-set-for-london-bow/",
+     "outlet": "City A.M."
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "Continental Europe remained genuinely quiet on new equity issuance in this window, and it would be dishonest to dress it up otherwise. The August holiday lull, combined with the run-up to a widely expected September reopening of the listing window, meant no significant IPO pricings, rights issues or large accelerated bookbuilds could be verified on Euronext, Deutsche Boerse, SIX or the Nordic exchanges during the past week. Euronext's own IPO tracker shows its most recent admissions dating from late July, mostly small Euronext Growth and Access listings in Milan and Dublin rather than main-market deals. The most notable Europe-relevant capital markets development of scale actually landed in the United States, where Glasgow-based Aggreko moved toward a multibillion-dollar New York float, underlining the continent's continuing struggle to retain its largest technology and infrastructure issuers.",
+   "summary": "A single verifiable equity capital markets item was found for Europe this run: Shein’s $100 Billion Valuation Falls to $26 Billion",
    "items": [
     {
-     "headline": "Euronext listing tracker shows no new admissions since late July",
-     "detail": "The exchange group's IPO page lists its most recent admissions as small Euronext Growth and Euronext Access debuts in Milan and Dublin dated 27 to 31 July 2026, with no new listings recorded during the week to 26 August.",
-     "outlet": "Euronext",
-     "url": "https://live.euronext.com/en/products/equities/ipos"
-    },
-    {
-     "headline": "Euronext introduces IPOgo to accelerate SME access to public markets",
-     "detail": "The pan-European exchange operator launched IPOgo, a new listing offer designed to accelerate small and medium-sized enterprises' access to public markets, as part of its Innovate for Growth 2027 strategy to broaden the continental issuance base.",
-     "outlet": "Euronext",
-     "url": "https://www.euronext.com/en/listing/raise-capital/ipoready"
-    },
-    {
-     "headline": "European bourses lose another large infrastructure candidate as Aggreko looks to New York",
-     "detail": "The Glasgow-based portable power group, which operates across Europe and more than 80 countries, is pursuing a US IPO of up to an estimated $1.5 billion rather than a European venue, extending the pattern of large issuers choosing deeper US capital pools.",
-     "outlet": "Renaissance Capital",
-     "url": "https://www.renaissancecapital.com/IPO-Center/News/121279/UK-based-portable-energy-equipment-provider-Aggreko-files-for-an-estimated-"
+     "headline": "Shein’s $100 Billion Valuation Falls to $26 Billion",
+     "detail": "Shein is heading toward a Hong Kong listing at a valuation of about $26.5 billion, roughly a quarter of its 2022 peak, after earlier efforts to list in New York and London ran into regulatory hurdles.",
+     "url": "https://www.bloomberg.com/news/videos/2026-08-30/shein-s-100-billion-valuation-falls-to-26-billion-video",
+     "outlet": "Bloomberg"
     }
    ]
   },
   {
    "key": "rest",
    "name": "Rest (South America, Middle East, Africa, India etc)",
-   "summary": "Activity outside the core markets was led decisively by India, where the primary market is running hot. Gaja Alternative Asset Management, India's first listed alternative asset manager, closed 5.4% higher in its debut on 26 August at a valuation of about $251.5 million after a $57.5 million IPO, while Sunshine Pictures listed on 25 August at a 10% premium despite weak market sentiment. The pipeline is building fast, with 10 companies looking to raise over Rs 3,300 crore in the week to 31 August, spanning logistics, engineering, pharmaceuticals and power transmission. The common thread is strong domestic retail and institutional appetite for new listings, with India's primary market becoming steadily busier even as developed-market calendars stay thin.",
+   "summary": "A single verifiable equity capital markets item was found for Rest (South America, Middle East, Africa, India etc) this run: Fed's Hammack says 'now is the time to act' on raising interest rates",
    "items": [
     {
-     "headline": "India's Gaja Alternative Asset debuts as the country's first listed alternative asset manager",
-     "detail": "Gaja Alternative Asset Management closed 5.4% higher at 168.67 rupees in its market debut on 26 August, at a valuation of 24 billion rupees (about $251.5 million), following a $57.5 million IPO last week, with the listing broadening retail access to private equity-style alternatives.",
-     "outlet": "Reuters",
-     "url": "https://www.reuters.com/world/india/gaja-alternative-asset-indias-first-pure-play-private-equity-listing-jumps-16-2026-08-26/"
-    },
-    {
-     "headline": "Sunshine Pictures lists at a 10% premium on the NSE despite weak market sentiment",
-     "detail": "The film production company's shares debuted at Rs 395.90 on the NSE on 25 August, a 10% premium over the issue price of Rs 360, and at Rs 394 on the BSE, a 9.44% premium, in a positive listing against a soft broader market backdrop.",
-     "outlet": "Livemint",
-     "url": "https://www.livemint.com/market/ipo/sunshine-pictures-ipo-listing-shares-debut-at-a-10-premium-on-the-nse-despite-weak-stock-market-sentiment-11787631340903.html"
-    },
-    {
-     "headline": "India's IPO market gears up for a 10-offer, Rs 3,300 crore week",
-     "detail": "Ten companies are looking to raise over Rs 3,300 crore between 24 and 31 August, led by Symbiotec Pharmalab, Skyways Air Services, Hy-Tech Engineers, Annu Projects and Lumino Industries, spanning logistics, engineering, pharmaceuticals, infrastructure EPC and power transmission equipment.",
-     "outlet": "Economic Times",
-     "url": "https://m.economictimes.com/markets/ipos/fpos/rs-3300-crore-ipo-week-symbiotec-skyways-air-to-lead-10-offer-rush-for-investors/amp_articleshow/133434440.cms"
-    },
-    {
-     "headline": "Amap\u00e1 Minerals raises US$95 million in a Canadian IPO",
-     "detail": "The Brazil-focused mineral exploration company raised US$95 million in a Canadian initial public offering, adding to a modest but steady stream of Latin America-linked equity issuance as regional markets begin to reopen after a long drought.",
-     "outlet": "Latin Lawyer",
-     "url": "https://latinlawyer.com/article/compass-ends-brazils-five-year-ipo-drought-us571-million-debut"
+     "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+     "detail": "She still thinks the Fed needs to take action against inflation that is straining household budgets.",
+     "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+     "outlet": "CNBC Markets"
     }
    ]
   }

@@ -1,0 +1,444 @@
+#!/usr/bin/env python3
+"""Fetch fresh regional top gainers/losers for the Market Wrap Up digest.
+
+Writes data/perf-a.json, data/perf-b.json and data/perf-c.json in the schema
+build.py already consumes, plus the market_news block that lives in perf-c.
+
+Sources
+  ANZ / Japan / Singapore / Hong Kong / China / UK / Germany / Brazil
+      TradingView country market-movers pages (HTML scrape).
+  US  finance.yahoo.com/gainers and /losers (HTML scrape).
+"""
+import json, os, re, sys, time
+import html as H
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+import requests
+
+D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+os.makedirs(D, exist_ok=True)
+
+SYD = ZoneInfo("Australia/Sydney")
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
+HEADERS = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"}
+ROWS = 10
+
+# key, title, tv slug, accepted exchange prefixes, link template, price format,
+# timezone label, session-source label
+MARKETS = [
+    {
+        "key": "anz", "title": "ANZ Top Performers",
+        "slug": "stocks-australia", "prefixes": ["ASX"],
+        "link": "https://www.marketindex.com.au/asx/{lower}",
+        "price": "${v}", "code_in_name": True, "tz": "AEST",
+        "source": "TradingView Australia market movers",
+        "extra": ("Covers all ASX-listed stocks rather than the ASX 200 alone. "
+                  "Ticker links go to Market Index. New Zealand (NZX) top "
+                  "performers are not available from a reliable linked source."),
+        "file": "a",
+    },
+    {
+        "key": "japan", "title": "Japan Top Performers",
+        "slug": "stocks-japan", "prefixes": ["TSE"],
+        "link": "https://www.tradingview.com/symbols/TSE-{code}/",
+        "price": "\u00a5{v}", "code_in_name": True, "tz": "JST",
+        "source": "TradingView Japan market movers",
+        "extra": "Share volumes as reported by TradingView.",
+        "file": "a",
+    },
+    {
+        "key": "singapore", "title": "Singapore Top Performers",
+        "slug": "stocks-singapore", "prefixes": ["SGX"],
+        "link": "https://www.tradingview.com/symbols/SGX-{code}/",
+        "price": "S${v}", "code_in_name": True, "tz": "SGT",
+        "source": "TradingView Singapore market movers",
+        "extra": "Share volumes as reported by TradingView.",
+        "file": "a",
+    },
+    {
+        "key": "hongkong", "title": "Hong Kong Top Performers",
+        "slug": "stocks-hong-kong", "prefixes": ["HKEX"],
+        "link": "https://www.tradingview.com/symbols/HKEX-{code}/",
+        "price": "HK${v}", "code_in_name": True, "tz": "HKT",
+        "source": "TradingView Hong Kong market movers",
+        "extra": "Share volumes as reported by TradingView.",
+        "file": "a",
+    },
+    {
+        "key": "china", "title": "China (Mainland) Top Performers",
+        "slug": "stocks-china", "prefixes": ["SSE", "SZSE"],
+        "link": "https://www.tradingview.com/symbols/{ex}-{code}/",
+        "price": "CN\u00a5{v}", "code_in_name": True, "tz": "CST",
+        "source": "TradingView Mainland China market movers",
+        "extra": ("Mainland boards run daily move limits, so clustering of "
+                  "moves at exactly the cap is normal rather than a data error."),
+        "file": "b",
+    },
+    {
+        "key": "us", "title": "US Top Performers",
+        "slug": None, "prefixes": [],
+        "link": "https://finance.yahoo.com/quote/{code}/",
+        "price": "${v}", "code_in_name": True, "tz": "ET",
+        "source": "Yahoo Finance US market movers",
+        "extra": "Share volumes as reported by Yahoo Finance.",
+        "file": "b",
+    },
+    {
+        "key": "uk", "title": "UK (London) Top Performers",
+        "slug": "stocks-united-kingdom", "prefixes": ["LSE", "AQUIS"],
+        "link": "https://www.tradingview.com/symbols/{ex}-{code}/",
+        "price": "{v}p", "code_in_name": True, "tz": "BST",
+        "source": "TradingView United Kingdom market movers",
+        "extra": ("Prices quoted in pence (GBX) as displayed by the exchange. "
+                  "Smaller caps may be Aquis-listed rather than LSE main market."),
+        "file": "b",
+    },
+    {
+        "key": "germany", "title": "European Top Performers (Germany / XETR)",
+        "slug": "stocks-germany", "prefixes": ["XETR"],
+        "link": "https://www.tradingview.com/symbols/XETR-{code}/",
+        "price": "\u20ac{v}", "code_in_name": False, "tz": "CET",
+        "source": "TradingView Germany market movers (Deutsche B\u00f6rse XETR)",
+        "extra": "Prices in euros; share volume as published by TradingView.",
+        "file": "c",
+    },
+    {
+        "key": "brazil", "title": "Latin American Top Performers (Brazil / B3)",
+        "slug": "stocks-brazil", "prefixes": ["BMFBOVESPA"],
+        "link": "https://www.tradingview.com/symbols/BMFBOVESPA-{code}/",
+        "price": "R${v}", "code_in_name": False, "tz": "BRT",
+        "source": "TradingView Brazil market movers (B3)",
+        "extra": "Prices in Brazilian reais; share volume as published by TradingView.",
+        "file": "c",
+    },
+]
+
+
+def get(url):
+    resp = requests.get(url, headers=HEADERS, timeout=40)
+    resp.raise_for_status()
+    return resp.text
+
+
+def clean(s):
+    return re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", "", s))).strip()
+
+
+# ---------------------------------------------------------------- TradingView
+
+def parse_tradingview(text, prefixes, direction):
+    """Return list of {code, ex, name, price, chg, vol} from a movers page."""
+    out = []
+    for match in re.finditer(r'data-rowkey="([A-Z]+):([A-Za-z0-9.]+)"', text):
+        ex, code = match.group(1), match.group(2)
+        if ex not in prefixes:
+            continue
+        chunk = text[match.start():match.start() + 3000]
+
+        name = None
+        nm = re.search(r'title="[^"]*\u2212\s*([^"]+)"', chunk)
+        if nm:
+            name = clean(nm.group(1))
+        if not name:
+            nm = re.search(r'class="tickerDescription[^"]*"[^>]*>([^<]+)<', chunk)
+            if nm:
+                name = clean(nm.group(1))
+        if not name:
+            continue
+
+        # The first coloured span in a row is the Change % column. TradingView
+        # renders negatives with a Unicode minus (U+2212), not an ASCII hyphen.
+        cm = re.search(
+            r'class="(positive|negative)-[A-Za-z0-9_]+"[^>]*>\s*([+\u2212\-]?)\s*([0-9.,]+)%',
+            chunk)
+        if not cm:
+            continue
+        pct = float(cm.group(3).replace(",", ""))
+        if cm.group(1) == "negative" or cm.group(2) in ("\u2212", "-"):
+            pct = -pct
+
+        pm = re.search(r'>([0-9,.]+)<span class="currency-[A-Za-z0-9_]+"', chunk)
+        price = pm.group(1) if pm else None
+        if not price:
+            continue
+
+        vm = re.search(
+            r'>([0-9,.]+\s*[KMB]?)</td><td class="cell-[A-Za-z0-9]+ right-[A-Za-z0-9]+">',
+            chunk)
+        vol = clean(vm.group(1)) if vm else ""
+        vol = re.sub(r"\s+([KMB])$", r"\1", vol)
+
+        out.append({"code": code, "ex": ex, "name": name,
+                    "price": price, "pct": pct, "vol": vol})
+        if len(out) >= ROWS:
+            break
+    return out
+
+
+# ---------------------------------------------------------------------- Yahoo
+
+def parse_yahoo(text):
+    out = []
+    i = text.find("<tbody")
+    if i < 0:
+        return out
+    body = text[i:text.find("</tbody>", i)]
+    for row in re.split(r'<tr class="row', body)[1:]:
+        tm = re.search(r'href="/quote/([A-Z0-9.\-]+)/?"', row)
+        nm = re.search(r'title="([^"]+)" class="leftAlignHeader companyName', row)
+        pm = re.search(r'data-testid-cell="intradayprice".*?data-testid="change">([0-9,.]+)', row, re.S)
+        cm = re.search(r'data-testid-cell="percentchange".*?data-testid="colorChange">([+\-][0-9.]+)%', row, re.S)
+        vm = re.search(r'data-testid-cell="dayvolume".*?data-testid="change">([0-9,.]+[KMB]?)', row, re.S)
+        if not (tm and pm and cm):
+            continue
+        out.append({
+            "code": tm.group(1),
+            "ex": "",
+            "name": clean(nm.group(1)) if nm else tm.group(1),
+            "price": pm.group(1),
+            "pct": float(cm.group(1)),
+            "vol": vm.group(1) if vm else "",
+        })
+        if len(out) >= ROWS:
+            break
+    return out
+
+
+# ----------------------------------------------------------------- formatting
+
+def row_out(cfg, r):
+    name = r["name"]
+    if cfg["code_in_name"] and not name.endswith(")"):
+        name = "%s (%s)" % (name, r["code"])
+    url = cfg["link"].format(code=r["code"], lower=r["code"].lower(), ex=r["ex"])
+    return {
+        "name": name,
+        "url": url,
+        "price": cfg["price"].format(v=r["price"]),
+        "chg": "%+.2f%%" % r["pct"],
+        "vol": r["vol"],
+    }
+
+
+def note(cfg, r, kind):
+    """Data-grounded explainer for a region's single biggest mover."""
+    if r is None:
+        return ("No %s could be retrieved from %s for this session, so no "
+                "explainer is offered rather than publishing an unverified one."
+                % (kind, cfg["source"]))
+    verb = "led" if kind == "gainer" else "was the steepest decliner on"
+    direction = "up" if kind == "gainer" else "down"
+    vol = (" on reported volume of %s shares" % r["vol"]) if r["vol"] else ""
+    return (
+        "%s %s the %s board for the session, %s %.2f per cent to %s%s. "
+        "The move is reported here as captured from %s at the time of this "
+        "build; no company announcement has been independently verified for it, "
+        "so no catalyst is asserted. Readers should treat the move as the "
+        "market print rather than an explained event."
+        % (r["name"], verb, cfg["title"].split(" Top")[0], direction,
+           abs(r["pct"]), cfg["price"].format(v=r["price"]), vol, cfg["source"])
+    )
+
+
+def caption(cfg, stamp):
+    # The stamp is this build's Sydney clock time, so it is labelled AEST rather
+    # than the exchange's own timezone; the session it captures is whatever that
+    # exchange was last showing at that moment.
+    return ("Source: %s, captured %s AEST, covering the %s session most recently "
+            "published at that time. %s" % (cfg["source"], stamp, cfg["tz"], cfg["extra"]))
+
+
+# ----------------------------------------------------------------- market news
+
+def market_news(now):
+    """Build the Market News paragraph from the freshly fetched index data."""
+    try:
+        mk = json.load(open(os.path.join(D, "markets.json")))
+    except Exception:
+        return None
+
+    idx = {i["name"]: i for i in mk.get("indices", [])}
+
+    def phr(name, label=None):
+        i = idx.get(name)
+        if not i:
+            return None
+        pct = float(i["chg"].rstrip("%"))
+        if abs(pct) < 0.05:
+            move = "was little changed at"
+        elif pct > 0:
+            move = "rose %.2f per cent to" % pct
+        else:
+            move = "fell %.2f per cent to" % abs(pct)
+        return "the %s %s %s" % (label or name, move, i["value"])
+
+    def group(names):
+        return [p for p in (phr(n) for n in names) if p]
+
+    us = group(["S&P 500", "Dow Jones", "Nasdaq Composite", "Russell 2000"])
+    eu = group(["FTSE 100", "DAX", "CAC 40"])
+    asia = group(["Nikkei 225", "Hang Seng", "KOSPI", "SSE Composite",
+                  "BSE Sensex", "Straits Times"])
+    other = group(["Ibovespa"])
+    au = group(["S&P/ASX 200", "All Ordinaries"])
+
+    if not us and not asia and not au:
+        return None
+
+    ups = sum(1 for i in mk.get("indices", []) if float(i["chg"].rstrip("%")) > 0)
+    total = len(mk.get("indices", []))
+    tone = ("broadly firmer" if ups > total * 0.6 else
+            "broadly weaker" if ups < total * 0.4 else "mixed")
+
+    btc = mk.get("btc", {})
+    fx = {f["code"]: f for f in mk.get("fx", [])}
+
+    parts = []
+    parts.append("Global equities were %s in the latest completed round of "
+                 "trading, with %d of the %d benchmarks tracked on this page "
+                 "closing higher." % (tone, ups, total))
+    if us:
+        parts.append("In the United States, %s." % _join(us))
+    if eu:
+        parts.append("In Europe, %s." % _join(eu))
+    if asia:
+        parts.append("Across Asia, %s." % _join(asia))
+    if other:
+        parts.append("Elsewhere, %s." % _join(other))
+    if au:
+        parts.append("Locally, %s." % _join(au))
+
+    if btc.get("price"):
+        parts.append("In digital assets, bitcoin changed hands at %s, %s over "
+                     "the past 24 hours." % (btc["price"], _chg_words(btc.get("chg", ""))))
+
+    aud = fx.get("AUD")
+    if aud:
+        parts.append("In currencies, the US dollar bought %s Australian dollars, "
+                     "%s against the prior business day's fix." %
+                     (aud["rate"], _chg_words(aud["chg"])))
+
+    parts.append("Index levels, exchange rates and commodity prices on this page "
+                 "are captured live at build time from the sources linked in each "
+                 "section; no forward-looking view is offered here.")
+
+    paragraph = " ".join(parts)
+
+    caption_txt = ("Market data on this page was captured at %s, reflecting the "
+                   "most recent completed or in-progress session at each of the "
+                   "exchanges listed." % now.strftime("%A %d %B %Y at %H:%M %Z"))
+
+    return {
+        "paragraph": paragraph,
+        "sources": [
+            {"title": "Yahoo Finance world indices", "url": "https://finance.yahoo.com/world-indices"},
+            {"title": "Frankfurter foreign exchange reference rates", "url": "https://api.frankfurter.dev/v1/latest?from=USD"},
+            {"title": "CoinGecko bitcoin price", "url": "https://www.coingecko.com/en/coins/bitcoin"},
+        ],
+        "asof_caption": caption_txt,
+    }
+
+
+def _join(items):
+    if len(items) == 1:
+        return items[0]
+    return ", ".join(items[:-1]) + " and " + items[-1]
+
+
+def _chg_words(chg):
+    if not chg:
+        return "little changed"
+    try:
+        v = float(chg.rstrip("%"))
+    except ValueError:
+        return "little changed"
+    if abs(v) < 0.005:
+        return "little changed"
+    return ("up %.2f per cent" if v > 0 else "down %.2f per cent") % abs(v)
+
+
+# ------------------------------------------------------------------------ run
+
+def fetch_market(cfg):
+    if cfg["slug"] is None:
+        gainers = parse_yahoo(get("https://finance.yahoo.com/gainers"))
+        losers = parse_yahoo(get("https://finance.yahoo.com/losers"))
+    else:
+        base = "https://www.tradingview.com/markets/%s/market-movers-%s/"
+        gainers = parse_tradingview(get(base % (cfg["slug"], "gainers")),
+                                    cfg["prefixes"], "gainers")
+        losers = parse_tradingview(get(base % (cfg["slug"], "losers")),
+                                   cfg["prefixes"], "losers")
+    return gainers, losers
+
+
+def main():
+    now = datetime.now(SYD)
+    stamp = now.strftime("%A %d %B %Y at %H:%M")
+    buckets = {"a": [], "b": [], "c": []}
+    failures = []
+
+    for cfg in MARKETS:
+        try:
+            gainers, losers = fetch_market(cfg)
+        except Exception as exc:
+            print("WARN: %s fetch failed: %s" % (cfg["key"], exc), file=sys.stderr)
+            failures.append(cfg["key"])
+            continue
+
+        if len(gainers) < 3 or len(losers) < 3:
+            print("WARN: %s returned too few rows (g=%d l=%d); keeping previous data"
+                  % (cfg["key"], len(gainers), len(losers)), file=sys.stderr)
+            failures.append(cfg["key"])
+            continue
+
+        buckets[cfg["file"]].append({
+            "key": cfg["key"],
+            "title": cfg["title"],
+            "caption": caption(cfg, stamp),
+            "gainer_note": note(cfg, gainers[0] if gainers else None, "gainer"),
+            "gainer_note_sources": [],
+            "loser_note": note(cfg, losers[0] if losers else None, "loser"),
+            "loser_note_sources": [],
+            "gainers": [row_out(cfg, r) for r in gainers],
+            "losers": [row_out(cfg, r) for r in losers],
+        })
+        print("  %-10s gainers=%d losers=%d" % (cfg["key"], len(gainers), len(losers)))
+        time.sleep(1)
+
+    order = {"a": ["anz", "japan", "singapore", "hongkong"],
+             "b": ["china", "us", "uk"],
+             "c": ["germany", "brazil"]}
+
+    for letter, keys in order.items():
+        path = os.path.join(D, "perf-%s.json" % letter)
+        existing = {}
+        try:
+            prev = json.load(open(path))
+            existing = {m["key"]: m for m in prev.get("markets", [])}
+        except Exception:
+            prev = {}
+        fresh = {m["key"]: m for m in buckets[letter]}
+        merged = [fresh.get(k) or existing.get(k) for k in keys]
+        merged = [m for m in merged if m]
+
+        out = {"markets": merged}
+        if letter == "c":
+            mn = market_news(now)
+            if mn is None:
+                print("WARN: could not build market news; keeping previous", file=sys.stderr)
+                mn = prev.get("market_news")
+            out = {"market_news": mn, "markets": merged}
+
+        with open(path, "w") as f:
+            json.dump(out, f, indent=1)
+        print("wrote %s (%d markets)" % (path, len(merged)))
+
+    if failures:
+        print("NOTE: kept previous data for: %s" % ", ".join(failures), file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

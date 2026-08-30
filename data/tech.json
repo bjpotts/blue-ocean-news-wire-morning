@@ -1,74 +1,74 @@
 {
  "items": [
   {
-   "headline": "Nvidia reports quarterly earnings as Wall Street bets on another blowout AI quarter",
-   "detail": "The chipmaker is expected to post revenue near $92 billion for its fiscal second quarter, up roughly 96 percent year over year, with investors focused on its outlook and any return of China data-centre sales.",
-   "outlet": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/25/stock-market-today-live-updates.html",
-   "region": "US"
-  },
-  {
-   "headline": "Meta settles landmark social media addiction trial with US states for $16.7 billion",
-   "detail": "Meta and a coalition of state attorneys general reached a settlement in the federal trial over allegations the company misrepresented child-related mental health harms from Facebook and Instagram.",
-   "outlet": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html",
-   "region": "US"
-  },
-  {
-   "headline": "Apple unveils new Mac mini with M6 chip, starting at $899",
-   "detail": "The base model pairs the new M6 processor with 16GB of RAM and 256GB of storage, delivering up to four times faster AI performance, with pre-orders open and shipping from September 22.",
+   "headline": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+   "detail": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
+   "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
    "region": "US"
   },
   {
-   "headline": "AI model hub Hugging Face reportedly explores a sale valuing it at $13 billion",
-   "detail": "The startup has brought in a bank to sound out buyers at a valuation of $13 billion or more, nearly triple its 2023 price tag, though no deal has been reached.",
+   "headline": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+   "detail": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+   "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
    "region": "US"
   },
   {
-   "headline": "Waymo to launch driverless rides in Germany in 2027, its first EU market",
-   "detail": "Alphabet's robotaxi unit will begin phased testing in Munich in the coming weeks, aiming to open commercial ride-hailing to the public by the end of next year.",
-   "outlet": "CNBC",
-   "url": "https://www.cnbc.com/2026/08/25/waymo-robotaxi-germany-2027.html",
+   "headline": "Chess.com launched a poker site and is planning even more classic games",
+   "detail": "Chess.com has done one thing, and one thing very well, for almost 20 years, but now it's going beyond its domain name.",
+   "outlet": "The Verge",
+   "url": "https://www.theverge.com/games/986302/chess-poker-expansion-gambit",
+   "region": "US"
+  },
+  {
+   "headline": "China’s robots race ahead",
+   "detail": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on falling robots and the US-China AI race, follow Robert Hart. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET.",
+   "outlet": "The Verge",
+   "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+   "region": "US"
+  },
+  {
+   "headline": "He beat Big Tobacco. Will the same playbook work against Meta and social media?",
+   "detail": "Mike Moore beat Big Tobacco. Will the same playbook work against Meta and social media?",
+   "outlet": "CNBC Technology",
+   "url": "https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html",
+   "region": "US"
+  },
+  {
+   "headline": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+   "detail": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
+   "outlet": "CNBC Technology",
+   "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+   "region": "US"
+  },
+  {
+   "headline": "Inside Meta’s push to put robots to work in data centers",
+   "detail": "Inside Meta’s push to put robots to work in data centers",
+   "outlet": "Ars Technica",
+   "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+   "region": "US"
+  },
+  {
+   "headline": "I've been to Gamescom six times - here's what excited me this year",
+   "detail": "The BBC's Laura Cress gets a first look at the biggest games in Cologne from Witcher 3 to Alien: Isolation 2.",
+   "outlet": "BBC Technology",
+   "url": "https://www.bbc.co.uk/news/articles/cew92lp2g45o?at_medium=RSS&at_campaign=rss",
    "region": "Europe"
   },
   {
-   "headline": "Lidl owner Schwarz Group plans billions-euro data centre in northern Germany",
-   "detail": "The German retail conglomerate, through its Schwarz Digits division, is positioning itself as a 'digitally sovereign' alternative to US tech giants with a facility near Rostock.",
-   "outlet": "Reuters",
-   "url": "https://www.reuters.com/business/lidl-owner-invest-billions-data-centre-northern-germany-faz-says-2026-08-26/",
+   "headline": "Matt Lucas and Hugh Bonneville among actors calling for law on AI voice cloning",
+   "detail": "The performers are asking the government to give every person in the UK a legal right to own their voice.",
+   "outlet": "BBC Technology",
+   "url": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_medium=RSS&at_campaign=rss",
    "region": "Europe"
   },
   {
-   "headline": "Alibaba launches Wan3.0 AI video model after record $10 billion share sale",
-   "detail": "The new model can generate 30-second videos from documents, spreadsheets, slides and web pages, and follows the largest-ever primary follow-on offering by a Hong Kong-listed company.",
-   "outlet": "Reuters",
-   "url": "https://www.reuters.com/business/retail-consumer/alibaba-launches-wan30-ai-video-model-after-10-billion-share-sale-2026-08-24/",
+   "headline": "Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit",
+   "detail": "Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in…",
+   "outlet": "South China Morning Post",
+   "url": "https://www.scmp.com/tech/big-tech/article/3365770/sony-music-warner-accuse-anthropic-blatant-theft-major-new-lawsuit?utm_source=rss_feed",
    "region": "Asia"
-  },
-  {
-   "headline": "China's MiniMax sees first-half revenue nearly quadruple as AI demand surges",
-   "detail": "The AI startup's revenue rose 283 percent to $116.6 million in the six months to June, driven by surging demand for its low-cost, open-source-based models.",
-   "outlet": "Reuters",
-   "url": "https://www.reuters.com/world/china/chinas-minimax-sees-revenue-nearly-quadruple-first-half-ai-demand-surges-2026-08-26/",
-   "region": "Asia"
-  },
-  {
-   "headline": "China's Moonshot in talks with Microsoft, Amazon and Google over Kimi K3 revenue sharing",
-   "detail": "The IPO-bound startup is seeking up to a 30 percent share of revenue from hosting its blockbuster open-weight model on the US cloud giants' platforms, in what could be a first for a Chinese AI firm.",
-   "outlet": "Reuters",
-   "url": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
-   "region": "Asia"
-  },
-  {
-   "headline": "NSW mandates facial recognition for gaming venues in gambling reform package",
-   "detail": "The state will require hotels and clubs with gaming machines to use facial recognition tied to a statewide exclusion register expected to be ready by 2028.",
-   "outlet": "iTnews",
-   "url": "https://www.itnews.com.au/news/nsw-mandates-facial-recognition-in-gaming-reform-package-628406",
-   "region": "Australia"
   }
  ]
 }

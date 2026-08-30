@@ -3,33 +3,33 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News is leading with the death of Dolly Parton and the Nepal flood disaster, alongside Ukraine drone attacks on Moscow, the Pakistan hospital fire and Darline Graham's GOP primary win.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with 'Approximately' 85 Americans remain missing in Nepal floods: State Dept. spokesperson; 7 dead after ferry carrying 260 passengers capsizes off Cyprus, officials say; Tropical Storm Karina strengthens into a hurricane in the Pacific.",
   "note": null,
   "items": [
    {
-    "headline": "Country music legend Dolly Parton dies at 80 after a brief battle with cancer",
-    "detail": "The iconic singer-songwriter died surrounded by loved ones, her representatives said, prompting tributes from Taylor Swift, Beyonce and others.",
-    "url": "https://abcnews.go.com/GMA/Culture/dolly-parton-country-music-legend-cultural-icon-dead/story?id=95381474"
+    "headline": "'Approximately' 85 Americans remain missing in Nepal floods: State Dept. spokesperson",
+    "detail": "State Department Spokesperson Tommy Pigott said approximately 85 Americans remain missing in Nepal on \"This Week.\"",
+    "url": "https://abcnews.go.com/Politics/approximately-85-americans-remain-missing-nepal-floods-state/story?id=136069352"
    },
    {
-    "headline": "Americans reported among hundreds missing in Nepal floods",
-    "detail": "At least three American tourists were reported among a preliminary toll of hundreds missing after flash floods swept through Nepal.",
-    "url": "https://abcnews.go.com/International/americans-reported-missing-nepal-floods-tourism-board/story?id=135964282"
+    "headline": "7 dead after ferry carrying 260 passengers capsizes off Cyprus, officials say",
+    "detail": "A ferry carrying more than 260 people capsized in the Mediterranean Sea off the northern coast of Cyprus on Sunday, local officials said.",
+    "url": "https://abcnews.go.com/International/7-dead-after-ferry-carrying-260-passengers-capsizes/story?id=136068073"
    },
    {
-    "headline": "Moscow airports disrupted amid Ukraine drone attacks following the CIA director's visit",
-    "detail": "Ukrainian drone attacks resumed on Moscow hours after CIA Director John Ratcliffe's visit, disrupting airports in the Russian capital.",
-    "url": "https://abcnews.go.com/International/ukrainian-drone-attacks-moscow-resume-hours-after-ratcliffe/story?id=135962437"
+    "headline": "Tropical Storm Karina strengthens into a hurricane in the Pacific",
+    "detail": "It could become a major storm this week, forecasters say.",
+    "url": "https://abcnews.go.com/Technology/wireStory/tropical-storm-karina-strengthens-hurricane-pacific-major-storm-136067970"
    },
    {
-    "headline": "14 newborns killed in a fire at a Pakistan hospital",
-    "detail": "A doctor said 14 newborns were killed in a fire at a hospital in Pakistan, one of several deadly blazes reported this week.",
-    "url": "https://abcnews.go.com/International/fire-pakistan-hospital-kills-14-newborns-doctor/story?id=135962435"
+    "headline": "WATCH: Divers save the day for bride-to-be",
+    "detail": "A group of divers from the Hudson Valley Commercial Diving School happened to be at the restaurant where Denise Rivera dropped her engagement ring into the Hudson River.",
+    "url": "https://abcnews.go.com/video/136064662/"
    },
    {
-    "headline": "Darline Graham wins the GOP runoff to replace her brother on the South Carolina ballot",
-    "detail": "The Trump-backed candidate, whose brother Lindsey Graham died in July, won the runoff to contest the Senate seat, according to the AP.",
-    "url": "https://abcnews.go.com/Politics/darline-graham-ralph-norman-battle-replace-lindsey-graham/story?id=135785522"
+    "headline": "WATCH: Woman alleges she was ejected from mountain coaster in Colorado",
+    "detail": "A woman alleges she was thrown from her seat, dragged along the tracks and seriously injured as a result.",
+    "url": "https://abcnews.go.com/video/136065136/"
    }
   ]
  }
