@@ -82,11 +82,12 @@
   border:1px solid var(--rule);border-left:3px solid var(--viking);border-radius:4px;
   padding:8px 10px;text-decoration:none!important;min-width:0;}
 .rate-cell:hover{border-left-color:var(--cerulean);}
-.rc-label{display:flex;align-items:baseline;gap:5px;min-width:0;}
+.rc-label{display:flex;align-items:baseline;gap:5px;min-width:0;flex-wrap:wrap;}
 .rc-code{font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;color:var(--muted);white-space:nowrap;}
+  text-transform:uppercase;color:var(--muted);white-space:nowrap;min-width:0;}
 .rc-sub{font-family:var(--mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;
-  color:#fff;background:var(--cerulean);border-radius:2px;padding:1px 4px;white-space:nowrap;}
+  color:#fff;background:var(--cerulean);border-radius:2px;padding:1px 4px;white-space:nowrap;
+  flex:none;}
 @media (prefers-color-scheme: dark){.rc-sub{color:#06222a;}}
 .rc-val{font-family:var(--mono);font-size:.95rem;font-weight:500;color:var(--ink);
   font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
@@ -164,36 +165,6 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
   a{color:#0b6a8c !important;}
 }
 .page-break-before{}
-
-/* ---------------- auth UI ---------------- */
-.auth-bar{
-  max-width:1180px;margin:0 auto;padding:12px 26px 0;
-  display:flex;justify-content:flex-end;align-items:center;gap:10px;
-  font-family:var(--mono);font-size:.75rem;
-}
-.auth-bar button{
-  font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;border-radius:3px;padding:6px 12px;cursor:pointer;
-  border:1px solid var(--cerulean);background:var(--cerulean);color:#fff;
-}
-.auth-bar button.secondary{
-  background:transparent;color:var(--cerulean);
-}
-.auth-bar button:hover{
-  background:var(--teal);border-color:var(--teal);color:#fff;
-}
-.auth-bar .user{
-  color:var(--muted);
-}
-@media (prefers-color-scheme: dark){
-  .auth-bar button{color:#06222a;}
-  .auth-bar button.secondary{background:transparent;color:var(--cerulean);}
-  .auth-bar button:hover{color:#fff;}
-}
-@media print{
-  .auth-bar{display:none;}
-}
-
 </style>
 <div class="pnw">
 
