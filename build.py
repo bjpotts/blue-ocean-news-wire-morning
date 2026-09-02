@@ -216,7 +216,9 @@ GEN_NOTE = f"Generated {_DATELINE_DATE} at {_DATELINE_TIME} / {_DATELINE_UTC}."
 
 def chg_class(c):
     c = (c or "").strip()
-    if c.startswith("-"):
+    # U+2212 is what TradingView renders; treating it as flat would colour a
+    # genuine loss as unchanged.
+    if c.startswith("-") or c.startswith("\u2212"):
         return "chg-neg"
     if c.startswith("+"):
         return "chg-pos"

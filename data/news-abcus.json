@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: US forces strike 2 Iranian rocket launch sites; Dolly Parton laid to rest in private Nashville burial; Tropical Storm Karina strengthens into a hurricane in the Pacific.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: After launching strikes, US warns of escalation if Iran responds; LIVE: ABC News Live; Bank of America worker killed in 'unprovoked' Times Square stabbing identified.",
   "note": null,
   "items": [
    {
-    "headline": "Iran live updates: US forces strike 2 Iranian rocket launch sites",
+    "headline": "Iran live updates: After launching strikes, US warns of escalation if Iran responds",
     "detail": "The Strait of Hormuz remains the primary flashpoint in the conflict.",
-    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates/?id=135895428",
+    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-08-30T16:22:22-04:00",
-    "fetched": "2026-08-30T22:01:11+00:00"
+    "published": "2026-09-01T17:44:13-04:00",
+    "fetched": "2026-09-01T22:01:24+00:00"
    },
    {
-    "headline": "Dolly Parton laid to rest in private Nashville burial",
-    "detail": "The Grand Ole Opry also honored the country music legend days after her death.",
-    "url": "https://abcnews.go.com/GMA/Culture/dolly-parton-laid-rest-private-nashville-burial/story?id=136074943",
+    "headline": "LIVE: ABC News Live",
+    "detail": "24/7 coverage of breaking news and live events",
+    "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-08-30T16:59:08-04:00",
-    "fetched": "2026-08-30T22:01:11+00:00"
+    "published": "2026-09-01T10:18:43-04:00",
+    "fetched": "2026-09-01T22:01:24+00:00"
    },
    {
-    "headline": "Tropical Storm Karina strengthens into a hurricane in the Pacific",
-    "detail": "It could become a major storm this week, forecasters say.",
-    "url": "https://abcnews.go.com/Technology/wireStory/tropical-storm-karina-strengthens-hurricane-pacific-major-storm-136067970",
+    "headline": "Bank of America worker killed in 'unprovoked' Times Square stabbing identified",
+    "detail": "The stabbings occurred at 42nd Street and Seventh Avenue. The woman allegedly fled north toward the NYPD substation, where police confronted her, authorities said.",
+    "url": "https://abcnews.go.com/US/2-stabbed-times-square-suspect-shot-police-authorities/story?id=136100086",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-08-30T09:16:51-04:00",
-    "fetched": "2026-08-30T22:01:11+00:00"
+    "published": "2026-09-01T15:27:56-04:00",
+    "fetched": "2026-09-01T22:01:24+00:00"
    },
    {
-    "headline": "WATCH: Divers save the day for bride-to-be",
-    "detail": "A group of divers from the Hudson Valley Commercial Diving School happened to be at the restaurant where Denise Rivera dropped her engagement ring into the Hudson River.",
-    "url": "https://abcnews.go.com/video/136064662/",
+    "headline": "Beloved dad of 4 who was killed by lightning stopped to help boater, cousin says",
+    "detail": "A beloved father of four died from a lightning strike while jet-skiing in Florida, according to officials and his family.",
+    "url": "https://abcnews.go.com/US/beloved-dad-4-killed-lightning-jet-skiing-florida/story?id=136114904",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-08-30T08:00:40-04:00",
-    "fetched": "2026-08-30T22:01:11+00:00"
+    "published": "2026-09-01T17:46:41-04:00",
+    "fetched": "2026-09-01T22:01:24+00:00"
    },
    {
-    "headline": "WATCH: Woman alleges she was ejected from mountain coaster in Colorado",
-    "detail": "A woman alleges she was thrown from her seat, dragged along the tracks and seriously injured as a result.",
-    "url": "https://abcnews.go.com/video/136065136/",
+    "headline": "WATCH: Julianne Hough and Alfonso Ribeiro tease 'DWTS' Season 35",
+    "detail": "Co-hosts Julianne Hough and Alfonso Ribeiro preview \"Dancing With the Stars\" season 35, teasing the new cast set to be revealed Wednesday on Good Morning America.",
+    "url": "https://abcnews.go.com/video/136123963/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-08-30T08:00:54-04:00",
-    "fetched": "2026-08-30T22:01:11+00:00"
+    "published": "2026-09-01T17:01:10-04:00",
+    "fetched": "2026-09-01T22:01:24+00:00"
    }
   ]
  }

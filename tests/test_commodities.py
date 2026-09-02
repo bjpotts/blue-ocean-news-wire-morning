@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Tests for the commodities fetcher.
 
+The shared Google News noise rules live in tests/test_newsfeed.py.
+
 Covers the three defects fixed together: a summary paragraph that never
 changed, an invented rare-earths fallback price, and a stale-flag stub that
 never fired. Run with:  python3 -m unittest discover -s tests -v
@@ -8,6 +10,8 @@ never fired. Run with:  python3 -m unittest discover -s tests -v
 Stdlib unittest, because pytest is not installed in this environment. Nothing
 here touches the network - the fetchers are exercised through injected data.
 """
+import contextlib
+import io
 import json
 import os
 import shutil
@@ -208,7 +212,10 @@ class MainIntegration(unittest.TestCase):
         shutil.rmtree(self.tmp, ignore_errors=True)
 
     def run_main(self):
-        FC.main()
+        # main() reports progress to stdout/stderr; keep the suite output clean.
+        with contextlib.redirect_stdout(io.StringIO()), \
+                contextlib.redirect_stderr(io.StringIO()):
+            FC.main()
         with open(os.path.join(self.tmp, "commodities.json")) as f:
             return json.load(f)
 
@@ -279,34 +286,6 @@ class TradingEconomicsParser(unittest.TestCase):
             m = re.search(pat, desc)
             self.assertIsNotNone(m, desc)
             self.assertEqual(m.group(3), price)
-
-
-class NewsfeedNoise(unittest.TestCase):
-    """Quote and chart pages must never be cited as a catalyst."""
-
-    def setUp(self):
-        import newsfeed
-        self.nf = newsfeed
-
-    def item(self, title, publisher=""):
-        return {"title": title, "publisher": publisher, "url": "u",
-                "published": datetime.now(timezone.utc)}
-
-    def test_rejects_chart_and_quote_pages(self):
-        for t in ["Acme Stock Price and Chart - TSE:1234",
-                  "Acme \u682a\u4fa1\u30c1\u30e3\u30fc\u30c8 - Yahoo",
-                  "Acme AG Chart-Analyse | Trading",
-                  "Acme Ltd \u6d41\u52a8\u6bd4\u7387 - FWB"]:
-            self.assertTrue(self.nf.is_noise(self.item(t)), t)
-
-    def test_rejects_screener_publishers(self):
-        self.assertTrue(self.nf.is_noise(self.item("Acme up 10%", "TradingView")))
-        self.assertTrue(self.nf.is_noise(self.item("Acme up 10%", "Moomoo")))
-
-    def test_keeps_genuine_reporting(self):
-        for t, p in [("Acme surges on copper discovery", "Stockhead"),
-                     ("A\u00e7\u00f5es da Casas Bahia disparam 65%", "UOL Economia")]:
-            self.assertFalse(self.nf.is_noise(self.item(t, p)), t)
 
 
 if __name__ == "__main__":

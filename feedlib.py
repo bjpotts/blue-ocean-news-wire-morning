@@ -89,7 +89,9 @@ def parse_feed(xml, link_must_match=None):
     for chunk in blocks:
         title = strip_html(_tag(chunk, "title"))
         if atom:
-            lm = re.search(r'<link[^>]*href="([^"]+)"', chunk)
+            # Single-quoted attributes are valid XML and some Atom feeds use
+            # them; matching only double quotes silently emptied those feeds.
+            lm = re.search(r'<link[^>]*href=["\']([^"\']+)["\']', chunk)
             link = lm.group(1) if lm else None
         else:
             link = _tag(chunk, "link")

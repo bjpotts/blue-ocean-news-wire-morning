@@ -4,48 +4,48 @@
    "key": "abc",
    "name": "ABC News Australia",
    "site": "abc.net.au/news",
-   "summary": "The ABC's Australian and international news file is leading with Victoria is about to host Australia's first offshore wind auction. But what is it?; Drama-free Medvedev wins, former US Open champion pulls out; Live: Joyce says dynamics have changed after WA by-election win.",
+   "summary": "The ABC's Australian and international news file is leading with Live: ASX likely to tumble, oil hits two-month high amid US-Iran strikes; Sunshine and snow: Your photos of WA's wild August weather; Australians accused of involvement with IS look set to face Iraqi trial.",
    "note": null,
    "items": [
     {
-     "headline": "Victoria is about to host Australia's first offshore wind auction. But what is it?",
-     "detail": "Victoria is about to host Australia's first offshore wind auction. But what is it?",
-     "url": "https://www.abc.net.au/news/2026-08-31/offshore-wind-explainer-renewable-energy-australia/106745850",
+     "headline": "Live: ASX likely to tumble, oil hits two-month high amid US-Iran strikes",
+     "detail": "Live: ASX likely to tumble, oil hits two-month high amid US-Iran strikes",
+     "url": "https://www.abc.net.au/news/2026-09-02/asx-markets-business-live-news/107105482",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-08-30T21:38:29+00:00",
-     "fetched": "2026-08-30T22:01:07+00:00"
+     "published": "2026-09-01T21:50:04+00:00",
+     "fetched": "2026-09-01T22:01:18+00:00"
     },
     {
-     "headline": "Drama-free Medvedev wins, former US Open champion pulls out",
-     "detail": "Drama-free Medvedev wins, former US Open champion pulls out",
-     "url": "https://www.abc.net.au/news/2026-08-31/daniil-medvedev-wins-us-open-first-round-marin-cilic-out/107096532",
+     "headline": "Sunshine and snow: Your photos of WA's wild August weather",
+     "detail": "Sunshine and snow: Your photos of WA's wild August weather",
+     "url": "https://www.abc.net.au/news/2026-09-02/weather-wrap-photos-august-in-wa/107099950",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-08-30T21:34:32+00:00",
-     "fetched": "2026-08-30T22:01:07+00:00"
+     "published": "2026-09-01T21:23:18+00:00",
+     "fetched": "2026-09-01T22:01:18+00:00"
     },
     {
-     "headline": "Live: Joyce says dynamics have changed after WA by-election win",
-     "detail": "Live: Joyce says dynamics have changed after WA by-election win",
-     "url": "https://www.abc.net.au/news/2026-08-31/federal-politics-live-blog-august-31/107096464",
+     "headline": "Australians accused of involvement with IS look set to face Iraqi trial",
+     "detail": "Australians accused of involvement with IS look set to face Iraqi trial",
+     "url": "https://www.abc.net.au/news/2026-09-02/australians-accused-of-involvement-with-is-face-trial/107104932",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-08-30T21:25:00+00:00",
-     "fetched": "2026-08-30T22:01:07+00:00"
+     "published": "2026-09-01T21:21:05+00:00",
+     "fetched": "2026-09-01T22:01:18+00:00"
     },
     {
-     "headline": "Live: ASX set to slip as Wall Street slides on inflation worries",
-     "detail": "Live: ASX set to slip as Wall Street slides on inflation worries",
-     "url": "https://www.abc.net.au/news/2026-08-31/asx-markets-business-live-news-wall-street-slides/107095734",
+     "headline": "Indian airline agreement with Western Sydney Airport still up in the air",
+     "detail": "Indian airline agreement with Western Sydney Airport still up in the air",
+     "url": "https://www.abc.net.au/news/2026-09-02/nsw-premier-indian-airlines-western-sydney-airport-talks/107105352",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-08-30T21:09:05+00:00",
-     "fetched": "2026-08-30T22:01:07+00:00"
+     "published": "2026-09-01T21:15:47+00:00",
+     "fetched": "2026-09-01T22:01:18+00:00"
     },
     {
-     "headline": "Illegal late-night McDonald's construction caught on video",
-     "detail": "Illegal late-night McDonald's construction caught on video",
-     "url": "https://www.abc.net.au/news/2026-08-31/mcdonalds-construction-angers-neighbours/107079792",
+     "headline": "Live: Four Australians confirmed safe in Nepal-Tibet flood disaster",
+     "detail": "Live: Four Australians confirmed safe in Nepal-Tibet flood disaster",
+     "url": "https://www.abc.net.au/news/2026-09-02/federal-politics-live-blog-sept-2/107103222",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-08-30T21:07:02+00:00",
-     "fetched": "2026-08-30T22:01:07+00:00"
+     "published": "2026-09-01T21:13:35+00:00",
+     "fetched": "2026-09-01T22:01:18+00:00"
     }
    ]
   },
@@ -53,48 +53,48 @@
    "key": "sbs",
    "name": "SBS News Australia",
    "site": "sbs.com.au/news",
-   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with Number of missing Australians in Nepal rises, as China links disaster to climate change; US military launches first strike on Iranian forces near Hormuz since July; Australian boxing great Tony Mundine dies aged 75.",
+   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with Four more Australians found safe after Nepal floods as death toll passes 1,000; Pushed into the 'manosphere': Social media algorithms target teenage boys in under 25 minutes; I've worked with families of missing people for 25 years. Here's how uncertainty feels.",
    "note": null,
    "items": [
     {
-     "headline": "Number of missing Australians in Nepal rises, as China links disaster to climate change",
-     "detail": "Australians are raising millions for Nepal disaster survivors as the death toll rises and thousands remain missing.",
-     "url": "https://www.sbs.com.au/news/article/number-of-missing-australians-in-nepal-rises-as-china-links-disaster-to-climate-change/2p1pfhknr",
+     "headline": "Four more Australians found safe after Nepal floods as death toll passes 1,000",
+     "detail": "DFAT has revised the number of missing Australians down to 38, as investigations continue.",
+     "url": "https://www.sbs.com.au/news/article/five-more-australians-found-safe-after-nepal-floods-as-death-toll-passes-1000/61tu6r3pe",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-08-30T21:21:33+00:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-01T21:29:48+00:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "US military launches first strike on Iranian forces near Hormuz since July",
-     "detail": "Iran has vowed a response after US strikes on rocket launchers near the Strait of Hormuz.",
-     "url": "https://www.sbs.com.au/news/article/us-military-launches-first-strike-on-iranian-forces-since-july/xp8e74xc9",
+     "headline": "Pushed into the 'manosphere': Social media algorithms target teenage boys in under 25 minutes",
+     "detail": "Teach Us Consent founder Chanel Contos urges an end to default algorithmic feeds to protect teenage boys online.",
+     "url": "https://www.sbs.com.au/news/article/teach-us-consent-national-press-club-manosphere/tki4accvj",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-08-30T20:59:59+00:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-01T21:18:38+00:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "Australian boxing great Tony Mundine dies aged 75",
-     "detail": "Mundine was the father of former boxer and NRL player Anthony Mundine and grandfather to boxer Rahim Mundine.",
-     "url": "https://www.sbs.com.au/news/article/australian-boxing-great-tony-mundine-dies-aged-75/32fhyh0th",
+     "headline": "I've worked with families of missing people for 25 years. Here's how uncertainty feels",
+     "detail": "Loved ones of missing people must grapple with the possibility that they may never know for certain what happened.",
+     "url": "https://www.sbs.com.au/news/article/ive-worked-with-families-of-missing-people-for-25-years-heres-how-uncertainty-feels/wx5bn5f63",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-08-30T20:11:23+00:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-01T20:34:02+00:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "What the case of a slain Australian reveals about accountability for 'mistakes'",
-     "detail": "An investigation into Zomi Frankcom's death is closed. But important questions remain unanswered.",
-     "url": "https://www.sbs.com.au/news/article/what-case-of-slain-australian-reveals-about-accountability-for-mistakes/vug5ek7a9",
+     "headline": "US and Iran trade tit-for-tat strikes as fears of a wider conflict grow",
+     "detail": "Hostilities between the US and Iran have resumed as the war in the Middle East enters its sixth month.",
+     "url": "https://www.sbs.com.au/news/article/us-and-iran-trade-tit-for-tat-strikes-as-fears-of-a-wider-conflict-grow/wtbabqpvx",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-08-30T19:32:48+00:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-01T20:14:58+00:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "'Unsafe': Barnaby Joyce invokes disaster-hit Nepal to explain One Nation's refugee policy",
-     "detail": "The One Nation MP suggested that refugees should not come from \"countries which are dangerous\".",
-     "url": "https://www.sbs.com.au/news/article/barnaby-joyce-one-nation-nepal-refugee-intake/e5kk4odry",
+     "headline": "Australia bucks a years-long winter sickness trend",
+     "detail": "Even so, experts say that a major change to the makeup of the virus could still trigger a larger wave.",
+     "url": "https://www.sbs.com.au/news/article/no-peak-australia-bucks-a-years-long-winter-sickness-trend/j0lnzhkp3",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-08-30T07:58:14+00:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-01T19:33:12+00:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     }
    ]
   },
@@ -102,48 +102,48 @@
    "key": "rnz",
    "name": "RNZ New Zealand",
    "site": "rnz.co.nz",
-   "summary": "Radio New Zealand's national news file is leading with Kickboxer Hayden Barnard sentenced to 11 months’ home detention for ‘brutal assault’ in Tasman; The geriatric giant growing by the hour; Where does fat go when you lose weight?.",
+   "summary": "Radio New Zealand's national news file is leading with Police staffer facing nearly 40 charges including rape and kidnapping; Christopher Luxon denies Pacific Islands Forum's clout weakened by five leaders' absence; Pedestrian dies after highway crash in Te Puke overnight.",
    "note": null,
    "items": [
     {
-     "headline": "Kickboxer Hayden Barnard sentenced to 11 months’ home detention for ‘brutal assault’ in Tasman",
-     "detail": "Kickboxer Hayden Barnard sentenced to 11 months’ home detention for ‘brutal assault’ in Tasman",
-     "url": "https://www.rnz.co.nz/news/crime-and-justice/1195028/kickboxer-hayden-barnard-sentenced-to-11-months-home-detention-for-brutal-assault-in-tasman",
+     "headline": "Police staffer facing nearly 40 charges including rape and kidnapping",
+     "detail": "Police staffer facing nearly 40 charges including rape and kidnapping",
+     "url": "https://www.rnz.co.nz/news/crime-and-justice/1215813/police-staffer-facing-nearly-40-charges-including-rape-and-kidnapping",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-08-31T09:49:48+12:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-02T09:11:10+12:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "The geriatric giant growing by the hour",
-     "detail": "The geriatric giant growing by the hour",
-     "url": "https://www.rnz.co.nz/news/health/1191350/the-geriatric-giant-growing-by-the-hour",
+     "headline": "Christopher Luxon denies Pacific Islands Forum's clout weakened by five leaders' absence",
+     "detail": "Christopher Luxon denies Pacific Islands Forum's clout weakened by five leaders' absence",
+     "url": "https://www.rnz.co.nz/news/political/1215738/christopher-luxon-denies-pacific-islands-forum-s-clout-weakened-by-five-leaders-absence",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-08-31T09:49:26+12:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-02T09:06:26+12:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "Where does fat go when you lose weight?",
-     "detail": "Where does fat go when you lose weight?",
-     "url": "https://www.rnz.co.nz/life/wellbeing/where-does-fat-actually-go-when-you-lose-weight",
+     "headline": "Pedestrian dies after highway crash in Te Puke overnight",
+     "detail": "Pedestrian dies after highway crash in Te Puke overnight",
+     "url": "https://www.rnz.co.nz/news/emergencies_local/1221161/pedestrian-dies-after-highway-crash-in-te-puke-overnight",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-08-31T09:39:16+12:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-02T08:56:59+12:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "Police officer Amanuel Molla charged with sexually abusing child",
-     "detail": "Police officer Amanuel Molla charged with sexually abusing child",
-     "url": "https://www.rnz.co.nz/news/crime-and-justice/1192779/police-officer-amanuel-molla-charged-with-sexually-abusing-child",
+     "headline": "Vanuatu tries to take island dispute with France to UN's top court",
+     "detail": "Vanuatu tries to take island dispute with France to UN's top court",
+     "url": "https://www.rnz.co.nz/news/pacific/1220935/vanuatu-tries-to-take-island-dispute-with-france-to-un-s-top-court",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-08-31T09:36:31+12:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-02T08:47:36+12:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     },
     {
-     "headline": "Older Kiwis struggle with basic living expenses: 'We are living in a very bad time'",
-     "detail": "Older Kiwis struggle with basic living expenses: 'We are living in a very bad time'",
-     "url": "https://www.rnz.co.nz/news/business/1192507/older-kiwis-struggle-with-basic-living-expenses-we-are-living-in-a-very-bad-time",
+     "headline": "One job ad, 1000 applicants: How do you stand out in a world of AI job hunters?",
+     "detail": "One job ad, 1000 applicants: How do you stand out in a world of AI job hunters?",
+     "url": "https://www.rnz.co.nz/news/personal-finance/1215988/one-job-ad-1000-applicants-how-do-you-stand-out-in-a-world-of-ai-job-hunters",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-08-31T09:02:25+12:00",
-     "fetched": "2026-08-30T22:01:08+00:00"
+     "published": "2026-09-02T08:43:47+12:00",
+     "fetched": "2026-09-01T22:01:19+00:00"
     }
    ]
   },
@@ -151,48 +151,48 @@
    "key": "scmp",
    "name": "South China Morning Post",
    "site": "scmp.com",
-   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with Trita Parsi on why US air strikes strengthened Iran’s hand and failed to trigger a revolt; At least 20 missing, dozens evacuated from Grand Canyon after flash flood hits creek; Reusable rocket milestone opens a door for Hong Kong’s space ambitions.",
+   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with Mainland China stepping up preparations for Taiwan blockade, report says; Nepal-China floods highlight a growing front of the climate change crisis; Congress advances new bill to give US edge in open-source AI race with China.",
    "note": null,
    "items": [
     {
-     "headline": "Trita Parsi on why US air strikes strengthened Iran’s hand and failed to trigger a revolt",
-     "detail": "Trita Parsi is co-founder and executive vice-president of the Quincy Institute, a Washington-based think tank. He is an expert on US-Iranian relations, Iranian foreign policy and the geopolitics of the Middle East.",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3365735/trita-parsi-why-us-air-strikes-strengthened-irans-hand-and-failed-trigger-revolt?utm_source=rss_feed",
+     "headline": "Mainland China stepping up preparations for Taiwan blockade, report says",
+     "detail": "Taiwan’s defence ministry has warned that the People’s Liberation Army is stepping up its preparations for a blockade of the island, adding that it is sharpening its plans to break such a cordon in response.",
+     "url": "https://www.scmp.com/news/china/military/article/3366011/mainland-china-stepping-preparations-taiwan-blockade-report-says?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-08-30T22:00:06+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T22:00:12+00:00",
+     "fetched": "2026-09-01T22:01:20+00:00"
     },
     {
-     "headline": "At least 20 missing, dozens evacuated from Grand Canyon after flash flood hits creek",
-     "detail": "More than 20 people may be missing after a major flash flood at the Grand Canyon, the US National Park Service said on Sunday.",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3365783/least-20-missing-dozens-evacuated-grand-canyon-after-flash-flood-hits-creek?utm_source=rss_feed",
+     "headline": "Nepal-China floods highlight a growing front of the climate change crisis",
+     "detail": "On August 26, a section of glacier collapsed at an altitude of more than 5,000 metres on the Nepalese side of the Himalayas.",
+     "url": "https://www.scmp.com/opinion/asia-opinion/article/3365825/nepal-china-floods-highlight-growing-front-climate-change-crisis?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-08-30T21:54:48+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T21:30:07+00:00",
+     "fetched": "2026-09-01T22:01:20+00:00"
     },
     {
-     "headline": "Reusable rocket milestone opens a door for Hong Kong’s space ambitions",
-     "detail": "On the morning of August 19, LandSpace’s Zhuque-3 Y2 rocket lifted off from the Dongfeng Commercial Space Innovation Test Area.",
-     "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3365219/reusable-rocket-milestone-opens-door-hong-kongs-space-ambitions?utm_source=rss_feed",
+     "headline": "Congress advances new bill to give US edge in open-source AI race with China",
+     "detail": "The US Congress on Tuesday advanced a new bill that seeks to establish American global leadership in open-source artificial intelligence, an area where China currently dominates, by promoting adoption of US open-source models and…",
+     "url": "https://www.scmp.com/news/us/economy-trade-business/article/3366035/congress-advances-new-bill-give-us-edge-open-source-ai-race-china?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-08-30T21:30:05+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T21:08:28+00:00",
+     "fetched": "2026-09-01T22:01:20+00:00"
     },
     {
-     "headline": "US forces strike two Iranian launchers on Iran’s Larak island, US official says",
-     "detail": "US forces ⁠struck two Iranian launchers on Iran’s Larak island on Sunday, a US official said, marking the first known American strikes on Iran since late July.",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3365782/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says?utm_source=rss_feed",
+     "headline": "UK’s Burnham pledges to restore hope as he makes House of Commons debut as PM",
+     "detail": "Prime Minister Andy Burnham faced lawmakers in the House of Commons on Tuesday for the first time since becoming UK leader six weeks ago, with wars in Europe and the Middle East weighing on his promise to kick-start the economy, ease the…",
+     "url": "https://www.scmp.com/news/world/europe/article/3366034/uks-burnham-pledges-restore-hope-he-makes-house-commons-debut-pm?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-08-30T21:04:04+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T20:40:09+00:00",
+     "fetched": "2026-09-01T22:01:20+00:00"
     },
     {
-     "headline": "Colombia’s Abelardo de la Espriella says soldiers killed key dissident leader",
-     "detail": "A prominent leader of the dissident factions of the defunct Revolutionary Armed Forces of Colombia who operated in a volatile area in the country’s southwest region was killed on Sunday during a military operation, said President Abelardo…",
-     "url": "https://www.scmp.com/news/world/americas/article/3365781/colombias-abelardo-de-la-espriella-says-soldiers-killed-key-dissident-leader?utm_source=rss_feed",
+     "headline": "Syria was building nuclear reactor in Deir el-Zour under Assad, UN report finds",
+     "detail": "Inspectors with the UN nuclear watchdog visited several sites in Syria in August and carried out verification work, according to a confidential report circulated to member states and seen Tuesday by Associated Press.",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3366033/syria-was-building-nuclear-reactor-deir-el-zour-under-assad-un-report-finds?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-08-30T20:41:22+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T18:23:34+00:00",
+     "fetched": "2026-09-01T22:01:20+00:00"
     }
    ]
   },
@@ -200,48 +200,48 @@
    "key": "cnn",
    "name": "CNN",
    "site": "cnn.com",
-   "summary": "CNN's international edition is leading with Rescuers search for missing workers as death toll rises from devastating China-Nepal floods; 15 people may be missing after Grand Canyon flooding as dozens are evacuated; US strikes Iranian rocket launchers, marking first attack in a month.",
+   "summary": "CNN's international edition is leading with Judge expected to rule whether case against suspect in Charlie Kirk’s killing can proceed to trial; ‘Breach of trust’: Democratic leaders shocked after 2 members cross aisle to help Republicans; Rep. Stutzman backs Trump’s efforts to curb mail-in voting.",
    "note": null,
    "items": [
     {
-     "headline": "Rescuers search for missing workers as death toll rises from devastating China-Nepal floods",
-     "detail": "Rescuers search for missing workers as death toll rises from devastating China-Nepal floods",
-     "url": "https://www.cnn.com/2026/08/30/world/live-news/nepal-china-flood",
+     "headline": "Judge expected to rule whether case against suspect in Charlie Kirk’s killing can proceed to trial",
+     "detail": "Judge expected to rule whether case against suspect in Charlie Kirk’s killing can proceed to trial",
+     "url": "https://www.cnn.com/2026/09/01/us/live-news/charlie-kirk-tyler-robinson-hearing",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-08-30T04:50:38+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T15:01:24+00:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "15 people may be missing after Grand Canyon flooding as dozens are evacuated",
-     "detail": "15 people may be missing after Grand Canyon flooding as dozens are evacuated",
-     "url": "https://www.cnn.com/2026/08/30/us/grand-canyon-flooding-missing-persons",
+     "headline": "‘Breach of trust’: Democratic leaders shocked after 2 members cross aisle to help Republicans",
+     "detail": "‘Breach of trust’: Democratic leaders shocked after 2 members cross aisle to help Republicans",
+     "url": "https://www.cnn.com/2026/09/01/politics/democrats-mike-johnson-revolt",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-08-30T20:41:48+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T20:58:41+00:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "US strikes Iranian rocket launchers, marking first attack in a month",
-     "detail": "US strikes Iranian rocket launchers, marking first attack in a month",
-     "url": "https://www.cnn.com/2026/08/30/politics/us-iran-strikes-larak-island",
+     "headline": "Rep. Stutzman backs Trump’s efforts to curb mail-in voting",
+     "detail": "Rep. Stutzman backs Trump’s efforts to curb mail-in voting",
+     "url": "https://www.cnn.com/2026/09/01/politics/video/usps-mail-in-voting-president-trump-election-lead-tapper",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-08-30T19:58:25+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T21:57:44+00:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "Landslides and floods have wreaked havoc in Nepal and China. Follow the river down the path of destruction.",
-     "detail": "Landslides and floods have wreaked havoc in Nepal and China. Follow the river down the path of destruction.",
-     "url": "https://www.cnn.com/2026/08/28/asia/map-nepal-china-flood-landslide-damage-vis",
+     "headline": "US military carries out new strikes on Iranian targets",
+     "detail": "US military carries out new strikes on Iranian targets",
+     "url": "https://www.cnn.com/2026/09/01/politics/us-military-strikes-iran",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-08-28T19:49:26+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T16:50:45+00:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "Aaron Donald ends his 2 1/2-year retirement and returns to the Los Angeles Rams",
-     "detail": "Aaron Donald ends his 2 1/2-year retirement and returns to the Los Angeles Rams",
-     "url": "https://www.cnn.com/2026/08/30/sport/aaron-donald-returns-los-angeles-rams",
+     "headline": "MapQuest is No. 1 on the App Store after refusing to change Lake Ontario’s name",
+     "detail": "MapQuest is No. 1 on the App Store after refusing to change Lake Ontario’s name",
+     "url": "https://www.cnn.com/2026/09/01/business/mapquest-number-one-app-refusal-lake-america",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-08-30T20:34:46+00:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T20:55:55+00:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     }
    ]
   },
@@ -249,48 +249,48 @@
    "key": "fox",
    "name": "Fox News",
    "site": "foxnews.com",
-   "summary": "Fox News, covering US politics and national affairs is leading with Border czar Tom Homan fires back after Democrat Chris Murphy claims ICE is ‘terrorizing little kids’; Christie Brinkley and Sailor Brinkley Cook twin in denim at John Mayer's show in New York; Urgent search underway for more than 20 people after Grand Canyon flash flood.",
+   "summary": "Fox News, covering US politics and national affairs is leading with Carmen Electra turns heads in barely-there look during breakfast while on her European vacation; Falcons' Tua Tagovailoa gets roasted on social media after allegedly commenting on his own post; Colin Kaepernick is right about the NFL's 'performative' racism campaign — but he's also a hypocrite.",
    "note": null,
    "items": [
     {
-     "headline": "Border czar Tom Homan fires back after Democrat Chris Murphy claims ICE is ‘terrorizing little kids’",
-     "detail": "Tom Homan pushed back on claims ICE targeted parents at a school bus stop in Danbury, Connecticut, as DHS called the allegation politically motivated.",
-     "url": "https://www.foxnews.com/media/border-czar-tom-homan-fires-back-after-democrat-chris-murphy-claims-ice-terrorizing-little-kids",
+     "headline": "Carmen Electra turns heads in barely-there look during breakfast while on her European vacation",
+     "detail": "Carmen Electra's bold Berlin breakfast photos on Instagram show the 54-year-old actress posing in lace underwear and micro shorts on her balcony.",
+     "url": "https://www.foxnews.com/entertainment/carmen-electra-turns-heads-barely-there-look-during-breakfast-while-her-european-vacation",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-08-30T17:45:06-04:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T17:54:12-04:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "Christie Brinkley and Sailor Brinkley Cook twin in denim at John Mayer's show in New York",
-     "detail": "Christie Brinkley and Sailor Brinkley Cook turned heads in matching denim at John Mayer's SiriusXM event, with fans calling them twins online.",
-     "url": "https://www.foxnews.com/entertainment/christie-brinkley-sailor-brinkley-cook-twin-denim-john-mayer-show-new-york",
+     "headline": "Falcons' Tua Tagovailoa gets roasted on social media after allegedly commenting on his own post",
+     "detail": "Atlanta Falcons quarterback Tua Tagovailoa appeared to accidentally comment on his own Instagram post with a supportive message before deleting it and his wife posting one.",
+     "url": "https://www.foxnews.com/outkick-sports/falcons-tua-tagovailoa-roasted-social-media-allegedly-commenting-own-post",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-08-30T17:32:27-04:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T17:35:15-04:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "Urgent search underway for more than 20 people after Grand Canyon flash flood",
-     "detail": "More than 20 people may be missing after a major flash flood tore through Bright Angel Canyon and Phantom Ranch in the Grand Canyon on Aug. 29.",
-     "url": "https://www.foxnews.com/us/urgent-search-underway-more-than-20-people-after-grand-canyon-flash-flood",
+     "headline": "Colin Kaepernick is right about the NFL's 'performative' racism campaign — but he's also a hypocrite",
+     "detail": "Colin Kaepernick calls Roger Goodell's 2020 racial justice video \"so performative\" and \"disingenuous\" in a new interview promoting his upcoming memoir.",
+     "url": "https://www.foxnews.com/outkick-sports/colin-kaepernick-right-nfl-performative-racism-campaign-hypocrite",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-08-30T17:00:38-04:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T17:21:25-04:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "From FSU to Dan Mullen, here are three 'overreactions' from week zero of the college football season",
-     "detail": "Florida State struggled against New Mexico State, UNLV fell to Memphis, and USC's empty Coliseum sparked heated debate in a wild week zero opener.",
-     "url": "https://www.foxnews.com/outkick-sports/fsu-dan-mullen-three-overreactions-week-zero-college-football-season",
+     "headline": "Pro wrestling star Tessa Blanchard joins Major League Wrestling, eyes top of women's division",
+     "detail": "Tessa Blanchard revealed she is joining Major League Wrestling and will make her debut at MLW Fightland on Sept. 12 in Charleston, South Carolina.",
+     "url": "https://www.foxnews.com/outkick-sports/pro-wrestling-star-tessa-blanchard-joins-major-league-wrestling-eyes-top-womens-division",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-08-30T16:59:31-04:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T17:11:21-04:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     },
     {
-     "headline": "'We back': Aaron Donald returns to the Rams and a defense now loaded with Myles Garrett and others",
-     "detail": "Aaron Donald announced his NFL comeback with an Instagram video, rejoining the Los Angeles Rams alongside Myles Garrett for a historic defense.",
-     "url": "https://www.foxnews.com/outkick-sports/aaron-donald-returns-rams-defense-loaded-myles-garrett",
+     "headline": "Houston mayor says his city is a better location than Austin for an NHL expansion franchise",
+     "detail": "Mayor John Whitmire says Houston beats Austin for NHL expansion after the league added the Vegas Golden Knights, Seattle Kraken and Utah Mammoth.",
+     "url": "https://www.foxnews.com/outkick-sports/houston-mayor-says-city-better-location-austin-nhl-expansion-franchise",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-08-30T16:57:29-04:00",
-     "fetched": "2026-08-30T22:01:09+00:00"
+     "published": "2026-09-01T17:08:51-04:00",
+     "fetched": "2026-09-01T22:01:21+00:00"
     }
    ]
   },
@@ -298,48 +298,48 @@
    "key": "wsj",
    "name": "The Wall Street Journal",
    "site": "wsj.com",
-   "summary": "The Wall Street Journal's world news wire is leading with U.S. Strikes Two Iranian Rocket Launchers in First Attack in Weeks; Young Women Bear the Brunt of India’s Anti-Protester Vitriol; Icelanders Reject EU-Membership Talks.",
+   "summary": "The Wall Street Journal's world news wire is leading with U.S. Targets Iran in Fresh Wave of Strikes; The Thai Town Hosting the USS Abraham Lincoln After a Grueling Deployment; Germany Blames Russia for Explosive Drones Sent to Leipzig Airport.",
    "note": null,
    "items": [
     {
-     "headline": "U.S. Strikes Two Iranian Rocket Launchers in First Attack in Weeks",
-     "detail": "U.S. Central Command said the launchers were preparing to fire rockets filled with sea mines into the Strait of Hormuz.",
-     "url": "https://www.wsj.com/world/middle-east/u-s-strikes-two-iranian-rocket-launchers-in-first-attack-in-weeks-17602dcf?mod=rss_worldnews",
+     "headline": "U.S. Targets Iran in Fresh Wave of Strikes",
+     "detail": "President Trump said the operation was a response to Iran’s attempts to mine the Strait of Hormuz and its targeting of American servicemembers in the Middle East.",
+     "url": "https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-08-30T21:31:00+00:00",
-     "fetched": "2026-08-30T22:01:10+00:00"
+     "published": "2026-09-01T21:36:00+00:00",
+     "fetched": "2026-09-01T22:01:22+00:00"
     },
     {
-     "headline": "Young Women Bear the Brunt of India’s Anti-Protester Vitriol",
-     "detail": "After a summer of Gen Z discontent, political workers and members of the public chastised women for violating social norms.",
-     "url": "https://www.wsj.com/world/india/young-women-bear-the-brunt-of-indias-anti-protester-vitriol-4b056b60?mod=rss_worldnews",
+     "headline": "The Thai Town Hosting the USS Abraham Lincoln After a Grueling Deployment",
+     "detail": "About 5,000 sailors flush with cash and looking for R&R will pour into the seaside resort.",
+     "url": "https://www.wsj.com/world/the-thai-town-hosting-the-uss-abraham-lincoln-after-a-grueling-deployment-f66e1962?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-08-30T14:56:00+00:00",
-     "fetched": "2026-08-30T22:01:10+00:00"
+     "published": "2026-09-01T18:19:00+00:00",
+     "fetched": "2026-09-01T22:01:22+00:00"
     },
     {
-     "headline": "Icelanders Reject EU-Membership Talks",
-     "detail": "Voters weighed the nation’s security in the wake of President Trump saying he would like the U.S. to acquire Greenland.",
-     "url": "https://www.wsj.com/world/europe/icelanders-reject-eu-membership-talks-national-broadcaster-projects-05a2c74d?mod=rss_worldnews",
+     "headline": "Germany Blames Russia for Explosive Drones Sent to Leipzig Airport",
+     "detail": "In a rare move, Berlin said it would retaliate for the incident last month.",
+     "url": "https://www.wsj.com/world/europe/germany-blames-russia-for-explosive-drones-sent-to-leipzig-airport-03599b93?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-08-30T14:25:00+00:00",
-     "fetched": "2026-08-30T22:01:10+00:00"
+     "published": "2026-09-01T18:05:00+00:00",
+     "fetched": "2026-09-01T22:01:22+00:00"
     },
     {
-     "headline": "Putin Turns Again to China’s Xi as Russia’s Clout Crumbles",
-     "detail": "The shifting power status of the two leaders will be front and center on Monday, when they are set to meet in Kyrgyzstan.",
-     "url": "https://www.wsj.com/world/russia/putin-turns-again-to-chinas-xi-as-russias-clout-crumbles-125c56be?mod=rss_worldnews",
+     "headline": "The Wartime ‘Coffin Money’ Transforming Russia’s Poorest Regions",
+     "detail": "Watch how Putin’s war pay is changing everyday life in remote Russian cities.",
+     "url": "https://www.wsj.com/world/russia/the-wartime-coffin-money-transforming-russias-poorest-regions-960c743c?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-08-30T11:00:00+00:00",
-     "fetched": "2026-08-30T22:01:10+00:00"
+     "published": "2026-09-01T16:01:00+00:00",
+     "fetched": "2026-09-01T22:01:22+00:00"
     },
     {
-     "headline": "Nearly 770 Dead in Devastating Nepal, Tibet Floods",
-     "detail": "More than 3,000 people are missing after a partial detachment of a glacier on a Nepalese mountain sparked the disaster.",
-     "url": "https://www.wsj.com/world/asia/nearly-770-dead-in-devastating-nepal-tibet-floods-1bd43215?mod=rss_worldnews",
+     "headline": "Two Tankers Attacked on Midnight Run Through Hormuz",
+     "detail": "The attacks on vessels laden with Saudi crude showed the risks still plaguing the waterway.",
+     "url": "https://www.wsj.com/world/middle-east/two-tankers-attacked-on-midnight-run-through-hormuz-9957caaf?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-08-30T10:32:00+00:00",
-     "fetched": "2026-08-30T22:01:10+00:00"
+     "published": "2026-09-01T14:42:00+00:00",
+     "fetched": "2026-09-01T22:01:22+00:00"
     }
    ]
   }

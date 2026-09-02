@@ -1,7 +1,7 @@
 {
  "market_news": {
-  "paragraph": "Global equities were mixed in the latest completed round of trading, with 11 of the 24 benchmarks tracked on this page closing higher. In the United States, the S&P 500 rose 0.47 per cent to 7,711.76, the Dow Jones rose 0.18 per cent to 53,560, the Nasdaq Composite rose 1.04 per cent to 26,402 and the Russell 2000 fell 1.12 per cent to 2,972.37. In Europe, the FTSE 100 fell 0.49 per cent to 10,824, the DAX rose 1.08 per cent to 26,570 and the CAC 40 fell 0.72 per cent to 8,401.18. Across Asia, the Nikkei 225 rose 0.22 per cent to 66,406, the Hang Seng fell 0.27 per cent to 25,585, the KOSPI fell 0.28 per cent to 6,788.88, the Shanghai Composite rose 1.01 per cent to 3,952.18, the BSE Sensex fell 0.27 per cent to 77,265 and the Straits Times fell 0.38 per cent to 5,699.93. Elsewhere, the Ibovespa rose 0.62 per cent to 175,665. Locally, the S&P/ASX 200 fell 0.39 per cent to 9,092.30 and the All Ordinaries fell 0.48 per cent to 9,294.30. In digital assets, bitcoin changed hands at $78,031, down 0.25 per cent over the past 24 hours. In currencies, the US dollar bought 1.3899 Australian dollars, down 0.06 per cent against the prior business day's fix. Index levels, exchange rates and commodity prices on this page are captured live at build time from the sources linked in each section; no forward-looking view is offered here.",
-  "fetched": "2026-08-31T09:29:32+10:00",
+  "paragraph": "Global equities were broadly weaker in the latest completed round of trading, with 8 of the 24 benchmarks tracked on this page closing higher. In the United States, the S&P 500 fell 0.71 per cent to 7,631.47, the Dow Jones fell 0.79 per cent to 52,767, the Nasdaq Composite fell 1.03 per cent to 26,100 and the Russell 2000 fell 1.23 per cent to 2,920.13. In Europe, the FTSE 100 was little changed at 10,789, the DAX fell 1.51 per cent to 25,970 and the CAC 40 fell 0.22 per cent to 8,301.85. Across Asia, the Nikkei 225 rose 0.13 per cent to 66,215, the Hang Seng fell 0.92 per cent to 25,330, the KOSPI fell 1.11 per cent to 6,835.80, the Shanghai Composite rose 0.59 per cent to 3,979.89, the BSE Sensex was little changed at 76,944 and the Straits Times rose 0.46 per cent to 5,710.37. Elsewhere, the Ibovespa rose 1.30 per cent to 179,722. Locally, the S&P/ASX 200 rose 0.32 per cent to 9,066.70 and the All Ordinaries rose 0.19 per cent to 9,260.90. In digital assets, bitcoin changed hands at $77,204, down 2.20 per cent over the past 24 hours. In currencies, the US dollar bought 1.4003 Australian dollars, up 0.29 per cent against the prior business day's fix. Index levels, exchange rates and commodity prices on this page are captured live at build time from the sources linked in each section; no forward-looking view is offered here.",
+  "fetched": "2026-09-02T23:22:20+10:00",
   "stale": false,
   "sources": [
    {
@@ -17,316 +17,330 @@
     "url": "https://www.coingecko.com/en/coins/bitcoin"
    }
   ],
-  "asof_caption": "Market data on this page was captured at Monday 31 August 2026 at 09:29 AEST, reflecting the most recent completed or in-progress session at each of the exchanges listed."
+  "asof_caption": "Market data on this page was captured at Wednesday 02 September 2026 at 23:22 AEST, reflecting the most recent completed or in-progress session at each of the exchanges listed."
  },
  "markets": [
   {
    "key": "germany",
    "title": "European Top Performers (Germany / XETR)",
-   "caption": "Source: TradingView Germany market movers (Deutsche B\u00f6rse XETR), captured Monday 31 August 2026 at 08:00 AEST, covering the CET session most recently published at that time. Prices in euros; share volume as published by TradingView.",
-   "fetched": "2026-08-31T08:00:31+10:00",
+   "caption": "Source: TradingView Germany market movers (Deutsche B\u00f6rse XETR), captured Wednesday 02 September 2026 at 23:22 AEST, covering the CET session most recently published at that time. Prices in euros; share volume as published by TradingView.",
+   "fetched": "2026-09-02T23:22:20+10:00",
    "stale": false,
-   "gainer_note": "Circus SE led the European board for the session, up 27.21 per cent to \u20ac3.740 on reported volume of 196.75K shares. The move is reported here as captured from TradingView Germany market movers (Deutsche B\u00f6rse XETR) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
+   "gainer_note": "aap Implantate AG led the European board for the session, up 8.12 per cent to \u20ac1.73 on reported volume of 8.93K shares. The move is reported here as captured from TradingView Germany market movers (Deutsche B\u00f6rse XETR) at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "PLANETHIC GROUP AG was the steepest decliner on the European board for the session, down 6.81 per cent to \u20ac1.300 on reported volume of 2.38K shares. The move is reported here as captured from TradingView Germany market movers (Deutsche B\u00f6rse XETR) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
-   "loser_note_sources": [],
-   "gainers": [
+   "loser_note": "Circus SE was the steepest decliner on the European board for the session, down 13.74 per cent to \u20ac3.075 on reported volume of 77.28K shares. Reported alongside the move, AD HOC NEWS on 02 September 2026:",
+   "loser_note_sources": [
     {
-     "name": "Circus SE",
-     "url": "https://www.tradingview.com/symbols/XETR-CA1/",
-     "price": "\u20ac3.740",
-     "chg": "+27.21%",
-     "vol": "196.75K"
-    },
-    {
-     "name": "HausVorteil AG",
-     "url": "https://www.tradingview.com/symbols/XETR-KA1/",
-     "price": "\u20ac10.00",
-     "chg": "+17.65%",
-     "vol": "1.13K"
-    },
-    {
-     "name": "KHD Humboldt Wedag International AG",
-     "url": "https://www.tradingview.com/symbols/XETR-KWG/",
-     "price": "\u20ac2.16",
-     "chg": "+6.93%",
-     "vol": "1.96K"
-    },
-    {
-     "name": "STRATEC SE",
-     "url": "https://www.tradingview.com/symbols/XETR-SBS/",
-     "price": "\u20ac24.30",
-     "chg": "+5.19%",
-     "vol": "11.77K"
-    },
-    {
-     "name": "Datron AG",
-     "url": "https://www.tradingview.com/symbols/XETR-DAR/",
-     "price": "\u20ac8.50",
-     "chg": "+4.94%",
-     "vol": "4.19K"
-    },
-    {
-     "name": "Heidelberg Pharma AG",
-     "url": "https://www.tradingview.com/symbols/XETR-HPHA/",
-     "price": "\u20ac2.62",
-     "chg": "+4.80%",
-     "vol": "12.13K"
-    },
-    {
-     "name": "R. STAHL Aktiengesellschaft",
-     "url": "https://www.tradingview.com/symbols/XETR-RSL2/",
-     "price": "\u20ac13.1",
-     "chg": "+4.80%",
-     "vol": "3.6K"
-    },
-    {
-     "name": "swissnet AG",
-     "url": "https://www.tradingview.com/symbols/XETR-81D/",
-     "price": "\u20ac1.600",
-     "chg": "+4.58%",
-     "vol": "512"
-    },
-    {
-     "name": "Bayerische Motoren Werke AG",
-     "url": "https://www.tradingview.com/symbols/XETR-BMW/",
-     "price": "\u20ac62.64",
-     "chg": "+4.50%",
-     "vol": "2.74M"
-    },
-    {
-     "name": "PLANOPTIK AG",
-     "url": "https://www.tradingview.com/symbols/XETR-P4O/",
-     "price": "\u20ac7.26",
-     "chg": "+4.31%",
-     "vol": "3.87K"
+     "title": "Circus SE: Aktie notiert bei 3,58 Euro nach kommerziellem Start der Pods - AD HOC NEWS",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYXV1YnMtb0Vsa0lvTkR3TkpwVlpZX01qdzVtMXJ2MTAtTEpVclpfSmRLalRXbFRxLWx3MjhoOWdyVDFIcDN2bXVwNGtIUnlOS3lGX004aGtyRGZTa1NCV1VYSlZfS0FIQjdYaUllWHRNeUhQUjkybFRfWS1hWmM3NnZuXzAzenBlcTUzLXVWdGxwQy1aaEZyb0pCU080MWhGU0ZrdVh6S2pHYk9LeGhXeXZRNFFfRGtIRnpLRTdWb2NaV3lEdUlkSGxCRVc0Q05hMUxocG1ScFNBNU0?oc=5",
+     "publisher": "AD HOC NEWS",
+     "published": "2026-09-02T06:36:43+10:00"
     }
    ],
-   "losers": [
+   "gainers": [
     {
-     "name": "PLANETHIC GROUP AG",
-     "url": "https://www.tradingview.com/symbols/XETR-VEZ/",
-     "price": "\u20ac1.300",
-     "chg": "-6.81%",
-     "vol": "2.38K"
+     "name": "aap Implantate AG",
+     "url": "https://www.tradingview.com/symbols/XETR-AAQ1/",
+     "price": "\u20ac1.73",
+     "chg": "+8.12%",
+     "vol": "8.93K"
     },
     {
-     "name": "Viromed Medical AG",
-     "url": "https://www.tradingview.com/symbols/XETR-VME/",
-     "price": "\u20ac6.40",
-     "chg": "-6.57%",
-     "vol": "7.94K"
+     "name": "Solutiance AG",
+     "url": "https://www.tradingview.com/symbols/XETR-SLSA/",
+     "price": "\u20ac1.38",
+     "chg": "+7.81%",
+     "vol": "2.67K"
     },
     {
-     "name": "Redcare Pharmacy N.V.",
-     "url": "https://www.tradingview.com/symbols/XETR-RDC/",
-     "price": "\u20ac63.50",
-     "chg": "-5.86%",
-     "vol": "109.37K"
+     "name": "RCM Beteiligungs AG",
+     "url": "https://www.tradingview.com/symbols/XETR-RCMN/",
+     "price": "\u20ac1.17",
+     "chg": "+7.34%",
+     "vol": "422"
     },
     {
-     "name": "Leo International Precision Health Aktiengesellschaft",
-     "url": "https://www.tradingview.com/symbols/XETR-LEOW/",
-     "price": "\u20ac17.0",
-     "chg": "-5.56%",
-     "vol": "1"
+     "name": "Formycon AG",
+     "url": "https://www.tradingview.com/symbols/XETR-FYB/",
+     "price": "\u20ac20.30",
+     "chg": "+5.29%",
+     "vol": "9.33K"
     },
     {
-     "name": "NanoRepro AG",
-     "url": "https://www.tradingview.com/symbols/XETR-NN6/",
-     "price": "\u20ac1.765",
-     "chg": "-5.11%",
-     "vol": "10.57K"
+     "name": "SBF AG",
+     "url": "https://www.tradingview.com/symbols/XETR-CY1K/",
+     "price": "\u20ac3.02",
+     "chg": "+4.14%",
+     "vol": "2.8K"
     },
     {
-     "name": "EnergieKontor AG",
-     "url": "https://www.tradingview.com/symbols/XETR-EKT/",
-     "price": "\u20ac26.45",
-     "chg": "-4.86%",
-     "vol": "35.74K"
+     "name": "Evotec SE",
+     "url": "https://www.tradingview.com/symbols/XETR-EVT/",
+     "price": "\u20ac3.266",
+     "chg": "+3.68%",
+     "vol": "373.47K"
     },
     {
-     "name": "FRIWO AG",
-     "url": "https://www.tradingview.com/symbols/XETR-CEA/",
-     "price": "\u20ac4.36",
-     "chg": "-4.80%",
-     "vol": "1K"
+     "name": "2G Energy AG",
+     "url": "https://www.tradingview.com/symbols/XETR-2GB/",
+     "price": "\u20ac56.00",
+     "chg": "+3.13%",
+     "vol": "25.22K"
     },
     {
-     "name": "LPKF Laser & Electronics SE",
-     "url": "https://www.tradingview.com/symbols/XETR-LPK/",
-     "price": "\u20ac13.20",
-     "chg": "-4.35%",
-     "vol": "172.76K"
+     "name": "Geratherm Medical AG",
+     "url": "https://www.tradingview.com/symbols/XETR-GME/",
+     "price": "\u20ac2.64",
+     "chg": "+3.13%",
+     "vol": "50"
     },
     {
      "name": "VIB Vermoegen AG",
      "url": "https://www.tradingview.com/symbols/XETR-VIH1/",
-     "price": "\u20ac6.40",
-     "chg": "-4.19%",
-     "vol": "13.9K"
+     "price": "\u20ac5.88",
+     "chg": "+2.80%",
+     "vol": "16.24K"
     },
     {
-     "name": "SCP Standard Capital Partners AG",
-     "url": "https://www.tradingview.com/symbols/XETR-CAP/",
-     "price": "\u20ac2.42",
-     "chg": "-3.97%",
-     "vol": "12.49K"
+     "name": "technotrans SE",
+     "url": "https://www.tradingview.com/symbols/XETR-TTR1/",
+     "price": "\u20ac27.95",
+     "chg": "+2.76%",
+     "vol": "4.81K"
+    }
+   ],
+   "losers": [
+    {
+     "name": "Circus SE",
+     "url": "https://www.tradingview.com/symbols/XETR-CA1/",
+     "price": "\u20ac3.075",
+     "chg": "-13.74%",
+     "vol": "77.28K"
+    },
+    {
+     "name": "NorCom Information Technology GmbH & Co. KGaA",
+     "url": "https://www.tradingview.com/symbols/XETR-NC5A/",
+     "price": "\u20ac1.302",
+     "chg": "-6.87%",
+     "vol": "144"
+    },
+    {
+     "name": "Redcare Pharmacy N.V.",
+     "url": "https://www.tradingview.com/symbols/XETR-RDC/",
+     "price": "\u20ac56.65",
+     "chg": "-6.13%",
+     "vol": "76.41K"
+    },
+    {
+     "name": "Fabasoft AG",
+     "url": "https://www.tradingview.com/symbols/XETR-FAA/",
+     "price": "\u20ac16.00",
+     "chg": "-5.88%",
+     "vol": "16.5K"
+    },
+    {
+     "name": "HWA AG",
+     "url": "https://www.tradingview.com/symbols/XETR-H9W/",
+     "price": "\u20ac2.85",
+     "chg": "-5.63%",
+     "vol": "3"
+    },
+    {
+     "name": "Delignit AG",
+     "url": "https://www.tradingview.com/symbols/XETR-DLX/",
+     "price": "\u20ac2.46",
+     "chg": "-5.38%",
+     "vol": "10.01K"
+    },
+    {
+     "name": "Verbio SE",
+     "url": "https://www.tradingview.com/symbols/XETR-VBK/",
+     "price": "\u20ac29.72",
+     "chg": "-4.93%",
+     "vol": "36.51K"
+    },
+    {
+     "name": "KAP AG",
+     "url": "https://www.tradingview.com/symbols/XETR-IUR/",
+     "price": "\u20ac1.600",
+     "chg": "-4.76%",
+     "vol": "5.32K"
+    },
+    {
+     "name": "GFT Technologies SE",
+     "url": "https://www.tradingview.com/symbols/XETR-GFT/",
+     "price": "\u20ac25.05",
+     "chg": "-4.75%",
+     "vol": "25.87K"
+    },
+    {
+     "name": "flatexDEGIRO SE",
+     "url": "https://www.tradingview.com/symbols/XETR-FTK/",
+     "price": "\u20ac36.12",
+     "chg": "-4.75%",
+     "vol": "150.25K"
     }
    ]
   },
   {
    "key": "brazil",
    "title": "Latin American Top Performers (Brazil / B3)",
-   "caption": "Source: TradingView Brazil market movers (B3), captured Monday 31 August 2026 at 08:00 AEST, covering the BRT session most recently published at that time. Prices in Brazilian reais; share volume as published by TradingView.",
-   "fetched": "2026-08-31T08:00:31+10:00",
+   "caption": "Source: TradingView Brazil market movers (B3), captured Wednesday 02 September 2026 at 23:22 AEST, covering the BRT session most recently published at that time. Prices in Brazilian reais; share volume as published by TradingView.",
+   "fetched": "2026-09-02T23:22:20+10:00",
    "stale": false,
-   "gainer_note": "Grupo Casas Bahia S.A. led the Latin American board for the session, up 17.65 per cent to R$0.400 on reported volume of 21.66M shares. The move is reported here as captured from TradingView Brazil market movers (B3) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
+   "gainer_note": "Renova Energia S.A. led the Latin American board for the session, up 8.54 per cent to R$0.89 on reported volume of 34.7K shares. The move is reported here as captured from TradingView Brazil market movers (B3) at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "Azevedo & Travassos SA was the steepest decliner on the Latin American board for the session, down 49.94 per cent to R$4.11 on reported volume of 2.44M shares. The move is reported here as captured from TradingView Brazil market movers (B3) at the time of this build; no company announcement has been independently verified for it, so no catalyst is asserted. Readers should treat the move as the market print rather than an explained event.",
-   "loser_note_sources": [],
+   "loser_note": "Recrusul SA was the steepest decliner on the Latin American board for the session, down 5.13 per cent to R$0.37 on reported volume of 10.2K shares. Reported alongside the move, ADVFN on 02 September 2026:",
+   "loser_note_sources": [
+    {
+     "title": "Recrusul Sa (RCSL4) Compara\u00e7\u00e3o de Pares e A\u00e7\u00f5es Semelhantes - ADVFN",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ19QN0VwcDVhd1pfTEFsejRCZXF4WTRiekJlZEE4dDZUWmJmdzd1QjJtcnBBdEY1REJ5VFp2RnQzRFVGMjRWdlVEMEtaQW85cGVuaVNQbTBWT1BrNERLMzM2MXMwMDEzUmZ3Slc2SjlaSnNDZS1Ba3BnelowcDBNYkZySUszdFRQdlI4?oc=5",
+     "publisher": "ADVFN",
+     "published": "2026-09-02T05:32:39+10:00"
+    }
+   ],
    "gainers": [
     {
-     "name": "Grupo Casas Bahia S.A.",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-BHIA3/",
-     "price": "R$0.400",
-     "chg": "+17.65%",
-     "vol": "21.66M"
-    },
-    {
-     "name": "TPI - Triunfo Participacoes e Investimentos SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-TPIS3/",
-     "price": "R$10.00",
-     "chg": "+16.28%",
-     "vol": "137.2K"
-    },
-    {
-     "name": "Arandu Investimentos S.A",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-ARND3/",
-     "price": "R$0.580",
-     "chg": "+16.00%",
-     "vol": "2.9K"
-    },
-    {
-     "name": "PBG S.A.Registered Shs",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-PTBL3/",
-     "price": "R$1.58",
-     "chg": "+7.48%",
-     "vol": "916.3K"
+     "name": "Renova Energia S.A.",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-RNEW3/",
+     "price": "R$0.89",
+     "chg": "+8.54%",
+     "vol": "34.7K"
     },
     {
      "name": "Paranapanema S.A.",
      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-PMAM3/",
-     "price": "R$0.16",
-     "chg": "+6.67%",
-     "vol": "6.38M"
+     "price": "R$0.18",
+     "chg": "+5.88%",
+     "vol": "218.6K"
     },
     {
-     "name": "Allianca Saude e Participacoes SA - ALLIAR",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AALR3/",
-     "price": "R$3.15",
-     "chg": "+6.42%",
-     "vol": "34K"
+     "name": "Azevedo & Travassos SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AZEV3/",
+     "price": "R$7.18",
+     "chg": "+5.59%",
+     "vol": "149.8K"
     },
     {
-     "name": "Ambipar Participacoes e Empreendimentos SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AMBP3/",
-     "price": "R$0.17",
-     "chg": "+6.25%",
-     "vol": "10.73M"
+     "name": "FASA S.A.",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-FASA3/",
+     "price": "R$0.210",
+     "chg": "+5.00%",
+     "vol": "3K"
     },
     {
-     "name": "Haga SA Industria e Comercio",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-HAGA3/",
-     "price": "R$2.78",
-     "chg": "+6.11%",
-     "vol": "12.5K"
+     "name": "Fertilizantes Heringer S.A.",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-FHER3/",
+     "price": "R$3.17",
+     "chg": "+3.93%",
+     "vol": "300"
     },
     {
-     "name": "Grupo Toky SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-TOKY3/",
-     "price": "R$8.250",
-     "chg": "+5.77%",
-     "vol": "8.5K"
+     "name": "Banestes S.A. - Banco do Estado do Espirito Santo",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-BEES3/",
+     "price": "R$9.00",
+     "chg": "+3.45%",
+     "vol": "1.1K"
     },
     {
-     "name": "Joao Fortes Engenharia S.A.",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-JFEN3/",
-     "price": "R$0.43",
-     "chg": "+4.88%",
-     "vol": "25.5K"
+     "name": "Equatorial Para Distribuidora de Energia SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-EQPA3/",
+     "price": "R$5.74",
+     "chg": "+3.24%",
+     "vol": "200"
+    },
+    {
+     "name": "Dotz SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-DOTZ3/",
+     "price": "R$11.490",
+     "chg": "+3.14%",
+     "vol": "300"
+    },
+    {
+     "name": "Automob Participacoes S.A",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AMOB3/",
+     "price": "R$12.260",
+     "chg": "+2.25%",
+     "vol": "700"
+    },
+    {
+     "name": "Motiva Infraestrutura de Mobilidade SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-MOTV3/",
+     "price": "R$16.04",
+     "chg": "+2.23%",
+     "vol": "109.3K"
     }
    ],
    "losers": [
     {
-     "name": "Azevedo & Travassos SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AZEV3/",
-     "price": "R$4.11",
-     "chg": "-49.94%",
-     "vol": "2.44M"
+     "name": "Recrusul SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-RCSL3/",
+     "price": "R$0.37",
+     "chg": "-5.13%",
+     "vol": "10.2K"
     },
     {
-     "name": "Azevedo & Travassos Energia S.A",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AZTE3/",
-     "price": "R$1.310",
-     "chg": "-14.94%",
-     "vol": "2.14M"
+     "name": "Banco BTG Pactual SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-BPAC3/",
+     "price": "R$22.05",
+     "chg": "-2.86%",
+     "vol": "200"
     },
     {
-     "name": "PDG Realty SA Empreendimentos e Participacoes",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-PDGR3/",
-     "price": "R$1.15",
-     "chg": "-11.54%",
-     "vol": "194.7K"
+     "name": "CM Hospitalar SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-VVEO3/",
+     "price": "R$0.730",
+     "chg": "-2.67%",
+     "vol": "72.4K"
     },
     {
-     "name": "Alphaville SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AVLL3/",
-     "price": "R$7.000",
-     "chg": "-8.97%",
-     "vol": "2K"
+     "name": "Hospital Mater Dei SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-MATD3/",
+     "price": "R$4.86",
+     "chg": "-2.21%",
+     "vol": "1.2K"
     },
     {
-     "name": "Oncoclinicas do Brasil Servicos Medicos S.A.",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-ONCO11/",
-     "price": "R$0.320",
-     "chg": "-8.57%",
-     "vol": "3.44M"
+     "name": "Embpar Participacoes SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-EPAR3/",
+     "price": "R$1.330",
+     "chg": "-2.21%",
+     "vol": "200"
     },
     {
-     "name": "Telecomunicacoes Brasileiras SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-TELB3/",
-     "price": "R$16.44",
-     "chg": "-8.11%",
-     "vol": "9.9K"
+     "name": "CPV Energia Fundo De Investimento Imobiliario Responsabilidade Limitada",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-RENV11/",
+     "price": "R$5.76",
+     "chg": "-2.04%",
+     "vol": "348"
     },
     {
-     "name": "Inepar SA Industria e Construcoes",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-INEP3/",
-     "price": "R$1.39",
-     "chg": "-6.71%",
-     "vol": "32.7K"
+     "name": "Banco PINE S.A.",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-PINE3/",
+     "price": "R$10.60",
+     "chg": "-2.03%",
+     "vol": "200"
     },
     {
-     "name": "Meliuz SA",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-CASH3/",
-     "price": "R$5.530",
-     "chg": "-6.43%",
-     "vol": "1.6M"
+     "name": "Randoncorp S.A.",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-RAPT3/",
+     "price": "R$8.47",
+     "chg": "-1.63%",
+     "vol": "800"
     },
     {
-     "name": "Diagnosticos da America S.A.",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-DASA3/",
-     "price": "R$2.50",
-     "chg": "-5.66%",
-     "vol": "1.14M"
+     "name": "Viver Incorporadora e Construtora S.A.",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-VIVR3/",
+     "price": "R$1.48",
+     "chg": "-1.33%",
+     "vol": "3.9K"
     },
     {
-     "name": "Oranjebtc SA Educacao e Investimento",
-     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-OBTC3/",
-     "price": "R$7.110",
-     "chg": "-5.58%",
-     "vol": "462.2K"
+     "name": "Alpargatas SA",
+     "url": "https://www.tradingview.com/symbols/BMFBOVESPA-ALPA3/",
+     "price": "R$9.94",
+     "chg": "-1.29%",
+     "vol": "2.4K"
     }
    ]
   }

@@ -5,6 +5,27 @@ Notable changes to the Market Wrap Up **Morning Edition** project.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Dates are
 Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
+## [2026-09-02]
+
+### Added
+
+- A test suite covering the pipeline end to end: 229 tests over feed parsing, the shared
+  news lookup, market and commodity fetching, performer scraping, the build helpers and the
+  delivery step. No network access — every fetcher runs against injected feeds and stubbed
+  HTTP — so the suite completes offline in well under a second. Run it with `./run_tests.sh`.
+- Whole-page invariants in `tests/test_integrity.py`, enforcing the standing rules rather
+  than unit behaviour: every data point resolves to a working link, the rate and index grids
+  hold 24 cells, gainers and losers point the right way, and no section carries prose that
+  has stopped tracking the data. It reads the last build and skips when none exists.
+
+### Fixed
+
+- Atom feeds using single-quoted `href` attributes parsed as empty. Valid XML, but the link
+  pattern matched double quotes only, so such a feed produced no headlines rather than an
+  error.
+- A change rendered with a Unicode minus was coloured as unchanged instead of a loss.
+  TradingView writes U+2212, not a hyphen, so the value reached the page uncoloured.
+
 ## [2026-08-31]
 
 ### Added
