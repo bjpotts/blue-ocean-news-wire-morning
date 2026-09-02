@@ -12,11 +12,10 @@ Sources
 """
 import json, os, re, sys, time
 import html as H
-import urllib.parse
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+
+from newsfeed import is_noise, news_items
 
 import requests
 
@@ -252,54 +251,6 @@ _CORP_SUFFIX = {"limited", "ltd", "ltda", "inc", "corp", "corporation", "plc",
                 "holdings", "holding", "group", "kgaa", "se", "spa", "ab",
                 "asa", "oyj", "bhd", "pte", "pty", "the", "and"}
 
-# Quote, chart and screener pages rank well for a company name but report
-# nothing. Citing one as the reason a stock moved would be misleading, so they
-# are rejected outright rather than used as a weak catalyst.
-_NOISE_TITLE = re.compile(
-    r"(\u682a\u4fa1\u30c1\u30e3\u30fc\u30c8|\u63b2\u793a\u677f|\u6d41\u52a8\u6bd4\u7387"
-    r"|\u884c\u60c5|\u5be6\u6642\u5831\u50f9"
-    r"|stock price and chart|price and chart|chart-analyse|technische analyse"
-    r"|aktienkurs|kursziel|chart\s*\||\bquote\b|cota\u00e7\u00f5es"
-    r"|share price history|dividend history)", re.I)
-
-_NOISE_PUBLISHER = {"tradingview", "moomoo", "wallmine", "investing.com",
-                    "marketscreener", "simply wall st", "stockinvest.us",
-                    "yahoo!\u30d5\u30a1\u30a4\u30ca\u30f3\u30b9"}
-
-
-def _news_items(query, gl, ceid):
-    """Recent press for a query, newest first. Returns [] rather than raising."""
-    url = ("https://news.google.com/rss/search?q=%s&hl=en-%s&gl=%s&ceid=%s"
-           % (urllib.parse.quote(query), gl, gl, ceid))
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        root = ET.fromstring(resp.content)
-    except Exception:
-        return []
-    out = []
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        if not title or not link:
-            continue
-        try:
-            published = parsedate_to_datetime(item.findtext("pubDate"))
-        except Exception:
-            continue
-        if published.tzinfo is None:
-            published = published.replace(tzinfo=timezone.utc)
-        source = item.find("source")
-        out.append({
-            "title": title,
-            "url": link,
-            "publisher": (source.text or "").strip() if source is not None else "",
-            "published": published,
-        })
-    out.sort(key=lambda x: x["published"], reverse=True)
-    return out
-
-
 def _name_tokens(name):
     """Distinctive words in a company name, for matching against a headline."""
     cleaned = re.sub(r"[^\w\s]", " ", name, flags=re.UNICODE)
@@ -327,12 +278,10 @@ def catalyst(cfg, r, now):
         return None
     cutoff = now - timedelta(days=CATALYST_MAX_AGE_DAYS)
     for query in ('"%s" %s' % (base, hint), "%s %s" % (base, hint)):
-        for item in _news_items(query, gl, ceid):
+        for item in news_items(query, gl, ceid):
             if item["published"] < cutoff:
                 break          # sorted newest first, so the rest are older too
-            if _NOISE_TITLE.search(item["title"]):
-                continue
-            if item["publisher"].strip().lower() in _NOISE_PUBLISHER:
+            if is_noise(item):
                 continue
             if any(t in item["title"].lower() for t in tokens):
                 return item

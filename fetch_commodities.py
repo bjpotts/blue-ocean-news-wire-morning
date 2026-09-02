@@ -3,9 +3,11 @@
 Falls back to tradingeconomics.com meta descriptions for most items and
 Kitco for precious-metals cross-checks. Rare earths uses MP Materials as a proxy.
 """
-import json, os, re, sys
-from datetime import datetime
+import json, os, re, sys, time
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+
+from newsfeed import is_noise, news_items
 
 import requests
 
@@ -67,16 +69,18 @@ def _parse_tradingeconomics(slug):
                 desc,
             )
             if pm:
-                name, direction, price, _unit, _date = pm.groups()
-                return {"price": price.replace(",", ""), "chg": "0.00%"}
+                name, direction, price, _unit, date_txt = pm.groups()
+                return {"price": price.replace(",", ""), "chg": "0.00%",
+                        "asof": _parse_desc_date(date_txt)}
             return None
-        name, direction, price, _unit, _date, chg_dir, chg_val = pm.groups()
+        name, direction, price, _unit, date_txt, chg_dir, chg_val = pm.groups()
         if direction == "traded flat":
             chg = "0.00%"
         else:
             sign = "+" if chg_dir == "up" else "-"
             chg = f"{sign}{chg_val}%"
-        return {"price": price.replace(",", ""), "chg": chg}
+        return {"price": price.replace(",", ""), "chg": chg,
+                "asof": _parse_desc_date(date_txt)}
     except Exception as exc:
         print(f"WARN: tradingeconomics fetch failed for {slug}: {exc}", file=sys.stderr)
         return None
@@ -120,23 +124,180 @@ def _mp_materials_proxy():
     return None
 
 
-def _stale_flag(commodity):
-    """Mark commodity as stale if the tradingeconomics description date is not today/yesterday."""
-    return None  # determined by caller based on desc date if needed; keep simple for now
+# A quote more than one day behind the run is disclosed to the reader. Several
+# of these contracts (cobalt, uranium, Newcastle coal) are fixed weekly or
+# monthly rather than traded continuously, so a flat print is normal - but the
+# page should say so instead of implying it is a live daily move.
+STALE_AFTER_DAYS = 1
+
+
+def _parse_desc_date(date_txt):
+    """The quote date from a tradingeconomics description, as ISO or None."""
+    if not date_txt:
+        return None
+    m = re.search(r"([A-Z][a-z]+)\s+(\d{1,2}),\s*(\d{4})", date_txt)
+    if not m:
+        return None
+    try:
+        return datetime.strptime(" ".join(m.groups()), "%B %d %Y").date().isoformat()
+    except ValueError:
+        return None
+
+
+def _stale_flag(asof, today):
+    """Flag a commodity whose source quote has not refreshed past the prior day."""
+    if not asof:
+        return None
+    try:
+        quoted = datetime.strptime(asof, "%Y-%m-%d").date()
+    except ValueError:
+        return None
+    return "stale" if (today - quoted).days > STALE_AFTER_DAYS else None
+
+
+# The grid's families, used to describe the complex a row at a time rather than
+# listing 24 prices back at the reader.
+FAMILIES = [
+    ("energy", "was",
+     ["Petroleum (WTI)", "Brent Crude", "Natural Gas", "Coal (Newcastle)"]),
+    ("precious metals", "were",
+     ["Gold", "Silver", "Platinum", "Palladium", "Rhodium"]),
+    ("base metals", "were",
+     ["Copper", "Aluminum", "Nickel", "Zinc", "Lead", "Tin"]),
+    ("bulk and battery materials", "were",
+     ["Iron Ore 62% Fe", "Lithium (carbonate)", "Cobalt", "Uranium (U3O8)",
+      "Rare Earth Elements"]),
+    ("agriculture", "was", ["Wheat", "Corn", "Soybeans", "Sugar"]),
+]
+
+
+def _pct(row):
+    try:
+        return float(row["chg"].replace("%", "").replace("+", ""))
+    except (ValueError, KeyError):
+        return 0.0
+
+
+def _family_clause(label, rows, verb="was"):
+    """One clause describing how a family traded, named after its biggest move."""
+    if not rows:
+        return None
+    up = [r for r in rows if _pct(r) > 0]
+    down = [r for r in rows if _pct(r) < 0]
+    lead = max(rows, key=lambda r: abs(_pct(r)))
+    if not up and not down:
+        return "%s %s unchanged across all %d benchmarks" % (label, verb, len(rows))
+    uniform = len(up) == len(rows) or len(down) == len(rows)
+    if len(up) == len(rows):
+        shape = "%s advanced across the board" % label
+    elif len(down) == len(rows):
+        shape = "%s fell across the board" % label
+    else:
+        shape = "%s %s mixed, %d of %d higher" % (label, verb, len(up), len(rows))
+    if abs(_pct(lead)) < 0.005:
+        return shape
+    # "led by" only reads correctly when the family moved as one. In a mixed
+    # family the biggest move often runs against the majority, so name it
+    # neutrally instead of implying it led an advance.
+    joiner = "led by" if uniform else "the biggest move coming from"
+    return ("%s, %s %s at %s to %s %s"
+            % (shape, joiner, lead["name"], lead["chg"], lead["price"], lead["unit"]))
+
+
+# A market wrap reports movement; a vendor press release ("X expands its
+# commodity offering") matches the same keywords but explains nothing.
+_MOVE_WORDS = re.compile(
+    r"\b(rise|rises|rose|rising|fall|falls|fell|falling|climb|climbs|slip|slips"
+    r"|gain|gains|drop|drops|jump|jumps|plunge|plunges|surge|surges|steady"
+    r"|higher|lower|rally|rallies|retreat|retreats|edge|edges|slide|slides"
+    r"|weaken|weakens|firmer|softer|outlook|forecast)\b", re.I)
+
+
+def _market_article(now):
+    """A real, recent commodities market report to ground the summary."""
+    cutoff = now - timedelta(days=2)
+    best = None
+    for query in ("gold oil copper prices today market wrap",
+                  "commodity prices gold crude oil close",
+                  "commodities market outlook gold oil copper"):
+        for item in news_items(query, "US", "US:en"):
+            if item["published"] < cutoff or is_noise(item):
+                continue
+            if _MOVE_WORDS.search(item["title"]):
+                return item
+            best = best or item      # keep as a fallback if nothing better lands
+        time.sleep(0.5)
+    return best
+
+
+def build_summary(rows, now, article=None):
+    """Rebuild the commodities paragraph from this run's own prices.
+
+    Written fresh every run. When no prices survived the fetch the paragraph
+    says so rather than describing a complex it could not measure.
+    """
+    if not rows:
+        return ("No commodity prices could be retrieved for this session, so "
+                "no summary of the complex is offered rather than publishing "
+                "an unverified one.")
+    by_name = {r["name"]: r for r in rows}
+    clauses = [c for c in
+               (_family_clause(label, [by_name[n] for n in names if n in by_name],
+                               verb)
+                for label, verb, names in FAMILIES) if c]
+    advancers = sum(1 for r in rows if _pct(r) > 0)
+    decliners = sum(1 for r in rows if _pct(r) < 0)
+    if advancers > decliners:
+        tone = "broadly firmer"
+    elif decliners > advancers:
+        tone = "broadly weaker"
+    else:
+        tone = "evenly split"
+    body = "; ".join(clauses)
+    text = ("Commodities were %s in the latest session, with %d of the %d "
+            "tracked benchmarks higher and %d lower. %s."
+            % (tone, advancers, len(rows), decliners,
+               body[:1].upper() + body[1:] if body else ""))
+    biggest = max(rows, key=lambda r: abs(_pct(r)))
+    if abs(_pct(biggest)) >= 0.005:
+        text += (" The largest single move across the complex was %s at %s."
+                 % (biggest["name"], biggest["chg"]))
+    stale = [r["name"] for r in rows if r.get("flag") == "stale"]
+    if stale:
+        text += (" %s %s not refreshed past the prior day's print and %s "
+                 "flagged accordingly, being fixed periodically rather than "
+                 "traded continuously."
+                 % (", ".join(stale), "has" if len(stale) == 1 else "have",
+                    "is" if len(stale) == 1 else "are"))
+    text += (" Rare earths are represented by the MP Materials equity proxy, as "
+             "no reliable daily spot benchmark is published.")
+    if article:
+        text += (" Reported alongside the session, %s on %s:"
+                 % (article["publisher"] or "the trade press",
+                    article["published"].astimezone(SYD).strftime("%d %B %Y")))
+    return text
 
 
 def main():
     now = datetime.now(SYD)
+    today = now.date()
     rows = []
     for name, slug, unit, kitco_url in COMMODITIES:
         if slug == "rare-earths":
             proxy = _mp_materials_proxy()
+            if proxy is None:
+                # Previously fell back to a hardcoded 62.20 at +0.00%, which put
+                # an invented price on the page. Drop the cell instead, exactly
+                # as every other commodity does when its fetch fails.
+                print(f"WARN: could not fetch {name} proxy; dropping the cell",
+                      file=sys.stderr)
+                continue
             rows.append({
                 "name": name,
-                "price": proxy["price"] if proxy else "62.20",
+                "price": proxy["price"],
                 "unit": unit,
-                "chg": proxy["chg"] if proxy else "+0.00%",
-                "url": proxy["url"] if proxy else "https://finance.yahoo.com/quote/MP",
+                "chg": proxy["chg"],
+                "url": proxy["url"],
                 "flag": "proxy",
                 "source": "yahoo-finance-proxy",
             })
@@ -163,24 +324,27 @@ def main():
             "unit": unit,
             "chg": data["chg"],
             "url": f"https://tradingeconomics.com/commodity/{slug}",
-            "flag": _stale_flag(None),
+            "flag": _stale_flag(data.get("asof"), today),
             "source": source,
+            "asof": data.get("asof"),
         })
 
-    # Summary is intentionally left as a short placeholder; the richer narrative
-    # requires a separate research step. The page will show current prices and
-    # a neutral fallback summary so the build is never blocked.
+    article = _market_article(now)
     out = {
         "as_of": now.isoformat(),
-        "summary": "Commodity markets are mixed in the latest session. Energy prices are reacting to supply and demand signals across both the WTI and Brent benchmarks, precious metals are adjusting to rate expectations, and base metals across the LME complex are tracking global manufacturing data. Grains and softs are moving on weather and harvest expectations. Rare earths are represented by the MP Materials equity proxy as no reliable daily spot benchmark is published.",
-        "summary_sources": [{"title": "Trading Economics - Commodities", "url": "https://tradingeconomics.com/commodities"}],
+        "summary": build_summary(rows, now, article),
+        "summary_sources": ([{"title": article["title"], "url": article["url"],
+                              "publisher": article["publisher"]}]
+                            if article else []),
         "commodities": rows,
     }
 
     path = os.path.join(D, "commodities.json")
     with open(path, "w") as f:
         json.dump(out, f, indent=1)
-    print(f"wrote {path} ({len(rows)} commodities)")
+    stale_n = sum(1 for r in rows if r.get("flag") == "stale")
+    print(f"wrote {path} ({len(rows)} commodities, {stale_n} stale, "
+          f"catalyst={'yes' if article else 'none'})")
 
 
 if __name__ == "__main__":

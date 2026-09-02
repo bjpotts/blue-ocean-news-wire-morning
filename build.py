@@ -369,8 +369,8 @@ def table(kind, rows):
     h.append("</tbody></table>")
     return "".join(h)
 
-def mover_note(text, sources):
-    """The explainer paragraph, with its catalyst cited as a working link."""
+def sourced_para(text, sources):
+    """A paragraph with its supporting article cited as a working link."""
     h = E(text)
     if sources:
         s = sources[0]
@@ -387,9 +387,9 @@ def perf_block(m, first=False):
 <div class="perf-col"><p class="mover-note">%s</p>%s</div>
 </div>
 </div>""" % (cls, E(m["title"]), E(m["caption"]),
-             mover_note(m["gainer_note"], m.get("gainer_note_sources")),
+             sourced_para(m["gainer_note"], m.get("gainer_note_sources")),
              table("Gainers", m["gainers"]),
-             mover_note(m["loser_note"], m.get("loser_note_sources")),
+             sourced_para(m["loser_note"], m.get("loser_note_sources")),
              table("Losers", m["losers"]))
 
 order = {}
@@ -584,7 +584,7 @@ HTML = """<div class="pnw">
     "page-break-before" if secs["world_indices"].get("page_break_before") else "",
     E(secs["world_indices"]["heading"]), secs["world_indices"]["caption"] % E(mk.get("indices_asof_label") or mk.get("indices_asof") or "the latest completed session"), grid(idx_cells),
     "page-break-before" if secs["commodities"].get("page_break_before") else "",
-    E(secs["commodities"]["heading"]), E(cm["summary"]), grid(com_cells),
+    E(secs["commodities"]["heading"]), sourced_para(cm["summary"], cm.get("summary_sources")), grid(com_cells),
     "page-break-before" if secs["top_performers"].get("page_break_before") else "",
     E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_html,
     E(secs["capital_raises"]["heading"]), secs["capital_raises"]["caption"], cr_html,
