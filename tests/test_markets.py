@@ -103,8 +103,8 @@ class IndexStaleGuard(unittest.TestCase):
 
 class IndexConfig(unittest.TestCase):
     def test_the_grid_is_the_expected_size(self):
-        """The grid is 4 columns; 24 keeps it six even rows."""
-        self.assertEqual(len(FM.INDICES), 24)
+        """The grid is 4 columns; a lone 9th cell trails the second full row."""
+        self.assertEqual(len(FM.INDICES), 9)
 
     def test_index_symbols_are_unique(self):
         syms = [s for _n, s in FM.INDICES]
@@ -116,15 +116,28 @@ class IndexConfig(unittest.TestCase):
 
     def test_the_required_regions_are_all_represented(self):
         names = " ".join(n for n, _s in FM.INDICES)
-        for expected in ("S&P 500", "FTSE 100", "DAX", "CAC 40", "Nikkei 225",
-                         "S&P/ASX 200", "Hang Seng", "BSE Sensex"):
+        for expected in ("Dow Jones", "S&P 500", "Nasdaq Composite",
+                         "Russell 2000", "S&P/ASX 200", "All Ordinaries",
+                         "FTSE 100", "FTSE 250", "FTSE 350"):
             self.assertIn(expected, names)
 
-    def test_moex_is_routed_to_its_own_fetcher(self):
-        """Yahoo's IMOEX series is frozen, so it must not come from there."""
-        syms = [s for _n, s in FM.INDICES]
-        self.assertIn("IMOEX", syms)
-        self.assertNotIn("IMOEX.ME", syms)
+
+class NarrativeIndexConfig(unittest.TestCase):
+    """Dropped from the 9-cell grid but still fetched so the hand-written
+    Market News paragraph can keep citing them - see the mega-prompt's
+    "genuinely broad world coverage" requirement."""
+
+    def test_no_overlap_with_the_visible_grid(self):
+        grid_syms = {s for _n, s in FM.INDICES}
+        narrative_syms = {s for _n, s in FM.NARRATIVE_INDICES}
+        self.assertEqual(grid_syms & narrative_syms, set())
+
+    def test_the_required_narrative_regions_are_covered(self):
+        names = " ".join(n for n, _s in FM.NARRATIVE_INDICES)
+        for expected in ("DAX", "CAC 40", "Hang Seng", "Nikkei 225", "KOSPI",
+                         "Shanghai Composite", "Ibovespa", "Straits Times",
+                         "BSE Sensex"):
+            self.assertIn(expected, names)
 
 
 if __name__ == "__main__":

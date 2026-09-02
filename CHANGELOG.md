@@ -7,6 +7,18 @@ Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
 ## [2026-09-03]
 
+### Changed
+
+- World Indices grid narrowed from 24 cells to the 9 you asked for: Dow Jones, S&P 500,
+  Nasdaq Composite, Russell 2000, S&P/ASX 200, All Ordinaries, FTSE 100, FTSE 250 and
+  FTSE 350. The 11 indices no longer required by name (TSX, IPC Mexico, FTSE MIB, IBEX 35,
+  Euro Stoxx 50, OMX Stockholm 30, MOEX Russia, DFM General, TAIEX, SET Index, NZX 50) are
+  dropped entirely; DAX, CAC 40, Hang Seng, Nikkei 225, KOSPI, Shanghai Composite, Ibovespa,
+  Straits Times and BSE Sensex move to narrative-only fetching so the Market News paragraph
+  can still cite them per its own "genuinely broad world coverage" brief, without taking a
+  grid cell. FTSE 250/350 have no working Yahoo Finance quote page (confirmed 404), so both
+  link to Google Finance instead, verified live before wiring in.
+
 ### Fixed
 
 - The Capital Raises & New Listings summary paragraph for ANZ, UK and Rest was permanently
