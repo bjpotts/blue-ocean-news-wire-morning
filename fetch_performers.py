@@ -8,10 +8,14 @@ Sources
   ANZ / Japan / Singapore / Hong Kong / China / UK / Germany / Brazil
       TradingView country market-movers pages (HTML scrape).
   US  finance.yahoo.com/gainers and /losers (HTML scrape).
+  Mover explainers  Google News RSS, queried per region in the local language.
 """
 import json, os, re, sys, time
 import html as H
-from datetime import datetime
+import urllib.parse
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from zoneinfo import ZoneInfo
 
 import requests
@@ -222,8 +226,122 @@ def row_out(cfg, r):
     }
 
 
-def note(cfg, r, kind):
-    """Data-grounded explainer for a region's single biggest mover."""
+# Google News locale per region, so a Frankfurt or B3 mover is researched in the
+# language its local press actually reports in. A German small cap is covered by
+# German outlets, not English ones, and searching in English finds nothing.
+NEWS_LOCALE = {
+    "anz":       ("AU", "AU:en",      "ASX shares"),
+    "japan":     ("JP", "JP:ja",      "\u682a\u4fa1"),
+    "singapore": ("SG", "SG:en",      "SGX shares"),
+    "hongkong":  ("HK", "HK:zh-Hant", "\u80a1\u50f9"),
+    "china":     ("HK", "HK:zh-Hant", "\u80a1\u4ef7"),
+    "us":        ("US", "US:en",      "stock"),
+    "uk":        ("GB", "GB:en",      "shares"),
+    "germany":   ("DE", "DE:de",      "Aktie"),
+    "brazil":    ("BR", "BR:pt-419",  "a\u00e7\u00f5es"),
+}
+
+# A catalyst has to sit near the session to explain it. Four days covers a
+# Monday move driven by news released over the weekend without reaching back to
+# unrelated older coverage.
+CATALYST_MAX_AGE_DAYS = 4
+
+# Dropped when matching a headline to a company, since they carry no signal.
+_CORP_SUFFIX = {"limited", "ltd", "ltda", "inc", "corp", "corporation", "plc",
+                "ag", "sa", "s.a.", "nv", "n.v.", "co", "co.", "company",
+                "holdings", "holding", "group", "kgaa", "se", "spa", "ab",
+                "asa", "oyj", "bhd", "pte", "pty", "the", "and"}
+
+# Quote, chart and screener pages rank well for a company name but report
+# nothing. Citing one as the reason a stock moved would be misleading, so they
+# are rejected outright rather than used as a weak catalyst.
+_NOISE_TITLE = re.compile(
+    r"(\u682a\u4fa1\u30c1\u30e3\u30fc\u30c8|\u63b2\u793a\u677f|\u6d41\u52a8\u6bd4\u7387"
+    r"|\u884c\u60c5|\u5be6\u6642\u5831\u50f9"
+    r"|stock price and chart|price and chart|chart-analyse|technische analyse"
+    r"|aktienkurs|kursziel|chart\s*\||\bquote\b|cota\u00e7\u00f5es"
+    r"|share price history|dividend history)", re.I)
+
+_NOISE_PUBLISHER = {"tradingview", "moomoo", "wallmine", "investing.com",
+                    "marketscreener", "simply wall st", "stockinvest.us",
+                    "yahoo!\u30d5\u30a1\u30a4\u30ca\u30f3\u30b9"}
+
+
+def _news_items(query, gl, ceid):
+    """Recent press for a query, newest first. Returns [] rather than raising."""
+    url = ("https://news.google.com/rss/search?q=%s&hl=en-%s&gl=%s&ceid=%s"
+           % (urllib.parse.quote(query), gl, gl, ceid))
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+    except Exception:
+        return []
+    out = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        try:
+            published = parsedate_to_datetime(item.findtext("pubDate"))
+        except Exception:
+            continue
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+        source = item.find("source")
+        out.append({
+            "title": title,
+            "url": link,
+            "publisher": (source.text or "").strip() if source is not None else "",
+            "published": published,
+        })
+    out.sort(key=lambda x: x["published"], reverse=True)
+    return out
+
+
+def _name_tokens(name):
+    """Distinctive words in a company name, for matching against a headline."""
+    cleaned = re.sub(r"[^\w\s]", " ", name, flags=re.UNICODE)
+    tokens = [t for t in cleaned.lower().split()
+              if len(t) >= 4 and t not in _CORP_SUFFIX]
+    # CJK names do not split on spaces, so fall back to the leading characters.
+    if not tokens and len(name.strip()) >= 2:
+        tokens = [name.strip()[:4].lower()]
+    return tokens
+
+
+def catalyst(cfg, r, now):
+    """Find a genuine, recent, on-topic article explaining a mover.
+
+    Returns None when nothing qualifies. That is a real answer: thin micro-caps
+    frequently move with no reported reason, and inventing one would be worse
+    than saying so.
+    """
+    if r is None:
+        return None
+    gl, ceid, hint = NEWS_LOCALE.get(cfg["key"], ("US", "US:en", "stock"))
+    base = re.sub(r"\s*\([^)]*\)\s*$", "", r["name"]).strip()
+    tokens = _name_tokens(base)
+    if not tokens:
+        return None
+    cutoff = now - timedelta(days=CATALYST_MAX_AGE_DAYS)
+    for query in ('"%s" %s' % (base, hint), "%s %s" % (base, hint)):
+        for item in _news_items(query, gl, ceid):
+            if item["published"] < cutoff:
+                break          # sorted newest first, so the rest are older too
+            if _NOISE_TITLE.search(item["title"]):
+                continue
+            if item["publisher"].strip().lower() in _NOISE_PUBLISHER:
+                continue
+            if any(t in item["title"].lower() for t in tokens):
+                return item
+        time.sleep(0.5)
+    return None
+
+
+def note(cfg, r, kind, hit):
+    """Explainer for a region's biggest mover, rebuilt from this run's data."""
     if r is None:
         return ("No %s could be retrieved from %s for this session, so no "
                 "explainer is offered rather than publishing an unverified one."
@@ -231,15 +349,30 @@ def note(cfg, r, kind):
     verb = "led" if kind == "gainer" else "was the steepest decliner on"
     direction = "up" if kind == "gainer" else "down"
     vol = (" on reported volume of %s shares" % r["vol"]) if r["vol"] else ""
-    return (
-        "%s %s the %s board for the session, %s %.2f per cent to %s%s. "
-        "The move is reported here as captured from %s at the time of this "
-        "build; no company announcement has been independently verified for it, "
-        "so no catalyst is asserted. Readers should treat the move as the "
-        "market print rather than an explained event."
+    opening = (
+        "%s %s the %s board for the session, %s %.2f per cent to %s%s."
         % (r["name"], verb, cfg["title"].split(" Top")[0], direction,
-           abs(r["pct"]), cfg["price"].format(v=r["price"]), vol, cfg["source"])
-    )
+           abs(r["pct"]), cfg["price"].format(v=r["price"]), vol))
+    if hit:
+        return ("%s Reported alongside the move, %s on %s:"
+                % (opening, hit["publisher"] or "the local press",
+                   hit["published"].astimezone(SYD).strftime("%d %B %Y")))
+    return ("%s The move is reported here as captured from %s at the time of "
+            "this build. No company announcement covering it could be found in "
+            "the local press, so no catalyst is asserted - a common outcome for "
+            "a thinly traded stock." % (opening, cfg["source"]))
+
+
+def _source_out(hit):
+    """Serialise a catalyst hit for the builder, or [] when there was none."""
+    if not hit:
+        return []
+    return [{
+        "title": hit["title"],
+        "url": hit["url"],
+        "publisher": hit["publisher"],
+        "published": hit["published"].astimezone(SYD).isoformat(timespec="seconds"),
+    }]
 
 
 def caption(cfg, stamp):
@@ -434,20 +567,25 @@ def main():
             failures.append((cfg["key"], reason))
             continue
 
+        g_hit = catalyst(cfg, gainers[0] if gainers else None, now)
+        l_hit = catalyst(cfg, losers[0] if losers else None, now)
+
         buckets[cfg["file"]].append({
             "key": cfg["key"],
             "title": cfg["title"],
             "caption": caption(cfg, stamp),
             "fetched": iso,
             "stale": False,
-            "gainer_note": note(cfg, gainers[0] if gainers else None, "gainer"),
-            "gainer_note_sources": [],
-            "loser_note": note(cfg, losers[0] if losers else None, "loser"),
-            "loser_note_sources": [],
+            "gainer_note": note(cfg, gainers[0] if gainers else None, "gainer", g_hit),
+            "gainer_note_sources": _source_out(g_hit),
+            "loser_note": note(cfg, losers[0] if losers else None, "loser", l_hit),
+            "loser_note_sources": _source_out(l_hit),
             "gainers": [row_out(cfg, r) for r in gainers],
             "losers": [row_out(cfg, r) for r in losers],
         })
-        print("  %-10s gainers=%d losers=%d" % (cfg["key"], len(gainers), len(losers)))
+        print("  %-10s gainers=%d losers=%d catalyst: gainer=%s loser=%s"
+              % (cfg["key"], len(gainers), len(losers),
+                 "yes" if g_hit else "none", "yes" if l_hit else "none"))
         time.sleep(1)
 
     order = {"a": ["anz", "japan", "singapore", "hongkong"],

@@ -369,6 +369,14 @@ def table(kind, rows):
     h.append("</tbody></table>")
     return "".join(h)
 
+def mover_note(text, sources):
+    """The explainer paragraph, with its catalyst cited as a working link."""
+    h = E(text)
+    if sources:
+        s = sources[0]
+        h += ' <a href="%s">%s</a>.' % (E(s["url"]), E(s["title"]))
+    return h
+
 def perf_block(m, first=False):
     cls = "perf-block" if first else "perf-block page-break-before"
     return """<div class="%s">
@@ -378,8 +386,11 @@ def perf_block(m, first=False):
 <div class="perf-col"><p class="mover-note">%s</p>%s</div>
 <div class="perf-col"><p class="mover-note">%s</p>%s</div>
 </div>
-</div>""" % (cls, E(m["title"]), E(m["caption"]), E(m["gainer_note"]), table("Gainers", m["gainers"]),
-             E(m["loser_note"]), table("Losers", m["losers"]))
+</div>""" % (cls, E(m["title"]), E(m["caption"]),
+             mover_note(m["gainer_note"], m.get("gainer_note_sources")),
+             table("Gainers", m["gainers"]),
+             mover_note(m["loser_note"], m.get("loser_note_sources")),
+             table("Losers", m["losers"]))
 
 order = {}
 for src in (pa, pb, pc):
