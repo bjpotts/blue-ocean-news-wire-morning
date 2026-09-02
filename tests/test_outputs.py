@@ -51,6 +51,61 @@ class CapitalRaiseSummaries(unittest.TestCase):
             text = CR.summarise("Asia", [self.item("x")] * n)
             self.assertIn("Asia", text)
 
+    def test_a_fully_repeated_region_says_so_honestly(self):
+        """This is the guard against a region silently freezing on the same
+        headline run after run: if nothing fresh was found, say so."""
+        text = CR.summarise("ANZ", [self.item("Old news")], fresh_count=0)
+        self.assertIn("No newer capital markets item", text)
+
+    def test_a_partly_fresh_region_carries_no_stale_note(self):
+        text = CR.summarise("ANZ", [self.item("New"), self.item("Old")],
+                            fresh_count=1)
+        self.assertNotIn("No newer capital markets item", text)
+
+    def test_fresh_count_defaults_to_no_stale_note(self):
+        """Existing callers that don't pass fresh_count must see unchanged
+        behaviour."""
+        text = CR.summarise("ANZ", [self.item("Item")])
+        self.assertNotIn("No newer capital markets item", text)
+
+
+class CapitalRaiseRotation(unittest.TestCase):
+    """A region must prefer a fresh headline over repeating what the last
+    edition already carried, and fall back to a repeat only when nothing
+    fresh exists - see fetch_capraises.main()."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.path = os.path.join(self.tmp, "capraises.json")
+
+    def write_prev(self, regions):
+        import json
+        with open(self.path, "w") as f:
+            json.dump({"regions": regions}, f)
+
+    def test_missing_file_yields_no_prior_urls(self):
+        self.assertEqual(CR._load_prev_urls(self.path), {})
+
+    def test_corrupt_file_yields_no_prior_urls_rather_than_raising(self):
+        with open(self.path, "w") as f:
+            f.write("{not json")
+        self.assertEqual(CR._load_prev_urls(self.path), {})
+
+    def test_prior_urls_are_read_per_region(self):
+        self.write_prev([
+            {"key": "anz", "items": [{"url": "https://x.com/a"},
+                                     {"url": "https://x.com/b"}]},
+            {"key": "us", "items": [{"url": "https://x.com/c"}]},
+        ])
+        prev = CR._load_prev_urls(self.path)
+        self.assertEqual(prev["anz"], {"https://x.com/a", "https://x.com/b"})
+        self.assertEqual(prev["us"], {"https://x.com/c"})
+
+    def test_a_region_absent_from_the_prior_file_has_no_prior_urls(self):
+        self.write_prev([{"key": "anz", "items": [{"url": "https://x.com/a"}]}])
+        prev = CR._load_prev_urls(self.path)
+        self.assertNotIn("uk", prev)
+
 
 class PdfNaming(unittest.TestCase):
     """The scheduler and the email step agree on this filename shape."""

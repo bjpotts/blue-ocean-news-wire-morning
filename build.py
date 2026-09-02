@@ -172,7 +172,10 @@ def _apply_dedup_rules(rules):
         for drop in rule.get("drop", []):
             region["items"] = _drop(region["items"], drop)
         region["items"] += bf.get(f"{region_key}_items", [])
-        region["summary"] = bf.get("summaries", {}).get(region_key, region["summary"])
+        # Summaries are not backfilled: fetch_capraises.py regenerates one every
+        # run from that run's own items, and a hardcoded override here would
+        # silently freeze the paragraph forever (it did - see CHANGELOG) and
+        # can drift out of sync with a since-emptied items list.
 
     for code_key, rule in rules.get("sport", {}).items():
         code = next((c for c in sp["codes"] if c["key"] == code_key), None)

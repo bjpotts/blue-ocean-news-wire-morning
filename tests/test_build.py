@@ -194,6 +194,44 @@ class StripMarkdown(unittest.TestCase):
         self.assertEqual(node["headline"], "Plain")
 
 
+class CapitalRaiseSummaryIsNeverBackfilled(unittest.TestCase):
+    """A hardcoded backfill.json summary once permanently overrode the fresh
+    per-run summary for anz/uk/rest, freezing the paragraph under those
+    regions' headings forever and letting it drift out of sync with an
+    since-emptied items list. _apply_dedup_rules must never read
+    bf["summaries"] again."""
+
+    def setUp(self):
+        self.B = load_from_source(
+            "build.py", ["_apply_dedup_rules", "_region", "_drop", "_extend"])
+
+    def run_rules(self, cr, bf, dedup_rules):
+        self.B["cr"] = cr
+        self.B["bf"] = bf
+        self.B["_apply_dedup_rules"](dedup_rules)
+
+    def test_a_freshly_generated_summary_survives_dedup_rules(self):
+        cr = {"regions": [{"key": "anz", "name": "ANZ",
+                           "summary": "This run's fresh summary", "items": []}]}
+        bf = {"summaries": {"anz": "Old hardcoded summary from a past edition"}}
+        self.run_rules(cr, bf, {"capital_raises": {"anz": {}}})
+        self.assertEqual(cr["regions"][0]["summary"], "This run's fresh summary")
+
+    def test_the_source_no_longer_reads_a_backfilled_summary(self):
+        src = source_of("build.py")
+        self.assertNotIn('bf.get("summaries"', src)
+
+    def test_the_shipped_backfill_file_carries_no_stale_summaries(self):
+        """Guards against someone re-adding a permanent-override paragraph to
+        data/backfill.json now that the code no longer reads it."""
+        import json
+        path = os.path.join(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__))), "data", "backfill.json")
+        with open(path) as f:
+            bf = json.load(f)
+        self.assertFalse(bf.get("summaries"))
+
+
 class FreshnessGuardConfig(unittest.TestCase):
     """The guard is the reason a stale digest cannot be published silently."""
 

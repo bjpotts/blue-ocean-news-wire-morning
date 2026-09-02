@@ -5,6 +5,28 @@ Notable changes to the Market Wrap Up **Morning Edition** project.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Dates are
 Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
+## [2026-09-03]
+
+### Fixed
+
+- The Capital Raises & New Listings summary paragraph for ANZ, UK and Rest was permanently
+  pinned to one hand-written paragraph from `data/backfill.json`, dated 26 August. Every
+  build overwrote that run's freshly generated summary with the same fixed text, so the
+  paragraph never changed no matter how many times the report ran — and for Rest it had
+  drifted out of sync with the (now empty) item list, describing Indian IPO activity
+  directly above a line saying no items were found. `build.py` no longer reads a backfilled
+  summary; `fetch_capraises.py`'s own per-run summary is used every time.
+- A region's Capital Raises items could also resurface the exact same headline run after
+  run whenever nothing fresher happened to be published in the fetch window. Item selection
+  now prefers anything not shown in the previous run over a repeat, and the summary says so
+  plainly ("no newer item since the last edition") on the runs where a repeat is genuinely
+  unavoidable rather than implying fresh activity.
+
+### Added
+
+- The Market Herald as a third ANZ Capital Raises source, widening the pool of candidate
+  headlines behind the rotation above.
+
 ## [2026-09-02]
 
 ### Added

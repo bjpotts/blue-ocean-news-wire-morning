@@ -33,6 +33,8 @@ REGIONS = [
     ("anz", "ANZ", 4, [
         ("Stockhead", "https://stockhead.com.au/feed/", r"stockhead\.com\.au"),
         ("Small Caps", "https://smallcaps.com.au/feed", r"smallcaps\.com\.au"),
+        ("The Market Herald", "https://themarketherald.com.au/feed/",
+         r"themarket(?:herald|online)\.com\.au"),
     ]),
     ("asia", "Asia (Japan/Singapore/Hong Kong/China)", 4, [
         ("South China Morning Post", "https://www.scmp.com/rss/92/feed", r"scmp\.com"),
@@ -66,52 +68,78 @@ REGIONS = [
 WINDOW_DAYS = 10
 
 
-def summarise(name, items):
+def summarise(name, items, fresh_count=None):
     if not items:
         return ("No capital raising or new listing activity could be verified from "
                 "a linked source for %s this run, so nothing is listed rather than "
                 "publishing an item without a working URL." % name)
     lead = items[0]["headline"]
+    # No fresh linked source turned up anything past what the last edition
+    # already carried - say so plainly rather than implying new activity.
+    stale_note = (" No newer capital markets item has been reported for %s "
+                  "since the last edition, so the same verified item(s) are "
+                  "carried forward." % name) if fresh_count == 0 else ""
     if len(items) == 1:
         return ("A single verifiable equity capital markets item was found for %s "
-                "this run: %s" % (name, lead))
+                "this run: %s.%s" % (name, lead, stale_note))
     return ("%s equity capital markets activity captured this run runs to %d items, "
             "led by %s. The remaining items cover the rest of the region's placement, "
-            "offering and new listing flow as reported by the linked sources."
-            % (name, len(items), lead))
+            "offering and new listing flow as reported by the linked sources.%s"
+            % (name, len(items), lead, stale_note))
+
+
+def _load_prev_urls(path):
+    """URLs shown per region in the last run, so a region doesn't keep
+    resurfacing the same headline once a fresher match becomes available."""
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path) as f:
+            prev = json.load(f)
+    except (ValueError, OSError):
+        return {}
+    return {r["key"]: {it["url"] for it in r.get("items", [])}
+            for r in prev.get("regions", [])}
 
 
 def main():
     seen_urls, seen_titles = set(), set()
     regions = []
     empty = []
+    prev_urls = _load_prev_urls(os.path.join(D, "capraises.json"))
 
     for key, name, count, sources in REGIONS:
-        picked = []
+        candidates = []
         for outlet, rss, filt in sources:
-            if len(picked) >= count:
-                break
             xml = fetch(rss)
             items = recent(parse_feed(xml, link_must_match=filt), max_days=WINDOW_DAYS)
             hits = [i for i in items
                     if KEYWORDS.search(i["title"] + " " + i["detail"])
                     and not EXCLUDE.search(i["title"])]
             for it in dedupe(hits, seen_urls, seen_titles):
-                picked.append({
+                candidates.append({
                     "headline": it["title"],
                     "detail": trim(it["detail"]) or it["title"],
                     "url": it["url"],
                     "outlet": outlet,
                     **provenance(it, rss),
                 })
-                if len(picked) >= count:
-                    break
 
-        print("  %-46s %d items" % (name, len(picked)))
+        # Prefer anything not shown last run; only fall back to a repeat
+        # headline if there simply aren't enough fresh matches to fill count.
+        prior = prev_urls.get(key, set())
+        fresh = [c for c in candidates if c["url"] not in prior]
+        repeat = [c for c in candidates if c["url"] in prior]
+        picked = (fresh + repeat)[:count]
+
+        print("  %-46s %d items (%d fresh, %d repeated from last run)"
+              % (name, len(picked), min(len(fresh), len(picked)),
+                 max(0, len(picked) - len(fresh))))
         if not picked:
             empty.append(name)
         regions.append({"key": key, "name": name,
-                        "summary": summarise(name, picked), "items": picked})
+                        "summary": summarise(name, picked, min(len(fresh), len(picked))),
+                        "items": picked})
 
     with open(os.path.join(D, "capraises.json"), "w") as f:
         json.dump({"regions": regions}, f, indent=1, ensure_ascii=False)
