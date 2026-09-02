@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build the condensed 1-page snapshot PDF (standard Helvetica, no embedded fonts)."""
-import json, html, os, base64
+import json, html, os, base64, re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from reportlab.lib.pagesizes import A4
@@ -13,8 +13,19 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 
 _now = datetime.now(ZoneInfo("Australia/Sydney"))
 _hr = _now.hour
-EDITION = "Morning Edition" if 4 <= _hr < 16 else "Evening Edition"
-AMPM = "am" if EDITION == "Morning Edition" else "pm"
+_PREVIEW = os.path.join(BASE, "preview.html")
+_auto_edition = "Morning Edition" if 4 <= _hr < 16 else "Evening Edition"
+if os.path.exists(_PREVIEW):
+    # build.py bakes the actual edition (honouring EDITION_OVERRIDE) into the
+    # chip. Reading it back keeps this filename in step with the page's own
+    # masthead instead of re-deriving it from the wall clock, which mislabels
+    # a manual/out-of-window run.
+    _m = re.search(r'<span class="edition-chip">([^<]+)</span>',
+                   open(_PREVIEW).read())
+    EDITION = _m.group(1) if _m else _auto_edition
+else:
+    EDITION = os.environ.get("EDITION_OVERRIDE", "").strip() or _auto_edition
+AMPM = "am" if "morning" in EDITION.lower() else "pm"
 DATE = _now.strftime("%Y-%m-%d")
 _DATELINE_DATE = _now.strftime("%A %d %B %Y")
 _DATELINE_TIME = _now.strftime("%H:%M AEST")

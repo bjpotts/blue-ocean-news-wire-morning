@@ -3,16 +3,16 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: After launching strikes, US warns of escalation if Iran responds; LIVE: ABC News Live; Bank of America worker killed in 'unprovoked' Times Square stabbing identified.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Tiger Woods changes plea in DUI case, driver's license suspended for 5 years; LIVE: ABC News Live; 'Dancing with the Stars' season 35: Meet the celebrity cast.",
   "note": null,
   "items": [
    {
-    "headline": "Iran live updates: After launching strikes, US warns of escalation if Iran responds",
-    "detail": "The Strait of Hormuz remains the primary flashpoint in the conflict.",
-    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
+    "headline": "Tiger Woods changes plea in DUI case, driver's license suspended for 5 years",
+    "detail": "Tiger Woods appeared in court in Florida Wednesday to change his plea in his driving under the influence case.",
+    "url": "https://abcnews.go.com/US/tiger-woods-plea-dui-case-drivers-license-suspended/story?id=136125302",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-01T17:44:13-04:00",
-    "fetched": "2026-09-01T22:01:24+00:00"
+    "published": "2026-09-02T09:21:40-04:00",
+    "fetched": "2026-09-02T13:51:35+00:00"
    },
    {
     "headline": "LIVE: ABC News Live",
@@ -20,31 +20,31 @@
     "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
     "published": "2026-09-01T10:18:43-04:00",
-    "fetched": "2026-09-01T22:01:24+00:00"
+    "fetched": "2026-09-02T13:51:35+00:00"
    },
    {
-    "headline": "Bank of America worker killed in 'unprovoked' Times Square stabbing identified",
-    "detail": "The stabbings occurred at 42nd Street and Seventh Avenue. The woman allegedly fled north toward the NYPD substation, where police confronted her, authorities said.",
-    "url": "https://abcnews.go.com/US/2-stabbed-times-square-suspect-shot-police-authorities/story?id=136100086",
+    "headline": "'Dancing with the Stars' season 35: Meet the celebrity cast",
+    "detail": "The season 35 celebrity cast of \"Dancing with the Stars\" was unveiled Wednesday on \"Good Morning America.\"",
+    "url": "https://abcnews.go.com/GMA/Culture/dancing-with-the-stars-season-35-celebrity-cast/story?id=136095657",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-01T15:27:56-04:00",
-    "fetched": "2026-09-01T22:01:24+00:00"
+    "published": "2026-09-02T09:47:47-04:00",
+    "fetched": "2026-09-02T13:51:35+00:00"
    },
    {
-    "headline": "Beloved dad of 4 who was killed by lightning stopped to help boater, cousin says",
-    "detail": "A beloved father of four died from a lightning strike while jet-skiing in Florida, according to officials and his family.",
-    "url": "https://abcnews.go.com/US/beloved-dad-4-killed-lightning-jet-skiing-florida/story?id=136114904",
+    "headline": "Judge rules alleged Charlie Kirk killer can stand trial for capital murder",
+    "detail": "Tyler Robinson is accused of fatally shooting conservative activist Charlie Kirk at an outdoor rally at Utah Valley University on Sept. 10, 2025.",
+    "url": "https://abcnews.go.com/US/judge-rules-alleged-charlie-kirk-killer-stand-trial/story?id=136116758",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-01T17:46:41-04:00",
-    "fetched": "2026-09-01T22:01:24+00:00"
+    "published": "2026-09-02T09:28:14-04:00",
+    "fetched": "2026-09-02T13:51:35+00:00"
    },
    {
-    "headline": "WATCH: Julianne Hough and Alfonso Ribeiro tease 'DWTS' Season 35",
-    "detail": "Co-hosts Julianne Hough and Alfonso Ribeiro preview \"Dancing With the Stars\" season 35, teasing the new cast set to be revealed Wednesday on Good Morning America.",
-    "url": "https://abcnews.go.com/video/136123963/",
+    "headline": "WATCH: Taylor Swift and Travis Kelce debut their new dog",
+    "detail": "The newlyweds reveal their new dog, Wendy, for the first time in a new Tommy Hilfiger Fall 2026 campaign.",
+    "url": "https://abcnews.go.com/video/136139038/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-01T17:01:10-04:00",
-    "fetched": "2026-09-01T22:01:24+00:00"
+    "published": "2026-09-02T08:18:06-04:00",
+    "fetched": "2026-09-02T13:51:35+00:00"
    }
   ]
  }

@@ -3,24 +3,24 @@
   {
    "key": "anz",
    "title": "ANZ Top Performers",
-   "caption": "Source: TradingView Australia market movers, captured Wednesday 02 September 2026 at 23:22 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
-   "fetched": "2026-09-02T23:22:20+10:00",
+   "caption": "Source: TradingView Australia market movers, captured Wednesday 02 September 2026 at 23:48 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
+   "fetched": "2026-09-02T23:48:32+10:00",
    "stale": false,
-   "gainer_note": "Kaoko Metals Limited led the ANZ board for the session, up 151.70 per cent to $1.850 on reported volume of 5.06M shares. Reported alongside the move, kalkinemedia.com on 02 September 2026:",
+   "gainer_note": "Kaoko Metals Limited led the ANZ board for the session, up 151.70 per cent to $1.850 on reported volume of 5.06M shares. Reported alongside the move, Stockhead on 02 September 2026:",
    "gainer_note_sources": [
     {
-     "title": "Copper Signals Emerge From Kaoko\u2019s ASX:KAO Namibia Drilling - kalkinemedia.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZzZYWjZPRWs3akxucms0R0lIbG5tMVpMdk80QmJ5dW9tc3p6elJ4UThKSGl2ZTA3bUljWndTRENfeWZlTlNyNjV3N0NKS0dZclJ0aDZoazAwTG1nVEMyRWZDZV9US3hCcVVSWEZJY3ZVcVhtdXlRbW5fZ19PdFN5Y2s2a0hqSWMySzBfUFVuY0VnTWhmVmFaZHhGMm1vUmUwbXhBcFhJNWtCWlgxN1JR?oc=5",
-     "publisher": "kalkinemedia.com",
-     "published": "2026-09-02T16:36:00+10:00"
+     "title": "Resources Top 5: Kaoko charges on early copper hunt success; red metal also fires Pivotal - Stockhead",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmVtaUVqY21XZEVsdXVMNlJMdXlXbTl1dlpMcGg0cV9fSjQzRk1MVENaenJWWmZDUFRYcE1td0lQWjV5azFLMEJSWmJPSk9XLVRSSnQ4OFpZcmNwMTJmRWFqcnM4cDlQUC0wRTA3UU9nZVRncWdsQlBPT3hkSnN4b1BjX0t0U1NxZFVuUGdlXzVmSTlJSVA2bnlzU09ZQU9iZHlCNldYdnU1ZVpsR212alpBbWNhTW9zb2pNNWp0cU00cE5salE?oc=5",
+     "publisher": "Stockhead",
+     "published": "2026-09-02T16:46:07+10:00"
     }
    ],
-   "loser_note": "Integrated Research Limited was the steepest decliner on the ANZ board for the session, down 19.44 per cent to $0.290 on reported volume of 234.13K shares. Reported alongside the move, Kalkine on 02 September 2026:",
+   "loser_note": "Integrated Research Limited was the steepest decliner on the ANZ board for the session, down 19.44 per cent to $0.290 on reported volume of 234.13K shares. Reported alongside the move, kalkine.com.au on 02 September 2026:",
    "loser_note_sources": [
     {
-     "title": "Integrated Research Limited (ASX:IRI): Dividend Milestones Meet a Sharp Shift in Market Sentiment - Kalkine",
+     "title": "Integrated Research Limited (ASX:IRI): Dividend Milestones Meet a Sharp Shift in Market Sentiment - kalkine.com.au",
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYXJ1dEgtdmpGY0xxdmNYdjJndjJrMHFMUHR0cDVQV19tMDk5V3I3UEN3TzV1Sk40blAyTlBZVHpJVnN0cUZtb3dZbmtoYlYwUzBDaGlRazRuREFjcVZac3dKQXhKQkNQWEl2dWU0RXo3aW5nb2xaeE5rSnFrd1Z6clB5VzQ0NGlWcnFQMGp1d2F6SV9NUU5OX2xnZjNha3dPdktMcU9sLWlPaWNOdnZnMXZoOHlVQmRqZVpzdG5xZmJ3a0pxSUlSb09kRVo?oc=5",
-     "publisher": "Kalkine",
+     "publisher": "kalkine.com.au",
      "published": "2026-09-02T16:45:00+10:00"
     }
    ],
@@ -172,8 +172,8 @@
   {
    "key": "japan",
    "title": "Japan Top Performers",
-   "caption": "Source: TradingView Japan market movers, captured Wednesday 02 September 2026 at 23:22 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-02T23:22:20+10:00",
+   "caption": "Source: TradingView Japan market movers, captured Wednesday 02 September 2026 at 23:48 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-09-02T23:48:32+10:00",
    "stale": false,
    "gainer_note": "Unbanked, Inc. led the Japan board for the session, up 30.93 per cent to \u00a5127 on reported volume of 1.78M shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
@@ -327,8 +327,8 @@
   {
    "key": "singapore",
    "title": "Singapore Top Performers",
-   "caption": "Source: TradingView Singapore market movers, captured Wednesday 02 September 2026 at 23:22 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-02T23:22:20+10:00",
+   "caption": "Source: TradingView Singapore market movers, captured Wednesday 02 September 2026 at 23:48 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-09-02T23:48:32+10:00",
    "stale": false,
    "gainer_note": "Accrelist Ltd. led the Singapore board for the session, up 8.33 per cent to S$0.143 on reported volume of 6.61M shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
@@ -482,8 +482,8 @@
   {
    "key": "hongkong",
    "title": "Hong Kong Top Performers",
-   "caption": "Source: TradingView Hong Kong market movers, captured Wednesday 02 September 2026 at 23:22 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-02T23:22:20+10:00",
+   "caption": "Source: TradingView Hong Kong market movers, captured Wednesday 02 September 2026 at 23:48 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-09-02T23:48:32+10:00",
    "stale": false,
    "gainer_note": "China Environmental Technology Holdings Limited led the Hong Kong board for the session, up 56.78 per cent to HK$0.185 on reported volume of 12.85M shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
