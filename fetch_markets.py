@@ -56,6 +56,8 @@ NARRATIVE_INDICES = [
     ("Dow Jones", "^DJI"),
     ("Russell 2000", "^RUT"),
     ("Straits Times", "^STI"),
+    ("FTSE 250", "^FTMC"),
+    ("FTSE 350", "^FTLC"),
 ]
 
 # Yahoo keeps serving a "price" for indices it stopped tracking years ago, so a
