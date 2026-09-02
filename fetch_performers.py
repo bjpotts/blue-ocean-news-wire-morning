@@ -225,6 +225,32 @@ def row_out(cfg, r):
     }
 
 
+_VOL_UNIT = {"K": 1e3, "M": 1e6, "B": 1e9}
+
+
+def _vol_value(vol):
+    """Parse a volume string like '5.06M' or '918' into a comparable float.
+
+    A missing/unparseable volume sorts last rather than first or zero, since
+    "no figure available" is not the same claim as "traded the least".
+    """
+    m = re.match(r'^~?\s*([0-9][0-9,.]*)\s*([KMB])?$', (vol or "").strip(), re.I)
+    if not m:
+        return -1.0
+    return float(m.group(1).replace(",", "")) * _VOL_UNIT.get((m.group(2) or "").upper(), 1)
+
+
+def by_volume(rows):
+    """Highest-traded stock first, per the page's table display order.
+
+    This only reorders the rendered rows -- the mover explainer paragraph
+    still describes rows[0] as scraped (the market's single biggest % mover,
+    which is what "gainers"/"losers" ranks by at the source), independent of
+    where that stock ends up once the table is sorted by volume.
+    """
+    return sorted(rows, key=lambda r: _vol_value(r.get("vol", "")), reverse=True)
+
+
 # Google News locale per region, so a Frankfurt or B3 mover is researched in the
 # language its local press actually reports in. A German small cap is covered by
 # German outlets, not English ones, and searching in English finds nothing.
@@ -529,8 +555,8 @@ def main():
             "gainer_note_sources": _source_out(g_hit),
             "loser_note": note(cfg, losers[0] if losers else None, "loser", l_hit),
             "loser_note_sources": _source_out(l_hit),
-            "gainers": [row_out(cfg, r) for r in gainers],
-            "losers": [row_out(cfg, r) for r in losers],
+            "gainers": [row_out(cfg, r) for r in by_volume(gainers)],
+            "losers": [row_out(cfg, r) for r in by_volume(losers)],
         })
         print("  %-10s gainers=%d losers=%d catalyst: gainer=%s loser=%s"
               % (cfg["key"], len(gainers), len(losers),

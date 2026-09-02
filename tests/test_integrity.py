@@ -16,7 +16,7 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from helpers import ROOT, read_digest
+from helpers import ROOT, load_from_source, read_digest
 
 
 def data(name):
@@ -163,6 +163,17 @@ class PerformerData(unittest.TestCase):
                 has_src = bool(m.get("%s_note_sources" % side))
                 self.assertEqual(note.endswith(":"), has_src,
                                  "%s %s" % (m["key"], side))
+
+    def test_gainers_and_losers_are_ordered_by_volume_descending(self):
+        """Global formatting rule: highest-traded stock at the top of each
+        table, descending to the smallest, in every region."""
+        FP = load_from_source("fetch_performers.py", ["_vol_value", "_VOL_UNIT"])
+        for m in self.files():
+            for side in ("gainers", "losers"):
+                vols = [FP["_vol_value"](r["vol"]) for r in m[side]]
+                self.assertEqual(vols, sorted(vols, reverse=True),
+                                 "%s %s not volume-sorted: %s"
+                                 % (m["key"], side, [r["vol"] for r in m[side]]))
 
 
 class CommodityData(unittest.TestCase):

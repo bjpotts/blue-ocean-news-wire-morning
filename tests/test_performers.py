@@ -124,6 +124,57 @@ class RowOut(unittest.TestCase):
         self.assertTrue(out["url"].startswith("http"))
 
 
+class VolValue(unittest.TestCase):
+    def test_parses_the_unit_suffixes(self):
+        self.assertEqual(FP._vol_value("5.06M"), 5_060_000)
+        self.assertEqual(FP._vol_value("123.4K"), 123_400)
+        self.assertEqual(FP._vol_value("1.2B"), 1_200_000_000)
+
+    def test_parses_plain_numbers_and_commas(self):
+        self.assertEqual(FP._vol_value("918"), 918)
+        self.assertEqual(FP._vol_value("1,234"), 1234)
+
+    def test_is_case_insensitive_on_the_unit(self):
+        self.assertEqual(FP._vol_value("5.06m"), 5_060_000)
+
+    def test_tolerates_a_derived_turnover_prefix(self):
+        self.assertEqual(FP._vol_value("~2.1M"), 2_100_000)
+
+    def test_missing_or_unparseable_sorts_below_a_real_zero(self):
+        """A blank figure is "unknown", not "traded the least" -- it must not
+        be conflated with an actual zero-volume row."""
+        self.assertLess(FP._vol_value(""), FP._vol_value("0"))
+        self.assertLess(FP._vol_value(None), 0)
+        self.assertLess(FP._vol_value("n/a"), 0)
+
+
+class ByVolume(unittest.TestCase):
+    def row(self, name, vol):
+        return {"name": name, "code": name[:3].upper(), "ex": "ASX",
+                "price": "1.00", "pct": 1.0, "vol": vol}
+
+    def test_orders_highest_volume_first(self):
+        rows = [self.row("Small", "1.2M"), self.row("Big", "50.6M"),
+                self.row("Mid", "10M")]
+        out = FP.by_volume(rows)
+        self.assertEqual([r["name"] for r in out], ["Big", "Mid", "Small"])
+
+    def test_does_not_mutate_the_input_order(self):
+        """The catalyst/note logic still relies on the original, %-ranked
+        rows[0]; sorting must return a new list, not reorder in place."""
+        rows = [self.row("Small", "1.2M"), self.row("Big", "50.6M")]
+        FP.by_volume(rows)
+        self.assertEqual(rows[0]["name"], "Small")
+
+    def test_rows_with_no_volume_figure_sink_to_the_bottom(self):
+        rows = [self.row("NoVol", ""), self.row("HasVol", "1M")]
+        out = FP.by_volume(rows)
+        self.assertEqual([r["name"] for r in out], ["HasVol", "NoVol"])
+
+    def test_empty_input(self):
+        self.assertEqual(FP.by_volume([]), [])
+
+
 class NameTokens(unittest.TestCase):
     def test_drops_corporate_suffixes(self):
         toks = FP._name_tokens("Integrated Research Limited")
