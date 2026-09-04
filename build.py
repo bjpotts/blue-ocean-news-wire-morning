@@ -342,10 +342,6 @@ def idx_url(sym):
     # to their TradingView symbol page instead of a URL that 404s.
     if sym in idx_cfg["tradingview_quote_urls"]:
         return idx_cfg["tradingview_quote_urls"][sym]
-    # FTSE 250/350 have live Yahoo data but Yahoo's own quote page 404s for
-    # both; Google Finance has a working page for each.
-    if sym in idx_cfg.get("google_finance_urls", {}):
-        return idx_cfg["google_finance_urls"][sym]
     if sym == "^STI":
         return idx_cfg["stai_quote_url"]
     # Yahoo's US edition 404s on the Australasian indices; its AU edition serves

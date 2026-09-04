@@ -5,6 +5,17 @@ Notable changes to the Market Wrap Up **Morning Edition** project.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Dates are
 Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
+## [2026-09-04]
+
+### Changed
+
+- World Indices grid restored to its full 24 cells. The narrowing to 9 (below) is reverted:
+  Dow Jones, Russell 2000, FTSE 250 and FTSE 350 move back to narrative-only fetching, and
+  the 11 previously-dropped benchmarks (TSX Composite, IPC Mexico, FTSE MIB, IBEX 35, Euro
+  Stoxx 50, OMX Stockholm 30, MOEX Russia, DFM General, TAIEX, SET Index, NZX 50) are fetched
+  and shown again. The Google Finance links added for FTSE 250/350 are removed along with
+  them, since those two are narrative-only again and no longer need a grid-cell link.
+
 ## [2026-09-03]
 
 ### Changed

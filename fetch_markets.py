@@ -18,36 +18,46 @@ CURRENCY_CODES = [
     "PHP", "IDR"
 ]
 
-# The 9 indices shown in the World Indices grid: US, then ASX/AORD, then the
-# UK's three FTSE tiers.
+# The 24 indices shown in the World Indices grid, ordered west to east so the
+# 4-column grid reads as six geographic rows: North America, South America into
+# Europe, the rest of Europe, Russia and the Middle East into Asia, the rest of
+# Asia, then India with ANZ.
 INDICES = [
-    ("Dow Jones", "^DJI"),
     ("S&P 500", "^GSPC"),
     ("Nasdaq Composite", "^IXIC"),
-    ("Russell 2000", "^RUT"),
-    ("S&P/ASX 200", "^AXJO"),
-    ("All Ordinaries", "^AORD"),
+    ("TSX Composite", "^GSPTSE"),
+    ("IPC Mexico", "^MXX"),
+    ("Ibovespa", "^BVSP"),
     ("FTSE 100", "^FTSE"),
-    ("FTSE 250", "^FTMC"),
-    ("FTSE 350", "^FTLC"),
-]
-
-# Indices the Market News paragraph talks about but the grid no longer shows -
-# that paragraph's own "genuinely broad world coverage" brief requires DAX,
-# CAC 40, Hang Seng, Nikkei 225, KOSPI, Shanghai Composite, Ibovespa, Straits
-# Times and BSE Sensex even though the 9-index grid above is US/AU/UK only.
-# Fetched so the written summary keeps accurate figures to cite; kept out of
-# "indices" so the grid stays exactly the 9 cells above.
-NARRATIVE_INDICES = [
     ("DAX", "^GDAXI"),
     ("CAC 40", "^FCHI"),
-    ("Hang Seng", "^HSI"),
+    ("FTSE MIB", "FTSEMIB.MI"),
+    ("IBEX 35", "^IBEX"),
+    ("EURO STOXX 50", "^STOXX50E"),
+    ("OMX Stockholm 30", "^OMX"),
+    ("MOEX Russia", "IMOEX"),
+    ("DFM General (Dubai)", "DFMGI.AE"),
     ("Nikkei 225", "^N225"),
-    ("KOSPI", "^KS11"),
+    ("Hang Seng", "^HSI"),
     ("Shanghai Composite", "000001.SS"),
-    ("Ibovespa", "^BVSP"),
-    ("Straits Times", "^STI"),
+    ("KOSPI", "^KS11"),
+    ("TAIEX", "^TWII"),
+    ("SET Index", "^SET.BK"),
     ("BSE Sensex", "^BSESN"),
+    ("S&P/ASX 200", "^AXJO"),
+    ("All Ordinaries", "^AORD"),
+    ("NZX 50", "^NZ50"),
+]
+
+# Indices the Market News paragraph talks about but the grid no longer shows.
+# They are fetched so the written summary keeps its full regional coverage, and
+# are kept out of "indices" so the displayed grid stays exactly 24 cells.
+NARRATIVE_INDICES = [
+    ("Dow Jones", "^DJI"),
+    ("Russell 2000", "^RUT"),
+    ("Straits Times", "^STI"),
+    ("FTSE 250", "^FTMC"),
+    ("FTSE 350", "^FTLC"),
 ]
 
 # Yahoo keeps serving a "price" for indices it stopped tracking years ago, so a

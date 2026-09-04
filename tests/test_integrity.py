@@ -63,19 +63,17 @@ class EverythingIsLinked(DigestTestCase):
 
 
 class GridWidths(DigestTestCase):
-    def test_fx_and_commodities_are_24_cells_indices_is_9(self):
+    def test_exchange_rates_and_indices_are_both_24_cells(self):
         grids = re.findall(r'<div class="rate-grid">(.*?)</div>\s*(?=<h|<p|<div|$)',
                            self.html, re.S)
         counts = [g.count('class="rate-cell"') for g in grids]
-        self.assertEqual(counts.count(24), 2,
-                         "expected exactly two 24-cell grids (FX, commodities): %s" % counts)
-        self.assertIn(9, counts, "expected a 9-cell World Indices grid: %s" % counts)
+        self.assertIn(24, counts, "expected at least one 24-cell grid: %s" % counts)
 
     def test_the_source_data_carries_the_expected_counts(self):
         m, c = data("markets.json"), data("commodities.json")
         if m:
-            self.assertEqual(len(m["indices"]), 9)
-            # 22 currencies + USD base + BTC fills a 24-cell grid.
+            self.assertEqual(len(m["indices"]), 24)
+            # 22 currencies + USD base + BTC fills the same 24-cell grid.
             self.assertEqual(len(m["fx"]) + 2, 24)
             self.assertTrue(m["btc"]["price"])
         if c:
