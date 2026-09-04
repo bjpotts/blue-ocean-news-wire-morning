@@ -220,11 +220,14 @@ class EarningsData(unittest.TestCase):
         for r in self.regions():
             self.assertTrue(r["summary"].strip(), r["key"])
 
-    def test_an_empty_region_says_so_honestly(self):
+    def test_an_empty_region_uses_the_exact_static_comment(self):
         for r in self.regions():
             if not r["items"]:
-                self.assertRegex(r["summary"], r"[Nn]o (?:corporate )?earnings",
-                                 "%s: %s" % (r["key"], r["summary"]))
+                self.assertEqual(r["summary"], "No Company earnings reports available.")
+
+    def test_no_region_shows_more_than_the_top_five_reports(self):
+        for r in self.regions():
+            self.assertLessEqual(len(r["items"]), 5, r["key"])
 
     def test_every_item_has_a_real_link(self):
         for r in self.regions():

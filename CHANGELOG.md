@@ -7,6 +7,13 @@ Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
 ## [2026-09-05]
 
+### Changed
+
+- Market Earnings Reporting now shows the top 5 reports per region (up from 3-4
+  depending on region), and an empty region's summary paragraph is now the exact
+  static comment "No Company earnings reports available." instead of a longer
+  explanatory sentence.
+
 ### Added
 
 - A Market Earnings Reporting section, sitting between Top Performers and Capital Raises &

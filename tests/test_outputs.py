@@ -115,10 +115,9 @@ class EarningsSummaries(unittest.TestCase):
     def item(self, headline):
         return {"headline": headline, "url": "https://x.com/a", "detail": ""}
 
-    def test_an_empty_region_is_reported_honestly(self):
+    def test_an_empty_region_uses_the_exact_static_comment(self):
         text = EG.summarise("Europe", [])
-        self.assertIn("nothing is listed", text)
-        self.assertIn("Europe", text)
+        self.assertEqual(text, "No Company earnings reports available.")
 
     def test_a_single_item_is_described_as_one(self):
         text = EG.summarise("UK", [self.item("Acme posts full-year profit")])

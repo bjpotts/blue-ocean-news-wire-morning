@@ -51,31 +51,31 @@ EXCLUDE = re.compile(
     r"assay results?|trial results?|study results?)\b", re.I)
 
 REGIONS = [
-    ("anz", "ANZ", 4, [
+    ("anz", "ANZ", 5, [
         ("Stockhead", "https://stockhead.com.au/feed/", r"stockhead\.com\.au"),
         ("Small Caps", "https://smallcaps.com.au/feed", r"smallcaps\.com\.au"),
         ("The Market Herald", "https://themarketherald.com.au/feed/",
          r"themarket(?:herald|online)\.com\.au"),
     ]),
-    ("asia", "Asia (Japan/Singapore/Hong Kong/China)", 4, [
+    ("asia", "Asia (Japan/Singapore/Hong Kong/China)", 5, [
         ("South China Morning Post", "https://www.scmp.com/rss/92/feed", r"scmp\.com"),
         ("South China Morning Post", "https://www.scmp.com/rss/91/feed", r"scmp\.com"),
     ]),
-    ("us", "US", 4, [
+    ("us", "US", 5, [
         ("Nasdaq", "https://www.nasdaq.com/feed/rssoutbound?category=Earnings", r"nasdaq\.com"),
         ("CNBC Markets",
          "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
          r"cnbc\.com"),
     ]),
-    ("uk", "UK", 3, [
+    ("uk", "UK", 5, [
         ("City A.M.", "https://www.cityam.com/category/earnings/feed/", r"cityam\.com"),
         ("City A.M.", "https://www.cityam.com/category/markets/feed/", r"cityam\.com"),
     ]),
-    ("europe", "Europe", 3, [
+    ("europe", "Europe", 5, [
         ("Bloomberg", "https://feeds.bloomberg.com/markets/news.rss", r"bloomberg\.com"),
         ("Investing.com", "https://www.investing.com/rss/news_25.rss", r"investing\.com"),
     ]),
-    ("rest", "Rest (South America, Middle East, Africa, India etc)", 4, [
+    ("rest", "Rest (South America, Middle East, Africa, India etc)", 5, [
         ("Bloomberg", "https://feeds.bloomberg.com/markets/news.rss", r"bloomberg\.com"),
         ("CNBC Markets",
          "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
@@ -92,9 +92,7 @@ WINDOW_DAYS = 10
 
 def summarise(name, items, fresh_count=None):
     if not items:
-        return ("No corporate earnings or results activity could be verified from "
-                "a linked source for %s this run, so nothing is listed rather than "
-                "publishing an item without a working URL." % name)
+        return "No Company earnings reports available."
     lead = items[0]["headline"]
     # No fresh linked source turned up anything past what the last edition
     # already carried - say so plainly rather than implying new activity.
