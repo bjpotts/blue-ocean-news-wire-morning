@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Tiger Woods changes plea in DUI case, driver's license suspended for 5 years; LIVE: ABC News Live; 'Dancing with the Stars' season 35: Meet the celebrity cast.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Lindsay Clancy trial: Tensions flare as defense blames 1 juror for deadlock; LIVE: ABC News Live; Trump administration files urgent appeal with Supreme Court over mail-in ballot rules.",
   "note": null,
   "items": [
    {
-    "headline": "Tiger Woods changes plea in DUI case, driver's license suspended for 5 years",
-    "detail": "Tiger Woods appeared in court in Florida Wednesday to change his plea in his driving under the influence case.",
-    "url": "https://abcnews.go.com/US/tiger-woods-plea-dui-case-drivers-license-suspended/story?id=136125302",
+    "headline": "Lindsay Clancy trial: Tensions flare as defense blames 1 juror for deadlock",
+    "detail": "The trial of Lindsay Clancy, the Massachusetts mom who killed her three young children in January 2023, has reached its final stages.",
+    "url": "https://abcnews.go.com/GMA/News/live-updates/lindsay-clancy-trial-jurors-resume-deliberations/?id=136086599",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-02T09:21:40-04:00",
-    "fetched": "2026-09-02T13:51:35+00:00"
+    "published": "2026-09-03T17:10:57-04:00",
+    "fetched": "2026-09-03T22:06:34+00:00"
    },
    {
     "headline": "LIVE: ABC News Live",
     "detail": "24/7 coverage of breaking news and live events",
     "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-01T10:18:43-04:00",
-    "fetched": "2026-09-02T13:51:35+00:00"
+    "published": "2026-09-03T16:27:27-04:00",
+    "fetched": "2026-09-03T22:06:34+00:00"
    },
    {
-    "headline": "'Dancing with the Stars' season 35: Meet the celebrity cast",
-    "detail": "The season 35 celebrity cast of \"Dancing with the Stars\" was unveiled Wednesday on \"Good Morning America.\"",
-    "url": "https://abcnews.go.com/GMA/Culture/dancing-with-the-stars-season-35-celebrity-cast/story?id=136095657",
+    "headline": "Trump administration files urgent appeal with Supreme Court over mail-in ballot rules",
+    "detail": "The Trump administration filed an urgent appeal with the U.S. Supreme Court seeking permission to immediately implement new U.S. Postal Service rules for mail ballots.",
+    "url": "https://abcnews.go.com/Politics/trump-administration-files-urgent-appeal-supreme-court-usps/story?id=136187030",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-02T09:47:47-04:00",
-    "fetched": "2026-09-02T13:51:35+00:00"
+    "published": "2026-09-03T16:58:12-04:00",
+    "fetched": "2026-09-03T22:06:34+00:00"
    },
    {
-    "headline": "Judge rules alleged Charlie Kirk killer can stand trial for capital murder",
-    "detail": "Tyler Robinson is accused of fatally shooting conservative activist Charlie Kirk at an outdoor rally at Utah Valley University on Sept. 10, 2025.",
-    "url": "https://abcnews.go.com/US/judge-rules-alleged-charlie-kirk-killer-stand-trial/story?id=136116758",
+    "headline": "Excavation work to build Trump's arch to begin over next 2 weeks: Interior secretary",
+    "detail": "Excavation work for the construction of President Donald Trump's \"triumphal arch\" will begin over the next two weeks, Interior Secretary Doug Burgum announced.",
+    "url": "https://abcnews.go.com/Politics/excavation-work-build-trumps-triumphal-arch-begin-2/story?id=136188063",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-02T09:28:14-04:00",
-    "fetched": "2026-09-02T13:51:35+00:00"
+    "published": "2026-09-03T17:57:32-04:00",
+    "fetched": "2026-09-03T22:06:34+00:00"
    },
    {
-    "headline": "WATCH: Taylor Swift and Travis Kelce debut their new dog",
-    "detail": "The newlyweds reveal their new dog, Wendy, for the first time in a new Tommy Hilfiger Fall 2026 campaign.",
-    "url": "https://abcnews.go.com/video/136139038/",
+    "headline": "WATCH: 1st look at Billie Jean King documentary",
+    "detail": "The ESPN 30 for 30 documentary “Give Me the Ball!,” takes a look at the personal story behind King's high-profile battles and premieres Nov. 22 on ESPN.",
+    "url": "https://abcnews.go.com/video/136181091/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-02T08:18:06-04:00",
-    "fetched": "2026-09-02T13:51:35+00:00"
+    "published": "2026-09-03T14:22:53-04:00",
+    "fetched": "2026-09-03T22:06:34+00:00"
    }
   ]
  }

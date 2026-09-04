@@ -202,5 +202,69 @@ class CommodityData(unittest.TestCase):
             self.assertIn(name, c["summary"])
 
 
+class EarningsData(unittest.TestCase):
+    """Market Earnings Reporting section, one region block per configured
+    Top Performers region, headline-list style like Capital Raises."""
+
+    def regions(self):
+        e = data("earnings.json")
+        if not e:
+            self.skipTest("no earnings data")
+        return e["regions"]
+
+    def test_every_configured_region_has_a_block(self):
+        keys = {r["key"] for r in self.regions()}
+        self.assertEqual(keys, {"anz", "asia", "us", "uk", "europe", "rest"})
+
+    def test_every_region_has_a_summary(self):
+        for r in self.regions():
+            self.assertTrue(r["summary"].strip(), r["key"])
+
+    def test_an_empty_region_says_so_honestly(self):
+        for r in self.regions():
+            if not r["items"]:
+                self.assertRegex(r["summary"], r"[Nn]o (?:corporate )?earnings",
+                                 "%s: %s" % (r["key"], r["summary"]))
+
+    def test_every_item_has_a_real_link(self):
+        for r in self.regions():
+            for it in r["items"]:
+                self.assertTrue(it["url"].startswith("http"), it)
+                self.assertTrue(it["headline"].strip(), it)
+
+    def test_no_duplicate_urls_within_a_region(self):
+        for r in self.regions():
+            urls = [it["url"] for it in r["items"]]
+            self.assertEqual(len(urls), len(set(urls)), r["key"])
+
+
+class EarningsSectionRendering(DigestTestCase):
+    def test_the_heading_exists_between_top_performers_and_capital_raises(self):
+        m = re.search(
+            r'Top Performers</h3>.*?Market Earnings Reporting</h3>.*?'
+            r'Capital Raises', self.html, re.S)
+        self.assertIsNotNone(m, "Market Earnings Reporting is not positioned "
+                                 "between Top Performers and Capital Raises")
+
+    def test_one_region_block_per_configured_region(self):
+        e = data("earnings.json")
+        if not e:
+            self.skipTest("no earnings data")
+        i = self.html.find("Market Earnings Reporting")
+        j = self.html.find("Capital Raises", i)
+        section = self.html[i:j]
+        self.assertEqual(section.count('class="cr-region"'), len(e["regions"]))
+
+    def test_every_earnings_item_in_the_page_is_linked(self):
+        e = data("earnings.json")
+        if not e:
+            self.skipTest("no earnings data")
+        i = self.html.find("Market Earnings Reporting")
+        j = self.html.find("Capital Raises", i)
+        section = self.html[i:j]
+        for li in re.findall(r"<li>(.*?)</li>", section, re.S):
+            self.assertRegex(li, r'<a[^>]+href="https?://', li[:160])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

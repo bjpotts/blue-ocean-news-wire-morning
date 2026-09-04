@@ -5,6 +5,21 @@ Notable changes to the Market Wrap Up **Morning Edition** project.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Dates are
 Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
+## [2026-09-05]
+
+### Added
+
+- A Market Earnings Reporting section, sitting between Top Performers and Capital Raises &
+  New Listings. One region block per Top Performers region (ANZ, Asia, US, UK, Europe,
+  Rest), each with a freshly-written summary paragraph and a headline list of genuine,
+  linked corporate earnings/results/guidance stories from real business-news feeds
+  (Stockhead, Small Caps, The Market Herald for ANZ; SCMP for Asia; Nasdaq and CNBC for
+  the US; City A.M. for the UK; Bloomberg and Investing.com for Europe and the rest of the
+  world). Reuses the same fresh-over-repeat rotation and honest-empty-region rules as
+  Capital Raises, and the identical `cr-grid`/`cr-region` visual pattern, so no new CSS
+  was needed. A region with nothing verifiable from a linked source says so plainly rather
+  than being padded.
+
 ## [2026-09-04]
 
 ### Changed

@@ -30,6 +30,7 @@ def _check_freshness():
         "perf-b.json": "Top performers (region set B)",
         "perf-c.json": "Top performers (region set C) and market news summary",
         "capraises.json": "Capital raises and new listings",
+        "earnings.json": "Market earnings reporting",
         "tech.json": "Technology news",
         "news-a.json": "World news (set A)",
         "news-b.json": "World news (set B)",
@@ -62,6 +63,7 @@ pa = load("perf-a.json")
 pb = load("perf-b.json")
 pc = load("perf-c.json")
 cr = load("capraises.json")
+eg = load("earnings.json")
 tech = load("tech.json")
 na = load("news-a.json")
 nb = load("news-b.json")
@@ -436,6 +438,15 @@ for r in cr["regions"]:
                    '<p class="mover-note">%s</p>%s</div>' % (E(r["name"]), E(r["summary"]), body))
 cr_html = '<div class="cr-grid">%s</div>' % "".join(cr_html)
 
+eg_html = []
+for r in eg["regions"]:
+    # summary() already states plainly when nothing verifiable was found,
+    # so no separate fallback paragraph is needed for the empty case.
+    body = headline_list(r["items"]) if r["items"] else ""
+    eg_html.append('<div class="cr-region"><h3 class="subhead">%s</h3>'
+                   '<p class="mover-note">%s</p>%s</div>' % (E(r["name"]), E(r["summary"]), body))
+eg_html = '<div class="cr-grid">%s</div>' % "".join(eg_html)
+
 tech_html = headline_list(tech["items"])
 
 outlets = na["outlets"] + nb["outlets"]
@@ -556,6 +567,10 @@ HTML = """<div class="pnw">
 <p class="caption">%s</p>
 %s
 
+<h3 class="subhead page-break-before">%s</h3>
+<p class="caption">%s</p>
+%s
+
 <h2>%s</h2>
 <p class="section-caption">%s</p>
 %s
@@ -592,6 +607,7 @@ HTML = """<div class="pnw">
     E(secs["commodities"]["heading"]), sourced_para(cm["summary"], cm.get("summary_sources")), grid(com_cells),
     "page-break-before" if secs["top_performers"].get("page_break_before") else "",
     E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_html,
+    E(secs["market_earnings"]["heading"]), secs["market_earnings"]["caption"], eg_html,
     E(secs["capital_raises"]["heading"]), secs["capital_raises"]["caption"], cr_html,
     E(secs["tech"]["heading"]), secs["tech"]["caption"], tech_html,
     E(secs["world_news"]["heading"]), news_html,

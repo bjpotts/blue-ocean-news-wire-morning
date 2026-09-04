@@ -1,0 +1,134 @@
+{
+ "regions": [
+  {
+   "key": "anz",
+   "name": "ANZ",
+   "summary": "No corporate earnings or results activity could be verified from a linked source for ANZ this run, so nothing is listed rather than publishing an item without a working URL.",
+   "items": []
+  },
+  {
+   "key": "asia",
+   "name": "Asia (Japan/Singapore/Hong Kong/China)",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 4 items, led by Sino Land profit rises 14% as property losses narrow, but core earnings fall. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "items": [
+    {
+     "headline": "Sino Land profit rises 14% as property losses narrow, but core earnings fall",
+     "detail": "Sino Land’s annual profit rose 14 per cent as losses on its investment properties narrowed, although a decline in underlying earnings pointed to continued pressure on its core business.",
+     "url": "https://www.scmp.com/business/article/3366010/sino-land-profit-rises-14-property-losses-narrow-core-earnings-fall?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-09-01T12:00:24+00:00",
+     "fetched": "2026-09-04T14:16:47+00:00"
+    },
+    {
+     "headline": "China’s Z.ai revenue jumps 400% as total losses narrow on explosive cloud gains",
+     "detail": "Chinese artificial intelligence company Z.ai on Monday reported a 400 per cent increase in first-half revenue, driven by explosive growth in its open platform and application programming interface business, which helped narrow total losses…",
+     "url": "https://www.scmp.com/tech/big-tech/article/3365870/chinas-zai-revenue-jumps-400-total-losses-narrow-explosive-cloud-gains?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-08-31T11:43:48+00:00",
+     "fetched": "2026-09-04T14:16:47+00:00"
+    },
+    {
+     "headline": "PetroChina’s first-half profit jumps 22% as higher oil prices offset Iran war supply hit",
+     "detail": "PetroChina, China’s largest oil and gas producer, has announced that it is gradually restoring operations at its Middle Eastern projects after the US-Israeli war in Iran severely disrupted global energy flows this year.",
+     "url": "https://www.scmp.com/business/china-business/article/3365866/petrochinas-first-half-profit-jumps-22-higher-oil-prices-offset-iran-war-supply-hit?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-08-31T11:23:10+00:00",
+     "fetched": "2026-09-04T14:16:47+00:00"
+    },
+    {
+     "headline": "China’s 6 biggest state banks post rare shared growth as margins show tentative rebound",
+     "detail": "China’s six largest state-owned banks recorded their first simultaneous rise in first-half revenue and net profit since 2022, according to interim results released last week, as margins that had been under pressure for two years showed…",
+     "url": "https://www.scmp.com/business/banking-finance/article/3365800/chinas-six-biggest-state-banks-post-rare-shared-growth-margins-show-tentative-rebound?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-08-31T07:00:05+00:00",
+     "fetched": "2026-09-04T14:16:47+00:00"
+    }
+   ]
+  },
+  {
+   "key": "us",
+   "name": "US",
+   "summary": "US earnings reporting activity captured this run runs to 4 items, led by Second-Quarter Earnings Show Breadth. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "items": [
+    {
+     "headline": "Second-Quarter Earnings Show Breadth",
+     "detail": "2026's market rally isn't just AI. Q2 earnings growth hit multi-year highs across chips, large caps, and beyond — with P/E multiples actually falling.",
+     "url": "https://www.nasdaq.com/the-print/second-quarter-earnings-show-breadth",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-09-03T21:50:00+00:00",
+     "fetched": "2026-09-04T14:16:50+00:00"
+    },
+    {
+     "headline": "Pre-Market Earnings Report for September 4, 2026 : KNOP",
+     "detail": "The following companies are expected to report earnings prior to market open on 09/04/2026.",
+     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-4-2026-knop",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-09-03T20:00:01+00:00",
+     "fetched": "2026-09-04T14:16:50+00:00"
+    },
+    {
+     "headline": "After-Hours Earnings Report for September 3, 2026 : ZS, GWRE, IOT, LULU, DOCU, PATH, PL, AMBA, ASAN, NX, MAMA, OXM",
+     "detail": "The following companies are expected to report earnings after hours on 09/03/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Zscaler, Inc. (ZS)is reporting for the quarter ending July 31, 2026.",
+     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-september-3-2026-zs-gwre-iot-lulu-docu-path-pl-amba-asan-nx",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-09-03T18:00:01+00:00",
+     "fetched": "2026-09-04T14:16:50+00:00"
+    },
+    {
+     "headline": "Polestar Automotive Holding UK Q2 Earnings Call Highlights",
+     "detail": "These 2 Big Players Are Set to Compete With Elon Musk’s StarlinkPolestar Automotive Holding UK (NASDAQ:PSNY) reported record first-half retail sales as it expanded its retailer-led sales model and increased contributions from its Polestar…",
+     "url": "https://www.nasdaq.com/articles/polestar-automotive-holding-uk-q2-earnings-call-highlights",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-09-03T13:02:38+00:00",
+     "fetched": "2026-09-04T14:16:50+00:00"
+    }
+   ]
+  },
+  {
+   "key": "uk",
+   "name": "UK",
+   "summary": "A single verifiable earnings item was found for UK this run: Giving up vegan arm helps Britain’s biggest meatpacker eye profit surge.",
+   "items": [
+    {
+     "headline": "Giving up vegan arm helps Britain’s biggest meatpacker eye profit surge",
+     "detail": "The UK’s biggest meatpacker has upgraded its profit target after offloading its loss-making vegan arm.",
+     "url": "https://www.cityam.com/britains-biggest-meatpacker-eyes-profit-surge-after-ditching-vegan-arm/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/category/markets/feed/",
+     "published": "2026-09-03T07:19:25+00:00",
+     "fetched": "2026-09-04T14:16:53+00:00"
+    }
+   ]
+  },
+  {
+   "key": "europe",
+   "name": "Europe",
+   "summary": "A single verifiable earnings item was found for Europe this run: 3 stocks with compelling risk-reward profiles after Q2 earnings.",
+   "items": [
+    {
+     "headline": "3 stocks with compelling risk-reward profiles after Q2 earnings",
+     "detail": "3 stocks with compelling risk-reward profiles after Q2 earnings",
+     "url": "https://www.investing.com/news/stock-market-news/3-stocks-with-compelling-riskreward-profiles-after-q2-earnings-93CH-4889683",
+     "outlet": "Investing.com",
+     "source_url": "https://www.investing.com/rss/news_25.rss",
+     "published": null,
+     "fetched": "2026-09-04T14:16:56+00:00"
+    }
+   ]
+  },
+  {
+   "key": "rest",
+   "name": "Rest (South America, Middle East, Africa, India etc)",
+   "summary": "No corporate earnings or results activity could be verified from a linked source for Rest (South America, Middle East, Africa, India etc) this run, so nothing is listed rather than publishing an item without a working URL.",
+   "items": []
+  }
+ ]
+}

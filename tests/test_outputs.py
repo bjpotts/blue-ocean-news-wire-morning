@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import fetch_capraises as CR
+import fetch_earnings as EG
 import tempfile
 from pathlib import Path
 
@@ -104,6 +105,77 @@ class CapitalRaiseRotation(unittest.TestCase):
     def test_a_region_absent_from_the_prior_file_has_no_prior_urls(self):
         self.write_prev([{"key": "anz", "items": [{"url": "https://x.com/a"}]}])
         prev = CR._load_prev_urls(self.path)
+        self.assertNotIn("uk", prev)
+
+
+class EarningsSummaries(unittest.TestCase):
+    """fetch_earnings.summarise() mirrors fetch_capraises.summarise() -
+    same honesty rules, different subject matter."""
+
+    def item(self, headline):
+        return {"headline": headline, "url": "https://x.com/a", "detail": ""}
+
+    def test_an_empty_region_is_reported_honestly(self):
+        text = EG.summarise("Europe", [])
+        self.assertIn("nothing is listed", text)
+        self.assertIn("Europe", text)
+
+    def test_a_single_item_is_described_as_one(self):
+        text = EG.summarise("UK", [self.item("Acme posts full-year profit")])
+        self.assertIn("A single verifiable", text)
+        self.assertIn("Acme posts full-year profit", text)
+
+    def test_several_items_are_counted_and_led_by_the_first(self):
+        items = [self.item("Big result"), self.item("Second"), self.item("Third")]
+        text = EG.summarise("ANZ", items)
+        self.assertIn("3 items", text)
+        self.assertIn("led by Big result", text)
+
+    def test_a_stale_region_discloses_the_carry_forward(self):
+        text = EG.summarise("ANZ", [self.item("Old"), self.item("Older")],
+                            fresh_count=0)
+        self.assertIn("No newer earnings item", text)
+
+    def test_a_partly_fresh_region_carries_no_stale_note(self):
+        text = EG.summarise("ANZ", [self.item("New"), self.item("Old")],
+                            fresh_count=1)
+        self.assertNotIn("No newer earnings item", text)
+
+
+class EarningsRotation(unittest.TestCase):
+    """Same fresh-over-repeat preference as Capital Raises, applied to the
+    Market Earnings Reporting section - see fetch_earnings.main()."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.path = os.path.join(self.tmp, "earnings.json")
+
+    def write_prev(self, regions):
+        import json
+        with open(self.path, "w") as f:
+            json.dump({"regions": regions}, f)
+
+    def test_missing_file_yields_no_prior_urls(self):
+        self.assertEqual(EG._load_prev_urls(self.path), {})
+
+    def test_corrupt_file_yields_no_prior_urls_rather_than_raising(self):
+        with open(self.path, "w") as f:
+            f.write("{not json")
+        self.assertEqual(EG._load_prev_urls(self.path), {})
+
+    def test_prior_urls_are_read_per_region(self):
+        self.write_prev([
+            {"key": "anz", "items": [{"url": "https://x.com/a"},
+                                     {"url": "https://x.com/b"}]},
+            {"key": "us", "items": [{"url": "https://x.com/c"}]},
+        ])
+        prev = EG._load_prev_urls(self.path)
+        self.assertEqual(prev["anz"], {"https://x.com/a", "https://x.com/b"})
+        self.assertEqual(prev["us"], {"https://x.com/c"})
+
+    def test_a_region_absent_from_the_prior_file_has_no_prior_urls(self):
+        self.write_prev([{"key": "anz", "items": [{"url": "https://x.com/a"}]}])
+        prev = EG._load_prev_urls(self.path)
         self.assertNotIn("uk", prev)
 
 
