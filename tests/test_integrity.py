@@ -242,19 +242,19 @@ class EarningsData(unittest.TestCase):
 
 
 class EarningsSectionRendering(DigestTestCase):
-    def test_the_heading_exists_between_top_performers_and_capital_raises(self):
+    def test_the_heading_sits_directly_below_anz_top_performers(self):
         m = re.search(
-            r'Top Performers</h3>.*?Market Earnings Reporting</h3>.*?'
-            r'Capital Raises', self.html, re.S)
+            r'ANZ Top Performers.*?Market Earnings Reporting</h3>.*?'
+            r'Japan Top Performers', self.html, re.S)
         self.assertIsNotNone(m, "Market Earnings Reporting is not positioned "
-                                 "between Top Performers and Capital Raises")
+                                 "directly below ANZ Top Performers")
 
     def test_one_region_block_per_configured_region(self):
         e = data("earnings.json")
         if not e:
             self.skipTest("no earnings data")
         i = self.html.find("Market Earnings Reporting")
-        j = self.html.find("Capital Raises", i)
+        j = self.html.find("Japan Top Performers", i)
         section = self.html[i:j]
         self.assertEqual(section.count('class="cr-region"'), len(e["regions"]))
 
@@ -263,7 +263,7 @@ class EarningsSectionRendering(DigestTestCase):
         if not e:
             self.skipTest("no earnings data")
         i = self.html.find("Market Earnings Reporting")
-        j = self.html.find("Capital Raises", i)
+        j = self.html.find("Japan Top Performers", i)
         section = self.html[i:j]
         for li in re.findall(r"<li>(.*?)</li>", section, re.S):
             self.assertRegex(li, r'<a[^>]+href="https?://', li[:160])

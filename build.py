@@ -417,7 +417,11 @@ if us_rewrite.get("enabled"):
         us_rewrite["caption_search"] + us_rewrite.get("caption_append", ""))
 
 seq = cfg["performers_sequence"]
-perf_html = "\n".join(perf_block(order[k], first=(i == 0)) for i, k in enumerate(seq))
+_perf_blocks = [perf_block(order[k], first=(i == 0)) for i, k in enumerate(seq)]
+# ANZ (index 0) sits above Market Earnings Reporting; every other region's
+# block continues below it, so the ANZ block is split out on its own.
+perf_html_anz = _perf_blocks[0]
+perf_html_rest = "\n".join(_perf_blocks[1:])
 
 # ---------------------------------------------------------------- lists
 def headline_list(items, outlet_key=None):
@@ -571,6 +575,8 @@ HTML = """<div class="pnw">
 <p class="caption">%s</p>
 %s
 
+%s
+
 <h2>%s</h2>
 <p class="section-caption">%s</p>
 %s
@@ -606,8 +612,9 @@ HTML = """<div class="pnw">
     "page-break-before" if secs["commodities"].get("page_break_before") else "",
     E(secs["commodities"]["heading"]), sourced_para(cm["summary"], cm.get("summary_sources")), grid(com_cells),
     "page-break-before" if secs["top_performers"].get("page_break_before") else "",
-    E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_html,
+    E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_html_anz,
     E(secs["market_earnings"]["heading"]), secs["market_earnings"]["caption"], eg_html,
+    perf_html_rest,
     E(secs["capital_raises"]["heading"]), secs["capital_raises"]["caption"], cr_html,
     E(secs["tech"]["heading"]), secs["tech"]["caption"], tech_html,
     E(secs["world_news"]["heading"]), news_html,
