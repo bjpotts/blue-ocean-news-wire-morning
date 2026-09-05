@@ -595,6 +595,7 @@ for o in outlets:
                      % (E(o["name"]), E(("https://" + o["site"]) if o["key"].startswith("g") else "https://" + o["site"].split("/")[0]), E(o["site"]),
                         E(o["summary"]), note, headline_list(o["items"], o["name"])))
 news_html = "".join(news_html)
+news_html = '<div class="news-grid">%s</div>' % news_html
 
 sport_html = "".join(
     '<div class="sport-section"><h3 class="subhead">%s</h3>%s</div>'

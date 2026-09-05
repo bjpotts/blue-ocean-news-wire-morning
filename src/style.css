@@ -125,9 +125,8 @@ a.hl:hover{color:var(--cerulean);}
 a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;
   text-transform:uppercase;color:var(--cerulean);margin-top:3px;}
 
-.cr-grid,.sport-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;}
+.cr-grid,.sport-grid,.news-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;}
 .cr-region,.sport-section,.outlet-section{min-width:0;}
-.outlet-section{border-top:1px solid var(--rule);padding-top:2px;}
 
 .pnw footer{margin-top:38px;padding-top:14px;border-top:3px solid var(--teal);
   font-family:var(--mono);font-size:.7rem;line-height:1.6;color:var(--muted);}
@@ -137,7 +136,7 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
   .wx-strip{grid-template-columns:1fr 1fr 1fr;}
   .wx-place{grid-column:1/-1;border-right:none;border-bottom:1px solid var(--rule-strong);
     padding:0 0 6px;margin:0 0 4px;}
-  .two-col,.cr-grid,.sport-grid{grid-template-columns:1fr;}
+  .two-col,.cr-grid,.sport-grid,.news-grid{grid-template-columns:1fr;}
   .pnw h1{font-size:2.1rem;}
   .pnw{padding:20px 12px 40px;}
 }
@@ -152,7 +151,7 @@ a.hl-src{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-sp
 /* ---------------- print / PDF ---------------- */
 @media print{
   .pnw{max-width:none;padding:0;font-size:10.5pt;background:#fff;color:#111;}
-  .two-col,.cr-grid,.sport-grid{grid-template-columns:1fr !important;}
+  .two-col,.cr-grid,.sport-grid,.news-grid{grid-template-columns:1fr !important;}
   .rate-grid{grid-template-columns:repeat(4,1fr) !important;}
   table.market-table{font-size:7.6pt;}
   table.market-table th,table.market-table td{padding:2px 4px;}
