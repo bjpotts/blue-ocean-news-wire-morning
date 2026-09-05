@@ -3,25 +3,35 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ equity capital markets activity captured this run runs to 2 items, led by Jameson raising $5m to push Crown Mountain coking coal project towards approvals. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for ANZ since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "ANZ equity capital markets activity captured this run runs to 3 items, led by Resources Top 5: Cazaly progressing Romano gold JV, Podium funded for PGM met studies. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for ANZ since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
-     "headline": "Jameson raising $5m to push Crown Mountain coking coal project towards approvals",
-     "detail": "Strong backing from coal and natural resources investors will help Jameson Resources raise up to $5m. ... Read More",
-     "url": "https://stockhead.com.au/resources/jameson-raising-5m-to-push-crown-mountain-coking-coal-project-towards-approvals/",
+     "headline": "Resources Top 5: Cazaly progressing Romano gold JV, Podium funded for PGM met studies",
+     "detail": "Cazaly Resources secures tenements for Romano gold JV with Dundas, Podium raises $4m to fund PGM metallurgical testwork. ... Read More",
+     "url": "https://stockhead.com.au/resources/resources-top-5-cazaly-progressing-romano-gold-jv-podium-funded-for-pgm-met-studies/",
      "outlet": "Stockhead",
      "source_url": "https://stockhead.com.au/feed/",
-     "published": "2026-09-02T05:19:32+00:00",
-     "fetched": "2026-09-03T22:04:53+00:00"
+     "published": "2026-09-04T06:49:13+00:00",
+     "fetched": "2026-09-05T00:19:59+00:00"
     },
     {
-     "headline": "Titomic Raises A$16.5m to Accelerate US Manufacturing Push Ahead of Relocation",
-     "detail": "Titomic raises A$16.5m via placement to fast-track US manufacturing in Huntsville; adds four US orders and Boeing veteran Jim Chilton to the board.",
-     "url": "https://smallcaps.com.au/article/titomic-raises-adollar165m-to-accelerate-us-manufacturing-push-ahead-of-relocation",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/feed",
-     "published": "2026-09-02T01:56:07+00:00",
-     "fetched": "2026-09-03T22:04:55+00:00"
+     "headline": "StockTake: Mount Ridley lands $2M for critical minerals push",
+     "detail": "Funds from the raising will support works at the company's Grass Patch project and its proprietary Selectro processing technology. ... Read More",
+     "url": "https://stockhead.com.au/stockhead-tv/stocktake/stocktake-mount-ridley-lands-2m-for-critical-minerals-push/",
+     "outlet": "Stockhead",
+     "source_url": "https://stockhead.com.au/feed/",
+     "published": "2026-09-04T02:41:48+00:00",
+     "fetched": "2026-09-05T00:19:59+00:00"
+    },
+    {
+     "headline": "FireFly Metals completes $180 million equity raising to support Green Bay growth",
+     "detail": "FireFly Metals (ASX: FFM) has completed an equity raising for a total…",
+     "url": "https://themarketonline.com.au/firefly-metals-completes-180-million-equity-raising-to-support-green-bay-growth-2026-09-04/",
+     "outlet": "The Market Herald",
+     "source_url": "https://themarketherald.com.au/feed/",
+     "published": "2026-09-04T00:54:25+00:00",
+     "fetched": "2026-09-05T00:20:00+00:00"
     }
    ]
   },
@@ -29,6 +39,7 @@
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
    "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by China prepares next phase of national SME fund to boost tech start-ups and IPOs. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 4,
    "items": [
     {
      "headline": "China prepares next phase of national SME fund to boost tech start-ups and IPOs",
@@ -37,7 +48,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-03T12:37:15+00:00",
-     "fetched": "2026-09-03T22:05:05+00:00"
+     "fetched": "2026-09-05T00:20:01+00:00"
     },
     {
      "headline": "Hong Kong regulator reclassifies certain funds with exposure to private markets",
@@ -46,7 +57,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-03T11:12:03+00:00",
-     "fetched": "2026-09-03T22:05:05+00:00"
+     "fetched": "2026-09-05T00:20:01+00:00"
     },
     {
      "headline": "Philippine fast-food giant Jollibee picks Hong Kong over New York for spin-off’s listing",
@@ -55,7 +66,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-02T07:03:43+00:00",
-     "fetched": "2026-09-03T22:05:05+00:00"
+     "fetched": "2026-09-05T00:20:01+00:00"
     },
     {
      "headline": "Shein slips on Hong Kong debut amid fast-fashion challenges",
@@ -64,7 +75,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-01T09:11:19+00:00",
-     "fetched": "2026-09-03T22:05:05+00:00"
+     "fetched": "2026-09-05T00:20:01+00:00"
     }
    ]
   },
@@ -72,6 +83,7 @@
    "key": "us",
    "name": "US",
    "summary": "US equity capital markets activity captured this run runs to 4 items, led by The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
      "headline": "The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million",
@@ -80,7 +92,7 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-08-28T11:28:37+00:00",
-     "fetched": "2026-09-03T22:05:16+00:00"
+     "fetched": "2026-09-05T00:20:04+00:00"
     },
     {
      "headline": "The SPAC IPO Buzz: JATT III Acquisition (JTTT) Jumps 15 Percent in its NASDAQ Debut",
@@ -89,7 +101,7 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-08-26T20:02:22+00:00",
-     "fetched": "2026-09-03T22:05:16+00:00"
+     "fetched": "2026-09-05T00:20:04+00:00"
     },
     {
      "headline": "The IPO Buzz: SoftBank-Backed SB Energy (SBE) Files Plans for Huge IPO",
@@ -98,7 +110,7 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-09-01T16:39:45+00:00",
-     "fetched": "2026-09-03T22:05:16+00:00"
+     "fetched": "2026-09-05T00:20:04+00:00"
     },
     {
      "headline": "The IPO Buzz: Anthropic & Aggreko Stir Anticipation – After Labor Day",
@@ -107,14 +119,15 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-08-31T18:41:23+00:00",
-     "fetched": "2026-09-03T22:05:16+00:00"
+     "fetched": "2026-09-05T00:20:04+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "A single verifiable equity capital markets item was found for UK this run: SpaceX float ‘could kickstart mega IPO access for British retail investors’. No newer capital markets item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "UK equity capital markets activity captured this run runs to 2 items, led by SpaceX float ‘could kickstart mega IPO access for British retail investors’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
      "headline": "SpaceX float ‘could kickstart mega IPO access for British retail investors’",
@@ -123,20 +136,41 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-09-01T06:00:00+00:00",
-     "fetched": "2026-09-03T22:05:25+00:00"
+     "fetched": "2026-09-05T00:20:09+00:00"
+    },
+    {
+     "headline": "London snubbed as Formula 1 announces return of F1 Live show at new venue",
+     "detail": "Formula 1 will repeat the F1 Live event that debuted in London last year with an expanded format and a new host city: Milan.",
+     "url": "https://www.cityam.com/london-snubbed-as-formula-1-announces-return-of-f1-live-show-at-new-venue/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/feed/",
+     "published": "2026-09-04T13:42:42+00:00",
+     "fetched": "2026-09-05T00:20:10+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "No capital raising or new listing activity could be verified from a linked source for Europe this run, so nothing is listed rather than publishing an item without a working URL.",
-   "items": []
+   "summary": "A single verifiable equity capital markets item was found for Europe this run: S&P 500 Ends Week Flat as Strong Jobs Growth Fuels Fed-Hike Bets. No newer capital markets item has been reported for Europe since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
+   "items": [
+    {
+     "headline": "S&P 500 Ends Week Flat as Strong Jobs Growth Fuels Fed-Hike Bets",
+     "detail": "US stocks finished lower on Friday as the American economy ​added more jobs than expected in August, raising expectations that the Federal Reserve may hike interest rates soon.",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-04/us-stock-futures-steady-ahead-of-key-august-jobs-data",
+     "outlet": "Bloomberg",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-09-04T11:50:13+00:00",
+     "fetched": "2026-09-05T00:20:12+00:00"
+    }
+   ]
   },
   {
    "key": "rest",
    "name": "Rest (South America, Middle East, Africa, India etc)",
    "summary": "No capital raising or new listing activity could be verified from a linked source for Rest (South America, Middle East, Africa, India etc) this run, so nothing is listed rather than publishing an item without a working URL.",
+   "fresh_count": 0,
    "items": []
   }
  ]

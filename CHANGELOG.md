@@ -9,11 +9,23 @@ Australia/Sydney, matching the digest's own schedule. Entries begin 2026-08-31.
 
 ### Changed
 
-- Market Earnings Reporting moved from a standalone section after all nine
-  Top Performers regions to sit directly below the ANZ Top Performers block,
-  before the Japan (Asian) Top Performers block continues. The section's own
-  heading, caption, and all six region blocks are unchanged - only its
-  position in the page moved.
+- Three footer/section strings that were hardcoded regardless of what
+  actually happened this run are now computed from real per-run data.
+  The "Story rotation policy" note no longer asserts a fixed claim about
+  the previously published artifact; it now reports the actual fresh vs.
+  repeated item counts from Capital Raises and Market Earnings Reporting,
+  and whether a previous local edition existed to compare against. The
+  "unavailable outlets" footer line is now sourced from a live per-run
+  retry of news.com.au/smh.com.au/9news.com.au/theaustralian.com.au
+  (`fetch_news.py`'s new `check_blocked_outlets()`) instead of a fixed
+  list in `data/config.json`. A duplicate static fallback paragraph under
+  empty Capital Raises regions (stacked on top of the already-dynamic
+  summary) has been removed, matching the earlier Market Earnings fix.
+
+- Market Earnings Reporting is now distributed through Top Performers instead
+  of placing all six earnings regions below ANZ. ANZ earnings follow ANZ Top
+  Performers, Asia earnings follow the four Asian markets, and the US, UK,
+  Europe and Rest earnings blocks each follow their matching market region.
 
 - Market Earnings Reporting now shows the top 5 reports per region (up from 3-4
   depending on region), and an empty region's summary paragraph is now the exact

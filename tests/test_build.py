@@ -16,6 +16,7 @@ from helpers import load_from_source, source_of
 
 B = load_from_source("build.py", [
     "E", "chg_class", "grid", "table", "sourced_para", "rate_cell", "_strip_md",
+    "rotation_note", "blocked_outlets_note",
 ])
 
 
@@ -250,6 +251,68 @@ class FreshnessGuardConfig(unittest.TestCase):
 
     def test_the_override_is_explicit(self):
         self.assertIn("MAX_DATA_AGE_HOURS=0", source_of("build.py"))
+
+    def test_abc_us_and_guardian_are_covered_too(self):
+        src = source_of("build.py")
+        guard = src[src.index("def _check_freshness"):src.index("def _strip_md")]
+        self.assertIn('"news-abcus.json"', guard)
+        self.assertIn('"guardian.json"', guard)
+
+
+class RotationNote(unittest.TestCase):
+    """The footer's story-rotation claim must reflect this run's real
+    fresh-vs-repeated counts, not a fixed statement about a prior run."""
+
+    def _regions(self, fresh_counts, item_counts):
+        return {"regions": [
+            {"items": [0] * n, "fresh_count": f}
+            for f, n in zip(fresh_counts, item_counts)
+        ]}
+
+    def test_no_previous_edition_is_stated_plainly(self):
+        cr = self._regions([0], [3])
+        eg = self._regions([0], [2])
+        note = B["rotation_note"](cr, eg, False)
+        self.assertIn("No previous local edition", note)
+
+    def test_counts_reflect_the_actual_fresh_and_repeated_totals(self):
+        cr = self._regions([2, 0], [3, 1])
+        eg = self._regions([1], [1])
+        note = B["rotation_note"](cr, eg, True)
+        # total=5, fresh=3, repeated=2
+        self.assertIn("5 Capital Raises and Market Earnings Reporting", note)
+        self.assertIn("3 are newly sourced", note)
+        self.assertIn("2 repeat", note)
+
+    def test_zero_tracked_items_does_not_divide_by_zero(self):
+        cr = self._regions([], [])
+        eg = self._regions([], [])
+        note = B["rotation_note"](cr, eg, True)
+        self.assertIn("No rotation-tracked items", note)
+
+    def test_no_hardcoded_prior_run_claim_remains(self):
+        self.assertNotIn("sign-in wall", source_of("build.py"))
+        self.assertNotIn("previously published artifact could not be "
+                          "retrieved", source_of("build.py"))
+
+
+class BlockedOutletsNote(unittest.TestCase):
+    """The footer's blocked-outlet line must come from this run's live
+    retry (fetch_news.py), not a fixed list assumed to still be accurate."""
+
+    def test_none_blocked_says_so_plainly(self):
+        note = B["blocked_outlets_note"]({"blocked": []}, "ABC and SBS")
+        self.assertIn("responded successfully", note)
+
+    def test_blocked_outlets_are_named_from_the_live_check(self):
+        note = B["blocked_outlets_note"](
+            {"blocked": ["news.com.au", "smh.com.au"]}, "ABC and SBS")
+        self.assertIn("news.com.au, smh.com.au", note)
+        self.assertIn("ABC and SBS", note)
+
+    def test_config_no_longer_provides_a_fixed_outlet_list_to_the_footer(self):
+        src = source_of("build.py")
+        self.assertNotIn('cfg["footer"]["unavailable_outlets"]', src)
 
 
 if __name__ == "__main__":

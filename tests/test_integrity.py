@@ -242,31 +242,38 @@ class EarningsData(unittest.TestCase):
 
 
 class EarningsSectionRendering(DigestTestCase):
-    def test_the_heading_sits_directly_below_anz_top_performers(self):
-        m = re.search(
-            r'ANZ Top Performers.*?Market Earnings Reporting</h3>.*?'
-            r'Japan Top Performers', self.html, re.S)
-        self.assertIsNotNone(m, "Market Earnings Reporting is not positioned "
-                                 "directly below ANZ Top Performers")
+    def test_each_earnings_block_follows_its_matching_performer_region(self):
+        expected = [
+            ("ANZ Top Performers", "anz", "Japan Top Performers"),
+            ("China (Mainland) Top Performers", "asia", "US Top Performers"),
+            ("US Top Performers", "us", "UK (London) Top Performers"),
+            ("UK (London) Top Performers", "uk", "European Top Performers"),
+            ("European Top Performers", "europe", "Latin American Top Performers"),
+            ("Latin American Top Performers", "rest", "Capital Raises"),
+        ]
+        for performer, earnings_key, following in expected:
+            match = re.search(
+                re.escape(performer) + r'.*?data-earnings-region="' +
+                re.escape(earnings_key) + r'".*?' + re.escape(following),
+                self.html, re.S)
+            self.assertIsNotNone(
+                match, "%s earnings are not directly after %s" %
+                (earnings_key, performer))
 
     def test_one_region_block_per_configured_region(self):
         e = data("earnings.json")
         if not e:
             self.skipTest("no earnings data")
-        i = self.html.find("Market Earnings Reporting")
-        j = self.html.find("Japan Top Performers", i)
-        section = self.html[i:j]
-        self.assertEqual(section.count('class="cr-region"'), len(e["regions"]))
+        keys = re.findall(r'data-earnings-region="([^"]+)"', self.html)
+        self.assertEqual(keys, [r["key"] for r in e["regions"]])
 
     def test_every_earnings_item_in_the_page_is_linked(self):
         e = data("earnings.json")
         if not e:
             self.skipTest("no earnings data")
-        i = self.html.find("Market Earnings Reporting")
-        j = self.html.find("Japan Top Performers", i)
-        section = self.html[i:j]
-        for li in re.findall(r"<li>(.*?)</li>", section, re.S):
-            self.assertRegex(li, r'<a[^>]+href="https?://', li[:160])
+        for region in e["regions"]:
+            for item in region["items"]:
+                self.assertIn('href="%s"' % item["url"], self.html)
 
 
 if __name__ == "__main__":

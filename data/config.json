@@ -310,12 +310,6 @@
  },
  "footer": {
   "disclaimer": "This page is a summary of publicly reported information assembled for general information only. It does not take account of any person's objectives, financial situation or needs, and is not a recommendation to buy, hold or sell any security.",
-  "unavailable_outlets": [
-   "news.com.au",
-   "smh.com.au",
-   "9news.com.au",
-   "theaustralian.com.au"
-  ],
   "working_substitutes": "ABC News and SBS News"
  },
  "currency_grid": {

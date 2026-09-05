@@ -9,11 +9,34 @@ serve stale cached HTML to non-browser clients).
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 from feedlib import (fetch, parse_feed, parse_news_sitemap, provenance,
                      recent, trim, dedupe)
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+
+# Outlets that have historically blocked automated fetches (CAPTCHA/anti-bot
+# walls). Re-attempted every run rather than assumed permanently blocked from
+# a fixed list, so the footer reports what genuinely failed today.
+BLOCKED_CANDIDATES = [
+    ("news.com.au", "https://www.news.com.au/"),
+    ("smh.com.au", "https://www.smh.com.au/"),
+    ("9news.com.au", "https://www.9news.com.au/"),
+    ("theaustralian.com.au", "https://www.theaustralian.com.au/"),
+]
+
+
+def check_blocked_outlets():
+    """Live per-run attempt at each historically-blocked outlet. A short,
+    heavily-truncated response is treated as still blocked (a CAPTCHA/login
+    interstitial rather than the real homepage)."""
+    still_unavailable = []
+    for name, url in BLOCKED_CANDIDATES:
+        body = fetch(url, tries=1, timeout=12)
+        if not body or len(body) < 2000:
+            still_unavailable.append(name)
+    return still_unavailable
 
 # key, name, site, rss, how many items, optional URL filter, summary lead-in
 OUTLETS_A = [
@@ -125,6 +148,7 @@ def main():
     a = [build_outlet(s, seen_urls, seen_titles) for s in OUTLETS_A]
     abcus = build_outlet(ABC_US, seen_urls, seen_titles)
     b = [build_outlet(s, seen_urls, seen_titles) for s in OUTLETS_B]
+    blocked = check_blocked_outlets()
 
     for group, label in ((a, "news-a"), (b, "news-b")):
         for o in group:
@@ -132,11 +156,16 @@ def main():
             if not o["items"]:
                 ok = False
     print("  news-abcus %-28s %d items" % (abcus["name"], len(abcus["items"])))
+    print("  blocked outlets still unavailable this run: %s"
+          % (", ".join(blocked) if blocked else "none"))
 
     with open(os.path.join(D, "news-a.json"), "w") as f:
         json.dump({"outlets": a}, f, indent=1, ensure_ascii=False)
     with open(os.path.join(D, "news-b.json"), "w") as f:
-        json.dump({"outlets": b, "blocked": []}, f, indent=1, ensure_ascii=False)
+        json.dump({"outlets": b, "blocked": blocked,
+                   "blocked_checked_at": datetime.now(timezone.utc)
+                   .isoformat(timespec="seconds")},
+                  f, indent=1, ensure_ascii=False)
     with open(os.path.join(D, "news-abcus.json"), "w") as f:
         json.dump({"outlet": abcus}, f, indent=1, ensure_ascii=False)
 

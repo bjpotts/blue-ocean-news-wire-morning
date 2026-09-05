@@ -9,6 +9,10 @@ OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public", "digest
 PREVIEW = os.path.join(os.path.dirname(os.path.abspath(__file__)), "preview.html")
 CSS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src", "style.css")
 
+# Captured before OUT is overwritten below, so the footer's rotation note can
+# state honestly whether a prior local edition existed to compare against.
+HAD_PREVIOUS_EDITION = os.path.exists(OUT)
+
 MAX_AGE_HOURS = int(os.environ.get("MAX_DATA_AGE_HOURS", "36"))
 
 def load(n):
@@ -34,6 +38,8 @@ def _check_freshness():
         "tech.json": "Technology news",
         "news-a.json": "World news (set A)",
         "news-b.json": "World news (set B)",
+        "news-abcus.json": "World news (ABC News US)",
+        "guardian.json": "World news (The Guardian editions)",
         "sport.json": "World sport",
         "weather.json": "Weather",
     }
@@ -384,6 +390,49 @@ def sourced_para(text, sources):
         h += ' <a href="%s">%s</a>.' % (E(s["url"]), E(s["title"]))
     return h
 
+def rotation_note(cr, eg, had_previous):
+    """Story-rotation status for the footer, computed from this run's actual
+    fresh-vs-repeated counts (fetch_capraises.py/fetch_earnings.py) rather
+    than a fixed claim baked into the template."""
+    regions = cr["regions"] + eg["regions"]
+    total = sum(len(r["items"]) for r in regions)
+    fresh = sum(r.get("fresh_count", 0) for r in regions)
+    repeated = total - fresh
+    if not had_previous:
+        basis = ("No previous local edition of this project existed before "
+                 "this run, so every item was necessarily sourced fresh.")
+    elif total == 0:
+        basis = ("No rotation-tracked items were available to compare this "
+                 "run.")
+    else:
+        basis = ("Of the %d Capital Raises and Market Earnings Reporting "
+                 "items carried this run, %d are newly sourced since the "
+                 "last local build and %d repeat a still-current item "
+                 "because no fresher verified source was found for that "
+                 "region." % (total, fresh, repeated))
+    return ("Each edition's Capital Raises and Market Earnings Reporting "
+            "items are compared against the last local build's linked "
+            "items (not a live re-fetch of the previously published page). "
+            "%s World News, Tech and World Sport headlines are pulled fresh "
+            "from live feeds every run, though they are not currently "
+            "checked against the prior edition's exact wording. Market "
+            "data, mover tables and all written summary paragraphs are "
+            "re-gathered and rewritten every run." % basis)
+
+
+def blocked_outlets_note(nb, substitutes):
+    """Footer line for historically-blocked AU outlets, sourced from this
+    run's real retry (fetch_news.py's check_blocked_outlets), not a fixed
+    list assumed to still be accurate."""
+    blocked = nb.get("blocked", [])
+    if not blocked:
+        return ("All previously-blocked Australian outlets responded "
+                "successfully when re-attempted this run.")
+    return ("Outlets attempted and still unavailable this run: %s. Working "
+            "Australian substitutes %s are carried above."
+            % (", ".join(blocked), substitutes))
+
+
 def perf_block(m, first=False):
     cls = "perf-block" if first else "perf-block page-break-before"
     return """<div class="%s">
@@ -418,10 +467,6 @@ if us_rewrite.get("enabled"):
 
 seq = cfg["performers_sequence"]
 _perf_blocks = [perf_block(order[k], first=(i == 0)) for i, k in enumerate(seq)]
-# ANZ (index 0) sits above Market Earnings Reporting; every other region's
-# block continues below it, so the ANZ block is split out on its own.
-perf_html_anz = _perf_blocks[0]
-perf_html_rest = "\n".join(_perf_blocks[1:])
 
 # ---------------------------------------------------------------- lists
 def headline_list(items, outlet_key=None):
@@ -436,20 +481,38 @@ def headline_list(items, outlet_key=None):
 
 cr_html = []
 for r in cr["regions"]:
-    body = headline_list(r["items"]) if r["items"] else \
-        '<p class="mover-note">No capital raise or new listing item with a verifiable source URL was found for this region in the current window.</p>'
+    # r["summary"] already states plainly when nothing verifiable was found
+    # for this region this run, so no separate fallback paragraph is needed.
+    body = headline_list(r["items"]) if r["items"] else ""
     cr_html.append('<div class="cr-region"><h3 class="subhead">%s</h3>'
                    '<p class="mover-note">%s</p>%s</div>' % (E(r["name"]), E(r["summary"]), body))
 cr_html = '<div class="cr-grid">%s</div>' % "".join(cr_html)
 
-eg_html = []
+earnings_by_region = {}
 for r in eg["regions"]:
-    # summary() already states plainly when nothing verifiable was found,
-    # so no separate fallback paragraph is needed for the empty case.
     body = headline_list(r["items"]) if r["items"] else ""
-    eg_html.append('<div class="cr-region"><h3 class="subhead">%s</h3>'
-                   '<p class="mover-note">%s</p>%s</div>' % (E(r["name"]), E(r["summary"]), body))
-eg_html = '<div class="cr-grid">%s</div>' % "".join(eg_html)
+    earnings_by_region[r["key"]] = (
+        '<div class="cr-region market-earnings-block page-break-before" '
+        'data-earnings-region="%s"><h3 class="subhead">%s — %s</h3>'
+        '<p class="caption">%s</p><p class="mover-note">%s</p>%s</div>'
+        % (E(r["key"]), E(secs["market_earnings"]["heading"]), E(r["name"]),
+           E(secs["market_earnings"]["caption"]), E(r["summary"]), body))
+
+earnings_after_performer = {
+    "anz": "anz",
+    "china": "asia",
+    "us": "us",
+    "uk": "uk",
+    "germany": "europe",
+    "brazil": "rest",
+}
+perf_earnings_html = []
+for key, block in zip(seq, _perf_blocks):
+    perf_earnings_html.append(block)
+    earnings_key = earnings_after_performer.get(key)
+    if earnings_key:
+        perf_earnings_html.append(earnings_by_region[earnings_key])
+perf_earnings_html = "\n".join(perf_earnings_html)
 
 tech_html = headline_list(tech["items"])
 
@@ -571,12 +634,6 @@ HTML = """<div class="pnw">
 <p class="caption">%s</p>
 %s
 
-<h3 class="subhead page-break-before">%s</h3>
-<p class="caption">%s</p>
-%s
-
-%s
-
 <h2>%s</h2>
 <p class="section-caption">%s</p>
 %s
@@ -593,10 +650,10 @@ HTML = """<div class="pnw">
 
 <footer>
 <p><strong>%s</strong> - a public news digest published by %s, an independent Australian securities and equities advisory firm (<a href="%s" target="_blank" rel="noopener">%s</a>). %s Edition: %s.</p>
-<p><strong>Story rotation policy:</strong> each edition is compared against the previously published version of this page. A headline carried in the prior edition is not repeated verbatim unless it remains the leading, actively developing story on its topic, in which case it is refreshed with the latest angle. Market data, mover tables and all written summary paragraphs are re-gathered and rewritten every run. On this run the previously published artifact could not be retrieved for comparison (the hosted copy returned a sign-in wall and no local prior edition exists in the project), so every item was sourced fresh.</p>
+<p><strong>Story rotation policy:</strong> a headline carried in the prior edition is not repeated verbatim unless it remains the leading, actively developing story on its topic, in which case it is refreshed with the latest angle. %s</p>
 <p><strong>Sourcing:</strong> every headline, rate, index, commodity, equity and sports result on this page links to its source. Items without a verifiable working URL were dropped rather than published unlinked. Where a source publishes turnover rather than share volume, volumes are derived as turnover divided by last price and prefixed with a tilde, as noted in the relevant caption. Commodity cells marked <span class="rc-sub">stale</span> had not refreshed past the prior day's print; the rare earths cell is an equity <span class="rc-sub">proxy</span> (MP Materials, NYSE: MP) as no reliable daily spot benchmark is published.</p>
 <p><strong>Not investment advice.</strong> %s</p>
-<p>Outlets attempted and still unavailable this run: %s. Working Australian substitutes %s are carried above.</p>
+<p>%s</p>
 </footer>
 
 </div>
@@ -612,17 +669,15 @@ HTML = """<div class="pnw">
     "page-break-before" if secs["commodities"].get("page_break_before") else "",
     E(secs["commodities"]["heading"]), sourced_para(cm["summary"], cm.get("summary_sources")), grid(com_cells),
     "page-break-before" if secs["top_performers"].get("page_break_before") else "",
-    E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_html_anz,
-    E(secs["market_earnings"]["heading"]), secs["market_earnings"]["caption"], eg_html,
-    perf_html_rest,
+    E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_earnings_html,
     E(secs["capital_raises"]["heading"]), secs["capital_raises"]["caption"], cr_html,
     E(secs["tech"]["heading"]), secs["tech"]["caption"], tech_html,
     E(secs["world_news"]["heading"]), news_html,
     E(secs["world_sport"]["heading"]), sport_html,
     E(br["name"]), E(br["company"]), E(br["site_url"]), E(br["site"]), GEN_NOTE, EDITION,
+    E(rotation_note(cr, eg, HAD_PREVIOUS_EDITION)),
     E(cfg["footer"]["disclaimer"]),
-    ", ".join(cfg["footer"]["unavailable_outlets"]),
-    cfg["footer"]["working_substitutes"]
+    E(blocked_outlets_note(nb, cfg["footer"]["working_substitutes"]))
 )
 
 with open(OUT, "w") as f:

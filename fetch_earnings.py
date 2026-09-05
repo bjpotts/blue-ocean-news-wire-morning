@@ -157,8 +157,10 @@ def main():
                  max(0, len(picked) - len(fresh))))
         if not picked:
             empty.append(name)
+        fresh_n = min(len(fresh), len(picked))
         regions.append({"key": key, "name": name,
-                        "summary": summarise(name, picked, min(len(fresh), len(picked))),
+                        "summary": summarise(name, picked, fresh_n),
+                        "fresh_count": fresh_n,
                         "items": picked})
 
     with open(os.path.join(D, "earnings.json"), "w") as f:

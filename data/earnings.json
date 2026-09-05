@@ -4,12 +4,14 @@
    "key": "anz",
    "name": "ANZ",
    "summary": "No Company earnings reports available.",
+   "fresh_count": 0,
    "items": []
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
    "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 4 items, led by Sino Land profit rises 14% as property losses narrow, but core earnings fall. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
      "headline": "Sino Land profit rises 14% as property losses narrow, but core earnings fall",
@@ -18,7 +20,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-01T12:00:24+00:00",
-     "fetched": "2026-09-04T14:27:22+00:00"
+     "fetched": "2026-09-05T00:20:18+00:00"
     },
     {
      "headline": "China’s Z.ai revenue jumps 400% as total losses narrow on explosive cloud gains",
@@ -27,7 +29,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-08-31T11:43:48+00:00",
-     "fetched": "2026-09-04T14:27:22+00:00"
+     "fetched": "2026-09-05T00:20:18+00:00"
     },
     {
      "headline": "PetroChina’s first-half profit jumps 22% as higher oil prices offset Iran war supply hit",
@@ -36,7 +38,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-08-31T11:23:10+00:00",
-     "fetched": "2026-09-04T14:27:22+00:00"
+     "fetched": "2026-09-05T00:20:18+00:00"
     },
     {
      "headline": "China’s 6 biggest state banks post rare shared growth as margins show tentative rebound",
@@ -45,59 +47,60 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-08-31T07:00:05+00:00",
-     "fetched": "2026-09-04T14:27:22+00:00"
+     "fetched": "2026-09-05T00:20:18+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Hewlett Packard Enterprise Q3 Earnings Call Highlights. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Looking Ahead to the Q3 Earnings Season: What to Expect. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 5,
    "items": [
     {
-     "headline": "Hewlett Packard Enterprise Q3 Earnings Call Highlights",
-     "detail": "The Trade Desk’s Earnings Miss Raises a Bigger Question About Its AI FutureHewlett Packard Enterprise (NYSE:HPE) reported record fiscal 2026 third-quarter results, citing accelerating demand for AI infrastructure, continued networking…",
-     "url": "https://www.nasdaq.com/articles/hewlett-packard-enterprise-q3-earnings-call-highlights",
+     "headline": "Looking Ahead to the Q3 Earnings Season: What to Expect",
+     "detail": "2026 Q3 earnings for the S&P 500 index are expected to increase by +23% from the same period last year on +11.2% higher revenues, reflecting the 13th consecutive period of growth.",
+     "url": "https://www.nasdaq.com/articles/looking-ahead-q3-earnings-season-what-expect",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-02T23:03:19+00:00",
-     "fetched": "2026-09-04T14:27:24+00:00"
+     "published": "2026-09-04T22:05:00+00:00",
+     "fetched": "2026-09-05T00:20:23+00:00"
     },
     {
-     "headline": "Five Below Q2 Earnings Call Highlights",
-     "detail": "MarketBeat Week in Review – 08/24 - 08/28Five Below (NASDAQ:FIVE) reported second-quarter fiscal 2026 results that exceeded its expectations, with sales rising 23% to $1.3 billion and adjusted diluted earnings per share more than doubling…",
-     "url": "https://www.nasdaq.com/articles/five-below-q2-earnings-call-highlights",
+     "headline": "Zscaler Q4 Earnings Call Highlights",
+     "detail": "Contrarian Alert: 5 Downgraded Stocks That May Reward Long-Term InvestorsZscaler (NASDAQ:ZS) reported fourth-quarter fiscal 2026 revenue of $898 million, up 25% from a year earlier and 6% sequentially, as the cybersecurity company cited…",
+     "url": "https://www.nasdaq.com/articles/zscaler-q4-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-02T23:03:18+00:00",
-     "fetched": "2026-09-04T14:27:24+00:00"
+     "published": "2026-09-03T23:04:00+00:00",
+     "fetched": "2026-09-05T00:20:23+00:00"
     },
     {
-     "headline": "Broadcom Q3 Earnings Call Highlights",
-     "detail": "Broadcom’s Earnings Test Comes With a Higher Bar After NVIDIA’s BlowoutBroadcom (NASDAQ:AVGO) reported record third-quarter fiscal 2026 revenue, operating income and free cash flow, driven by sharply higher demand for artificial…",
-     "url": "https://www.nasdaq.com/articles/broadcom-q3-earnings-call-highlights",
+     "headline": "Oxford Industries Q2 Earnings Call Highlights",
+     "detail": "MarketBeat ‘Stock of the Week’: FIGS has healthy growth prospectsOxford Industries (NYSE:OXM) reported second-quarter fiscal 2026 results that were within its expectations, as improved gross margin and adjusted earnings per share growth…",
+     "url": "https://www.nasdaq.com/articles/oxford-industries-q2-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-02T23:03:18+00:00",
-     "fetched": "2026-09-04T14:27:24+00:00"
+     "published": "2026-09-03T22:03:39+00:00",
+     "fetched": "2026-09-05T00:20:23+00:00"
     },
     {
-     "headline": "S&P 500 Q3 Earnings Preview: Earnings and Revenue Growth Expected to Surge",
-     "detail": "For 2026 Q3, the expectation is that total S&P 500 earnings will increase +23.0% from the same period last year on +11.1% higher revenues, with 14 of the 16 Zacks expected to enjoy positive earnings growth and 6 sectors producing…",
-     "url": "https://www.nasdaq.com/articles/sp-500-q3-earnings-preview-earnings-and-revenue-growth-expected-surge-0",
+     "headline": "Smith & Wesson Brands Q1 Earnings Call Highlights",
+     "detail": "Value Alert: 3 High-Yield Stocks Trading at 52-Week Lows Smith & Wesson Brands (NASDAQ:SWBI) reported higher first-quarter fiscal 2027 sales and a return to profitability, citing demand across its consumer and professional firearms…",
+     "url": "https://www.nasdaq.com/articles/smith-wesson-brands-q1-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-02T21:20:00+00:00",
-     "fetched": "2026-09-04T14:27:24+00:00"
+     "published": "2026-09-03T22:03:38+00:00",
+     "fetched": "2026-09-05T00:20:23+00:00"
     },
     {
-     "headline": "Pre-Market Earnings Report for September 3, 2026 : CIEN, TTC, CPB, VSXY, DOO, WLY, VBNK, LE, GCO, DLTH",
-     "detail": "The following companies are expected to report earnings prior to market open on 09/03/2026.",
-     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-3-2026-cien-ttc-cpb-vsxy-doo-wly-vbnk-le-gco-dlth",
+     "headline": "American Outdoor Brands Q1 Earnings Call Highlights",
+     "detail": "3 Solid Consumer Brands Offering Stability in Volatile MarketsAmerican Outdoor Brands (NASDAQ:AOUT) reported a strong start to fiscal 2027, with first-quarter net sales rising 25.4% year over year to $37.3 million and adjusted EBITDA…",
+     "url": "https://www.nasdaq.com/articles/american-outdoor-brands-q1-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-02T20:00:01+00:00",
-     "fetched": "2026-09-04T14:27:24+00:00"
+     "published": "2026-09-03T22:03:38+00:00",
+     "fetched": "2026-09-05T00:20:23+00:00"
     }
    ]
   },
@@ -105,6 +108,7 @@
    "key": "uk",
    "name": "UK",
    "summary": "A single verifiable earnings item was found for UK this run: Giving up vegan arm helps Britain’s biggest meatpacker eye profit surge. No newer earnings item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
      "headline": "Giving up vegan arm helps Britain’s biggest meatpacker eye profit surge",
@@ -113,7 +117,7 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-09-03T07:19:25+00:00",
-     "fetched": "2026-09-04T14:27:27+00:00"
+     "fetched": "2026-09-05T00:20:25+00:00"
     }
    ]
   },
@@ -121,12 +125,14 @@
    "key": "europe",
    "name": "Europe",
    "summary": "No Company earnings reports available.",
+   "fresh_count": 0,
    "items": []
   },
   {
    "key": "rest",
    "name": "Rest (South America, Middle East, Africa, India etc)",
    "summary": "No Company earnings reports available.",
+   "fresh_count": 0,
    "items": []
   }
  ]

@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Lindsay Clancy trial: Tensions flare as defense blames 1 juror for deadlock; LIVE: ABC News Live; Trump administration files urgent appeal with Supreme Court over mail-in ballot rules.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Lindsay Clancy trial declared a mistrial. What happens next?; LIVE: ABC News Live; Federal judge extends block on new USPS mail ballot rules.",
   "note": null,
   "items": [
    {
-    "headline": "Lindsay Clancy trial: Tensions flare as defense blames 1 juror for deadlock",
-    "detail": "The trial of Lindsay Clancy, the Massachusetts mom who killed her three young children in January 2023, has reached its final stages.",
-    "url": "https://abcnews.go.com/GMA/News/live-updates/lindsay-clancy-trial-jurors-resume-deliberations/?id=136086599",
+    "headline": "Lindsay Clancy trial declared a mistrial. What happens next?",
+    "detail": "With the Lindsay Clancy jury unable to reach a verdict, here is what may happen next.",
+    "url": "https://abcnews.go.com/GMA/News/lindsay-clancy-jury-deadlocked/story?id=136153308",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-03T17:10:57-04:00",
-    "fetched": "2026-09-03T22:06:34+00:00"
+    "published": "2026-09-04T18:49:57-04:00",
+    "fetched": "2026-09-05T00:20:39+00:00"
    },
    {
     "headline": "LIVE: ABC News Live",
     "detail": "24/7 coverage of breaking news and live events",
     "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-03T16:27:27-04:00",
-    "fetched": "2026-09-03T22:06:34+00:00"
+    "published": "2026-09-04T17:15:12-04:00",
+    "fetched": "2026-09-05T00:20:39+00:00"
    },
    {
-    "headline": "Trump administration files urgent appeal with Supreme Court over mail-in ballot rules",
-    "detail": "The Trump administration filed an urgent appeal with the U.S. Supreme Court seeking permission to immediately implement new U.S. Postal Service rules for mail ballots.",
-    "url": "https://abcnews.go.com/Politics/trump-administration-files-urgent-appeal-supreme-court-usps/story?id=136187030",
+    "headline": "Federal judge extends block on new USPS mail ballot rules",
+    "detail": "The judge handling the legal battle over new U.S. Postal Service mail ballot rules extended her block of the rules for the November midterms.",
+    "url": "https://abcnews.go.com/Politics/federal-judge-extends-block-new-usps-mail-ballot/story?id=136215058",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-03T16:58:12-04:00",
-    "fetched": "2026-09-03T22:06:34+00:00"
+    "published": "2026-09-04T18:58:55-04:00",
+    "fetched": "2026-09-05T00:20:39+00:00"
    },
    {
-    "headline": "Excavation work to build Trump's arch to begin over next 2 weeks: Interior secretary",
-    "detail": "Excavation work for the construction of President Donald Trump's \"triumphal arch\" will begin over the next two weeks, Interior Secretary Doug Burgum announced.",
-    "url": "https://abcnews.go.com/Politics/excavation-work-build-trumps-triumphal-arch-begin-2/story?id=136188063",
+    "headline": "Rescue satellite gets close to NASA's doomed telescope, even if it can't save it",
+    "detail": "A private spacecraft that was supposed to save NASA's sinking Swift Observatory has managed to come within nine miles of the doomed spacecraft and even snap pictures",
+    "url": "https://abcnews.go.com/Technology/wireStory/rescue-satellite-gets-close-nasas-doomed-telescope-save-136203113",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-03T17:57:32-04:00",
-    "fetched": "2026-09-03T22:06:34+00:00"
+    "published": "2026-09-04T11:08:28-04:00",
+    "fetched": "2026-09-05T00:20:39+00:00"
    },
    {
-    "headline": "WATCH: 1st look at Billie Jean King documentary",
-    "detail": "The ESPN 30 for 30 documentary “Give Me the Ball!,” takes a look at the personal story behind King's high-profile battles and premieres Nov. 22 on ESPN.",
-    "url": "https://abcnews.go.com/video/136181091/",
+    "headline": "WATCH: Nat Geo’s 'Moment on the Earth' spotlights the shaggy sea hare",
+    "detail": "National Geographic’s Photo Ark spotlights a ragged sea hare, or shaggy sea hare, as it celebrates 20 years of documenting biodiversity and inspiring wildlife conservation.",
+    "url": "https://abcnews.go.com/video/136209595/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-03T14:22:53-04:00",
-    "fetched": "2026-09-03T22:06:34+00:00"
+    "published": "2026-09-04T16:19:36-04:00",
+    "fetched": "2026-09-05T00:20:39+00:00"
    }
   ]
  }
