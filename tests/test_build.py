@@ -280,7 +280,7 @@ class RotationNote(unittest.TestCase):
         eg = self._regions([1], [1])
         note = B["rotation_note"](cr, eg, True)
         # total=5, fresh=3, repeated=2
-        self.assertIn("5 Capital Raises and Market Earnings Reporting", note)
+        self.assertIn("5 Capital Raises and Market Earnings Reports", note)
         self.assertIn("3 are newly sourced", note)
         self.assertIn("2 repeat", note)
 

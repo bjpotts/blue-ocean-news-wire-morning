@@ -251,21 +251,30 @@ class EarningsSectionRendering(DigestTestCase):
             ("European Top Performers", "europe", "Latin American Top Performers"),
             ("Latin American Top Performers", "rest", "Capital Raises"),
         ]
+        e = data("earnings.json")
+        has_items = {r["key"]: bool(r["items"]) for r in e["regions"]} if e else {}
         for performer, earnings_key, following in expected:
             match = re.search(
                 re.escape(performer) + r'.*?data-earnings-region="' +
                 re.escape(earnings_key) + r'".*?' + re.escape(following),
                 self.html, re.S)
-            self.assertIsNotNone(
-                match, "%s earnings are not directly after %s" %
-                (earnings_key, performer))
+            if has_items.get(earnings_key):
+                self.assertIsNotNone(
+                    match, "%s earnings are not directly after %s" %
+                    (earnings_key, performer))
+            else:
+                # A region with nothing verifiable is dropped entirely rather
+                # than rendering an empty "no reports" block.
+                self.assertIsNone(
+                    match, "%s has no items but still rendered a block" %
+                    earnings_key)
 
     def test_one_region_block_per_configured_region(self):
         e = data("earnings.json")
         if not e:
             self.skipTest("no earnings data")
         keys = re.findall(r'data-earnings-region="([^"]+)"', self.html)
-        self.assertEqual(keys, [r["key"] for r in e["regions"]])
+        self.assertEqual(keys, [r["key"] for r in e["regions"] if r["items"]])
 
     def test_every_earnings_item_in_the_page_is_linked(self):
         e = data("earnings.json")

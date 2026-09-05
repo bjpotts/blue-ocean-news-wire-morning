@@ -405,12 +405,12 @@ def rotation_note(cr, eg, had_previous):
         basis = ("No rotation-tracked items were available to compare this "
                  "run.")
     else:
-        basis = ("Of the %d Capital Raises and Market Earnings Reporting "
+        basis = ("Of the %d Capital Raises and Market Earnings Reports "
                  "items carried this run, %d are newly sourced since the "
                  "last local build and %d repeat a still-current item "
                  "because no fresher verified source was found for that "
                  "region." % (total, fresh, repeated))
-    return ("Each edition's Capital Raises and Market Earnings Reporting "
+    return ("Each edition's Capital Raises and Market Earnings Reports "
             "items are compared against the last local build's linked "
             "items (not a live re-fetch of the previously published page). "
             "%s World News, Tech and World Sport headlines are pulled fresh "
@@ -490,13 +490,16 @@ cr_html = '<div class="cr-grid">%s</div>' % "".join(cr_html)
 
 earnings_by_region = {}
 for r in eg["regions"]:
-    body = headline_list(r["items"]) if r["items"] else ""
+    if not r["items"]:
+        # A region with nothing verifiable is dropped entirely rather than
+        # rendering an empty "no reports" block under a live performer region.
+        continue
     earnings_by_region[r["key"]] = (
         '<div class="cr-region market-earnings-block page-break-before" '
         'data-earnings-region="%s"><h3 class="subhead">%s — %s</h3>'
         '<p class="caption">%s</p><p class="mover-note">%s</p>%s</div>'
         % (E(r["key"]), E(secs["market_earnings"]["heading"]), E(r["name"]),
-           E(secs["market_earnings"]["caption"]), E(r["summary"]), body))
+           E(secs["market_earnings"]["caption"]), E(r["summary"]), headline_list(r["items"])))
 
 earnings_after_performer = {
     "anz": "anz",
@@ -510,7 +513,7 @@ perf_earnings_html = []
 for key, block in zip(seq, _perf_blocks):
     perf_earnings_html.append(block)
     earnings_key = earnings_after_performer.get(key)
-    if earnings_key:
+    if earnings_key and earnings_key in earnings_by_region:
         perf_earnings_html.append(earnings_by_region[earnings_key])
 perf_earnings_html = "\n".join(perf_earnings_html)
 
