@@ -27,6 +27,34 @@ def edition_suffix():
     return "am" if 4 <= sydney_hour < 16 else "pm"
 
 
+def edition_date():
+    """The edition date as printed in the masthead dateline, so the page
+    footer matches the report rather than the print job's own clock."""
+    if PREVIEW.exists():
+        m = re.search(
+            r"(\w+day \d{1,2} \w+ \d{4})", PREVIEW.read_text())
+        if m:
+            return m.group(1)
+    return datetime.now().strftime("%A %d %B %Y")
+
+
+def footer_template():
+    """Per-page footer: Blue Ocean Equities left, page number centred, the
+    edition date right, under a cerulean rule matching the page palette."""
+    return (
+        '<div style="width:100%;font-size:10px;font-family:\'IBM Plex Mono\','
+        'ui-monospace,Menlo,monospace;color:#5b7078;padding:0 12mm;'
+        '-webkit-print-color-adjust:exact;">'
+        '<div style="border-top:1px solid #00A0D2;padding-top:4px;'
+        'display:flex;align-items:center;">'
+        '<span style="flex:1;text-align:left;">Blue Ocean Equities</span>'
+        '<span style="flex:1;text-align:center;">'
+        '<span class="pageNumber"></span></span>'
+        '<span style="flex:1;text-align:right;">' + edition_date() + "</span>"
+        "</div></div>"
+    )
+
+
 def output_path():
     date_str = datetime.now().strftime("%Y-%m-%d")
     return ROOT / f"market-wrap-up-{date_str}-{edition_suffix()}.pdf"
@@ -50,7 +78,10 @@ async def render_pdf():
             path=str(out),
             format="A4",
             print_background=True,
-            margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
+            display_header_footer=True,
+            header_template="<div></div>",
+            footer_template=footer_template(),
+            margin={"top": "12mm", "right": "12mm", "bottom": "18mm", "left": "12mm"},
         )
         await browser.close()
 
