@@ -517,7 +517,7 @@ for key, block in zip(seq, _perf_blocks):
         perf_earnings_html.append(earnings_by_region[earnings_key])
 perf_earnings_html = "\n".join(perf_earnings_html)
 
-tech_html = headline_list(tech["items"])
+tech_html = '<div class="sport-section">%s</div>' % headline_list(tech["items"])
 
 outlets = na["outlets"] + nb["outlets"]
 # ABC News (US) slots in with the US broadcast outlets, after Fox and before the WSJ.
@@ -643,7 +643,6 @@ HTML = """<div class="pnw">
 %s
 
 <h2 class="page-break-before">%s</h2>
-<p class="section-caption">%s</p>
 %s
 
 <h2 class="page-break-before">%s</h2>
@@ -675,7 +674,7 @@ HTML = """<div class="pnw">
     "page-break-before" if secs["top_performers"].get("page_break_before") else "",
     E(secs["top_performers"]["heading"]), secs["top_performers"]["caption"], perf_earnings_html,
     E(secs["capital_raises"]["heading"]), secs["capital_raises"]["caption"], cr_html,
-    E(secs["tech"]["heading"]), secs["tech"]["caption"], tech_html,
+    E(secs["tech"]["heading"]), tech_html,
     E(secs["world_news"]["heading"]), news_html,
     E(secs["world_sport"]["heading"]), sport_html,
     E(br["name"]), E(br["company"]), E(br["site_url"]), E(br["site"]), GEN_NOTE, EDITION,
