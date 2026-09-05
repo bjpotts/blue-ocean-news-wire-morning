@@ -517,7 +517,8 @@ for key, block in zip(seq, _perf_blocks):
         perf_earnings_html.append(earnings_by_region[earnings_key])
 perf_earnings_html = "\n".join(perf_earnings_html)
 
-tech_html = '<div class="sport-section">%s</div>' % headline_list(tech["items"])
+tech_html = ('<div class="sport-section"><h3 class="subhead">Global Technology</h3>%s</div>'
+             % headline_list(tech["items"]))
 
 outlets = na["outlets"] + nb["outlets"]
 # ABC News (US) slots in with the US broadcast outlets, after Fox and before the WSJ.
