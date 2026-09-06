@@ -13,7 +13,7 @@
      "outlet": "Stockhead",
      "source_url": "https://stockhead.com.au/feed/",
      "published": "2026-09-04T06:49:13+00:00",
-     "fetched": "2026-09-05T00:19:59+00:00"
+     "fetched": "2026-09-06T03:25:18+00:00"
     },
     {
      "headline": "StockTake: Mount Ridley lands $2M for critical minerals push",
@@ -22,7 +22,7 @@
      "outlet": "Stockhead",
      "source_url": "https://stockhead.com.au/feed/",
      "published": "2026-09-04T02:41:48+00:00",
-     "fetched": "2026-09-05T00:19:59+00:00"
+     "fetched": "2026-09-06T03:25:18+00:00"
     },
     {
      "headline": "FireFly Metals completes $180 million equity raising to support Green Bay growth",
@@ -31,16 +31,25 @@
      "outlet": "The Market Herald",
      "source_url": "https://themarketherald.com.au/feed/",
      "published": "2026-09-04T00:54:25+00:00",
-     "fetched": "2026-09-05T00:20:00+00:00"
+     "fetched": "2026-09-06T03:25:19+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by China prepares next phase of national SME fund to boost tech start-ups and IPOs. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by New reality for China’s entertainment sector as AI drama goes prime time. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "fresh_count": 4,
    "items": [
+    {
+     "headline": "New reality for China’s entertainment sector as AI drama goes prime time",
+     "detail": "From low-quality “slop” such as soap operas starring humanlike cats and dating shows featuring anthropomorphic fruit, to increasingly slick productions realistic enough to pass for live action, artificial intelligence-generated video…",
+     "url": "https://www.scmp.com/tech/article/3366335/new-reality-chinas-entertainment-sector-ai-drama-goes-prime-time?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-09-05T07:00:07+00:00",
+     "fetched": "2026-09-06T03:25:20+00:00"
+    },
     {
      "headline": "China prepares next phase of national SME fund to boost tech start-ups and IPOs",
      "detail": "China will soon launch the second phase of a National SME Development Fund with a focus on IPO incubation and channelling private capital into backing innovative, early-stage entities and projects with long-term prospects in hard tech.",
@@ -48,7 +57,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-03T12:37:15+00:00",
-     "fetched": "2026-09-05T00:20:01+00:00"
+     "fetched": "2026-09-06T03:25:20+00:00"
     },
     {
      "headline": "Hong Kong regulator reclassifies certain funds with exposure to private markets",
@@ -57,7 +66,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-03T11:12:03+00:00",
-     "fetched": "2026-09-05T00:20:01+00:00"
+     "fetched": "2026-09-06T03:25:20+00:00"
     },
     {
      "headline": "Philippine fast-food giant Jollibee picks Hong Kong over New York for spin-off’s listing",
@@ -66,43 +75,16 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-02T07:03:43+00:00",
-     "fetched": "2026-09-05T00:20:01+00:00"
-    },
-    {
-     "headline": "Shein slips on Hong Kong debut amid fast-fashion challenges",
-     "detail": "Fast-fashion retailer Shein fell on its Hong Kong trading debut as the unprofitable company contends with rising competition and the loss of tax breaks in key markets.",
-     "url": "https://www.scmp.com/plus/business/banking-finance/article/3365973/shein-slips-hong-kong-debut-amid-fast-fashion-challenges?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-01T09:11:19+00:00",
-     "fetched": "2026-09-05T00:20:01+00:00"
+     "fetched": "2026-09-06T03:25:20+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 2,
+   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: SoftBank-Backed SB Energy (SBE) Files Plans for Huge IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for US since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
-    {
-     "headline": "The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million",
-     "detail": "Inflection Point Acquisition Corp. VIII (IPHXU) – part of Michael Blitzer’s SPAC franchise – raised $250 million – pricing 25 million units at $10.00 each – in its SPAC IPO on Thursday night, Aug. 27, 2026.",
-     "url": "https://www.iposcoop.com/the-spac-ipo-buzz-inflection-point-acquisition-viii-raises-250-million/",
-     "outlet": "IPOScoop",
-     "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-08-28T11:28:37+00:00",
-     "fetched": "2026-09-05T00:20:04+00:00"
-    },
-    {
-     "headline": "The SPAC IPO Buzz: JATT III Acquisition (JTTT) Jumps 15 Percent in its NASDAQ Debut",
-     "detail": "JATT III Acquisition, a newly minted healthcare SPAC, soared in its NASDAQ debut – up 14.5 percent to close at $11.45 on Wednesday (Aug. 26, 2026).",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-jatt-iii-acquisition-jttt-jumps-15-percent-in-its-nasdaq-debut/",
-     "outlet": "IPOScoop",
-     "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-08-26T20:02:22+00:00",
-     "fetched": "2026-09-05T00:20:04+00:00"
-    },
     {
      "headline": "The IPO Buzz: SoftBank-Backed SB Energy (SBE) Files Plans for Huge IPO",
      "detail": "SB Energy (SBE Proposed), a data center and power infrastructure company backed by SoftBank of Japan, has filed to go public in what could be a multibillion-dollar deal. No terms were disclosed in the S-1 filing, which was dated Aug.",
@@ -110,7 +92,7 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-09-01T16:39:45+00:00",
-     "fetched": "2026-09-05T00:20:04+00:00"
+     "fetched": "2026-09-06T03:25:23+00:00"
     },
     {
      "headline": "The IPO Buzz: Anthropic & Aggreko Stir Anticipation – After Labor Day",
@@ -119,7 +101,25 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-08-31T18:41:23+00:00",
-     "fetched": "2026-09-05T00:20:04+00:00"
+     "fetched": "2026-09-06T03:25:23+00:00"
+    },
+    {
+     "headline": "The SPAC IPO Buzz: Inflection Point Acquisition VIII Raises $250 Million",
+     "detail": "Inflection Point Acquisition Corp. VIII (IPHXU) – part of Michael Blitzer’s SPAC franchise – raised $250 million – pricing 25 million units at $10.00 each – in its SPAC IPO on Thursday night, Aug. 27, 2026.",
+     "url": "https://www.iposcoop.com/the-spac-ipo-buzz-inflection-point-acquisition-viii-raises-250-million/",
+     "outlet": "IPOScoop",
+     "source_url": "https://www.iposcoop.com/feed/",
+     "published": "2026-08-28T11:28:37+00:00",
+     "fetched": "2026-09-06T03:25:23+00:00"
+    },
+    {
+     "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+     "detail": "She still thinks the Fed needs to take action against inflation that is straining household budgets.",
+     "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+     "outlet": "CNBC Markets",
+     "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
+     "published": "2026-08-27T17:31:09+00:00",
+     "fetched": "2026-09-06T03:25:26+00:00"
     }
    ]
   },
@@ -136,7 +136,7 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-09-01T06:00:00+00:00",
-     "fetched": "2026-09-05T00:20:09+00:00"
+     "fetched": "2026-09-06T03:25:28+00:00"
     },
     {
      "headline": "London snubbed as Formula 1 announces return of F1 Live show at new venue",
@@ -145,26 +145,16 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/feed/",
      "published": "2026-09-04T13:42:42+00:00",
-     "fetched": "2026-09-05T00:20:10+00:00"
+     "fetched": "2026-09-06T03:25:28+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "A single verifiable equity capital markets item was found for Europe this run: S&P 500 Ends Week Flat as Strong Jobs Growth Fuels Fed-Hike Bets. No newer capital markets item has been reported for Europe since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "No capital raising or new listing activity could be verified from a linked source for Europe this run, so nothing is listed rather than publishing an item without a working URL.",
    "fresh_count": 0,
-   "items": [
-    {
-     "headline": "S&P 500 Ends Week Flat as Strong Jobs Growth Fuels Fed-Hike Bets",
-     "detail": "US stocks finished lower on Friday as the American economy ​added more jobs than expected in August, raising expectations that the Federal Reserve may hike interest rates soon.",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-04/us-stock-futures-steady-ahead-of-key-august-jobs-data",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-09-04T11:50:13+00:00",
-     "fetched": "2026-09-05T00:20:12+00:00"
-    }
-   ]
+   "items": []
   },
   {
    "key": "rest",

@@ -1,7 +1,7 @@
 {
  "market_news": {
-  "paragraph": "Global equities were broadly firmer in the latest completed round of trading, with 15 of the 24 benchmarks tracked on this page closing higher. In the United States, the S&P 500 fell 0.38 per cent to 7,718.60, the Dow Jones fell 0.51 per cent to 53,414, the Nasdaq Composite fell 0.29 per cent to 26,507 and the Russell 2000 rose 0.25 per cent to 2,975.65. In Europe, the FTSE 100 was little changed at 10,831, the DAX rose 0.17 per cent to 26,046 and the CAC 40 was little changed at 8,278.77. Across Asia, the Nikkei 225 rose 1.08 per cent to 65,021, the Hang Seng rose 1.34 per cent to 25,651, the KOSPI rose 1.90 per cent to 6,687.21, the Shanghai Composite fell 0.29 per cent to 3,930.12, the BSE Sensex fell 0.07 per cent to 76,515 and the Straits Times rose 1.01 per cent to 5,801.96. Elsewhere, the Ibovespa was little changed at 185,147. Locally, the S&P/ASX 200 rose 0.31 per cent to 9,005.90 and the All Ordinaries rose 0.39 per cent to 9,196.00. In digital assets, bitcoin changed hands at $79,631, down 2.43 per cent over the past 24 hours. In currencies, the US dollar bought 1.3882 Australian dollars, down 0.14 per cent against the prior business day's fix. Index levels, exchange rates and commodity prices on this page are captured live at build time from the sources linked in each section; no forward-looking view is offered here.",
-  "fetched": "2026-09-05T08:00:42+10:00",
+  "paragraph": "Global equities were mixed in the latest completed round of trading, with 12 of the 24 benchmarks tracked on this page closing higher. In the United States, the S&P 500 fell 0.38 per cent to 7,718.60, the Dow Jones fell 0.51 per cent to 53,414, the Nasdaq Composite fell 0.29 per cent to 26,507 and the Russell 2000 rose 0.25 per cent to 2,975.65. In Europe, the FTSE 100 was little changed at 10,831, the DAX rose 0.17 per cent to 26,046 and the CAC 40 fell 0.09 per cent to 8,278.77. Across Asia, the Nikkei 225 rose 1.26 per cent to 65,021, the Hang Seng rose 1.74 per cent to 25,651, the KOSPI rose 1.64 per cent to 6,687.21, the Shanghai Composite fell 0.30 per cent to 3,930.12, the BSE Sensex rose 0.48 per cent to 76,515 and the Straits Times rose 0.94 per cent to 5,801.96. Elsewhere, the Ibovespa was little changed at 185,147. Locally, the S&P/ASX 200 fell 0.16 per cent to 9,005.90 and the All Ordinaries was little changed at 9,196.00. In digital assets, bitcoin changed hands at $79,948, up 0.46 per cent over the past 24 hours. In currencies, the US dollar bought 1.3882 Australian dollars, down 0.14 per cent against the prior business day's fix. Index levels, exchange rates and commodity prices on this page are captured live at build time from the sources linked in each section; no forward-looking view is offered here.",
+  "fetched": "2026-09-06T13:24:10+10:00",
   "stale": false,
   "sources": [
    {
@@ -17,14 +17,14 @@
     "url": "https://www.coingecko.com/en/coins/bitcoin"
    }
   ],
-  "asof_caption": "Market data on this page was captured at Saturday 05 September 2026 at 08:00 AEST, reflecting the most recent completed or in-progress session at each of the exchanges listed."
+  "asof_caption": "Market data on this page was captured at Sunday 06 September 2026 at 13:24 AEST, reflecting the most recent completed or in-progress session at each of the exchanges listed."
  },
  "markets": [
   {
    "key": "germany",
    "title": "European Top Performers (Germany / XETR)",
-   "caption": "Source: TradingView Germany market movers (Deutsche B\u00f6rse XETR), captured Saturday 05 September 2026 at 08:00 AEST, covering the CET session most recently published at that time. Prices in euros; share volume as published by TradingView.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Germany market movers (Deutsche B\u00f6rse XETR), captured Sunday 06 September 2026 at 13:24 AEST, covering the CET session most recently published at that time. Prices in euros; share volume as published by TradingView.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Novogenia AG led the European board for the session, up 9.09 per cent to \u20ac7.20 on reported volume of 11.54K shares. Reported alongside the move, Wallstreet Online on 03 September 2026:",
    "gainer_note_sources": [
@@ -32,7 +32,7 @@
      "title": "Novogenia AG (7V0): Personalisierte Gesundheit, unpersonalisiertes Handelsvolumen - Wallstreet Online",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMm1LLS0xU2JQSTUyb3Y3elJpbXBWUVR0WVl3Z1oyTFNoNjZvcjRoWkpnYzB1NVZWR1k0cGFMX0dBWVFSbkZpQ0NiakZqN2VYM3h3Z0hLcnhNQ0xHRmh0SnpzR3ZNZkJGdkhKbjhhRUFSNWJFWVlhdmFDTTFtdFVNVzdWazVsZzJJNm52R25HRkhCaXh2dE55RUhHdmlyekxsakxaNGJWeGhyR0FETXlyZ0g0ZmR4dXJaS3Y1VS1uRzZWRmlOVUhkTQ?oc=5",
      "publisher": "Wallstreet Online",
-     "published": "2026-09-03T02:39:12+10:00"
+     "published": "2026-09-03T02:31:34+10:00"
     }
    ],
    "loser_note": "Circus SE was the steepest decliner on the European board for the session, down 24.11 per cent to \u20ac2.250 on reported volume of 273.1K shares. Reported alongside the move, Kapitalmarktexperten on 04 September 2026:",
@@ -192,8 +192,8 @@
   {
    "key": "brazil",
    "title": "Latin American Top Performers (Brazil / B3)",
-   "caption": "Source: TradingView Brazil market movers (B3), captured Saturday 05 September 2026 at 08:00 AEST, covering the BRT session most recently published at that time. Prices in Brazilian reais; share volume as published by TradingView.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Brazil market movers (B3), captured Sunday 06 September 2026 at 13:24 AEST, covering the BRT session most recently published at that time. Prices in Brazilian reais; share volume as published by TradingView.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Paranapanema S.A. led the Latin American board for the session, up 39.13 per cent to R$0.32 on reported volume of 34.96M shares. Reported alongside the move, Visno Invest on 02 September 2026:",
    "gainer_note_sources": [
@@ -219,7 +219,7 @@
      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-CVCB3/",
      "price": "R$1.88",
      "chg": "+5.03%",
-     "vol": "19.54M"
+     "vol": "19.65M"
     },
     {
      "name": "Oranjebtc SA Educacao e Investimento",
@@ -284,28 +284,28 @@
      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-AZEV3/",
      "price": "R$8.39",
      "chg": "-6.78%",
-     "vol": "1.11M"
+     "vol": "1.12M"
     },
     {
      "name": "Helbor Empreendimentos S.A.",
      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-HBOR3/",
      "price": "R$2.07",
      "chg": "-5.91%",
-     "vol": "938.6K"
+     "vol": "938.9K"
     },
     {
      "name": "Veste S.A. Estilo",
      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-VSTE3/",
      "price": "R$2.40",
      "chg": "-12.41%",
-     "vol": "370.2K"
+     "vol": "372.4K"
     },
     {
      "name": "MPM Corporeos SA",
      "url": "https://www.tradingview.com/symbols/BMFBOVESPA-ESPA3/",
      "price": "R$7.010",
      "chg": "-6.28%",
-     "vol": "102.4K"
+     "vol": "102.8K"
     },
     {
      "name": "FASA S.A.",

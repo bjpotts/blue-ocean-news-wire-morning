@@ -1,15 +1,15 @@
 {
- "as_of": "Saturday 05 September 2026, 08:00 AEST",
+ "as_of": "Sunday 06 September 2026, 13:23 AEST",
  "btc": {
-  "price": "$79,631",
-  "chg": "-2.43%",
+  "price": "$79,948",
+  "chg": "+0.46%",
   "source": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
  },
  "btc_crosschecks": [
   {
    "source": "CoinGecko API",
-   "price": "$79,631",
-   "chg": "-2.43%"
+   "price": "$79,948",
+   "chg": "+0.46%"
   }
  ],
  "fx": [
@@ -174,31 +174,31 @@
    "name": "CAC 40",
    "symbol": "^FCHI",
    "value": "8,278.77",
-   "chg": "-0.02%"
+   "chg": "-0.09%"
   },
   {
    "name": "FTSE MIB",
    "symbol": "FTSEMIB.MI",
    "value": "52,100",
-   "chg": "+0.60%"
+   "chg": "-0.28%"
   },
   {
    "name": "IBEX 35",
    "symbol": "^IBEX",
    "value": "20,051",
-   "chg": "+1.37%"
+   "chg": "+0.25%"
   },
   {
    "name": "EURO STOXX 50",
    "symbol": "^STOXX50E",
    "value": "6,392.93",
-   "chg": "+0.48%"
+   "chg": "+0.16%"
   },
   {
    "name": "OMX Stockholm 30",
    "symbol": "^OMX",
    "value": "3,284.08",
-   "chg": "+1.18%"
+   "chg": "+0.18%"
   },
   {
    "name": "MOEX Russia",
@@ -216,31 +216,31 @@
    "name": "Nikkei 225",
    "symbol": "^N225",
    "value": "65,021",
-   "chg": "+1.08%"
+   "chg": "+1.26%"
   },
   {
    "name": "Hang Seng",
    "symbol": "^HSI",
    "value": "25,651",
-   "chg": "+1.34%"
+   "chg": "+1.74%"
   },
   {
    "name": "Shanghai Composite",
    "symbol": "000001.SS",
    "value": "3,930.12",
-   "chg": "-0.29%"
+   "chg": "-0.30%"
   },
   {
    "name": "KOSPI",
    "symbol": "^KS11",
    "value": "6,687.21",
-   "chg": "+1.90%"
+   "chg": "+1.64%"
   },
   {
    "name": "TAIEX",
    "symbol": "^TWII",
    "value": "46,551",
-   "chg": "+0.84%"
+   "chg": "+1.51%"
   },
   {
    "name": "SET Index",
@@ -252,25 +252,25 @@
    "name": "BSE Sensex",
    "symbol": "^BSESN",
    "value": "76,515",
-   "chg": "-0.07%"
+   "chg": "+0.48%"
   },
   {
    "name": "S&P/ASX 200",
    "symbol": "^AXJO",
    "value": "9,005.90",
-   "chg": "+0.31%"
+   "chg": "-0.16%"
   },
   {
    "name": "All Ordinaries",
    "symbol": "^AORD",
    "value": "9,196.00",
-   "chg": "+0.39%"
+   "chg": "-0.03%"
   },
   {
    "name": "NZX 50",
    "symbol": "^NZ50",
    "value": "13,974",
-   "chg": "+0.92%"
+   "chg": "+0.00%"
   }
  ],
  "narrative_indices": [
@@ -290,7 +290,7 @@
    "name": "Straits Times",
    "symbol": "^STI",
    "value": "5,801.96",
-   "chg": "+1.01%"
+   "chg": "+0.94%"
   },
   {
    "name": "FTSE 250",
@@ -306,6 +306,6 @@
   }
  ],
  "indices_source": "https://finance.yahoo.com/world-indices",
- "indices_asof": "Friday 04 September 2026, 22:00 UTC",
- "indices_asof_label": "Saturday 05 September 2026"
+ "indices_asof": "Sunday 06 September 2026, 03:23 UTC",
+ "indices_asof_label": "Sunday 06 September 2026"
 }

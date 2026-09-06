@@ -1,74 +1,74 @@
 {
  "items": [
   {
-   "headline": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-   "detail": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+   "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+   "detail": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+   "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-09-04T21:12:11+00:00",
-   "fetched": "2026-09-04T22:02:18+00:00"
+   "published": "2026-09-05T22:49:55+00:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
-   "detail": "A federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app.",
+   "headline": "Hikers rescued after using Google Gemini for planning",
+   "detail": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+   "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-09-04T17:52:05+00:00",
-   "fetched": "2026-09-04T22:02:18+00:00"
+   "published": "2026-09-05T19:35:24+00:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "Audacity 4 is a complete revamp of the ‘world’s most popular’ audio editor",
-   "detail": "Audacity 4 has been in the works for some time, and had its own mini controversy last year when an unfortunate redesigned logo started making the rounds.",
+   "headline": "Explore the globe in field recordings",
+   "detail": "I love field recordings. I love making them. I love them when they're incorporated into my ambient music. They're great background noise for working or sleeping.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/tech/990658/audacity-4-update-audio-editing",
+   "url": "https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-09-04T17:23:50-04:00",
-   "fetched": "2026-09-04T22:02:18+00:00"
+   "published": "2026-09-05T17:31:34-04:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "The White House is making arcade games racist",
-   "detail": "The PR masterminds at the White House just released a series of vaguely policy-themed \"arcade\" games, some of which are racist - and modeled on real games whose copyright holders may not be too happy to be associated with the MAGA agenda.",
+   "headline": "iPhone Handoff will seamlessly share one number between two phones",
+   "detail": "When iOS 27 lands later this month, it will have a feature called iPhone Handoff that lets you switch between two phones using the same number.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright",
+   "url": "https://www.theverge.com/tech/990868/iphone-handoff-ios-27",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-09-04T15:42:54-04:00",
-   "fetched": "2026-09-04T22:02:18+00:00"
+   "published": "2026-09-05T16:53:58-04:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street",
-   "detail": "Tesla's long-awaited Cybercab update failed to dazzle investors.",
+   "headline": "We got more defensive last week as Wall Street raised the bar for AI stocks",
+   "detail": "We initiated positions in defensive stocks to balance our AI exposure amid higher oil prices and Treasury yields.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html",
+   "url": "https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-09-04T20:06:13+00:00",
-   "fetched": "2026-09-04T22:02:18+00:00"
+   "published": "2026-09-05T16:45:14+00:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "Back-to-school shopping brought to you by AI — how Amazon, Google are positioned to win",
-   "detail": "The rise of AI-assisted shopping during this year's back-to-school season may be an early window into evolving consumer buying habits.",
+   "headline": "Many truckers don't feel like the rest of America about AI data centers as business booms",
+   "detail": "Sprawling data center components from HVAC systems to tubing, wiring and semiconductors arrive primarily by truck, a boon for a business hit hard by trade wars.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/09/04/back-to-school-shopping-brought-to-you-by-ai-how-amazon-google-are-positioned-to-win.html",
+   "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-09-04T14:47:15+00:00",
-   "fetched": "2026-09-04T22:02:18+00:00"
+   "published": "2026-09-05T13:33:08+00:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-   "detail": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+   "headline": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+   "detail": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+   "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
    "region": "US",
    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-   "published": "2026-09-04T20:22:41+00:00",
-   "fetched": "2026-09-04T22:02:19+00:00"
+   "published": "2026-09-05T15:17:36+00:00",
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
    "headline": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
@@ -78,7 +78,7 @@
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
    "published": "2026-09-04T14:59:13+00:00",
-   "fetched": "2026-09-04T22:02:19+00:00"
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
    "headline": "Xbox caps cloud gaming at 15 hours a month for Game Pass subscribers",
@@ -88,17 +88,17 @@
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
    "published": "2026-09-04T11:48:24+00:00",
-   "fetched": "2026-09-04T22:02:19+00:00"
+   "fetched": "2026-09-06T03:25:43+00:00"
   },
   {
-   "headline": "Talk is growing of a Tesla-SpaceX merger. Will geopolitics throw a spanner in the works?",
-   "detail": "One by one, Tesla Model Y Ls roll out of the company’s end-of-line inspection bays, gleaming in black, white and gold.",
+   "headline": "Why Chelsea football shirts are making Hong Kong fans nervous about crypto laws",
+   "detail": "English Premier League football club Chelsea’s lucrative new front-of-shirt sponsorship deal with a stablecoin issuer has left Hong Kong fans and retailers concerned about whether wearing or selling the top counts as illegal promotion…",
    "outlet": "South China Morning Post",
-   "url": "https://www.scmp.com/tech/tech-war/article/3366387/talk-growing-tesla-spacex-merger-will-geopolitics-throw-spanner-works?utm_source=rss_feed",
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366500/why-chelsea-football-shirts-are-making-hong-kong-fans-nervous-about-crypto-laws?utm_source=rss_feed",
    "region": "Asia",
    "source_url": "https://www.scmp.com/rss/36/feed",
-   "published": "2026-09-04T22:00:07+00:00",
-   "fetched": "2026-09-04T22:02:20+00:00"
+   "published": "2026-09-06T01:00:13+00:00",
+   "fetched": "2026-09-06T03:25:45+00:00"
   }
  ]
 }

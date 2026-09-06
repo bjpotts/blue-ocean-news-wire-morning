@@ -10,7 +10,7 @@
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 4 items, led by Sino Land profit rises 14% as property losses narrow, but core earnings fall. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by Sino Land profit rises 14% as property losses narrow, but core earnings fall. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
@@ -20,7 +20,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-09-01T12:00:24+00:00",
-     "fetched": "2026-09-05T00:20:18+00:00"
+     "fetched": "2026-09-06T03:25:34+00:00"
     },
     {
      "headline": "China’s Z.ai revenue jumps 400% as total losses narrow on explosive cloud gains",
@@ -29,25 +29,7 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-08-31T11:43:48+00:00",
-     "fetched": "2026-09-05T00:20:18+00:00"
-    },
-    {
-     "headline": "PetroChina’s first-half profit jumps 22% as higher oil prices offset Iran war supply hit",
-     "detail": "PetroChina, China’s largest oil and gas producer, has announced that it is gradually restoring operations at its Middle Eastern projects after the US-Israeli war in Iran severely disrupted global energy flows this year.",
-     "url": "https://www.scmp.com/business/china-business/article/3365866/petrochinas-first-half-profit-jumps-22-higher-oil-prices-offset-iran-war-supply-hit?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-08-31T11:23:10+00:00",
-     "fetched": "2026-09-05T00:20:18+00:00"
-    },
-    {
-     "headline": "China’s 6 biggest state banks post rare shared growth as margins show tentative rebound",
-     "detail": "China’s six largest state-owned banks recorded their first simultaneous rise in first-half revenue and net profit since 2022, according to interim results released last week, as margins that had been under pressure for two years showed…",
-     "url": "https://www.scmp.com/business/banking-finance/article/3365800/chinas-six-biggest-state-banks-post-rare-shared-growth-margins-show-tentative-rebound?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-08-31T07:00:05+00:00",
-     "fetched": "2026-09-05T00:20:18+00:00"
+     "fetched": "2026-09-06T03:25:34+00:00"
     }
    ]
   },
@@ -64,7 +46,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-09-04T22:05:00+00:00",
-     "fetched": "2026-09-05T00:20:23+00:00"
+     "fetched": "2026-09-06T03:25:37+00:00"
     },
     {
      "headline": "Zscaler Q4 Earnings Call Highlights",
@@ -73,7 +55,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-09-03T23:04:00+00:00",
-     "fetched": "2026-09-05T00:20:23+00:00"
+     "fetched": "2026-09-06T03:25:37+00:00"
     },
     {
      "headline": "Oxford Industries Q2 Earnings Call Highlights",
@@ -82,7 +64,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-09-03T22:03:39+00:00",
-     "fetched": "2026-09-05T00:20:23+00:00"
+     "fetched": "2026-09-06T03:25:37+00:00"
     },
     {
      "headline": "Smith & Wesson Brands Q1 Earnings Call Highlights",
@@ -91,7 +73,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-09-03T22:03:38+00:00",
-     "fetched": "2026-09-05T00:20:23+00:00"
+     "fetched": "2026-09-06T03:25:37+00:00"
     },
     {
      "headline": "American Outdoor Brands Q1 Earnings Call Highlights",
@@ -100,7 +82,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-09-03T22:03:38+00:00",
-     "fetched": "2026-09-05T00:20:23+00:00"
+     "fetched": "2026-09-06T03:25:37+00:00"
     }
    ]
   },
@@ -117,7 +99,7 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-09-03T07:19:25+00:00",
-     "fetched": "2026-09-05T00:20:25+00:00"
+     "fetched": "2026-09-06T03:25:38+00:00"
     }
    ]
   },

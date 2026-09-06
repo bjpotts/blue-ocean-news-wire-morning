@@ -3,8 +3,8 @@
   {
    "key": "anz",
    "title": "ANZ Top Performers",
-   "caption": "Source: TradingView Australia market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Australia market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "White Energy Company Limited led the ANZ board for the session, up 27.08 per cent to $0.305 on reported volume of 1.31M shares. Reported alongside the move, Kalkine Media on 04 September 2026:",
    "gainer_note_sources": [
@@ -15,12 +15,12 @@
      "published": "2026-09-04T20:03:31+10:00"
     }
    ],
-   "loser_note": "Exultant Mining Ltd. was the steepest decliner on the ANZ board for the session, down 8.82 per cent to $0.155 on reported volume of 14.77K shares. Reported alongside the move, kalkine.com.au on 02 September 2026:",
+   "loser_note": "Exultant Mining Ltd. was the steepest decliner on the ANZ board for the session, down 8.82 per cent to $0.155 on reported volume of 14.77K shares. Reported alongside the move, Kalkine on 02 September 2026:",
    "loser_note_sources": [
     {
-     "title": "Exultant Mining (ASX:10X) Gains 11% as Balerion Drilling Keeps Stock in Focus - kalkine.com.au",
+     "title": "Exultant Mining (ASX:10X) Gains 11% as Balerion Drilling Keeps Stock in Focus - Kalkine",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ3F5aDY4OTVUOUJQd1ZvTXZLaUdEUUhzcVBvUERLejhySTJSQWJrcjVUTTY5WmM1SjZoQWRNaTVxQl9jMTZPU1V6VkFNUUJfQkRFYU5HaUUyb2dvODRsbHp5NG1NV2JCOHJDQkQyR0lWeUk1bjBWRXBhTEtHRDBfa05ZTThhZmc2MFlRaERLU3UzNnpPYXAwX29nZWtLTjhCNUxxVkdSOG1rY3Jh?oc=5",
-     "publisher": "kalkine.com.au",
+     "publisher": "Kalkine",
      "published": "2026-09-02T13:45:00+10:00"
     }
    ],
@@ -172,20 +172,13 @@
   {
    "key": "japan",
    "title": "Japan Top Performers",
-   "caption": "Source: TradingView Japan market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Japan market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Chiome Bioscience Inc. led the Japan board for the session, up 36.59 per cent to \u00a5112 on reported volume of 18.05M shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "Brains Technology, Inc. was the steepest decliner on the Japan board for the session, down 21.69 per cent to \u00a51,394 on reported volume of 977.4K shares. Reported alongside the move, Traders Union on 01 September 2026:",
-   "loser_note_sources": [
-    {
-     "title": "\u6771\u8a3c\u3001Brains Technology\u682a\u306e\u5024\u5e45\u5236\u9650\u30929\u67082\u65e5\u306b\u62e1\u5927 - Traders Union",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObk13eTNkUjZidDNrQVRHN3ZXajFNYnVHdU1yRWFlSWEwZ1dYb0drQ3Utc1NrRWtTNWpTbHJFSGdjRFF3cXpqbjJlUGdESTN5NXgyckJzZ1RveFVfRTVtQ1JBckNhRFJNWjJQSkVJMG80XzNjSGdmWFJVb1VTMTdBYWczUFhITVBmZ28xc2MyZEtQRnBDZG0xM2dDNW9nbFJWOW54Tw?oc=5",
-     "publisher": "Traders Union",
-     "published": "2026-09-01T18:23:32+10:00"
-    }
-   ],
+   "loser_note": "Brains Technology, Inc. was the steepest decliner on the Japan board for the session, down 21.69 per cent to \u00a51,394 on reported volume of 977.4K shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "loser_note_sources": [],
    "gainers": [
     {
      "name": "Chiome Bioscience Inc. (4583)",
@@ -334,8 +327,8 @@
   {
    "key": "singapore",
    "title": "Singapore Top Performers",
-   "caption": "Source: TradingView Singapore market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Singapore market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Southern Alliance Mining Ltd. led the Singapore board for the session, up 18.06 per cent to S$0.425 on reported volume of 100.5K shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
@@ -489,8 +482,8 @@
   {
    "key": "hongkong",
    "title": "Hong Kong Top Performers",
-   "caption": "Source: TradingView Hong Kong market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Hong Kong market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Zhejiang RuiYuan Intelligent Control Technology Co., Ltd. Class H led the Hong Kong board for the session, up 83.08 per cent to HK$0.119 on reported volume of 35K shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],

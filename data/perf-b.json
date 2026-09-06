@@ -3,8 +3,8 @@
   {
    "key": "china",
    "title": "China (Mainland) Top Performers",
-   "caption": "Source: TradingView Mainland China market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView Mainland China market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Suzhou Delphi Laser Co., Ltd. Class A led the China (Mainland) board for the session, up 17.50 per cent to CN\u00a561.90 on reported volume of 17.47M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
@@ -158,25 +158,25 @@
   {
    "key": "us",
    "title": "US Top Performers",
-   "caption": "Source: Yahoo Finance US market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: Yahoo Finance US market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
-   "gainer_note": "Belite Bio, Inc led the US board for the session, up 13.16 per cent to $193.61 on reported volume of 735,495 shares. Reported alongside the move, Benzinga on 05 September 2026:",
+   "gainer_note": "Belite Bio, Inc led the US board for the session, up 13.16 per cent to $193.61 on reported volume of 738,953 shares. Reported alongside the move, Investing.com South Africa on 05 September 2026:",
    "gainer_note_sources": [
     {
-     "title": "Why Is Belite Bio Stock Soaring Friday? - Benzinga",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTnRGbnNDRmpMZkF6bTRlSmE4a3pSMUpnSWtYUlVwanNCaUFQNkUyZVNfSW05NE5tZ3RIVjZZVFVaeVI4SmRIZVM5SVNaNFRTSklrckU3V0taYzlvWFdKVXFWcU9TN3dQbTJmZmI0REdRMVJsbW5zOFFCZlRQMHM5bXViVVZjMDlpWjA5SjljWUZPYk42RGpmYzRDRU1JWEdVMEdCS2xBdGJjcnF2RHdfdQ?oc=5",
-     "publisher": "Benzinga",
-     "published": "2026-09-05T03:41:27+10:00"
+     "title": "Canaccord initiates Belite Bio stock with buy on Stargardt therapy By Investing.com - Investing.com South Africa",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQVl2OXpMU0c5aXltUlJQaW1MWGVWb1N4UTR4QmNxRi1xRHNuX1NaTDNWcWtaVlZUcDdzc3Qtb1BKVGZOcWdpQVhKaVlETjdIdmlObHN5TENvQ19BSDJyazVEUnFpSUFhN2k5UHltTzBCN1hta2ZoY3BTckVwMTBMa3N6YjNHMDBhbHFaNVNHaThQd24weVNPMHg1bnFuWXdyS0ZkNVhkb3luX3JCUEpPVUR6bHR6TTR1TUQ5SXhjaEZBelBlYUE?oc=5",
+     "publisher": "Investing.com South Africa",
+     "published": "2026-09-05T04:40:01+10:00"
     }
    ],
-   "loser_note": "Guidewire Software, Inc. was the steepest decliner on the US board for the session, down 19.93 per cent to $162.42 on reported volume of 4.691M shares. Reported alongside the move, Seeking Alpha on 05 September 2026:",
+   "loser_note": "Guidewire Software, Inc. was the steepest decliner on the US board for the session, down 19.93 per cent to $162.42 on reported volume of 4.691M shares. Reported alongside the move, finance.yahoo.com on 05 September 2026:",
    "loser_note_sources": [
     {
-     "title": "Guidewire Software falls 20% after quarterly report (GWRE:NYSE) - Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObzZJMWdnU0NDWmRTNkRlVnM0MERDMjRVbkVPM0RGaEFNQkhteGY0elFMSXJTa1REYV8tRnpjbHdJQk9HUHF0NHc1bnYtTElEd3kzVDBrUzhQbFR5bXBTMmJvbUhfMXYyZEdzdUptZXZvem1fZ0pLU0UwTl9pNnkyQVJXNDNZTmp6UVF4LWFzOVNqZw?oc=5",
-     "publisher": "Seeking Alpha",
-     "published": "2026-09-05T06:55:12+10:00"
+     "title": "Guidewire Software (GWRE) Stock Fair Value Edges Higher After Mixed Analyst Revisions - finance.yahoo.com",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZnhzeC1DMVpiZjJ2NlVwZzlXRjg3ZmNoakhCZ2E1ZzRwcnFZZ19sLWd4eTBwWHJhamxvWXdtSDBmM1N2UnIyd3FQdXlHYjJYZzBaaWp3WTZULTRpV05jVndkblVTbWY2ajZUQ1IyRXFJeVJFZU5rQmNaaWRTRi1WQXY0OGxjOVFGMTlZQzYwd0xGZDlGWlBWQzZGaC1BSnVS?oc=5",
+     "publisher": "finance.yahoo.com",
+     "published": "2026-09-05T16:13:00+10:00"
     }
    ],
    "gainers": [
@@ -185,49 +185,49 @@
      "url": "https://finance.yahoo.com/quote/SNDK/",
      "price": "$1,740.00",
      "chg": "+11.90%",
-     "vol": "16.217M"
+     "vol": "16.557M"
     },
     {
      "name": "Cerebras Systems Inc. (CBRS)",
      "url": "https://finance.yahoo.com/quote/CBRS/",
      "price": "$210.05",
      "chg": "+10.30%",
-     "vol": "13.705M"
+     "vol": "13.762M"
     },
     {
      "name": "AXT, Inc. (AXTI)",
      "url": "https://finance.yahoo.com/quote/AXTI/",
      "price": "$61.64",
      "chg": "+9.68%",
-     "vol": "10.587M"
+     "vol": "10.899M"
     },
     {
      "name": "Astera Labs, Inc. (ALAB)",
      "url": "https://finance.yahoo.com/quote/ALAB/",
      "price": "$310.40",
      "chg": "+9.75%",
-     "vol": "6.291M"
+     "vol": "6.536M"
     },
     {
      "name": "Aehr Test Systems, Inc. (AEHR)",
      "url": "https://finance.yahoo.com/quote/AEHR/",
      "price": "$86.26",
      "chg": "+13.10%",
-     "vol": "4.493M"
+     "vol": "4.521M"
     },
     {
      "name": "Semtech Corporation (SMTC)",
      "url": "https://finance.yahoo.com/quote/SMTC/",
      "price": "$147.88",
      "chg": "+9.22%",
-     "vol": "2.728M"
+     "vol": "2.802M"
     },
     {
      "name": "TTM Technologies, Inc. (TTMI)",
      "url": "https://finance.yahoo.com/quote/TTMI/",
      "price": "$125.60",
      "chg": "+8.85%",
-     "vol": "2.316M"
+     "vol": "2.321M"
     },
     {
      "name": "Tarsus Pharmaceuticals, Inc. (TARS)",
@@ -241,14 +241,14 @@
      "url": "https://finance.yahoo.com/quote/COHU/",
      "price": "$50.72",
      "chg": "+10.31%",
-     "vol": "857,182"
+     "vol": "873,315"
     },
     {
      "name": "Belite Bio, Inc (BLTE)",
      "url": "https://finance.yahoo.com/quote/BLTE/",
      "price": "$193.61",
      "chg": "+13.16%",
-     "vol": "735,495"
+     "vol": "738,953"
     }
    ],
    "losers": [
@@ -264,7 +264,7 @@
      "url": "https://finance.yahoo.com/quote/LULU/",
      "price": "$100.61",
      "chg": "-17.38%",
-     "vol": "37.119M"
+     "vol": "37.426M"
     },
     {
      "name": "Asana, Inc. (ASAN)",
@@ -278,7 +278,7 @@
      "url": "https://finance.yahoo.com/quote/ADBE/",
      "price": "$266.51",
      "chg": "-6.73%",
-     "vol": "6.579M"
+     "vol": "6.645M"
     },
     {
      "name": "Guidewire Software, Inc. (GWRE)",
@@ -292,7 +292,7 @@
      "url": "https://finance.yahoo.com/quote/ADSK/",
      "price": "$217.90",
      "chg": "-8.26%",
-     "vol": "3.901M"
+     "vol": "3.962M"
     },
     {
      "name": "Etsy, Inc. (ETSY)",
@@ -320,15 +320,15 @@
      "url": "https://finance.yahoo.com/quote/MNDY/",
      "price": "$91.07",
      "chg": "-6.43%",
-     "vol": "940,661"
+     "vol": "945,960"
     }
    ]
   },
   {
    "key": "uk",
    "title": "UK (London) Top Performers",
-   "caption": "Source: TradingView United Kingdom market movers, captured Saturday 05 September 2026 at 08:00 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
-   "fetched": "2026-09-05T08:00:42+10:00",
+   "caption": "Source: TradingView United Kingdom market movers, captured Sunday 06 September 2026 at 13:24 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
+   "fetched": "2026-09-06T13:24:10+10:00",
    "stale": false,
    "gainer_note": "Adnams PLC Class B led the UK (London) board for the session, up 35.85 per cent to 1,800.0p on reported volume of 7 shares. Reported alongside the move, Yahoo Finance UK on 04 September 2026:",
    "gainer_note_sources": [
@@ -339,13 +339,13 @@
      "published": "2026-09-04T18:20:48+10:00"
     }
    ],
-   "loser_note": "Gem Diamonds Limited was the steepest decliner on the UK (London) board for the session, down 20.20 per cent to 7.82p on reported volume of 2.78M shares. Reported alongside the move, Seeking Alpha on 03 September 2026:",
+   "loser_note": "Gem Diamonds Limited was the steepest decliner on the UK (London) board for the session, down 20.20 per cent to 7.82p on reported volume of 2.78M shares. Reported alongside the move, Proactive Investors on 03 September 2026:",
    "loser_note_sources": [
     {
-     "title": "Gem Diamonds Limited 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:GMDMF) 2026-09-03 - Seeking Alpha",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZmFrUFVNWEw1Q0JQQzN1c3dSVmQtZU40eXYwNmtUWnExMkgxbkduS0hIREZHbmp2TVBIa0F1UUYwNmpEdU83Tlpwc0Uza1FjN1Ixb3dSV0tGVk5lQ0RGcko5UW5NazNFZWdZSWx6MmNYcFdCTi1tNHBzSXhEUHBVRnVPUGh2d1JIUTJELVN4LWlzRFM1LUktNDlvS29qdkM4OVBNTno5aw?oc=5",
-     "publisher": "Seeking Alpha",
-     "published": "2026-09-03T20:32:55+10:00"
+     "title": "Gem Diamonds shares jump 70% after blow-out results; broker hails performance - Proactive Investors",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRF9IRDJUSUlBWkZmUTQzT01LbWVBbzF3VnlQZUlkQ0tPRGNEa0pFU1pZbFh1Y1NLSjJMNE8ta29pNlkzOVF3TFU3d0w0cjVvc3RzanlkcDBIc1Q5bFlYN1pfMVpYakxoRGdQcTV4eWJIV3JMb3dLV3NyRmxYYnJPeDNNZ2VjbHczcWhEazR3aEJPaTJUN29yZDNXSGg1U200MWR6cXloTjNQVFBpbG9nUEZNSnVtQ2pxTVlWMnR6TkcyUFc0RHJtenpWeDIzVVhmdTd4bXk3QmFTd2lJSktHV0dB?oc=5",
+     "publisher": "Proactive Investors",
+     "published": "2026-09-03T19:45:00+10:00"
     }
    ],
    "gainers": [
