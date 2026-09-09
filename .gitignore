@@ -10,3 +10,9 @@ market-wrap-up-*.pdf
 # Scheduled run logs
 scheduler.log
 scheduler.err.log
+
+# Authenticated session cache for SmallCaps.com.au
+data/.smallcaps_session.json
+
+# Legacy snapshot PDFs (now using full PDF)
+public-news-wire-snapshot-*.pdf

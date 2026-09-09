@@ -4,48 +4,48 @@
    "key": "abc",
    "name": "ABC News Australia",
    "site": "abc.net.au/news",
-   "summary": "The ABC's Australian and international news file is leading with Like 'the Spirits': Hobart council slams new 'unfit for purpose' planning portal; Ex-Eagle says 'conservative and vanilla' AFL club's main focus is money; Flights in Indonesia suspended due to volcano Mount Anak Krakatau eruption.",
+   "summary": "The ABC's Australian and international news file is leading with Live: ASX to recover from six-week low, Middle East flare-up drives oil price higher; Live: Invite-only grant scheme 'pork-barrelling by design': Haines; Sabalenka stays alive at US Open by telling herself 'the match is over'.",
    "note": null,
    "items": [
     {
-     "headline": "Like 'the Spirits': Hobart council slams new 'unfit for purpose' planning portal",
-     "detail": "Like 'the Spirits': Hobart council slams new 'unfit for purpose' planning portal",
-     "url": "https://www.abc.net.au/news/2026-09-06/hobart-city-council-slams-planbuild-planning-portal/107119914",
+     "headline": "Live: ASX to recover from six-week low, Middle East flare-up drives oil price higher",
+     "detail": "Live: ASX to recover from six-week low, Middle East flare-up drives oil price higher",
+     "url": "https://www.abc.net.au/news/2026-09-09/asx-markets-business-live-news/106752628",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-09-06T03:04:38+00:00",
-     "fetched": "2026-09-06T03:25:45+00:00"
+     "published": "2026-09-08T21:50:37+00:00",
+     "fetched": "2026-09-08T22:02:43+00:00"
     },
     {
-     "headline": "Ex-Eagle says 'conservative and vanilla' AFL club's main focus is money",
-     "detail": "Ex-Eagle says 'conservative and vanilla' AFL club's main focus is money",
-     "url": "https://www.abc.net.au/news/2026-09-06/former-eagle-sharrod-wellingham-lashes-west-coast-afl/107120494",
+     "headline": "Live: Invite-only grant scheme 'pork-barrelling by design': Haines",
+     "detail": "Live: Invite-only grant scheme 'pork-barrelling by design': Haines",
+     "url": "https://www.abc.net.au/news/2026-09-09/federal-politics-live-blog-sept-9/107130606",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-09-06T02:55:36+00:00",
-     "fetched": "2026-09-06T03:25:45+00:00"
+     "published": "2026-09-08T21:06:55+00:00",
+     "fetched": "2026-09-08T22:02:43+00:00"
     },
     {
-     "headline": "Flights in Indonesia suspended due to volcano Mount Anak Krakatau eruption",
-     "detail": "Flights in Indonesia suspended due to volcano Mount Anak Krakatau eruption",
-     "url": "https://www.abc.net.au/news/2026-09-06/indonesia-volcano-mount-anak-krakatau-eruption-flights-suspended/107121302",
+     "headline": "Sabalenka stays alive at US Open by telling herself 'the match is over'",
+     "detail": "Sabalenka stays alive at US Open by telling herself 'the match is over'",
+     "url": "https://www.abc.net.au/news/2026-09-09/aryna-sabalenka-scrapes-into-us-open-semifinals/107131594",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-09-06T02:28:01+00:00",
-     "fetched": "2026-09-06T03:25:45+00:00"
+     "published": "2026-09-08T20:59:58+00:00",
+     "fetched": "2026-09-08T22:02:43+00:00"
     },
     {
-     "headline": "Crocodile handler dies after being attacked at PNG wildlife park",
-     "detail": "Crocodile handler dies after being attacked at PNG wildlife park",
-     "url": "https://www.abc.net.au/news/2026-09-06/crocodile-handler-dies-after-attack-at-png-wildlife-park/107121378",
+     "headline": "Prince George arrives at Eton College for first day at new school",
+     "detail": "Prince George arrives at Eton College for first day at new school",
+     "url": "https://www.abc.net.au/news/2026-09-09/prince-george-arrives-for-first-day-at-eton-college/107131560",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-09-06T02:21:56+00:00",
-     "fetched": "2026-09-06T03:25:45+00:00"
+     "published": "2026-09-08T20:58:52+00:00",
+     "fetched": "2026-09-08T22:02:43+00:00"
     },
     {
-     "headline": "Aussie Patterson claims Diamond League Final title with 'insane' win",
-     "detail": "Aussie Patterson claims Diamond League Final title with 'insane' win",
-     "url": "https://www.abc.net.au/news/2026-09-06/diamond-league-final-high-jump-eleanor-patterson-wins/107121374",
+     "headline": "Rural towns finding the right medicine to end doctor drought",
+     "detail": "Rural towns finding the right medicine to end doctor drought",
+     "url": "https://www.abc.net.au/news/2026-09-09/healthcare-solutions-patchy-gp-coverage/107123532",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-09-06T02:12:51+00:00",
-     "fetched": "2026-09-06T03:25:45+00:00"
+     "published": "2026-09-08T20:56:43+00:00",
+     "fetched": "2026-09-08T22:02:43+00:00"
     }
    ]
   },
@@ -53,48 +53,48 @@
    "key": "sbs",
    "name": "SBS News Australia",
    "site": "sbs.com.au/news",
-   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with 'Titan of Australian sport': Boxer Tony Mundine honoured at heartfelt Redfern memorial; The Coalition proposal that could make flag burning illegal in Australia; Flights halted as volcanic ash spreads across parts of Indonesia.",
+   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with Saudi oil sites hit as Houthi attacks intensify amid US-Iran Fighting; 'Absolute nightmare': Mass flight cancellations in the UK prompt calls for dismissals; Israel to close British consulate in response to heavy sanctions.",
    "note": null,
    "items": [
     {
-     "headline": "'Titan of Australian sport': Boxer Tony Mundine honoured at heartfelt Redfern memorial",
-     "detail": "From boxing rings to Redfern's Block, Anthony 'Tony' Mundine's impact and memory remain unmatched.",
-     "url": "https://www.sbs.com.au/news/article/boxing-great-tony-mundine-honoured-at-heartfelt-redfern-memorial/37hxmxpbl",
+     "headline": "Saudi oil sites hit as Houthi attacks intensify amid US-Iran Fighting",
+     "detail": "The attack on Saudi Arabia has added a new threat to Middle East energy supplies.",
+     "url": "https://www.sbs.com.au/news/article/saudi-oil-sites-hit-as-houthi-attacks-intensify-amid-us-iran-fighting/xlxaw17rf",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-09-06T03:06:12+00:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-08T21:24:55+00:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "The Coalition proposal that could make flag burning illegal in Australia",
-     "detail": "Attempts to formally ban flag burning in Australia have been made at least times in the past. All of them have failed.",
-     "url": "https://www.sbs.com.au/news/article/the-proposal-that-could-make-flag-burning-illegal-in-australia/u3wmvvhfi",
+     "headline": "'Absolute nightmare': Mass flight cancellations in the UK prompt calls for dismissals",
+     "detail": "Almost 1,100 flights to and from UK airports were cancelled overnight due to a \"system issue\".",
+     "url": "https://www.sbs.com.au/news/article/absolute-nightmare-mass-flight-cancellations-in-the-uk-prompt-calls-for-dismissals/j8h680ztx",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-09-06T02:49:42+00:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-08T20:47:42+00:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "Flights halted as volcanic ash spreads across parts of Indonesia",
-     "detail": "Mount Anak Krakatau has been erupting ‌since late on Friday, creating airport chaos.",
-     "url": "https://www.sbs.com.au/news/article/flights-halted-as-volcanic-ash-spreads-across-parts-of-indonesia/gw0rr3dih",
+     "headline": "Israel to close British consulate in response to heavy sanctions",
+     "detail": "Australia won't join in imposing sanctions on Israel, but reaffirmed its support for a two-state solution.",
+     "url": "https://www.sbs.com.au/news/article/israel-to-close-british-consulate-in-response-to-heavy-sanctions/26pg9kipf",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-09-06T01:26:36+00:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-08T20:40:25+00:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "US envoys have a new idea to end the Russia-Ukraine war. Now they're heading to Kyiv",
-     "detail": "Both Russia and Ukraine have agreed to halt strikes on their respective capitals for three days so that negotiations can continue.",
-     "url": "https://www.sbs.com.au/news/article/us-envoys-have-new-idea-to-end-the-russia-ukraine-war-now-theyre-heading-to-kyiv/4tgg39lmp",
+     "headline": "The taboo wealth tax debate experts say Australia can no longer ignore",
+     "detail": "As untaxed inheritances compound inequality, experts question if a death tax or land tax is needed to save the \"fair go.\"",
+     "url": "https://www.sbs.com.au/news/article/death-tax-australia-inequality-wealth-income-inheritance-intergenerational-new-report-2026/7ihebv8jk",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-09-05T23:47:04+00:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-08T19:33:58+00:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "Three rescued from flooded tunnels, giving families renewed hope in Nepal",
-     "detail": "Authorities said the latest man rescued showed signs of mild hypothermia, but had stable vitals and no visible injuries.",
-     "url": "https://www.sbs.com.au/news/article/three-rescued-from-flooded-tunnels-giving-families-renewed-hope-in-nepal/z7pqlb958",
+     "headline": "'We are not the AfD': Barnaby Joyce rejects German far-right question",
+     "detail": "For the One Nation MP, the win for Germany's far-right party \"starts to ring alarm bells\".",
+     "url": "https://www.sbs.com.au/news/article/we-are-not-the-afd-barnaby-joyce-rejects-german-far-right-question/b9ro85z15",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-09-05T22:27:41+00:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-08T08:26:47+00:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     }
    ]
   },
@@ -102,48 +102,48 @@
    "key": "rnz",
    "name": "RNZ New Zealand",
    "site": "rnz.co.nz",
-   "summary": "Radio New Zealand's national news file is leading with Tenancy Tribunal orders tenant to clean his room after old takeaway and fizzy drink rubbish causes odour; ACT unveils election climate policy, vows to scrap net zero target and repeal Zero Carbon Act; Leopard seal draws crowds at Lower Hutt beach.",
+   "summary": "Radio New Zealand's national news file is leading with How New Zealand's largest lightsaber group 'forged a village'; I’m trying to lose weight. Will exercising make me hungrier and eat more?; 'Don't be a stranger': New tourism campaign targets overseas friends and whānau.",
    "note": null,
    "items": [
     {
-     "headline": "Tenancy Tribunal orders tenant to clean his room after old takeaway and fizzy drink rubbish causes odour",
-     "detail": "Tenancy Tribunal orders tenant to clean his room after old takeaway and fizzy drink rubbish causes odour",
-     "url": "https://www.rnz.co.nz/news/business/1273219/tenancy-tribunal-orders-tenant-to-clean-his-room-after-old-takeaway-and-fizzy-drink-rubbish-causes-odour",
+     "headline": "How New Zealand's largest lightsaber group 'forged a village'",
+     "detail": "How New Zealand's largest lightsaber group 'forged a village'",
+     "url": "https://www.rnz.co.nz/life/people/identity/new-zealand-s-largest-lightsaber-group-forged-a-village-in-palmy",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-09-06T15:05:08+12:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-09T09:59:13+12:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "ACT unveils election climate policy, vows to scrap net zero target and repeal Zero Carbon Act",
-     "detail": "ACT unveils election climate policy, vows to scrap net zero target and repeal Zero Carbon Act",
-     "url": "https://www.rnz.co.nz/news/politics_election-2026/1272629/act-unveils-election-climate-policy-vows-to-scrap-net-zero-target-and-repeal-zero-carbon-act",
+     "headline": "I’m trying to lose weight. Will exercising make me hungrier and eat more?",
+     "detail": "I’m trying to lose weight. Will exercising make me hungrier and eat more?",
+     "url": "https://www.rnz.co.nz/life/wellbeing/i-m-trying-to-lose-weight-will-exercising-make-me-hungrier-and-eat-more",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-09-06T14:24:13+12:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-09T09:42:44+12:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "Leopard seal draws crowds at Lower Hutt beach",
-     "detail": "Leopard seal draws crowds at Lower Hutt beach",
-     "url": "https://www.rnz.co.nz/news/community/1272927/leopard-seal-draws-crowds-at-lower-hutt-beach",
+     "headline": "'Don't be a stranger': New tourism campaign targets overseas friends and whānau",
+     "detail": "'Don't be a stranger': New tourism campaign targets overseas friends and whānau",
+     "url": "https://www.rnz.co.nz/news/business/1308988/don-t-be-a-stranger-new-tourism-campaign-targets-overseas-friends-and-whanau",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-09-06T14:13:14+12:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-09T09:36:54+12:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "Greens vow to break up supermarket duopoly, set up publicly owned 'KiwiMart'",
-     "detail": "Greens vow to break up supermarket duopoly, set up publicly owned 'KiwiMart'",
-     "url": "https://www.rnz.co.nz/news/political/1271645/greens-vow-to-break-up-supermarket-duopoly-set-up-publicly-owned-kiwimart",
+     "headline": "Tung Chee-hwa, Hong Kong's first leader under Chinese rule, dies at 89",
+     "detail": "Tung Chee-hwa, Hong Kong's first leader under Chinese rule, dies at 89",
+     "url": "https://www.rnz.co.nz/news/world/1308877/tung-chee-hwa-hong-kong-s-first-leader-under-chinese-rule-dies-at-89",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-09-06T12:33:06+12:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-09T09:24:38+12:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     },
     {
-     "headline": "Weather: Rain and snow warnings issued as trough crosses central NZ",
-     "detail": "Weather: Rain and snow warnings issued as trough crosses central NZ",
-     "url": "https://www.rnz.co.nz/news/weather/1269776/weather-rain-and-snow-warnings-issued-as-trough-crosses-central-nz",
+     "headline": "Is a bigger solar system always better?",
+     "detail": "Is a bigger solar system always better?",
+     "url": "https://www.rnz.co.nz/news/personal-finance/1308466/is-a-bigger-solar-system-always-better",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-09-06T12:06:01+12:00",
-     "fetched": "2026-09-06T03:25:46+00:00"
+     "published": "2026-09-09T09:14:06+12:00",
+     "fetched": "2026-09-08T22:02:44+00:00"
     }
    ]
   },
@@ -151,48 +151,48 @@
    "key": "scmp",
    "name": "South China Morning Post",
    "site": "scmp.com",
-   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with Red tape, high cost: can Hong Kong’s new yacht scheme chart a smoother course?; China begins mining iron from tailings, low-grade ore that can meet its demand for decades; Signalling fault disrupts Hong Kong high-speed rail service, delaying 15 trains.",
+   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with How Japan is digging in to deter – and withstand – a conflict over Taiwan; Albania protests against Trump-linked development turn violent after 100th day; US strikes Iranian tankers after more attempted missile attacks on Navy warship.",
    "note": null,
    "items": [
     {
-     "headline": "Red tape, high cost: can Hong Kong’s new yacht scheme chart a smoother course?",
-     "detail": "Retired harbour pilot Alex Yu Chi-leung sailed his 50-foot wooden yacht, Bowline, from Causeway Bay in Hong Kong to Dongao Island in Zhuhai under a new cross-border yachting scheme last week, but bureaucratic hurdles and shallow waters…",
-     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3366503/red-tape-high-cost-can-hong-kongs-new-yacht-scheme-chart-smoother-course?utm_source=rss_feed",
+     "headline": "How Japan is digging in to deter – and withstand – a conflict over Taiwan",
+     "detail": "The risk of a conflict over Taiwan is shaping Japanese defence planning, with Tokyo shoring up security at home and abroad for a potentially prolonged fight.",
+     "url": "https://www.scmp.com/news/china/military/article/3366766/how-japan-digging-deter-and-withstand-conflict-over-taiwan?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-09-06T03:00:12+00:00",
-     "fetched": "2026-09-06T03:25:47+00:00"
+     "published": "2026-09-08T22:00:06+00:00",
+     "fetched": "2026-09-08T22:02:45+00:00"
     },
     {
-     "headline": "China begins mining iron from tailings, low-grade ore that can meet its demand for decades",
-     "detail": "China has launched a world-first industrial-scale facility to extract iron from previously discarded mine tailings and ultra-low-grade ore, turning waste into a valuable resource that can reduce its dependency on overseas supply.",
-     "url": "https://www.scmp.com/news/china/science/article/3366315/china-begins-mining-iron-tailings-low-grade-ore-can-meet-its-demand-decades?utm_source=rss_feed",
+     "headline": "Albania protests against Trump-linked development turn violent after 100th day",
+     "detail": "Police in Albania blocked protesters from reaching parliament on Tuesday as the latest rally against a luxury development linked to US President Donald Trump’s son-in-law, Jared Kushner, turned violent The march was staged as parliament…",
+     "url": "https://www.scmp.com/news/world/europe/article/3366838/albania-protests-against-trump-linked-development-turn-violent-after-100th-day?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-09-06T03:00:09+00:00",
-     "fetched": "2026-09-06T03:25:47+00:00"
+     "published": "2026-09-08T21:59:41+00:00",
+     "fetched": "2026-09-08T22:02:45+00:00"
     },
     {
-     "headline": "Signalling fault disrupts Hong Kong high-speed rail service, delaying 15 trains",
-     "detail": "At least 15 high-speed cross-border train services were delayed after a signalling fault prompted a 45-minute disruption of northbound services in Hong Kong on Sunday morning.",
-     "url": "https://www.scmp.com/news/hong-kong/transport/article/3366514/signalling-fault-disrupts-hong-kong-high-speed-rail-service-delaying-15-trains?utm_source=rss_feed",
+     "headline": "US strikes Iranian tankers after more attempted missile attacks on Navy warship",
+     "detail": "The US on Tuesday struck multiple Iranian tankers in response to more attempted missile attacks on a Navy warship, according to a US official, who spoke on condition of anonymity to discuss sensitive military operations.",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3366837/us-strikes-iranian-tankers-after-more-attempted-missile-attacks-navy-warship?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-09-06T02:35:28+00:00",
-     "fetched": "2026-09-06T03:25:47+00:00"
+     "published": "2026-09-08T21:42:36+00:00",
+     "fetched": "2026-09-08T22:02:45+00:00"
     },
     {
-     "headline": "Junior Chinese customs officer killed in mudslide just 4 days into job deeply moves public",
-     "detail": "The tragic death of a junior Chinese customs officer on the Sino-Nepal border, who had only been in her position for four days before being killed in a catastrophic mudslide, has stirred immense heartbreak online.",
-     "url": "https://www.scmp.com/news/people-culture/environment/article/3366513/junior-chinese-customs-officer-killed-mudslide-just-4-days-job-deeply-moves-public?utm_source=rss_feed",
+     "headline": "Nicaragua hands gold concession to sister firm of US-sanctioned Chinese miner",
+     "detail": "Nicaragua has granted a Chinese-owned company linked to one sanctioned by Washington the right to prospect and dig for gold across 262 sq km (101 sq miles) of rainforest, about a quarter the size of Hong Kong.",
+     "url": "https://www.scmp.com/news/china/article/3366836/nicaragua-hands-gold-concession-sister-firm-us-sanctioned-chinese-miner?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-09-06T02:14:35+00:00",
-     "fetched": "2026-09-06T03:25:47+00:00"
+     "published": "2026-09-08T21:40:31+00:00",
+     "fetched": "2026-09-08T22:02:45+00:00"
     },
     {
-     "headline": "Hired, then what? Malaysia’s deaf workers push past entry-level jobs",
-     "detail": "Yap Yee Lin has been serving espresso at a Starbucks in Malaysia since 2012, longer than many of his colleagues have worked anywhere.",
-     "url": "https://www.scmp.com/week-asia/people/article/3366408/hired-then-what-malaysias-deaf-workers-push-past-entry-level-jobs?utm_source=rss_feed",
+     "headline": "Trump’s Venezuela oil deal: why China can wait and watch",
+     "detail": "When US President Donald Trump announced on August 28 that the United States had secured majority control over some 65 billion barrels of Venezuelan oil through a private company, the North American Blue Energy Partners (NABEP), he called…",
+     "url": "https://www.scmp.com/opinion/world-opinion/article/3366521/trumps-venezuela-oil-deal-why-china-can-wait-and-watch?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-09-06T02:00:09+00:00",
-     "fetched": "2026-09-06T03:25:47+00:00"
+     "published": "2026-09-08T21:30:06+00:00",
+     "fetched": "2026-09-08T22:02:45+00:00"
     }
    ]
   },
@@ -200,48 +200,48 @@
    "key": "cnn",
    "name": "CNN",
    "site": "cnn.com",
-   "summary": "CNN's international edition is leading with Witkoff and Kushner to take US peace push to Kyiv after meeting Putin in Moscow; Hurricane Lowell remains powerful Category 4 as Hawaii braces for possible impacts; Barry Morphew arrested days after being ordered on house arrest for alleged hit-and-run.",
+   "summary": "CNN's international edition is leading with All 5 killed when Amazon cargo plane overran runway were in a cleaning crew van, sheriff says; Supreme Court rejects Missouri’s request to use congressional map with extra GOP seat; Lindsay Clancy juror says holdout ‘admitted he had reasonable doubt’.",
    "note": null,
    "items": [
     {
-     "headline": "Witkoff and Kushner to take US peace push to Kyiv after meeting Putin in Moscow",
-     "detail": "Witkoff and Kushner to take US peace push to Kyiv after meeting Putin in Moscow",
-     "url": "https://www.cnn.com/2026/09/05/europe/witkoff-kushner-moscow-kyiv-proposal-war-intl",
+     "headline": "All 5 killed when Amazon cargo plane overran runway were in a cleaning crew van, sheriff says",
+     "detail": "All 5 killed when Amazon cargo plane overran runway were in a cleaning crew van, sheriff says",
+     "url": "https://www.cnn.com/2026/09/07/us/amazon-cargo-plane-crash-how",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-09-05T10:08:47+00:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-07T14:41:49+00:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Hurricane Lowell remains powerful Category 4 as Hawaii braces for possible impacts",
-     "detail": "Hurricane Lowell remains powerful Category 4 as Hawaii braces for possible impacts",
-     "url": "https://www.cnn.com/2026/09/04/weather/hurricane-lowell-hawaii-storm-path-climate",
+     "headline": "Supreme Court rejects Missouri’s request to use congressional map with extra GOP seat",
+     "detail": "Supreme Court rejects Missouri’s request to use congressional map with extra GOP seat",
+     "url": "https://www.cnn.com/2026/09/08/politics/supreme-court-missouri-redistricting-loss-for-republicans",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-09-04T15:58:48+00:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T21:35:13+00:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Barry Morphew arrested days after being ordered on house arrest for alleged hit-and-run",
-     "detail": "Barry Morphew arrested days after being ordered on house arrest for alleged hit-and-run",
-     "url": "https://www.cnn.com/2026/09/05/us/barry-morphew-arrest-hit-and-run-allegations",
+     "headline": "Lindsay Clancy juror says holdout ‘admitted he had reasonable doubt’",
+     "detail": "Lindsay Clancy juror says holdout ‘admitted he had reasonable doubt’",
+     "url": "https://www.cnn.com/2026/09/08/us/lindsay-clancy-mistrial-jurors",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-09-05T12:12:03+00:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T21:39:40+00:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Cubans are coming up with creative ways to generate power when their island has almost none left",
-     "detail": "Cubans are coming up with creative ways to generate power when their island has almost none left",
-     "url": "https://www.cnn.com/2026/09/05/americas/cuba-us-oil-blockade-electricity-creativity-intl-latam",
+     "headline": "Netanyahu faces backlash over report he was warned of Hamas attack days before October 7",
+     "detail": "Netanyahu faces backlash over report he was warned of Hamas attack days before October 7",
+     "url": "https://www.cnn.com/2026/09/08/middleeast/netanyahu-report-warning-uae-hamas-attack-intl",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-09-05T10:00:29+00:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T15:10:05+00:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Trump’s PAC wades into midterms with $10 million ad buy to boost Ken Paxton",
-     "detail": "Trump’s PAC wades into midterms with $10 million ad buy to boost Ken Paxton",
-     "url": "https://www.cnn.com/2026/09/05/politics/maga-inc-ken-paxton-trump",
+     "headline": "Tehran threatens vessels in Bahrain, Kuwait after US strikes Iranian tankers near Kharg Island",
+     "detail": "Tehran threatens vessels in Bahrain, Kuwait after US strikes Iranian tankers near Kharg Island",
+     "url": "https://www.cnn.com/2026/09/08/politics/us-targets-iran-tankers",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-09-05T19:05:11+00:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T20:45:38+00:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     }
    ]
   },
@@ -249,48 +249,48 @@
    "key": "fox",
    "name": "Fox News",
    "site": "foxnews.com",
-   "summary": "Fox News, covering US politics and national affairs is leading with California pizza joint allegedly used as meth distribution hub as illegal immigrant charged; Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure; Oregon rallies from slow start, thwarts Boise State's upset bid in season opener.",
+   "summary": "Fox News, covering US politics and national affairs is leading with SCOTUS rejects Missouri GOP bid to use revised congressional map in midterms; Aaron Donald will not travel to Australia for Rams opener against 49ers as team ramp-up process not complete; DK Metcalf is a big conspiracy theorist: 'I think there is another civilization inside of Earth'.",
    "note": null,
    "items": [
     {
-     "headline": "California pizza joint allegedly used as meth distribution hub as illegal immigrant charged",
-     "detail": "Kawal Preet Singh allegedly used a Round Table Pizza in Dinuba to distribute over 40 pounds of methamphetamine as part of an organized crime network.",
-     "url": "https://www.foxnews.com/us/california-pizza-joint-meth-den-illegal-immigrant",
+     "headline": "SCOTUS rejects Missouri GOP bid to use revised congressional map in midterms",
+     "detail": "SCOTUS rejects Missouri Republicans' emergency bid over congressional maps, with Justice Kavanaugh ruling without comment and leaving the GOP-backed map blocked for the midterms.",
+     "url": "https://www.foxnews.com/politics/scotus-rejects-missouri-gop-bid-use-revised-congressional-map-midterms",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-09-05T23:14:52-04:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T17:49:28-04:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Kennedy Center ceiling partially collapses as Trump-led board pushes for 2-year closure",
-     "detail": "Photos show a partial ceiling collapse in a main Kennedy Center hallway, which officials say underscores the urgent need for Trump-backed renovations.",
-     "url": "https://www.foxnews.com/politics/kennedy-center-ceiling-partially-collapses-trump-led-board-pushes-2-year-closure",
+     "headline": "Aaron Donald will not travel to Australia for Rams opener against 49ers as team ramp-up process not complete",
+     "detail": "Aaron Donald won't travel to Melbourne for the Rams' opener against the San Francisco 49ers, with his season debut now targeting Monday Night Football.",
+     "url": "https://www.foxnews.com/outkick-sports/aaron-donald-not-travel-australia-rams-opener-against-49ers-team-ramp-up-process-not-complete",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-09-05T22:02:39-04:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T17:46:00-04:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Oregon rallies from slow start, thwarts Boise State's upset bid in season opener",
-     "detail": "Dante Moore threw for 388 yards and three touchdowns as No. 2 Oregon rallied past Boise State in a tense 34-27 season opener at Autzen Stadium.",
-     "url": "https://www.foxnews.com/outkick-sports/oregon-rallies-slow-start-thwarts-boise-state-upset-bid-season-opener",
+     "headline": "DK Metcalf is a big conspiracy theorist: 'I think there is another civilization inside of Earth'",
+     "detail": "DK Metcalf revealed he believes another civilization exists inside Earth, pointing to Antarctica travel restrictions as evidence of the conspiracy theory.",
+     "url": "https://www.foxnews.com/outkick-sports/dk-metcalf-big-conspiracy-theorist-think-another-civilization-inside-earth",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-09-05T21:42:27-04:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T17:42:52-04:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Machete-wielding MS-13 gangster wanted for murder walks free after Biden-appointed judge releases him: DHS",
-     "detail": "A convicted MS-13 killer known as \"La Bruja\" or \"the witch\" is free in California after a federal judge ruled ICE held him without a required bond hearing for five months.",
-     "url": "https://www.foxnews.com/politics/machete-wielding-ms-13-gangster-wanted-murder-walks-free-biden-appointed-judge-releases-him-dhs",
+     "headline": "Judge orders Alex Murdaugh murder retrial moved to nearby county",
+     "detail": "Alex Murdaugh's double murder retrial moves to Sumter County after a judge ruled Colleton County's jury pool was too compromised for a fair trial.",
+     "url": "https://www.foxnews.com/us/judge-orders-alex-murdaugh-murder-retrial-moved-nearby-county",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-09-05T21:18:13-04:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T17:34:49-04:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     },
     {
-     "headline": "Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico",
-     "detail": "MAGA Inc. drops $10 million in ads backing Ken Paxton against James Talarico in a neck and neck Texas Senate race that could reshape the midterms.",
-     "url": "https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico",
+     "headline": "Lindsay Clancy juror admitted 'reasonable doubt' but still refused insanity verdict, foreperson says",
+     "detail": "Three Lindsay Clancy jurors say a lone holdout admitted having reasonable doubt but still refused to deliver a not guilty by insanity verdict.",
+     "url": "https://www.foxnews.com/us/lindsay-clancy-juror-admitted-reasonable-doubt-still-refused-insanity-verdict-foreperson-says",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-09-05T20:59:13-04:00",
-     "fetched": "2026-09-06T03:25:48+00:00"
+     "published": "2026-09-08T17:07:29-04:00",
+     "fetched": "2026-09-08T22:02:46+00:00"
     }
    ]
   },
@@ -298,48 +298,48 @@
    "key": "wsj",
    "name": "The Wall Street Journal",
    "site": "wsj.com",
-   "summary": "The Wall Street Journal's world news wire is leading with Ukraine Considers Legalizing Porn Industry to Fund Its War Chest; The Violent Israeli Nomads Who Defy Law and Order in the Name of God; Putin Meets Trump Envoys as U.S. Pushes to Revive Ukraine Peace Talks.",
+   "summary": "The Wall Street Journal's world news wire is leading with U.S. Strikes Iranian Oil Tankers in Response to Tehran’s Attacks on Navy Ships; European Nations Impose Trade Bans on Israel Over West Bank Settlements; Unpaid Ebola Workers Let Families Touch the Dead.",
    "note": null,
    "items": [
     {
-     "headline": "Ukraine Considers Legalizing Porn Industry to Fund Its War Chest",
-     "detail": "Lawmakers say taxing the country’s thousands of OnlyFans models could collect $25 million a year.",
-     "url": "https://www.wsj.com/world/europe/ukraine-considers-legalizing-porn-industry-to-fund-its-war-chest-53b525bf?mod=rss_worldnews",
+     "headline": "U.S. Strikes Iranian Oil Tankers in Response to Tehran’s Attacks on Navy Ships",
+     "detail": "The American attacks come after Iran targeted U.S. warships for the second time in three days as fears grow that Tehran’s missiles are becoming more sophisticated.",
+     "url": "https://www.wsj.com/world/middle-east/iran-launched-undisclosed-second-wave-of-attacks-on-u-s-navy-ships-560f31a1?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-09-06T02:00:00+00:00",
-     "fetched": "2026-09-06T03:25:49+00:00"
+     "published": "2026-09-08T21:27:00+00:00",
+     "fetched": "2026-09-08T22:02:47+00:00"
     },
     {
-     "headline": "The Violent Israeli Nomads Who Defy Law and Order in the Name of God",
-     "detail": "Young squatters ditch mainstream lives to push Palestinians from land in the West Bank they claim is the divine birthright of Jewish people.",
-     "url": "https://www.wsj.com/world/middle-east/israel-west-bank-settlers-violence-palestinians-359a69a8?mod=rss_worldnews",
+     "headline": "European Nations Impose Trade Bans on Israel Over West Bank Settlements",
+     "detail": "Israel condemns the moves and retaliates against the U.K., the first to announce measures.",
+     "url": "https://www.wsj.com/world/middle-east/european-nations-impose-trade-bans-on-israel-over-west-bank-settlements-3a5cdfdb?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-09-06T01:38:00+00:00",
-     "fetched": "2026-09-06T03:25:49+00:00"
+     "published": "2026-09-08T19:10:00+00:00",
+     "fetched": "2026-09-08T22:02:47+00:00"
     },
     {
-     "headline": "Putin Meets Trump Envoys as U.S. Pushes to Revive Ukraine Peace Talks",
-     "detail": "Russian leader promises to pause attacks on Kyiv during Steve Witkoff and Jared Kushner’s upcoming visit to Ukraine.",
-     "url": "https://www.wsj.com/world/russia/putin-to-meet-trump-envoys-as-u-s-pushes-to-revive-ukraine-peace-talks-564945af?mod=rss_worldnews",
+     "headline": "Unpaid Ebola Workers Let Families Touch the Dead",
+     "detail": "The protests by health teams are the latest problem to undermine the effort to halt the spread of the virus.",
+     "url": "https://www.wsj.com/world/africa/unpaid-ebola-workers-let-families-touch-the-dead-161351e3?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-09-05T17:32:00+00:00",
-     "fetched": "2026-09-06T03:25:49+00:00"
+     "published": "2026-09-08T14:58:00+00:00",
+     "fetched": "2026-09-08T22:02:47+00:00"
     },
     {
-     "headline": "U.S. Strikes Three Iranian Ships After Missiles Fired at American Aircraft Carrier",
-     "detail": "The latest bout of fighting marks an intensifying effort by both sides to assert control over the Strait of Hormuz.",
-     "url": "https://www.wsj.com/world/middle-east/u-s-strikes-three-iranian-ships-after-missiles-fired-at-american-aircraft-carrier-ec5b3d5c?mod=rss_worldnews",
+     "headline": "One of the World’s Highest-Paid Political Leaders Just Got a Big Raise",
+     "detail": "Singapore has long paid its politicians especially well, but the high salaries have become increasingly sensitive in the city-state.",
+     "url": "https://www.wsj.com/world/asia/one-of-the-worlds-highest-paid-political-leaders-just-got-a-big-raise-824c0df1?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-09-05T17:07:00+00:00",
-     "fetched": "2026-09-06T03:25:49+00:00"
+     "published": "2026-09-08T14:47:00+00:00",
+     "fetched": "2026-09-08T22:02:47+00:00"
     },
     {
-     "headline": "Inside the USS Abraham Lincoln’s Nine Months at Sea: Loneliness, Fatigue, Pride",
-     "detail": "In interviews, sailors said they felt the strain of their extended deployment in a war zone, but were also proud to complete the mission.",
-     "url": "https://www.wsj.com/world/inside-the-uss-abraham-lincolns-nine-months-at-sea-loneliness-fatigue-pride-ec1961ca?mod=rss_worldnews",
+     "headline": "Iranian Airline Favored by the Regime Is Defying Sanctions and Expanding",
+     "detail": "Mahan Air, accused of ferrying weapons and military personnel, has kept its aging jets flying despite U.S. efforts to ground it.",
+     "url": "https://www.wsj.com/world/middle-east/iranian-airline-favored-by-the-regime-is-defying-sanctions-and-expanding-fcfd714c?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-09-05T13:49:00+00:00",
-     "fetched": "2026-09-06T03:25:49+00:00"
+     "published": "2026-09-08T14:28:00+00:00",
+     "fetched": "2026-09-08T22:02:47+00:00"
     }
    ]
   }

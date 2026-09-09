@@ -10,8 +10,10 @@ import json
 import os
 import re
 import sys
+from datetime import datetime, timezone
 
 from feedlib import dedupe, fetch, parse_feed, provenance, recent, trim
+from fetch_smallcaps import fetch_capraise_items as smallcaps_capraises
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -102,6 +104,37 @@ def _load_prev_urls(path):
             for r in prev.get("regions", [])}
 
 
+def _smallcaps_candidates(seen_urls, seen_titles):
+    """Pull IPOs and live placements from smallcaps.com.au (login required).
+
+    Returns items in the same shape as feedlib-produced candidates.
+    """
+    try:
+        raw = smallcaps_capraises()
+    except Exception as exc:
+        print("  ! SmallCaps capital-raise fetch failed: %s" % exc, file=sys.stderr)
+        return []
+    out = []
+    for it in raw:
+        if it["url"] in seen_urls:
+            continue
+        norm = re.sub(r"[^a-z0-9]+", "", it["headline"].lower())[:70]
+        if norm in seen_titles:
+            continue
+        seen_urls.add(it["url"])
+        seen_titles.add(norm)
+        out.append({
+            "headline": it["headline"],
+            "detail": it["detail"],
+            "url": it["url"],
+            "outlet": "Small Caps",
+            "source_url": "https://smallcaps.com.au/",
+            "published": it.get("published"),
+            "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        })
+    return out
+
+
 def main():
     seen_urls, seen_titles = set(), set()
     regions = []
@@ -124,6 +157,10 @@ def main():
                     "outlet": outlet,
                     **provenance(it, rss),
                 })
+
+        # Augment ANZ with authenticated SmallCaps IPOs and live placements.
+        if key == "anz":
+            candidates.extend(_smallcaps_candidates(seen_urls, seen_titles))
 
         # Prefer anything not shown last run; only fall back to a repeat
         # headline if there simply aren't enough fresh matches to fill count.

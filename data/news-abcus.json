@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: US strikes 3 Iranian oil tankers in retaliation; LIVE: ABC News Live; Witkoff, Kushner meet with Putin to discuss Ukraine war.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: US strikes multiple Iranian oil tankers, US official says; Smithsonian Secretary Lonnie Bunch resigns amid attacks from Trump administration; Lindsay Clancy's lawyer asks Trump to pardon her after mistrial.",
   "note": null,
   "items": [
    {
-    "headline": "Iran live updates: US strikes 3 Iranian oil tankers in retaliation",
+    "headline": "Iran live updates: US strikes multiple Iranian oil tankers, US official says",
     "detail": "The Strait of Hormuz remains the primary flashpoint in the conflict.",
-    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-centcom-targeted-iranian-forces-posed/?id=136080582",
+    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-05T17:45:53-04:00",
-    "fetched": "2026-09-06T03:25:50+00:00"
+    "published": "2026-09-08T16:49:16-04:00",
+    "fetched": "2026-09-08T22:02:48+00:00"
    },
    {
-    "headline": "LIVE: ABC News Live",
-    "detail": "24/7 coverage of breaking news and live events",
-    "url": "https://abcnews.go.com/video/41463246/",
+    "headline": "Smithsonian Secretary Lonnie Bunch resigns amid attacks from Trump administration",
+    "detail": "Amid attacks from the White House, Smithsonian Secretary Lonnie Bunch is stepping down from his position after seven years of leading the Smithsonian Institution.",
+    "url": "https://abcnews.go.com/US/smithsonian-secretary-lonnie-bunch-resigns-amid-attacks-trump/story?id=136278030",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-04T17:15:12-04:00",
-    "fetched": "2026-09-06T03:25:50+00:00"
+    "published": "2026-09-08T15:22:48-04:00",
+    "fetched": "2026-09-08T22:02:48+00:00"
    },
    {
-    "headline": "Witkoff, Kushner meet with Putin to discuss Ukraine war",
-    "detail": "Russian President Vladimir Putin spoke with U.S. special envoys Steve Witkoff and Jared Kushner for three hours Saturday about the war with Ukraine.",
-    "url": "https://abcnews.go.com/International/witkoff-kushner-meet-putin-discuss-ukraine-war/story?id=136231643",
+    "headline": "Lindsay Clancy's lawyer asks Trump to pardon her after mistrial",
+    "detail": "Clancy pleaded not guilty to three murder charges for the deaths of her three children.",
+    "url": "https://abcnews.go.com/GMA/News/lindsay-clancys-attorney-kevin-reddington-asks-trump-pardon/story?id=136258585",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-05T22:54:21-04:00",
-    "fetched": "2026-09-06T03:25:50+00:00"
+    "published": "2026-09-08T13:17:52-04:00",
+    "fetched": "2026-09-08T22:02:48+00:00"
    },
    {
-    "headline": "Severe weather to impact parts of US over Labor Day weekend",
-    "detail": "Severe thunderstorms are targeting parts of the Southeast on Saturday afternoon, with portions of Virginia and the Carolinas on alert.",
-    "url": "https://abcnews.go.com/US/severe-weather-impact-millions-labor-day-weekend/story?id=136227429",
+    "headline": "WATCH: Race car driver saves fellow driver from fiery crash",
+    "detail": "ABC News' Will Reeve reports on the heroic race car driver who stopped to rescue a fellow driver whose car was engulfed in flames.",
+    "url": "https://abcnews.go.com/video/136269215/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-05T16:53:44-04:00",
-    "fetched": "2026-09-06T03:25:50+00:00"
+    "published": "2026-09-08T10:18:01-04:00",
+    "fetched": "2026-09-08T22:02:48+00:00"
    },
    {
-    "headline": "WATCH: Travel tips for Labor Day weekend",
-    "detail": "Travel expert Gabe Saglie discusses the best way to avoid travel headaches and pitfalls while enjoying the final getaway of the summer.",
-    "url": "https://abcnews.go.com/video/136226547/",
+    "headline": "WATCH: Summer box office sets record",
+    "detail": "Hollywood has just wrapped up its best summer in a decade and its biggest vibe shift since the pandemic.",
+    "url": "https://abcnews.go.com/video/136266582/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-05T11:24:26-04:00",
-    "fetched": "2026-09-06T03:25:50+00:00"
+    "published": "2026-09-08T05:56:52-04:00",
+    "fetched": "2026-09-08T22:02:48+00:00"
    }
   ]
  }

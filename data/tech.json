@@ -1,104 +1,104 @@
 {
  "items": [
   {
-   "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-   "detail": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+   "headline": "Hackers are stealing Claude tokens from subscribers",
+   "detail": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+   "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-09-05T22:49:55+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T21:10:27+00:00",
+   "fetched": "2026-09-08T22:02:41+00:00"
   },
   {
-   "headline": "Hikers rescued after using Google Gemini for planning",
-   "detail": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+   "headline": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+   "detail": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+   "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-09-05T19:35:24+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T21:04:06+00:00",
+   "fetched": "2026-09-08T22:02:41+00:00"
   },
   {
-   "headline": "Explore the globe in field recordings",
-   "detail": "I love field recordings. I love making them. I love them when they're incorporated into my ambient music. They're great background noise for working or sleeping.",
+   "headline": "Sony isn’t phasing out discs quite as quickly as we thought",
+   "detail": "Sony isn't backing away from its decision to kill the video game disc in January 2028. But Sony isn't shutting down production as quickly as we thought, either.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings",
+   "url": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-09-05T17:31:34-04:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T17:52:13-04:00",
+   "fetched": "2026-09-08T22:02:41+00:00"
   },
   {
-   "headline": "iPhone Handoff will seamlessly share one number between two phones",
-   "detail": "When iOS 27 lands later this month, it will have a feature called iPhone Handoff that lets you switch between two phones using the same number.",
+   "headline": "Drama swirls around OpenAI’s legendary mathematical milestone",
+   "detail": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/tech/990868/iphone-handoff-ios-27",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-09-05T16:53:58-04:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T16:53:52-04:00",
+   "fetched": "2026-09-08T22:02:41+00:00"
   },
   {
-   "headline": "We got more defensive last week as Wall Street raised the bar for AI stocks",
-   "detail": "We initiated positions in defensive stocks to balance our AI exposure amid higher oil prices and Treasury yields.",
+   "headline": "How one hedge-fund manager built his firm to be powered entirely by AI agents",
+   "detail": "It's a stark example of a growing reality on Wall Street as firms test the benefits and limits of AI in finance and on their employees.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/09/05/we-got-more-defensive-last-week-as-wall-street-raised-the-bar-for-ai-stocks.html",
+   "url": "https://www.cnbc.com/2026/09/08/brian-kelly-bracket22-ai-agents.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-09-05T16:45:14+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T21:59:13+00:00",
+   "fetched": "2026-09-08T22:02:42+00:00"
   },
   {
-   "headline": "Many truckers don't feel like the rest of America about AI data centers as business booms",
-   "detail": "Sprawling data center components from HVAC systems to tubing, wiring and semiconductors arrive primarily by truck, a boon for a business hit hard by trade wars.",
+   "headline": "Meta pushes into personal AI agents as company faces public reckoning over privacy and safety",
+   "detail": "Meta unveiled its Muse personal agent app that comes in a free tier or a monthly subscription costing $20 or $100 depending on usage.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+   "url": "https://www.cnbc.com/2026/09/08/meta-personal-ai-agents-public-reckoning-privacy-safety.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-09-05T13:33:08+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T19:09:43+00:00",
+   "fetched": "2026-09-08T22:02:42+00:00"
   },
   {
-   "headline": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
-   "detail": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+   "headline": "Supreme Court forces TV stations to sell more election ads at steep discounts",
+   "detail": "Supreme Court forces TV stations to sell more election ads at steep discounts",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
+   "url": "https://arstechnica.com/tech-policy/2026/09/supreme-court-forces-tv-stations-to-sell-more-election-ads-at-steep-discounts/",
    "region": "US",
    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-   "published": "2026-09-05T15:17:36+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T19:50:00+00:00",
+   "fetched": "2026-09-08T22:02:42+00:00"
   },
   {
-   "headline": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
-   "detail": "OpenAI said it could not \"meaningfully respond\" to the report's findings because it hadn't been allowed to review it ahead of publication.",
+   "headline": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
+   "detail": "OpenAI's claim that it solved parts of Navier-Stokes equations has quickly stirred controversy.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-09-04T14:59:13+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T20:57:09+00:00",
+   "fetched": "2026-09-08T22:02:42+00:00"
   },
   {
-   "headline": "Xbox caps cloud gaming at 15 hours a month for Game Pass subscribers",
-   "detail": "Xbox said the limits were due to the rising cost of cloud gaming, and would allow it to invest more in its performance",
+   "headline": "New law to force tech firms to stop children taking or sharing nude images",
+   "detail": "The government said it will legislate \"as soon as they can\" but may \"reassess\" its plans if firms make the desired changes sooner.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cj06zd4l99lo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cgrv9ypp5x2o?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-09-04T11:48:24+00:00",
-   "fetched": "2026-09-06T03:25:43+00:00"
+   "published": "2026-09-08T16:48:29+00:00",
+   "fetched": "2026-09-08T22:02:42+00:00"
   },
   {
-   "headline": "Why Chelsea football shirts are making Hong Kong fans nervous about crypto laws",
-   "detail": "English Premier League football club Chelsea’s lucrative new front-of-shirt sponsorship deal with a stablecoin issuer has left Hong Kong fans and retailers concerned about whether wearing or selling the top counts as illegal promotion…",
+   "headline": "Chinese AI firms Z.ai and MiniMax could remain loss-making until 2030, Macquarie says",
+   "detail": "Chinese artificial intelligence companies Z.ai and MiniMax could remain loss-making through 2030 even as their revenues surge, underscoring the enormous cost of competing at the technological frontier, according to Macquarie Group’s head…",
    "outlet": "South China Morning Post",
-   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3366500/why-chelsea-football-shirts-are-making-hong-kong-fans-nervous-about-crypto-laws?utm_source=rss_feed",
+   "url": "https://www.scmp.com/tech/tech-trends/article/3366784/chinese-ai-firms-zai-and-minimax-could-remain-loss-making-until-2030-macquarie-says?utm_source=rss_feed",
    "region": "Asia",
    "source_url": "https://www.scmp.com/rss/36/feed",
-   "published": "2026-09-06T01:00:13+00:00",
-   "fetched": "2026-09-06T03:25:45+00:00"
+   "published": "2026-09-08T09:33:07+00:00",
+   "fetched": "2026-09-08T22:02:43+00:00"
   }
  ]
 }

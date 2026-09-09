@@ -10,79 +10,88 @@
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by Sino Land profit rises 14% as property losses narrow, but core earnings fall. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 3 items, led by China’s brokers expected to continue robust performance with blockbuster IPO offerings. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "Sino Land profit rises 14% as property losses narrow, but core earnings fall",
-     "detail": "Sino Land’s annual profit rose 14 per cent as losses on its investment properties narrowed, although a decline in underlying earnings pointed to continued pressure on its core business.",
-     "url": "https://www.scmp.com/business/article/3366010/sino-land-profit-rises-14-property-losses-narrow-core-earnings-fall?utm_source=rss_feed",
+     "headline": "China’s brokers expected to continue robust performance with blockbuster IPO offerings",
+     "detail": "Chinese brokers delivered strong profits in the first half of the year, driven by active trading in the A-share market that boosted brokerage revenues by over 50 per cent, while the blockbuster initial public offerings (IPOs) are expected…",
+     "url": "https://www.scmp.com/business/banking-finance/article/3366611/chinas-brokers-expected-continue-robust-performance-blockbuster-ipo-offerings?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-01T12:00:24+00:00",
-     "fetched": "2026-09-06T03:25:34+00:00"
+     "published": "2026-09-07T08:00:11+00:00",
+     "fetched": "2026-09-09T02:45:16+00:00"
     },
     {
-     "headline": "China’s Z.ai revenue jumps 400% as total losses narrow on explosive cloud gains",
-     "detail": "Chinese artificial intelligence company Z.ai on Monday reported a 400 per cent increase in first-half revenue, driven by explosive growth in its open platform and application programming interface business, which helped narrow total losses…",
-     "url": "https://www.scmp.com/tech/big-tech/article/3365870/chinas-zai-revenue-jumps-400-total-losses-narrow-explosive-cloud-gains?utm_source=rss_feed",
+     "headline": "China’s leading EV battery makers’ profits nearly double that of industry’s carmakers",
+     "detail": "China’s electric vehicle (EV) battery makers saw their combined net profit in the first half of the year nearly double that of the country’s major carmakers, widening the profitability gap amid weakening domestic demand for EVs.",
+     "url": "https://www.scmp.com/business/china-evs/article/3366613/chinas-leading-ev-battery-makers-profits-nearly-double-industrys-carmakers?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-08-31T11:43:48+00:00",
-     "fetched": "2026-09-06T03:25:34+00:00"
+     "published": "2026-09-07T07:11:26+00:00",
+     "fetched": "2026-09-09T02:45:16+00:00"
+    },
+    {
+     "headline": "How generative AI helps SenseTime turn a profit even as Chinese peers struggle",
+     "detail": "Chinese artificial intelligence pioneer SenseTime is carving a unique path to profitability by steering away from a blind chase for model size, focusing instead on helping clients complete enterprise tasks, executives from the firm told…",
+     "url": "https://www.scmp.com/tech/tech-trends/article/3366436/how-generative-ai-helps-sensetime-turn-profit-even-chinese-peers-struggle?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-09-07T02:30:05+00:00",
+     "fetched": "2026-09-09T02:45:16+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Looking Ahead to the Q3 Earnings Season: What to Expect. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 5,
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Why Hewlett Packard Enterprise’s Sell-Off May Not Last. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "Looking Ahead to the Q3 Earnings Season: What to Expect",
-     "detail": "2026 Q3 earnings for the S&P 500 index are expected to increase by +23% from the same period last year on +11.2% higher revenues, reflecting the 13th consecutive period of growth.",
-     "url": "https://www.nasdaq.com/articles/looking-ahead-q3-earnings-season-what-expect",
+     "headline": "Why Hewlett Packard Enterprise’s Sell-Off May Not Last",
+     "detail": "Hewlett Packard Enterprise’s (NYSE: HPE) Q2 results aligned with trends suggesting the AI boom is not only still in place and growing, but also far larger in size, scope, and durability than the market is giving it credit for.",
+     "url": "https://www.nasdaq.com/articles/why-hewlett-packard-enterprises-sell-may-not-last",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-04T22:05:00+00:00",
-     "fetched": "2026-09-06T03:25:37+00:00"
+     "published": "2026-09-06T13:40:00+00:00",
+     "fetched": "2026-09-09T02:45:18+00:00"
     },
     {
-     "headline": "Zscaler Q4 Earnings Call Highlights",
-     "detail": "Contrarian Alert: 5 Downgraded Stocks That May Reward Long-Term InvestorsZscaler (NASDAQ:ZS) reported fourth-quarter fiscal 2026 revenue of $898 million, up 25% from a year earlier and 6% sequentially, as the cybersecurity company cited…",
-     "url": "https://www.nasdaq.com/articles/zscaler-q4-earnings-call-highlights",
+     "headline": "Lululemon’s Earnings Beat Hid a Bigger Problem for Its Turnaround Story",
+     "detail": "For the past two months, investors had begun to whisper that the worst might be over for Lululemon Athletica Inc. (NASDAQ: LULU).",
+     "url": "https://www.nasdaq.com/articles/lululemons-earnings-beat-hid-bigger-problem-its-turnaround-story",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-03T23:04:00+00:00",
-     "fetched": "2026-09-06T03:25:37+00:00"
+     "published": "2026-09-05T12:05:00+00:00",
+     "fetched": "2026-09-09T02:45:18+00:00"
     },
     {
-     "headline": "Oxford Industries Q2 Earnings Call Highlights",
-     "detail": "MarketBeat ‘Stock of the Week’: FIGS has healthy growth prospectsOxford Industries (NYSE:OXM) reported second-quarter fiscal 2026 results that were within its expectations, as improved gross margin and adjusted earnings per share growth…",
-     "url": "https://www.nasdaq.com/articles/oxford-industries-q2-earnings-call-highlights",
+     "headline": "Pre-Market Earnings Report for September 9, 2026 : SAIL, CNM, CHWY, KFY, SIG, ASO, ODD, CGNT, CAL, JILL, OCC",
+     "detail": "The following companies are expected to report earnings prior to market open on 09/09/2026. Visit our Earnings Calendar for a full list of expected earnings releases.SailPoint, Inc. (SAIL)is reporting for the quarter ending July 31, 2026.",
+     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-9-2026-sail-cnm-chwy-kfy-sig-aso-odd-cgnt-cal-jill",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-03T22:03:39+00:00",
-     "fetched": "2026-09-06T03:25:37+00:00"
+     "published": "2026-09-08T20:00:01+00:00",
+     "fetched": "2026-09-09T02:45:18+00:00"
     },
     {
-     "headline": "Smith & Wesson Brands Q1 Earnings Call Highlights",
-     "detail": "Value Alert: 3 High-Yield Stocks Trading at 52-Week Lows Smith & Wesson Brands (NASDAQ:SWBI) reported higher first-quarter fiscal 2027 sales and a return to profitability, citing demand across its consumer and professional firearms…",
-     "url": "https://www.nasdaq.com/articles/smith-wesson-brands-q1-earnings-call-highlights",
+     "headline": "After-Hours Earnings Report for September 8, 2026 : CASY, TTAN, BRZE, INNV, AVO",
+     "detail": "The following companies are expected to report earnings after hours on 09/08/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Caseys General Stores, Inc.",
+     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-september-8-2026-casy-ttan-brze-innv-avo",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-03T22:03:38+00:00",
-     "fetched": "2026-09-06T03:25:37+00:00"
+     "published": "2026-09-08T18:00:01+00:00",
+     "fetched": "2026-09-09T02:45:18+00:00"
     },
     {
-     "headline": "American Outdoor Brands Q1 Earnings Call Highlights",
-     "detail": "3 Solid Consumer Brands Offering Stability in Volatile MarketsAmerican Outdoor Brands (NASDAQ:AOUT) reported a strong start to fiscal 2027, with first-quarter net sales rising 25.4% year over year to $37.3 million and adjusted EBITDA…",
-     "url": "https://www.nasdaq.com/articles/american-outdoor-brands-q1-earnings-call-highlights",
+     "headline": "3 Earnings Season Winners That Analysts Can't Stop Upgrading",
+     "detail": "Earnings season isn’t just when companies report their quarterly results. It’s also when most stock analysts update their ratings and price targets in response to the new data released from the firms they cover.",
+     "url": "https://www.nasdaq.com/articles/3-earnings-season-winners-analysts-cant-stop-upgrading",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-03T22:03:38+00:00",
-     "fetched": "2026-09-06T03:25:37+00:00"
+     "published": "2026-09-07T11:30:00+00:00",
+     "fetched": "2026-09-09T02:45:18+00:00"
     }
    ]
   },
@@ -99,7 +108,7 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-09-03T07:19:25+00:00",
-     "fetched": "2026-09-06T03:25:38+00:00"
+     "fetched": "2026-09-09T02:45:21+00:00"
     }
    ]
   },

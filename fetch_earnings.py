@@ -11,8 +11,10 @@ import json
 import os
 import re
 import sys
+from datetime import datetime, timezone
 
 from feedlib import dedupe, fetch, parse_feed, provenance, recent, trim
+from fetch_smallcaps import fetch_earnings_candidates as smallcaps_earnings
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -122,6 +124,40 @@ def _load_prev_urls(path):
             for r in prev.get("regions", [])}
 
 
+def _smallcaps_candidates(seen_urls, seen_titles):
+    """Pull latest SmallCaps news articles for earnings filtering.
+
+    The site has no dedicated earnings RSS, so we fetch its latest-news page
+    and let the existing KEYWORDS regex decide which items are real earnings
+    reports.
+    """
+    try:
+        raw = smallcaps_earnings()
+    except Exception as exc:
+        print("  ! SmallCaps earnings fetch failed: %s" % exc, file=sys.stderr)
+        return []
+    out = []
+    for it in raw:
+        if it["url"] in seen_urls:
+            continue
+        norm = re.sub(r"[^a-z0-9]+", "", it["title"].lower())[:70]
+        if norm in seen_titles:
+            continue
+        seen_urls.add(it["url"])
+        seen_titles.add(norm)
+        out.append({
+            "title": it["title"],
+            "detail": it["detail"],
+            "url": it["url"],
+            "date": None,
+            "outlet": "Small Caps",
+            "source_url": "https://smallcaps.com.au/latest-news",
+            "published": it.get("published"),
+            "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        })
+    return out
+
+
 def main():
     seen_urls, seen_titles = set(), set()
     regions = []
@@ -144,6 +180,22 @@ def main():
                     "outlet": outlet,
                     **provenance(it, rss),
                 })
+
+        # Augment ANZ with SmallCaps latest-news stories that match the
+        # earnings keyword set.
+        if key == "anz":
+            for sc in _smallcaps_candidates(seen_urls, seen_titles):
+                if KEYWORDS.search(sc["title"] + " " + sc["detail"]) \
+                        and not EXCLUDE.search(sc["title"]):
+                    candidates.append({
+                        "headline": sc["title"],
+                        "detail": trim(sc["detail"]) or sc["title"],
+                        "url": sc["url"],
+                        "outlet": sc["outlet"],
+                        "source_url": sc["source_url"],
+                        "published": sc.get("published"),
+                        "fetched": sc["fetched"],
+                    })
 
         # Prefer anything not shown last run; only fall back to a repeat
         # headline if there simply aren't enough fresh matches to fill count.
