@@ -180,6 +180,56 @@ def parse_tradingview(text, prefixes, direction):
     return out
 
 
+def fetch_tradingview_screener(country, prefixes, direction):
+    """Use TradingView's JSON screener API (fallback for HTML-rendered pages).
+
+    The country should be the scanner endpoint name, e.g. 'australia'.
+    Returns rows ordered by the API's % change sort; the caller re-sorts by
+    volume for display.
+    """
+    url = "https://scanner.tradingview.com/%s/scan" % country
+    payload = {
+        "symbols": {"tickers": [], "query": {"types": []}},
+        "columns": ["name", "change", "close", "volume", "change_abs",
+                    "exchange", "description"],
+        "sort": {"sortBy": "change",
+                 "sortOrder": "desc" if direction == "gainers" else "asc"},
+        "range": [0, ROWS + 5],
+    }
+    resp = requests.post(
+        url, json=payload,
+        headers={"User-Agent": UA, "Content-Type": "application/json"},
+        timeout=40)
+    resp.raise_for_status()
+    data = resp.json().get("data", [])
+    out = []
+    for row in data:
+        symbol = row.get("s", "")
+        parts = symbol.split(":")
+        if len(parts) != 2:
+            continue
+        ex, code = parts
+        if ex not in prefixes:
+            continue
+        d = row.get("d", [])
+        if len(d) < 7:
+            continue
+        name = clean(d[6]) or clean(d[0]) or code
+        try:
+            pct = float(d[1])
+        except (TypeError, ValueError):
+            continue
+        price = str(d[2]) if d[2] is not None else None
+        if price is None:
+            continue
+        vol = _fmt_volume(d[3])
+        out.append({"code": code, "ex": ex, "name": name,
+                    "price": price, "pct": pct, "vol": vol})
+        if len(out) >= ROWS:
+            break
+    return out
+
+
 # ---------------------------------------------------------------------- Yahoo
 
 def parse_yahoo(text):
@@ -249,6 +299,22 @@ def by_volume(rows):
     where that stock ends up once the table is sorted by volume.
     """
     return sorted(rows, key=lambda r: _vol_value(r.get("vol", "")), reverse=True)
+
+
+def _fmt_volume(n):
+    """Format a raw share-count integer like 33,000 as '33.00K'."""
+    if n is None:
+        return ""
+    try:
+        n = float(n)
+    except (TypeError, ValueError):
+        return str(n)
+    if n < 1e3:
+        return "%d" % n
+    for threshold, suffix in [(1e9, "B"), (1e6, "M"), (1e3, "K")]:
+        if n >= threshold:
+            return "%.2f%s" % (n / threshold, suffix)
+    return "%d" % n
 
 
 # Google News locale per region, so a Frankfurt or B3 mover is researched in the
@@ -479,6 +545,11 @@ def fetch_market(cfg):
     if cfg["slug"] is None:
         gainers = parse_yahoo(get("https://finance.yahoo.com/gainers"))
         losers = parse_yahoo(get("https://finance.yahoo.com/losers"))
+    elif cfg["key"] == "anz":
+        # TradingView's Australia movers HTML page is currently served without
+        # data-rowkey rows, so use the JSON screener API instead.
+        gainers = fetch_tradingview_screener("australia", cfg["prefixes"], "gainers")
+        losers = fetch_tradingview_screener("australia", cfg["prefixes"], "losers")
     else:
         base = "https://www.tradingview.com/markets/%s/market-movers-%s/"
         gainers = parse_tradingview(get(base % (cfg["slug"], "gainers")),

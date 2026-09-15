@@ -10,105 +10,96 @@
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 3 items, led by China’s brokers expected to continue robust performance with blockbuster IPO offerings. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by US Treasury yield hits 19-year high, Japanese yen strengthens: the numbers moving markets. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "China’s brokers expected to continue robust performance with blockbuster IPO offerings",
-     "detail": "Chinese brokers delivered strong profits in the first half of the year, driven by active trading in the A-share market that boosted brokerage revenues by over 50 per cent, while the blockbuster initial public offerings (IPOs) are expected…",
-     "url": "https://www.scmp.com/business/banking-finance/article/3366611/chinas-brokers-expected-continue-robust-performance-blockbuster-ipo-offerings?utm_source=rss_feed",
+     "headline": "US Treasury yield hits 19-year high, Japanese yen strengthens: the numbers moving markets",
+     "detail": "China’s buoyant stock market lifted brokers’ earnings in the first half, while Hong Kong saw continued growth in retirement assets.",
+     "url": "https://www.scmp.com/business/china-business/article/3367158/us-treasury-yield-hits-19-year-high-japanese-yen-strengthens-numbers-moving-markets?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-07T08:00:11+00:00",
-     "fetched": "2026-09-09T02:45:16+00:00"
+     "published": "2026-09-11T07:00:05+00:00",
+     "fetched": "2026-09-15T23:51:09+00:00"
     },
     {
-     "headline": "China’s leading EV battery makers’ profits nearly double that of industry’s carmakers",
-     "detail": "China’s electric vehicle (EV) battery makers saw their combined net profit in the first half of the year nearly double that of the country’s major carmakers, widening the profitability gap amid weakening domestic demand for EVs.",
-     "url": "https://www.scmp.com/business/china-evs/article/3366613/chinas-leading-ev-battery-makers-profits-nearly-double-industrys-carmakers?utm_source=rss_feed",
+     "headline": "SHKP posts 4.6% profit rise amid Hong Kong’s property recovery",
+     "detail": "Sun Hung Kai Properties (SHKP), Hong Kong’s biggest developer by market capitalisation, reported its underlying profit for the year ending June rose 4.6 per cent to HK$22.85 billion (US$2.91 billion), excluding investment property…",
+     "url": "https://www.scmp.com/business/article/3367088/shkp-posts-46-profit-rise-amid-hong-kongs-property-recovery?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-07T07:11:26+00:00",
-     "fetched": "2026-09-09T02:45:16+00:00"
-    },
-    {
-     "headline": "How generative AI helps SenseTime turn a profit even as Chinese peers struggle",
-     "detail": "Chinese artificial intelligence pioneer SenseTime is carving a unique path to profitability by steering away from a blind chase for model size, focusing instead on helping clients complete enterprise tasks, executives from the firm told…",
-     "url": "https://www.scmp.com/tech/tech-trends/article/3366436/how-generative-ai-helps-sensetime-turn-profit-even-chinese-peers-struggle?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-07T02:30:05+00:00",
-     "fetched": "2026-09-09T02:45:16+00:00"
+     "published": "2026-09-10T12:26:14+00:00",
+     "fetched": "2026-09-15T23:51:09+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Why Hewlett Packard Enterprise’s Sell-Off May Not Last. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by McKesson Raises Outlook, Eyes Oncology Growth With Precision Medicine Deal. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
    "fresh_count": 2,
    "items": [
     {
-     "headline": "Why Hewlett Packard Enterprise’s Sell-Off May Not Last",
-     "detail": "Hewlett Packard Enterprise’s (NYSE: HPE) Q2 results aligned with trends suggesting the AI boom is not only still in place and growing, but also far larger in size, scope, and durability than the market is giving it credit for.",
-     "url": "https://www.nasdaq.com/articles/why-hewlett-packard-enterprises-sell-may-not-last",
+     "headline": "McKesson Raises Outlook, Eyes Oncology Growth With Precision Medicine Deal",
+     "detail": "Cardinal Health Earnings: Can Perfection Get Priced In Twice?McKesson (NYSE:MCK) executives said the company’s first-quarter performance supported a higher full-year earnings outlook, citing broad-based growth across its North American…",
+     "url": "https://www.nasdaq.com/articles/mckesson-raises-outlook-eyes-oncology-growth-precision-medicine-deal",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-06T13:40:00+00:00",
-     "fetched": "2026-09-09T02:45:18+00:00"
+     "published": "2026-09-14T13:02:18+00:00",
+     "fetched": "2026-09-15T23:51:12+00:00"
     },
     {
-     "headline": "Lululemon’s Earnings Beat Hid a Bigger Problem for Its Turnaround Story",
-     "detail": "For the past two months, investors had begun to whisper that the worst might be over for Lululemon Athletica Inc. (NASDAQ: LULU).",
-     "url": "https://www.nasdaq.com/articles/lululemons-earnings-beat-hid-bigger-problem-its-turnaround-story",
+     "headline": "Hewlett Packard Enterprise Sees AI, Networking Demand Outrun Supply as 2027 Targets Rise",
+     "detail": "How 4 Million Hewlett Packard Shares Bought an AI NetworkHewlett Packard Enterprise (NYSE:HPE) CFO Marie Myers said the company’s recent quarterly results and revised fiscal 2027 framework reflect demand that continues to exceed available…",
+     "url": "https://www.nasdaq.com/articles/hewlett-packard-enterprise-sees-ai-networking-demand-outrun-supply-2027-targets-rise",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-05T12:05:00+00:00",
-     "fetched": "2026-09-09T02:45:18+00:00"
+     "published": "2026-09-14T01:01:59+00:00",
+     "fetched": "2026-09-15T23:51:12+00:00"
     },
     {
-     "headline": "Pre-Market Earnings Report for September 9, 2026 : SAIL, CNM, CHWY, KFY, SIG, ASO, ODD, CGNT, CAL, JILL, OCC",
-     "detail": "The following companies are expected to report earnings prior to market open on 09/09/2026. Visit our Earnings Calendar for a full list of expected earnings releases.SailPoint, Inc. (SAIL)is reporting for the quarter ending July 31, 2026.",
-     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-9-2026-sail-cnm-chwy-kfy-sig-aso-odd-cgnt-cal-jill",
+     "headline": "Pre-Market Earnings Report for September 16, 2026 : LUXE",
+     "detail": "The following companies are expected to report earnings prior to market open on 09/16/2026. Visit our Earnings Calendar for a full list of expected earnings releases.LuxExperience B.V.",
+     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-16-2026-luxe",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-08T20:00:01+00:00",
-     "fetched": "2026-09-09T02:45:18+00:00"
+     "published": "2026-09-15T20:00:01+00:00",
+     "fetched": "2026-09-15T23:51:12+00:00"
     },
     {
-     "headline": "After-Hours Earnings Report for September 8, 2026 : CASY, TTAN, BRZE, INNV, AVO",
-     "detail": "The following companies are expected to report earnings after hours on 09/08/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Caseys General Stores, Inc.",
-     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-september-8-2026-casy-ttan-brze-innv-avo",
+     "headline": "After-Hours Earnings Report for September 15, 2026 : TCOM, EPM",
+     "detail": "The following companies are expected to report earnings after hours on 09/15/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Trip.com Group Limited (TCOM)is reporting for the quarter ending June 30, 2026.",
+     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-september-15-2026-tcom-epm",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-08T18:00:01+00:00",
-     "fetched": "2026-09-09T02:45:18+00:00"
+     "published": "2026-09-15T18:00:01+00:00",
+     "fetched": "2026-09-15T23:51:12+00:00"
     },
     {
-     "headline": "3 Earnings Season Winners That Analysts Can't Stop Upgrading",
-     "detail": "Earnings season isn’t just when companies report their quarterly results. It’s also when most stock analysts update their ratings and price targets in response to the new data released from the firms they cover.",
-     "url": "https://www.nasdaq.com/articles/3-earnings-season-winners-analysts-cant-stop-upgrading",
+     "headline": "Dave & Buster's Entertainment Q2 Earnings Call Highlights",
+     "detail": "Dave & Buster’s Q1 Miss Raises the Stakes for Its Turnaround PlanDave & Buster's Entertainment (NASDAQ:PLAY) reported lower second-quarter revenue and earnings but said same-store sales trends improved during July and the early weeks of…",
+     "url": "https://www.nasdaq.com/articles/dave-busters-entertainment-q2-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-07T11:30:00+00:00",
-     "fetched": "2026-09-09T02:45:18+00:00"
+     "published": "2026-09-14T23:02:16+00:00",
+     "fetched": "2026-09-15T23:51:12+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "A single verifiable earnings item was found for UK this run: Giving up vegan arm helps Britain’s biggest meatpacker eye profit surge. No newer earnings item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "A single verifiable earnings item was found for UK this run: As it happened: FTSE 100 rallies as economy beats forecasts; oil falls back. No newer earnings item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "Giving up vegan arm helps Britain’s biggest meatpacker eye profit surge",
-     "detail": "The UK’s biggest meatpacker has upgraded its profit target after offloading its loss-making vegan arm.",
-     "url": "https://www.cityam.com/britains-biggest-meatpacker-eyes-profit-surge-after-ditching-vegan-arm/",
+     "headline": "As it happened: FTSE 100 rallies as economy beats forecasts; oil falls back",
+     "detail": "Welcome back to City AM’s FTSE 100 liveblog. The UK’s blue-chip index rallied on Friday after the economy beat forecasts in July, surprising those in the City who had expected to see growth peter out.",
+     "url": "https://www.cityam.com/ftse-100-live-stocks-to-drop-economic-growth-set-to-vanish/",
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
-     "published": "2026-09-03T07:19:25+00:00",
-     "fetched": "2026-09-09T02:45:21+00:00"
+     "published": "2026-09-11T05:30:00+00:00",
+     "fetched": "2026-09-15T23:51:15+00:00"
     }
    ]
   },

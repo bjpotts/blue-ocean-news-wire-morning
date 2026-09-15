@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: US strikes multiple Iranian oil tankers, US official says; Smithsonian Secretary Lonnie Bunch resigns amid attacks from Trump administration; Lindsay Clancy's lawyer asks Trump to pardon her after mistrial.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Blanche says investigation unlikely into Russian oligarch's wedding gift to Trump Jr.; What are the top threats posed by AI and should you be worried?; Dolly Parton corn mazes crop up in fields nationwide.",
   "note": null,
   "items": [
    {
-    "headline": "Iran live updates: US strikes multiple Iranian oil tankers, US official says",
-    "detail": "The Strait of Hormuz remains the primary flashpoint in the conflict.",
-    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116",
+    "headline": "Blanche says investigation unlikely into Russian oligarch's wedding gift to Trump Jr.",
+    "detail": "Trump's family members say have no connection to Russian oligarch Umar Kremlev.",
+    "url": "https://abcnews.go.com/Politics/blanche-investigation-russian-oligarchs-wedding-gift-trump-jr/story?id=136462728",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-08T16:49:16-04:00",
-    "fetched": "2026-09-08T22:02:48+00:00"
+    "published": "2026-09-15T18:49:16-04:00",
+    "fetched": "2026-09-15T23:51:29+00:00"
    },
    {
-    "headline": "Smithsonian Secretary Lonnie Bunch resigns amid attacks from Trump administration",
-    "detail": "Amid attacks from the White House, Smithsonian Secretary Lonnie Bunch is stepping down from his position after seven years of leading the Smithsonian Institution.",
-    "url": "https://abcnews.go.com/US/smithsonian-secretary-lonnie-bunch-resigns-amid-attacks-trump/story?id=136278030",
+    "headline": "What are the top threats posed by AI and should you be worried?",
+    "detail": "The most powerful figures in the AI industry issued grave warnings in recent days.",
+    "url": "https://abcnews.go.com/Business/top-threats-posed-ai-worried/story?id=136419658",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-08T15:22:48-04:00",
-    "fetched": "2026-09-08T22:02:48+00:00"
+    "published": "2026-09-15T18:38:34-04:00",
+    "fetched": "2026-09-15T23:51:29+00:00"
    },
    {
-    "headline": "Lindsay Clancy's lawyer asks Trump to pardon her after mistrial",
-    "detail": "Clancy pleaded not guilty to three murder charges for the deaths of her three children.",
-    "url": "https://abcnews.go.com/GMA/News/lindsay-clancys-attorney-kevin-reddington-asks-trump-pardon/story?id=136258585",
+    "headline": "Dolly Parton corn mazes crop up in fields nationwide",
+    "detail": "Dolly Parton’s megawatt smile and big wavy locks are gracing cornfields across the U.S. and in Canada this fall",
+    "url": "https://abcnews.go.com/US/wireStory/aw-shucks-dolly-parton-corn-mazes-crop-fields-136477786",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-08T13:17:52-04:00",
-    "fetched": "2026-09-08T22:02:48+00:00"
+    "published": "2026-09-15T19:23:50-04:00",
+    "fetched": "2026-09-15T23:51:29+00:00"
    },
    {
-    "headline": "WATCH: Race car driver saves fellow driver from fiery crash",
-    "detail": "ABC News' Will Reeve reports on the heroic race car driver who stopped to rescue a fellow driver whose car was engulfed in flames.",
-    "url": "https://abcnews.go.com/video/136269215/",
+    "headline": "WATCH: Witnesses speak out after narrow escapes from fiery drill rig collapse",
+    "detail": "Miami Fire Rescue says the driver of a BMW backed up at the last minute, narrowly avoiding a direct hit from the massive drilling rig and potentially saving her life.",
+    "url": "https://abcnews.go.com/video/136456229/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-08T10:18:01-04:00",
-    "fetched": "2026-09-08T22:02:48+00:00"
+    "published": "2026-09-15T11:16:29-04:00",
+    "fetched": "2026-09-15T23:51:29+00:00"
    },
    {
-    "headline": "WATCH: Summer box office sets record",
-    "detail": "Hollywood has just wrapped up its best summer in a decade and its biggest vibe shift since the pandemic.",
-    "url": "https://abcnews.go.com/video/136266582/",
+    "headline": "WATCH: Behind the scenes of 'Monday Night Football'",
+    "detail": "ABC News' Rhiannon Ally goes behind the scenes with Joe Buck and Jason Kelce in Kansas City after the Chiefs-Broncos game.",
+    "url": "https://abcnews.go.com/video/136456857/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-08T05:56:52-04:00",
-    "fetched": "2026-09-08T22:02:48+00:00"
+    "published": "2026-09-15T12:10:54-04:00",
+    "fetched": "2026-09-15T23:51:29+00:00"
    }
   ]
  }

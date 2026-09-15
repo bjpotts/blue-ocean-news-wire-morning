@@ -3,6 +3,8 @@ dist/
 .env.local
 .env
 .DS_Store
+__pycache__/
+*.pyc
 
 # Generated full PDFs
 market-wrap-up-*.pdf

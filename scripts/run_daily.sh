@@ -6,6 +6,11 @@ set -euo pipefail
 PROJ="/Users/brandonpotts/.verdent/verdent-projects/run-the-public-news-morning"
 LOG="$PROJ/scheduler.log"
 export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
+# Homebrew Python 3.14, when launched from launchctl's minimal environment,
+# cannot verify TLS certificates without an explicit CA bundle. Point urllib
+# and requests at the certifi bundle so every HTTPS data fetch succeeds.
+export SSL_CERT_FILE="$(python3 -c 'import certifi; print(certifi.where())')"
+export REQUESTS_CA_BUNDLE="$SSL_CERT_FILE"
 # This project's identity is the Morning Edition regardless of what the wall
 # clock says. build.py otherwise falls back to auto-detecting am/pm from the
 # Sydney clock, which is only correct if this script happens to run inside

@@ -3,35 +3,17 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Firmus Technologies aims for $30bn valuation for ASX float. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Innovaero Technologies LimitedINN — A$40M IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "fresh_count": 4,
    "items": [
     {
-     "headline": "Firmus Technologies aims for $30bn valuation for ASX float",
-     "detail": "AI infrastructure giant Firmus Technologies has set its sights on a $30bn valuation ahead of what is tipped to be ... Read More",
-     "url": "https://stockhead.com.au/tech/firmus-technologies-aims-for-30bn-valuation-for-asx-float/",
-     "outlet": "Stockhead",
-     "source_url": "https://stockhead.com.au/feed/",
-     "published": "2026-09-07T03:55:53+00:00",
-     "fetched": "2026-09-09T02:44:26+00:00"
-    },
-    {
-     "headline": "Super Minerals Ltd.S88 — A$7M IPO",
-     "detail": "Upcoming Mineral (gold) exploration and resource development IPO raising A$7M at $0.200, expected to list Thursday, September 17, 2026 (stage: OPEN).",
-     "url": "https://www.superminerals.com.au/",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-09T12:45:03.562819",
-     "fetched": "2026-09-09T02:45:03+00:00"
-    },
-    {
      "headline": "Innovaero Technologies LimitedINN — A$40M IPO",
-     "detail": "Upcoming Defence technology IPO raising A$40M at $0.500, expected to list Friday, September 18, 2026 (stage: OPEN).",
+     "detail": "Upcoming Defence technology IPO raising A$40M at $0.500, expected to list Tuesday, September 22, 2026 (stage: OPEN).",
      "url": "https://www.innov.aero/",
      "outlet": "Small Caps",
      "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-09T12:45:03.562852",
-     "fetched": "2026-09-09T02:45:03+00:00"
+     "published": "2026-09-16T09:50:53.692044",
+     "fetched": "2026-09-15T23:50:53+00:00"
     },
     {
      "headline": "Parbo Resources LimitedPRB — A$5M IPO",
@@ -39,61 +21,97 @@
      "url": "https://www.parbo.com.au/",
      "outlet": "Small Caps",
      "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-09T12:45:03.562872",
-     "fetched": "2026-09-09T02:45:03+00:00"
+     "published": "2026-09-16T09:50:53.692115",
+     "fetched": "2026-09-15T23:50:53+00:00"
+    },
+    {
+     "headline": "Normandy Minerals LtdNMD — A$12M IPO",
+     "detail": "Upcoming Mineral exploration and development IPO raising A$12M at $0.200, expected to list Tuesday, September 29, 2026 (stage: OPEN).",
+     "url": "https://normandyminerals.com.au/",
+     "outlet": "Small Caps",
+     "source_url": "https://smallcaps.com.au/",
+     "published": "2026-09-16T09:50:53.692161",
+     "fetched": "2026-09-15T23:50:53+00:00"
+    },
+    {
+     "headline": "Europa Metals LtdEUZ — A$5M IPO",
+     "detail": "Upcoming Mining exploration IPO raising A$5M at $0.200, expected to list Thursday, October 1, 2026 (stage: OPEN).",
+     "url": "https://www.europametals.com/",
+     "outlet": "Small Caps",
+     "source_url": "https://smallcaps.com.au/",
+     "published": "2026-09-16T09:50:53.692235",
+     "fetched": "2026-09-15T23:50:53+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Eager capital prompts IPO plans for more Chinese makers of brain-computer interfaces. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by How AI tools are reshaping stock trading, investment research in China. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 4,
    "items": [
     {
-     "headline": "Eager capital prompts IPO plans for more Chinese makers of brain-computer interfaces",
-     "detail": "A handful of home-grown Chinese companies involved in brain computer interfaces (BCIs) are moving towards initial public offerings (IPOs) on onshore markets, taking advantage of the sector’s status as a new darling of private capital.",
-     "url": "https://www.scmp.com/business/china-business/article/3366744/eager-capital-prompts-ipo-plans-more-chinese-makers-brain-computer-interfaces?utm_source=rss_feed",
+     "headline": "How AI tools are reshaping stock trading, investment research in China",
+     "detail": "When Ryan Lei has an investment idea, he no longer has to spend days writing code and trawling through historical data to corroborate it.",
+     "url": "https://www.scmp.com/business/china-business/article/3367211/how-ai-tools-are-reshaping-stock-trading-investment-research-china?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-08T07:13:34+00:00",
-     "fetched": "2026-09-09T02:45:04+00:00"
+     "published": "2026-09-12T08:00:10+00:00",
+     "fetched": "2026-09-15T23:50:54+00:00"
     },
     {
-     "headline": "Tesla to exhibit Cybercab robotaxi in China: can it spark buzz amid slow sales?",
-     "detail": "Tesla is facing weaker sales in China this year, but the American electric vehicle (EV) manufacturer is looking to generate a buzz in its second-largest market by exhibiting its new self-driving vehicle, the Cybercab.",
-     "url": "https://www.scmp.com/business/china-evs/article/3366461/tesla-exhibit-cybercab-robotaxi-china-can-it-spark-buzz-amid-slow-sales?utm_source=rss_feed",
+     "headline": "Private equity’s Fang Fenglei on investing in China, capital market reforms",
+     "detail": "Over the past three decades, investor Fang Fenglei has had a major role in shaping China’s capital markets.",
+     "url": "https://www.scmp.com/plus/economy/china-economy/article/3367236/private-equitys-fang-fenglei-investing-china-capital-market-reforms?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-06T04:00:09+00:00",
-     "fetched": "2026-09-09T02:45:04+00:00"
+     "published": "2026-09-11T23:01:04+00:00",
+     "fetched": "2026-09-15T23:50:54+00:00"
     },
     {
-     "headline": "China’s AI ‘little giant’ Yunxi Technology files for Hong Kong IPO: sources",
-     "detail": "Yunxi Technology, officially one of China’s “little giants”, has submitted a confidential initial public offering application to Hong Kong’s stock exchange, according to people familiar with the matter.",
-     "url": "https://www.scmp.com/business/companies/article/3366347/chinas-ai-little-giant-yunxi-technology-files-hong-kong-ipo-sources?utm_source=rss_feed",
+     "headline": "Yuen Kee Food enters final stage of Hong Kong IPO after HKEX approval, sources say",
+     "detail": "Yuen Kee Food Group, the owner of well-known restaurant brand Yuen Kee Dumpling, has cleared its listing hearing with the Hong Kong Exchanges and Clearing (HKEX), aiming to raise between HK$300 million (US$38.3 million) and HK$400 million,…",
+     "url": "https://www.scmp.com/business/banking-finance/article/3367133/yuen-kee-food-enters-final-stage-hong-kong-ipo-after-hkex-approval-sources-say?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-04T08:00:09+00:00",
-     "fetched": "2026-09-09T02:45:04+00:00"
+     "published": "2026-09-11T03:12:21+00:00",
+     "fetched": "2026-09-15T23:50:54+00:00"
     },
     {
-     "headline": "Hong Kong gaining lustre as bridge to China’s tech sector: HKEX CEO",
-     "detail": "The Hong Kong stock exchange’s initial public offering (IPO) pipeline remains strong, as the city benefits from its unique role as a connector between mainland Chinese tech start-ups and global investors, according to the bourse operator’s…",
-     "url": "https://www.scmp.com/business/china-business/article/3366780/hong-kong-gaining-lustre-bridge-chinas-tech-sector-hkex-ceo?utm_source=rss_feed",
+     "headline": "Hong Kong watchdog investigates Cloudbreak Pharma for ‘rigged’ IPO, suspends its shares",
+     "detail": "Hong Kong’s Securities and Futures Commission (SFC) has directed the stock exchange to suspend trading of US-based biotech firm Cloudbreak Pharma pending an investigation into its US$78 million initial public offering (IPO) last year.",
+     "url": "https://www.scmp.com/business/banking-finance/article/3367064/hong-kong-watchdog-investigates-cloudbreak-pharma-rigged-ipo-suspends-its-shares?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-08T09:20:15+00:00",
-     "fetched": "2026-09-09T02:45:04+00:00"
+     "published": "2026-09-10T10:08:13+00:00",
+     "fetched": "2026-09-15T23:50:54+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US equity capital markets activity captured this run runs to 3 items, led by The IPO Buzz: Holtec Nuclear (HNUC Proposed) Sets Terms for $825 Million IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for US since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "US equity capital markets activity captured this run runs to 3 items, led by The IPO Buzz: Electra Therapeutics (ETRA Proposed) Sets Terms for $325 Million IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for US since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
+    {
+     "headline": "The IPO Buzz: Electra Therapeutics (ETRA Proposed) Sets Terms for $325 Million IPO",
+     "detail": "Electra Therapeutics (ETRA proposed), a late-stage biotech focused on cancer and autoimmune disorders, set the terms early today for its IPO: 21.67 million shares at a price range of $14.00 to $16.00 to raise $325.05 million, if priced at…",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-electra-therapeutics-etra-proposed-sets-terms-for-325-million-ipo/",
+     "outlet": "IPOScoop",
+     "source_url": "https://www.iposcoop.com/feed/",
+     "published": "2026-09-14T11:29:29+00:00",
+     "fetched": "2026-09-15T23:50:57+00:00"
+    },
+    {
+     "headline": "The IPO Buzz: Orion180 Insurance (OIG Proposed) Launches $320 Million IPO",
+     "detail": "Orion180 Insurance Group (OIG Proposed) revealed the terms for its $320 million IPO early today – Wednesday, Sept. 9, 2026 – and launched the deal to price next week.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-orion180-insurance-oig-proposed-launches-320-million-ipo/",
+     "outlet": "IPOScoop",
+     "source_url": "https://www.iposcoop.com/feed/",
+     "published": "2026-09-09T13:35:27+00:00",
+     "fetched": "2026-09-15T23:50:57+00:00"
+    },
     {
      "headline": "The IPO Buzz: Holtec Nuclear (HNUC Proposed) Sets Terms for $825 Million IPO",
      "detail": "First big IPO launch after Labor Day: Holtec Nuclear Corp. (HNUC Proposed) unveiled the terms for its IPO in an S-1/A filing – 50 million shares at a price range of $15.00 to $18.00 – to raise $825 million, if priced at the $16.50…",
@@ -101,69 +119,51 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-09-08T10:47:38+00:00",
-     "fetched": "2026-09-09T02:45:07+00:00"
-    },
-    {
-     "headline": "The IPO Buzz: SoftBank-Backed SB Energy (SBE) Files Plans for Huge IPO",
-     "detail": "SB Energy (SBE Proposed), a data center and power infrastructure company backed by SoftBank of Japan, has filed to go public in what could be a multibillion-dollar deal. No terms were disclosed in the S-1 filing, which was dated Aug.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-softbank-backed-sb-energy-sbe-files-ipo-plans-for-huge-ipo/",
-     "outlet": "IPOScoop",
-     "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-09-01T16:39:45+00:00",
-     "fetched": "2026-09-09T02:45:07+00:00"
-    },
-    {
-     "headline": "The IPO Buzz: Anthropic & Aggreko Stir Anticipation – After Labor Day",
-     "detail": "Anticipation is the word in the IPO market. Anthropic is likely to unveil its first public SEC filing for the Claude AI maker’s blockbuster IPO next week – possibly on Tuesday, Sept.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-anthropic-aggreko-stir-anticipation-after-labor-day/",
-     "outlet": "IPOScoop",
-     "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-08-31T18:41:23+00:00",
-     "fetched": "2026-09-09T02:45:07+00:00"
+     "fetched": "2026-09-15T23:50:57+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "No capital raising or new listing activity could be verified from a linked source for UK this run, so nothing is listed rather than publishing an item without a working URL.",
-   "fresh_count": 0,
-   "items": []
+   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by Revolut US licence win ‘strengthens pre-IPO story’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 3,
+   "items": [
+    {
+     "headline": "Revolut US licence win ‘strengthens pre-IPO story’",
+     "detail": "Revolut’s conditional approval for a US banking licence has been hailed as a “consequential” step in the fintech’s march towards a long-awaited public debut.",
+     "url": "https://www.cityam.com/revolut-us-licence-win-strengthens-pre-ipo-story/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/category/markets/feed/",
+     "published": "2026-09-09T03:04:00+00:00",
+     "fetched": "2026-09-15T23:51:01+00:00"
+    },
+    {
+     "headline": "Dazn getting ‘IPO ready’, says CEO Segev, after swing into black and key hires",
+     "detail": "Dazn chief executive Shay Segev has confirmed the global sports streaming platform is preparing for an IPO after achieving EBITDA profitability in 2025.",
+     "url": "https://www.cityam.com/dazn-getting-ipo-ready-says-ceo-segev-after-swing-into-black-and-key-hires/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/feed/",
+     "published": "2026-09-15T14:16:09+00:00",
+     "fetched": "2026-09-15T23:51:02+00:00"
+    },
+    {
+     "headline": "Top UK banks to raise £50m to build payments network",
+     "detail": "Britain’s biggest banks are set to kick off a fundraising campaign that will pave the way for a domestic payments alternative to Mastercard and Visa.",
+     "url": "https://www.cityam.com/top-uk-banks-to-raise-50m-to-build-payments-network/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/feed/",
+     "published": "2026-09-15T08:53:22+00:00",
+     "fetched": "2026-09-15T23:51:02+00:00"
+    }
+   ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "Europe equity capital markets activity captured this run runs to 3 items, led by Wall Street Strategists Are Split on Outlook for Yen’s Rally. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for Europe since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "No capital raising or new listing activity could be verified from a linked source for Europe this run, so nothing is listed rather than publishing an item without a working URL.",
    "fresh_count": 0,
-   "items": [
-    {
-     "headline": "Wall Street Strategists Are Split on Outlook for Yen’s Rally",
-     "detail": "Wall Street strategists are divided over whether the yen’s latest rally can last, even as the Bank of Japan leans toward raising its benchmark rate by a quarter point this month in response to mounting price pressures.",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-09/wall-street-strategists-are-split-on-outlook-for-yen-s-rally",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-09-09T02:20:22+00:00",
-     "fetched": "2026-09-09T02:45:12+00:00"
-    },
-    {
-     "headline": "NSE Cuts IPO Price Range, Giving Up Shot at India’s Top Listing",
-     "detail": "National Stock Exchange of India Ltd. has lowered the price range for its long-awaited initial public offering and may shrink the stake on sale, according to people familiar with the matter, leaving the deal set to fall short of becoming…",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-08/nse-set-to-price-india-ipo-at-1-700-to-1-785-rupees-a-share",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-09-08T17:18:10+00:00",
-     "fetched": "2026-09-09T02:45:12+00:00"
-    },
-    {
-     "headline": "China’s AI-Fueled IPO Boom Delivers Six-figure Windfalls to Retail Investors",
-     "detail": "Six months’ salary in a single day. That’s the kind of payoff China’s boom in initial public offerings is handing to a lucky few.",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-08/china-s-ai-fueled-ipo-boom-delivers-six-figure-windfalls-to-retail-investors",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-09-08T23:00:00+00:00",
-     "fetched": "2026-09-09T02:45:12+00:00"
-    }
-   ]
+   "items": []
   },
   {
    "key": "rest",
