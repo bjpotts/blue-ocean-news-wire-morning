@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Blanche says investigation unlikely into Russian oligarch's wedding gift to Trump Jr.; What are the top threats posed by AI and should you be worried?; Dolly Parton corn mazes crop up in fields nationwide.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Former 'American Idol' contestant sentenced to life without parole for wife's murder; Phone calls, records suggest some Cornell students tried to contain rape allegations; Measles cases surpass 1,000 in Pennsylvania amid state's largest outbreak in decades.",
   "note": null,
   "items": [
    {
-    "headline": "Blanche says investigation unlikely into Russian oligarch's wedding gift to Trump Jr.",
-    "detail": "Trump's family members say have no connection to Russian oligarch Umar Kremlev.",
-    "url": "https://abcnews.go.com/Politics/blanche-investigation-russian-oligarchs-wedding-gift-trump-jr/story?id=136462728",
+    "headline": "Former 'American Idol' contestant sentenced to life without parole for wife's murder",
+    "detail": "Caleb Flynn was found guilty of murdering his wife, Ashley Flynn.",
+    "url": "https://abcnews.go.com/US/former-american-idol-contestant-sentenced-wifes-murder/story?id=136953520",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-15T18:49:16-04:00",
-    "fetched": "2026-09-15T23:51:29+00:00"
+    "published": "2026-10-05T16:50:01-04:00",
+    "fetched": "2026-10-05T21:05:44+00:00"
    },
    {
-    "headline": "What are the top threats posed by AI and should you be worried?",
-    "detail": "The most powerful figures in the AI industry issued grave warnings in recent days.",
-    "url": "https://abcnews.go.com/Business/top-threats-posed-ai-worried/story?id=136419658",
+    "headline": "Phone calls, records suggest some Cornell students tried to contain rape allegations",
+    "detail": "ABC News has reviewed records from Cornell’s internal investigation — which began in November 2024 and lasted through May 2025.",
+    "url": "https://abcnews.go.com/US/damage-control-phone-calls-records-suggest-cornell-frat/story?id=136987960",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-15T18:38:34-04:00",
-    "fetched": "2026-09-15T23:51:29+00:00"
+    "published": "2026-10-05T07:48:28-04:00",
+    "fetched": "2026-10-05T21:05:44+00:00"
    },
    {
-    "headline": "Dolly Parton corn mazes crop up in fields nationwide",
-    "detail": "Dolly Parton’s megawatt smile and big wavy locks are gracing cornfields across the U.S. and in Canada this fall",
-    "url": "https://abcnews.go.com/US/wireStory/aw-shucks-dolly-parton-corn-mazes-crop-fields-136477786",
+    "headline": "Measles cases surpass 1,000 in Pennsylvania amid state's largest outbreak in decades",
+    "detail": "Measles cases in Pennsylvania have surpassed 1,000 so far this year as the state continues to battle an outbreak of the virus, according to the state health department.",
+    "url": "https://abcnews.go.com/Health/measles-cases-surpass-1000-pennsylvania-outbreak-continues-spread/story?id=137002024",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-15T19:23:50-04:00",
-    "fetched": "2026-09-15T23:51:29+00:00"
+    "published": "2026-10-05T16:00:37-04:00",
+    "fetched": "2026-10-05T21:05:44+00:00"
    },
    {
-    "headline": "WATCH: Witnesses speak out after narrow escapes from fiery drill rig collapse",
-    "detail": "Miami Fire Rescue says the driver of a BMW backed up at the last minute, narrowly avoiding a direct hit from the massive drilling rig and potentially saving her life.",
-    "url": "https://abcnews.go.com/video/136456229/",
+    "headline": "WATCH: 'Avengers: Endgame' becomes highest-grossing film ever, again",
+    "detail": "Sophie Flay shares the buzziest stories of the day in \"GMA\" Pop News.",
+    "url": "https://abcnews.go.com/video/137007910/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-15T11:16:29-04:00",
-    "fetched": "2026-09-15T23:51:29+00:00"
+    "published": "2026-10-05T12:57:34-04:00",
+    "fetched": "2026-10-05T21:05:44+00:00"
    },
    {
-    "headline": "WATCH: Behind the scenes of 'Monday Night Football'",
-    "detail": "ABC News' Rhiannon Ally goes behind the scenes with Joe Buck and Jason Kelce in Kansas City after the Chiefs-Broncos game.",
-    "url": "https://abcnews.go.com/video/136456857/",
+    "headline": "WATCH: People train to run 50K while eating Taco Bell",
+    "detail": "ABC News' Danny New talks to the co-founder of the International Taco Bell 50K, an annual event where people run 31 miles while stopping to eat at 11 Taco Bell restaurants along the way.",
+    "url": "https://abcnews.go.com/video/136996517/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-09-15T12:10:54-04:00",
-    "fetched": "2026-09-15T23:51:29+00:00"
+    "published": "2026-10-05T06:11:27-04:00",
+    "fetched": "2026-10-05T21:05:44+00:00"
    }
   ]
  }

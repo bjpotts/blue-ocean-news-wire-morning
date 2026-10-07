@@ -10,105 +10,78 @@
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by US Treasury yield hits 19-year high, Japanese yen strengthens: the numbers moving markets. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by China’s carmakers eye record 12 million overseas sales in 2026 as ‘go global’ plan pays off. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "US Treasury yield hits 19-year high, Japanese yen strengthens: the numbers moving markets",
-     "detail": "China’s buoyant stock market lifted brokers’ earnings in the first half, while Hong Kong saw continued growth in retirement assets.",
-     "url": "https://www.scmp.com/business/china-business/article/3367158/us-treasury-yield-hits-19-year-high-japanese-yen-strengthens-numbers-moving-markets?utm_source=rss_feed",
+     "headline": "China’s carmakers eye record 12 million overseas sales in 2026 as ‘go global’ plan pays off",
+     "detail": "Chinese automotive groups have cause to celebrate their go-global strategy amid breakneck export growth in recent years, with deliveries in 2026 expected to beat expectations already buoyed by an international energy shock caused by…",
+     "url": "https://www.scmp.com/business/china-business/article/3369423/chinas-carmakers-eye-record-12-million-overseas-sales-2026-go-global-plan-pays?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-11T07:00:05+00:00",
-     "fetched": "2026-09-15T23:51:09+00:00"
+     "published": "2026-10-01T06:00:08+00:00",
+     "fetched": "2026-10-05T21:05:18+00:00"
     },
     {
-     "headline": "SHKP posts 4.6% profit rise amid Hong Kong’s property recovery",
-     "detail": "Sun Hung Kai Properties (SHKP), Hong Kong’s biggest developer by market capitalisation, reported its underlying profit for the year ending June rose 4.6 per cent to HK$22.85 billion (US$2.91 billion), excluding investment property…",
-     "url": "https://www.scmp.com/business/article/3367088/shkp-posts-46-profit-rise-amid-hong-kongs-property-recovery?utm_source=rss_feed",
+     "headline": "New World Development posts HK$26.8b loss after 11 Skies termination",
+     "detail": "New World Development (NWD) reported a net loss of HK$26.8 billion (US$3.42 billion) for the year ended June, as the developer booked HK$18.3 billion in impairments and provisions tied to the early termination of its flagship 11 Skies mall…",
+     "url": "https://www.scmp.com/business/companies/article/3369377/new-world-development-posts-hk268b-loss-after-11-skies-termination?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-10T12:26:14+00:00",
-     "fetched": "2026-09-15T23:51:09+00:00"
+     "published": "2026-09-30T14:46:27+00:00",
+     "fetched": "2026-10-05T21:05:18+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by McKesson Raises Outlook, Eyes Oncology Growth With Precision Medicine Deal. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 2,
+   "summary": "US earnings reporting activity captured this run runs to 2 items, led by Pre-Market Earnings Report for October 6, 2026 : RPM, LW, APOG. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 1,
    "items": [
     {
-     "headline": "McKesson Raises Outlook, Eyes Oncology Growth With Precision Medicine Deal",
-     "detail": "Cardinal Health Earnings: Can Perfection Get Priced In Twice?McKesson (NYSE:MCK) executives said the company’s first-quarter performance supported a higher full-year earnings outlook, citing broad-based growth across its North American…",
-     "url": "https://www.nasdaq.com/articles/mckesson-raises-outlook-eyes-oncology-growth-precision-medicine-deal",
+     "headline": "Pre-Market Earnings Report for October 6, 2026 : RPM, LW, APOG",
+     "detail": "The following companies are expected to report earnings prior to market open on 10/06/2026. Visit our Earnings Calendar for a full list of expected earnings releases.RPM International Inc.",
+     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-october-6-2026-rpm-lw-apog",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-14T13:02:18+00:00",
-     "fetched": "2026-09-15T23:51:12+00:00"
+     "published": "2026-10-05T20:00:01+00:00",
+     "fetched": "2026-10-05T21:05:22+00:00"
     },
     {
-     "headline": "Hewlett Packard Enterprise Sees AI, Networking Demand Outrun Supply as 2027 Targets Rise",
-     "detail": "How 4 Million Hewlett Packard Shares Bought an AI NetworkHewlett Packard Enterprise (NYSE:HPE) CFO Marie Myers said the company’s recent quarterly results and revised fiscal 2027 framework reflect demand that continues to exceed available…",
-     "url": "https://www.nasdaq.com/articles/hewlett-packard-enterprise-sees-ai-networking-demand-outrun-supply-2027-targets-rise",
+     "headline": "After-Hours Earnings Report for October 1, 2026 : NKE",
+     "detail": "The following companies are expected to report earnings after hours on 10/01/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Nike, Inc. (NKE)is reporting for the quarter ending August 31, 2026.",
+     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-october-1-2026-nke",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-14T01:01:59+00:00",
-     "fetched": "2026-09-15T23:51:12+00:00"
-    },
-    {
-     "headline": "Pre-Market Earnings Report for September 16, 2026 : LUXE",
-     "detail": "The following companies are expected to report earnings prior to market open on 09/16/2026. Visit our Earnings Calendar for a full list of expected earnings releases.LuxExperience B.V.",
-     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-september-16-2026-luxe",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-15T20:00:01+00:00",
-     "fetched": "2026-09-15T23:51:12+00:00"
-    },
-    {
-     "headline": "After-Hours Earnings Report for September 15, 2026 : TCOM, EPM",
-     "detail": "The following companies are expected to report earnings after hours on 09/15/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Trip.com Group Limited (TCOM)is reporting for the quarter ending June 30, 2026.",
-     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-september-15-2026-tcom-epm",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-15T18:00:01+00:00",
-     "fetched": "2026-09-15T23:51:12+00:00"
-    },
-    {
-     "headline": "Dave & Buster's Entertainment Q2 Earnings Call Highlights",
-     "detail": "Dave & Buster’s Q1 Miss Raises the Stakes for Its Turnaround PlanDave & Buster's Entertainment (NASDAQ:PLAY) reported lower second-quarter revenue and earnings but said same-store sales trends improved during July and the early weeks of…",
-     "url": "https://www.nasdaq.com/articles/dave-busters-entertainment-q2-earnings-call-highlights",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-09-14T23:02:16+00:00",
-     "fetched": "2026-09-15T23:51:12+00:00"
+     "published": "2026-10-01T18:00:01+00:00",
+     "fetched": "2026-10-05T21:05:22+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "A single verifiable earnings item was found for UK this run: As it happened: FTSE 100 rallies as economy beats forecasts; oil falls back. No newer earnings item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "No Company earnings reports available.",
    "fresh_count": 0,
-   "items": [
-    {
-     "headline": "As it happened: FTSE 100 rallies as economy beats forecasts; oil falls back",
-     "detail": "Welcome back to City AM’s FTSE 100 liveblog. The UK’s blue-chip index rallied on Friday after the economy beat forecasts in July, surprising those in the City who had expected to see growth peter out.",
-     "url": "https://www.cityam.com/ftse-100-live-stocks-to-drop-economic-growth-set-to-vanish/",
-     "outlet": "City A.M.",
-     "source_url": "https://www.cityam.com/category/markets/feed/",
-     "published": "2026-09-11T05:30:00+00:00",
-     "fetched": "2026-09-15T23:51:15+00:00"
-    }
-   ]
+   "items": []
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "No Company earnings reports available.",
-   "fresh_count": 0,
-   "items": []
+   "summary": "A single verifiable earnings item was found for Europe this run: Cargill’s Earnings Slump 52% With High Cattle Costs, Cocoa Loss.",
+   "fresh_count": 1,
+   "items": [
+    {
+     "headline": "Cargill’s Earnings Slump 52% With High Cattle Costs, Cocoa Loss",
+     "detail": "Cargill Inc.’s fiscal first-quarter earnings fell by more than half as the largest private company in the US was pressured by higher costs for cattle and cocoa despite also benefiting from stronger results in soybeans.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-05/cargill-s-earnings-slump-52-with-high-cattle-costs-cocoa-loss",
+     "outlet": "Bloomberg",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-10-05T18:58:44+00:00",
+     "fetched": "2026-10-05T21:05:26+00:00"
+    }
+   ]
   },
   {
    "key": "rest",

@@ -3,620 +3,627 @@
   {
    "key": "anz",
    "title": "ANZ Top Performers",
-   "caption": "Source: TradingView Australia market movers, captured Wednesday 16 September 2026 at 09:49 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
-   "fetched": "2026-09-16T09:49:17+10:00",
+   "caption": "Source: TradingView Australia market movers, captured Tuesday 06 October 2026 at 08:01 AEST, covering the AEST session most recently published at that time. Covers all ASX-listed stocks rather than the ASX 200 alone. Ticker links go to Market Index. New Zealand (NZX) top performers are not available from a reliable linked source.",
+   "fetched": "2026-10-06T08:01:21+11:00",
    "stale": false,
-   "gainer_note": "BPH Global Limited led the ANZ board for the session, up 1900.00 per cent to $0.02 on reported volume of 33.00K shares. The move is reported here as captured from TradingView Australia market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
-   "gainer_note_sources": [],
-   "loser_note": "Ovanti Ltd was the steepest decliner on the ANZ board for the session, down 50.00 per cent to $0.001 on reported volume of 11.24M shares. The move is reported here as captured from TradingView Australia market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "gainer_note": "Nexalis Therapeutics Limited led the ANZ board for the session, up 66.67 per cent to $0.015 on reported volume of 716.67K shares. Reported alongside the move, Kalkine on 02 October 2026:",
+   "gainer_note_sources": [
+    {
+     "title": "Nexalis Therapeutics Appoints Niv Dagan as Non-Executive Chairman Following Sean Williams Resignation - Kalkine",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeDFUT2NJR2VSZzRoUmJ0MTNmMDdJMU8zSTdvS184Sk1CaEVfVjhIS2c2UEtzNmFBSnNYMkxXeGZTcGxrMGRRVzdtUWd3bG8zWEF6NUJKakR1ZkpsTGMyU0NuRl9iZzlrMjFYOHRuRVFtV0M2TGZmc28zYy0zcmppVnMteFRKUWJHelFrbzMtcmpYR0RHNVB2cmUtWVk1Q0tVVnQxbzVTcXI3NHd0dFd5dEJsWWxkbE9yZmhRSktFY0toYzZNTHo1NVJuRlZGNFRKQzVQRFR6RzZrSlE?oc=5",
+     "publisher": "Kalkine",
+     "published": "2026-10-02T10:45:49+10:00"
+    }
+   ],
+   "loser_note": "Biotron Limited was the steepest decliner on the ANZ board for the session, down 50.00 per cent to $0.001 on reported volume of 2.76M shares. The move is reported here as captured from TradingView Australia market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "loser_note_sources": [],
    "gainers": [
     {
-     "name": "Latrobe Magnesium Limited (LMG)",
-     "url": "https://www.marketindex.com.au/asx/lmg",
-     "price": "$0.014",
-     "chg": "+40.00%",
-     "vol": "55.73M"
+     "name": "Codeifai Limited (CDE)",
+     "url": "https://www.marketindex.com.au/asx/cde",
+     "price": "$0.005",
+     "chg": "+25.00%",
+     "vol": "13.11M"
+    },
+    {
+     "name": "Albright Metals Ltd (ABR)",
+     "url": "https://www.marketindex.com.au/asx/abr",
+     "price": "$0.003",
+     "chg": "+50.00%",
+     "vol": "6.35M"
     },
     {
      "name": "Blue Star Helium Limited (BNL)",
      "url": "https://www.marketindex.com.au/asx/bnl",
-     "price": "$0.005",
-     "chg": "+25.00%",
-     "vol": "6.21M"
-    },
-    {
-     "name": "Altoro Metals Limited (ARO)",
-     "url": "https://www.marketindex.com.au/asx/aro",
      "price": "$0.004",
      "chg": "+33.33%",
-     "vol": "5.79M"
+     "vol": "4.98M"
     },
     {
-     "name": "Galilee Energy Limited (GLL)",
-     "url": "https://www.marketindex.com.au/asx/gll",
-     "price": "$0.005",
-     "chg": "+25.00%",
-     "vol": "4.09M"
-    },
-    {
-     "name": "Nelson Resources Ltd. (NES)",
-     "url": "https://www.marketindex.com.au/asx/nes",
-     "price": "$0.003",
+     "name": "Cann Group Ltd. (CAN)",
+     "url": "https://www.marketindex.com.au/asx/can",
+     "price": "$0.006",
      "chg": "+50.00%",
-     "vol": "3.02M"
+     "vol": "4.48M"
     },
     {
-     "name": "Great Western Exploration Limited (GTE)",
-     "url": "https://www.marketindex.com.au/asx/gte",
-     "price": "$0.01",
-     "chg": "+25.00%",
-     "vol": "2.16M"
+     "name": "Liberty Metals Ltd (LIB)",
+     "url": "https://www.marketindex.com.au/asx/lib",
+     "price": "$0.004",
+     "chg": "+33.33%",
+     "vol": "2.62M"
     },
     {
-     "name": "NH3 Clean Energy Limited (NH3)",
-     "url": "https://www.marketindex.com.au/asx/nh3",
-     "price": "$0.125",
-     "chg": "+31.58%",
-     "vol": "2.06M"
+     "name": "333D Limited (T3D)",
+     "url": "https://www.marketindex.com.au/asx/t3d",
+     "price": "$0.046",
+     "chg": "+31.43%",
+     "vol": "2.02M"
     },
     {
-     "name": "Stelar Metals Limited (SLB)",
-     "url": "https://www.marketindex.com.au/asx/slb",
-     "price": "$0.32",
-     "chg": "+25.49%",
-     "vol": "1.84M"
+     "name": "Normandy Minerals Ltd. (NMD)",
+     "url": "https://www.marketindex.com.au/asx/nmd",
+     "price": "$0.29",
+     "chg": "+45.00%",
+     "vol": "1.79M"
     },
     {
-     "name": "Blue Energy Limited (BLU)",
-     "url": "https://www.marketindex.com.au/asx/blu",
-     "price": "$0.005",
-     "chg": "+25.00%",
-     "vol": "1.10M"
+     "name": "Osteopore Ltd. (OSX)",
+     "url": "https://www.marketindex.com.au/asx/osx",
+     "price": "$0.004",
+     "chg": "+33.33%",
+     "vol": "837.53K"
     },
     {
-     "name": "BPH Global Limited (BP8)",
-     "url": "https://www.marketindex.com.au/asx/bp8",
-     "price": "$0.02",
-     "chg": "+1900.00%",
-     "vol": "33.00K"
+     "name": "Nexalis Therapeutics Limited (NX1)",
+     "url": "https://www.marketindex.com.au/asx/nx1",
+     "price": "$0.015",
+     "chg": "+66.67%",
+     "vol": "716.67K"
+    },
+    {
+     "name": "Income Asset Management Group Limited (IAM)",
+     "url": "https://www.marketindex.com.au/asx/iam",
+     "price": "$0.019",
+     "chg": "+26.67%",
+     "vol": "276.47K"
     }
    ],
    "losers": [
     {
-     "name": "Iron Bear Resources Ltd (IBR)",
-     "url": "https://www.marketindex.com.au/asx/ibr",
-     "price": "$0.024",
-     "chg": "-46.67%",
-     "vol": "30.03M"
+     "name": "Chimeric Therapeutics Limited (CHM)",
+     "url": "https://www.marketindex.com.au/asx/chm",
+     "price": "$0.003",
+     "chg": "-40.00%",
+     "vol": "25.13M"
     },
     {
-     "name": "Ovanti Ltd (OVT)",
-     "url": "https://www.marketindex.com.au/asx/ovt",
+     "name": "Biotron Limited (BIT)",
+     "url": "https://www.marketindex.com.au/asx/bit",
      "price": "$0.001",
      "chg": "-50.00%",
-     "vol": "11.24M"
+     "vol": "2.76M"
+    },
+    {
+     "name": "Superior Resources Limited (SPQ)",
+     "url": "https://www.marketindex.com.au/asx/spq",
+     "price": "$0.003",
+     "chg": "-25.00%",
+     "vol": "1.50M"
+    },
+    {
+     "name": "AdAlta Ltd. (1AD)",
+     "url": "https://www.marketindex.com.au/asx/1ad",
+     "price": "$0.003",
+     "chg": "-25.00%",
+     "vol": "505.00K"
+    },
+    {
+     "name": "Vmoto Limited (VMT)",
+     "url": "https://www.marketindex.com.au/asx/vmt",
+     "price": "$0.075",
+     "chg": "-21.05%",
+     "vol": "303.54K"
+    },
+    {
+     "name": "Freehill Mining Ltd. (FHS)",
+     "url": "https://www.marketindex.com.au/asx/fhs",
+     "price": "$0.001",
+     "chg": "-33.33%",
+     "vol": "262.00K"
+    },
+    {
+     "name": "Constellation Technologies Limited (CT1)",
+     "url": "https://www.marketindex.com.au/asx/ct1",
+     "price": "$0.002",
+     "chg": "-33.33%",
+     "vol": "106.67K"
+    },
+    {
+     "name": "Nodestream Ltd (NS1)",
+     "url": "https://www.marketindex.com.au/asx/ns1",
+     "price": "$0.003",
+     "chg": "-25.00%",
+     "vol": "40.52K"
     },
     {
      "name": "Vintage Energy Ltd. (VEN)",
      "url": "https://www.marketindex.com.au/asx/ven",
      "price": "$0.001",
      "chg": "-50.00%",
-     "vol": "3.26M"
+     "vol": "10.21K"
     },
     {
-     "name": "Prominence Energy Limited (PRM)",
-     "url": "https://www.marketindex.com.au/asx/prm",
-     "price": "$0.001",
-     "chg": "-50.00%",
-     "vol": "2.31M"
-    },
-    {
-     "name": "Barys Resources Limited (BRY)",
-     "url": "https://www.marketindex.com.au/asx/bry",
-     "price": "$0.013",
-     "chg": "-31.58%",
-     "vol": "955.77K"
-    },
-    {
-     "name": "BPH Energy Limited (BPH)",
-     "url": "https://www.marketindex.com.au/asx/bph",
-     "price": "$0.002",
+     "name": "Macarthur Minerals Limited (MIO)",
+     "url": "https://www.marketindex.com.au/asx/mio",
+     "price": "$0.02",
      "chg": "-33.33%",
-     "vol": "397.57K"
-    },
-    {
-     "name": "Xenitra Limited (XEN)",
-     "url": "https://www.marketindex.com.au/asx/xen",
-     "price": "$0.002",
-     "chg": "-33.33%",
-     "vol": "12.50K"
-    },
-    {
-     "name": "CSL Limited (CSLCD)",
-     "url": "https://www.marketindex.com.au/asx/cslcd",
-     "price": "$173.75",
-     "chg": "-41.43%",
-     "vol": "6.00K"
-    },
-    {
-     "name": "ZIMI Ltd (ZMM)",
-     "url": "https://www.marketindex.com.au/asx/zmm",
-     "price": "$0.003",
-     "chg": "-25.00%",
-     "vol": "6.00K"
-    },
-    {
-     "name": "Clara Resources Australia Limited (C7A)",
-     "url": "https://www.marketindex.com.au/asx/c7a",
-     "price": "$0.003",
-     "chg": "-25.00%",
-     "vol": "3.45K"
+     "vol": "3.60K"
     }
    ]
   },
   {
    "key": "japan",
    "title": "Japan Top Performers",
-   "caption": "Source: TradingView Japan market movers, captured Wednesday 16 September 2026 at 09:49 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-16T09:49:17+10:00",
+   "caption": "Source: TradingView Japan market movers, captured Tuesday 06 October 2026 at 08:01 AEST, covering the JST session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-10-06T08:01:21+11:00",
    "stale": false,
-   "gainer_note": "WHY HOW DO COMPANY,Inc. led the Japan board for the session, up 65.63 per cent to \u00a553 on reported volume of 47.48M shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "gainer_note": "Kringle Pharma, Inc. led the Japan board for the session, up 16.53 per cent to \u00a5564 on reported volume of 688.6K shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "D.Western Therapeutics Institute, Inc. was the steepest decliner on the Japan board for the session, down 20.69 per cent to \u00a569 on reported volume of 2.31M shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "loser_note": "Advance Create Co., Ltd. was the steepest decliner on the Japan board for the session, down 19.32 per cent to \u00a571 on reported volume of 1.56M shares. The move is reported here as captured from TradingView Japan market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "loser_note_sources": [],
    "gainers": [
     {
-     "name": "WHY HOW DO COMPANY,Inc. (3823)",
-     "url": "https://www.tradingview.com/symbols/TSE-3823/",
-     "price": "\u00a553",
-     "chg": "+65.63%",
-     "vol": "47.48M"
+     "name": "Tier IV, Inc. (593A)",
+     "url": "https://www.tradingview.com/symbols/TSE-593A/",
+     "price": "\u00a52,193",
+     "chg": "+15.36%",
+     "vol": "41.29M"
     },
     {
-     "name": "Linkers Corporation (5131)",
-     "url": "https://www.tradingview.com/symbols/TSE-5131/",
-     "price": "\u00a5213",
-     "chg": "+30.67%",
-     "vol": "7.33M"
+     "name": "Architects Studio Japan, Inc. (6085)",
+     "url": "https://www.tradingview.com/symbols/TSE-6085/",
+     "price": "\u00a5115",
+     "chg": "+12.75%",
+     "vol": "13.96M"
     },
     {
-     "name": "Brains Technology, Inc. (4075)",
-     "url": "https://www.tradingview.com/symbols/TSE-4075/",
-     "price": "\u00a51,343",
-     "chg": "+16.28%",
-     "vol": "2.01M"
+     "name": "Unbanked, Inc. (8746)",
+     "url": "https://www.tradingview.com/symbols/TSE-8746/",
+     "price": "\u00a5125",
+     "chg": "+9.65%",
+     "vol": "3.48M"
     },
     {
-     "name": "Kadoya Sesame Mills Incorporated (2612)",
-     "url": "https://www.tradingview.com/symbols/TSE-2612/",
-     "price": "\u00a52,800",
-     "chg": "+15.75%",
-     "vol": "912.3K"
+     "name": "Caulis, Inc. (153A)",
+     "url": "https://www.tradingview.com/symbols/TSE-153A/",
+     "price": "\u00a51,713",
+     "chg": "+10.95%",
+     "vol": "1.1M"
     },
     {
-     "name": "Kitagawa Corporation (6317)",
-     "url": "https://www.tradingview.com/symbols/TSE-6317/",
-     "price": "\u00a52,443",
-     "chg": "+15.95%",
-     "vol": "730.7K"
+     "name": "Global Communication Planning Co.Ltd. (4073)",
+     "url": "https://www.tradingview.com/symbols/TSE-4073/",
+     "price": "\u00a5780",
+     "chg": "+14.20%",
+     "vol": "917.5K"
     },
     {
-     "name": "Copa Corporation Inc. (7689)",
-     "url": "https://www.tradingview.com/symbols/TSE-7689/",
-     "price": "\u00a5422",
-     "chg": "+23.39%",
-     "vol": "589.2K"
+     "name": "Optoelectronics Co., Ltd. (6664)",
+     "url": "https://www.tradingview.com/symbols/TSE-6664/",
+     "price": "\u00a5274",
+     "chg": "+16.10%",
+     "vol": "874.2K"
     },
     {
-     "name": "beABLE Co., Ltd. (604A)",
-     "url": "https://www.tradingview.com/symbols/TSE-604A/",
-     "price": "\u00a51,565",
-     "chg": "+23.72%",
-     "vol": "491.2K"
+     "name": "Kringle Pharma, Inc. (4884)",
+     "url": "https://www.tradingview.com/symbols/TSE-4884/",
+     "price": "\u00a5564",
+     "chg": "+16.53%",
+     "vol": "688.6K"
     },
     {
-     "name": "I-ne CO., LTD. (4933)",
-     "url": "https://www.tradingview.com/symbols/TSE-4933/",
-     "price": "\u00a51,681",
-     "chg": "+16.41%",
-     "vol": "143.1K"
+     "name": "For Startups, Inc. (7089)",
+     "url": "https://www.tradingview.com/symbols/TSE-7089/",
+     "price": "\u00a51,542",
+     "chg": "+9.67%",
+     "vol": "230.5K"
     },
     {
-     "name": "ASUA, Inc. (246A)",
-     "url": "https://www.tradingview.com/symbols/TSE-246A/",
-     "price": "\u00a51,077",
-     "chg": "+16.18%",
-     "vol": "21.4K"
+     "name": "DKS Co. Limited (4461)",
+     "url": "https://www.tradingview.com/symbols/TSE-4461/",
+     "price": "\u00a516,220",
+     "chg": "+9.23%",
+     "vol": "221.5K"
     },
     {
-     "name": "Techno Mathematical Co., Ltd. (3787)",
-     "url": "https://www.tradingview.com/symbols/TSE-3787/",
-     "price": "\u00a5486",
-     "chg": "+19.70%",
-     "vol": "3K"
+     "name": "MFS,Inc. (196A)",
+     "url": "https://www.tradingview.com/symbols/TSE-196A/",
+     "price": "\u00a5363",
+     "chg": "+10.33%",
+     "vol": "206.4K"
     }
    ],
    "losers": [
     {
-     "name": "Architects Studio Japan, Inc. (6085)",
-     "url": "https://www.tradingview.com/symbols/TSE-6085/",
-     "price": "\u00a5121",
-     "chg": "-14.18%",
-     "vol": "7.09M"
+     "name": "INFRONEER Holdings Inc. (5076)",
+     "url": "https://www.tradingview.com/symbols/TSE-5076/",
+     "price": "\u00a52,330.0",
+     "chg": "-13.56%",
+     "vol": "10.03M"
     },
     {
-     "name": "D.Western Therapeutics Institute, Inc. (4576)",
-     "url": "https://www.tradingview.com/symbols/TSE-4576/",
-     "price": "\u00a569",
-     "chg": "-20.69%",
-     "vol": "2.31M"
+     "name": "Beat Holdings Ltd. (9399)",
+     "url": "https://www.tradingview.com/symbols/TSE-9399/",
+     "price": "\u00a512",
+     "chg": "-7.69%",
+     "vol": "7.23M"
     },
     {
-     "name": "Kubotek Corporation (7709)",
-     "url": "https://www.tradingview.com/symbols/TSE-7709/",
-     "price": "\u00a565",
-     "chg": "-14.47%",
-     "vol": "1.52M"
+     "name": "Fantasista Co.,Ltd (1783)",
+     "url": "https://www.tradingview.com/symbols/TSE-1783/",
+     "price": "\u00a573",
+     "chg": "-8.75%",
+     "vol": "4.01M"
     },
     {
-     "name": "Liberaware Co.,Ltd. (218A)",
-     "url": "https://www.tradingview.com/symbols/TSE-218A/",
-     "price": "\u00a5985",
-     "chg": "-13.22%",
-     "vol": "1.26M"
+     "name": "Kaihan Co., Ltd. (3133)",
+     "url": "https://www.tradingview.com/symbols/TSE-3133/",
+     "price": "\u00a535",
+     "chg": "-12.50%",
+     "vol": "2.76M"
     },
     {
-     "name": "Link-U Group Inc. (4446)",
-     "url": "https://www.tradingview.com/symbols/TSE-4446/",
-     "price": "\u00a5760",
-     "chg": "-16.30%",
-     "vol": "432K"
+     "name": "LAYERED Inc. (634A)",
+     "url": "https://www.tradingview.com/symbols/TSE-634A/",
+     "price": "\u00a52,756",
+     "chg": "-12.51%",
+     "vol": "2.45M"
     },
     {
-     "name": "ASNOVA Co., Ltd. (9223)",
-     "url": "https://www.tradingview.com/symbols/TSE-9223/",
-     "price": "\u00a5361",
-     "chg": "-15.26%",
-     "vol": "175.4K"
+     "name": "Advance Create Co., Ltd. (8798)",
+     "url": "https://www.tradingview.com/symbols/TSE-8798/",
+     "price": "\u00a571",
+     "chg": "-19.32%",
+     "vol": "1.56M"
     },
     {
-     "name": "Generation Pass Co.,Ltd. (3195)",
-     "url": "https://www.tradingview.com/symbols/TSE-3195/",
-     "price": "\u00a5497",
-     "chg": "-16.75%",
-     "vol": "163.5K"
+     "name": "Fujicopian Co., Ltd. (7957)",
+     "url": "https://www.tradingview.com/symbols/TSE-7957/",
+     "price": "\u00a52,063",
+     "chg": "-7.11%",
+     "vol": "399K"
     },
     {
-     "name": "Emimen Co.,Ltd. (9237)",
-     "url": "https://www.tradingview.com/symbols/TSE-9237/",
-     "price": "\u00a5831",
-     "chg": "-15.29%",
-     "vol": "107.9K"
+     "name": "Subaru Enterprise Co., Ltd. (9632)",
+     "url": "https://www.tradingview.com/symbols/TSE-9632/",
+     "price": "\u00a54,650",
+     "chg": "-7.92%",
+     "vol": "257.2K"
     },
     {
-     "name": "Shinto Co. Ltd. (5380)",
-     "url": "https://www.tradingview.com/symbols/TSE-5380/",
-     "price": "\u00a51,346",
-     "chg": "-16.40%",
-     "vol": "21.5K"
+     "name": "eXmotion Co., Ltd. (4394)",
+     "url": "https://www.tradingview.com/symbols/TSE-4394/",
+     "price": "\u00a5728",
+     "chg": "-9.00%",
+     "vol": "236.1K"
     },
     {
-     "name": "Sanno Co., Ltd. (3441)",
-     "url": "https://www.tradingview.com/symbols/TSE-3441/",
-     "price": "\u00a52,195",
-     "chg": "-18.55%",
-     "vol": "13.4K"
+     "name": "mbs,inc. (1401)",
+     "url": "https://www.tradingview.com/symbols/TSE-1401/",
+     "price": "\u00a51,500",
+     "chg": "-13.54%",
+     "vol": "154K"
     }
    ]
   },
   {
    "key": "singapore",
    "title": "Singapore Top Performers",
-   "caption": "Source: TradingView Singapore market movers, captured Wednesday 16 September 2026 at 09:49 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-16T09:49:17+10:00",
+   "caption": "Source: TradingView Singapore market movers, captured Tuesday 06 October 2026 at 08:01 AEST, covering the SGT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-10-06T08:01:21+11:00",
    "stale": false,
-   "gainer_note": "Tye Soon Limited led the Singapore board for the session, up 17.65 per cent to S$0.300 on reported volume of 100 shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "gainer_note": "AP Oil International Limited led the Singapore board for the session, up 8.00 per cent to S$0.135 on reported volume of 100K shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "Ascent Bridge Limited was the steepest decliner on the Singapore board for the session, down 24.44 per cent to S$0.170 on reported volume of 29.9K shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "loser_note": "Far East Group Limited was the steepest decliner on the Singapore board for the session, down 14.88 per cent to S$0.103 on reported volume of 80.8K shares. The move is reported here as captured from TradingView Singapore market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "loser_note_sources": [],
    "gainers": [
     {
-     "name": "Accrelist Ltd. (QZG)",
-     "url": "https://www.tradingview.com/symbols/SGX-QZG/",
-     "price": "S$0.168",
-     "chg": "+3.70%",
-     "vol": "4.88M"
-    },
-    {
-     "name": "Foundation Healthcare Holdings Limited (FHH)",
-     "url": "https://www.tradingview.com/symbols/SGX-FHH/",
-     "price": "S$0.615",
-     "chg": "+3.36%",
-     "vol": "3.4M"
-    },
-    {
      "name": "First Resources Ltd. (Singapore)",
      "url": "https://www.tradingview.com/symbols/SGX-EB5/",
-     "price": "S$4.83",
-     "chg": "+4.32%",
-     "vol": "3.29M"
+     "price": "S$4.30",
+     "chg": "+4.12%",
+     "vol": "2.46M"
     },
     {
-     "name": "Chuan Hup Holdings Limited (C33)",
-     "url": "https://www.tradingview.com/symbols/SGX-C33/",
-     "price": "S$0.255",
-     "chg": "+4.08%",
-     "vol": "673.5K"
+     "name": "Hong Fok Corporation Limited (H30)",
+     "url": "https://www.tradingview.com/symbols/SGX-H30/",
+     "price": "S$0.940",
+     "chg": "+4.44%",
+     "vol": "1.73M"
     },
     {
-     "name": "Federal International (2000) Ltd (BDU)",
-     "url": "https://www.tradingview.com/symbols/SGX-BDU/",
-     "price": "S$0.275",
-     "chg": "+3.77%",
-     "vol": "375K"
+     "name": "Lum Chang Creations Limited (LCC)",
+     "url": "https://www.tradingview.com/symbols/SGX-LCC/",
+     "price": "S$0.320",
+     "chg": "+3.23%",
+     "vol": "270.9K"
     },
     {
-     "name": "Straco Corporation Limited (S85)",
-     "url": "https://www.tradingview.com/symbols/SGX-S85/",
-     "price": "S$0.300",
-     "chg": "+3.45%",
-     "vol": "49K"
+     "name": "Goodwill Entertainment Holding Limited (GEH)",
+     "url": "https://www.tradingview.com/symbols/SGX-GEH/",
+     "price": "S$0.148",
+     "chg": "+3.50%",
+     "vol": "110.2K"
     },
     {
-     "name": "Mewah International Inc. (MV4)",
-     "url": "https://www.tradingview.com/symbols/SGX-MV4/",
-     "price": "S$0.265",
-     "chg": "+3.92%",
-     "vol": "37.2K"
+     "name": "AP Oil International Limited (5AU)",
+     "url": "https://www.tradingview.com/symbols/SGX-5AU/",
+     "price": "S$0.135",
+     "chg": "+8.00%",
+     "vol": "100K"
     },
     {
-     "name": "Tai Sin Electric Limited (500)",
-     "url": "https://www.tradingview.com/symbols/SGX-500/",
-     "price": "S$0.540",
-     "chg": "+4.85%",
-     "vol": "29K"
+     "name": "Beng Kuang Marine Ltd. (BEZ)",
+     "url": "https://www.tradingview.com/symbols/SGX-BEZ/",
+     "price": "S$0.365",
+     "chg": "+4.29%",
+     "vol": "75.3K"
     },
     {
-     "name": "Civmec Limited (P9D)",
-     "url": "https://www.tradingview.com/symbols/SGX-P9D/",
-     "price": "S$1.64",
-     "chg": "+4.46%",
-     "vol": "15K"
+     "name": "ABR Holdings Limited (533)",
+     "url": "https://www.tradingview.com/symbols/SGX-533/",
+     "price": "S$0.410",
+     "chg": "+5.13%",
+     "vol": "60K"
     },
     {
-     "name": "Tye Soon Limited (BFU)",
-     "url": "https://www.tradingview.com/symbols/SGX-BFU/",
-     "price": "S$0.300",
-     "chg": "+17.65%",
-     "vol": "100"
+     "name": "MTQ Corporation Limited (M05)",
+     "url": "https://www.tradingview.com/symbols/SGX-M05/",
+     "price": "S$0.199",
+     "chg": "+4.74%",
+     "vol": "23K"
+    },
+    {
+     "name": "Penguin International Limited (BTM)",
+     "url": "https://www.tradingview.com/symbols/SGX-BTM/",
+     "price": "S$1.78",
+     "chg": "+4.09%",
+     "vol": "2.1K"
+    },
+    {
+     "name": "SHS Holdings Ltd. (566)",
+     "url": "https://www.tradingview.com/symbols/SGX-566/",
+     "price": "S$0.116",
+     "chg": "+5.45%",
+     "vol": "700"
     }
    ],
    "losers": [
     {
-     "name": "ASTI Holdings Limited (575)",
-     "url": "https://www.tradingview.com/symbols/SGX-575/",
-     "price": "S$0.107",
-     "chg": "-5.31%",
-     "vol": "7M"
+     "name": "Vibrant Group Ltd (BIP)",
+     "url": "https://www.tradingview.com/symbols/SGX-BIP/",
+     "price": "S$0.123",
+     "chg": "-4.65%",
+     "vol": "512.1K"
     },
     {
-     "name": "MetaOptics Ltd (9MT)",
-     "url": "https://www.tradingview.com/symbols/SGX-9MT/",
-     "price": "S$0.385",
-     "chg": "-6.10%",
-     "vol": "570.5K"
+     "name": "Straco Corporation Limited (S85)",
+     "url": "https://www.tradingview.com/symbols/SGX-S85/",
+     "price": "S$0.305",
+     "chg": "-4.69%",
+     "vol": "84K"
     },
     {
-     "name": "UltraGreen.ai Limited (UGS)",
-     "url": "https://www.tradingview.com/symbols/SGX-UGS/",
-     "price": "S$0.705",
-     "chg": "-6.00%",
-     "vol": "483.3K"
+     "name": "Far East Group Limited (5TJ)",
+     "url": "https://www.tradingview.com/symbols/SGX-5TJ/",
+     "price": "S$0.103",
+     "chg": "-14.88%",
+     "vol": "80.8K"
     },
     {
-     "name": "Koh Brothers Group Limited (K75)",
-     "url": "https://www.tradingview.com/symbols/SGX-K75/",
-     "price": "S$0.235",
-     "chg": "-6.00%",
-     "vol": "215.3K"
+     "name": "Hock Lian Seng Holdings Limited (J2T)",
+     "url": "https://www.tradingview.com/symbols/SGX-J2T/",
+     "price": "S$0.260",
+     "chg": "-5.45%",
+     "vol": "40.5K"
     },
     {
-     "name": "Creative Technology Ltd. (C76)",
-     "url": "https://www.tradingview.com/symbols/SGX-C76/",
-     "price": "S$0.700",
-     "chg": "-5.41%",
-     "vol": "58.85K"
+     "name": "All-Link Air & Sea Limited (ALK)",
+     "url": "https://www.tradingview.com/symbols/SGX-ALK/",
+     "price": "S$0.465",
+     "chg": "-5.10%",
+     "vol": "40.1K"
     },
     {
-     "name": "Mooreast Holdings Ltd. (1V3)",
-     "url": "https://www.tradingview.com/symbols/SGX-1V3/",
-     "price": "S$0.109",
-     "chg": "-6.84%",
-     "vol": "45.2K"
+     "name": "Leong Guan Holdings Ltd. (LGH)",
+     "url": "https://www.tradingview.com/symbols/SGX-LGH/",
+     "price": "S$0.200",
+     "chg": "-13.04%",
+     "vol": "10K"
     },
     {
-     "name": "Ascent Bridge Limited (AWG)",
-     "url": "https://www.tradingview.com/symbols/SGX-AWG/",
-     "price": "S$0.170",
-     "chg": "-24.44%",
-     "vol": "29.9K"
+     "name": "Hotung Investment Holdings Limited (BLS)",
+     "url": "https://www.tradingview.com/symbols/SGX-BLS/",
+     "price": "S$1.49",
+     "chg": "-5.10%",
+     "vol": "5K"
     },
     {
-     "name": "Karin Technology Holdings Limited (K29)",
-     "url": "https://www.tradingview.com/symbols/SGX-K29/",
-     "price": "S$0.240",
+     "name": "IFS Capital Ltd. (I49)",
+     "url": "https://www.tradingview.com/symbols/SGX-I49/",
+     "price": "S$0.160",
      "chg": "-5.88%",
-     "vol": "20K"
+     "vol": "4.8K"
     },
     {
-     "name": "Southern Packaging Group Limited (BQP)",
-     "url": "https://www.tradingview.com/symbols/SGX-BQP/",
-     "price": "S$0.285",
-     "chg": "-13.64%",
-     "vol": "13.8K"
+     "name": "Acrophyte Hospitality Trust (XZL)",
+     "url": "https://www.tradingview.com/symbols/SGX-XZL/",
+     "price": "S$0.193",
+     "chg": "-8.10%",
+     "vol": "200"
     },
     {
-     "name": "LHT Holdings Ltd (BEI)",
-     "url": "https://www.tradingview.com/symbols/SGX-BEI/",
-     "price": "S$0.680",
-     "chg": "-8.11%",
-     "vol": "1.2K"
+     "name": "HG Metal Manufacturing Limited (BTG)",
+     "url": "https://www.tradingview.com/symbols/SGX-BTG/",
+     "price": "S$0.410",
+     "chg": "-8.89%",
+     "vol": "100"
     }
    ]
   },
   {
    "key": "hongkong",
    "title": "Hong Kong Top Performers",
-   "caption": "Source: TradingView Hong Kong market movers, captured Wednesday 16 September 2026 at 09:49 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
-   "fetched": "2026-09-16T09:49:17+10:00",
+   "caption": "Source: TradingView Hong Kong market movers, captured Tuesday 06 October 2026 at 08:01 AEST, covering the HKT session most recently published at that time. Share volumes as reported by TradingView.",
+   "fetched": "2026-10-06T08:01:21+11:00",
    "stale": false,
-   "gainer_note": "Sheng Tang Holdings Limited led the Hong Kong board for the session, up 63.89 per cent to HK$0.118 on reported volume of 111.98M shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "gainer_note": "Yuk Wing Group Holdings Ltd. led the Hong Kong board for the session, up 27.45 per cent to HK$0.325 on reported volume of 28.66M shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "Risecomm Group Holdings Limited was the steepest decliner on the Hong Kong board for the session, down 95.00 per cent to HK$1.300 on reported volume of 70K shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "loser_note": "Hanvey Group Holdings Limited was the steepest decliner on the Hong Kong board for the session, down 48.55 per cent to HK$0.355 on reported volume of 4.88M shares. The move is reported here as captured from TradingView Hong Kong market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "loser_note_sources": [],
    "gainers": [
     {
-     "name": "Sheng Tang Holdings Limited (8305)",
-     "url": "https://www.tradingview.com/symbols/HKEX-8305/",
-     "price": "HK$0.118",
-     "chg": "+63.89%",
-     "vol": "111.98M"
+     "name": "Comba Telecom Systems Holdings Limited (2342)",
+     "url": "https://www.tradingview.com/symbols/HKEX-2342/",
+     "price": "HK$1.170",
+     "chg": "+25.81%",
+     "vol": "54.83M"
     },
     {
-     "name": "i-Control Holdings Limited (1402)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1402/",
-     "price": "HK$0.655",
-     "chg": "+28.43%",
-     "vol": "17.34M"
+     "name": "Yuk Wing Group Holdings Ltd. (1536)",
+     "url": "https://www.tradingview.com/symbols/HKEX-1536/",
+     "price": "HK$0.325",
+     "chg": "+27.45%",
+     "vol": "28.66M"
     },
     {
-     "name": "Wei Yuan Holdings Limited (1343)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1343/",
-     "price": "HK$0.180",
-     "chg": "+28.57%",
-     "vol": "15.18M"
+     "name": "SPT Energy Group, Inc. (1251)",
+     "url": "https://www.tradingview.com/symbols/HKEX-1251/",
+     "price": "HK$0.290",
+     "chg": "+25.00%",
+     "vol": "6.36M"
     },
     {
-     "name": "Wecon Holdings Ltd. (1793)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1793/",
-     "price": "HK$1.610",
-     "chg": "+31.97%",
-     "vol": "10.22M"
+     "name": "Fujing Holdings Company., Limited (2497)",
+     "url": "https://www.tradingview.com/symbols/HKEX-2497/",
+     "price": "HK$0.665",
+     "chg": "+26.67%",
+     "vol": "1.8M"
     },
     {
-     "name": "Kwan Yong Holdings Limited (9998)",
-     "url": "https://www.tradingview.com/symbols/HKEX-9998/",
-     "price": "HK$0.565",
-     "chg": "+28.41%",
-     "vol": "8.32M"
+     "name": "Majestic Dragon AeroTech Holdings Limited (918)",
+     "url": "https://www.tradingview.com/symbols/HKEX-918/",
+     "price": "HK$1.430",
+     "chg": "+21.19%",
+     "vol": "1.67M"
     },
     {
-     "name": "Sling Group Holdings Ltd. (8285)",
-     "url": "https://www.tradingview.com/symbols/HKEX-8285/",
-     "price": "HK$0.101",
-     "chg": "+38.36%",
-     "vol": "2.38M"
+     "name": "Ling Yue Services Group Limited (2165)",
+     "url": "https://www.tradingview.com/symbols/HKEX-2165/",
+     "price": "HK$2.050",
+     "chg": "+24.62%",
+     "vol": "1.02M"
     },
     {
-     "name": "Mexan Limited (22)",
-     "url": "https://www.tradingview.com/symbols/HKEX-22/",
-     "price": "HK$2.500",
-     "chg": "+36.61%",
-     "vol": "1.59M"
+     "name": "Basetrophy Group Holdings Limited (8460)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8460/",
+     "price": "HK$0.365",
+     "chg": "+23.73%",
+     "vol": "780K"
     },
     {
-     "name": "Guangdong True Health Medical Technology Development Co. Ltd. Class H (2697)",
-     "url": "https://www.tradingview.com/symbols/HKEX-2697/",
-     "price": "HK$340.2",
-     "chg": "+30.34%",
-     "vol": "1.04M"
+     "name": "Huaibei GreenGold Industry Investment Co., Ltd. Class H (2450)",
+     "url": "https://www.tradingview.com/symbols/HKEX-2450/",
+     "price": "HK$14.90",
+     "chg": "+24.69%",
+     "vol": "202.5K"
     },
     {
-     "name": "Sinofortune Financial Holdings Limited (8123)",
-     "url": "https://www.tradingview.com/symbols/HKEX-8123/",
-     "price": "HK$0.435",
-     "chg": "+61.11%",
-     "vol": "925.9K"
+     "name": "Shanghai FourSemi Semiconductor Co., Ltd. Class H (3625)",
+     "url": "https://www.tradingview.com/symbols/HKEX-3625/",
+     "price": "HK$59.50",
+     "chg": "+22.68%",
+     "vol": "82.42K"
     },
     {
-     "name": "Baiying Holdings Group Ltd. (8525)",
-     "url": "https://www.tradingview.com/symbols/HKEX-8525/",
-     "price": "HK$0.800",
-     "chg": "+41.59%",
-     "vol": "2K"
+     "name": "TIL Enviro Limited (1790)",
+     "url": "https://www.tradingview.com/symbols/HKEX-1790/",
+     "price": "HK$0.505",
+     "chg": "+24.69%",
+     "vol": "50K"
     }
    ],
    "losers": [
     {
-     "name": "Yuk Wing Group Holdings Ltd. (1536)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1536/",
-     "price": "HK$0.465",
-     "chg": "-35.86%",
-     "vol": "79.77M"
+     "name": "Trio Industrial Electronics Group Limited (1710)",
+     "url": "https://www.tradingview.com/symbols/HKEX-1710/",
+     "price": "HK$1.650",
+     "chg": "-19.90%",
+     "vol": "20.38M"
     },
     {
-     "name": "Kin Shing Holdings Ltd. (1630)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1630/",
-     "price": "HK$0.243",
-     "chg": "-17.63%",
-     "vol": "10.01M"
+     "name": "Hanvey Group Holdings Limited (8219)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8219/",
+     "price": "HK$0.355",
+     "chg": "-48.55%",
+     "vol": "4.88M"
     },
     {
-     "name": "Shanghai Iluvatar CoreX Semiconductor Co., Ltd. Class H (9903)",
-     "url": "https://www.tradingview.com/symbols/HKEX-9903/",
-     "price": "HK$110.7",
-     "chg": "-65.28%",
-     "vol": "6.93M"
+     "name": "Century Group International Holdings Ltd. (2113)",
+     "url": "https://www.tradingview.com/symbols/HKEX-2113/",
+     "price": "HK$0.730",
+     "chg": "-17.98%",
+     "vol": "1.62M"
     },
     {
-     "name": "Lapco Holdings Limited (8472)",
-     "url": "https://www.tradingview.com/symbols/HKEX-8472/",
-     "price": "HK$0.222",
-     "chg": "-26.00%",
-     "vol": "4.31M"
+     "name": "Min Fu International Holding Limited (8511)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8511/",
+     "price": "HK$0.248",
+     "chg": "-17.33%",
+     "vol": "571K"
     },
     {
-     "name": "Shinelong Automotive Lightweight Application Limited (1930)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1930/",
-     "price": "HK$0.300",
-     "chg": "-15.49%",
-     "vol": "932K"
+     "name": "Great World Co. Holdings Ltd. (8003)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8003/",
+     "price": "HK$0.116",
+     "chg": "-18.88%",
+     "vol": "408K"
     },
     {
-     "name": "Epiworld International Co., Ltd. Class H (2726)",
-     "url": "https://www.tradingview.com/symbols/HKEX-2726/",
-     "price": "HK$81.50",
-     "chg": "-15.72%",
-     "vol": "509.05K"
+     "name": "Sinofortune Financial Holdings Limited (8123)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8123/",
+     "price": "HK$0.280",
+     "chg": "-20.00%",
+     "vol": "365K"
     },
     {
-     "name": "Top Standard Corp. (8510)",
-     "url": "https://www.tradingview.com/symbols/HKEX-8510/",
-     "price": "HK$0.238",
-     "chg": "-15.00%",
-     "vol": "180K"
+     "name": "Smart City Development Holdings Limited (8268)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8268/",
+     "price": "HK$0.116",
+     "chg": "-22.67%",
+     "vol": "296K"
     },
     {
-     "name": "Hangzhou Diagens Biotechnology Co., Ltd. Class H (2526)",
-     "url": "https://www.tradingview.com/symbols/HKEX-2526/",
-     "price": "HK$438.0",
-     "chg": "-13.61%",
-     "vol": "119.71K"
+     "name": "China Changbaishan International Holdings Limited (989)",
+     "url": "https://www.tradingview.com/symbols/HKEX-989/",
+     "price": "HK$0.485",
+     "chg": "-18.49%",
+     "vol": "200.09K"
     },
     {
-     "name": "Risecomm Group Holdings Limited (1679)",
-     "url": "https://www.tradingview.com/symbols/HKEX-1679/",
-     "price": "HK$1.300",
-     "chg": "-95.00%",
-     "vol": "70K"
+     "name": "BoardWare Intelligence Technology Limited (1204)",
+     "url": "https://www.tradingview.com/symbols/HKEX-1204/",
+     "price": "HK$1.325",
+     "chg": "-22.06%",
+     "vol": "88K"
     },
     {
-     "name": "Xinhua News Media Holdings Limited (309)",
-     "url": "https://www.tradingview.com/symbols/HKEX-309/",
-     "price": "HK$0.850",
-     "chg": "-15.00%",
-     "vol": "2.25K"
+     "name": "Shenglong Splendecor International Limited (8481)",
+     "url": "https://www.tradingview.com/symbols/HKEX-8481/",
+     "price": "HK$0.223",
+     "chg": "-18.91%",
+     "vol": "25K"
     }
    ]
   }

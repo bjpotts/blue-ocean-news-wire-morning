@@ -3,158 +3,167 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Innovaero Technologies LimitedINN — A$40M IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 4,
+   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Jacaranda lines up $8m-$10m ASX float for Botswana and Queensland exploration. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "Innovaero Technologies LimitedINN — A$40M IPO",
-     "detail": "Upcoming Defence technology IPO raising A$40M at $0.500, expected to list Tuesday, September 22, 2026 (stage: OPEN).",
-     "url": "https://www.innov.aero/",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-16T09:50:53.692044",
-     "fetched": "2026-09-15T23:50:53+00:00"
+     "headline": "Jacaranda lines up $8m-$10m ASX float for Botswana and Queensland exploration",
+     "detail": "Jacaranda Natural Resources is preparing for an $8m-$10m ASX debut, targeting gold and copper discoveries across Botswana and Queensland. ... Read More",
+     "url": "https://stockhead.com.au/resources/jacaranda-lines-up-8m-10m-asx-float-for-botswana-and-queensland-exploration/",
+     "outlet": "Stockhead",
+     "source_url": "https://stockhead.com.au/feed/",
+     "published": "2026-10-05T19:50:38+00:00",
+     "fetched": "2026-10-05T21:02:46+00:00"
     },
     {
-     "headline": "Parbo Resources LimitedPRB — A$5M IPO",
-     "detail": "Upcoming Mineral exploration and development IPO raising A$5M at $0.200, expected to list Tuesday, September 22, 2026 (stage: OPEN).",
-     "url": "https://www.parbo.com.au/",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-16T09:50:53.692115",
-     "fetched": "2026-09-15T23:50:53+00:00"
+     "headline": "Explorers Podcast: Jacaranda Natural Resources blooms for copper-gold IPO",
+     "detail": "Barry FitzGerald is joined by founder and executive chairman Arvind Misra as the company looks towards its entry onto the ... Read More",
+     "url": "https://stockhead.com.au/resources/explorers-podcast-jacaranda-natural-resources-blooms-for-copper-gold-ipo/",
+     "outlet": "Stockhead",
+     "source_url": "https://stockhead.com.au/feed/",
+     "published": "2026-10-04T22:51:43+00:00",
+     "fetched": "2026-10-05T21:02:46+00:00"
     },
     {
-     "headline": "Normandy Minerals LtdNMD — A$12M IPO",
-     "detail": "Upcoming Mineral exploration and development IPO raising A$12M at $0.200, expected to list Tuesday, September 29, 2026 (stage: OPEN).",
-     "url": "https://normandyminerals.com.au/",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-16T09:50:53.692161",
-     "fetched": "2026-09-15T23:50:53+00:00"
+     "headline": "Inspired by a legend, Parbo Resources hunts gold in WA’s Murchison",
+     "detail": "Gold IPO Parbo Resources has enjoyed a good start to life on the ASX, chasing discoveries in WA's Mid West ... Read More",
+     "url": "https://stockhead.com.au/resources/inspired-by-a-legend-parbo-resources-hunts-gold-in-was-murchison/",
+     "outlet": "Stockhead",
+     "source_url": "https://stockhead.com.au/feed/",
+     "published": "2026-10-04T19:00:46+00:00",
+     "fetched": "2026-10-05T21:02:46+00:00"
     },
     {
-     "headline": "Europa Metals LtdEUZ — A$5M IPO",
-     "detail": "Upcoming Mining exploration IPO raising A$5M at $0.200, expected to list Thursday, October 1, 2026 (stage: OPEN).",
-     "url": "https://www.europametals.com/",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-09-16T09:50:53.692235",
-     "fetched": "2026-09-15T23:50:53+00:00"
+     "headline": "StockTake: Peregrine’s $2.25m raise fires up Pilbara drill plans",
+     "detail": "Peregrine Gold raises $2.25m to accelerate gold and iron ore exploration and drilling across WA’s Pilbara. ... Read More",
+     "url": "https://stockhead.com.au/stockhead-tv/stocktake/stocktake-peregrines-2-25m-raise-fires-up-pilbara-drill-plans/",
+     "outlet": "Stockhead",
+     "source_url": "https://stockhead.com.au/feed/",
+     "published": "2026-10-02T02:15:51+00:00",
+     "fetched": "2026-10-05T21:02:46+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by How AI tools are reshaping stock trading, investment research in China. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Hong Kong’s IPO haul in first 9 months smashes record despite Nasdaq’s fundraising lead. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "fresh_count": 4,
    "items": [
     {
-     "headline": "How AI tools are reshaping stock trading, investment research in China",
-     "detail": "When Ryan Lei has an investment idea, he no longer has to spend days writing code and trawling through historical data to corroborate it.",
-     "url": "https://www.scmp.com/business/china-business/article/3367211/how-ai-tools-are-reshaping-stock-trading-investment-research-china?utm_source=rss_feed",
+     "headline": "Hong Kong’s IPO haul in first 9 months smashes record despite Nasdaq’s fundraising lead",
+     "detail": "Funds raised through Hong Kong initial public offerings (IPOs) doubled in the first nine months of 2026, reaching the highest level for the period since records began in 1980.",
+     "url": "https://www.scmp.com/business/banking-finance/article/3369316/hong-kongs-ipo-haul-first-9-months-smashes-record-despite-nasdaqs-fundraising-lead?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-12T08:00:10+00:00",
-     "fetched": "2026-09-15T23:50:54+00:00"
+     "published": "2026-09-30T08:00:27+00:00",
+     "fetched": "2026-10-05T21:04:17+00:00"
     },
     {
-     "headline": "Private equity’s Fang Fenglei on investing in China, capital market reforms",
-     "detail": "Over the past three decades, investor Fang Fenglei has had a major role in shaping China’s capital markets.",
-     "url": "https://www.scmp.com/plus/economy/china-economy/article/3367236/private-equitys-fang-fenglei-investing-china-capital-market-reforms?utm_source=rss_feed",
+     "headline": "Mainland China’s PCB giant wins Hong Kong approval for planned US$3b listing: sources",
+     "detail": "Mainland China-based printed circuit board (PCB) maker Suzhou Dongshan Precision Manufacturing has cleared its final listing hurdle in Hong Kong and is moving towards a share sale that may rank among the city’s largest initial public…",
+     "url": "https://www.scmp.com/business/banking-finance/article/3369299/mainland-chinas-pcb-giant-wins-hong-kong-approval-planned-us3b-listing-sources?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-11T23:01:04+00:00",
-     "fetched": "2026-09-15T23:50:54+00:00"
+     "published": "2026-09-30T07:00:08+00:00",
+     "fetched": "2026-10-05T21:04:17+00:00"
     },
     {
-     "headline": "Yuen Kee Food enters final stage of Hong Kong IPO after HKEX approval, sources say",
-     "detail": "Yuen Kee Food Group, the owner of well-known restaurant brand Yuen Kee Dumpling, has cleared its listing hearing with the Hong Kong Exchanges and Clearing (HKEX), aiming to raise between HK$300 million (US$38.3 million) and HK$400 million,…",
-     "url": "https://www.scmp.com/business/banking-finance/article/3367133/yuen-kee-food-enters-final-stage-hong-kong-ipo-after-hkex-approval-sources-say?utm_source=rss_feed",
+     "headline": "Looming interest rate rises will not hit Hong Kong as hard as 2022: analysts",
+     "detail": "Hong Kong looks set to be hit by a wave of interest rate rises in the coming months, but the city’s property market is unlikely to suffer the same level of damage seen during the last rate cycle in 2022 and 2023, according to analysts.",
+     "url": "https://www.scmp.com/business/markets/article/3369265/looming-interest-rate-rises-will-not-hit-hong-kong-hard-2022-analysts?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-11T03:12:21+00:00",
-     "fetched": "2026-09-15T23:50:54+00:00"
+     "published": "2026-09-30T02:02:57+00:00",
+     "fetched": "2026-10-05T21:04:17+00:00"
     },
     {
-     "headline": "Hong Kong watchdog investigates Cloudbreak Pharma for ‘rigged’ IPO, suspends its shares",
-     "detail": "Hong Kong’s Securities and Futures Commission (SFC) has directed the stock exchange to suspend trading of US-based biotech firm Cloudbreak Pharma pending an investigation into its US$78 million initial public offering (IPO) last year.",
-     "url": "https://www.scmp.com/business/banking-finance/article/3367064/hong-kong-watchdog-investigates-cloudbreak-pharma-rigged-ipo-suspends-its-shares?utm_source=rss_feed",
+     "headline": "Bid to turn 14 subsidised Hong Kong sale flats into subdivided homes raises abuse concerns",
+     "detail": "The owners of 14 subsidised sale flats have applied for a grace period to comply with Hong Kong’s new regulatory regime for subdivided homes, the housing minister has revealed, raising concerns that public resources were being abused.",
+     "url": "https://www.scmp.com/news/hong-kong/society/article/3369830/bid-turn-14-subsidised-sale-flats-subdivided-homes-raises-abuse-concerns?utm_source=rss_feed",
      "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-10T10:08:13+00:00",
-     "fetched": "2026-09-15T23:50:54+00:00"
+     "source_url": "https://www.scmp.com/rss/91/feed",
+     "published": "2026-10-05T15:08:29+00:00",
+     "fetched": "2026-10-05T21:04:18+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US equity capital markets activity captured this run runs to 3 items, led by The IPO Buzz: Electra Therapeutics (ETRA Proposed) Sets Terms for $325 Million IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for US since the last edition, so the same verified item(s) are carried forward.",
-   "fresh_count": 0,
+   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: TRex Bio (TRXB Proposed) Sets Terms for $125 Million IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "The IPO Buzz: Electra Therapeutics (ETRA Proposed) Sets Terms for $325 Million IPO",
-     "detail": "Electra Therapeutics (ETRA proposed), a late-stage biotech focused on cancer and autoimmune disorders, set the terms early today for its IPO: 21.67 million shares at a price range of $14.00 to $16.00 to raise $325.05 million, if priced at…",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-electra-therapeutics-etra-proposed-sets-terms-for-325-million-ipo/",
+     "headline": "The IPO Buzz: TRex Bio (TRXB Proposed) Sets Terms for $125 Million IPO",
+     "detail": "TRex Bio (TRXB Proposed), an Eli Lilly-backed biotech, unveiled the terms for its $125 million IPO early today: 8.33 million shares at a price range of $14.00 to $16.00 to raise $124.95 million, if priced at the $15.00 mid-point of its…",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-trexbio-trxb-proposed-sets-terms-for-125-million-ipo/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-09-14T11:29:29+00:00",
-     "fetched": "2026-09-15T23:50:57+00:00"
+     "published": "2026-10-05T11:22:05+00:00",
+     "fetched": "2026-10-05T21:04:20+00:00"
     },
     {
-     "headline": "The IPO Buzz: Orion180 Insurance (OIG Proposed) Launches $320 Million IPO",
-     "detail": "Orion180 Insurance Group (OIG Proposed) revealed the terms for its $320 million IPO early today – Wednesday, Sept. 9, 2026 – and launched the deal to price next week.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-orion180-insurance-oig-proposed-launches-320-million-ipo/",
-     "outlet": "IPOScoop",
-     "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-09-09T13:35:27+00:00",
-     "fetched": "2026-09-15T23:50:57+00:00"
+     "headline": "Australia says more hikes not off the table after raising rates to 15-year high",
+     "detail": "The hike of 25 basis points was in line with expectations by economists polled by Reuters.",
+     "url": "https://www.cnbc.com/2026/09/29/australia-rates-inflation-monetary-policy.html",
+     "outlet": "CNBC Markets",
+     "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
+     "published": "2026-09-29T05:00:58+00:00",
+     "fetched": "2026-10-05T21:04:23+00:00"
     },
     {
-     "headline": "The IPO Buzz: Holtec Nuclear (HNUC Proposed) Sets Terms for $825 Million IPO",
-     "detail": "First big IPO launch after Labor Day: Holtec Nuclear Corp. (HNUC Proposed) unveiled the terms for its IPO in an S-1/A filing – 50 million shares at a price range of $15.00 to $18.00 – to raise $825 million, if priced at the $16.50…",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-holtec-nuclear-hnuc-proposed-sets-terms-for-825-million-ipo/",
+     "headline": "The IPO Buzz: Accelevation (ACCV) Prices IPO at $18 – $2 Below Range – & Stock Dips",
+     "detail": "Accelevation Holdings (ACCV) priced its IPO at $18.00 – $2.00 below range – and sold 30 million shares – the number of shares in the prospectus – to raise $540 million on Tuesday night, Sept. 29, 2026.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-accelevation-accv-proposed-prices-ipo-at-18-2-below-range/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-09-08T10:47:38+00:00",
-     "fetched": "2026-09-15T23:50:57+00:00"
+     "published": "2026-09-29T23:27:54+00:00",
+     "fetched": "2026-10-05T21:04:20+00:00"
+    },
+    {
+     "headline": "The IPO Buzz: Oura Postpones IPO Due to Market Conditions",
+     "detail": "Oura (OURA Proposed), the maker of the Oura Ring, the world’s smallest smart ring, postponed its $2.1 billion IPO “despite strong demand, due to uncertainty in the IPO market,” the company said early today (Tuesday, Sept. 29, 2026).",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-oura-postpones-ipo-due-to-market-conditions/",
+     "outlet": "IPOScoop",
+     "source_url": "https://www.iposcoop.com/feed/",
+     "published": "2026-09-29T11:35:47+00:00",
+     "fetched": "2026-10-05T21:04:20+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by Revolut US licence win ‘strengthens pre-IPO story’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by NHS may not be able to replace Palantir before £330m deal deadline. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "fresh_count": 3,
    "items": [
     {
-     "headline": "Revolut US licence win ‘strengthens pre-IPO story’",
-     "detail": "Revolut’s conditional approval for a US banking licence has been hailed as a “consequential” step in the fintech’s march towards a long-awaited public debut.",
-     "url": "https://www.cityam.com/revolut-us-licence-win-strengthens-pre-ipo-story/",
-     "outlet": "City A.M.",
-     "source_url": "https://www.cityam.com/category/markets/feed/",
-     "published": "2026-09-09T03:04:00+00:00",
-     "fetched": "2026-09-15T23:51:01+00:00"
-    },
-    {
-     "headline": "Dazn getting ‘IPO ready’, says CEO Segev, after swing into black and key hires",
-     "detail": "Dazn chief executive Shay Segev has confirmed the global sports streaming platform is preparing for an IPO after achieving EBITDA profitability in 2025.",
-     "url": "https://www.cityam.com/dazn-getting-ipo-ready-says-ceo-segev-after-swing-into-black-and-key-hires/",
+     "headline": "NHS may not be able to replace Palantir before £330m deal deadline",
+     "detail": "The NHS may not be able to replace Palantir before a crunch deadline on its £330m data contract, raising the stakes for ministers as pressure mounts to cut ties with the US tech giant.",
+     "url": "https://www.cityam.com/nhs-may-not-be-able-to-replace-palantir-before-330m-deal-deadline/",
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-09-15T14:16:09+00:00",
-     "fetched": "2026-09-15T23:51:02+00:00"
+     "published": "2026-10-05T15:47:46+00:00",
+     "fetched": "2026-10-05T21:04:25+00:00"
     },
     {
-     "headline": "Top UK banks to raise £50m to build payments network",
-     "detail": "Britain’s biggest banks are set to kick off a fundraising campaign that will pave the way for a domestic payments alternative to Mastercard and Visa.",
-     "url": "https://www.cityam.com/top-uk-banks-to-raise-50m-to-build-payments-network/",
+     "headline": "Monument Bank boss: Wealthy Brits in ‘fear’ ahead of punishing Budget",
+     "detail": "Wealthy Brits are in a state of “fear” ahead of the forthcoming Budget, according to a London bank chief, as economic turmoil and speculation of more punishing tax raids ramp up.",
+     "url": "https://www.cityam.com/monument-bank-boss-wealthy-brits-in-fear-ahead-of-punishing-budget/",
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-09-15T08:53:22+00:00",
-     "fetched": "2026-09-15T23:51:02+00:00"
+     "published": "2026-10-05T14:59:37+00:00",
+     "fetched": "2026-10-05T21:04:25+00:00"
+    },
+    {
+     "headline": "Raising bank taxes will reduce jobs, former Chancellor Hunt warns Healey",
+     "detail": "Former Chancellor Jeremy Hunt has issued John Healey a major warning over any increase to the level of taxes paid by UK banks ahead of the forthcoming Budget.",
+     "url": "https://www.cityam.com/raising-bank-taxes-will-reduce-jobs-former-chancellor-hunt-warns-healey/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/feed/",
+     "published": "2026-10-05T07:00:48+00:00",
+     "fetched": "2026-10-05T21:04:25+00:00"
     }
    ]
   },

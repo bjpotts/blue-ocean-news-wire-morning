@@ -1,104 +1,104 @@
 {
  "items": [
   {
-   "headline": "The AI data center boom is colliding with cities scarred by big industry",
-   "detail": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+   "headline": "OpenAI will start watermarking ChatGPT’s text in the EU",
+   "detail": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+   "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-09-15T21:47:38+00:00",
-   "fetched": "2026-09-15T23:51:19+00:00"
+   "published": "2026-10-05T20:36:48+00:00",
+   "fetched": "2026-10-05T21:05:31+00:00"
   },
   {
-   "headline": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-   "detail": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
+   "headline": "Etched fields funding offers at $40B+ valuation, sources say",
+   "detail": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+   "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-09-15T20:12:53+00:00",
-   "fetched": "2026-09-15T23:51:19+00:00"
+   "published": "2026-10-05T20:24:09+00:00",
+   "fetched": "2026-10-05T21:05:31+00:00"
   },
   {
-   "headline": "Voters mostly don’t like AI and data centers, but neither party seems to have an edge",
-   "detail": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular.",
+   "headline": "This startup is issuing AI-generated acne prescriptions",
+   "detail": "People in Utah can now use AI to get a prescription for acne treatment.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-09-15T19:34:25-04:00",
-   "fetched": "2026-09-15T23:51:20+00:00"
+   "published": "2026-10-05T16:14:57-04:00",
+   "fetched": "2026-10-05T21:05:31+00:00"
   },
   {
-   "headline": "Microsoft announces Windows and Surface event for October 7th",
-   "detail": "It's been more than two years since the last major Windows event, so Microsoft is heading to San Francisco next month to outline the future of Windows and Surface devices.",
+   "headline": "All the drama around AI’s takeover of mathematics",
+   "detail": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including…",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-09-15T16:36:59-04:00",
-   "fetched": "2026-09-15T23:51:20+00:00"
+   "published": "2026-10-05T15:28:59-04:00",
+   "fetched": "2026-10-05T21:05:31+00:00"
   },
   {
-   "headline": "Salesforce CEO Marc Benioff joins growing chorus of tech leaders warning about AI risks",
-   "detail": "Salesforce CEO Marc Benioff urged the AI industry to act responsibly as increasingly powerful models are developed.",
+   "headline": "SpaceX stock climbs to highest since June, returning Musk to trillionaire status",
+   "detail": "SpaceX shares have bounced almost 60% off their low in early August, boosted by the company's AI business and Starship progress.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/09/15/salesforce-marc-benioff-ai-risks.html",
+   "url": "https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-09-15T22:31:45+00:00",
-   "fetched": "2026-09-15T23:51:20+00:00"
+   "published": "2026-10-05T20:10:13+00:00",
+   "fetched": "2026-10-05T21:05:32+00:00"
   },
   {
-   "headline": "Nvidia's Huang rips Anthropic's proposal for AI safety antitrust waiver: 'Completely unnecessary'",
-   "detail": "Nvidia CEO Jensen Huang pushed back on calls to give AI companies antitrust exemptions to coordinate slowing the development of advanced models.",
+   "headline": "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged",
+   "detail": "The case alleges that the licensing deal \"squeezed out\" stockholders by giving them a \"lowball price.\"",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/09/15/nvidia-huang-ai-slowdown-antitrust.html",
+   "url": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-09-15T22:13:52+00:00",
-   "fetched": "2026-09-15T23:51:20+00:00"
+   "published": "2026-10-05T15:46:49+00:00",
+   "fetched": "2026-10-05T21:05:32+00:00"
   },
   {
-   "headline": "The Roman telescope has enough gas for 22 years, double NASA's expectations",
-   "detail": "The Roman telescope has enough gas for 22 years, double NASA's expectations",
+   "headline": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+   "detail": "Command-line tool quickly removes Apple Intelligence from macOS 27",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/",
+   "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
    "region": "US",
    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-   "published": "2026-09-15T22:26:32+00:00",
-   "fetched": "2026-09-15T23:51:20+00:00"
+   "published": "2026-10-05T19:14:44+00:00",
+   "fetched": "2026-10-05T21:05:34+00:00"
   },
   {
-   "headline": "AI app ads promoting 'objectification of women' banned by watchdog",
-   "detail": "The ad regulator said it had \"zero-tolerance\" for ads promoting AI tools that could sexualise or objectify women.",
+   "headline": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+   "detail": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cmlyrn2n4zg5o?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-09-15T23:27:17+00:00",
-   "fetched": "2026-09-15T23:51:21+00:00"
+   "published": "2026-10-05T16:13:21+00:00",
+   "fetched": "2026-10-05T21:05:34+00:00"
   },
   {
-   "headline": "Nvidia boss says AI 'doesn't need new laws' as safety concerns grow",
-   "detail": "Jensen Huang's stance on AI safety contrasts with several current and former employees of AI-focused firm",
+   "headline": "Trump chooses top spy boss to run new AI taskforce",
+   "detail": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-09-15T22:13:10+00:00",
-   "fetched": "2026-09-15T23:51:21+00:00"
+   "published": "2026-10-05T10:03:38+00:00",
+   "fetched": "2026-10-05T21:05:34+00:00"
   },
   {
-   "headline": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Nazi Germany",
-   "detail": "A DeepSeek engineer has issued a stark warning about the potential concentration of advanced artificial intelligence and resources in proprietary US developers Anthropic and OpenAI, intensifying a growing debate in China over calls by US…",
+   "headline": "Hong Kong lawmakers say 5-year tax incentive too short to entice major innovative firms",
+   "detail": "Hong Kong lawmakers have backed the government’s proposed tax incentives for large innovative companies, but many said on Monday that the planned five-year concession period is too short to attract major firms to establish headquarters or…",
    "outlet": "South China Morning Post",
-   "url": "https://www.scmp.com/tech/article/3367605/deepseek-ai-engineer-slams-anthropic-openai-over-pacing-calls-invokes-nazi-germany?utm_source=rss_feed",
+   "url": "https://www.scmp.com/business/companies/article/3369781/hong-kong-lawmakers-say-5-year-tax-incentive-too-short-entice-major-innovative-firms?utm_source=rss_feed",
    "region": "Asia",
    "source_url": "https://www.scmp.com/rss/36/feed",
-   "published": "2026-09-15T12:30:14+00:00",
-   "fetched": "2026-09-15T23:51:22+00:00"
+   "published": "2026-10-05T08:00:08+00:00",
+   "fetched": "2026-10-05T21:05:35+00:00"
   }
  ]
 }
