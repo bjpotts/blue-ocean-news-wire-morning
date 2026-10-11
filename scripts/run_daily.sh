@@ -13,6 +13,12 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin"
 # and requests at the certifi bundle so every HTTPS data fetch succeeds.
 export SSL_CERT_FILE="$(python3 -c 'import certifi; print(certifi.where())')"
 export REQUESTS_CA_BUNDLE="$SSL_CERT_FILE"
+# Load any local credentials (gitignored, never committed).
+if [ -f "$PROJ/.env.local" ]; then
+    set -a
+    source "$PROJ/.env.local"
+    set +a
+fi
 # This project's identity is the Morning Edition regardless of what the wall
 # clock says. build.py otherwise falls back to auto-detecting am/pm from the
 # Sydney clock, which is only correct if this script happens to run inside
