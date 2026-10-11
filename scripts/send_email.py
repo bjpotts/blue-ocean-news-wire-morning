@@ -57,7 +57,8 @@ def send(pdf, dry_run=False):
     script = f"""
 with timeout of 120 seconds
 tell application "Mail"
-    set theMessage to make new outgoing message with properties {{subject:"{subject}", content:"{body}", visible:false}}
+    set senderAccount to first account whose email addresses contains "bjpotts@gmail.com"
+    set theMessage to make new outgoing message with properties {{sender:senderAccount, subject:"{subject}", content:"{body}", visible:false}}
     tell theMessage
         make new to recipient at end of to recipients with properties {{address:"{TO}"}}
         make new attachment with properties {{file name:(POSIX file "{attachment}")}} at after the last paragraph
@@ -67,7 +68,7 @@ end tell
 end timeout
 """
     if dry_run:
-        print("DRY RUN: would send %s to %s" % (pdf, TO))
+        print("DRY RUN: would send %s to %s from bjpotts@gmail.com" % (pdf, TO))
         return True
     if not ensure_mail_running():
         print("MAIL ERROR: Mail.app did not become responsive", file=sys.stderr)
@@ -75,7 +76,7 @@ end timeout
     for attempt in range(1, 4):
         p = subprocess.run(["osascript", "-e", script], capture_output=True, text=True, timeout=150)
         if p.returncode == 0:
-            print("EMAIL SENT: %s -> %s" % (os.path.basename(pdf), TO))
+            print("EMAIL SENT: %s -> %s from bjpotts@gmail.com" % (os.path.basename(pdf), TO))
             return True
         print("MAIL ATTEMPT %d/3 failed: %s" % (attempt, p.stderr.strip() or "osascript timed out"), file=sys.stderr)
         if attempt < 3:

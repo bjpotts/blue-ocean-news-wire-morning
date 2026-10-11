@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Former 'American Idol' contestant sentenced to life without parole for wife's murder; Phone calls, records suggest some Cornell students tried to contain rape allegations; Measles cases surpass 1,000 in Pennsylvania amid state's largest outbreak in decades.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: Houthis blamed for Saudi strike that killed 12, including American; LIVE: ABC News Live; Hurricane Isaias updates: At least 4 dead as Isaias downgraded.",
   "note": null,
   "items": [
    {
-    "headline": "Former 'American Idol' contestant sentenced to life without parole for wife's murder",
-    "detail": "Caleb Flynn was found guilty of murdering his wife, Ashley Flynn.",
-    "url": "https://abcnews.go.com/US/former-american-idol-contestant-sentenced-wifes-murder/story?id=136953520",
+    "headline": "Iran live updates: Houthis blamed for Saudi strike that killed 12, including American",
+    "detail": "A dozen people were killed Saturday during a \"brutal\" attack at the King Khalid International Airport in Riyadh, the Saudi General Authority of Civil Aviation said.",
+    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-05T16:50:01-04:00",
-    "fetched": "2026-10-05T21:05:44+00:00"
+    "published": "2026-10-10T21:42:34-04:00",
+    "fetched": "2026-10-11T04:15:49+00:00"
    },
    {
-    "headline": "Phone calls, records suggest some Cornell students tried to contain rape allegations",
-    "detail": "ABC News has reviewed records from Cornell’s internal investigation — which began in November 2024 and lasted through May 2025.",
-    "url": "https://abcnews.go.com/US/damage-control-phone-calls-records-suggest-cornell-frat/story?id=136987960",
+    "headline": "LIVE: ABC News Live",
+    "detail": "24/7 coverage of breaking news and live events",
+    "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-05T07:48:28-04:00",
-    "fetched": "2026-10-05T21:05:44+00:00"
+    "published": "2026-10-09T19:29:22-04:00",
+    "fetched": "2026-10-11T04:15:49+00:00"
    },
    {
-    "headline": "Measles cases surpass 1,000 in Pennsylvania amid state's largest outbreak in decades",
-    "detail": "Measles cases in Pennsylvania have surpassed 1,000 so far this year as the state continues to battle an outbreak of the virus, according to the state health department.",
-    "url": "https://abcnews.go.com/Health/measles-cases-surpass-1000-pennsylvania-outbreak-continues-spread/story?id=137002024",
+    "headline": "Hurricane Isaias updates: At least 4 dead as Isaias downgraded",
+    "detail": "The Gulf Coast is bracing for dangerous conditions, extreme wind and flooding.",
+    "url": "https://abcnews.go.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-05T16:00:37-04:00",
-    "fetched": "2026-10-05T21:05:44+00:00"
+    "published": "2026-10-11T00:02:06-04:00",
+    "fetched": "2026-10-11T04:15:49+00:00"
    },
    {
-    "headline": "WATCH: 'Avengers: Endgame' becomes highest-grossing film ever, again",
-    "detail": "Sophie Flay shares the buzziest stories of the day in \"GMA\" Pop News.",
-    "url": "https://abcnews.go.com/video/137007910/",
+    "headline": "Man attacked by tiger after entering enclosure at England wildlife park",
+    "detail": "The tigers remained inside the enclosure and there was no danger to the public.",
+    "url": "https://abcnews.go.com/International/wireStory/man-attacked-tiger-after-entering-enclosure-wildlife-park-137161794",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-05T12:57:34-04:00",
-    "fetched": "2026-10-05T21:05:44+00:00"
+    "published": "2026-10-10T16:42:19-04:00",
+    "fetched": "2026-10-11T04:15:49+00:00"
    },
    {
-    "headline": "WATCH: People train to run 50K while eating Taco Bell",
-    "detail": "ABC News' Danny New talks to the co-founder of the International Taco Bell 50K, an annual event where people run 31 miles while stopping to eat at 11 Taco Bell restaurants along the way.",
-    "url": "https://abcnews.go.com/video/136996517/",
+    "headline": "WATCH: Video shows Virginia police's daring house fire rescue",
+    "detail": "Police in Culpepper, Virginia, made a daring rescue to save a man that was unconscious but breathing in a house fire.",
+    "url": "https://abcnews.go.com/video/137147571/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-05T06:11:27-04:00",
-    "fetched": "2026-10-05T21:05:44+00:00"
+    "published": "2026-10-09T20:24:42-04:00",
+    "fetched": "2026-10-11T04:15:49+00:00"
    }
   ]
  }

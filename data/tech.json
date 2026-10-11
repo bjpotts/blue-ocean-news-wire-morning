@@ -1,104 +1,104 @@
 {
  "items": [
   {
-   "headline": "OpenAI will start watermarking ChatGPT’s text in the EU",
-   "detail": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+   "headline": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+   "detail": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-10-05T20:36:48+00:00",
-   "fetched": "2026-10-05T21:05:31+00:00"
+   "published": "2026-10-10T21:47:51+00:00",
+   "fetched": "2026-10-11T04:15:41+00:00"
   },
   {
-   "headline": "Etched fields funding offers at $40B+ valuation, sources say",
-   "detail": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
+   "headline": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+   "detail": "Is Apple hoping to get into the AI-generated podcast business?",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+   "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-10-05T20:24:09+00:00",
-   "fetched": "2026-10-05T21:05:31+00:00"
+   "published": "2026-10-10T19:50:00+00:00",
+   "fetched": "2026-10-11T04:15:41+00:00"
   },
   {
-   "headline": "This startup is issuing AI-generated acne prescriptions",
-   "detail": "People in Utah can now use AI to get a prescription for acne treatment.",
+   "headline": "Satya Nadella says we should assume all AI models are ‘compromised’",
+   "detail": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-10-05T16:14:57-04:00",
-   "fetched": "2026-10-05T21:05:31+00:00"
+   "published": "2026-10-10T18:10:17-04:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "All the drama around AI’s takeover of mathematics",
-   "detail": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including…",
+   "headline": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+   "detail": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+   "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-10-05T15:28:59-04:00",
-   "fetched": "2026-10-05T21:05:31+00:00"
+   "published": "2026-10-10T14:52:07-04:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "SpaceX stock climbs to highest since June, returning Musk to trillionaire status",
-   "detail": "SpaceX shares have bounced almost 60% off their low in early August, boosted by the company's AI business and Starship progress.",
+   "headline": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
+   "detail": "Nadella joined other tech moguls and researchers in calling for stronger safeguards and, in some cases, for the pacing of frontier development.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/10/05/spacex-stock-climbs-highest-since-june-returning-musk-to-trillionaire.html",
+   "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-10-05T20:10:13+00:00",
-   "fetched": "2026-10-05T21:05:32+00:00"
+   "published": "2026-10-10T20:59:28+00:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "Nvidia's $20 billion Groq deal faces lawsuit alleging startup's stockholders were shortchanged",
-   "detail": "The case alleges that the licensing deal \"squeezed out\" stockholders by giving them a \"lowball price.\"",
+   "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
+   "detail": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html",
+   "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-10-05T15:46:49+00:00",
-   "fetched": "2026-10-05T21:05:32+00:00"
+   "published": "2026-10-10T15:30:51+00:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "Command-line tool quickly removes Apple Intelligence from macOS 27",
-   "detail": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+   "headline": "One with the world? A new look at brains transformed by psychedelics.",
+   "detail": "One with the world? A new look at brains transformed by psychedelics.",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+   "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
    "region": "US",
    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-   "published": "2026-10-05T19:14:44+00:00",
-   "fetched": "2026-10-05T21:05:34+00:00"
+   "published": "2026-10-10T11:15:35+00:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
-   "detail": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+   "headline": "King warns malicious online actors are evolving tactics",
+   "detail": "The King spoke of \"threats to our international order\" in a letter marking the 10th anniversary of the National Cyber Security Centre.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-10-05T16:13:21+00:00",
-   "fetched": "2026-10-05T21:05:34+00:00"
+   "published": "2026-10-10T15:56:32+00:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "Trump chooses top spy boss to run new AI taskforce",
-   "detail": "The US president said his national intelligence chief will lead the group as worries over AI grow.",
+   "headline": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+   "detail": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-10-05T10:03:38+00:00",
-   "fetched": "2026-10-05T21:05:34+00:00"
+   "published": "2026-10-10T10:06:23+00:00",
+   "fetched": "2026-10-11T04:15:42+00:00"
   },
   {
-   "headline": "Hong Kong lawmakers say 5-year tax incentive too short to entice major innovative firms",
-   "detail": "Hong Kong lawmakers have backed the government’s proposed tax incentives for large innovative companies, but many said on Monday that the planned five-year concession period is too short to attract major firms to establish headquarters or…",
+   "headline": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom",
+   "detail": "Japanese semiconductor materials giant Sumitomo Bakelite plans to expand production of advanced chip packaging materials in China and Singapore, marking the second such announcement for its Chinese operations in less than four months as…",
    "outlet": "South China Morning Post",
-   "url": "https://www.scmp.com/business/companies/article/3369781/hong-kong-lawmakers-say-5-year-tax-incentive-too-short-entice-major-innovative-firms?utm_source=rss_feed",
+   "url": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom?utm_source=rss_feed",
    "region": "Asia",
    "source_url": "https://www.scmp.com/rss/36/feed",
-   "published": "2026-10-05T08:00:08+00:00",
-   "fetched": "2026-10-05T21:05:35+00:00"
+   "published": "2026-10-11T03:04:32+00:00",
+   "fetched": "2026-10-11T04:15:43+00:00"
   }
  ]
 }

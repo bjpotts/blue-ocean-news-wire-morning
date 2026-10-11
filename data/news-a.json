@@ -4,48 +4,48 @@
    "key": "abc",
    "name": "ABC News Australia",
    "site": "abc.net.au/news",
-   "summary": "The ABC's Australian and international news file is leading with Bird flu adds to fears for threatened species at proposed wind farm site; Violence-racked remote NT community appeals for social club trial; Live: ASX to open higher as bond yields continue to rise.",
+   "summary": "The ABC's Australian and international news file is leading with Breaking: Two Carlton AFL players hospitalised in Melbourne; Queensland man charged with stabbing murder; Palestinian supporters mark Global Day for Gaza.",
    "note": null,
    "items": [
     {
-     "headline": "Bird flu adds to fears for threatened species at proposed wind farm site",
-     "detail": "Bird flu adds to fears for threatened species at proposed wind farm site",
-     "url": "https://www.abc.net.au/news/2026-10-06/bird-flu-concerns-glenelg-estuary-discovery-bay-wetlands/107216812",
+     "headline": "Breaking: Two Carlton AFL players hospitalised in Melbourne",
+     "detail": "Breaking: Two Carlton AFL players hospitalised in Melbourne",
+     "url": "https://www.abc.net.au/news/2026-10-11/afl-carlton-football-club-players-hospitalised-melbourne/107253326",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-10-05T20:56:52+00:00",
-     "fetched": "2026-10-05T21:05:36+00:00"
+     "published": "2026-10-11T04:05:44+00:00",
+     "fetched": "2026-10-11T04:15:44+00:00"
     },
     {
-     "headline": "Violence-racked remote NT community appeals for social club trial",
-     "detail": "Violence-racked remote NT community appeals for social club trial",
-     "url": "https://www.abc.net.au/news/2026-10-06/nt-wadeye-residents-call-for-social-club-trial-alcohol-violence/107224876",
+     "headline": "Queensland man charged with stabbing murder",
+     "detail": "Queensland man charged with stabbing murder",
+     "url": "https://www.abc.net.au/news/2026-10-11/logan-man-charged-with-murder-after-32-year-old-dies-in-hospital/107253192",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-10-05T20:49:35+00:00",
-     "fetched": "2026-10-05T21:05:36+00:00"
+     "published": "2026-10-11T03:27:19+00:00",
+     "fetched": "2026-10-11T04:15:44+00:00"
     },
     {
-     "headline": "Live: ASX to open higher as bond yields continue to rise",
-     "detail": "Live: ASX to open higher as bond yields continue to rise",
-     "url": "https://www.abc.net.au/news/2026-10-06/asx-markets-business-news-live-updates-tuesday-6-october/107231888",
+     "headline": "Palestinian supporters mark Global Day for Gaza",
+     "detail": "Palestinian supporters mark Global Day for Gaza",
+     "url": "https://www.abc.net.au/news/2026-10-11/pro-palestinian-rallies-across-australia-global-day-for-gaza/107251862",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-10-05T20:39:39+00:00",
-     "fetched": "2026-10-05T21:05:36+00:00"
+     "published": "2026-10-11T03:10:32+00:00",
+     "fetched": "2026-10-11T04:15:44+00:00"
     },
     {
-     "headline": "The people and programs trying to tackle homelessness in Lakes Entrance",
-     "detail": "The people and programs trying to tackle homelessness in Lakes Entrance",
-     "url": "https://www.abc.net.au/news/2026-10-06/east-gippsland-homelessness-rough-sleeping-lakes-entrance/107187504",
+     "headline": "WA artist with cerebral palsy finds voice through painting",
+     "detail": "WA artist with cerebral palsy finds voice through painting",
+     "url": "https://www.abc.net.au/news/2026-10-11/wa-artist-uses-wheelchair-to-create-abstract-art/107243532",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-10-05T20:31:31+00:00",
-     "fetched": "2026-10-05T21:05:36+00:00"
+     "published": "2026-10-11T03:00:56+00:00",
+     "fetched": "2026-10-11T04:15:44+00:00"
     },
     {
-     "headline": "Data breaches across Queensland's public sector on the rise",
-     "detail": "Data breaches across Queensland's public sector on the rise",
-     "url": "https://www.abc.net.au/news/2026-10-06/queensland-public-sector-data-breach-privacy-complaints/107220284",
+     "headline": "Gravel cycling championship brings global audience to tiny town",
+     "detail": "Gravel cycling championship brings global audience to tiny town",
+     "url": "https://www.abc.net.au/news/2026-10-11/nannup-uci-gravel-world-championship-cycling/107238790",
      "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
-     "published": "2026-10-05T20:11:44+00:00",
-     "fetched": "2026-10-05T21:05:36+00:00"
+     "published": "2026-10-11T02:49:40+00:00",
+     "fetched": "2026-10-11T04:15:44+00:00"
     }
    ]
   },
@@ -53,48 +53,48 @@
    "key": "sbs",
    "name": "SBS News Australia",
    "site": "sbs.com.au/news",
-   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with Dozens quarantined after death of researcher at Russian plague institute; The 100 million-year-old reason this part of Australia has more earthquakes; Jen's mother died waiting for a visa. Now she fears the same future for her father.",
+   "summary": "SBS News, covering Australian affairs with a strong multicultural and world focus is leading with One year on, Palestinians say ceasefire has not brought peace; South Melbourne stun Victory to claim Australia Cup; 'Get a new president': Trump attacks Zelenskyy over Russian oil deal.",
    "note": null,
    "items": [
     {
-     "headline": "Dozens quarantined after death of researcher at Russian plague institute",
-     "detail": "Russian authorities have urged calm, insisting the woman's death was unrelated to her work with pathogens.",
-     "url": "https://www.sbs.com.au/news/article/dozens-quarantined-after-death-of-researcher-at-russian-plague-institute/oiqin8ywo",
+     "headline": "One year on, Palestinians say ceasefire has not brought peace",
+     "detail": "In Europe, thousands have marched in solidarity with the people of Gaza three years after the Hamas attack that triggered the war.",
+     "url": "https://www.sbs.com.au/news/article/one-year-on-palestinians-say-ceasefire-has-not-brought-about-peace/bhci3r3if",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-10-05T20:15:08+00:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-11T02:15:57+00:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "The 100 million-year-old reason this part of Australia has more earthquakes",
-     "detail": "Australia may sit far from the edges of a tectonic plate, but some parts of the country are more prone to shaking than others.",
-     "url": "https://www.sbs.com.au/news/article/why-victoria-has-earthquakes/og355mosg",
+     "headline": "South Melbourne stun Victory to claim Australia Cup",
+     "detail": "The semi-professional second-tier club has beaten the A-League side in a penalty shootout.",
+     "url": "https://www.sbs.com.au/news/article/south-melbourne-victory-australia-cup-final-2026/8etahrrnr",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-10-05T18:34:55+00:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-10T23:50:44+00:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "Jen's mother died waiting for a visa. Now she fears the same future for her father",
-     "detail": "New visa rules could force some Australians to choose between life here and ageing parents overseas.",
-     "url": "https://www.sbs.com.au/news/article/jens-mother-died-waiting-for-a-visa-now-she-fears-the-same-future-for-her-father/jn9y7ezi9",
+     "headline": "'Get a new president': Trump attacks Zelenskyy over Russian oil deal",
+     "detail": "Increased Russian strikes continue to pound Ukraine, killing at least 21 in the latest wave.",
+     "url": "https://www.sbs.com.au/news/article/trump-zelenskyy-russia-us-oil-deal/hyxyhzn35",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-10-05T18:34:38+00:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-10T21:17:15+00:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "Spain's prime minister calls early election after housing crisis triggers mass protests",
-     "detail": "Pedro Sánchez's move follows growing outrage over runaway housing prices in Spain.",
-     "url": "https://www.sbs.com.au/news/article/pedro-sanchez-spain-calls-early-election/cvnco65bn",
+     "headline": "Saudi Arabia's Riyadh airport out of action after third attack kills at least 12",
+     "detail": "The Australian embassy has warned travellers away from the country as flights are cancelled and delayed by the \"grave escalation\".",
+     "url": "https://www.sbs.com.au/news/article/saudia-arabia-riyadh-airport-attack-houthi-yemen/g6iygmbir",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-10-05T08:36:33+00:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-10T20:33:11+00:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "Fears wombats 'buried alive' after 'devastating' council blunder",
-     "detail": "Volunteers treating wombats for mange say animals they knew and cared for have vanished after burrows were inadvertently filled in.",
-     "url": "https://www.sbs.com.au/news/article/fears-wombats-buried-alive-after-devastating-council-blunder/7ph06q1hq",
+     "headline": "Why we're still living with password rules their creator regrets",
+     "detail": "Capital letters, numbers and symbols — do they really make your password safer? The answer may surprise you.",
+     "url": "https://www.sbs.com.au/news/article/what-makes-a-password-strong/wy2elu4g6",
      "source_url": "https://www.sbs.com.au/news/topic/latest/feed",
-     "published": "2026-10-05T06:40:22+00:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-10T19:44:31+00:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     }
    ]
   },
@@ -102,48 +102,48 @@
    "key": "rnz",
    "name": "RNZ New Zealand",
    "site": "rnz.co.nz",
-   "summary": "Radio New Zealand's national news file is leading with Vanuatu women win MSG Cup title in tribute to sea tragedy victims; Are right‑brained people really more creative? What science tells us; 'We need to be on the tables: Pacific women call for greater voice at climate talks.",
+   "summary": "Radio New Zealand's national news file is leading with Calls for better Dunedin dermatology services after 'debilitating' rare cancer went undiagnosed; Man arrested after allegedly pointing firearm at police officer; New Zealand scientists hope to develop more effective vaccines for older people.",
    "note": null,
    "items": [
     {
-     "headline": "Vanuatu women win MSG Cup title in tribute to sea tragedy victims",
-     "detail": "Vanuatu women win MSG Cup title in tribute to sea tragedy victims",
-     "url": "https://www.rnz.co.nz/news/pacific/1753645/vanuatu-women-win-msg-cup-title-in-tribute-to-sea-tragedy-victims",
+     "headline": "Calls for better Dunedin dermatology services after 'debilitating' rare cancer went undiagnosed",
+     "detail": "Calls for better Dunedin dermatology services after 'debilitating' rare cancer went undiagnosed",
+     "url": "https://www.rnz.co.nz/news/health/1840683/calls-for-better-dunedin-dermatology-services-after-debilitating-rare-cancer-went-undiagnosed",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-10-06T09:21:17+13:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-11T15:44:21+13:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "Are right‑brained people really more creative? What science tells us",
-     "detail": "Are right‑brained people really more creative? What science tells us",
-     "url": "https://www.rnz.co.nz/life/wellbeing/are-right-brained-people-really-more-creative-here-s-what-the-science-really-tells-us",
+     "headline": "Man arrested after allegedly pointing firearm at police officer",
+     "detail": "Man arrested after allegedly pointing firearm at police officer",
+     "url": "https://www.rnz.co.nz/news/crime-and-justice/1839291/man-arrested-after-allegedly-pointing-firearm-at-police-officer",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-10-06T09:06:22+13:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-11T14:11:55+13:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "'We need to be on the tables: Pacific women call for greater voice at climate talks",
-     "detail": "'We need to be on the tables: Pacific women call for greater voice at climate talks",
-     "url": "https://www.rnz.co.nz/news/pacific/1753344/we-need-to-be-on-the-tables-pacific-women-call-for-greater-voice-at-climate-talks",
+     "headline": "New Zealand scientists hope to develop more effective vaccines for older people",
+     "detail": "New Zealand scientists hope to develop more effective vaccines for older people",
+     "url": "https://www.rnz.co.nz/news/health/1837401/new-zealand-scientists-hope-to-develop-more-effective-vaccines-for-older-people",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-10-06T09:05:00+13:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-11T11:49:06+13:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "Tooling up to stop the next 'massive weed' before it gets started",
-     "detail": "Tooling up to stop the next 'massive weed' before it gets started",
-     "url": "https://www.rnz.co.nz/news/environment/1749559/tooling-up-to-stop-the-next-massive-weed-before-it-gets-started",
+     "headline": "National would make completing Year 11 compulsory if back in power",
+     "detail": "National would make completing Year 11 compulsory if back in power",
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/1835765/national-would-make-completing-year-11-compulsory-if-back-in-power",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-10-06T08:54:30+13:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-11T11:10:57+13:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     },
     {
-     "headline": "Woman charged with attempted murder after alleged West Auckland stabbing which injured baby",
-     "detail": "Woman charged with attempted murder after alleged West Auckland stabbing which injured baby",
-     "url": "https://www.rnz.co.nz/news/crime-and-justice/1752715/woman-charged-with-attempted-murder-after-alleged-west-auckland-stabbing-which-injured-baby",
+     "headline": "Police appeal for information after serious assault in Māngere",
+     "detail": "Police appeal for information after serious assault in Māngere",
+     "url": "https://www.rnz.co.nz/news/crime-and-justice/1836230/police-appeal-for-information-after-serious-assault-in-mangere",
      "source_url": "https://www.rnz.co.nz/rss/national.xml",
-     "published": "2026-10-06T08:42:04+13:00",
-     "fetched": "2026-10-05T21:05:38+00:00"
+     "published": "2026-10-11T10:50:28+13:00",
+     "fetched": "2026-10-11T04:15:45+00:00"
     }
    ]
   },
@@ -151,48 +151,48 @@
    "key": "scmp",
    "name": "South China Morning Post",
    "site": "scmp.com",
-   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with Beijing wanted more from Xi’s Washington state visit; Former American Idol singer Caleb Flynn sentenced to life in prison for wife’s murder; Bogota mayor presses Chinese-led consortium for more metro workers as auditors flag delays.",
+   "summary": "The South China Morning Post, reporting from Hong Kong across Greater China and Asia is leading with Unsung turtle conservation heroes in Malaysia’s Sabah unite to fight poachers; Admission scores fall for Hong Kong physiotherapy courses amid jobs crunch; Denuclearising North Korea would ‘defy history’ as US, allies missed the boat.",
    "note": null,
    "items": [
     {
-     "headline": "Beijing wanted more from Xi’s Washington state visit",
-     "detail": "Xi Jinping’s state visit to Washington in September was steeped in pageantry.",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3369774/beijing-wanted-more-xis-washington-state-visit?utm_source=rss_feed",
+     "headline": "Unsung turtle conservation heroes in Malaysia’s Sabah unite to fight poachers",
+     "detail": "Roziah Jelali has a tip or two on catching a turtle poacher: carrying a pair of binoculars and having patience in spades are key to doing the job well.",
+     "url": "https://www.scmp.com/week-asia/health-environment/article/3370466/unsung-turtle-conservation-heroes-malaysias-sabah-unite-fight-poachers?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-05T21:00:09+00:00",
-     "fetched": "2026-10-05T21:05:39+00:00"
+     "published": "2026-10-11T04:00:28+00:00",
+     "fetched": "2026-10-11T04:15:46+00:00"
     },
     {
-     "headline": "Former American Idol singer Caleb Flynn sentenced to life in prison for wife’s murder",
-     "detail": "A former Ohio music pastor who once appeared on American Idol was sentenced to life in prison without the possibility of parole on Monday after a jury convicted him of murdering his wife while he was having an affair.",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3369840/former-american-idol-singer-caleb-flynn-sentenced-life-prison-wifes-murder?utm_source=rss_feed",
+     "headline": "Admission scores fall for Hong Kong physiotherapy courses amid jobs crunch",
+     "detail": "Admission scores for physiotherapy degree programmes at three Hong Kong tertiary institutions fell by as much as 10 per cent this year compared with 2025, amid gloomy career prospects in the sector, the latest data shows.",
+     "url": "https://www.scmp.com/news/hong-kong/education/article/3370461/admission-scores-fall-hong-kong-physiotherapy-courses-amid-jobs-crunch?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-05T20:52:23+00:00",
-     "fetched": "2026-10-05T21:05:39+00:00"
+     "published": "2026-10-11T04:00:20+00:00",
+     "fetched": "2026-10-11T04:15:46+00:00"
     },
     {
-     "headline": "Bogota mayor presses Chinese-led consortium for more metro workers as auditors flag delays",
-     "detail": "Bogota mayor Carlos Fernando Galan has called on the Chinese-led consortium building the city’s first metro line to send more workers to its stations, after the country’s top auditor warned that delays in several parts of the project could…",
-     "url": "https://www.scmp.com/news/china/article/3369839/bogota-mayor-presses-chinese-led-consortium-more-metro-workers-auditors-flag-delays?utm_source=rss_feed",
+     "headline": "Denuclearising North Korea would ‘defy history’ as US, allies missed the boat",
+     "detail": "The denuclearisation of North Korea has become an “increasingly improbable” goal and the United States and its allies should move beyond it to devote their diplomatic efforts to talks on arms limitations and crisis communication, the…",
+     "url": "https://www.scmp.com/news/asia/east-asia/article/3370470/denuclearising-north-korea-would-defy-history-us-allies-missed-boat?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-05T20:40:37+00:00",
-     "fetched": "2026-10-05T21:05:39+00:00"
+     "published": "2026-10-11T04:00:19+00:00",
+     "fetched": "2026-10-11T04:15:46+00:00"
     },
     {
-     "headline": "ICC unseals arrest warrants for 4 Taliban leaders wanted on gender persecution charges",
-     "detail": "The International Criminal Court on Monday unsealed arrest warrants against four senior Taliban leaders, accusing them of the crime against humanity of gender persecution against women, girls and members of the LGBTQ community in…",
-     "url": "https://www.scmp.com/news/asia/south-asia/article/3369838/icc-unseals-arrest-warrants-4-taliban-leaders-wanted-gender-persecution-charges?utm_source=rss_feed",
+     "headline": "Nanotechnology expert Antonio Facchetti joins HKUST from Georgia Tech in the US",
+     "detail": "Materials scientist and chemist Antonio Facchetti, formerly of the Georgia Institute of Technology in the United States, has joined the Hong Kong University of Science and Technology as a chair professor in its newly established department…",
+     "url": "https://www.scmp.com/news/china/science/article/3370290/nanotechnology-expert-antonio-facchetti-joins-hkust-georgia-tech-us?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-05T19:43:42+00:00",
-     "fetched": "2026-10-05T21:05:39+00:00"
+     "published": "2026-10-11T04:00:13+00:00",
+     "fetched": "2026-10-11T04:15:46+00:00"
     },
     {
-     "headline": "Quebec votes in provincial election as separatist surge poses test for Canada’s PM Carney",
-     "detail": "Quebec separatists eyed a return to power in Canada’s majority French-speaking province on Monday in an election that could test Prime Minister Mark Carney’s message of national unity to confront the United States.",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3369837/quebec-votes-provincial-election-separatist-surge-poses-test-canadas-pm-carney?utm_source=rss_feed",
+     "headline": "Chinese retiree devotes life to photography after tumour shrinks post-bucket-list trip",
+     "detail": "After spending all her savings on a month-long trip to Antarctica following a cancer diagnosis, a woman from southwestern China discovered that her tumour had shrunk.",
+     "url": "https://www.scmp.com/news/people-culture/trending-china/article/3370469/chinese-retiree-devotes-life-photography-after-tumour-shrinks-post-bucket-list-trip?utm_source=rss_feed",
      "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-05T18:22:16+00:00",
-     "fetched": "2026-10-05T21:05:39+00:00"
+     "published": "2026-10-11T03:20:43+00:00",
+     "fetched": "2026-10-11T04:15:46+00:00"
     }
    ]
   },
@@ -200,48 +200,48 @@
    "key": "cnn",
    "name": "CNN",
    "site": "cnn.com",
-   "summary": "CNN's international edition is leading with Caleb Flynn, the former ‘American Idol’ contestant, sentenced to life without parole for murder of his wife; Two NFL officials suspended for unprofessional conduct after incidents with players on Sunday; Takeaways from Supreme Court arguments in major climate change case against Big Oil.",
+   "summary": "CNN's international edition is leading with Solving the mystery of ‘Green Boots’ on Mt Everest; Major Houthi attack on Saudi airport kills at least 12, hundreds wounded; Philadelphia police officer killed, another injured responding to overnight call of an armed man, suspect in custody.",
    "note": null,
    "items": [
     {
-     "headline": "Caleb Flynn, the former ‘American Idol’ contestant, sentenced to life without parole for murder of his wife",
-     "detail": "Caleb Flynn, the former ‘American Idol’ contestant, sentenced to life without parole for murder of his wife",
-     "url": "https://www.cnn.com/2026/10/05/us/live-news/caleb-flynn-sentencing",
+     "headline": "Solving the mystery of ‘Green Boots’ on Mt Everest",
+     "detail": "Solving the mystery of ‘Green Boots’ on Mt Everest",
+     "url": "https://www.cnn.com/2026/10/11/travel/video/green-boots-everest-digvid-hnk",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-10-05T18:00:02+00:00",
-     "fetched": "2026-10-05T21:05:40+00:00"
+     "published": "2026-10-11T04:00:44+00:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "Two NFL officials suspended for unprofessional conduct after incidents with players on Sunday",
-     "detail": "Two NFL officials suspended for unprofessional conduct after incidents with players on Sunday",
-     "url": "https://www.cnn.com/2026/10/05/sport/nfl-officials-suspended",
+     "headline": "Major Houthi attack on Saudi airport kills at least 12, hundreds wounded",
+     "detail": "Major Houthi attack on Saudi airport kills at least 12, hundreds wounded",
+     "url": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-10-05T20:42:09+00:00",
-     "fetched": "2026-10-05T21:05:40+00:00"
+     "published": "2026-10-10T15:43:56+00:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "Takeaways from Supreme Court arguments in major climate change case against Big Oil",
-     "detail": "Takeaways from Supreme Court arguments in major climate change case against Big Oil",
-     "url": "https://www.cnn.com/2026/10/05/politics/climate-change-supreme-court-suncor-exxon-boulder",
+     "headline": "Philadelphia police officer killed, another injured responding to overnight call of an armed man, suspect in custody",
+     "detail": "Philadelphia police officer killed, another injured responding to overnight call of an armed man, suspect in custody",
+     "url": "https://www.cnn.com/2026/10/10/us/philadelphia-officer-killed",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-10-05T09:00:45+00:00",
-     "fetched": "2026-10-05T21:05:40+00:00"
+     "published": "2026-10-10T19:53:42+00:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "Send us your questions for Texas Senate candidate James Talarico",
-     "detail": "Send us your questions for Texas Senate candidate James Talarico",
-     "url": "https://www.cnn.com/2026/10/05/politics/cnn-jubilee-town-hall-james-talarico-questions",
+     "headline": "Trump’s DOJ probes major TV networks over response to White House ban of CNN",
+     "detail": "Trump’s DOJ probes major TV networks over response to White House ban of CNN",
+     "url": "https://www.cnn.com/2026/10/10/media/trump-doj-probing-tv-networks-nbc-cbs-fox-abc-cnn-white-house",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-10-05T20:20:42+00:00",
-     "fetched": "2026-10-05T21:05:40+00:00"
+     "published": "2026-10-11T01:52:13+00:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "Tennessee’s outgoing prison chief had a history of execution missteps before Christa Pike, officials say",
-     "detail": "Tennessee’s outgoing prison chief had a history of execution missteps before Christa Pike, officials say",
-     "url": "https://www.cnn.com/2026/10/05/us/christa-pike-execution-tennessee",
+     "headline": "At least 4 dead as Isaias pushes farther inland across Southeast",
+     "detail": "At least 4 dead as Isaias pushes farther inland across Southeast",
+     "url": "https://www.cnn.com/2026/10/09/weather/live-news/hurricane-isaias-gulf-storm",
      "source_url": "https://www.cnn.com/sitemap/news.xml",
-     "published": "2026-10-05T08:00:44+00:00",
-     "fetched": "2026-10-05T21:05:40+00:00"
+     "published": "2026-10-09T07:05:28+00:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     }
    ]
   },
@@ -249,48 +249,48 @@
    "key": "fox",
    "name": "Fox News",
    "site": "foxnews.com",
-   "summary": "Fox News, covering US politics and national affairs is leading with Supreme Court begins new term with high-profile look at clean air and federal authority; NFL referees Jeff Seeman and Adrian Hill suspended after unprofessional clashes with players in Week 4; America’s new blue-collar job boom is one nobody saw coming — and it’s just getting started.",
+   "summary": "Fox News, covering US politics and national affairs is leading with Kirby Smart has entered his most dangerous era after Georgia’s aggressive win over Alabama; Trump says he'd 'love' to have Sen. John Fetterman as a Republican amid growing speculation; Alabama's Kalen Deboer incensed at player who 'just cost us the damn game' vs Georgia with boneheaded penalty.",
    "note": null,
    "items": [
     {
-     "headline": "Supreme Court begins new term with high-profile look at clean air and federal authority",
-     "detail": "The Supreme Court heard arguments on whether Boulder County's climate lawsuit against Suncor and ExxonMobil belongs in state or federal court.",
-     "url": "https://www.foxnews.com/politics/supreme-court-begins-new-term-high-profile-look-clean-air-federal-authority",
+     "headline": "Kirby Smart has entered his most dangerous era after Georgia’s aggressive win over Alabama",
+     "detail": "Don't call it meaningless in Tuscaloosa, AL, where Kirby Smart celebrated with his family after Georgia's gritty win over Kalen DeBoer's Alabama.",
+     "url": "https://www.foxnews.com/outkick-sports/kirby-smart-entered-dangerous-era-georgia-aggressive-win-alabama",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-10-05T16:45:19-04:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T23:58:24-04:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "NFL referees Jeff Seeman and Adrian Hill suspended after unprofessional clashes with players in Week 4",
-     "detail": "Jeff Seeman was caught on camera directing profanity at Trey McBride, while Adrian Hill confronted a player after being knocked down on the field.",
-     "url": "https://www.foxnews.com/outkick-sports/nfl-referees-jeff-seeman-adrian-hill-suspended-unprofessional-clashes-players-week-4",
+     "headline": "Trump says he'd 'love' to have Sen. John Fetterman as a Republican amid growing speculation",
+     "detail": "President Donald Trump called Sen. John Fetterman a \"great guy\" and said he would welcome the Pennsylvania Democrat into the Republican Party ranks.",
+     "url": "https://www.foxnews.com/politics/trump-says-hed-love-have-sen-john-fetterman-republican-amid-growing-speculation",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-10-05T16:41:04-04:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T23:46:18-04:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "America’s new blue-collar job boom is one nobody saw coming — and it’s just getting started",
-     "detail": "Compass Datacenters CEO Chris Crosby says the Red Oak, Texas, campus proves data centers need electricians, welders and carpenters over degrees.",
-     "url": "https://www.foxnews.com/politics/americas-blue-collar-job-boom-nobody-saw-coming-just-getting-started",
+     "headline": "Alabama's Kalen Deboer incensed at player who 'just cost us the damn game' vs Georgia with boneheaded penalty",
+     "detail": "Alabama Crimson Tide's comeback hopes died when Dijon Lee struck a Georgia player in the face, and Kalen DeBoer's furious reaction said it all.",
+     "url": "https://www.foxnews.com/outkick-sports/alabamas-kalen-deboer-incensed-player-cost-us-damn-game-vs-georgia-boneheaded-penalty",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-10-05T16:34:16-04:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T23:42:07-04:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "Pro-SEC bias in the AP Top 25 Poll has gotten out of control, and it's impacting the college football season",
-     "detail": "The AP Top 25 poll dropped Mississippi State just one spot after a 56-23 home demolition by Alabama, while Iowa fell six spots for a closer loss.",
-     "url": "https://www.foxnews.com/outkick-sports/pro-sec-bias-ap-top-25-poll-gotten-out-control-impacting-college-football-season",
+     "headline": "Trump says he will 'make a decision' on Pentagon's plans to livestream Nidal Hasan's firing squad execution",
+     "detail": "President Donald Trump says he hasn't decided whether Nidal Malik Hasan's firing squad execution at Fort Hood will be livestreamed, weighing deterrence value.",
+     "url": "https://www.foxnews.com/politics/trump-says-he-make-decision-pentagons-plans-livestream-nidal-hasans-firing-squad-execution",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-10-05T16:31:08-04:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T23:37:40-04:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     },
     {
-     "headline": "'Honored': Talarico endorsed by group that bailed out violent criminal later accused of mass murder",
-     "detail": "US Senate candidate James Talarico praised activist group backing his campaign as 'irreplaceable' even though it freed a man who later killed six people in a mass murdering spree.",
-     "url": "https://www.foxnews.com/politics/honored-talarico-endorsed-group-bailed-out-violent-criminal-later-accused-mass-murder",
+     "headline": "Kentucky shocks LSU with second-straight walk-off two-point conversion win in overtime",
+     "detail": "Kentucky Wildcats stun No. 10 LSU Tigers 35-34 in overtime with another dramatic two-point conversion, making FBS history in back-to-back weeks.",
+     "url": "https://www.foxnews.com/outkick-sports/kentucky-shocks-lsu-second-straight-walk-off-two-point-conversion-win-overtime",
      "source_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
-     "published": "2026-10-05T16:30:37-04:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T23:34:23-04:00",
+     "fetched": "2026-10-11T04:15:47+00:00"
     }
    ]
   },
@@ -298,48 +298,48 @@
    "key": "wsj",
    "name": "The Wall Street Journal",
    "site": "wsj.com",
-   "summary": "The Wall Street Journal's world news wire is leading with Saudi-Backed Forces Launch Fight to Free Bab al-Mandeb From Houthis; Germany and France Are Proposing a New Weapon to Counter Flood of Chinese Goods; In China, Battle Is Raging for the Soul of Tibet.",
+   "summary": "The Wall Street Journal's world news wire is leading with Starving Ukrainians Are Risking Death to Escape Their Front-Line Town; Video Cameras Are Everywhere—and Now They Are Being Hacked for War; At Least 12 Killed, Hundreds Injured at Saudi Airport in Houthi Strikes.",
    "note": null,
    "items": [
     {
-     "headline": "Saudi-Backed Forces Launch Fight to Free Bab al-Mandeb From Houthis",
-     "detail": "The operation aims to take back the strategic Red Sea port of Mokha, which Iran-backed rebels have used to disrupt tanker traffic.",
-     "url": "https://www.wsj.com/world/middle-east/saudi-backed-forces-launch-fight-to-free-bab-al-mandeb-from-houthis-f94b91fd?mod=rss_worldnews",
+     "headline": "Starving Ukrainians Are Risking Death to Escape Their Front-Line Town",
+     "detail": "All year, food supplies have dwindled as mines and drones made the road increasingly impassable.",
+     "url": "https://www.wsj.com/world/starving-ukrainians-are-risking-death-to-escape-their-front-line-town-69262dbb?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-10-05T20:21:00+00:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-11T02:00:00+00:00",
+     "fetched": "2026-10-11T04:15:48+00:00"
     },
     {
-     "headline": "Germany and France Are Proposing a New Weapon to Counter Flood of Chinese Goods",
-     "detail": "The countries, ahead of an EU leaders’ summit next week, are recommending lowering the bar for blocking Chinese products.",
-     "url": "https://www.wsj.com/world/europe/germany-and-france-are-proposing-a-new-weapon-to-counter-flood-of-chinese-goods-f723dfdf?mod=rss_worldnews",
+     "headline": "Video Cameras Are Everywhere—and Now They Are Being Hacked for War",
+     "detail": "The highly vulnerable devices have turned into tools for combatants to track, surveil and attack the enemy.",
+     "url": "https://www.wsj.com/tech/cybersecurity/video-cameras-webcams-hacked-war-b00b8a24?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-10-05T16:15:00+00:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-11T00:30:00+00:00",
+     "fetched": "2026-10-11T04:15:48+00:00"
     },
     {
-     "headline": "In China, Battle Is Raging for the Soul of Tibet",
-     "detail": "On the edge of the Himalayas, a tourist boomtown sells Chinese visitors a commoditized, politically palatable version of Tibetan culture.",
-     "url": "https://www.wsj.com/world/in-china-battle-is-raging-for-the-soul-of-tibet-737bc947?mod=rss_worldnews",
+     "headline": "At Least 12 Killed, Hundreds Injured at Saudi Airport in Houthi Strikes",
+     "detail": "The missiles strikes forced authorities to close Saudi Arabia’s international airport in what was the deadliest attack in the kingdom in more than a decade.",
+     "url": "https://www.wsj.com/world/middle-east/iran-backed-houthis-hit-saudi-capitals-airport-in-damaging-new-attack-d4c12236?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-10-05T15:37:00+00:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T23:28:00+00:00",
+     "fetched": "2026-10-11T04:15:48+00:00"
     },
     {
-     "headline": "Russia Probes Death of Woman Who Worked at Antiplague Institute",
-     "detail": "The Kremlin has sought to play down the death of the worker who contracted ”pneumonia of an unknown cause.”",
-     "url": "https://www.wsj.com/world/russia-probes-death-of-woman-who-worked-at-anti-plague-institute-0e2c8ffe?mod=rss_worldnews",
+     "headline": "Trump Calls On Ukraine to Stop Hitting Russian Refineries—and Replace Zelensky",
+     "detail": "The clash marks a new low point in White House relations with Kyiv as Russia escalates its bombing of Ukrainian cities.",
+     "url": "https://www.wsj.com/world/trump-calls-on-ukraine-to-stop-hitting-russian-refineriesand-replace-zelensky-cc9bada8?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-10-05T14:49:00+00:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T20:00:00+00:00",
+     "fetched": "2026-10-11T04:15:48+00:00"
     },
     {
-     "headline": "FBI Arrests Alleged Chinese Agent Accused of Spying on Son of Taiwan Leader",
-     "detail": "The alleged foreign agent was arrested at Los Angeles International Airport before she could board a flight to Shanghai.",
-     "url": "https://www.wsj.com/world/china/fbi-arrests-alleged-chinese-agent-accused-of-spying-on-son-of-taiwan-leader-2d9d5bee?mod=rss_worldnews",
+     "headline": "India Locks Down Heart of Capital to Thwart Voter Rights Protest",
+     "detail": "The anger over the voting lists has melded with grievances from young Indians struggling to find work.",
+     "url": "https://www.wsj.com/world/india/india-locks-down-heart-of-capital-to-thwart-voter-rights-protest-c7aad7a4?mod=rss_worldnews",
      "source_url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
-     "published": "2026-10-05T10:29:00+00:00",
-     "fetched": "2026-10-05T21:05:41+00:00"
+     "published": "2026-10-10T14:34:00+00:00",
+     "fetched": "2026-10-11T04:15:48+00:00"
     }
    ]
   }

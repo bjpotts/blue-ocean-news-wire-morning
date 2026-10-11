@@ -10,52 +10,70 @@
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by China’s carmakers eye record 12 million overseas sales in 2026 as ‘go global’ plan pays off. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "A single verifiable earnings item was found for Asia (Japan/Singapore/Hong Kong/China) this run: Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "China’s carmakers eye record 12 million overseas sales in 2026 as ‘go global’ plan pays off",
-     "detail": "Chinese automotive groups have cause to celebrate their go-global strategy amid breakneck export growth in recent years, with deliveries in 2026 expected to beat expectations already buoyed by an international energy shock caused by…",
-     "url": "https://www.scmp.com/business/china-business/article/3369423/chinas-carmakers-eye-record-12-million-overseas-sales-2026-go-global-plan-pays?utm_source=rss_feed",
+     "headline": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
+     "detail": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts.",
+     "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-01T06:00:08+00:00",
-     "fetched": "2026-10-05T21:05:18+00:00"
-    },
-    {
-     "headline": "New World Development posts HK$26.8b loss after 11 Skies termination",
-     "detail": "New World Development (NWD) reported a net loss of HK$26.8 billion (US$3.42 billion) for the year ended June, as the developer booked HK$18.3 billion in impairments and provisions tied to the early termination of its flagship 11 Skies mall…",
-     "url": "https://www.scmp.com/business/companies/article/3369377/new-world-development-posts-hk268b-loss-after-11-skies-termination?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-09-30T14:46:27+00:00",
-     "fetched": "2026-10-05T21:05:18+00:00"
+     "published": "2026-10-08T11:30:22+00:00",
+     "fetched": "2026-10-11T04:15:32+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 2 items, led by Pre-Market Earnings Report for October 6, 2026 : RPM, LW, APOG. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 1,
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Estimates Keep Rising as Q3 Earnings Season Takes Center Stage. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 5,
    "items": [
     {
-     "headline": "Pre-Market Earnings Report for October 6, 2026 : RPM, LW, APOG",
-     "detail": "The following companies are expected to report earnings prior to market open on 10/06/2026. Visit our Earnings Calendar for a full list of expected earnings releases.RPM International Inc.",
-     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-october-6-2026-rpm-lw-apog",
+     "headline": "Estimates Keep Rising as Q3 Earnings Season Takes Center Stage",
+     "detail": "Upcoming reports from the big banks next week will shift the Q3 earnings season into a higher gear, with a total of 29 S&P 500 members on the week's reporting docket.",
+     "url": "https://www.nasdaq.com/articles/estimates-keep-rising-q3-earnings-season-takes-center-stage",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-05T20:00:01+00:00",
-     "fetched": "2026-10-05T21:05:22+00:00"
+     "published": "2026-10-09T22:37:00+00:00",
+     "fetched": "2026-10-11T04:15:35+00:00"
     },
     {
-     "headline": "After-Hours Earnings Report for October 1, 2026 : NKE",
-     "detail": "The following companies are expected to report earnings after hours on 10/01/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Nike, Inc. (NKE)is reporting for the quarter ending August 31, 2026.",
-     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-october-1-2026-nke",
+     "headline": "Palantir’s Rally Puts Wall Street in Catch-Up Mode Ahead of November Earnings",
+     "detail": "Palantir Technologies (NASDAQ: PLTR) has been one of the biggest winners in the last earnings season. PLTR is up approximately 60% since August, and it's within about 5% of its 52-week high.",
+     "url": "https://www.nasdaq.com/articles/palantirs-rally-puts-wall-street-catch-mode-ahead-november-earnings",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-01T18:00:01+00:00",
-     "fetched": "2026-10-05T21:05:22+00:00"
+     "published": "2026-10-09T16:00:00+00:00",
+     "fetched": "2026-10-11T04:15:35+00:00"
+    },
+    {
+     "headline": "What Helen of Troy (HELE) Said on Its Q2 Earnings Call",
+     "detail": "3 Fresh Stock Buybacks: These are the Ones to BuyHelen of Troy (NASDAQ:HELE) reported fiscal second-quarter 2027 results that met its sales outlook and exceeded its adjusted earnings expectations, aided by growth in its Home & Outdoor…",
+     "url": "https://www.nasdaq.com/articles/what-helen-troy-hele-said-its-q2-earnings-call",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-08T15:02:55+00:00",
+     "fetched": "2026-10-11T04:15:35+00:00"
+    },
+    {
+     "headline": "What Tesco (TSCO) Said on Its H1 Earnings Call",
+     "detail": "How to invest in the top grocery stocksTesco (LON:TSCO) reported higher first-half sales, profit, cash flow and earnings per share, while raising its share buyback plan and narrowing its full-year adjusted operating profit outlook toward…",
+     "url": "https://www.nasdaq.com/articles/what-tesco-tsco-said-its-h1-earnings-call",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-08T12:02:20+00:00",
+     "fetched": "2026-10-11T04:15:35+00:00"
+    },
+    {
+     "headline": "Banks Under Pressure from Spiking Yields Ahead of Q3 Results",
+     "detail": "Higher interest rates are generally seen as beneficial for the likes of JPMorgan and Wells Fargo, but spiking yields of the type we have been experiencing are negative for these banks from several angles.",
+     "url": "https://www.nasdaq.com/articles/banks-under-pressure-spiking-yields-ahead-q3-results",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-07T22:10:00+00:00",
+     "fetched": "2026-10-11T04:15:35+00:00"
     }
    ]
   },
@@ -69,17 +87,17 @@
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "A single verifiable earnings item was found for Europe this run: Cargill’s Earnings Slump 52% With High Cattle Costs, Cocoa Loss.",
+   "summary": "A single verifiable earnings item was found for Europe this run: Strong Earnings Keep US Stocks in Favor.",
    "fresh_count": 1,
    "items": [
     {
-     "headline": "Cargill’s Earnings Slump 52% With High Cattle Costs, Cocoa Loss",
-     "detail": "Cargill Inc.’s fiscal first-quarter earnings fell by more than half as the largest private company in the US was pressured by higher costs for cattle and cocoa despite also benefiting from stronger results in soybeans.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-05/cargill-s-earnings-slump-52-with-high-cattle-costs-cocoa-loss",
+     "headline": "Strong Earnings Keep US Stocks in Favor",
+     "detail": "PNC Asset Management Chief Investment Officer Amanda Agati tells Bloomberg This Weekend that strong corporate fundamentals and resilient consumer spending could support US stocks as investors head into third-quarter earnings season.",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video",
      "outlet": "Bloomberg",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-05T18:58:44+00:00",
-     "fetched": "2026-10-05T21:05:26+00:00"
+     "published": "2026-10-10T17:37:41+00:00",
+     "fetched": "2026-10-11T04:15:37+00:00"
     }
    ]
   },
