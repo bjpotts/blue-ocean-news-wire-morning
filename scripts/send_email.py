@@ -42,40 +42,19 @@ def send(pdf, dry_run=False):
 
     script = '''
 tell application "Mail"
-    set targetAccount to null
-    repeat with acc in accounts
-        set accEmails to email addresses of acc
-        repeat with addr in accEmails
-            if (my lowercased(addr as string)) is (my lowercased("%s")) then
-                set targetAccount to acc
-                exit repeat
-            end if
-        end repeat
-        if targetAccount is not null then exit repeat
-    end repeat
-
-    if targetAccount is null then
-        error "No Mail.app account found for %s"
-    end if
-
-    set theMessage to make new outgoing message with properties {subject:"%s", content:"%s", visible:false}
+    set pdfFile to (my (POSIX file "%s")) as alias
+    set theMessage to make new outgoing message with properties {visible:false}
     tell theMessage
+        set subject to "%s"
+        set content to "%s"
         make new to recipient at end of to recipients with properties {address:"%s"}
         set sender to "%s"
-        make new attachment with properties {file name:"%s"} at after last paragraph
+        make new attachment with properties {file name:pdfFile}
+        delay 2
         send
     end tell
 end tell
-
-on lowercased(str)
-    set lowerStr to ""
-    repeat with ch in str
-        set c to ch as string
-        set lowerStr to lowerStr & (do shell script "echo " & quoted form of c & " | tr '[:upper:]' '[:lower:]'")
-    end repeat
-    return lowerStr
-end lowercased
-''' % (FROM, FROM, SUBJECT, BODY, TO, FROM, pdf)
+''' % (pdf, SUBJECT, BODY, TO, FROM)
 
     result = subprocess.run(
         ["osascript", "-e", script],
