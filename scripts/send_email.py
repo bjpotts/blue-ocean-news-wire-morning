@@ -16,7 +16,6 @@ SUBJECT = "Global Market Update"
 BODY = """Global Market Update, with your around the world news.
 
 Regards
-Regards
 Brandon Potts"""
 
 
