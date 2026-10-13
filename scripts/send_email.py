@@ -49,6 +49,7 @@ tell application "Mail"
         make new to recipient at end of to recipients with properties {address:"%s"}
         set sender to "%s"
         make new attachment with properties {file name:pdfFile}
+        save theMessage
         delay 2
         send
     end tell
