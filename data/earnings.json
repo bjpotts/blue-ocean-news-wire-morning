@@ -3,101 +3,130 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "No Company earnings reports available.",
-   "fresh_count": 0,
-   "items": []
+   "summary": "A single verifiable earnings item was found for ANZ this run: Medical Developments International Reports Stronger Penthrox Demand across Multiple Regions.",
+   "fresh_count": 1,
+   "items": [
+    {
+     "headline": "Medical Developments International Reports Stronger Penthrox Demand across Multiple Regions",
+     "detail": "Medical Developments International’s Penthrox volumes rose 37% in Europe and 24% in Australian hospitals, despite quarterly revenue falling $700,000 to $10.2m.",
+     "url": "https://smallcaps.com.au/article/medical-developments-international-reports-stronger-penthrox-demand-across-multiple-regions",
+     "outlet": "Small Caps",
+     "source_url": "https://smallcaps.com.au/feed",
+     "published": "2026-10-15T03:34:01+00:00",
+     "fetched": "2026-10-15T05:10:48+00:00"
+    }
+   ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "A single verifiable earnings item was found for Asia (Japan/Singapore/Hong Kong/China) this run: Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "Alibaba’s AI cloud revenue set to surge over 50% as investment blitz pays off: analysts",
-     "detail": "Alibaba Group Holding is expected to report a 50 per cent revenue surge for its cloud and artificial intelligence unit for the September quarter, driven by strong returns on its aggressive AI investments, according to analysts.",
-     "url": "https://www.scmp.com/tech/big-tech/article/3370209/alibabas-ai-cloud-revenue-set-surge-over-50-investment-blitz-pays-analysts?utm_source=rss_feed",
+     "headline": "China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads",
+     "detail": "We have put together stories from our coverage on electric and new energy vehicles from the past two weeks to help you stay informed. If you would like to see more of our reporting, please consider subscribing. 1.",
+     "url": "https://www.scmp.com/business/china-evs/article/3370855/chinas-carmakers-eye-record-sales-luxury-model-hits-regulatory-bump-7-ev-reads?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-08T11:30:22+00:00",
-     "fetched": "2026-10-11T04:15:32+00:00"
+     "published": "2026-10-14T07:57:53+00:00",
+     "fetched": "2026-10-15T05:11:29+00:00"
+    },
+    {
+     "headline": "Sluggish Chinese demand weighs on LVMH, as Louis Vuitton’s Molly Tea case casts a shadow",
+     "detail": "LVMH, the world’s largest luxury goods group, has attributed an Asia sales drop in the third quarter – the only regional decline the company reported – to, in part, a slowdown in Chinese demand.",
+     "url": "https://www.scmp.com/business/article/3370795/sluggish-chinese-demand-weighs-lvmh-louis-vuittons-molly-tea-case-casts-shadow?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-10-14T04:00:13+00:00",
+     "fetched": "2026-10-15T05:11:29+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Estimates Keep Rising as Q3 Earnings Season Takes Center Stage. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Broad-Based Growth Meets Bank Caution: The Evolving Q3 Earnings Picture. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
    "fresh_count": 5,
    "items": [
     {
-     "headline": "Estimates Keep Rising as Q3 Earnings Season Takes Center Stage",
-     "detail": "Upcoming reports from the big banks next week will shift the Q3 earnings season into a higher gear, with a total of 29 S&P 500 members on the week's reporting docket.",
-     "url": "https://www.nasdaq.com/articles/estimates-keep-rising-q3-earnings-season-takes-center-stage",
+     "headline": "Broad-Based Growth Meets Bank Caution: The Evolving Q3 Earnings Picture",
+     "detail": "Despite headline earnings misses by JPMorgan and Bank of America, Q3 results from these banks and their peers have been very strong.",
+     "url": "https://www.nasdaq.com/articles/broad-based-growth-meets-bank-caution-evolving-q3-earnings-picture-0",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-09T22:37:00+00:00",
-     "fetched": "2026-10-11T04:15:35+00:00"
+     "published": "2026-10-14T22:26:00+00:00",
+     "fetched": "2026-10-15T05:11:32+00:00"
     },
     {
-     "headline": "Palantir’s Rally Puts Wall Street in Catch-Up Mode Ahead of November Earnings",
-     "detail": "Palantir Technologies (NASDAQ: PLTR) has been one of the biggest winners in the last earnings season. PLTR is up approximately 60% since August, and it's within about 5% of its 52-week high.",
-     "url": "https://www.nasdaq.com/articles/palantirs-rally-puts-wall-street-catch-mode-ahead-november-earnings",
+     "headline": "Pre-Market Earnings Report for October 14, 2026 : ASML, BAC, MS, BLK, PGR, FAST, STT, SOTK",
+     "detail": "The following companies are expected to report earnings prior to market open on 10/14/2026. Visit our Earnings Calendar for a full list of expected earnings releases.ASML Holding N.V.",
+     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-october-14-2026-asml-bac-ms-blk-pgr-fast-stt-sotk",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-09T16:00:00+00:00",
-     "fetched": "2026-10-11T04:15:35+00:00"
+     "published": "2026-10-13T20:00:01+00:00",
+     "fetched": "2026-10-15T05:11:32+00:00"
     },
     {
-     "headline": "What Helen of Troy (HELE) Said on Its Q2 Earnings Call",
-     "detail": "3 Fresh Stock Buybacks: These are the Ones to BuyHelen of Troy (NASDAQ:HELE) reported fiscal second-quarter 2027 results that met its sales outlook and exceeded its adjusted earnings expectations, aided by growth in its Home & Outdoor…",
-     "url": "https://www.nasdaq.com/articles/what-helen-troy-hele-said-its-q2-earnings-call",
+     "headline": "After-Hours Earnings Report for October 13, 2026 : AZZ",
+     "detail": "The following companies are expected to report earnings after hours on 10/13/2026. Visit our Earnings Calendar for a full list of expected earnings releases.AZZ Inc. (AZZ)is reporting for the quarter ending August 31, 2026.",
+     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-october-13-2026-azz",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-08T15:02:55+00:00",
-     "fetched": "2026-10-11T04:15:35+00:00"
+     "published": "2026-10-13T18:00:01+00:00",
+     "fetched": "2026-10-15T05:11:32+00:00"
     },
     {
-     "headline": "What Tesco (TSCO) Said on Its H1 Earnings Call",
-     "detail": "How to invest in the top grocery stocksTesco (LON:TSCO) reported higher first-half sales, profit, cash flow and earnings per share, while raising its share buyback plan and narrowing its full-year adjusted operating profit outlook toward…",
-     "url": "https://www.nasdaq.com/articles/what-tesco-tsco-said-its-h1-earnings-call",
+     "headline": "What Domino's Pizza (DPZ) Said on Its Q3 Earnings Call",
+     "detail": "Darden Restaurants Just Hit a 52-Week High–Is the Olive Garden Comeback Story Legit?Domino's Pizza (NASDAQ:DPZ) reported third-quarter operating income growth of 8.5%, excluding foreign-currency effects and minor refranchising true-up…",
+     "url": "https://www.nasdaq.com/articles/what-dominos-pizza-dpz-said-its-q3-earnings-call",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-08T12:02:20+00:00",
-     "fetched": "2026-10-11T04:15:35+00:00"
+     "published": "2026-10-13T15:02:57+00:00",
+     "fetched": "2026-10-15T05:11:32+00:00"
     },
     {
-     "headline": "Banks Under Pressure from Spiking Yields Ahead of Q3 Results",
-     "detail": "Higher interest rates are generally seen as beneficial for the likes of JPMorgan and Wells Fargo, but spiking yields of the type we have been experiencing are negative for these banks from several angles.",
-     "url": "https://www.nasdaq.com/articles/banks-under-pressure-spiking-yields-ahead-q3-results",
+     "headline": "Thermo Fisher to Report Q3 Earnings: What's in the Cards?",
+     "detail": "TMO gears up for Q3 earnings, with revenue and EPS growth expected amid strong bioproduction demand, product innovations and clinical research strength.",
+     "url": "https://www.nasdaq.com/articles/thermo-fisher-report-q3-earnings-whats-cards",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-07T22:10:00+00:00",
-     "fetched": "2026-10-11T04:15:35+00:00"
+     "published": "2026-10-13T13:25:00+00:00",
+     "fetched": "2026-10-15T05:11:32+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "No Company earnings reports available.",
+   "summary": "A single verifiable earnings item was found for UK this run: Dimon warns of risks ‘under the surface’ as JP Morgan earnings miss. No newer earnings item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
-   "items": []
+   "items": [
+    {
+     "headline": "Dimon warns of risks ‘under the surface’ as JP Morgan earnings miss",
+     "detail": "JP Morgan boss Jamie Dimon has warned of a broad set of economic risks “under the surface” as the Wall Street bank’s earnings missed expectations in the third quarter.",
+     "url": "https://www.cityam.com/dimon-warns-of-risks-under-the-surface-as-jp-morgan-earnings-miss/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/category/markets/feed/",
+     "published": "2026-10-13T12:08:51+00:00",
+     "fetched": "2026-10-15T05:11:34+00:00"
+    }
+   ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "A single verifiable earnings item was found for Europe this run: Strong Earnings Keep US Stocks in Favor.",
+   "summary": "A single verifiable earnings item was found for Europe this run: Anthropic Results May Aid IPO But Not AI Trade, Analysts Say.",
    "fresh_count": 1,
    "items": [
     {
-     "headline": "Strong Earnings Keep US Stocks in Favor",
-     "detail": "PNC Asset Management Chief Investment Officer Amanda Agati tells Bloomberg This Weekend that strong corporate fundamentals and resilient consumer spending could support US stocks as investors head into third-quarter earnings season.",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video",
+     "headline": "Anthropic Results May Aid IPO But Not AI Trade, Analysts Say",
+     "detail": "Anthropic PBC’s third-quarter results may strengthen the case for its expected initial public offering, though they are unlikely to dispel doubts over the global AI trade, according to some investors and analysts.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say",
      "outlet": "Bloomberg",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-10T17:37:41+00:00",
-     "fetched": "2026-10-11T04:15:37+00:00"
+     "published": "2026-10-15T03:21:25+00:00",
+     "fetched": "2026-10-15T05:11:36+00:00"
     }
    ]
   },

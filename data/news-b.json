@@ -4,48 +4,48 @@
    "key": "nbc",
    "name": "NBC News",
    "site": "nbcnews.com",
-   "summary": "NBC News, covering US national news and politics is leading with Hurricane Isaias kills at least four people as millions are still under threat; Trump says he’ll decide whether to livestream the execution of Fort Hood shooter Nidal Hasan; Justice Department investigating major TV networks over suspending pool coverage of Trump.",
+   "summary": "NBC News, covering US national news and politics is leading with Inside Michigan’s critical midterm Senate battle; DOJ threatens legal action against California over alleged noncitizen voters; Suspicious white powder sent to election offices in 3 states.",
    "note": null,
    "items": [
     {
-     "headline": "Hurricane Isaias kills at least four people as millions are still under threat",
-     "detail": "Hurricane Isaias leaves at least four people dead, with millions still facing threats of torrential rains, flooding and tornadoes.",
-     "url": "https://www.nbcnews.com/video/hurricane-isaias-kills-at-least-four-people-as-millions-are-still-under-threat-271395909614",
+     "headline": "Inside Michigan’s critical midterm Senate battle",
+     "detail": "NBC Nightly News anchor Tom Llamas speaks to Democrat Abdul El-Sayed, Republican Mike Rogers, and voters in Michigan.",
+     "url": "https://www.nbcnews.com/nightly-news/video/inside-michigan-s-critical-midterm-senate-battle-271594053925",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-10T22:10:40+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-14T23:13:45+00:00",
+     "fetched": "2026-10-15T05:11:52+00:00"
     },
     {
-     "headline": "Trump says he’ll decide whether to livestream the execution of Fort Hood shooter Nidal Hasan",
-     "detail": "President Donald Trump said Saturday that he hasn’t yet made a final decision on whether to livestream the execution of former Army Maj.",
-     "url": "https://www.nbcnews.com/politics/donald-trump/trump-execution-fort-hood-livestream-rcna602672",
+     "headline": "DOJ threatens legal action against California over alleged noncitizen voters",
+     "detail": "The DOJ demanded election officials review a list of possible noncitizens within 48 hours and “segregate” any mail ballots they sent in.",
+     "url": "https://www.nbcnews.com/politics/2026-election/justice-department-threatens-legal-action-california-noncitizens-rcna603536",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-10T18:15:17+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-14T18:37:37+00:00",
+     "fetched": "2026-10-15T05:11:52+00:00"
     },
     {
-     "headline": "Justice Department investigating major TV networks over suspending pool coverage of Trump",
-     "detail": "The Justice Department said it is investigating five major TV broadcast networks for potentially violating federal antitrust laws after the networks temporarily declined to provide pool coverage of President Donald Trump, a department…",
-     "url": "https://www.nbcnews.com/politics/politics-news/justice-department-investigating-major-tv-networks-suspending-pool-cov-rcna602717",
+     "headline": "Suspicious white powder sent to election offices in 3 states",
+     "detail": "No injuries or adverse health effects have been reported, and officials said they are working with state and federal law enforcement.",
+     "url": "https://www.nbcnews.com/politics/2026-election/suspicious-white-powder-sent-election-offices-3-states-rcna603621",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-11T02:39:03+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-15T01:59:44+00:00",
+     "fetched": "2026-10-15T05:11:52+00:00"
     },
     {
-     "headline": "Shooter kills 8 at family home in Pennsylvania before turning gun on self, Erie police say",
-     "detail": "A man killed seven family members and a family friend at a home in Erie, Pennsylvania, on Friday night before dying of an apparent self-inflicted gunshot wound, officials said.",
-     "url": "https://www.nbcnews.com/news/us-news/erie-pennsylvania-mass-shooting-rcna602669",
+     "headline": "Feds seized Rep. Ilhan Omar’s phone, subpoenaed family members in immigration status probe",
+     "detail": "Federal agents seized the phone of Ilhan Omar, D-Minn., when they searched her Washington, D.C., home this week as part of a federal investigation into potential immigration-related crimes, and they have sent roughly a dozen subpoenas out…",
+     "url": "https://www.nbcnews.com/politics/trump-administration/doj-issues-subpoenas-probe-rep-ilhan-omars-immigration-status-family-m-rcna603444",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-10T17:39:59+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-14T17:40:41+00:00",
+     "fetched": "2026-10-15T05:11:52+00:00"
     },
     {
-     "headline": "Bracing for the midterms, Trump says he will be blamed if Republicans lose",
-     "detail": "CLARKSVILLE, Tenn. — Even as he makes a case that Republicans should win the midterm congressional elections, President Donald Trump is bracing for the fallout should they lose.",
-     "url": "https://www.nbcnews.com/politics/donald-trump/bracing-midterms-trump-says-will-blamed-republicans-lose-rcna602512",
+     "headline": "Pope Leo recovers after lung surgery",
+     "detail": "There are new details about Pope Leo’s recovery following his lung cancer diagnosis. Doctors say he is progressing as expected. NBC News’ Anne Thompson reports from Rome.",
+     "url": "https://www.nbcnews.com/nightly-news/video/pope-leo-recovers-after-lung-surgery-271593541966",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-11T00:31:24+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-14T22:56:11+00:00",
+     "fetched": "2026-10-15T05:11:52+00:00"
     }
    ]
   },
@@ -53,48 +53,48 @@
    "key": "thehill",
    "name": "The Hill",
    "site": "thehill.com",
-   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with Trump continues red state campaign swing with Montana, Arizona rallies next week; Trump says he will ‘ultimately make decision’ on Fort Hood shooter execution livestream; GOP lawmakers reject U.S.-Russia diesel deal, Trump's Zelensky comments.",
+   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’; Trump’s approval rating hits record low in Fox News poll; Talarico debates Texas voters in CNN-Jubilee town hall amid tight Senate race.",
    "note": null,
    "items": [
     {
-     "headline": "Trump continues red state campaign swing with Montana, Arizona rallies next week",
-     "detail": "President Trump will continue his red state campaign swing with recently announced rallies in Montana and Arizona slated for this week with important races in each state just under a month away.",
-     "url": "https://thehill.com/homenews/campaign/6140976-trump-rallies-montana-arizona/",
+     "headline": "Trump on Iran talks: ‘I don’t know who the hell we’re negotiating with’",
+     "detail": "President Trump said Wednesday night at a rally in Montana that he wasn’t sure who U.S. officials were negotiating with in their efforts to bring an end to the Iran war. “They don’t have a navy. They don’t have an air force.",
+     "url": "https://thehill.com/homenews/administration/6149753-trump-montana-rally-iran-war/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-11T02:42:36+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-15T03:19:33+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Trump says he will ‘ultimately make decision’ on Fort Hood shooter execution livestream",
-     "detail": "President Trump said he will “make a decision ultimately” on whether to livestream the execution by firing squad of convicted Fort Hood shooter Nidal Hasan following GOP backlash.",
-     "url": "https://thehill.com/homenews/administration/6140915-trump-reviews-hasan-execution-plan/",
+     "headline": "Trump’s approval rating hits record low in Fox News poll",
+     "detail": "President Trump’s overall approval rating hit a record low for either of his terms, according to a new Fox News survey amid growing voter dissatisfaction with his handling of key issues.",
+     "url": "https://thehill.com/homenews/administration/6149735-trumps-approval-rating-hits-record-low-in-fox-news-poll/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-10T23:59:18+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-15T03:01:10+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "GOP lawmakers reject U.S.-Russia diesel deal, Trump's Zelensky comments",
-     "detail": "Several Republicans voiced objections to the Trump administration Russian diesel deal and President Trump's suggestion that Ukraine needed a new leader. When asked about the deal, Sen.",
-     "url": "https://thehill.com/homenews/senate/6140871-republicans-oppose-trump-russian-diesel-deal/",
+     "headline": "Talarico debates Texas voters in CNN-Jubilee town hall amid tight Senate race",
+     "detail": "Texas Democrat James Talarico on Wednesday took questions from voters in a town hall hosted by CNN and Jubilee, appearing on stage solo as he calls for rival Republican Ken Paxton to debate in their closely watched Senate race.",
+     "url": "https://thehill.com/homenews/campaign/6149733-texas-talarico-town-hall/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-10T23:09:54+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-15T02:50:13+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Bipartisan bill barring U.S. purchase of Russian oil on the horizon: Fitzpatrick",
-     "detail": "Rep. Brian Fitzpatrick (R-Pa.) announced on Saturday he would be introducing a bipartisan bill aimed at stopping President Trump from lifting sanctions on Russian oil amid global fuel shortages.",
-     "url": "https://thehill.com/homenews/house/6140830-fitzpatrick-bill-block-russian-oil/",
+     "headline": "Cait Conley tells Rep. Mike Lawler not to ‘mansplain’ about domestic abuse",
+     "detail": "Democrat Cait Conley told Rep. Mike Lawler (R-N.Y.) during a televised debate Wednesday night not to \"mansplain\" to her about domestic abuse as the pair discussed an alleged gang rape at a Cornell University fraternity in 2024.",
+     "url": "https://thehill.com/homenews/campaign/6149718-conley-lawler-debate-clash/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-10T22:02:33+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-15T02:35:12+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Pentagon updates death toll of troops during Iran war to 21",
-     "detail": "The Pentagon updated the American service member death toll of the U.S. military’s operations against Iran to 21 late Friday, raising the tally in the department’s public database.",
-     "url": "https://thehill.com/policy/defense/6140821-pentagon-updates-iran-death-tally/",
+     "headline": "Majority of Americans oppose public executions: poll",
+     "detail": "A new survey found the majority of Americans opposed publicly broadcast executions ahead of the Pentagon’s planned livestreamed execution of convicted Fort Hood shooter Nidal Hasan.",
+     "url": "https://thehill.com/policy/defense/6149686-poll-opposes-liveexecution/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-10T21:59:35+00:00",
-     "fetched": "2026-10-11T04:15:49+00:00"
+     "published": "2026-10-15T01:41:18+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     }
    ]
   },
@@ -102,48 +102,48 @@
    "key": "time",
    "name": "Time",
    "site": "time.com",
-   "summary": "Time magazine, covering US and world affairs is leading with Trump Says U.S. May Join Saudi Strikes on Houthis After Riyadh Airport Attacks; Under the Gun: Understanding America’s Defense Spending Paradox; Paternity Leave Is More Than a Perk. It Builds a Baby’s Brain.",
+   "summary": "Time magazine, covering US and world affairs is leading with Who Runs the Catholic Church When the Pope Is Hospitalized?; AI Is Helping Bring Back the Dodo; What to Know About Pope Leo's Lung Cancer Diagnosis.",
    "note": null,
    "items": [
     {
-     "headline": "Trump Says U.S. May Join Saudi Strikes on Houthis After Riyadh Airport Attacks",
-     "detail": "Attacks on Saudi airports have killed several people and disrupted hundreds of flights, prompting Washington to consider a larger military role in Yemen.",
-     "url": "https://time.com/article/2026/10/10/trump-says-u-s-may-join-saudi-strikes-on-houthis-after-riyadh-airport-attacks/",
+     "headline": "Who Runs the Catholic Church When the Pope Is Hospitalized?",
+     "detail": "As Pope Leo remains hospitalized following his surgery, his audiences have been canceled through Oct. 20, but he remains in charge of the papacy. Here's why.",
+     "url": "https://time.com/article/2026/10/14/who-leads-catholic-church-when-the-pope-is-hospitalized-sick-pope-leo/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-10T21:22:07+00:00",
-     "fetched": "2026-10-11T04:15:50+00:00"
+     "published": "2026-10-14T21:09:52+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Under the Gun: Understanding America’s Defense Spending Paradox",
-     "detail": "\"How is it possible that the most expensive military in the history of the world doesn’t have enough ammunition to fight a war?\" asks Joshua Keating.",
-     "url": "https://time.com/article/2026/10/10/understanding-america-defense-spending-paradox/",
+     "headline": "AI Is Helping Bring Back the Dodo",
+     "detail": "Colossal Biosciences is on a quest to bring the dodo back from extinction.",
+     "url": "https://time.com/article/2026/10/14/ai-dodo-colossal-biosciences/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-10T18:41:44+00:00",
-     "fetched": "2026-10-11T04:15:50+00:00"
+     "published": "2026-10-14T21:00:04+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Paternity Leave Is More Than a Perk. It Builds a Baby’s Brain",
-     "detail": "Paternity leave and a father’s engagement during infancy is associated with better cognitive, social, and emotional regulation outcomes for the child, writes Alvin Thomas.",
-     "url": "https://time.com/article/2026/10/10/paternity-leave-is-more-than-a-perk-it-builds-a-baby-s-brain/",
+     "headline": "What to Know About Pope Leo's Lung Cancer Diagnosis",
+     "detail": "Surgeons removed part of the Pontiff’s right lung and reported he had adenocarcinoma.",
+     "url": "https://time.com/article/2026/10/14/pope-leo-lung-cancer-what-to-know/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-10T10:00:04+00:00",
-     "fetched": "2026-10-11T04:15:50+00:00"
+     "published": "2026-10-14T17:58:24+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Are Firing Squad Executions Seeing a Revival in the U.S.?",
-     "detail": "Supply-chain issues and a series of botched executions involving lethal injection are causing officials to weigh alternative options for carrying out the death penalty.",
-     "url": "https://time.com/article/2026/10/10/firing-squad-execution-lethal-injection-christa-pike-fort-hood-shooter/",
+     "headline": "Access to Public Lands Should Unite All Americans",
+     "detail": "“Once public lands are permanently altered, fragmented, or developed, there’s no going back,\" warns Mary Beth Laughton, CEO of REI Co-op.",
+     "url": "https://time.com/article/2026/10/14/access-to-public-lands-should-unite-all-americans/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-10T11:00:00+00:00",
-     "fetched": "2026-10-11T04:15:50+00:00"
+     "published": "2026-10-14T17:00:26+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Trump Taps Katie Zacharia to Replace Karoline Leavitt as White House Press Secretary",
-     "detail": "Zacharia, a conservative commentator, will succeed Karoline Leavitt in the position.",
-     "url": "https://time.com/article/2026/10/09/katie-zacharia-white-house-press-secretary-leavitt-trump/",
+     "headline": "Can Trump Strip Ilhan Omar of Her Citizenship? Here's How the Process Works",
+     "detail": "Legal and immigration experts tell TIME that denaturalizing a U.S. citizen is a rare and difficult process",
+     "url": "https://time.com/article/2026/10/14/ilhan-omar-citizenship-investigation-denaturalization-DOJ/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-09T18:46:53+00:00",
-     "fetched": "2026-10-11T04:15:50+00:00"
+     "published": "2026-10-14T16:57:47+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     }
    ]
   },
@@ -151,48 +151,48 @@
    "key": "variety",
    "name": "Variety",
    "site": "variety.com",
-   "summary": "Variety, on the business of entertainment is leading with Shane Gillis Bombs ‘SNL’ Monologue (Again): ‘You’re Either Gay or You’re Hitler’; Pete Hegseth Is Unhinged in ‘SNL’ Cold Open Mocking Christa Pike’s Botched Execution and RFK Jr.; Slamdance Alzheimer’s Drama ‘Banr’ From ‘Fox Hunt’ Writer Erica Xia-Hou Heads to Busan Market (EXCLUSIVE).",
+   "summary": "Variety, on the business of entertainment is leading with ‘South Park’: Stan Discovers Sephora’s Backrooms Before Ike Aura Battles a Looksmaxxing Chad; ‘To Be Ordinary’ Review: A Compassionate, Even-Handed Taiwanese Family Melodrama; Sylvester Stallone Has ‘Millions of Regrets’ About Doing His Own Stunts: ‘I’m An Idiot for Doing That’.",
    "note": null,
    "items": [
     {
-     "headline": "Shane Gillis Bombs ‘SNL’ Monologue (Again): ‘You’re Either Gay or You’re Hitler’",
-     "detail": "Shane Gillis returned to host “Saturday Night Live” for the third time since his 2019 firing, emerging in a matching black T-shirt and pants for a meandering monologue about needing to lose weight and being miserable (and trying to be…",
-     "url": "https://variety.com/2026/tv/news/snl-shane-gillis-bombs-monologue-again-hitler-misogyny-1236907937/",
+     "headline": "‘South Park’: Stan Discovers Sephora’s Backrooms Before Ike Aura Battles a Looksmaxxing Chad",
+     "detail": "In the third episode of “South Park” Season 29, the gang gets stuck in Sephora’s “Backroom,” Stan’s dad shrinks himself using products from the beauty chain and aura battles take over South America (the newly named mountain town), meaning…",
+     "url": "https://variety.com/2026/tv/news/south-park-season-29-sephora-backrooms-aura-battle-1236909613/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-11T04:00:17+00:00",
-     "fetched": "2026-10-11T04:15:53+00:00"
+     "published": "2026-10-15T03:01:08+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Pete Hegseth Is Unhinged in ‘SNL’ Cold Open Mocking Christa Pike’s Botched Execution and RFK Jr.",
-     "detail": "Colin Jost returned as an especially rowdy Pete Hegseth in this week’s “Saturday Night Live” cold open, welcoming home sailors aboard the USS Abraham Lincoln after nearly a year at sea. The Oct.",
-     "url": "https://variety.com/2026/tv/news/snl-pete-hegseth-operation-epic-fury-1236907876/",
+     "headline": "‘To Be Ordinary’ Review: A Compassionate, Even-Handed Taiwanese Family Melodrama",
+     "detail": "A high-speed traffic accident leaves a college student in a wheelchair for life, but that’s merely the starting point of the narrative in “To Be Ordinary,” a sensitive, slowly enveloping film with scant interest in disability-drama cliché…",
+     "url": "https://variety.com/2026/film/reviews/to-be-ordinary-review-1236912654/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-11T03:48:56+00:00",
-     "fetched": "2026-10-11T04:15:53+00:00"
+     "published": "2026-10-15T02:16:52+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Slamdance Alzheimer’s Drama ‘Banr’ From ‘Fox Hunt’ Writer Erica Xia-Hou Heads to Busan Market (EXCLUSIVE)",
-     "detail": "Hong Kong’s Cappu Films has taken on worldwide sales for “Banr,” Erica Xia-Hou’s Canadian-Chinese drama about a 40-year marriage tested by Alzheimer’s disease.",
-     "url": "https://variety.com/2026/film/markets-festivals/slamdance-alzheimers-drama-banr-busan-market-1236907932/",
+     "headline": "Sylvester Stallone Has ‘Millions of Regrets’ About Doing His Own Stunts: ‘I’m An Idiot for Doing That’",
+     "detail": "Sylvester Stallone is opening up about how decades of daredevilry have affected him—and why he considers himself an “idiot” for continuing to do his own stunts year after year.",
+     "url": "https://variety.com/2026/film/news/sylvester-stallone-regrets-doing-stunts-im-an-idiot-1236912683/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-11T03:26:36+00:00",
-     "fetched": "2026-10-11T04:15:53+00:00"
+     "published": "2026-10-15T01:34:19+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "Award-Winning Pakistani Thriller ‘Wakhri’ Rolls Out in France, U.K., Australia and Brazil (EXCLUSIVE)",
-     "detail": "Iram Parveen Bilal’s award-winning Pakistani thriller “Wakhri” has landed distribution in several international territories. Its theatrical and broadcast releases are rolling out this fall across France, the U.K.",
-     "url": "https://variety.com/2026/film/global/pakistani-film-wakhri-france-uk-australia-brazil-release-1236907928/",
+     "headline": "‘The Lowdown’ Creator Sterlin Harjo on the Films That Inspired Season 2, and What Convinced Tommy Lee Jones to Join the Show",
+     "detail": "As “The Lowdown” Season 2 opens, citizen journalist (or “truthstorian”) Lee Raybon (Ethan Hawke) is in a completely uncomfortable position: success.",
+     "url": "https://variety.com/2026/tv/news/the-lowdown-sterlin-harjo-season-2-tommy-lee-jones-1236912635/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-11T03:13:05+00:00",
-     "fetched": "2026-10-11T04:15:53+00:00"
+     "published": "2026-10-15T01:00:00+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     },
     {
-     "headline": "How Candle House’s Immersive Theater Show ‘The Pineapple’ Became a Spooky L.A. Hit, Playing 76 Shows With Just One Ticket for Each Performance",
-     "detail": "Part of the thrill of theater is that you’re taking part in a one-time experience, never to be recorded or repeated, in which anyone who wasn’t part of that live audience with you will simply have to take your word for how it was.",
-     "url": "https://variety.com/2026/legit/news/candle-house-pineapple-immersive-theater-claws-1236907899/",
+     "headline": "Academy CEO Bill Kramer to Head to Tokyo for Leadership Award and Onstage Summit With Toho Boss Matsuoka Hiro",
+     "detail": "Academy CEO Bill Kramer is set to make his first trip to Asia later this month.",
+     "url": "https://variety.com/2026/film/festivals/academy-ceo-bill-kramer-tokyo-award-toho-boss-summit-1236911117/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-11T02:08:50+00:00",
-     "fetched": "2026-10-11T04:15:53+00:00"
+     "published": "2026-10-15T01:00:00+00:00",
+     "fetched": "2026-10-15T05:11:53+00:00"
     }
    ]
   },
@@ -200,48 +200,48 @@
    "key": "bloomberg",
    "name": "Bloomberg",
    "site": "bloomberg.com",
-   "summary": "Bloomberg's markets and business file is leading with China Issues Draft Standards for Remanufactured Automotive Parts; India’s Rupee Defense Raises Question of How Far RBI Will Go; Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers.",
+   "summary": "Bloomberg's markets and business file is leading with Treasury Haven Trade Bounces Back as Stocks Sink, Yields Entice; Kospi Drops 8% as Samsung, SK Hynix Shares Plunge on AI and Rate Fears; Stock Losses Deepen on Chip Rout, Treasuries Rally: Markets Wrap.",
    "note": null,
    "items": [
     {
-     "headline": "China Issues Draft Standards for Remanufactured Automotive Parts",
-     "detail": "China released draft rules that would establish nationwide requirements for automotive-parts remanufacturing, including standards for the sourcing of used components, product quality, traceability and market oversight.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-11/china-issues-draft-standards-for-remanufactured-automotive-parts",
+     "headline": "Treasury Haven Trade Bounces Back as Stocks Sink, Yields Entice",
+     "detail": "US Treasuries led a global bond rally as a selloff in equities deepened risk aversion and spurred demand for haven assets.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/treasuries-extend-gains-as-equities-selloff-dents-risk-sentiment",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-11T03:21:56+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T00:27:03+00:00",
+     "fetched": "2026-10-15T05:11:55+00:00"
     },
     {
-     "headline": "India’s Rupee Defense Raises Question of How Far RBI Will Go",
-     "detail": "The Reserve Bank of India is broadening its defenses to steady the rupee, taking some of its strongest measures since the 2013 taper tantrum.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-11/india-s-rupee-defense-raises-question-of-how-far-rbi-will-go",
+     "headline": "Kospi Drops 8% as Samsung, SK Hynix Shares Plunge on AI and Rate Fears",
+     "detail": "A global selloff in semiconductor stocks dragged South Korea’s equity benchmark down 8% on Thursday, putting it on track to enter a bear market, as investors retreat from the frothiest corners of the AI trade.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-11T03:00:03+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T00:08:40+00:00",
+     "fetched": "2026-10-15T05:11:55+00:00"
     },
     {
-     "headline": "Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers",
-     "detail": "South Korea spent much of this year as a poster child of the scorching global AI trade. Now, by almost every measure, the $4.3 trillion stock market is rapidly losing relevance with investors.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-11/once-hot-ai-trade-leaves-korean-stocks-struggling-for-buyers",
+     "headline": "Stock Losses Deepen on Chip Rout, Treasuries Rally: Markets Wrap",
+     "detail": "A global equity selloff deepened as chip stocks plunged on Wall Street and in Asia, further unwinding this year’s blistering rally in the artificial intelligence trade. Treasuries gained on haven demand, while the dollar weakened.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-11T00:00:00+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-14T22:04:59+00:00",
+     "fetched": "2026-10-15T05:11:55+00:00"
     },
     {
-     "headline": "AI Debt Issuance Defies Rising Yields as SpaceX, Broadcom Plan Major Deals",
-     "detail": "When financing gets more expensive, companies usually slow down their bond sales. Tech companies have instead been ramping up this year, and talk this week of potential big financings from SpaceX and Broadcom Inc.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly",
+     "headline": "Ukraine to Resume Russia Oil Refinery Strikes, FT Reports",
+     "detail": "Ukraine will resume strikes on Russian oil refineries in response to deadly attacks by Moscow, President Volodymyr Zelenskyy told the Financial Times.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/ukraine-to-resume-russia-refinery-strikes-zelenskyy-tells-ft-mv911ocb",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-10T19:00:00+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T04:16:54+00:00",
+     "fetched": "2026-10-15T05:11:55+00:00"
     },
     {
-     "headline": "Strong Earnings Keep US Stocks in Favor",
-     "detail": "PNC Asset Management Chief Investment Officer Amanda Agati tells Bloomberg This Weekend that strong corporate fundamentals and resilient consumer spending could support US stocks as investors head into third-quarter earnings season.",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-10/strong-earnings-keep-us-stocks-in-favor-video",
+     "headline": "Copper Falls for Third Day as Strong US Inflation Spurs Selloff",
+     "detail": "Copper declined with other base metals after stronger-than-expected US consumer prices spurred bets on more aggressive tightening by the Federal Reserve.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/copper-falls-for-third-day-as-strong-us-inflation-spurs-selloff",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-10T17:37:41+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T04:57:48+00:00",
+     "fetched": "2026-10-15T05:11:55+00:00"
     }
    ]
   },
@@ -249,48 +249,48 @@
    "key": "bbc",
    "name": "BBC",
    "site": "bbc.com",
-   "summary": "The BBC's world news service is leading with 'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal; Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh; Young men live in fear of being snatched off the streets and sold to Myanmar's army.",
+   "summary": "The BBC's world news service is leading with Musk says US government may be behind slowdown of Ukraine drone speeds; Student protesters attack government buildings in Albania; Retired US generals call on Pentagon to cancel 'barbaric' execution livestream.",
    "note": null,
    "items": [
     {
-     "headline": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-     "detail": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-     "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+     "headline": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+     "detail": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+     "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-11T01:41:29+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T04:30:08+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
-     "detail": "The attack has been blamed on Yemen's Houthis, who have not taken responsibility for the latest strike.",
-     "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+     "headline": "Student protesters attack government buildings in Albania",
+     "detail": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
+     "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-11T03:57:22+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-14T20:29:05+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
-     "detail": "A desperate junta is in a war of attrition against ethnic militias and and civilian resistance.",
-     "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
+     "headline": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+     "detail": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
+     "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-10T22:13:08+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T02:26:07+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
-     "detail": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-     "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+     "headline": "White House defends new press secretary amid questions about her legal credentials",
+     "detail": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
+     "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-10T20:51:12+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T03:03:16+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
-     "detail": "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
-     "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
+     "headline": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+     "detail": "Thick orange smog descended on the Indonesian city of Palangka Raya as wildfires continue raging nearby.",
+     "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-10T17:44:26+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T03:26:36+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     }
    ]
   },
@@ -298,48 +298,48 @@
    "key": "france24",
    "name": "France 24",
    "site": "france24.com",
-   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with SPOTLIGHT; At least twelve killed, multiple people wounded in attack on Riyadh airport; Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution.",
+   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with Ukraine live: Romania probes possible drone attack on tanker; Thousands protest across Colombia against new right-wing president; Lula’s party accuses Meta of election interference ahead of Brazil runoff.",
    "note": null,
    "items": [
     {
-     "headline": "SPOTLIGHT",
-     "detail": "Adam Barron is an independent Middle East political analyst and consultant, specialising primarily in Yemen, where he has reported from the capital, Sanaa, for The Economist. He writes for Foreign Policy and The Atlantic.",
-     "url": "https://www.france24.com/en/tv-shows/spotlight/20261010-spotlight",
+     "headline": "Ukraine live: Romania probes possible drone attack on tanker",
+     "detail": "Romania on Wednesday was probing a possible fresh drone attack on a tanker off its Black Sea coast.",
+     "url": "https://www.france24.com/en/europe/20261015-ukraine-live-romania-probes-possible-drone-attack-on-tanker",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-10T18:22:23+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T03:52:46+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "At least twelve killed, multiple people wounded in attack on Riyadh airport",
-     "detail": "At least twelve people were killed in an attack on Riyadh's King Khalid International Airport on Saturday, including an Egyptian flight attendant, according to a medical source at a local hospital.",
-     "url": "https://www.france24.com/en/middle-east/20261010-riyadh-airport-suspends-operations-after-attack-leaves-multiple-people-wounded",
+     "headline": "Thousands protest across Colombia against new right-wing president",
+     "detail": "Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August.",
+     "url": "https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-10T18:03:32+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T01:57:26+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
-     "detail": "Christa Pike's lawyers on Saturday said that the 50-year-old convicted murderer has been discharged from the hospital and returned to prison.",
-     "url": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution",
+     "headline": "Lula’s party accuses Meta of election interference ahead of Brazil runoff",
+     "detail": "Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States, alleging election interference, his campaign said Wednesday.",
+     "url": "https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-10T17:41:10+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-14T23:52:58+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "🔴 Live: Trump lashes out at Zelensky, says Ukraine needs new president who will agree to end war",
-     "detail": "🔴 Live: Trump lashes out at Zelensky, says Ukraine needs new president who will agree to end war",
-     "url": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children",
+     "headline": "North Korea test-fires submarine-launched cruise missiles amid rising tensions",
+     "detail": "North Korea test-fired two types of submarine-launched strategic cruise missiles on Wednesday, state media KCNA reported Thursday, saying the launches posed no threat to neighbouring countries.",
+     "url": "https://www.france24.com/en/asia-pacific/20261014-north-korea-test-fires-submarine-launched-cruise-missiles",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-10T17:39:46+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-14T23:12:08+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "India protests: New 'cockroach' movement leader named",
-     "detail": "Indian police detained the head of the satirical \"cockroach\" online movement on Saturday, the group said, ahead of a major protest against the Election Commission that prompted strict security measures.",
-     "url": "https://www.france24.com/en/video/20261010-india-protests-new-cockroach-movement-leader-named",
+     "headline": "Albania protests turn violent as protestors demand PM Rama's resignation",
+     "detail": "Anti-government protests in Albania’s capital Tirana turned violent for a second consecutive night on Wednesday, leaving several government buildings damaged and at least one ablaze.",
+     "url": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-10T16:14:56+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-14T22:35:08+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     }
    ]
   },
@@ -347,48 +347,48 @@
    "key": "aljazeera",
    "name": "Al Jazeera",
    "site": "aljazeera.com",
-   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with Taiz hospitals near collapse as Houthis tighten siege: Yemen government; US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman; World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport.",
+   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with Israel has detained more than 2,000 Palestinian children since 2023: report; Heavy rain causes mass pileup in Brazil tunnel; X suspends 13,000 accounts, alleging foreign influence ahead of US midterms.",
    "note": null,
    "items": [
     {
-     "headline": "Taiz hospitals near collapse as Houthis tighten siege: Yemen government",
-     "detail": "Medical services in Taiz risk shutting down as fuel, medicines, and supplies run alarmingly low under Houthi blockade.",
-     "url": "https://www.aljazeera.com/news/2026/10/11/taiz-hospitals-near-collapse-as-houthis-tighten-siege-yemen-government?traffic_source=rss",
+     "headline": "Israel has detained more than 2,000 Palestinian children since 2023: report",
+     "detail": "At least 350 Palestinian children currently face 'harsh conditions' in Israeli prisons.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-11T03:41:58+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T04:43:15+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman",
-     "detail": "US military jet strikes stern of commercial cargo ship 'without harming the crew', CENTCOM says.",
-     "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman?traffic_source=rss",
+     "headline": "Heavy rain causes mass pileup in Brazil tunnel",
+     "detail": "Flooding left vehicles piled up and people stranded inside Sao Paulo’s Anhangabau tunnel.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/heavy-rain-causes-mass-pileup-in-brazil-tunnel?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-11T03:13:53+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T04:19:06+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
-     "detail": "Trump condemns 'terrible' attack and says the US is evaluating whether to join Saudi Arabia's attacks on the Houthis.",
-     "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport?traffic_source=rss",
+     "headline": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
+     "detail": "The social platform says networks targeted US political debate across the spectrum ahead of midterm elections.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/x-suspends-13000-accounts-alleging-foreign-influence-ahead-of-us-midterms?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-11T02:12:07+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T04:15:55+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "Trump ‘may’ join Saudi strikes on Houthis after Riyadh airport attack",
-     "detail": "President Donald Trump says the US ‘may’ join Saudi strikes against Yemen’s Houthis.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-trump-weighs-joining-saudi-strikes-on-houthis-us?traffic_source=rss",
+     "headline": "Argentina’s Milei backs Trump for US midterms, calls vote crucial for West",
+     "detail": "The US President's ally says conservatives “cannot give an inch” in Latin America as he accepts an award in Washington.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/argentinas-milei-backs-trump-for-us-midterms-calls-vote-crucial-for-west?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-11T01:59:02+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T03:50:14+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     },
     {
-     "headline": "Man dies after entering tiger enclosure at England wildlife park",
-     "detail": "Emergency services called to the scene after reports of a man entering the tiger enclosure at a UK wildlife park.",
-     "url": "https://www.aljazeera.com/news/2026/10/11/man-dies-after-entering-tiger-enclosure-at-england-wildlife-park?traffic_source=rss",
+     "headline": "Albanian Ministry of Justice on fire as education protesters riot",
+     "detail": "Hundreds of students joined anti-government protests in Tirana, demanding education reforms.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/albanian-ministry-of-justice-on-fire-as-education-protesters-riot?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-11T01:16:18+00:00",
-     "fetched": "2026-10-11T04:15:54+00:00"
+     "published": "2026-10-15T03:30:42+00:00",
+     "fetched": "2026-10-15T05:11:56+00:00"
     }
    ]
   }
@@ -397,5 +397,5 @@
   "news.com.au",
   "theaustralian.com.au"
  ],
- "blocked_checked_at": "2026-10-11T04:15:56+00:00"
+ "blocked_checked_at": "2026-10-15T05:12:02+00:00"
 }

@@ -1,104 +1,104 @@
 {
  "items": [
   {
-   "headline": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-   "detail": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+   "headline": "Figma announces new features to define how agents work on its platform",
+   "detail": "Figma is also releasing its code layers feature in open beta.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-10-10T21:47:51+00:00",
-   "fetched": "2026-10-11T04:15:41+00:00"
+   "published": "2026-10-15T04:30:00+00:00",
+   "fetched": "2026-10-15T05:11:41+00:00"
   },
   {
-   "headline": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-   "detail": "Is Apple hoping to get into the AI-generated podcast business?",
+   "headline": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+   "detail": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-10-10T19:50:00+00:00",
-   "fetched": "2026-10-11T04:15:41+00:00"
+   "published": "2026-10-15T01:01:32+00:00",
+   "fetched": "2026-10-15T05:11:41+00:00"
   },
   {
-   "headline": "Satya Nadella says we should assume all AI models are ‘compromised’",
-   "detail": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks.",
+   "headline": "McKinsey is making job applicants spar with a fake AI client",
+   "detail": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+   "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-10-10T18:10:17-04:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-14T18:53:31-04:00",
+   "fetched": "2026-10-15T05:11:41+00:00"
   },
   {
-   "headline": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-   "detail": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG.",
+   "headline": "The best feature of Apple’s HomeView might be its simplicity",
+   "detail": "I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+   "url": "https://www.theverge.com/tech/1011431/apple-homeview-smart-display-best-feature",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-10-10T14:52:07-04:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-14T18:00:02-04:00",
+   "fetched": "2026-10-15T05:11:41+00:00"
   },
   {
-   "headline": "Microsoft's Nadella says AI needs an ‘emergency brake’ that humans control",
-   "detail": "Nadella joined other tech moguls and researchers in calling for stronger safeguards and, in some cases, for the pacing of frontier development.",
+   "headline": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
+   "detail": "Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+   "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-10-10T20:59:28+00:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-15T03:48:58+00:00",
+   "fetched": "2026-10-15T05:11:41+00:00"
   },
   {
-   "headline": "Stocks saw new highs and big declines: How the volatile AI trade moved last week's market",
-   "detail": "Looking to balance out our AI exposure, we put more of our sizable cash pile to work.",
+   "headline": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+   "detail": "A sell-off in global technology hardware stocks deepened Thursday.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/investingclub/2026/10/10/stocks-saw-new-highs-and-big-declines-how-the-volatile-ai-trade-moved-last-weeks-market.html",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-10-10T15:30:51+00:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-15T01:07:01+00:00",
+   "fetched": "2026-10-15T05:11:41+00:00"
   },
   {
-   "headline": "One with the world? A new look at brains transformed by psychedelics.",
-   "detail": "One with the world? A new look at brains transformed by psychedelics.",
+   "headline": "Fridge hack costing millions and sparking fires stemmed from poor security",
+   "detail": "Fridge hack costing millions and sparking fires stemmed from poor security",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
+   "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
    "region": "US",
    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-   "published": "2026-10-10T11:15:35+00:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-14T21:35:09+00:00",
+   "fetched": "2026-10-15T05:11:42+00:00"
   },
   {
-   "headline": "King warns malicious online actors are evolving tactics",
-   "detail": "The King spoke of \"threats to our international order\" in a letter marking the 10th anniversary of the National Cyber Security Centre.",
+   "headline": "Anthropic flags revenue surge to investors ahead of stock market debut",
+   "detail": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cme3xl7d18z2o?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-10-10T15:56:32+00:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-15T04:19:17+00:00",
+   "fetched": "2026-10-15T05:11:42+00:00"
   },
   {
-   "headline": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
-   "detail": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+   "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+   "detail": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-10-10T10:06:23+00:00",
-   "fetched": "2026-10-11T04:15:42+00:00"
+   "published": "2026-10-14T15:54:04+00:00",
+   "fetched": "2026-10-15T05:11:42+00:00"
   },
   {
-   "headline": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom",
-   "detail": "Japanese semiconductor materials giant Sumitomo Bakelite plans to expand production of advanced chip packaging materials in China and Singapore, marking the second such announcement for its Chinese operations in less than four months as…",
+   "headline": "ASML’s chip equipment sales to China soar 109% despite US export curb push",
+   "detail": "Dutch semiconductor equipment giant ASML expects China to account for about 20 per cent of its total sales this year, after seeing shipments to the market more than double during the previous quarter despite mounting US pressure for…",
    "outlet": "South China Morning Post",
-   "url": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom?utm_source=rss_feed",
+   "url": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push?utm_source=rss_feed",
    "region": "Asia",
    "source_url": "https://www.scmp.com/rss/36/feed",
-   "published": "2026-10-11T03:04:32+00:00",
-   "fetched": "2026-10-11T04:15:43+00:00"
+   "published": "2026-10-14T14:00:12+00:00",
+   "fetched": "2026-10-15T05:11:43+00:00"
   }
  ]
 }

@@ -23,6 +23,11 @@ def ensure_mail_running():
         time.sleep(3)
 
 
+def _escape_applescript(s):
+    """Escape a string so it can be safely inserted into an AppleScript literal."""
+    return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n").replace("\r", "\\r").replace("\t", "\\t")
+
+
 def send(edition, reason, dry_run=False):
     if dry_run:
         print("DRY RUN: would send failure email to %s" % TO)
@@ -46,46 +51,20 @@ Regards
 
 Market Wrap Up Scheduler""" % (edition, timestamp, reason.strip())
 
-    if dry_run:
-        print("DRY RUN: would send failure email to %s" % TO)
-        print("Reason:", reason)
-        return True
-
     script = '''
 tell application "Mail"
-    set targetAccount to null
-    repeat with acc in accounts
-        set accEmails to email addresses of acc
-        repeat with addr in accEmails
-            if (my lowercased(addr as string)) is (my lowercased("%s")) then
-                set targetAccount to acc
-                exit repeat
-            end if
-        end repeat
-        if targetAccount is not null then exit repeat
-    end repeat
-
-    if targetAccount is null then
-        error "No Mail.app account found for %s"
-    end if
-
-    set theMessage to make new outgoing message with properties {subject:"%s", content:"%s", visible:false}
+    set theMessage to make new outgoing message with properties {visible:false}
     tell theMessage
+        set subject to "%s"
+        set content to "%s"
         make new to recipient at end of to recipients with properties {address:"%s"}
         set sender to "%s"
+        save theMessage
+        delay 1
         send
     end tell
 end tell
-
-on lowercased(str)
-    set lowerStr to ""
-    repeat with ch in str
-        set c to ch as string
-        set lowerStr to lowerStr & (do shell script "echo " & quoted form of c & " | tr '[:upper:]' '[:lower:]'")
-    end repeat
-    return lowerStr
-end lowercased
-''' % (FROM, FROM, subject, body, TO, FROM)
+''' % (_escape_applescript(subject), _escape_applescript(body), TO, FROM)
 
     result = subprocess.run(
         ["osascript", "-e", script],

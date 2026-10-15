@@ -3,97 +3,88 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Criterion: FOMO wasn’t the right reason to join the Firmus IPO fan club. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 4,
+   "summary": "ANZ equity capital markets activity captured this run runs to 2 items, led by Sharon AI pursues ASX listing despite collapsed Firmus float. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 1,
    "items": [
     {
-     "headline": "Criterion: FOMO wasn’t the right reason to join the Firmus IPO fan club",
-     "detail": "Investors were about to flock into the biggest ASX listing in almost three decades – before they took a collective ... Read More",
-     "url": "https://stockhead.com.au/experts/criterion-fear-of-missing-out-wasnt-the-right-reason-to-join-the-firmus-ipo-fan-club/",
+     "headline": "Sharon AI pursues ASX listing despite collapsed Firmus float",
+     "detail": "Sharon AI is pressing ahead with an ASX listing despite rival Firmus abandoning what had been touted as Australia’s second-largest ... Read More",
+     "url": "https://stockhead.com.au/tech/sharon-ai-pursues-asx-listing-despite-collapsed-firmus-float/",
      "outlet": "Stockhead",
      "source_url": "https://stockhead.com.au/feed/",
-     "published": "2026-10-09T09:30:34+00:00",
-     "fetched": "2026-10-11T04:12:46+00:00"
+     "published": "2026-10-15T00:33:31+00:00",
+     "fetched": "2026-10-15T05:09:06+00:00"
     },
     {
-     "headline": "Wiluna’s gold is coming back to the ASX, and it’s shining a light on nearby juniors",
-     "detail": "Wiluna Mining has launched a $180 million IPO aiming to return a famous WA mine to the ASX, and it ... Read More",
-     "url": "https://stockhead.com.au/resources/wilunas-gold-is-coming-back-to-the-asx-and-its-shining-a-light-on-nearby-juniors/",
+     "headline": "Lunch Wrap: Banks drag down ASX as Glencore rolls into town",
+     "detail": "The ASX took a lunchtime beating as banks sank, oil kept climbing and Glencore made its Aussie debut. ... Read More",
+     "url": "https://stockhead.com.au/news/lunch-wrap-banks-drag-down-asx-as-glencore-rolls-into-town/",
      "outlet": "Stockhead",
      "source_url": "https://stockhead.com.au/feed/",
-     "published": "2026-10-08T19:15:32+00:00",
-     "fetched": "2026-10-11T04:12:46+00:00"
-    },
-    {
-     "headline": "Health Check: Cowabunga! Downtrodden Cynata shows ninja warrior spirit with capital raise",
-     "detail": "Despite its due late-stage stem cell trial failures, Cynata is passing the hat for just over $900,000 in an underwritten ... Read More",
-     "url": "https://stockhead.com.au/health/health-check-cowabunga-downtrodden-cynata-shows-its-ninja-warrior-spirit-with-capital-raise/",
-     "outlet": "Stockhead",
-     "source_url": "https://stockhead.com.au/feed/",
-     "published": "2026-10-08T01:59:19+00:00",
-     "fetched": "2026-10-11T04:12:46+00:00"
-    },
-    {
-     "headline": "Lunch Wrap: ASX loses ground as Maas plunges on Firmus IPO jitters",
-     "detail": "The ASX slipped as miners copped a beating and Maas’ Firmus jackpot turned sour. ... Read More",
-     "url": "https://stockhead.com.au/news/lunch-wrap-asx-loses-ground-as-maas-plunges-on-firmus-ipo-jitters/",
-     "outlet": "Stockhead",
-     "source_url": "https://stockhead.com.au/feed/",
-     "published": "2026-10-08T02:18:26+00:00",
-     "fetched": "2026-10-11T04:12:46+00:00"
+     "published": "2026-10-14T02:17:29+00:00",
+     "fetched": "2026-10-15T05:09:06+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Hong Kong’s big IPO haul. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Chinese memory giant YMTC to grow revenue 6 times faster than peers as IPO nears: report. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
-     "headline": "Hong Kong’s big IPO haul",
-     "detail": "–",
-     "url": "https://www.scmp.com/plus/business/banking-finance/article/3369852/hong-kongs-big-ipo-haul?utm_source=rss_feed",
+     "headline": "Chinese memory giant YMTC to grow revenue 6 times faster than peers as IPO nears: report",
+     "detail": "Yangtze Memory Technologies Corporation (YMTC), China’s leading flash-memory maker, is set to grow revenue six times faster than its industry peers this year as it expands into server-related business ahead of a planned initial public…",
+     "url": "https://www.scmp.com/tech/big-tech/article/3370871/chinese-memory-giant-ymtc-grow-revenue-6-times-faster-peers-ipo-nears-report?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-06T02:22:01+00:00",
-     "fetched": "2026-10-11T04:14:35+00:00"
+     "published": "2026-10-14T11:00:10+00:00",
+     "fetched": "2026-10-15T05:10:35+00:00"
     },
     {
-     "headline": "2 men die in float festival accidents in Japan",
-     "detail": "Two men died and more than a dozen others were injured Saturday when floats overturned during annual festivals in Osaka Prefecture.",
-     "url": "https://www.scmp.com/news/asia/east-asia/article/3370449/2-men-die-float-festival-accidents-japan?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-10T11:44:40+00:00",
-     "fetched": "2026-10-11T04:14:36+00:00"
-    },
-    {
-     "headline": "China unveils AI-powered robot designed to help farmers breed better strains of wheat",
-     "detail": "China has unveiled a smart robot prototype designed to assist with wheat breeding in the latest step in its ongoing drive to advance agricultural technology and bolster food security.",
-     "url": "https://www.scmp.com/news/china/science/article/3370437/china-unveils-ai-powered-robot-designed-help-farmers-breed-better-strains-wheat?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-10T09:11:13+00:00",
-     "fetched": "2026-10-11T04:14:36+00:00"
-    },
-    {
-     "headline": "Hong Kong IPO boom at risk as cornerstone backers get cold feet, sources say",
-     "detail": "Exuberance among cornerstone investors in Hong Kong’s booming initial public offering (IPO) market seems to be fading, forcing some issuers that had hoped to list this month to postpone their offerings.",
-     "url": "https://www.scmp.com/business/banking-finance/article/3370173/hong-kong-ipo-boom-risk-cornerstone-backers-get-cold-feet-sources-say?utm_source=rss_feed",
+     "headline": "Hong Kong watchdog freezes US$590m of assets over alleged IPO fraud schemes",
+     "detail": "Hong Kong’s securities watchdog has moved against two syndicates suspected of being involved in three alleged initial public offering fraud schemes involving assets worth HK$4.6 billion (US$590 million), according to a statement released…",
+     "url": "https://www.scmp.com/business/banking-finance/article/3370697/hong-kong-watchdog-orders-suspension-third-stock-month?utm_source=rss_feed",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-08T08:11:07+00:00",
-     "fetched": "2026-10-11T04:14:35+00:00"
+     "published": "2026-10-13T07:00:10+00:00",
+     "fetched": "2026-10-15T05:10:35+00:00"
+    },
+    {
+     "headline": "Few Hong Kong investors take interest in listing by Africa’s top phone maker Transsion",
+     "detail": "Shenzhen Transsion Holdings drew a lukewarm response for its HK$3.36 billion (US$428 million) Hong Kong share offering, heightening worries over market sentiment for new listings in the fourth quarter.",
+     "url": "https://www.scmp.com/business/banking-finance/article/3370604/few-hong-kong-investors-take-interest-listing-africas-top-phone-maker-transsion?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-10-12T10:03:02+00:00",
+     "fetched": "2026-10-15T05:10:35+00:00"
+    },
+    {
+     "headline": "Hong Kong must ease listing rules to attract more angel funds and start-ups: HKEIA",
+     "detail": "Hong Kong would need to ease its listing rules and transaction requirements to attract more angel funds and become a hub for start-ups to go global, according to a leading industry body in the city.",
+     "url": "https://www.scmp.com/business/banking-finance/article/3370419/hong-kong-must-ease-listing-rules-attract-more-angel-funds-and-start-ups-hkeia?utm_source=rss_feed",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-10-12T00:00:16+00:00",
+     "fetched": "2026-10-15T05:10:35+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: City Therapeutics (CTY Proposed) Sets Terms for $175 Million IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 2,
+   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: Iambic Therapeutics (IAM) Priced at $16 – Mid-Point. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 4,
    "items": [
+    {
+     "headline": "The IPO Buzz: Iambic Therapeutics (IAM) Priced at $16 – Mid-Point",
+     "detail": "Iambic Therapeutics (IAM) priced its IPO at $16.00 – the mid-point – and sold 9.38 million shares – the number in the prospectus – to raise $150 million on Wednesday night, Oct. 14.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-iambic-therapeutics-iam-priced-at-16-mid-point/",
+     "outlet": "IPOScoop",
+     "source_url": "https://www.iposcoop.com/feed/",
+     "published": "2026-10-14T23:55:41+00:00",
+     "fetched": "2026-10-15T05:10:40+00:00"
+    },
     {
      "headline": "The IPO Buzz: City Therapeutics (CTY Proposed) Sets Terms for $175 Million IPO",
      "detail": "City Therapeutics (CTY Proposed) unveiled its IPO’s terms early today – 9.72 million shares at a price range of $17.00 to $19.00 to raise $174.96 million, if priced at the $18.00 mid-point of its range, according to its S-1/A filing dated…",
@@ -101,16 +92,7 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-10-09T11:05:39+00:00",
-     "fetched": "2026-10-11T04:14:37+00:00"
-    },
-    {
-     "headline": "Nasdaq’s Business Is Outrunning Its Stock",
-     "detail": "When SpaceX (NASDAQ: SPCX) went public this summer, it did more than make history as the largest IPO ever. It handed Nasdaq (NASDAQ: NDAQ) a trophy moment.",
-     "url": "https://www.nasdaq.com/articles/nasdaqs-business-outrunning-its-stock",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=IPOs",
-     "published": "2026-10-08T14:30:00+00:00",
-     "fetched": "2026-10-11T04:14:39+00:00"
+     "fetched": "2026-10-15T05:10:40+00:00"
     },
     {
      "headline": "The IPO Buzz: TRex Bio Prices IPO at $14 – Low End – & Stock Dips in NASDAQ Debut",
@@ -119,34 +101,25 @@
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
      "published": "2026-10-09T04:28:50+00:00",
-     "fetched": "2026-10-11T04:14:37+00:00"
+     "fetched": "2026-10-15T05:10:40+00:00"
     },
     {
-     "headline": "The IPO Buzz: Iambic Therapeutics (IAM Proposed) Launches $150 Million IPO",
-     "detail": "Iambic Therapeutics (IAM Proposed), a biotech targeting breast cancer and lung cancer, unveiled the terms for its $150 million IPO early today and launched the deal for pricing next week.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-iambic-therapeutics-iam-proposed-launches-150-million-ipo/",
+     "headline": "The IPO Buzz: TRex Bio (TRXB Proposed) Sets Terms for $125 Million IPO",
+     "detail": "TRex Bio (TRXB Proposed), an Eli Lilly-backed biotech, unveiled the terms for its $125 million IPO early today: 8.33 million shares at a price range of $14.00 to $16.00 to raise $124.95 million, if priced at the $15.00 mid-point of its…",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-trexbio-trxb-proposed-sets-terms-for-125-million-ipo/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-08T12:49:59+00:00",
-     "fetched": "2026-10-11T04:14:37+00:00"
+     "published": "2026-10-05T11:22:05+00:00",
+     "fetched": "2026-10-15T05:10:40+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by City minister insists capital markets reform ‘not a job done’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by Revolut boss says US primary listing was ‘always the target’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
-    {
-     "headline": "City minister insists capital markets reform ‘not a job done’",
-     "detail": "A top Treasury minister has opened the door to further capital markets reforms after saying the government’s job was not done in improving listing incentives.",
-     "url": "https://www.cityam.com/capital-markets-reform-not-a-job-done-says-treasury-minister/",
-     "outlet": "City A.M.",
-     "source_url": "https://www.cityam.com/category/markets/feed/",
-     "published": "2026-10-11T04:00:00+00:00",
-     "fetched": "2026-10-11T04:14:41+00:00"
-    },
     {
      "headline": "Revolut boss says US primary listing was ‘always the target’",
      "detail": "The boss of Revolut has said a primary listing in New York was “always” the company’s top goal, in a snub to the London Stock Exchange after a years-long charm offensive.",
@@ -154,25 +127,53 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-10-09T09:13:42+00:00",
-     "fetched": "2026-10-11T04:14:41+00:00"
+     "fetched": "2026-10-15T05:10:43+00:00"
     },
     {
-     "headline": "Airtel Money listing shows London is still one of the best places to grow a company",
-     "detail": "Airtel Money chief Ian Ferrao put it best: \"when you look at all of the variables, London still comes out top”, writes Lucy Rigby.",
-     "url": "https://www.cityam.com/airtel-money-listing-shows-london-is-still-one-of-the-best-places-to-grow-a-company/",
+     "headline": "London listings fall to lowest levels since 2023",
+     "detail": "London listings fell to the lowest levels seen since 2023, recording just one public offering in the third quarter as the IPO drought continues.",
+     "url": "https://www.cityam.com/london-listings-fall-to-lowest-levels-since-2023/",
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-10-09T15:50:24+00:00",
-     "fetched": "2026-10-11T04:14:43+00:00"
+     "published": "2026-10-14T23:01:00+00:00",
+     "fetched": "2026-10-15T05:10:44+00:00"
+    },
+    {
+     "headline": "Everyman to become the first company to ditch Aim for Pisces market",
+     "detail": "Luxury cinema chain Everyman is set to ditch its London listing for a private markets platform, after facing heavy pressure from key shareholders.",
+     "url": "https://www.cityam.com/everyman-to-become-the-first-company-to-ditch-aim-for-pisces-market/",
+     "outlet": "City A.M.",
+     "source_url": "https://www.cityam.com/category/markets/feed/",
+     "published": "2026-10-14T11:25:32+00:00",
+     "fetched": "2026-10-15T05:10:43+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "No capital raising or new listing activity could be verified from a linked source for Europe this run, so nothing is listed rather than publishing an item without a working URL.",
-   "fresh_count": 0,
-   "items": []
+   "summary": "Europe equity capital markets activity captured this run runs to 2 items, led by Jio Returns for Meta, Alphabet, KKR Crimped by Long Rupee Slide. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
+   "items": [
+    {
+     "headline": "Jio Returns for Meta, Alphabet, KKR Crimped by Long Rupee Slide",
+     "detail": "As Mukesh Ambani prepares for India’s biggest-ever initial public offering, the returns for the early global backers of Jio Platforms Ltd. are looking relatively modest, partly because of the rupee’s relentless multiyear slide.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/jio-returns-for-meta-alphabet-kkr-crimped-by-long-rupee-slide",
+     "outlet": "Bloomberg",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-10-15T04:52:27+00:00",
+     "fetched": "2026-10-15T05:10:45+00:00"
+    },
+    {
+     "headline": "Anthropic Results May Aid IPO But Not AI Trade, Analysts Say",
+     "detail": "Anthropic PBC’s third-quarter results may strengthen the case for its expected initial public offering, though they are unlikely to dispel doubts over the global AI trade, according to some investors and analysts.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say",
+     "outlet": "Bloomberg",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-10-15T03:21:25+00:00",
+     "fetched": "2026-10-15T05:10:45+00:00"
+    }
+   ]
   },
   {
    "key": "rest",
