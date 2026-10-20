@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: Trump says US is winning war, 'can leave right now'; LIVE: ABC News Live; What to know about changes to Medicare as open enrollment begins.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with US nearing deal with Russia to free multiple jailed Americans: Sources; LIVE: ABC News Live; Couple charged in fatal shooting of 17-year-old on her way to zoo.",
   "note": null,
   "items": [
    {
-    "headline": "Iran live updates: Trump says US is winning war, 'can leave right now'",
-    "detail": "President Donald Trump announced \"major combat operations\" against Iran on Feb. 28.",
-    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates/?id=137370653",
+    "headline": "US nearing deal with Russia to free multiple jailed Americans: Sources",
+    "detail": "Sources say the talks have centered on freeing Stephen Hubbard.",
+    "url": "https://abcnews.go.com/Politics/us-nearing-deal-russia-free-multiple-jailed-americans/story?id=137415614",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T07:12:46-04:00",
-    "fetched": "2026-10-20T12:05:10+00:00"
+    "published": "2026-10-20T13:32:21-04:00",
+    "fetched": "2026-10-20T20:27:56+00:00"
    },
    {
     "headline": "LIVE: ABC News Live",
     "detail": "24/7 coverage of breaking news and live events",
     "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-19T16:07:46-04:00",
-    "fetched": "2026-10-20T12:05:10+00:00"
+    "published": "2026-10-20T15:12:05-04:00",
+    "fetched": "2026-10-20T20:27:56+00:00"
    },
    {
-    "headline": "What to know about changes to Medicare as open enrollment begins",
-    "detail": "Open enrollment for Medicare, the nationwide federal health insurance program primarily for those aged 65 and older, began last week and there are some changes.",
-    "url": "https://abcnews.go.com/Health/medicare-plans-open-enrollment-begins/story?id=137374397",
+    "headline": "Couple charged in fatal shooting of 17-year-old on her way to zoo",
+    "detail": "A husband and wife from Texas have been arrested and charged in the killing of a 17-year-old who was shot on Interstate 170 last week.",
+    "url": "https://abcnews.go.com/US/couple-charged-fatal-shooting-17-year-zoo/story?id=137415681",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T05:12:41-04:00",
-    "fetched": "2026-10-20T12:05:10+00:00"
+    "published": "2026-10-20T14:05:30-04:00",
+    "fetched": "2026-10-20T20:27:56+00:00"
    },
    {
-    "headline": "France protests cool after overnight curfews in Paris, major cities, PM says",
-    "detail": "French Prime Minister Sebastian Lecornu credited overnight curfews in Paris and other major cities for providing a measure of calm.",
-    "url": "https://abcnews.go.com/International/france-protests-cool-after-overnight-curfews-paris-major/story?id=137403836",
+    "headline": "Man arrested for alleged threats to shoot President Trump at Kansas rally",
+    "detail": "Authorities allege the man posted several threatening messages on Facebook.",
+    "url": "https://abcnews.go.com/Politics/man-arrested-alleged-threats-shoot-president-trump-kansas/story?id=137412221",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T07:43:07-04:00",
-    "fetched": "2026-10-20T12:05:10+00:00"
+    "published": "2026-10-20T12:38:57-04:00",
+    "fetched": "2026-10-20T20:27:56+00:00"
    },
    {
-    "headline": "WATCH: Study shows Gulf oil spill's lasting damage",
-    "detail": "More than 16 years after the BP oil spill off the Gulf Coast, new research reveals lasting damage to marine life.",
-    "url": "https://abcnews.go.com/video/137404541/",
+    "headline": "WATCH: Funding cuts forcing World Food Program to reduce lifesaving aid in Gaza",
+    "detail": "ABC News' Ian Pannell reports on the state of the agency, which says it's been providing food to around 1.6 million people every month since last year's ceasefire announcement.",
+    "url": "https://abcnews.go.com/video/137411132/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T06:08:07-04:00",
-    "fetched": "2026-10-20T12:05:10+00:00"
+    "published": "2026-10-20T09:39:38-04:00",
+    "fetched": "2026-10-20T20:27:56+00:00"
    }
   ]
  }

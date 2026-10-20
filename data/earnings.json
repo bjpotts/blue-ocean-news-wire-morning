@@ -10,9 +10,18 @@
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "A single verifiable earnings item was found for Asia (Japan/Singapore/Hong Kong/China) this run: China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads.",
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by Chinese battery giant CATL hit by profit slowdown as EV headwind fears grow. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
    "fresh_count": 1,
    "items": [
+    {
+     "headline": "Chinese battery giant CATL hit by profit slowdown as EV headwind fears grow",
+     "detail": "Chinese battery giant Contemporary Amperex Technology Limited (CATL) has recorded a surprise slowdown in third-quarter net profits, as analysts warned the company could be hit by slowing demand from China’s electric car industry next year.",
+     "url": "https://www.scmp.com/business/china-business/article/3371545/chinese-battery-giant-catl-hit-profit-slowdown-ev-headwind-fears-grow",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-10-20T12:56:18+00:00",
+     "fetched": "2026-10-20T20:27:35+00:00"
+    },
     {
      "headline": "China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads",
      "detail": "We have put together stories from our coverage on electric and new energy vehicles from the past two weeks to help you stay informed. If you would like to see more of our reporting, please consider subscribing. 1.",
@@ -20,16 +29,34 @@
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-10-14T07:57:53+00:00",
-     "fetched": "2026-10-20T12:04:54+00:00"
+     "fetched": "2026-10-20T20:27:35+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Pre-Market Earnings Report for October 19, 2026 : FITB, CLF. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 5,
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Alcoa Beat Earnings, But Can It Escape the Aluminum Bears?. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
+    {
+     "headline": "Alcoa Beat Earnings, But Can It Escape the Aluminum Bears?",
+     "detail": "Alcoa Corp. (NYSE: AA) stock has been cut nearly in half since its spring peak.",
+     "url": "https://www.nasdaq.com/articles/alcoa-beat-earnings-can-it-escape-aluminum-bears",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-19T16:50:00+00:00",
+     "fetched": "2026-10-20T20:27:39+00:00"
+    },
+    {
+     "headline": "Cleveland-Cliffs Q3 Earnings Call Highlights",
+     "detail": "Tariffs Are Back in Focus: 3 Stocks With a Home-Field AdvantageCleveland-Cliffs (NYSE:CLF) reported a sharp sequential improvement in third-quarter profitability and said it expects momentum in steel pricing, contract renewals and…",
+     "url": "https://www.nasdaq.com/articles/cleveland-cliffs-q3-earnings-call-highlights",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-19T15:02:39+00:00",
+     "fetched": "2026-10-20T20:27:39+00:00"
+    },
     {
      "headline": "Pre-Market Earnings Report for October 19, 2026 : FITB, CLF",
      "detail": "The following companies are expected to report earnings prior to market open on 10/19/2026.",
@@ -37,7 +64,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-10-16T20:00:02+00:00",
-     "fetched": "2026-10-20T12:04:56+00:00"
+     "fetched": "2026-10-20T20:27:39+00:00"
     },
     {
      "headline": "Q3 Earnings Season Preview: Revenue Beats Lag, Multi-Sector Momentum Holds",
@@ -46,7 +73,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-10-16T19:44:00+00:00",
-     "fetched": "2026-10-20T12:04:56+00:00"
+     "fetched": "2026-10-20T20:27:39+00:00"
     },
     {
      "headline": "Bank of America Stock Sell-Off Looks Like a Buying Opportunity",
@@ -55,25 +82,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-10-16T17:30:00+00:00",
-     "fetched": "2026-10-20T12:04:56+00:00"
-    },
-    {
-     "headline": "Independent Bank Q3 Earnings Call Highlights",
-     "detail": "3 Volatile Mid-Caps to Trade This Earnings SeasonIndependent Bank (NASDAQ:INDB) reported third-quarter 2026 net income of $89.7 million, or $1.90 per diluted share, as loan and deposit growth, a stable core net interest margin and…",
-     "url": "https://www.nasdaq.com/articles/independent-bank-q3-earnings-call-highlights",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-16T17:03:07+00:00",
-     "fetched": "2026-10-20T12:04:56+00:00"
-    },
-    {
-     "headline": "What Travelers Companies (TRV) Said on Its Q3 Earnings Call",
-     "detail": "Travelers Stock Surges 10% as Earnings Beat Reveals Underwriting DisciplineTravelers Companies (NYSE:TRV) reported third-quarter 2026 core income of $1.95 billion, or $9.18 per diluted share, as strong underwriting profitability across all…",
-     "url": "https://www.nasdaq.com/articles/what-travelers-companies-trv-said-its-q3-earnings-call",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-16T16:03:09+00:00",
-     "fetched": "2026-10-20T12:04:56+00:00"
+     "fetched": "2026-10-20T20:27:39+00:00"
     }
    ]
   },
@@ -90,16 +99,62 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-10-13T12:08:51+00:00",
-     "fetched": "2026-10-20T12:04:57+00:00"
+     "fetched": "2026-10-20T20:27:41+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "No Company earnings reports available.",
-   "fresh_count": 0,
-   "items": []
+   "summary": "Europe earnings reporting activity captured this run runs to 5 items, led by United Airlines Misses Estimates, Squeezed by Soaring Fuel Costs. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 5,
+   "items": [
+    {
+     "headline": "United Airlines Misses Estimates, Squeezed by Soaring Fuel Costs",
+     "detail": "United Airlines Holdings Inc. forecast weaker-than-expected earnings for the final three months of the year, underscoring how soaring jet fuel prices are eating into airline profits despite resilient demand for air travel.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/united-airlines-misses-estimates-squeezed-by-soaring-fuel-costs",
+     "outlet": "Bloomberg",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-10-20T20:01:49+00:00",
+     "fetched": "2026-10-20T20:27:42+00:00"
+    },
+    {
+     "headline": "Pegasystems falls as third quarter misses estimates",
+     "detail": "Pegasystems falls as third quarter misses estimates",
+     "url": "https://www.investing.com/news/stock-market-news/pegasystems-falls-as-third-quarter-misses-estimates-4961057",
+     "outlet": "Investing.com",
+     "source_url": "https://www.investing.com/rss/news_25.rss",
+     "published": null,
+     "fetched": "2026-10-20T20:27:42+00:00"
+    },
+    {
+     "headline": "United Airlines forecasts fourth-quarter profit below estimates as fuel costs bite",
+     "detail": "United Airlines forecasts fourth-quarter profit below estimates as fuel costs bite",
+     "url": "https://www.investing.com/news/stock-market-news/united-airlines-forecasts-fourthquarter-profit-below-estimates-as-fuel-costs-bite-4960998",
+     "outlet": "Investing.com",
+     "source_url": "https://www.investing.com/rss/news_25.rss",
+     "published": null,
+     "fetched": "2026-10-20T20:27:42+00:00"
+    },
+    {
+     "headline": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
+     "detail": "SpaceX quarterly revenue jumps, beats estimates as AI business surges",
+     "url": "https://www.investing.com/news/stock-market-news/spacex-quarterly-revenue-jumps-beats-estimates-as-ai-business-surges-4960995",
+     "outlet": "Investing.com",
+     "source_url": "https://www.investing.com/rss/news_25.rss",
+     "published": null,
+     "fetched": "2026-10-20T20:27:42+00:00"
+    },
+    {
+     "headline": "SpaceX tops Q3 estimates as revenue surges 161% on Starlink, AI compute expansion",
+     "detail": "SpaceX tops Q3 estimates as revenue surges 161% on Starlink, AI compute expansion",
+     "url": "https://www.investing.com/news/stock-market-news/spacex-tops-q3-estimates-as-revenue-surges-161-on-starlink-ai-compute-expansion-4960964",
+     "outlet": "Investing.com",
+     "source_url": "https://www.investing.com/rss/news_25.rss",
+     "published": null,
+     "fetched": "2026-10-20T20:27:42+00:00"
+    }
+   ]
   },
   {
    "key": "rest",
