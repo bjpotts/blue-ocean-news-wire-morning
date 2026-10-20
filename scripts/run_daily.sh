@@ -27,6 +27,19 @@ fi
 export EDITION_OVERRIDE="Morning Edition"
 EDITION="Morning Edition"
 
+# Ensure build dependencies are present. launchctl runs with a minimal
+# environment and may use a different Python than the interactive shell,
+# so reportlab/playwright can disappear after a Homebrew/Python update.
+ensure_deps() {
+  python3 -c "import reportlab, playwright" 2>/dev/null || {
+    echo "Installing missing Python dependencies..."
+    python3 -m pip install --break-system-packages -r "$PROJ/requirements.txt" >/dev/null 2>&1 || \
+      python3 -m pip install --break-system-packages reportlab playwright >/dev/null 2>&1
+  }
+  python3 -m playwright install chromium >/dev/null 2>&1 || true
+}
+ensure_deps
+
 FETCHERS=(
   fetch_markets.py
   fetch_commodities.py

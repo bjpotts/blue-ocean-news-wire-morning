@@ -1,0 +1,6 @@
+# Python dependencies for Market Wrap Up builds
+# Install with: python3 -m pip install --break-system-packages -r requirements.txt
+# Then install browsers: python3 -m playwright install chromium
+
+reportlab>=4.0
+playwright>=1.40

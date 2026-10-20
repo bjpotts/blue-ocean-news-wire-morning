@@ -3,96 +3,77 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "A single verifiable earnings item was found for ANZ this run: Medical Developments International Reports Stronger Penthrox Demand across Multiple Regions.",
-   "fresh_count": 1,
-   "items": [
-    {
-     "headline": "Medical Developments International Reports Stronger Penthrox Demand across Multiple Regions",
-     "detail": "Medical Developments International’s Penthrox volumes rose 37% in Europe and 24% in Australian hospitals, despite quarterly revenue falling $700,000 to $10.2m.",
-     "url": "https://smallcaps.com.au/article/medical-developments-international-reports-stronger-penthrox-demand-across-multiple-regions",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/feed",
-     "published": "2026-10-15T03:34:01+00:00",
-     "fetched": "2026-10-15T05:10:48+00:00"
-    }
-   ]
+   "summary": "No Company earnings reports available.",
+   "fresh_count": 0,
+   "items": []
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
-   "fresh_count": 0,
+   "summary": "A single verifiable earnings item was found for Asia (Japan/Singapore/Hong Kong/China) this run: China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads.",
+   "fresh_count": 1,
    "items": [
     {
      "headline": "China’s carmakers eye record sales, luxury model hits regulatory bump: 7 EV reads",
      "detail": "We have put together stories from our coverage on electric and new energy vehicles from the past two weeks to help you stay informed. If you would like to see more of our reporting, please consider subscribing. 1.",
-     "url": "https://www.scmp.com/business/china-evs/article/3370855/chinas-carmakers-eye-record-sales-luxury-model-hits-regulatory-bump-7-ev-reads?utm_source=rss_feed",
+     "url": "https://www.scmp.com/business/china-evs/article/3370855/chinas-carmakers-eye-record-sales-luxury-model-hits-regulatory-bump-7-ev-reads",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
      "published": "2026-10-14T07:57:53+00:00",
-     "fetched": "2026-10-15T05:11:29+00:00"
-    },
-    {
-     "headline": "Sluggish Chinese demand weighs on LVMH, as Louis Vuitton’s Molly Tea case casts a shadow",
-     "detail": "LVMH, the world’s largest luxury goods group, has attributed an Asia sales drop in the third quarter – the only regional decline the company reported – to, in part, a slowdown in Chinese demand.",
-     "url": "https://www.scmp.com/business/article/3370795/sluggish-chinese-demand-weighs-lvmh-louis-vuittons-molly-tea-case-casts-shadow?utm_source=rss_feed",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-14T04:00:13+00:00",
-     "fetched": "2026-10-15T05:11:29+00:00"
+     "fetched": "2026-10-20T12:04:54+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Broad-Based Growth Meets Bank Caution: The Evolving Q3 Earnings Picture. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Pre-Market Earnings Report for October 19, 2026 : FITB, CLF. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
    "fresh_count": 5,
    "items": [
     {
-     "headline": "Broad-Based Growth Meets Bank Caution: The Evolving Q3 Earnings Picture",
-     "detail": "Despite headline earnings misses by JPMorgan and Bank of America, Q3 results from these banks and their peers have been very strong.",
-     "url": "https://www.nasdaq.com/articles/broad-based-growth-meets-bank-caution-evolving-q3-earnings-picture-0",
+     "headline": "Pre-Market Earnings Report for October 19, 2026 : FITB, CLF",
+     "detail": "The following companies are expected to report earnings prior to market open on 10/19/2026.",
+     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-october-19-2026-fitb-clf",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-14T22:26:00+00:00",
-     "fetched": "2026-10-15T05:11:32+00:00"
+     "published": "2026-10-16T20:00:02+00:00",
+     "fetched": "2026-10-20T12:04:56+00:00"
     },
     {
-     "headline": "Pre-Market Earnings Report for October 14, 2026 : ASML, BAC, MS, BLK, PGR, FAST, STT, SOTK",
-     "detail": "The following companies are expected to report earnings prior to market open on 10/14/2026. Visit our Earnings Calendar for a full list of expected earnings releases.ASML Holding N.V.",
-     "url": "https://www.nasdaq.com/articles/pre-market-earnings-report-october-14-2026-asml-bac-ms-blk-pgr-fast-stt-sotk",
+     "headline": "Q3 Earnings Season Preview: Revenue Beats Lag, Multi-Sector Momentum Holds",
+     "detail": "The Q3 earnings season has started off a bit mixed, with the growth pace and the revenue-beat percentage tracking lower relative to the recent past.",
+     "url": "https://www.nasdaq.com/articles/q3-earnings-season-preview-revenue-beats-lag-multi-sector-momentum-holds",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-13T20:00:01+00:00",
-     "fetched": "2026-10-15T05:11:32+00:00"
+     "published": "2026-10-16T19:44:00+00:00",
+     "fetched": "2026-10-20T12:04:56+00:00"
     },
     {
-     "headline": "After-Hours Earnings Report for October 13, 2026 : AZZ",
-     "detail": "The following companies are expected to report earnings after hours on 10/13/2026. Visit our Earnings Calendar for a full list of expected earnings releases.AZZ Inc. (AZZ)is reporting for the quarter ending August 31, 2026.",
-     "url": "https://www.nasdaq.com/articles/after-hours-earnings-report-october-13-2026-azz",
+     "headline": "Bank of America Stock Sell-Off Looks Like a Buying Opportunity",
+     "detail": "Bank of America (NYSE: BAC) is a compelling play because of its scale, value, dividend, and sensitivity to interest rates.",
+     "url": "https://www.nasdaq.com/articles/bank-america-stock-sell-looks-buying-opportunity",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-13T18:00:01+00:00",
-     "fetched": "2026-10-15T05:11:32+00:00"
+     "published": "2026-10-16T17:30:00+00:00",
+     "fetched": "2026-10-20T12:04:56+00:00"
     },
     {
-     "headline": "What Domino's Pizza (DPZ) Said on Its Q3 Earnings Call",
-     "detail": "Darden Restaurants Just Hit a 52-Week High–Is the Olive Garden Comeback Story Legit?Domino's Pizza (NASDAQ:DPZ) reported third-quarter operating income growth of 8.5%, excluding foreign-currency effects and minor refranchising true-up…",
-     "url": "https://www.nasdaq.com/articles/what-dominos-pizza-dpz-said-its-q3-earnings-call",
+     "headline": "Independent Bank Q3 Earnings Call Highlights",
+     "detail": "3 Volatile Mid-Caps to Trade This Earnings SeasonIndependent Bank (NASDAQ:INDB) reported third-quarter 2026 net income of $89.7 million, or $1.90 per diluted share, as loan and deposit growth, a stable core net interest margin and…",
+     "url": "https://www.nasdaq.com/articles/independent-bank-q3-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-13T15:02:57+00:00",
-     "fetched": "2026-10-15T05:11:32+00:00"
+     "published": "2026-10-16T17:03:07+00:00",
+     "fetched": "2026-10-20T12:04:56+00:00"
     },
     {
-     "headline": "Thermo Fisher to Report Q3 Earnings: What's in the Cards?",
-     "detail": "TMO gears up for Q3 earnings, with revenue and EPS growth expected amid strong bioproduction demand, product innovations and clinical research strength.",
-     "url": "https://www.nasdaq.com/articles/thermo-fisher-report-q3-earnings-whats-cards",
+     "headline": "What Travelers Companies (TRV) Said on Its Q3 Earnings Call",
+     "detail": "Travelers Stock Surges 10% as Earnings Beat Reveals Underwriting DisciplineTravelers Companies (NYSE:TRV) reported third-quarter 2026 core income of $1.95 billion, or $9.18 per diluted share, as strong underwriting profitability across all…",
+     "url": "https://www.nasdaq.com/articles/what-travelers-companies-trv-said-its-q3-earnings-call",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-13T13:25:00+00:00",
-     "fetched": "2026-10-15T05:11:32+00:00"
+     "published": "2026-10-16T16:03:09+00:00",
+     "fetched": "2026-10-20T12:04:56+00:00"
     }
    ]
   },
@@ -109,26 +90,16 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-10-13T12:08:51+00:00",
-     "fetched": "2026-10-15T05:11:34+00:00"
+     "fetched": "2026-10-20T12:04:57+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "A single verifiable earnings item was found for Europe this run: Anthropic Results May Aid IPO But Not AI Trade, Analysts Say.",
-   "fresh_count": 1,
-   "items": [
-    {
-     "headline": "Anthropic Results May Aid IPO But Not AI Trade, Analysts Say",
-     "detail": "Anthropic PBC’s third-quarter results may strengthen the case for its expected initial public offering, though they are unlikely to dispel doubts over the global AI trade, according to some investors and analysts.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-results-may-aid-ipo-but-not-ai-trade-analysts-say",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-15T03:21:25+00:00",
-     "fetched": "2026-10-15T05:11:36+00:00"
-    }
-   ]
+   "summary": "No Company earnings reports available.",
+   "fresh_count": 0,
+   "items": []
   },
   {
    "key": "rest",

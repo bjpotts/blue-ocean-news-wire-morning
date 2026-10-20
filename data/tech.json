@@ -1,104 +1,104 @@
 {
  "items": [
   {
-   "headline": "Figma announces new features to define how agents work on its platform",
-   "detail": "Figma is also releasing its code layers feature in open beta.",
+   "headline": "Spotify launches paid podcast memberships with perks beyond bonus content",
+   "detail": "Spotify's new paid memberships let podcasters offer fans exclusive perks, including ad-free listening, early access, and bonus content, while keeping 90% of the revenue.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+   "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-10-15T04:30:00+00:00",
-   "fetched": "2026-10-15T05:11:41+00:00"
+   "published": "2026-10-20T12:00:00+00:00",
+   "fetched": "2026-10-20T12:05:02+00:00"
   },
   {
-   "headline": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-   "detail": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+   "headline": "Oura adds new fitness metrics to show how workouts impact your body",
+   "detail": "While Oura has largely dominated the smart ring market for years, rivals like RingConn and Ultrahuman are emerging to dethrone it, putting pressure on the company to keep innovating.",
    "outlet": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+   "url": "https://techcrunch.com/2026/10/20/oura-is-launching-two-new-ways-to-track-and-understand-activity/",
    "region": "US",
    "source_url": "https://techcrunch.com/feed/",
-   "published": "2026-10-15T01:01:32+00:00",
-   "fetched": "2026-10-15T05:11:41+00:00"
+   "published": "2026-10-20T12:00:00+00:00",
+   "fetched": "2026-10-20T12:05:02+00:00"
   },
   {
-   "headline": "McKinsey is making job applicants spar with a fake AI client",
-   "detail": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal.",
+   "headline": "Spotify’s new podcast memberships let you pay for extra perks",
+   "detail": "Spotify is enabling podcast creators to earn more money through the platform by providing their fans with a way to pay to access exclusive content.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+   "url": "https://www.theverge.com/entertainment/1013606/spotify-podcast-memberships-paid-subscription-launch",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-10-14T18:53:31-04:00",
-   "fetched": "2026-10-15T05:11:41+00:00"
+   "published": "2026-10-20T08:00:00-04:00",
+   "fetched": "2026-10-20T12:05:02+00:00"
   },
   {
-   "headline": "The best feature of Apple’s HomeView might be its simplicity",
-   "detail": "I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use.",
+   "headline": "Some Google Home Speakers caught downloading hundreds of gigs of data",
+   "detail": "Some Google Home Speaker owners are currently experiencing an issue in which hundreds of gigabytes of data are being continuously downloaded to their device in the background.",
    "outlet": "The Verge",
-   "url": "https://www.theverge.com/tech/1011431/apple-homeview-smart-display-best-feature",
+   "url": "https://www.theverge.com/tech/1014209/google-home-speaker-bug-continuous-download",
    "region": "US",
    "source_url": "https://www.theverge.com/rss/index.xml",
-   "published": "2026-10-14T18:00:02-04:00",
-   "fetched": "2026-10-15T05:11:41+00:00"
+   "published": "2026-10-20T06:16:47-04:00",
+   "fetched": "2026-10-20T12:05:02+00:00"
   },
   {
-   "headline": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
-   "detail": "Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.",
+   "headline": "AI rally fades away from Wall Street as a tiny IPO makes big waves",
+   "detail": "Here are the key things investors need to know to start the trading day.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+   "url": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-10-15T03:48:58+00:00",
-   "fetched": "2026-10-15T05:11:41+00:00"
+   "published": "2026-10-20T11:34:03+00:00",
+   "fetched": "2026-10-20T12:05:02+00:00"
   },
   {
-   "headline": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-   "detail": "A sell-off in global technology hardware stocks deepened Thursday.",
+   "headline": "HSBC CEO warns the AI boom won’t make every data center a good bet",
+   "detail": "Data center campuses house the servers that power AI and cloud computing.",
    "outlet": "CNBC Technology",
-   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
    "region": "US",
    "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
-   "published": "2026-10-15T01:07:01+00:00",
-   "fetched": "2026-10-15T05:11:41+00:00"
+   "published": "2026-10-20T10:39:17+00:00",
+   "fetched": "2026-10-20T12:05:02+00:00"
   },
   {
-   "headline": "Fridge hack costing millions and sparking fires stemmed from poor security",
-   "detail": "Fridge hack costing millions and sparking fires stemmed from poor security",
+   "headline": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
+   "detail": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
    "outlet": "Ars Technica",
-   "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+   "url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
    "region": "US",
    "source_url": "https://feeds.arstechnica.com/arstechnica/index",
-   "published": "2026-10-14T21:35:09+00:00",
-   "fetched": "2026-10-15T05:11:42+00:00"
+   "published": "2026-10-20T11:00:16+00:00",
+   "fetched": "2026-10-20T12:05:03+00:00"
   },
   {
-   "headline": "Anthropic flags revenue surge to investors ahead of stock market debut",
-   "detail": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+   "headline": "Revolut outage hits 'multiple services' as thousands of users report app issues",
+   "detail": "Some users of the British neobank reported being unable to make some payments or access funds in its app on Tuesday.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-10-15T04:19:17+00:00",
-   "fetched": "2026-10-15T05:11:42+00:00"
+   "published": "2026-10-20T08:46:00+00:00",
+   "fetched": "2026-10-20T12:05:03+00:00"
   },
   {
-   "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
-   "detail": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
+   "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
+   "detail": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
    "outlet": "BBC Technology",
-   "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
    "region": "Europe",
    "source_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-   "published": "2026-10-14T15:54:04+00:00",
-   "fetched": "2026-10-15T05:11:42+00:00"
+   "published": "2026-10-19T21:12:30+00:00",
+   "fetched": "2026-10-20T12:05:03+00:00"
   },
   {
-   "headline": "ASML’s chip equipment sales to China soar 109% despite US export curb push",
-   "detail": "Dutch semiconductor equipment giant ASML expects China to account for about 20 per cent of its total sales this year, after seeing shipments to the market more than double during the previous quarter despite mounting US pressure for…",
+   "headline": "Who is Yuki Chen, China’s ‘superstar’ hacker who just joined AI leader Z.ai?",
+   "detail": "Yuki Chen, a prolific Chinese cybersecurity researcher, has joined leading Chinese artificial intelligence model company Z.ai as the country’s AI sector grapples with the technology’s growing impact on global cyberspace.",
    "outlet": "South China Morning Post",
-   "url": "https://www.scmp.com/tech/big-tech/article/3370904/asmls-chip-equipment-sales-china-soar-109-despite-us-export-curb-push?utm_source=rss_feed",
+   "url": "https://www.scmp.com/tech/tech-trends/article/3371530/who-yuki-chen-chinas-superstar-hacker-who-just-joined-ai-leader-zai",
    "region": "Asia",
    "source_url": "https://www.scmp.com/rss/36/feed",
-   "published": "2026-10-14T14:00:12+00:00",
-   "fetched": "2026-10-15T05:11:43+00:00"
+   "published": "2026-10-20T11:30:06+00:00",
+   "fetched": "2026-10-20T12:05:04+00:00"
   }
  ]
 }

@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Police search home following double homicide at resort amid hunt for motive; LIVE: ABC News Live; 'Culture of fear': Cornell faculty debate no-confidence resolution.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Iran live updates: Trump says US is winning war, 'can leave right now'; LIVE: ABC News Live; What to know about changes to Medicare as open enrollment begins.",
   "note": null,
   "items": [
    {
-    "headline": "Police search home following double homicide at resort amid hunt for motive",
-    "detail": "Metallica Rose Harrison was charged with two counts of homicide after her husband and 3-year-old son were found dead with stab wounds, according to a criminal complaint.",
-    "url": "https://abcnews.go.com/US/police-search-home-double-homicide-great-wolf-lodge/story?id=137273472",
+    "headline": "Iran live updates: Trump says US is winning war, 'can leave right now'",
+    "detail": "President Donald Trump announced \"major combat operations\" against Iran on Feb. 28.",
+    "url": "https://abcnews.go.com/International/live-updates/iran-live-updates/?id=137370653",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-15T00:53:04-04:00",
-    "fetched": "2026-10-15T05:11:52+00:00"
+    "published": "2026-10-20T07:12:46-04:00",
+    "fetched": "2026-10-20T12:05:10+00:00"
    },
    {
     "headline": "LIVE: ABC News Live",
     "detail": "24/7 coverage of breaking news and live events",
     "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-13T16:57:06-04:00",
-    "fetched": "2026-10-15T05:11:52+00:00"
+    "published": "2026-10-19T16:07:46-04:00",
+    "fetched": "2026-10-20T12:05:10+00:00"
    },
    {
-    "headline": "'Culture of fear': Cornell faculty debate no-confidence resolution",
-    "detail": "A professor leading the effort says the school treats rape as a \"PR problem.\"",
-    "url": "https://abcnews.go.com/US/culture-fear-cornell-faculty-debate-confidence-resolution-aimed/story?id=137272490",
+    "headline": "What to know about changes to Medicare as open enrollment begins",
+    "detail": "Open enrollment for Medicare, the nationwide federal health insurance program primarily for those aged 65 and older, began last week and there are some changes.",
+    "url": "https://abcnews.go.com/Health/medicare-plans-open-enrollment-begins/story?id=137374397",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-15T00:56:28-04:00",
-    "fetched": "2026-10-15T05:11:52+00:00"
+    "published": "2026-10-20T05:12:41-04:00",
+    "fetched": "2026-10-20T12:05:10+00:00"
    },
    {
-    "headline": "Social Security Administration says cost-of-living adjustment will rise 3.6% in 2027",
-    "detail": "The cost-of-living adjustment ensures benefits keep pace with inflation.",
-    "url": "https://abcnews.go.com/Business/social-security-administration-cost-living-adjustment-rise-36/story?id=137234823",
+    "headline": "France protests cool after overnight curfews in Paris, major cities, PM says",
+    "detail": "French Prime Minister Sebastian Lecornu credited overnight curfews in Paris and other major cities for providing a measure of calm.",
+    "url": "https://abcnews.go.com/International/france-protests-cool-after-overnight-curfews-paris-major/story?id=137403836",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-14T10:09:09-04:00",
-    "fetched": "2026-10-15T05:11:52+00:00"
+    "published": "2026-10-20T07:43:07-04:00",
+    "fetched": "2026-10-20T12:05:10+00:00"
    },
    {
-    "headline": "WATCH: How to navigate rising prices this holiday season",
-    "detail": "ABC News’ Elizabeth Schulze reports on what to know about the latest inflation report and prices this coming holiday season.",
-    "url": "https://abcnews.go.com/video/137253201/",
+    "headline": "WATCH: Study shows Gulf oil spill's lasting damage",
+    "detail": "More than 16 years after the BP oil spill off the Gulf Coast, new research reveals lasting damage to marine life.",
+    "url": "https://abcnews.go.com/video/137404541/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-14T14:51:33-04:00",
-    "fetched": "2026-10-15T05:11:52+00:00"
+    "published": "2026-10-20T06:08:07-04:00",
+    "fetched": "2026-10-20T12:05:10+00:00"
    }
   ]
  }
