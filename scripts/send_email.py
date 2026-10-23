@@ -42,17 +42,19 @@ def send(pdf, dry_run=False):
     script = '''
 tell application "Mail"
     set pdfFile to (my (POSIX file "%s")) as alias
-    set theMessage to make new outgoing message with properties {visible:false}
+    set theMessage to make new outgoing message with properties {visible:true}
     tell theMessage
         set subject to "%s"
         set content to "%s"
         make new to recipient at end of to recipients with properties {address:"%s"}
         set sender to "%s"
-        make new attachment with properties {file name:pdfFile}
-        save theMessage
-        delay 2
-        send
     end tell
+    tell theMessage
+        make new attachment with properties {file name:pdfFile} at after last paragraph
+    end tell
+    save theMessage
+    delay 5
+    send theMessage
 end tell
 ''' % (pdf, SUBJECT, BODY, TO, FROM)
 
