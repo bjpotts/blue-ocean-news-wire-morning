@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with US nearing deal with Russia to free multiple jailed Americans: Sources; LIVE: ABC News Live; Couple charged in fatal shooting of 17-year-old on her way to zoo.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with Appeals court hears arguments in Trump admin's voting suit against California; US Marine indicted in alleged Okinawa robbery homicide; 12 injured, including 6 children, in shooting near Florida university, police say.",
   "note": null,
   "items": [
    {
-    "headline": "US nearing deal with Russia to free multiple jailed Americans: Sources",
-    "detail": "Sources say the talks have centered on freeing Stephen Hubbard.",
-    "url": "https://abcnews.go.com/Politics/us-nearing-deal-russia-free-multiple-jailed-americans/story?id=137415614",
+    "headline": "Appeals court hears arguments in Trump admin's voting suit against California",
+    "detail": "A federal appeals court had a rare Sunday hearing in the Justice Department's voting lawsuit against California.",
+    "url": "https://abcnews.go.com/Politics/federal-appeals-court-hear-arguments-trump-administrations-voting/story?id=137546706",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T13:32:21-04:00",
-    "fetched": "2026-10-20T20:27:56+00:00"
+    "published": "2026-10-25T19:48:38-04:00",
+    "fetched": "2026-10-26T00:21:17+00:00"
    },
    {
-    "headline": "LIVE: ABC News Live",
-    "detail": "24/7 coverage of breaking news and live events",
-    "url": "https://abcnews.go.com/video/41463246/",
+    "headline": "US Marine indicted in alleged Okinawa robbery homicide",
+    "detail": "A 20-year-old U.S. Marine stationed in Okinawa, Japan, has been indicted on charges murder and robbery.",
+    "url": "https://abcnews.go.com/International/us-marine-indicted-alleged-okinawa-robbery-homicide/story?id=137553792",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T15:12:05-04:00",
-    "fetched": "2026-10-20T20:27:56+00:00"
+    "published": "2026-10-25T14:13:21-04:00",
+    "fetched": "2026-10-26T00:21:17+00:00"
    },
    {
-    "headline": "Couple charged in fatal shooting of 17-year-old on her way to zoo",
-    "detail": "A husband and wife from Texas have been arrested and charged in the killing of a 17-year-old who was shot on Interstate 170 last week.",
-    "url": "https://abcnews.go.com/US/couple-charged-fatal-shooting-17-year-zoo/story?id=137415681",
+    "headline": "12 injured, including 6 children, in shooting near Florida university, police say",
+    "detail": "At least 11 of those injured had gunshot wounds, police said.",
+    "url": "https://abcnews.go.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T14:05:30-04:00",
-    "fetched": "2026-10-20T20:27:56+00:00"
+    "published": "2026-10-25T17:19:20-04:00",
+    "fetched": "2026-10-26T00:21:17+00:00"
    },
    {
-    "headline": "Man arrested for alleged threats to shoot President Trump at Kansas rally",
-    "detail": "Authorities allege the man posted several threatening messages on Facebook.",
-    "url": "https://abcnews.go.com/Politics/man-arrested-alleged-threats-shoot-president-trump-kansas/story?id=137412221",
+    "headline": "WATCH: Halloween witches’ world record",
+    "detail": "A total of 184 people set a world record, decked out in pointed hats and witches’ cloaks, 400 feet up on the Orlando Eye.",
+    "url": "https://abcnews.go.com/video/137536016/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T12:38:57-04:00",
-    "fetched": "2026-10-20T20:27:56+00:00"
+    "published": "2026-10-24T11:29:53-04:00",
+    "fetched": "2026-10-26T00:21:17+00:00"
    },
    {
-    "headline": "WATCH: Funding cuts forcing World Food Program to reduce lifesaving aid in Gaza",
-    "detail": "ABC News' Ian Pannell reports on the state of the agency, which says it's been providing food to around 1.6 million people every month since last year's ceasefire announcement.",
-    "url": "https://abcnews.go.com/video/137411132/",
+    "headline": "WATCH: 2 brothers' Make-A-Wish visit to the Minnesota Vikings",
+    "detail": "The Yang brothers got to visit the Minnesota Vikings for Aiden's Make-A-Wish after his brother, Ryan, became his lifesaving bone marrow donor while battling leukemia.",
+    "url": "https://abcnews.go.com/video/137536103/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-20T09:39:38-04:00",
-    "fetched": "2026-10-20T20:27:56+00:00"
+    "published": "2026-10-24T11:33:17-04:00",
+    "fetched": "2026-10-26T00:21:17+00:00"
    }
   ]
  }

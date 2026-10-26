@@ -3,87 +3,69 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "A single verifiable equity capital markets item was found for ANZ this run: Critical Minerals Group Launches $2m Capital Raising to Fund DFS for Lindfield Vanadium Project. No newer capital markets item has been reported for ANZ since the last edition, so the same verified item(s) are carried forward.",
+   "summary": "A single verifiable equity capital markets item was found for ANZ this run: Vita Resources to undertake SPP to raise funds to support Ninnis gold project. No newer capital markets item has been reported for ANZ since the last edition, so the same verified item(s) are carried forward.",
    "fresh_count": 0,
    "items": [
     {
-     "headline": "Critical Minerals Group Launches $2m Capital Raising to Fund DFS for Lindfield Vanadium Project",
-     "detail": "Critical Minerals Group launches a $2.05m capital raising to fund a definitive feasibility study at its Lindfield vanadium project.",
-     "url": "https://smallcaps.com.au/article/critical-minerals-group-launches-dollar2m-capital-raising-to-fund-dfs-for-lindfield-vanadium-project",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/feed",
-     "published": "2026-10-19T03:33:11+00:00",
-     "fetched": "2026-10-20T20:25:03+00:00"
+     "headline": "Vita Resources to undertake SPP to raise funds to support Ninnis gold project",
+     "detail": "Vita Resources (ASX: VTA) is preparing to undertake a share purchase plan…",
+     "url": "https://themarketonline.com.au/vita-resources-to-undertake-spp-to-raise-funds-to-support-ninnis-gold-project-2026-10-23/",
+     "outlet": "The Market Herald",
+     "source_url": "https://themarketherald.com.au/feed/",
+     "published": "2026-10-22T23:53:25+00:00",
+     "fetched": "2026-10-26T00:18:12+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Chinese memory giant YMTC to grow revenue 6 times faster than peers as IPO nears: report. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 2 items, led by Dongshan Precision retail IPO undersubscribed as Hong Kong mega listing flops: sources. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
-     "headline": "Chinese memory giant YMTC to grow revenue 6 times faster than peers as IPO nears: report",
-     "detail": "Yangtze Memory Technologies Corporation (YMTC), China’s leading flash-memory maker, is set to grow revenue six times faster than its industry peers this year as it expands into server-related business ahead of a planned initial public…",
-     "url": "https://www.scmp.com/tech/big-tech/article/3370871/chinese-memory-giant-ymtc-grow-revenue-6-times-faster-peers-ipo-nears-report",
+     "headline": "Dongshan Precision retail IPO undersubscribed as Hong Kong mega listing flops: sources",
+     "detail": "Chinese printed circuit board maker Suzhou Dongshan Precision Manufacturing Co failed to excite retail investors in Hong Kong, making it one of the least popular mega initial public offerings (IPOs) in the city so far this year.",
+     "url": "https://www.scmp.com/business/companies/article/3371948/dongshan-precision-retail-ipo-undersubscribed-hong-kong-mega-listing-flops",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-14T11:00:10+00:00",
-     "fetched": "2026-10-20T20:26:37+00:00"
+     "published": "2026-10-23T11:01:11+00:00",
+     "fetched": "2026-10-26T00:19:58+00:00"
     },
     {
-     "headline": "India’s record US$108b Jio IPO tests market faith as Musk rivalry heats up",
-     "detail": "The coming launch of India’s largest-ever initial public offering (IPO) will test investor confidence in the country’s leading telecoms operator, Jio Platforms, the digital arm of billionaire Mukesh Ambani’s Reliance Industries.",
-     "url": "https://www.scmp.com/week-asia/economics/article/3371536/indias-record-us108b-jio-ipo-tests-market-faith-musk-rivalry-heats",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-20T11:43:36+00:00",
-     "fetched": "2026-10-20T20:26:37+00:00"
-    },
-    {
-     "headline": "Malaysian student who called out Najib’s donation drive fires back at trolls",
-     "detail": "Universiti Malaya student Ummi Umairah Bakhit, who went viral recently for questioning the donation of money to former Malaysian prime minister Najib Razak, has spoken out against what she described as cyberbullying, political obsession…",
-     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3371473/malaysian-student-who-called-out-najibs-donation-drive-fires-back-trolls",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-20T06:53:37+00:00",
-     "fetched": "2026-10-20T20:26:37+00:00"
-    },
-    {
-     "headline": "Suzhou Dongshan’s US$1.8b Hong Kong IPO trails expectations amid US trade risk concerns",
-     "detail": "Suzhou Dongshan Precision Manufacturing raised less than expected in its Hong Kong initial public offering (IPO), as investors weighed potential US trade restrictions on its optical modules business amid the city’s cautious appetite for…",
-     "url": "https://www.scmp.com/business/companies/article/3371493/suzhou-dongshans-us18b-hong-kong-ipo-trails-expectations-amid-us-trade-risk-concerns",
+     "headline": "Hong Kong sees last-minute IPO cancellations amid increased regulatory checks, weak market",
+     "detail": "Hong Kong’s tougher oversight and weak investor demand have put many mainland China issuers in a dilemma, forcing many small-cap non-technology firms to delay their fundraising plans or even cancel them at the last minute, according to…",
+     "url": "https://www.scmp.com/business/banking-finance/article/3371641/hong-kong-sees-last-minute-ipo-cancellations-amid-increased-regulatory-checks-weak-market",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-20T08:37:13+00:00",
-     "fetched": "2026-10-20T20:26:37+00:00"
+     "published": "2026-10-21T09:01:10+00:00",
+     "fetched": "2026-10-26T00:19:58+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: Iambic Therapeutics Priced at $16 – Mid-Point – & Gains 20 Percent on NASDAQ. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 4,
+   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: OPay Ltd. (OPAY Proposed) of Nigeria Launches $320 Million IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 3,
    "items": [
     {
-     "headline": "The IPO Buzz: Iambic Therapeutics Priced at $16 – Mid-Point – & Gains 20 Percent on NASDAQ",
-     "detail": "Iambic Therapeutics(IAM) priced its IPO at $16.00 – the mid-point – and sold 9.38 million shares – the number in the prospectus – to raise $150 million on Wednesday night, Oct. 14.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-iambic-therapeutics-iam-priced-at-16-mid-point/",
+     "headline": "The IPO Buzz: OPay Ltd. (OPAY Proposed) of Nigeria Launches $320 Million IPO",
+     "detail": "OPay Ltd. (OPAY Proposed), the parent of Nigeria’s No. 1 digital banking platform, disclosed the terms for its $320 million IPO after the closing bell on Friday, Oct. 23, 2026. SoftBank-backed OPay Ltd.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-opay-ltd-opay-proposed-of-nigeria-launches-320-million-ipo/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-14T23:55:41+00:00",
-     "fetched": "2026-10-20T20:26:39+00:00"
+     "published": "2026-10-24T00:18:50+00:00",
+     "fetched": "2026-10-26T00:20:01+00:00"
     },
     {
-     "headline": "The IPO Buzz: Biotechs Iambic & City Therapeutics on Center Stage",
-     "detail": "Iambic Therapeutics (IAM Proposed) and City Therapeutics (CTY Proposed) are in the spotlight this week as the only two deals on the IPO Calendar so far.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-biotechs-iambic-city-therapeutics-on-center-stage/",
+     "headline": "The IPO Buzz: Lycia Therapeutics (LYCA Proposed) Sets Terms for $250 Million IPO",
+     "detail": "Lycia Therapeutics (LYCA Proposed), a Phase 1 biotech targeting allergies and Graves’ disease, set the terms for its $250 million IPO early today – Tuesday, Oct. 20, 2026.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-lycia-therapeutics-lyca-proposed-sets-terms-for-250-million-ipo/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-12T12:17:38+00:00",
-     "fetched": "2026-10-20T20:26:39+00:00"
+     "published": "2026-10-20T10:57:05+00:00",
+     "fetched": "2026-10-26T00:20:01+00:00"
     },
     {
      "headline": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
@@ -92,42 +74,33 @@
      "outlet": "CNBC Markets",
      "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
      "published": "2026-10-16T22:33:05+00:00",
-     "fetched": "2026-10-20T20:26:43+00:00"
+     "fetched": "2026-10-26T00:20:05+00:00"
     },
     {
-     "headline": "How high inflation became a 'fact of life' in the U.S.",
-     "detail": "U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.",
-     "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-     "outlet": "CNBC Markets",
-     "source_url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
-     "published": "2026-10-14T17:20:23+00:00",
-     "fetched": "2026-10-20T20:26:43+00:00"
+     "headline": "The IPO Buzz: Lycia Therapeutics (LYCA) Upsizes IPO & Prices it at $18 Top – & Stock Pops",
+     "detail": "Lycia Therapeutics (LYCA) upsized its IPO at pricing to 17.64 million shares – up from 14.7 million shares in the prospectus – and priced its IPO at $18.00 – the top of its range – to raise $317.52 million on Thursday night, Oct. 22, 2026.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-lycia-therapeutics-lyca-upsizes-ipo-prices-deal-at-18-top-of-range/",
+     "outlet": "IPOScoop",
+     "source_url": "https://www.iposcoop.com/feed/",
+     "published": "2026-10-23T00:02:05+00:00",
+     "fetched": "2026-10-26T00:20:01+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by City minister insists capital markets reform ‘not a job done’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 2,
+   "summary": "UK equity capital markets activity captured this run runs to 2 items, led by Aquis firm scraps failed Bitcoin treasury strategy after admitting ‘challenges’. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources. No newer capital markets item has been reported for UK since the last edition, so the same verified item(s) are carried forward.",
+   "fresh_count": 0,
    "items": [
     {
-     "headline": "City minister insists capital markets reform ‘not a job done’",
-     "detail": "A top Treasury minister has opened the door to further capital markets reforms after saying the government’s job was not done in improving listing incentives.",
-     "url": "https://www.cityam.com/capital-markets-reform-not-a-job-done-says-treasury-minister/",
+     "headline": "Aquis firm scraps failed Bitcoin treasury strategy after admitting ‘challenges’",
+     "detail": "An Aquis-listed firm will no longer allow shareholders direct exposure to Bitcoin after admitting the strategy damaged its balance sheet.",
+     "url": "https://www.cityam.com/aquis-firm-scraps-failed-bitcoin-treasury-strategy-after-admitting-challenges/",
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
-     "published": "2026-10-11T04:00:00+00:00",
-     "fetched": "2026-10-20T20:26:45+00:00"
-    },
-    {
-     "headline": "Investors cheer end of ‘damaging’ capital gains tax Budget speculation",
-     "detail": "Investment firms have welcomed reports that John Healey has ruled out a “damaging” capital gains tax raid at the Autumn Budget, after warnings the move could harm the domestic economy and weigh on Britain’s appeal to investors.",
-     "url": "https://www.cityam.com/investors-cheer-end-of-damaging-capital-gains-tax-budget-speculation/",
-     "outlet": "City A.M.",
-     "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-10-20T12:55:45+00:00",
-     "fetched": "2026-10-20T20:26:45+00:00"
+     "published": "2026-10-23T07:46:57+00:00",
+     "fetched": "2026-10-26T00:20:06+00:00"
     },
     {
      "headline": "Starling founder Anne Boden offloads stake at slashed £1.7bn valuation",
@@ -136,35 +109,16 @@
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/category/markets/feed/",
      "published": "2026-10-20T11:58:34+00:00",
-     "fetched": "2026-10-20T20:26:45+00:00"
+     "fetched": "2026-10-26T00:20:06+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "Europe equity capital markets activity captured this run runs to 2 items, led by S&P 500 Climbs as Big Bank Stocks Rally, SpaceX Results Loom. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 2,
-   "items": [
-    {
-     "headline": "S&P 500 Climbs as Big Bank Stocks Rally, SpaceX Results Loom",
-     "detail": "The S&P 500 Index erased early-session losses to close higher on Tuesday as big banks and healthcare companies rallied. The tech-heavy Nasdaq 100 Index ended the day with a slight decline after South Korean neocloud company Elice Inc.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-20/us-futures-slip-as-neocloud-ipo-elice-flops-spacex-results-loom",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-20T11:57:42+00:00",
-     "fetched": "2026-10-20T20:26:46+00:00"
-    },
-    {
-     "headline": "Brazil Readies China Bond Debut for as Soon as Next Week",
-     "detail": "Brazil is readying its debut panda-bond sale, which could take place as early as next week, according to a person familiar with the matter.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-20/brazil-readies-china-bond-debut-for-as-soon-as-next-week",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-20T16:57:12+00:00",
-     "fetched": "2026-10-20T20:26:46+00:00"
-    }
-   ]
+   "summary": "No capital raising or new listing activity could be verified from a linked source for Europe this run, so nothing is listed rather than publishing an item without a working URL.",
+   "fresh_count": 0,
+   "items": []
   },
   {
    "key": "rest",

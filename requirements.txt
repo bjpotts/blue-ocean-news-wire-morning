@@ -4,3 +4,5 @@
 
 reportlab>=4.0
 playwright>=1.40
+requests>=2.30
+
