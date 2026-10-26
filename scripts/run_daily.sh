@@ -83,6 +83,9 @@ publish_run() {
   # a re-run silently leaves the cloud copy on the earlier build's data.
   # Non-fatal, since the local SQLite store stays the source of truth.
   python3 sync_supabase.py --run-id "$RUN_ID" || echo "WARN: sync_supabase.py failed"
+  # Compare this run to the previous same-edition run. If key data is
+  # identical, send a warning email so stale/cached data is noticed.
+  python3 "$PROJ/scripts/check_data_freshness.py" || echo "WARN: freshness check failed"
   python3 /Users/brandonpotts/.verdent/verdent-projects/market-wrap-up-data/compare.py
   python3 "$PROJ/scripts/send_email.py"
 }
