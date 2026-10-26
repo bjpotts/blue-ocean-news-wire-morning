@@ -133,7 +133,9 @@ def login(headless=True):
             page = context.new_page()
             try:
                 page.goto("https://smallcaps.com.au/", wait_until="networkidle")
-                page.click("text=LOG IN")
+                # There are multiple "LOG IN" buttons on the page; some are hidden
+                # on mobile. Click the first visible one.
+                page.locator("button:visible:has-text('LOG IN')").first.click()
                 page.wait_for_url("https://auth.investhouse.ai/**")
                 page.fill("input[name=username]", email)
                 page.click("button[type=submit]")
@@ -203,7 +205,9 @@ def fetch_html_js(url, headless=True):
                     page.goto(url, wait_until="networkidle")
                 else:
                     page.goto("https://smallcaps.com.au/", wait_until="networkidle")
-                    page.click("text=LOG IN")
+                    # There are multiple "LOG IN" buttons on the page; some are hidden
+                    # on mobile. Click the first visible one.
+                    page.locator("button:visible:has-text('LOG IN')").first.click()
                     page.wait_for_url("https://auth.investhouse.ai/**")
                     page.fill("input[name=username]", email)
                     page.click("button[type=submit]")
