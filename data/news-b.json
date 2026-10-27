@@ -4,48 +4,48 @@
    "key": "nbc",
    "name": "NBC News",
    "site": "nbcnews.com",
-   "summary": "NBC News, covering US national news and politics is leading with Alaska Senate candidate Mary Peltola delays campaign events after car crash; Trump leans into Islamophobic rhetoric at Michigan rally; Send your questions for Steve Kornacki on the midterm elections.",
+   "summary": "NBC News, covering US national news and politics is leading with AI startup Anthropic unveils its public IPO filing for the first time; Brazilian President Lula wins a historic fourth term; Federal judge rules Trump DOJ firing of prosecutor Maurene Comey unlawful.",
    "note": null,
    "items": [
     {
-     "headline": "Alaska Senate candidate Mary Peltola delays campaign events after car crash",
-     "detail": "Anchorage police confirmed a crash involving three vehicles occurred Saturday and said those involved sustained “non-life threatening” injuries.",
-     "url": "https://www.nbcnews.com/politics/2026-election/mary-peltola-delays-campaign-events-minor-injury-car-crash-alaska-rcna605556",
+     "headline": "AI startup Anthropic unveils its public IPO filing for the first time",
+     "detail": "Artificial intelligence startup Anthropic unveiled its public IPO filing for the first time ahead of what is expected to be one of the largest stock debuts in history.",
+     "url": "https://www.nbcnews.com/video/ai-startup-anthropic-unveils-its-public-ipo-filing-for-the-first-time-272224837929",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-25T19:08:17+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T14:57:29+00:00",
+     "fetched": "2026-10-26T20:08:15+00:00"
     },
     {
-     "headline": "Trump leans into Islamophobic rhetoric at Michigan rally",
-     "detail": "The president attacked Abdul El-Sayed, the Democratic Senate nominee who is locked in a dead heat against Republican Mike Rogers.",
-     "url": "https://www.nbcnews.com/politics/2026-election/trump-leans-islamophobic-rhetoric-michigan-rally-rcna605572",
+     "headline": "Brazilian President Lula wins a historic fourth term",
+     "detail": "Brazilian President Luiz Inacio Lula da Silva was re-elected for a historic fourth term in office.",
+     "url": "https://www.nbcnews.com/video/brazilian-president-lula-wins-a-historic-fourth-term-272213573962",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-25T23:32:27+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T09:35:12+00:00",
+     "fetched": "2026-10-26T20:08:15+00:00"
     },
     {
-     "headline": "Send your questions for Steve Kornacki on the midterm elections",
-     "detail": "Election Day is quickly approaching and, with just over a week to go, Steve Kornacki is ready to answer your questions.",
-     "url": "https://www.nbcnews.com/politics/elections/send-questions-steve-kornacki-midterm-elections-rcna605264",
+     "headline": "Federal judge rules Trump DOJ firing of prosecutor Maurene Comey unlawful",
+     "detail": "A federal judge has ruled that the Trump administration has illegally fired former assistant United States attorney Maurene Comey. NBC News' Ryan Reilly breaks down the decision and the circumstances of her firing.",
+     "url": "https://www.nbcnews.com/video/federal-judge-rules-trump-doj-firing-of-prosecutor-maurene-comey-unlawful-272230981684",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-23T22:17:39+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T16:04:30+00:00",
+     "fetched": "2026-10-26T20:08:15+00:00"
     },
     {
-     "headline": "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
-     "detail": "Three 2026 election scenarios that show which party could end up in control of the U.S. House of Representatives.",
-     "url": "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404",
+     "headline": "Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
+     "detail": "Walter Koenig, the actor who played Chekov on the original “Star Trek” television series, died as one of the final surviving cast members of the beloved show, his representative confirmed on Monday.",
+     "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/walter-koenig-actor-played-chekov-original-star-trek-series-dies-90-rcna605743",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-24T09:00:42+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T17:55:53+00:00",
+     "fetched": "2026-10-26T20:08:15+00:00"
     },
     {
-     "headline": "Adam Schiff says Democrats should put 'overriding emphasis' on costs, not impeachment",
-     "detail": "In an exclusive interview with Meet the Press, Sen. Adam Schiff (D-Calif.) says Democratic oversight should focus on bringing down costs and corruption, that could potentially lead to impeachment.",
-     "url": "https://www.nbcnews.com/meet-the-press/video/adam-schiff-says-democrats-should-put-overriding-emphasis-on-costs-not-impeachment-272191557816",
+     "headline": "Police arrest a 15-year-old in shooting near Florida A&M stadium",
+     "detail": "Police have arrested a 15-year-old boy in connection with the mass shooting near Florida A&M University’s Bragg Memorial Stadium. NBC News' George Solis reports the latest updates on the investigation and the charges against the suspect.",
+     "url": "https://www.nbcnews.com/now/video/police-arrest-suspect-in-shooting-near-florida-a-m-stadium-272217669952",
      "source_url": "https://feeds.nbcnews.com/nbcnews/public/news",
-     "published": "2026-10-25T14:04:14+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T12:37:48+00:00",
+     "fetched": "2026-10-26T20:08:15+00:00"
     }
    ]
   },
@@ -53,48 +53,48 @@
    "key": "thehill",
    "name": "The Hill",
    "site": "thehill.com",
-   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with Tillis says it's 'appropriate to take a look at' Alaska ballot with two Dan Sullivans running; Trump says El-Sayed should have to pass through metal detector to enter Senate; Tillis accuses California of being 'guilty' of ballot harvesting: 'They have a system there that is ripe for abuse'.",
+   "summary": "The Hill, reporting on Congress, the White House and US policy is leading with FTC demands Anthropic leaders testify in consumer harm investigation; Democrats, world leaders congratulate Trump critic Lula on reelection in Brazil; Vance, Harris top early 2028 White House race polling.",
    "note": null,
    "items": [
     {
-     "headline": "Tillis says it's 'appropriate to take a look at' Alaska ballot with two Dan Sullivans running",
-     "detail": "Sen. Thom Tillis (R-N.C.) on Sunday said it was \"appropriate to take a look at\" the outcome of the Alaska Senate race with two candidates with similar names on the ballot, which prompted a Department of Justice (DOJ) lawsuit.",
-     "url": "https://thehill.com/homenews/campaign/6170783-thom-tillis-look-at-alaska-ballot-with-two-dan-sullivans-running/",
+     "headline": "FTC demands Anthropic leaders testify in consumer harm investigation",
+     "detail": "The Federal Trade Commission (FTC) has asked executives from the AI firm Anthropic to testify as part of its consumer harm probe into the maker of the Claude AI model, a FTC spokesperson confirmed to The Hill on Monday.",
+     "url": "https://thehill.com/policy/technology/6173134-ftc-demands-anthropic-ai-testimony/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-25T23:46:52+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T19:38:10+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Trump says El-Sayed should have to pass through metal detector to enter Senate",
-     "detail": "President Trump called out Michigan Senate candidate Abdul El-Sayed on Sunday, saying he should have to pass through a metal detector to enter the Senate building.",
-     "url": "https://thehill.com/homenews/administration/6171296-donald-trump-abdul-el-sayed-pass-through-metal-detector-to-enter-senate/",
+     "headline": "Democrats, world leaders congratulate Trump critic Lula on reelection in Brazil",
+     "detail": "Democratic lawmakers in the U.S. and world leaders congratulated Brazilian President Luiz Inácio Lula da Silva, commonly known as Lula and an outspoken critic of President Trump, for winning an unprecedented fourth term on Sunday.",
+     "url": "https://thehill.com/policy/international/6172962-lula-wins-brazilian-presidency/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-25T22:52:30+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T18:59:57+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Tillis accuses California of being 'guilty' of ballot harvesting: 'They have a system there that is ripe for abuse'",
-     "detail": "Sen. Thom Tillis (R-N.C.) on Sunday accused the state of California of being \"guilty\" of ballot harvesting, claiming that the Golden State has \"a system there that is ripe for abuse.\" \"Face the Nation\" host Margaret Brennan asked about the…",
-     "url": "https://thehill.com/homenews/senate/6170781-thom-tillis-accuses-california-of-ballot-harvesting/",
+     "headline": "Vance, Harris top early 2028 White House race polling",
+     "detail": "Vice President Vance and Secretary of State Marco Rubio are at the top of early polling for the GOP presidential nod in 2028, while former Vice President Kamala Harris leads a wide-open Democratic field.",
+     "url": "https://thehill.com/homenews/campaign/6173025-vance-harris-white-house-polling/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-25T22:18:13+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T17:58:01+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Appeals court resists DOJ's bid to immediately segregate 20k California ballots",
-     "detail": "A federal appeals court appeared unlikely to immediately agree to the Trump administration’s bid to segregate 20,000 California ballots it says are likely noncitizen voters, expressing skepticism at a rare Sunday hearing that a trial judge…",
-     "url": "https://thehill.com/regulation/court-battles/6171263-appeals-court-denies-emergency-california-hearing/",
+     "headline": "6 citizens sue Trump over White House bans on news outlets",
+     "detail": "Six individual citizens — a civics teacher, a legal journalist, a student journalist, a human rights advocate, a historian and a media watchdog — are suing the president and Trump administration officials over the White House’s bans and…",
+     "url": "https://thehill.com/regulation/court-battles/6172985-citizens-sue-trump-white-house-bans/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-25T22:02:13+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T17:55:12+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Rogers dodges questions on MAGA label, Trump tariffs",
-     "detail": "Former Rep. Mike Rogers (R-Mich.) dodged questions on whether he identifies as a MAGA-Republican and avoided clarifying his position on President Trump’s controversial tariffs against Canada ahead of his competitive race against Democrat…",
-     "url": "https://thehill.com/homenews/campaign/6171235-rogers-dodges-magar-label-interview/",
+     "headline": "Massie says he'll move to impeach Hegseth if he's not gone after midterms",
+     "detail": "Republican Rep. Thomas Massie (Ky.), on Monday indicated he would reintroduce articles of impeachment against Defense Secretary Pete Hegseth should he remain at the Pentagon after Congress returns to Washington, D.C., following the…",
+     "url": "https://thehill.com/homenews/house/6172957-massie-hegseth-impeachment-midterms/",
      "source_url": "https://thehill.com/news/feed/",
-     "published": "2026-10-25T21:44:53+00:00",
-     "fetched": "2026-10-26T00:21:18+00:00"
+     "published": "2026-10-26T17:37:05+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     }
    ]
   },
@@ -102,48 +102,48 @@
    "key": "time",
    "name": "Time",
    "site": "time.com",
-   "summary": "Time magazine, covering US and world affairs is leading with What Does Trump’s Declining Latino Support Mean for Florida?; The Former General Who Could End the Netanyahu Era; The Public Health Consequences of an Inaccurate Census.",
+   "summary": "Time magazine, covering US and world affairs is leading with Why Catholic Bishops Are Apologizing Over 'Exploited' Trump Meeting; The Diesel Diversion: Trump’s Faulty Attempt to Blame Inflation on Ukraine; New Details of Rape Allegation Against Trump Revealed in House Democrats’ Epstein Report.",
    "note": null,
    "items": [
     {
-     "headline": "What Does Trump’s Declining Latino Support Mean for Florida?",
-     "detail": "Polls show growing Latino frustration with the U.S. President. Can Democrats turn it into votes in Florida—and build on it beyond the midterms?",
-     "url": "https://time.com/article/2026/10/25/what-does-trump-s-declining-latino-support-mean-for-florida-/",
+     "headline": "Why Catholic Bishops Are Apologizing Over 'Exploited' Trump Meeting",
+     "detail": "\" I wish I had been more shrewd and less simple, like those who exploited our meeting for partisan political purposes,\" said one bishop after the Oval Office gathering.",
+     "url": "https://time.com/article/2026/10/26/catholic-bishops-apologize-meeting-with-trump-white-house-video/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-25T19:36:07+00:00",
-     "fetched": "2026-10-26T00:21:19+00:00"
+     "published": "2026-10-26T19:18:02+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "The Former General Who Could End the Netanyahu Era",
-     "detail": "Gadi Eisenkot Lost His Son in Gaza. Now He’s Running to Lead Israel Beyond the Trauma of Oct. 7",
-     "url": "https://time.com/article/2026/10/25/gadi-eisenkot-exclusive-interview/",
+     "headline": "The Diesel Diversion: Trump’s Faulty Attempt to Blame Inflation on Ukraine",
+     "detail": "Why Trump's efforts to pin high gas prices on Ukraine are politically convenient but economically backward.",
+     "url": "https://time.com/article/2026/10/26/the-diesel-diversion-trump-s-faulty-attempt-to-blame-inflation-on-ukraine/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-25T11:00:03+00:00",
-     "fetched": "2026-10-26T00:21:19+00:00"
+     "published": "2026-10-26T17:53:11+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "The Public Health Consequences of an Inaccurate Census",
-     "detail": "A census that deliberately counts fewer people while telling us less about them will leave our nation ill-prepared for future outbreaks and pandemics, write Julie Morita and Richard Besser.",
-     "url": "https://time.com/article/2026/10/25/the-public-health-consequences-of-an-inaccurate-census/",
+     "headline": "New Details of Rape Allegation Against Trump Revealed in House Democrats’ Epstein Report",
+     "detail": "A report from House Democrats on Trump's ties to Epstein includes new details from a woman who alleged Trump raped her in 1993.",
+     "url": "https://time.com/article/2026/10/26/house-democrats-unveil-new-details-from-trump-accuser/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-25T04:00:03+00:00",
-     "fetched": "2026-10-26T00:21:19+00:00"
+     "published": "2026-10-26T17:26:49+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Trump Thinks Alaskans Could Vote for the Wrong Sullivan. What Can the DOJ Do?",
-     "detail": "The Justice Department filed a lawsuit saying Alaska voters could confuse candidates with similar names. Experts question its authority.",
-     "url": "https://time.com/article/2026/10/24/trump-thinks-alaskans-could-vote-for-the-wrong-sullivan-what-can-the-doj-do-/",
+     "headline": "Lula’s Victory in Brazil Is a Defeat for Trumpism",
+     "detail": "Lula’s victory shows that a broad democratic coalition, mobilizing in the streets and online, can defeat a far-right candidate even amid a regional shift to the right.",
+     "url": "https://time.com/article/2026/10/26/lula-brazil-election-victory-bolsonaro-trump-defeat/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-24T18:26:54+00:00",
-     "fetched": "2026-10-26T00:21:19+00:00"
+     "published": "2026-10-26T16:35:00+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "The Fight Over Who Counts in India",
-     "detail": "\"Many Indians might have forgiven Modi for his numerous missteps, but they are determined not to let him devalue their voting power,\" writes Asim Ali.",
-     "url": "https://time.com/article/2026/10/24/the-fight-over-who-counts-in-india/",
+     "headline": "TIME Is Looking For the World’s Top GreenTech Companies of 2027",
+     "detail": "—Mike Mareen—Getty Images In 2027, TIME will publish its third annual ranking of the World's Top GreenTech Companies in partnership with Statista, a leading international provider of market and consumer data and rankings.",
+     "url": "https://time.com/article/2026/10/26/worlds-top-greentech-companies-2027-search/",
      "source_url": "https://time.com/feed/",
-     "published": "2026-10-24T11:00:03+00:00",
-     "fetched": "2026-10-26T00:21:19+00:00"
+     "published": "2026-10-26T13:49:02+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     }
    ]
   },
@@ -151,48 +151,48 @@
    "key": "variety",
    "name": "Variety",
    "site": "variety.com",
-   "summary": "Variety, on the business of entertainment is leading with From ‘Hoop Dreams’ to ‘Flee’: The 20 Documentaries That Deserved a Best Picture Oscar Nomination; James Gunn Defends the DC Universe, Says He Dislikes the Idea That ‘Individual Stories Aren’t Meaningful Unless They Lead to Something’; ‘You Can See Everything’ Director Lance Oppenheim Says Billy Evans ‘Didn’t Care About Being Seen Naked’; Evans Asked, ‘Want to Film Me Showering?’.",
+   "summary": "Variety, on the business of entertainment is leading with Ella Langley Retakes No. 1 on Hot 100 From Taylor Swift; Tate McRae’s ‘Housewife,’ Rodrigo/Roan ‘Expectations’ and Zach Bryan/Lana Del Rey ‘Lies’ All Bow Big; Tom DeSimone, Director of ‘Chatterbox,’ ‘Reform School Girls,’ Dies at 87; Actors on the Verge of Losing SAG-AFTRA Health Insurance Find Support via ‘One Job Away’ Instagram Campaign: ‘The System Is Not Working’.",
    "note": null,
    "items": [
     {
-     "headline": "From ‘Hoop Dreams’ to ‘Flee’: The 20 Documentaries That Deserved a Best Picture Oscar Nomination",
-     "detail": "In nearly a century of Oscars, not a single documentary has been nominated for best picture. But that shouldn’t be the case.",
-     "url": "https://variety.com/lists/documentaries-best-picture-oscar-nominations-snubs/",
+     "headline": "Ella Langley Retakes No. 1 on Hot 100 From Taylor Swift; Tate McRae’s ‘Housewife,’ Rodrigo/Roan ‘Expectations’ and Zach Bryan/Lana Del Rey ‘Lies’ All Bow Big",
+     "detail": "Taylor Swift’s “Patient Zero” no longer has a stranglehold on the No.",
+     "url": "https://variety.com/2026/music/news/ella-langley-hot-100-tate-mcrae-housewife-rodrigo-roan-1236931455/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-25T23:55:15+00:00",
-     "fetched": "2026-10-26T00:21:20+00:00"
+     "published": "2026-10-26T19:13:12+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "James Gunn Defends the DC Universe, Says He Dislikes the Idea That ‘Individual Stories Aren’t Meaningful Unless They Lead to Something’",
-     "detail": "James Gunn took to Threads on Saturday to defend the DCU and his decision to expand the universe with “individual stories” amid criticism that his films aren’t building toward a major crossover event.",
-     "url": "https://variety.com/2026/film/news/james-gunn-defends-clayface-individual-stories-dcu-1236930872/",
+     "headline": "Tom DeSimone, Director of ‘Chatterbox,’ ‘Reform School Girls,’ Dies at 87",
+     "detail": "Tom DeSimone, who transitioned from directing adult films into helming a host of B-movies including cult pic “Reform School Girls” and talking-vagina comedy “Chatterbox,” died Oct. 17 in Cathedral City, Calif. He was 87.",
+     "url": "https://variety.com/2026/film/news/tom-desimone-dead-chatterbox-reform-school-girls-1236931473/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-25T23:11:19+00:00",
-     "fetched": "2026-10-26T00:21:20+00:00"
+     "published": "2026-10-26T19:12:57+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "‘You Can See Everything’ Director Lance Oppenheim Says Billy Evans ‘Didn’t Care About Being Seen Naked’; Evans Asked, ‘Want to Film Me Showering?’",
-     "detail": "“You Can See Everything” audiences were expecting to be taken aback for a variety of reasons when watching the documentary, but a full-frontal shot of Elizabeth Holmes’ partner Billy Evans wasn’t something many foresaw experiencing in the…",
-     "url": "https://variety.com/2026/film/news/you-can-see-everything-billy-evans-full-frontal-lance-oppenheim-1236930442/",
+     "headline": "Actors on the Verge of Losing SAG-AFTRA Health Insurance Find Support via ‘One Job Away’ Instagram Campaign: ‘The System Is Not Working’",
+     "detail": "Cheyenne Jackson has acted in more than 40 television series, including “Imperfect Women,” “American Horror Story,” “Call Me Kat,” “Glee” and “30 Rock,” as well as several movies.",
+     "url": "https://variety.com/2026/film/columns/actors-losing-sag-aftra-health-insurance-one-job-away-instagram-campaign-cheyenne-jackson-1236931317/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-25T21:50:18+00:00",
-     "fetched": "2026-10-26T00:21:20+00:00"
+     "published": "2026-10-26T18:52:57+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Peggy King, ‘George Gobel Show’ Actress and Singer of the ’50s, Dies at 96",
-     "detail": "Peggy King, a 1950s television and recording star, died Sunday following a battle with Alzheimer’s at the Saunders House Assisted Living facility in Wynnewood, Pa. She was 96. King’s publicist, Alan Eicher, confirmed her death.",
-     "url": "https://variety.com/2026/tv/people-news/peggy-king-dead-actress-singer-1236930847/",
+     "headline": "Georgia Juvelis to Step Down as Chief Communications Officer for AMC Global Media",
+     "detail": "Georgia Juvelis will step down as chief communications officer for AMC Global Media at the end of this year, wrapping a 19-year run at the company that is home to AMC Network, AMC+, IFC, SundanceTV, BBC America and more.",
+     "url": "https://variety.com/2026/tv/news/georgia-juvelis-amc-global-media-chief-communications-1236931438/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-25T21:17:35+00:00",
-     "fetched": "2026-10-26T00:21:20+00:00"
+     "published": "2026-10-26T18:37:57+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     },
     {
-     "headline": "Hudson Williams Says He’s Writing a Film Featuring an ‘Ex-Hockey Player’ and Is ‘Getting Tripped Up’ by ‘Heated Rivalry’ Parallels",
-     "detail": "Hudson Williams is working on a new film and is “getting tripped up” over a “Heated Rivalry” parallel.",
-     "url": "https://variety.com/2026/film/news/hudson-williams-new-film-heated-rivalry-parallel-1236930742/",
+     "headline": "SCAD Film Studios Expands Backlot With New Soundstages, More Than 50 Backlot Facades",
+     "detail": "Savannah College of Art and Design has completed its SCAD Film Studios expansion in Savannah, Georgia.",
+     "url": "https://variety.com/2026/artisans/news/savannah-college-of-art-and-design-backlot-expansion-1236930334/",
      "source_url": "https://variety.com/feed/",
-     "published": "2026-10-25T20:27:01+00:00",
-     "fetched": "2026-10-26T00:21:20+00:00"
+     "published": "2026-10-26T18:04:00+00:00",
+     "fetched": "2026-10-26T20:08:16+00:00"
     }
    ]
   },
@@ -200,48 +200,48 @@
    "key": "bloomberg",
    "name": "Bloomberg",
    "site": "bloomberg.com",
-   "summary": "Bloomberg's markets and business file is leading with Slow AI Buildout Could Be Inflationary: Natixis' Herrero; Stocks Under Pressure Before Earnings, Oil Dips: Markets Wrap; Mexico’s Electoral Chief Is Resigning After Graft Probe Opened.",
+   "summary": "Bloomberg's markets and business file is leading with Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap; Moderna CEO Sees Cancer Vaccines Working Beyond Melanoma; Gasoline Prices Under Trump Surpass Biden-Era Average.",
    "note": null,
    "items": [
     {
-     "headline": "Slow AI Buildout Could Be Inflationary: Natixis' Herrero",
-     "detail": "Alicia Garcia Herrero, chief APAC economist at Natixis, tells Bloomberg TV that rapid AI adoption could be inflationary if data-center construction falls short of what is needed to meet demand for compute. (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-26/slow-ai-buildout-could-be-inflationary-natixis-herrero-video",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-26T00:17:35+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
-    },
-    {
-     "headline": "Stocks Under Pressure Before Earnings, Oil Dips: Markets Wrap",
-     "detail": "Asian stocks declined in early Monday trading after a volatile week, with investors bracing for megacap earnings that will test the artificial intelligence trade and key central bank decisions.",
+     "headline": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap",
+     "detail": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision.",
      "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
      "published": "2026-10-25T22:09:07+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Mexico’s Electoral Chief Is Resigning After Graft Probe Opened",
-     "detail": "Mexico’s top electoral official said Sunday she will resign after facing mounting pressure over a corruption probe.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-26/mexico-s-electoral-chief-is-resigning-after-graft-probe-opened",
+     "headline": "Moderna CEO Sees Cancer Vaccines Working Beyond Melanoma",
+     "detail": "Moderna CEO Stephane Bancel believes the personalized mRNA cancer vaccine being developed with Merck will work in a variety of tumors.",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-26/moderna-ceo-sees-cancer-vaccines-working-beyond-melanoma-video",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-26T00:03:14+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:59:33+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Latest Oil Market News and Analysis for Oct. 26",
-     "detail": "Oil edged lower as the US and Iran stuck to familiar rhetoric in their conflict, and a technical gauge pointed to overbought conditions.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
+     "headline": "Gasoline Prices Under Trump Surpass Biden-Era Average",
+     "detail": "The average price Americans are paying for gasoline under President Donald Trump has overtaken the average during the Biden administration, underscoring the political pressure on Republicans ahead of the midterm elections.",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/trump-s-gasoline-prices-surpass-biden-average-ahead-of-midterms",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-25T22:04:00+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T15:14:34+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting",
-     "detail": "Gold steadied after its biggest weekly drop since June, with traders weighing stubbornly high energy prices ahead of the Federal Reserve’s upcoming policy meeting.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-25/gold-steadies-after-weekly-drop-as-focus-shifts-to-fed-meeting",
+     "headline": "Markets Have 'Misunderstanding' of Warsh Fed, Says Axel Merk",
+     "detail": "Axel Merk, president and CIO of Merk Investments, said that the market misinterprets Warsh's comments on the Fed's current monetary policy as being in support of those policies, including the size of the Fed's balance sheet.",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-26/markets-have-misunderstanding-of-warsh-fed-says-merk-video",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-25T23:23:38+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:43:23+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
+    },
+    {
+     "headline": "Lula’s Win Isn’t as Bad as Markets Think",
+     "detail": "Luiz Inácio Lula da Silva’s shock win in Brazil against Flávio Bolsonaro triggered an investor reaction for the ages. Bloomberg Opinion columnist Juan Pablo Spinetto explains why he thinks markets are overacting. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-26/opinion-lula-s-win-isn-t-as-bad-as-markets-think-video",
+     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+     "published": "2026-10-26T19:38:30+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     }
    ]
   },
@@ -249,48 +249,48 @@
    "key": "bbc",
    "name": "BBC",
    "site": "bbc.com",
-   "summary": "The BBC's world news service is leading with Serbia's veteran ruler Vučić concedes election to student-led protest movement; Deeply divided Israel braces for pivotal election; Venezuelan opposition leader María Machado returns after months in exile.",
+   "summary": "The BBC's world news service is leading with Lula wins fourth term in dramatic Brazil election comeback; Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement; Trump administration illegally fired James Comey's daughter, judge rules.",
    "note": null,
    "items": [
     {
-     "headline": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+     "headline": "Lula wins fourth term in dramatic Brazil election comeback",
+     "detail": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
+     "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "published": "2026-10-26T20:00:30+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
+    },
+    {
+     "headline": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
      "detail": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-25T22:54:57+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T14:34:52+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Deeply divided Israel braces for pivotal election",
-     "detail": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
-     "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+     "headline": "Trump administration illegally fired James Comey's daughter, judge rules",
+     "detail": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director.",
+     "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-25T22:11:13+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:27:21+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Venezuelan opposition leader María Machado returns after months in exile",
-     "detail": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
-     "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+     "headline": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+     "detail": "The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.",
+     "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-25T23:33:14+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T16:27:17+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-     "detail": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-     "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+     "headline": "Catholic bishops apologise for 'exploited' Trump meeting",
+     "detail": "Two bishops in images that show them praying with Trump have said they believed the meeting was private.",
+     "url": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
      "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-25T09:00:00+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
-    },
-    {
-     "headline": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-     "detail": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
-     "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
-     "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "published": "2026-10-25T15:32:51+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T15:46:31+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     }
    ]
   },
@@ -298,48 +298,48 @@
    "key": "france24",
    "name": "France 24",
    "site": "france24.com",
-   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with 🔴 Live: Brazil's President Lula da Silva beats Flavio Bolsonaro in run-off to win re-election; Report: IDF chief pushes back on Netanyahu's order; Serbia's Vucic concedes defeat in historic snap election with record turnout.",
+   "summary": "France 24's English service, reporting from Paris on Europe, Africa and the Middle East is leading with Serbian student movement eyes power after election triumph; Comeback kid: How did Brazil veteran-leader Lula upset Bolsonaro?; UN cites 'ethnic cleansing' concerns around Israel's Palestinian displacement operation in Hebron.",
    "note": null,
    "items": [
     {
-     "headline": "🔴 Live: Brazil's President Lula da Silva beats Flavio Bolsonaro in run-off to win re-election",
-     "detail": "🔴 Live: Brazil's President Lula da Silva beats Flavio Bolsonaro in run-off to win re-election",
-     "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
+     "headline": "Serbian student movement eyes power after election triumph",
+     "detail": "Emotions ran high in Belgrade on Monday after a student-led movement upset the right-wing populist Aleksandar Vucic's party in Serbia's snap election.",
+     "url": "https://www.france24.com/en/serbian-student-movement-eyes-power-after-election-triumph",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-26T00:12:55+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:48:10+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Report: IDF chief pushes back on Netanyahu's order",
-     "detail": "An extraordinary confrontation at the top of Israel's leadership, just two days before the election. Israeli media report Prime Minister Benjamin Netanyahu and military chief Eyal Zamir are at odds over Iran.",
-     "url": "https://www.france24.com/en/video/20261025-report-idf-pushes-back-on-netanyahu-s-order",
+     "headline": "Comeback kid: How did Brazil veteran-leader Lula upset Bolsonaro?",
+     "detail": "Two days shy of his 81st birthday… Brazil’s Luiz Inacio Lula da Silva emerging as the comeback kid.",
+     "url": "https://www.france24.com/en/tv-shows/the-debate/20261026-comeback-kid-how-did-brazil-veteran-leader-lula-upset-bolsonaro",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-25T23:24:14+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:22:18+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
-     "detail": "Serbia's Aleksandar Vucic conceded defeat in an historic election on Sunday following a near to 70% turnout at polling stations – the highest since the break-up of Yugoslavia in 1992.",
-     "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout",
+     "headline": "UN cites 'ethnic cleansing' concerns around Israel's Palestinian displacement operation in Hebron",
+     "detail": "The United Nations on Monday raised \"ethnic cleansing\" concerns following Israel's operation to displace by force more than 3,000 Palestinians from their homes in Hebron in the West Bank after two Palestinian gunmen killed two Israeli…",
+     "url": "https://www.france24.com/en/middle-east/20261026-un-cites-ethnic-cleansing-concerns-around-israel-palestinian-displacement-operation-hebron",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-25T21:24:42+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T17:59:03+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Marine Le Pen launches presidential campaign in Orléans",
-     "detail": "RN candidate Marine Le Pen officially launched her campaign for the French presidential election on Sunday, October 25, at a rally in Orléans.",
-     "url": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans",
+     "headline": "French student union leaders call for 'continued mobilisation' after meeting PM",
+     "detail": "The French government met student representatives on Monday (October 26) following weeks of unrest. Students who had been demanding a meeting for weeks hail progress.",
+     "url": "https://www.france24.com/en/video/20261026-french-student-union-leaders-call-for-continued-mobilisation-after-meeting-pm",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-25T19:45:40+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T17:37:05+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Le Pen’s ‘Renaissance’: 4th time lucky?",
-     "detail": "Just before half past four, Marine Le Pen took to the stage under the stadium strobe lights at the Zénith Arena in Orléans.",
-     "url": "https://www.france24.com/en/tv-shows/spotlight/20261025-le-pen-s-renaissance-4th-time-lucky",
+     "headline": "Brazil: What does Lula's re-election mean for the Amazon?",
+     "detail": "Climate activists in Brazil are celebrating President Luiz Inacio Lula da Silva's election victory as good news for the Amazon rainforest.",
+     "url": "https://www.france24.com/en/brazil-what-does-lula-s-re-election-mean-for-the-amazon",
      "source_url": "https://www.france24.com/en/rss",
-     "published": "2026-10-25T19:05:19+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T17:18:55+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     }
    ]
   },
@@ -347,48 +347,48 @@
    "key": "aljazeera",
    "name": "Al Jazeera",
    "site": "aljazeera.com",
-   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with Ballon d’Or 2026: Can Barcelona phenom Lamine Yamal become youngest winner?; Thousands protest in Prague against public media funding reforms; Venezuela’s opposition leader Machado returns after months in exile.",
+   "summary": "Al Jazeera English, with strong Middle East and Africa coverage is leading with 80 injured after bus plunges down embankment near Barcelona; Jordan arrests three suspects over deadly church attack; Trump faces private citizens lawsuit over limiting White House media access.",
    "note": null,
    "items": [
     {
-     "headline": "Ballon d’Or 2026: Can Barcelona phenom Lamine Yamal become youngest winner?",
-     "detail": "Still a teenager, Yamal could surpass Brazilian legend Ronaldo Nazario, who won the Ballon d'Or at the age of 21.",
-     "url": "https://www.aljazeera.com/sports/2026/10/25/ballon-dor-2026-can-barcelona-phenom-lamine-yamal-become-youngest-winner?traffic_source=rss",
+     "headline": "80 injured after bus plunges down embankment near Barcelona",
+     "detail": "80 injured after bus plunges down embankment near Barcelona",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/80-injured-after-bus-plunges-down-embankment-near-barcelona?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-25T23:38:57+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:49:31+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Thousands protest in Prague against public media funding reforms",
-     "detail": "Demonstrators allege Prime Minister Andrej Babis and his coalition's proposed reforms pose a threat to press freedom.",
-     "url": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+     "headline": "Jordan arrests three suspects over deadly church attack",
+     "detail": "Jordanian authorities have arrested three relatives over a church attack in Karak that killed eight people.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-25T23:29:13+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T19:25:53+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Venezuela’s opposition leader Machado returns after months in exile",
-     "detail": "Venezuela’s opposition leader and Nobel Peace Prize winner Maria Corina Machado returned home after more than 10 months.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/venezuelas-opposition-leader-machado-returns-after-months-in-exile?traffic_source=rss",
+     "headline": "Trump faces private citizens lawsuit over limiting White House media access",
+     "detail": "The plaintiffs argue they are losing access to vital information media outlets covering Trump used to provide.",
+     "url": "https://www.aljazeera.com/news/2026/10/26/trump-faces-private-citizens-lawsuit-over-limiting-white-house-media-access?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-25T23:23:25+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T18:29:26+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Bulgaria election heads to a run-off amid low voter turnout",
-     "detail": "Bulgarians will now choose between President Iliana Yotova and former caretaker Prime Minister Andrey Gyurov next week.",
-     "url": "https://www.aljazeera.com/news/2026/10/25/bulgaria-election-heads-to-a-run-off-amid-low-voter-turnout?traffic_source=rss",
+     "headline": "Brazil’s real sinks after Lula’s re-election victory",
+     "detail": "Investors react to Lula's victory with a sharp decline in the real and concern over increased spending and fiscal challenges.",
+     "url": "https://www.aljazeera.com/economy/2026/10/26/brazils-real-sinks-after-lulas-re-election-victory?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-25T22:57:17+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T18:27:23+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     },
     {
-     "headline": "Real Madrid beat Barcelona 2-1 at Camp Nou to halve gap to La Liga leaders",
-     "detail": "French superstar Kylian Mbappe scores a brace for Madrid to inflict Barcelona's first domestic defeat of the campaign.",
-     "url": "https://www.aljazeera.com/sports/2026/10/25/real-madrid-beat-barcelona-2-1-at-camp-nou-to-halve-gap-to-la-liga-leaders?traffic_source=rss",
+     "headline": "Could the midterms change US military support for Israel?",
+     "detail": "From Texas to Michigan, Senate candidates are challenging US weapons transfers to Israel.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss",
      "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-     "published": "2026-10-25T22:22:53+00:00",
-     "fetched": "2026-10-26T00:21:21+00:00"
+     "published": "2026-10-26T18:05:12+00:00",
+     "fetched": "2026-10-26T20:08:17+00:00"
     }
    ]
   }
@@ -397,5 +397,5 @@
   "news.com.au",
   "theaustralian.com.au"
  ],
- "blocked_checked_at": "2026-10-26T00:21:22+00:00"
+ "blocked_checked_at": "2026-10-26T20:08:19+00:00"
 }

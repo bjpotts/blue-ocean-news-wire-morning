@@ -3,493 +3,493 @@
   {
    "key": "china",
    "title": "China (Mainland) Top Performers",
-   "caption": "Source: TradingView Mainland China market movers, captured Friday 16 October 2026 at 08:01 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
-   "fetched": "2026-10-16T08:01:07+11:00",
+   "caption": "Source: TradingView Mainland China market movers, captured Tuesday 27 October 2026 at 07:06 AEST, covering the CST session most recently published at that time. Mainland boards run daily move limits, so clustering of moves at exactly the cap is normal rather than a data error.",
+   "fetched": "2026-10-27T07:06:02+11:00",
    "stale": false,
-   "gainer_note": "Zhejiang Sunflower Great Health Co., Ltd Class A led the China (Mainland) board for the session, up 20.06 per cent to CN\u00a53.71 on reported volume of 241.72M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "gainer_note": "China Post Technology Co., Ltd. Class A led the China (Mainland) board for the session, up 20.01 per cent to CN\u00a534.66 on reported volume of 9.84M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "gainer_note_sources": [],
-   "loser_note": "Yoantion Industrial Inc. Ltd. Class A was the steepest decliner on the China (Mainland) board for the session, down 20.01 per cent to CN\u00a525.14 on reported volume of 9.86M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
+   "loser_note": "China Southern Power Grid Technology Co., Ltd. Class A was the steepest decliner on the China (Mainland) board for the session, down 16.42 per cent to CN\u00a539.20 on reported volume of 10.28M shares. The move is reported here as captured from TradingView Mainland China market movers at the time of this build. No company announcement covering it could be found in the local press, so no catalyst is asserted - a common outcome for a thinly traded stock.",
    "loser_note_sources": [],
    "gainers": [
     {
-     "name": "Zhejiang Sunflower Great Health Co., Ltd Class A (300111)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300111/",
-     "price": "CN\u00a53.71",
-     "chg": "+20.06%",
-     "vol": "241.72M"
+     "name": "Shijihengtong Technology Co., Ltd. Class A (301428)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301428/",
+     "price": "CN\u00a538.43",
+     "chg": "+17.74%",
+     "vol": "35.82M"
     },
     {
-     "name": "Baiyang Investment Group, Inc. Class A (002696)",
-     "url": "https://www.tradingview.com/symbols/SZSE-002696/",
-     "price": "CN\u00a510.73",
-     "chg": "+10.05%",
-     "vol": "74.97M"
-    },
-    {
-     "name": "Guangdong Zhengye Technology Co., Ltd. Class A (300410)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300410/",
-     "price": "CN\u00a59.17",
-     "chg": "+12.24%",
-     "vol": "66.84M"
-    },
-    {
-     "name": "Tianjin Guoan Mengguli New Materials Science and Technology Co., Ltd. Class A (301487)",
-     "url": "https://www.tradingview.com/symbols/SZSE-301487/",
-     "price": "CN\u00a518.63",
-     "chg": "+12.03%",
-     "vol": "48.36M"
-    },
-    {
-     "name": "Guangdong Vanward New Electric Co., Ltd. Class A (002543)",
-     "url": "https://www.tradingview.com/symbols/SZSE-002543/",
-     "price": "CN\u00a57.88",
-     "chg": "+10.06%",
-     "vol": "36.82M"
-    },
-    {
-     "name": "Zhejiang Jianfeng Group Co. Ltd. Class A (600668)",
-     "url": "https://www.tradingview.com/symbols/SSE-600668/",
-     "price": "CN\u00a57.99",
-     "chg": "+10.06%",
-     "vol": "34.28M"
-    },
-    {
-     "name": "Camelot Electronics Technology Co., Ltd. Class A (301282)",
-     "url": "https://www.tradingview.com/symbols/SZSE-301282/",
-     "price": "CN\u00a549.92",
+     "name": "Swancor Advanced Materials Co. Ltd. Class A (688585)",
+     "url": "https://www.tradingview.com/symbols/SSE-688585/",
+     "price": "CN\u00a5151.57",
      "chg": "+20.00%",
-     "vol": "11.59M"
+     "vol": "13.66M"
     },
     {
-     "name": "Shenzhen Longtech Smart Control Co. Ltd. Class A (300916)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300916/",
-     "price": "CN\u00a528.52",
-     "chg": "+13.31%",
-     "vol": "9.3M"
+     "name": "Shenzhen L&A Design Holding Limited Class A (300949)",
+     "url": "https://www.tradingview.com/symbols/SZSE-300949/",
+     "price": "CN\u00a535.58",
+     "chg": "+20.00%",
+     "vol": "12.15M"
+    },
+    {
+     "name": "Dongguan Tarry Electronics Co., Ltd. Class A (300976)",
+     "url": "https://www.tradingview.com/symbols/SZSE-300976/",
+     "price": "CN\u00a553.40",
+     "chg": "+20.00%",
+     "vol": "11.54M"
+    },
+    {
+     "name": "Jiangsu Beiren Smart Manufacturing Technology Co., Ltd. Class A (688218)",
+     "url": "https://www.tradingview.com/symbols/SSE-688218/",
+     "price": "CN\u00a540.20",
+     "chg": "+15.98%",
+     "vol": "11.3M"
     },
     {
      "name": "China Post Technology Co., Ltd. Class A (688648)",
      "url": "https://www.tradingview.com/symbols/SSE-688648/",
-     "price": "CN\u00a530.10",
-     "chg": "+12.78%",
-     "vol": "8.59M"
+     "price": "CN\u00a534.66",
+     "chg": "+20.01%",
+     "vol": "9.84M"
     },
     {
-     "name": "Shanghai Model Organisms Center, Inc. Class A (688265)",
-     "url": "https://www.tradingview.com/symbols/SSE-688265/",
-     "price": "CN\u00a560.07",
-     "chg": "+13.94%",
-     "vol": "5M"
+     "name": "Pan Asian Microvent Tech (Jiangsu) Corporation Class A (688386)",
+     "url": "https://www.tradingview.com/symbols/SSE-688386/",
+     "price": "CN\u00a546.56",
+     "chg": "+20.00%",
+     "vol": "9.09M"
+    },
+    {
+     "name": "Shenzhen Longtech Smart Control Co. Ltd. Class A (300916)",
+     "url": "https://www.tradingview.com/symbols/SZSE-300916/",
+     "price": "CN\u00a534.27",
+     "chg": "+19.99%",
+     "vol": "8.67M"
+    },
+    {
+     "name": "Jiangsu Huayang Intelligent Equipment Co Ltd. Class A (301502)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301502/",
+     "price": "CN\u00a577.76",
+     "chg": "+20.00%",
+     "vol": "8.28M"
+    },
+    {
+     "name": "Zhuhai Kles Technology Co., Ltd. Class A (301314)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301314/",
+     "price": "CN\u00a556.14",
+     "chg": "+20.01%",
+     "vol": "793.13K"
     }
    ],
    "losers": [
     {
-     "name": "Shandong Nanshan Aluminium Co., Ltd. Class A (600219)",
-     "url": "https://www.tradingview.com/symbols/SSE-600219/",
-     "price": "CN\u00a54.30",
-     "chg": "-11.52%",
-     "vol": "287.19M"
+     "name": "Chaozhou Three-Circle (Group) Co., Ltd. Class A (300408)",
+     "url": "https://www.tradingview.com/symbols/SZSE-300408/",
+     "price": "CN\u00a582.59",
+     "chg": "-12.13%",
+     "vol": "71.23M"
     },
     {
-     "name": "Hebei Jianxin Chemical Industry Co., Ltd. Class A (300107)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300107/",
-     "price": "CN\u00a57.94",
-     "chg": "-11.97%",
-     "vol": "92.07M"
+     "name": "Jiangsu Jingxue Insulation Technology Co., Ltd. Class A (301010)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301010/",
+     "price": "CN\u00a519.19",
+     "chg": "-12.37%",
+     "vol": "15.01M"
     },
     {
-     "name": "Jiangxi Fushine Pharmaceutical Co., Ltd. Class A (300497)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300497/",
-     "price": "CN\u00a514.18",
-     "chg": "-14.89%",
-     "vol": "72.57M"
+     "name": "Shanghai Bright Power Semiconductor Co., Ltd. Class A (688368)",
+     "url": "https://www.tradingview.com/symbols/SSE-688368/",
+     "price": "CN\u00a591.16",
+     "chg": "-13.97%",
+     "vol": "14.41M"
     },
     {
-     "name": "Doushen (Beijing) Education & Technology Inc. Class A (300010)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300010/",
-     "price": "CN\u00a54.04",
-     "chg": "-10.42%",
-     "vol": "66.75M"
+     "name": "Sanhe Tongfei Refrigeration Co., Ltd. Class A (300990)",
+     "url": "https://www.tradingview.com/symbols/SZSE-300990/",
+     "price": "CN\u00a583.59",
+     "chg": "-16.40%",
+     "vol": "11.46M"
     },
     {
-     "name": "Suzhou Shijing Environmental Technology Co., Ltd. Class A (301030)",
-     "url": "https://www.tradingview.com/symbols/SZSE-301030/",
-     "price": "CN\u00a54.58",
-     "chg": "-13.91%",
-     "vol": "26.18M"
+     "name": "Linktel Technologies Co., Ltd. Class A (301205)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301205/",
+     "price": "CN\u00a5235.59",
+     "chg": "-15.71%",
+     "vol": "11.19M"
     },
     {
-     "name": "Zhejiang Whyis Technology Co., Ltd. Class A (301218)",
-     "url": "https://www.tradingview.com/symbols/SZSE-301218/",
-     "price": "CN\u00a560.69",
-     "chg": "-12.09%",
-     "vol": "19.32M"
+     "name": "HCR Co., Ltd. Class A (688500)",
+     "url": "https://www.tradingview.com/symbols/SSE-688500/",
+     "price": "CN\u00a536.74",
+     "chg": "-14.56%",
+     "vol": "10.8M"
     },
     {
-     "name": "Huaxin Resources Technology Co., Ltd. Class A (301265)",
-     "url": "https://www.tradingview.com/symbols/SZSE-301265/",
-     "price": "CN\u00a519.86",
-     "chg": "-12.20%",
-     "vol": "13.19M"
+     "name": "China Southern Power Grid Technology Co., Ltd. Class A (688248)",
+     "url": "https://www.tradingview.com/symbols/SSE-688248/",
+     "price": "CN\u00a539.20",
+     "chg": "-16.42%",
+     "vol": "10.28M"
     },
     {
-     "name": "Yoantion Industrial Inc. Ltd. Class A (301053)",
-     "url": "https://www.tradingview.com/symbols/SZSE-301053/",
-     "price": "CN\u00a525.14",
-     "chg": "-20.01%",
-     "vol": "9.86M"
+     "name": "DapuStor Corporation Class A (301666)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301666/",
+     "price": "CN\u00a5337.00",
+     "chg": "-13.66%",
+     "vol": "8.66M"
     },
     {
-     "name": "Shenzhen BSC Technology Co., Ltd. Class A (300951)",
-     "url": "https://www.tradingview.com/symbols/SZSE-300951/",
-     "price": "CN\u00a561.38",
-     "chg": "-12.23%",
-     "vol": "7.81M"
+     "name": "Nanya New Material Technology Co., Ltd. Class A (688519)",
+     "url": "https://www.tradingview.com/symbols/SSE-688519/",
+     "price": "CN\u00a5213.60",
+     "chg": "-12.49%",
+     "vol": "7.56M"
     },
     {
-     "name": "Guangdong Greenway Technology Co., Ltd. Class A (688345)",
-     "url": "https://www.tradingview.com/symbols/SSE-688345/",
-     "price": "CN\u00a547.84",
-     "chg": "-12.68%",
-     "vol": "5.27M"
+     "name": "SHENZHEN HFC CO LTD (301716)",
+     "url": "https://www.tradingview.com/symbols/SZSE-301716/",
+     "price": "CN\u00a5419.97",
+     "chg": "-14.47%",
+     "vol": "2.78M"
     }
    ]
   },
   {
    "key": "us",
    "title": "US Top Performers",
-   "caption": "Source: Yahoo Finance US market movers, captured Friday 16 October 2026 at 08:01 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
-   "fetched": "2026-10-16T08:01:07+11:00",
+   "caption": "Source: Yahoo Finance US market movers, captured Tuesday 27 October 2026 at 07:06 AEST, covering the ET session most recently published at that time. Share volumes as reported by Yahoo Finance.",
+   "fetched": "2026-10-27T07:06:02+11:00",
    "stale": false,
-   "gainer_note": "Haemonetics Corporation led the US board for the session, up 17.46 per cent to $119.47 on reported volume of 2.765M shares. Reported alongside the move, Yahoo! Finance Canada on 15 October 2026:",
+   "gainer_note": "Surgery Partners, Inc. led the US board for the session, up 47.62 per cent to $23.25 on reported volume of 57.459M shares. Reported alongside the move, Benzinga on 27 October 2026:",
    "gainer_note_sources": [
     {
-     "title": "Haemonetics Corporation (HAE) Stock Forecasts - Yahoo! Finance Canada",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQjM3akpTTFZLTzZ5Rm13NG8wSEpDNzFLY0RwZ0FQdlVYYmJINFdRTGs1SDlCN2czbGVpdng2N1Ftbll1b2VudHRhajZrUGg3endMM0NRWFBjZXJOclZtdmMtdG53ME5OcGM2T045bURuLWZ5Q0RDZnpNZHlGS1hrTUFkbWhjempDYWc0QWNHOWQyUW8?oc=5",
-     "publisher": "Yahoo! Finance Canada",
-     "published": "2026-10-15T15:03:50+11:00"
+     "title": "Surgery Partners Surges as $5.7 Billion Deal Takes Company Private - Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSDZWeXhPTDlJWHNIeTRXdnBKaS1mTUItZnJnUThCVWYzcUFuRGRieFR2N0MtajRVM05CWEFzUjE2SG1Pc0tsal9JSDlZc2daN2p2ZG9OdENxeDR1a2Q1aW5JZWxYOWpjdHhyX0J6NkQ5R0RIaEhYQnJjbHlPc0ZJNjgzX25ial9DQTF3eV9tRllLNlRaWHJOTWljOThWWVRaMHVoNVIxOVozUTRRcUE?oc=5",
+     "publisher": "Benzinga",
+     "published": "2026-10-27T04:05:22+11:00"
     }
    ],
-   "loser_note": "Applied Optoelectronics, Inc. was the steepest decliner on the US board for the session, down 13.58 per cent to $105.90 on reported volume of 19.14M shares. Reported alongside the move, Stock Titan on 16 October 2026:",
+   "loser_note": "XP Inc. was the steepest decliner on the US board for the session, down 48.36 per cent to $15.70 on reported volume of 130.39M shares. Reported alongside the move, Seeking Alpha on 27 October 2026:",
    "loser_note_sources": [
     {
-     "title": "A Nov. 5 call will cover Applied Optoelectronics' third-quarter results and next-quarter outlook. - Stock Titan",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEJZY0M1Z2dRQkxNazc3Z3F4czIwZDlqUFFUeHRpQ3RxaFl4SWI0ZEVPenlCak5qRkdxV3NvcE9xT0xGem91Tmh2YTRUZVhqLUR3TkdNMVBJdTRLMGw4YnhLc0xZdTdSVklOYml3bDFrSEp1a2tmLXctb3BYYzk5QUgwcndQOUJ3dWVlUnFRTFdBVGFIanV2djVIYW9HUDdqRFl3ODdLM3owOUhIcjk4NktpWnlwQQ?oc=5",
-     "publisher": "Stock Titan",
-     "published": "2026-10-16T07:10:00+11:00"
+     "title": "XP Inc.: The Future Was Priced In - Then Brazil Happened (NASDAQ:XP) - Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXZRdWVvSHFqWlM3dUlwXzlXSGNRSkg2bFRqSVg2amk5dUJjZFBjTHlrMmdIM2ZJU1RqUURTZkk5M1RUemZjTHZXWmUzUlcyVlRpZ3M0ai1NWXo2Wl9zWGIzMHVVRkhoRFFBWWNWcDVJTUxtWkxRbUo5eDNFMm1ocHlROFQ0NEQtZ3ZjamRaN0tZandsN0gxbQ?oc=5",
+     "publisher": "Seeking Alpha",
+     "published": "2026-10-27T06:30:35+11:00"
     }
    ],
    "gainers": [
     {
-     "name": "Erasca, Inc. (ERAS)",
-     "url": "https://finance.yahoo.com/quote/ERAS/",
-     "price": "$15.46",
-     "chg": "+9.49%",
-     "vol": "9.533M"
+     "name": "Surgery Partners, Inc. (SGRY)",
+     "url": "https://finance.yahoo.com/quote/SGRY/",
+     "price": "$23.25",
+     "chg": "+47.62%",
+     "vol": "57.459M"
     },
     {
-     "name": "CoStar Group, Inc. (CSGP)",
-     "url": "https://finance.yahoo.com/quote/CSGP/",
-     "price": "$29.81",
-     "chg": "+8.01%",
-     "vol": "9.467M"
+     "name": "Range Resources Corporation (RRC)",
+     "url": "https://finance.yahoo.com/quote/RRC/",
+     "price": "$53.54",
+     "chg": "+17.62%",
+     "vol": "24.682M"
     },
     {
-     "name": "Zillow Group, Inc. (Z)",
-     "url": "https://finance.yahoo.com/quote/Z/",
-     "price": "$29.17",
-     "chg": "+6.93%",
-     "vol": "9.134M"
+     "name": "Innio N.V. (INIO)",
+     "url": "https://finance.yahoo.com/quote/INIO/",
+     "price": "$16.67",
+     "chg": "+9.57%",
+     "vol": "10.362M"
     },
     {
-     "name": "Securitize Corp. (SECZ)",
-     "url": "https://finance.yahoo.com/quote/SECZ/",
-     "price": "$12.66",
-     "chg": "+11.05%",
-     "vol": "7.461M"
-    },
-    {
-     "name": "Flutter Entertainment plc (FLUT)",
-     "url": "https://finance.yahoo.com/quote/FLUT/",
-     "price": "$81.58",
-     "chg": "+7.55%",
-     "vol": "3.666M"
-    },
-    {
-     "name": "Veradermics, Incorporated (MANE)",
-     "url": "https://finance.yahoo.com/quote/MANE/",
-     "price": "$126.63",
-     "chg": "+14.13%",
-     "vol": "3.49M"
-    },
-    {
-     "name": "Haemonetics Corporation (HAE)",
-     "url": "https://finance.yahoo.com/quote/HAE/",
-     "price": "$119.47",
-     "chg": "+17.46%",
-     "vol": "2.765M"
-    },
-    {
-     "name": "The Vita Coco Company, Inc. (COCO)",
-     "url": "https://finance.yahoo.com/quote/COCO/",
-     "price": "$55.98",
-     "chg": "+10.52%",
-     "vol": "2.24M"
-    },
-    {
-     "name": "Okeanis Eco Tankers Corp. (ECO)",
-     "url": "https://finance.yahoo.com/quote/ECO/",
-     "price": "$94.44",
-     "chg": "+7.27%",
-     "vol": "1.024M"
-    },
-    {
-     "name": "Regencell Bioscience Holdings Limited (RGC)",
-     "url": "https://finance.yahoo.com/quote/RGC/",
-     "price": "$7.63",
-     "chg": "+7.31%",
-     "vol": "223,257"
-    }
-   ],
-   "losers": [
-    {
-     "name": "Riot Platforms, Inc. (RIOT)",
-     "url": "https://finance.yahoo.com/quote/RIOT/",
-     "price": "$16.84",
-     "chg": "-9.17%",
-     "vol": "30.572M"
-    },
-    {
-     "name": "Applied Optoelectronics, Inc. (AAOI)",
-     "url": "https://finance.yahoo.com/quote/AAOI/",
-     "price": "$105.90",
-     "chg": "-13.58%",
-     "vol": "19.14M"
-    },
-    {
-     "name": "EquipmentShare.com Inc. (EQPT)",
-     "url": "https://finance.yahoo.com/quote/EQPT/",
-     "price": "$15.66",
-     "chg": "-11.43%",
-     "vol": "10.802M"
-    },
-    {
-     "name": "Hut 8 Corp. (HUT)",
-     "url": "https://finance.yahoo.com/quote/HUT/",
-     "price": "$79.59",
-     "chg": "-10.87%",
-     "vol": "10.273M"
+     "name": "Xencor, Inc. (XNCR)",
+     "url": "https://finance.yahoo.com/quote/XNCR/",
+     "price": "$29.18",
+     "chg": "+15.89%",
+     "vol": "8.607M"
     },
     {
      "name": "AXT, Inc. (AXTI)",
      "url": "https://finance.yahoo.com/quote/AXTI/",
-     "price": "$71.66",
-     "chg": "-10.19%",
-     "vol": "10.071M"
+     "price": "$56.27",
+     "chg": "+8.05%",
+     "vol": "7.559M"
     },
     {
-     "name": "Coherent Corp. (COHR)",
-     "url": "https://finance.yahoo.com/quote/COHR/",
-     "price": "$302.35",
-     "chg": "-9.63%",
-     "vol": "9.21M"
+     "name": "Tenable Holdings, Inc. (TENB)",
+     "url": "https://finance.yahoo.com/quote/TENB/",
+     "price": "$48.21",
+     "chg": "+8.12%",
+     "vol": "6.118M"
     },
     {
-     "name": "Astera Labs, Inc. (ALAB)",
-     "url": "https://finance.yahoo.com/quote/ALAB/",
-     "price": "$347.05",
-     "chg": "-9.21%",
-     "vol": "6.418M"
+     "name": "Lumentum Holdings Inc. (LITE)",
+     "url": "https://finance.yahoo.com/quote/LITE/",
+     "price": "$818.18",
+     "chg": "+8.20%",
+     "vol": "5.685M"
     },
     {
-     "name": "MaxLinear, Inc. (MXL)",
-     "url": "https://finance.yahoo.com/quote/MXL/",
-     "price": "$93.70",
-     "chg": "-12.72%",
-     "vol": "4.008M"
+     "name": "Oruka Therapeutics, Inc. (ORKA)",
+     "url": "https://finance.yahoo.com/quote/ORKA/",
+     "price": "$90.33",
+     "chg": "+12.70%",
+     "vol": "1.931M"
     },
     {
-     "name": "argenx SE (ARGX)",
-     "url": "https://finance.yahoo.com/quote/ARGX/",
-     "price": "$818.63",
-     "chg": "-11.83%",
-     "vol": "2.454M"
+     "name": "Viasat, Inc. (VSAT)",
+     "url": "https://finance.yahoo.com/quote/VSAT/",
+     "price": "$66.43",
+     "chg": "+8.08%",
+     "vol": "1.521M"
     },
     {
-     "name": "Silicon Motion Technology Corporation (SIMO)",
-     "url": "https://finance.yahoo.com/quote/SIMO/",
-     "price": "$261.89",
-     "chg": "-8.36%",
-     "vol": "865,501"
+     "name": "Vicor Corporation (VICR)",
+     "url": "https://finance.yahoo.com/quote/VICR/",
+     "price": "$194.77",
+     "chg": "+10.64%",
+     "vol": "803,561"
+    }
+   ],
+   "losers": [
+    {
+     "name": "Nu Holdings Ltd. (NU)",
+     "url": "https://finance.yahoo.com/quote/NU/",
+     "price": "$12.58",
+     "chg": "-17.01%",
+     "vol": "330.683M"
+    },
+    {
+     "name": "Ita\u00fa Unibanco Holding S.A. (ITUB)",
+     "url": "https://finance.yahoo.com/quote/ITUB/",
+     "price": "$7.69",
+     "chg": "-20.50%",
+     "vol": "135.421M"
+    },
+    {
+     "name": "XP Inc. (XP)",
+     "url": "https://finance.yahoo.com/quote/XP/",
+     "price": "$15.70",
+     "chg": "-48.36%",
+     "vol": "130.39M"
+    },
+    {
+     "name": "Petr\u00f3leo Brasileiro S.A. - Petrobras (PBR)",
+     "url": "https://finance.yahoo.com/quote/PBR/",
+     "price": "$22.49",
+     "chg": "-14.05%",
+     "vol": "99.595M"
+    },
+    {
+     "name": "Petr\u00f3leo Brasileiro S.A. - Petrobras (PBR-A)",
+     "url": "https://finance.yahoo.com/quote/PBR-A/",
+     "price": "$19.92",
+     "chg": "-15.36%",
+     "vol": "40.077M"
+    },
+    {
+     "name": "PagSeguro Digital Ltd. (PAGS)",
+     "url": "https://finance.yahoo.com/quote/PAGS/",
+     "price": "$8.53",
+     "chg": "-25.39%",
+     "vol": "17.912M"
+    },
+    {
+     "name": "Ultrapar Participa\u00e7\u00f5es S.A. (UGP)",
+     "url": "https://finance.yahoo.com/quote/UGP/",
+     "price": "$6.55",
+     "chg": "-15.36%",
+     "vol": "13.275M"
+    },
+    {
+     "name": "Companhia Paranaense de Energia (ELPC)",
+     "url": "https://finance.yahoo.com/quote/ELPC/",
+     "price": "$11.19",
+     "chg": "-19.52%",
+     "vol": "4.669M"
+    },
+    {
+     "name": "Fair Isaac Corporation (FICO)",
+     "url": "https://finance.yahoo.com/quote/FICO/",
+     "price": "$707.33",
+     "chg": "-13.24%",
+     "vol": "2.355M"
+    },
+    {
+     "name": "Engie Brasil Energia S.A. (EGIEY)",
+     "url": "https://finance.yahoo.com/quote/EGIEY/",
+     "price": "$5.18",
+     "chg": "-23.03%",
+     "vol": "46,482"
     }
    ]
   },
   {
    "key": "uk",
    "title": "UK (London) Top Performers",
-   "caption": "Source: TradingView United Kingdom market movers, captured Friday 16 October 2026 at 08:01 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
-   "fetched": "2026-10-16T08:01:07+11:00",
+   "caption": "Source: TradingView United Kingdom market movers, captured Tuesday 27 October 2026 at 07:06 AEST, covering the BST session most recently published at that time. Prices quoted in pence (GBX) as displayed by the exchange. Smaller caps may be Aquis-listed rather than LSE main market.",
+   "fetched": "2026-10-27T07:06:02+11:00",
    "stale": false,
-   "gainer_note": "Blackbird PLC led the UK (London) board for the session, up 47.83 per cent to 3.40p on reported volume of 14.94M shares. Reported alongside the move, Simply Wall Street on 15 October 2026:",
+   "gainer_note": "Pensana Plc led the UK (London) board for the session, up 28.55 per cent to 47.05p on reported volume of 3.57M shares. Reported alongside the move, London South East on 26 October 2026:",
    "gainer_note_sources": [
     {
-     "title": "Blackbird And 2 Other UK Penny Stocks To Watch Closely - Simply Wall Street",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYUd5N25lMWJEX0s1WkZ3RHNScTBiak1kS1NUc200QXJ6X1NhRnlsbDJwSEJpYlUzRHZtcHh4R3Q1djcyMUJkZ3hyUllBS04xTTdXM3dCUzhJTTNnV1J5V3NZTUpIMVlhbkVya3N3ak81bHlPajNKVFl6WXRaMy1NSEdEcGU1bC1JTWlzTG5IT1V2Rm5KWFdwelhScFNKdzlqRm9CdUd4dlhiaWRFcWljWFJXTEcwalZ3aW5jdFRBc0NLVHlaT3dJ0gHMAUFVX3lxTE1GbzNzUU5vNzZSQkROQy14SHByMUw3TzdDVmJDT0hpZU90ZGRuRExkYWtMRVJFRXRmSXc4MGxXejNRS00yaHRtbkZCQzVlYzVmU3otbE5MVzY3SzlzbzAzX253Q0RwcWMtNU83SUxBeTVncDRQRV9Wc3c5R3EyZXkxVkRqc05teHU0b1d5aEVwUUl1S2J5U0ZVNmZYT1VBbG50WG1yUE1UTm0tWlY2N0d3NW5hNHdkc1FOLXNqZDJhaUhVNFZ0dzNwaDdYcg?oc=5",
-     "publisher": "Simply Wall Street",
-     "published": "2026-10-15T00:11:11+11:00"
+     "title": "Pensana Regulatory News. Live PRE RNS. Regulatory News Articles for Pensana Plc Ord 0.001 - London South East",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRE10Sm85bUU5a190OENDWkVtMkdsQ05VMmV3Vlg3YUtRODlNaUp4dGEzQ3A5eE9DWlNkdHpHSndTNV84RTlFaTh5eWJnQWFlaVJ3MHUzbS1oVlZDWVZ2RVdOSkF5ZEt6bjJ4TzhIVmhNeVZlZzJaZmFJcmFIVFppN2hyZ2dCYmhDMmFLTl9QaTROdkFnSHc?oc=5",
+     "publisher": "London South East",
+     "published": "2026-10-26T22:05:54+11:00"
     }
    ],
-   "loser_note": "Fusion Antibodies Plc was the steepest decliner on the UK (London) board for the session, down 37.95 per cent to 6.05p on reported volume of 8.13M shares. Reported alongside the move, Yahoo Finance UK on 15 October 2026:",
+   "loser_note": "Sareum Holdings plc was the steepest decliner on the UK (London) board for the session, down 40.00 per cent to 16.5p on reported volume of 3.67M shares. Reported alongside the move, Yahoo Finance UK on 26 October 2026:",
    "loser_note_sources": [
     {
-     "title": "Fusion Antibodies shares fall 41% as difficult market conditions hit performance - Yahoo Finance UK",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb1hTU1BaQUhzR0hNMGFFWS1USC1SMTlXeWtGbW00elJsQ1lScXdTSXVXUGJIYThRblgwRmhPa3dzMTZ4TVJ3R2wtN3lVYnhNMEFxeXNqbmpMZjdvdTNJZHhEYXQzT3I2UkZtQVRrNnlLR1hoY00zN1dvMXRlVFFVWVZROTNVNEs2?oc=5",
+     "title": "Sareum shares plunge as much as 49% after discounted \u00a33.2 million fundraise - Yahoo Finance UK",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMmRqc280UjlJR05HaTRDS3lBdXpEc1c2Y2pFbE85Y25KVEw1Y3NQdmpWWFBwMVEyaWtHVmZoSmc3UFVuTWs1TGFqaEVWbkZzSFVxdGJ0bVAzazJtT29mQTM4SXpTNjQxbXpHbFhzYks5MWtKVktnQ2c1SUU1cWl5blh4NA?oc=5",
      "publisher": "Yahoo Finance UK",
-     "published": "2026-10-15T21:00:00+11:00"
+     "published": "2026-10-26T21:00:00+11:00"
     }
    ],
    "gainers": [
     {
-     "name": "THG Plc (THG)",
-     "url": "https://www.tradingview.com/symbols/LSE-THG/",
-     "price": "32.00p",
-     "chg": "+16.28%",
-     "vol": "23.2M"
+     "name": "Kendrick Resources PLC (KEN)",
+     "url": "https://www.tradingview.com/symbols/LSE-KEN/",
+     "price": "4.85p",
+     "chg": "+21.25%",
+     "vol": "5.13M"
     },
     {
-     "name": "Thruvision Group PLC (THRU)",
-     "url": "https://www.tradingview.com/symbols/LSE-THRU/",
-     "price": "2.150p",
-     "chg": "+26.47%",
-     "vol": "17.45M"
+     "name": "Atlantic Lithium Limited. (ALL)",
+     "url": "https://www.tradingview.com/symbols/LSE-ALL/",
+     "price": "16.00p",
+     "chg": "+15.11%",
+     "vol": "4.12M"
+    },
+    {
+     "name": "Helix Exploration Plc (HEX)",
+     "url": "https://www.tradingview.com/symbols/LSE-HEX/",
+     "price": "29.95p",
+     "chg": "+9.91%",
+     "vol": "3.64M"
+    },
+    {
+     "name": "Pensana Plc (PRE)",
+     "url": "https://www.tradingview.com/symbols/LSE-PRE/",
+     "price": "47.05p",
+     "chg": "+28.55%",
+     "vol": "3.57M"
+    },
+    {
+     "name": "Petra Diamonds Limited (PDL)",
+     "url": "https://www.tradingview.com/symbols/LSE-PDL/",
+     "price": "3.09p",
+     "chg": "+18.65%",
+     "vol": "2.89M"
     },
     {
      "name": "Blackbird PLC (BIRD)",
      "url": "https://www.tradingview.com/symbols/LSE-BIRD/",
-     "price": "3.40p",
-     "chg": "+47.83%",
-     "vol": "14.94M"
+     "price": "3.55p",
+     "chg": "+12.70%",
+     "vol": "1.74M"
     },
     {
      "name": "Critical Metals Plc (CRTM)",
      "url": "https://www.tradingview.com/symbols/LSE-CRTM/",
-     "price": "58.5p",
-     "chg": "+20.87%",
-     "vol": "2.87M"
+     "price": "96.0p",
+     "chg": "+17.07%",
+     "vol": "721.16K"
     },
     {
-     "name": "Ajax Resources PLC (AJAX)",
-     "url": "https://www.tradingview.com/symbols/AQUIS-AJAX/",
-     "price": "8.000p",
-     "chg": "+14.29%",
-     "vol": "1.33M"
+     "name": "Computacenter Plc (CCC)",
+     "url": "https://www.tradingview.com/symbols/LSE-CCC/",
+     "price": "5,190p",
+     "chg": "+13.07%",
+     "vol": "549.1K"
     },
     {
-     "name": "TPXimpact Holdings PLC (TPX)",
-     "url": "https://www.tradingview.com/symbols/LSE-TPX/",
-     "price": "95.0p",
-     "chg": "+17.28%",
-     "vol": "1.22M"
+     "name": "Iofina plc (IOF)",
+     "url": "https://www.tradingview.com/symbols/LSE-IOF/",
+     "price": "51.2p",
+     "chg": "+8.94%",
+     "vol": "353.57K"
     },
     {
-     "name": "ProCook Group PLC (PROC)",
-     "url": "https://www.tradingview.com/symbols/LSE-PROC/",
-     "price": "47.0p",
-     "chg": "+11.90%",
-     "vol": "77.85K"
-    },
-    {
-     "name": "Blue Star Capital Plc (BLU)",
-     "url": "https://www.tradingview.com/symbols/LSE-BLU/",
-     "price": "4.50p",
-     "chg": "+12.50%",
-     "vol": "69.22K"
-    },
-    {
-     "name": "Primorus Investments PLC (PRIM)",
-     "url": "https://www.tradingview.com/symbols/LSE-PRIM/",
-     "price": "3.40p",
-     "chg": "+11.84%",
-     "vol": "18.45K"
-    },
-    {
-     "name": "Time To ACT Plc (TTA)",
-     "url": "https://www.tradingview.com/symbols/AQUIS-TTA/",
-     "price": "31.875p",
-     "chg": "+20.28%",
-     "vol": "0"
+     "name": "AIQ Limited (AIQ)",
+     "url": "https://www.tradingview.com/symbols/LSE-AIQ/",
+     "price": "7.00p",
+     "chg": "+16.67%",
+     "vol": "45.91K"
     }
    ],
    "losers": [
     {
-     "name": "IQE plc (IQE)",
-     "url": "https://www.tradingview.com/symbols/LSE-IQE/",
-     "price": "39.35p",
-     "chg": "-10.77%",
-     "vol": "45.07M"
+     "name": "Georgina Energy plc (GEX)",
+     "url": "https://www.tradingview.com/symbols/LSE-GEX/",
+     "price": "8.35p",
+     "chg": "-11.17%",
+     "vol": "10.97M"
     },
     {
-     "name": "Fusion Antibodies Plc (FAB)",
-     "url": "https://www.tradingview.com/symbols/LSE-FAB/",
-     "price": "6.05p",
-     "chg": "-37.95%",
-     "vol": "8.13M"
-    },
-    {
-     "name": "Ceres Power Holdings plc (CWR)",
-     "url": "https://www.tradingview.com/symbols/LSE-CWR/",
-     "price": "311.8p",
-     "chg": "-15.82%",
-     "vol": "6.15M"
-    },
-    {
-     "name": "EnergyPathways plc (EPP)",
-     "url": "https://www.tradingview.com/symbols/LSE-EPP/",
-     "price": "5.15p",
-     "chg": "-10.59%",
-     "vol": "5M"
+     "name": "Sareum Holdings plc (SAR)",
+     "url": "https://www.tradingview.com/symbols/LSE-SAR/",
+     "price": "16.5p",
+     "chg": "-40.00%",
+     "vol": "3.67M"
     },
     {
      "name": "Filtronic plc (FTC)",
      "url": "https://www.tradingview.com/symbols/LSE-FTC/",
-     "price": "251.0p",
-     "chg": "-9.71%",
-     "vol": "1.28M"
+     "price": "220.0p",
+     "chg": "-10.20%",
+     "vol": "1.87M"
     },
     {
-     "name": "SEEEN Plc (SEEN)",
-     "url": "https://www.tradingview.com/symbols/LSE-SEEN/",
-     "price": "5.00p",
-     "chg": "-9.09%",
-     "vol": "469.82K"
+     "name": "Cirata Plc (CRTA)",
+     "url": "https://www.tradingview.com/symbols/LSE-CRTA/",
+     "price": "4.70p",
+     "chg": "-13.28%",
+     "vol": "635.99K"
     },
     {
-     "name": "Jarvis Securities plc (JIM)",
-     "url": "https://www.tradingview.com/symbols/LSE-JIM/",
-     "price": "6.50p",
-     "chg": "-13.33%",
-     "vol": "236.88K"
+     "name": "KR1 Plc (KR1)",
+     "url": "https://www.tradingview.com/symbols/LSE-KR1/",
+     "price": "20.2p",
+     "chg": "-17.55%",
+     "vol": "472.21K"
     },
     {
-     "name": "Malvern International plc (MLVN)",
-     "url": "https://www.tradingview.com/symbols/LSE-MLVN/",
-     "price": "14.5p",
-     "chg": "-12.12%",
-     "vol": "73.78K"
+     "name": "Roundhouse AI LTD (RHAI)",
+     "url": "https://www.tradingview.com/symbols/LSE-RHAI/",
+     "price": "6.250p",
+     "chg": "-13.79%",
+     "vol": "288.66K"
     },
     {
-     "name": "HemoGenyx Pharmaceuticals Plc (HEMO)",
-     "url": "https://www.tradingview.com/symbols/LSE-HEMO/",
-     "price": "614p",
-     "chg": "-13.52%",
-     "vol": "35.64K"
+     "name": "Alkemy Capital Investments Plc (ALK)",
+     "url": "https://www.tradingview.com/symbols/LSE-ALK/",
+     "price": "208p",
+     "chg": "-9.98%",
+     "vol": "232.42K"
     },
     {
-     "name": "SulNOx Group PLC (SNOX)",
-     "url": "https://www.tradingview.com/symbols/AQUIS-SNOX/",
-     "price": "31.100p",
-     "chg": "-11.14%",
-     "vol": "5.6K"
+     "name": "Fiinu Plc (BANK)",
+     "url": "https://www.tradingview.com/symbols/LSE-BANK/",
+     "price": "2.25p",
+     "chg": "-10.00%",
+     "vol": "213.37K"
+    },
+    {
+     "name": "Diales Group PLC (DIAL)",
+     "url": "https://www.tradingview.com/symbols/LSE-DIAL/",
+     "price": "29.5p",
+     "chg": "-9.23%",
+     "vol": "184.56K"
+    },
+    {
+     "name": "Safestay Plc (SSTY)",
+     "url": "https://www.tradingview.com/symbols/LSE-SSTY/",
+     "price": "6.00p",
+     "chg": "-29.41%",
+     "vol": "18.64K"
     }
    ]
   }

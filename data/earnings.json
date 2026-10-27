@@ -3,43 +3,88 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "A single verifiable earnings item was found for ANZ this run: Zip Co Reaffirms Full-Year Earnings Target on Surging US Transactions. No newer earnings item has been reported for ANZ since the last edition, so the same verified item(s) are carried forward.",
-   "fresh_count": 0,
+   "summary": "ANZ earnings reporting activity captured this run runs to 2 items, led by Beforepay Posts Record Revenue as Quarterly Cash Profit Climbs 58%. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "Zip Co Reaffirms Full-Year Earnings Target on Surging US Transactions",
-     "detail": "Zip Co reaffirmed its $340m FY27 earnings target as Q1 transactions surged 18% to $4.6b, despite a $10.1m US fraud hit.",
-     "url": "https://smallcaps.com.au/article/zip-co-reaffirms-dollar340m-earnings-target-on-surging-us-transactions",
+     "headline": "Beforepay Posts Record Revenue as Quarterly Cash Profit Climbs 58%",
+     "detail": "Beforepay posts record first-quarter revenue of $16.5m, up 45%, as cash profit jumps 58% to $5.7m.",
+     "url": "https://smallcaps.com.au/article/beforepay-group-posts-record-revenue-as-quarterly-cash-profit-climbs-58percent",
      "outlet": "Small Caps",
      "source_url": "https://smallcaps.com.au/feed",
-     "published": "2026-10-23T03:36:28+00:00",
-     "fetched": "2026-10-26T00:20:16+00:00"
+     "published": "2026-10-26T03:01:22+00:00",
+     "fetched": "2026-10-26T20:07:57+00:00"
+    },
+    {
+     "headline": "Pureprofile Posts Record Quarterly Revenue as Platform Sales Double",
+     "detail": "Pureprofile posts record $18.3m quarterly revenue, up 14%, as platform sales more than double and EBITDA jumps 27%.",
+     "url": "https://smallcaps.com.au/article/pureprofile-posts-record-quarterly-revenue-as-platform-sales-double",
+     "outlet": "Small Caps",
+     "source_url": "https://smallcaps.com.au/feed",
+     "published": "2026-10-26T02:05:56+00:00",
+     "fetched": "2026-10-26T20:07:57+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "A single verifiable earnings item was found for Asia (Japan/Singapore/Hong Kong/China) this run: China’s pharmaceutical stocks gain favour amid ‘greater’ progress in innovation. No newer earnings item has been reported for Asia (Japan/Singapore/Hong Kong/China) since the last edition, so the same verified item(s) are carried forward.",
-   "fresh_count": 0,
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by Chinese biotech giant WuXi AppTec raises 2026 outlook after profit surge. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "China’s pharmaceutical stocks gain favour amid ‘greater’ progress in innovation",
-     "detail": "Chinese pharmaceutical companies are ramping up global expansion and the sector, expected to sustain rapid growth in coming third-quarter earnings releases, could see a further lift in market sentiment, analysts said.",
-     "url": "https://www.scmp.com/business/article/3371566/chinas-pharma-stocks-gain-favours-amid-greater-progress-innovative-drugs",
+     "headline": "Chinese biotech giant WuXi AppTec raises 2026 outlook after profit surge",
+     "detail": "WuXi AppTec raised its full-year revenue guidance after its net profit surged 62.4 per cent in the first nine months of 2026, while revenue rose 38.6 per cent on strong demand for its drug development and manufacturing services.",
+     "url": "https://www.scmp.com/business/china-business/article/3372199/chinese-biotech-giant-wuxi-apptec-raises-2026-outlook-after-profit-surge",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-21T01:00:13+00:00",
-     "fetched": "2026-10-26T00:20:58+00:00"
+     "published": "2026-10-26T13:04:15+00:00",
+     "fetched": "2026-10-26T20:07:58+00:00"
+    },
+    {
+     "headline": "Why China’s new estimate on Greenland ice loss speed is 55% lower than America’s",
+     "detail": "Chinese researchers have created a new model to convert satellite surface elevation data for the Greenland Ice Sheet into a detailed estimate of how much ice it has lost in recent decades.",
+     "url": "https://www.scmp.com/news/china/science/article/3372129/why-chinas-new-estimate-greenland-ice-loss-speed-55-lower-americas",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/91/feed",
+     "published": "2026-10-26T10:19:46+00:00",
+     "fetched": "2026-10-26T20:07:59+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Bloom Energy Just Reported—Its Biggest Order Is Still Waiting on a Pipeline. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 5,
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by 5 Insurance Stocks That Are Set for Q3 Earnings Outperformance. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 3,
    "items": [
+    {
+     "headline": "5 Insurance Stocks That Are Set for Q3 Earnings Outperformance",
+     "detail": "Solid retention, renewals, prudent pricing, exposure growth and improved digitization are expected to help RNR, MET, PRI, RYAN and UNM outperform Q3 estimates.",
+     "url": "https://www.nasdaq.com/articles/5-insurance-stocks-are-set-q3-earnings-outperformance",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-26T16:05:00+00:00",
+     "fetched": "2026-10-26T20:08:00+00:00"
+    },
+    {
+     "headline": "Eastern Bankshares Q3 Earnings Call Highlights",
+     "detail": "Eastern Bankshares (NASDAQ:EBC) reported record third-quarter operating earnings as commercial lending growth, expense control and improved credit metrics supported profitability, while management said competition for deposits and…",
+     "url": "https://www.nasdaq.com/articles/eastern-bankshares-q3-earnings-call-highlights",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-23T16:06:06+00:00",
+     "fetched": "2026-10-26T20:08:00+00:00"
+    },
+    {
+     "headline": "Lockheed Martin’s Record $292 Billion Backlog Comes With a Delivery Test",
+     "detail": "Lockheed Martin (NYSE: LMT) reported third-quarter results on Thursday, Oct. 22, and on paper, there was little to complain about.",
+     "url": "https://www.nasdaq.com/articles/lockheed-martins-record-292-billion-backlog-comes-delivery-test",
+     "outlet": "Nasdaq",
+     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+     "published": "2026-10-23T16:05:00+00:00",
+     "fetched": "2026-10-26T20:08:00+00:00"
+    },
     {
      "headline": "Bloom Energy Just Reported—Its Biggest Order Is Still Waiting on a Pipeline",
      "detail": "Bloom Energy’s (NYSE: BE) Q3 earnings report shows strong growth despite uncertainty surrounding Oracle’s (NASDAQ: ORCL) force majeure notice.",
@@ -47,7 +92,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-10-24T15:05:00+00:00",
-     "fetched": "2026-10-26T00:21:01+00:00"
+     "fetched": "2026-10-26T20:08:00+00:00"
     },
     {
      "headline": "What Comfort Systems USA (FIX) Said on Its Q3 Earnings Call",
@@ -56,34 +101,7 @@
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
      "published": "2026-10-23T18:04:54+00:00",
-     "fetched": "2026-10-26T00:21:01+00:00"
-    },
-    {
-     "headline": "Byline Bancorp Q3 Earnings Call Highlights",
-     "detail": "Consumer-Driven Stocks Boost Buybacks, Including Visa's $20B PlanByline Bancorp (NYSE:BY) reported record third-quarter net income and revenue, expanded its net interest margin and increased deposits, while also announcing an agreement to…",
-     "url": "https://www.nasdaq.com/articles/byline-bancorp-q3-earnings-call-highlights",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-23T18:04:52+00:00",
-     "fetched": "2026-10-26T00:21:01+00:00"
-    },
-    {
-     "headline": "Woori Bank Q3 Earnings Call Highlights",
-     "detail": "Big Banks Report Strong Earnings—So Why Are Shares Falling?Woori Financial Group said third-quarter net income rose 4.4% from the prior quarter to KRW 1.0492 trillion, marking its second consecutive quarter above KRW 1 trillion as the…",
-     "url": "https://www.nasdaq.com/articles/woori-bank-q3-earnings-call-highlights",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-23T17:04:39+00:00",
-     "fetched": "2026-10-26T00:21:01+00:00"
-    },
-    {
-     "headline": "What SLB (SLB) Said on Its Q3 Earnings Call",
-     "detail": "SLB’s Kelvion Deal Could Change How Investors Value the Oilfield GiantSLB (NYSE:SLB) reported third-quarter 2026 revenue of $9.45 billion, up 5% sequentially, as growth in the Middle East, North America land and international deepwater…",
-     "url": "https://www.nasdaq.com/articles/what-slb-slb-said-its-q3-earnings-call",
-     "outlet": "Nasdaq",
-     "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-23T17:04:38+00:00",
-     "fetched": "2026-10-26T00:21:01+00:00"
+     "fetched": "2026-10-26T20:08:00+00:00"
     }
    ]
   },

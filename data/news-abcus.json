@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with Appeals court hears arguments in Trump admin's voting suit against California; US Marine indicted in alleged Okinawa robbery homicide; 12 injured, including 6 children, in shooting near Florida university, police say.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with These key Senate races will determine which party controls the body next year; LIVE: ABC News Live; 'Star Trek' actor Walter Koenig dies at 90.",
   "note": null,
   "items": [
    {
-    "headline": "Appeals court hears arguments in Trump admin's voting suit against California",
-    "detail": "A federal appeals court had a rare Sunday hearing in the Justice Department's voting lawsuit against California.",
-    "url": "https://abcnews.go.com/Politics/federal-appeals-court-hear-arguments-trump-administrations-voting/story?id=137546706",
+    "headline": "These key Senate races will determine which party controls the body next year",
+    "detail": "As both parties prepare for the final leg of the campaign, here are some of the most closely watched Senate races.",
+    "url": "https://abcnews.go.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-25T19:48:38-04:00",
-    "fetched": "2026-10-26T00:21:17+00:00"
+    "published": "2026-10-26T14:11:32-04:00",
+    "fetched": "2026-10-26T20:08:15+00:00"
    },
    {
-    "headline": "US Marine indicted in alleged Okinawa robbery homicide",
-    "detail": "A 20-year-old U.S. Marine stationed in Okinawa, Japan, has been indicted on charges murder and robbery.",
-    "url": "https://abcnews.go.com/International/us-marine-indicted-alleged-okinawa-robbery-homicide/story?id=137553792",
+    "headline": "LIVE: ABC News Live",
+    "detail": "24/7 coverage of breaking news and live events",
+    "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-25T14:13:21-04:00",
-    "fetched": "2026-10-26T00:21:17+00:00"
+    "published": "2026-10-26T11:24:55-04:00",
+    "fetched": "2026-10-26T20:08:15+00:00"
    },
    {
-    "headline": "12 injured, including 6 children, in shooting near Florida university, police say",
-    "detail": "At least 11 of those injured had gunshot wounds, police said.",
-    "url": "https://abcnews.go.com/US/12-injured-including-6-children-shooting-florida-university/story?id=137549623",
+    "headline": "'Star Trek' actor Walter Koenig dies at 90",
+    "detail": "Walter Koenig's former co-star, George Takei, mourned his death in a Facebook post on Monday.",
+    "url": "https://abcnews.go.com/GMA/Culture/star-trek-actor-walter-koenig-dies-90/story?id=137576960",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-25T17:19:20-04:00",
-    "fetched": "2026-10-26T00:21:17+00:00"
+    "published": "2026-10-26T15:36:07-04:00",
+    "fetched": "2026-10-26T20:08:15+00:00"
    },
    {
-    "headline": "WATCH: Halloween witches’ world record",
-    "detail": "A total of 184 people set a world record, decked out in pointed hats and witches’ cloaks, 400 feet up on the Orlando Eye.",
-    "url": "https://abcnews.go.com/video/137536016/",
+    "headline": "Anthropic preps for IPO in major step for AI company",
+    "detail": "Anthropic, the company behind chatbot Claude, has been among the leaders in AI development.",
+    "url": "https://abcnews.go.com/Business/anthropic-formally-files-initial-public-stock-offering-major/story?id=137570700",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-24T11:29:53-04:00",
-    "fetched": "2026-10-26T00:21:17+00:00"
+    "published": "2026-10-26T14:51:06-04:00",
+    "fetched": "2026-10-26T20:08:15+00:00"
    },
    {
-    "headline": "WATCH: 2 brothers' Make-A-Wish visit to the Minnesota Vikings",
-    "detail": "The Yang brothers got to visit the Minnesota Vikings for Aiden's Make-A-Wish after his brother, Ryan, became his lifesaving bone marrow donor while battling leukemia.",
-    "url": "https://abcnews.go.com/video/137536103/",
+    "headline": "WATCH: Runners take on NYC Marathon with a mission",
+    "detail": "ABC News’ Lara Spencer shares the story of “Team Inspire” as they prepare to run 26.2 miles across New York City.",
+    "url": "https://abcnews.go.com/video/137568845/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-24T11:33:17-04:00",
-    "fetched": "2026-10-26T00:21:17+00:00"
+    "published": "2026-10-26T11:45:09-04:00",
+    "fetched": "2026-10-26T20:08:15+00:00"
    }
   ]
  }
