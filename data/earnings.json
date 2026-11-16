@@ -3,105 +3,87 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ earnings reporting activity captured this run runs to 2 items, led by Beforepay Posts Record Revenue as Quarterly Cash Profit Climbs 58%. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 2,
+   "summary": "A single verifiable earnings item was found for ANZ this run: Elders Lifts Underlying FY26 Earnings 43% as Delta Ag Adds Scale.",
+   "fresh_count": 1,
    "items": [
     {
-     "headline": "Beforepay Posts Record Revenue as Quarterly Cash Profit Climbs 58%",
-     "detail": "Beforepay posts record first-quarter revenue of $16.5m, up 45%, as cash profit jumps 58% to $5.7m.",
-     "url": "https://smallcaps.com.au/article/beforepay-group-posts-record-revenue-as-quarterly-cash-profit-climbs-58percent",
+     "headline": "Elders Lifts Underlying FY26 Earnings 43% as Delta Ag Adds Scale",
+     "detail": "Elders lifts FY26 underlying EBIT 43% to $187.7m as Delta Ag adds scale, with revenue up 31% and underlying net profit rising 30%.",
+     "url": "https://smallcaps.com.au/article/elders-lifts-underlying-fy26-earnings-43percent-as-delta-ag-adds-scale",
      "outlet": "Small Caps",
      "source_url": "https://smallcaps.com.au/feed",
-     "published": "2026-10-26T03:01:22+00:00",
-     "fetched": "2026-10-26T20:07:57+00:00"
-    },
-    {
-     "headline": "Pureprofile Posts Record Quarterly Revenue as Platform Sales Double",
-     "detail": "Pureprofile posts record $18.3m quarterly revenue, up 14%, as platform sales more than double and EBITDA jumps 27%.",
-     "url": "https://smallcaps.com.au/article/pureprofile-posts-record-quarterly-revenue-as-platform-sales-double",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/feed",
-     "published": "2026-10-26T02:05:56+00:00",
-     "fetched": "2026-10-26T20:07:57+00:00"
+     "published": "2026-11-16T02:29:48+00:00",
+     "fetched": "2026-11-16T06:15:08+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) earnings reporting activity captured this run runs to 2 items, led by Chinese biotech giant WuXi AppTec raises 2026 outlook after profit surge. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 2,
+   "summary": "A single verifiable earnings item was found for Asia (Japan/Singapore/Hong Kong/China) this run: Global trade beats forecasts despite fuel crisis, set to grow in 2027, WTO official says.",
+   "fresh_count": 1,
    "items": [
     {
-     "headline": "Chinese biotech giant WuXi AppTec raises 2026 outlook after profit surge",
-     "detail": "WuXi AppTec raised its full-year revenue guidance after its net profit surged 62.4 per cent in the first nine months of 2026, while revenue rose 38.6 per cent on strong demand for its drug development and manufacturing services.",
-     "url": "https://www.scmp.com/business/china-business/article/3372199/chinese-biotech-giant-wuxi-apptec-raises-2026-outlook-after-profit-surge",
+     "headline": "Global trade beats forecasts despite fuel crisis, set to grow in 2027, WTO official says",
+     "detail": "Global trade is growing beyond economists’ expectations this year and is likely to expand again in 2027 after World Trade Organisation (WTO) members accelerated measures to ease disruptions caused by the Hormuz fuel crisis, a WTO official…",
+     "url": "https://www.scmp.com/economy/global-economy/article/3374544/global-trade-beats-forecasts-despite-fuel-crisis-set-grow-2027-wto-official-says",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-26T13:04:15+00:00",
-     "fetched": "2026-10-26T20:07:58+00:00"
-    },
-    {
-     "headline": "Why China’s new estimate on Greenland ice loss speed is 55% lower than America’s",
-     "detail": "Chinese researchers have created a new model to convert satellite surface elevation data for the Greenland Ice Sheet into a detailed estimate of how much ice it has lost in recent decades.",
-     "url": "https://www.scmp.com/news/china/science/article/3372129/why-chinas-new-estimate-greenland-ice-loss-speed-55-lower-americas",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-26T10:19:46+00:00",
-     "fetched": "2026-10-26T20:07:59+00:00"
+     "published": "2026-11-16T06:00:06+00:00",
+     "fetched": "2026-11-16T06:15:11+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US earnings reporting activity captured this run runs to 5 items, led by 5 Insurance Stocks That Are Set for Q3 Earnings Outperformance. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "US earnings reporting activity captured this run runs to 5 items, led by Elevance Health Targets 12% Earnings Growth in 2027 as Insurance Margins Recover. The remaining items cover the rest of the region's results, guidance and reporting-season flow as reported by the linked sources.",
+   "fresh_count": 5,
    "items": [
     {
-     "headline": "5 Insurance Stocks That Are Set for Q3 Earnings Outperformance",
-     "detail": "Solid retention, renewals, prudent pricing, exposure growth and improved digitization are expected to help RNR, MET, PRI, RYAN and UNM outperform Q3 estimates.",
-     "url": "https://www.nasdaq.com/articles/5-insurance-stocks-are-set-q3-earnings-outperformance",
+     "headline": "Elevance Health Targets 12% Earnings Growth in 2027 as Insurance Margins Recover",
+     "detail": "UnitedHealth Just Gave Wall Street a Clearer Turnaround SignalElevance Health (NYSE:ELV) expects adjusted earnings per share to grow at least 12% in 2027 from its recently increased 2026 baseline of at least $26.75, Chief Financial Officer…",
+     "url": "https://www.nasdaq.com/articles/elevance-health-targets-12-earnings-growth-2027-insurance-margins-recover",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-26T16:05:00+00:00",
-     "fetched": "2026-10-26T20:08:00+00:00"
+     "published": "2026-11-14T00:12:18+00:00",
+     "fetched": "2026-11-16T06:15:15+00:00"
     },
     {
-     "headline": "Eastern Bankshares Q3 Earnings Call Highlights",
-     "detail": "Eastern Bankshares (NASDAQ:EBC) reported record third-quarter operating earnings as commercial lending growth, expense control and improved credit metrics supported profitability, while management said competition for deposits and…",
-     "url": "https://www.nasdaq.com/articles/eastern-bankshares-q3-earnings-call-highlights",
+     "headline": "Vecima Networks Q1 Earnings Call Highlights",
+     "detail": "Vecima Networks (TSE:VCM) reported record revenue for its fiscal first quarter as broadband equipment demand and a commercial video upgrade helped drive growth, while the company reiterated its full-year revenue outlook despite a shift in…",
+     "url": "https://www.nasdaq.com/articles/vecima-networks-q1-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-23T16:06:06+00:00",
-     "fetched": "2026-10-26T20:08:00+00:00"
+     "published": "2026-11-13T21:14:28+00:00",
+     "fetched": "2026-11-16T06:15:15+00:00"
     },
     {
-     "headline": "Lockheed Martin’s Record $292 Billion Backlog Comes With a Delivery Test",
-     "detail": "Lockheed Martin (NYSE: LMT) reported third-quarter results on Thursday, Oct. 22, and on paper, there was little to complain about.",
-     "url": "https://www.nasdaq.com/articles/lockheed-martins-record-292-billion-backlog-comes-delivery-test",
+     "headline": "What Sagicor Financial (SFC) Said on Its Q3 Earnings Call",
+     "detail": "Sagicor Financial (TSE:SFC) reported higher third-quarter core earnings but a net loss as rising interest rates led to mark-to-market declines on fixed-income assets.",
+     "url": "https://www.nasdaq.com/articles/what-sagicor-financial-sfc-said-its-q3-earnings-call",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-23T16:05:00+00:00",
-     "fetched": "2026-10-26T20:08:00+00:00"
+     "published": "2026-11-13T20:14:34+00:00",
+     "fetched": "2026-11-16T06:15:15+00:00"
     },
     {
-     "headline": "Bloom Energy Just Reported—Its Biggest Order Is Still Waiting on a Pipeline",
-     "detail": "Bloom Energy’s (NYSE: BE) Q3 earnings report shows strong growth despite uncertainty surrounding Oracle’s (NASDAQ: ORCL) force majeure notice.",
-     "url": "https://www.nasdaq.com/articles/bloom-energy-just-reported-its-biggest-order-still-waiting-pipeline",
+     "headline": "Power Co. of Canada Q3 Earnings Call Highlights",
+     "detail": "Power Co. of Canada (TSE:POW) reported a 12% increase in third-quarter adjusted net earnings as its Great West and IGM businesses contributed higher earnings, while a financing round lifted the value of the group’s Wealthsimple investment.",
+     "url": "https://www.nasdaq.com/articles/power-co-canada-q3-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-24T15:05:00+00:00",
-     "fetched": "2026-10-26T20:08:00+00:00"
+     "published": "2026-11-13T20:14:33+00:00",
+     "fetched": "2026-11-16T06:15:15+00:00"
     },
     {
-     "headline": "What Comfort Systems USA (FIX) Said on Its Q3 Earnings Call",
-     "detail": "3 Stocks Built for Higher Rates—And 2 That Could BreakComfort Systems USA (NYSE:FIX) reported sharply higher third-quarter results, supported by strong demand in construction activity, particularly from technology and industrial customers,…",
-     "url": "https://www.nasdaq.com/articles/what-comfort-systems-usa-fix-said-its-q3-earnings-call",
+     "headline": "Onex Q3 Earnings Call Highlights",
+     "detail": "Onex (TSE:ONEX) said it remains on track to reach its year-end target for fee-related earnings after the first close of its latest private equity fund, while its Convex insurance business reported higher premiums and improved underwriting…",
+     "url": "https://www.nasdaq.com/articles/onex-q3-earnings-call-highlights",
      "outlet": "Nasdaq",
      "source_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-     "published": "2026-10-23T18:04:54+00:00",
-     "fetched": "2026-10-26T20:08:00+00:00"
+     "published": "2026-11-13T20:14:33+00:00",
+     "fetched": "2026-11-16T06:15:15+00:00"
     }
    ]
   },

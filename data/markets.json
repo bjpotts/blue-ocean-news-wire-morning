@@ -1,311 +1,311 @@
 {
- "as_of": "Tuesday 27 October 2026, 07:05 AEDT",
+ "as_of": "Monday 16 November 2026, 17:10 AEDT",
  "btc": {
-  "price": "$79,846",
-  "chg": "-0.75%",
+  "price": "$64,319",
+  "chg": "+0.21%",
   "source": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true"
  },
  "btc_crosschecks": [
   {
    "source": "CoinGecko API",
-   "price": "$79,846",
-   "chg": "-0.75%"
+   "price": "$64,319",
+   "chg": "+0.21%"
   }
  ],
  "fx": [
   {
    "code": "AUD",
-   "rate": "1.4236",
-   "chg": "-0.03%"
+   "rate": "1.4738",
+   "chg": "+0.53%"
   },
   {
    "code": "EUR",
-   "rate": "0.8938",
-   "chg": "+0.04%"
+   "rate": "0.9048",
+   "chg": "+0.26%"
   },
   {
    "code": "GBP",
-   "rate": "0.7492",
-   "chg": "+0.16%"
-  },
-  {
-   "code": "JPY",
-   "rate": "157.4500",
-   "chg": "+0.41%"
-  },
-  {
-   "code": "CNY",
-   "rate": "6.6681",
-   "chg": "-0.03%"
-  },
-  {
-   "code": "NZD",
-   "rate": "1.7604",
-   "chg": "+0.11%"
-  },
-  {
-   "code": "CAD",
-   "rate": "1.4028",
-   "chg": "+0.24%"
-  },
-  {
-   "code": "CHF",
-   "rate": "0.8262",
+   "rate": "0.7560",
    "chg": "+0.22%"
   },
   {
+   "code": "JPY",
+   "rate": "160.0000",
+   "chg": "+0.19%"
+  },
+  {
+   "code": "CNY",
+   "rate": "6.6719",
+   "chg": "+0.05%"
+  },
+  {
+   "code": "NZD",
+   "rate": "1.8076",
+   "chg": "+0.44%"
+  },
+  {
+   "code": "CAD",
+   "rate": "1.4258",
+   "chg": "+0.06%"
+  },
+  {
+   "code": "CHF",
+   "rate": "0.8384",
+   "chg": "+0.63%"
+  },
+  {
    "code": "SGD",
-   "rate": "1.2806",
-   "chg": "+0.16%"
+   "rate": "1.2881",
+   "chg": "+0.17%"
   },
   {
    "code": "HKD",
-   "rate": "7.8448",
+   "rate": "7.8460",
    "chg": "+0.02%"
   },
   {
    "code": "INR",
-   "rate": "95.1800",
-   "chg": "+0.25%"
+   "rate": "94.2500",
+   "chg": "+0.22%"
   },
   {
    "code": "KRW",
-   "rate": "1325.2800",
-   "chg": "+0.06%"
+   "rate": "1337.1300",
+   "chg": "+0.23%"
   },
   {
    "code": "MXN",
-   "rate": "18.6155",
-   "chg": "-0.89%"
+   "rate": "18.5930",
+   "chg": "-0.52%"
   },
   {
    "code": "BRL",
-   "rate": "5.5884",
-   "chg": "+10.74%"
+   "rate": "5.6637",
+   "chg": "+0.83%"
   },
   {
    "code": "ZAR",
-   "rate": "16.6291",
-   "chg": "+0.19%"
+   "rate": "16.9635",
+   "chg": "+1.49%"
   },
   {
    "code": "ILS",
-   "rate": "3.0799",
-   "chg": "-1.33%"
+   "rate": "3.2107",
+   "chg": "+0.23%"
   },
   {
    "code": "SEK",
-   "rate": "9.9558",
-   "chg": "+0.11%"
+   "rate": "10.0502",
+   "chg": "+0.67%"
   },
   {
    "code": "NOK",
-   "rate": "9.3444",
-   "chg": "-0.07%"
+   "rate": "9.5634",
+   "chg": "+0.32%"
   },
   {
    "code": "THB",
-   "rate": "33.8050",
-   "chg": "+0.18%"
+   "rate": "33.9150",
+   "chg": "+0.30%"
   },
   {
    "code": "MYR",
    "rate": "4.0875",
-   "chg": "+0.05%"
+   "chg": "+0.22%"
   },
   {
    "code": "PHP",
-   "rate": "63.9440",
-   "chg": "+0.47%"
+   "rate": "63.8130",
+   "chg": "+0.13%"
   },
   {
    "code": "IDR",
-   "rate": "18162.0000",
-   "chg": "+0.30%"
+   "rate": "18245.0000",
+   "chg": "-0.04%"
   }
  ],
- "fx_base_date": "2026-10-26",
- "fx_prior_date": "2026-10-23",
+ "fx_base_date": "2026-11-13",
+ "fx_prior_date": "2026-11-12",
  "fx_source": "https://api.frankfurter.dev/v1/latest?from=USD",
  "indices": [
   {
    "name": "S&P 500",
    "symbol": "^GSPC",
-   "value": "7,676.77",
-   "chg": "+0.70%"
+   "value": "7,561.67",
+   "chg": "-0.40%"
   },
   {
    "name": "Nasdaq Composite",
    "symbol": "^IXIC",
-   "value": "26,169",
-   "chg": "+0.82%"
+   "value": "25,136",
+   "chg": "-0.91%"
   },
   {
    "name": "TSX Composite",
    "symbol": "^GSPTSE",
-   "value": "35,944",
-   "chg": "+0.44%"
+   "value": "36,106",
+   "chg": "-0.09%"
   },
   {
    "name": "IPC Mexico",
    "symbol": "^MXX",
-   "value": "69,450",
-   "chg": "-0.61%"
+   "value": "71,205",
+   "chg": "-0.84%"
   },
   {
    "name": "Ibovespa",
    "symbol": "^BVSP",
-   "value": "176,893",
-   "chg": "-13.75%"
+   "value": "172,458",
+   "chg": "+0.66%"
   },
   {
    "name": "FTSE 100",
    "symbol": "^FTSE",
-   "value": "10,767",
-   "chg": "+0.72%"
+   "value": "10,903",
+   "chg": "+0.36%"
   },
   {
    "name": "DAX",
    "symbol": "^GDAXI",
-   "value": "25,411",
-   "chg": "+0.91%"
+   "value": "26,750",
+   "chg": "-0.08%"
   },
   {
    "name": "CAC 40",
    "symbol": "^FCHI",
-   "value": "7,847.32",
-   "chg": "+0.83%"
+   "value": "8,368.91",
+   "chg": "+0.09%"
   },
   {
    "name": "FTSE MIB",
    "symbol": "FTSEMIB.MI",
-   "value": "49,187",
-   "chg": "+1.29%"
+   "value": "51,859",
+   "chg": "+0.10%"
   },
   {
    "name": "IBEX 35",
    "symbol": "^IBEX",
-   "value": "19,033",
-   "chg": "+0.23%"
+   "value": "20,020",
+   "chg": "+0.27%"
   },
   {
    "name": "EURO STOXX 50",
    "symbol": "^STOXX50E",
-   "value": "6,116.23",
-   "chg": "+0.79%"
+   "value": "6,386.86",
+   "chg": "-0.19%"
   },
   {
    "name": "OMX Stockholm 30",
    "symbol": "^OMX",
-   "value": "3,225.43",
-   "chg": "+1.57%"
+   "value": "3,356.87",
+   "chg": "-0.07%"
   },
   {
    "name": "MOEX Russia",
    "symbol": "IMOEX",
-   "value": "2,491.71",
-   "chg": "+1.10%"
+   "value": "2,497.89",
+   "chg": "-0.54%"
   },
   {
    "name": "DFM General (Dubai)",
    "symbol": "DFMGI.AE",
-   "value": "5,751.72",
-   "chg": "+0.31%"
+   "value": "6,197.88",
+   "chg": "+0.00%"
   },
   {
    "name": "Nikkei 225",
    "symbol": "^N225",
-   "value": "62,190",
-   "chg": "-1.14%"
+   "value": "59,706",
+   "chg": "-2.35%"
   },
   {
    "name": "Hang Seng",
    "symbol": "^HSI",
-   "value": "23,212",
-   "chg": "+1.21%"
+   "value": "23,782",
+   "chg": "+0.61%"
   },
   {
    "name": "Shanghai Composite",
    "symbol": "000001.SS",
-   "value": "3,697.52",
-   "chg": "+1.08%"
+   "value": "3,599.86",
+   "chg": "-0.95%"
   },
   {
    "name": "KOSPI",
    "symbol": "^KS11",
-   "value": "5,469.47",
-   "chg": "-1.16%"
+   "value": "5,076.06",
+   "chg": "-4.05%"
   },
   {
    "name": "TAIEX",
    "symbol": "^TWII",
-   "value": "46,041",
-   "chg": "-1.81%"
+   "value": "41,040",
+   "chg": "-6.03%"
   },
   {
    "name": "SET Index",
    "symbol": "^SET.BK",
-   "value": "1,579.03",
-   "chg": "+1.05%"
+   "value": "1,498.96",
+   "chg": "-0.39%"
   },
   {
    "name": "BSE Sensex",
    "symbol": "^BSESN",
-   "value": "73,607",
-   "chg": "+0.49%"
+   "value": "81,927",
+   "chg": "+0.41%"
   },
   {
    "name": "S&P/ASX 200",
    "symbol": "^AXJO",
-   "value": "8,809.90",
-   "chg": "+0.17%"
+   "value": "9,044.70",
+   "chg": "-0.41%"
   },
   {
    "name": "All Ordinaries",
    "symbol": "^AORD",
-   "value": "8,926.60",
-   "chg": "+0.23%"
+   "value": "9,165.40",
+   "chg": "-0.42%"
   },
   {
    "name": "NZX 50",
    "symbol": "^NZ50",
-   "value": "13,734",
-   "chg": "+0.00%"
+   "value": "14,304",
+   "chg": "+0.92%"
   }
  ],
  "narrative_indices": [
   {
    "name": "Dow Jones",
    "symbol": "^DJI",
-   "value": "52,362",
-   "chg": "+0.28%"
+   "value": "52,348",
+   "chg": "+0.10%"
   },
   {
    "name": "Russell 2000",
    "symbol": "^RUT",
-   "value": "2,784.89",
-   "chg": "+0.32%"
+   "value": "2,790.49",
+   "chg": "-0.31%"
   },
   {
    "name": "Straits Times",
    "symbol": "^STI",
-   "value": "5,415.91",
-   "chg": "+0.01%"
+   "value": "5,190.92",
+   "chg": "-0.78%"
   },
   {
    "name": "FTSE 250",
    "symbol": "^FTMC",
-   "value": "24,501",
-   "chg": "+1.09%"
+   "value": "24,805",
+   "chg": "-0.45%"
   },
   {
    "name": "FTSE 350",
    "symbol": "^FTLC",
-   "value": "5,867.73",
-   "chg": "+0.76%"
+   "value": "5,941.33",
+   "chg": "+0.28%"
   }
  ],
  "indices_source": "https://finance.yahoo.com/world-indices",
- "indices_asof": "Monday 26 October 2026, 20:05 UTC",
- "indices_asof_label": "Tuesday 27 October 2026"
+ "indices_asof": "Monday 16 November 2026, 06:10 UTC",
+ "indices_asof_label": "Monday 16 November 2026"
 }

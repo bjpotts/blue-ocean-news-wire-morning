@@ -3,202 +3,193 @@
   {
    "key": "anz",
    "name": "ANZ",
-   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Wiluna Mining Corporation LimitedWMC — A$180M IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "summary": "ANZ equity capital markets activity captured this run runs to 4 items, led by Many Peaks Minerals lines up A$70m to fund Ferké to FID. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "fresh_count": 4,
    "items": [
     {
-     "headline": "Wiluna Mining Corporation LimitedWMC — A$180M IPO",
-     "detail": "Upcoming Mineral exploration, development, and production IPO raising A$180M at $0.650, expected to list Thursday, October 22, 2026 (stage: OPEN).",
-     "url": "https://www.wilunamining.com.au/",
-     "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-10-27T07:07:42.120768",
-     "fetched": "2026-10-26T20:07:42+00:00"
+     "headline": "Many Peaks Minerals lines up A$70m to fund Ferké to FID",
+     "detail": "North American institutions have backed Many Peaks Minerals’ placement, which will also fund resource drilling, feasibility work and exploration across ... Read More",
+     "url": "https://stockhead.com.au/resources/many-peaks-minerals-lines-up-a70m-to-fund-ferke-to-fid/",
+     "outlet": "Stockhead",
+     "source_url": "https://stockhead.com.au/feed/",
+     "published": "2026-11-16T06:00:20+00:00",
+     "fetched": "2026-11-16T06:13:56+00:00"
     },
     {
-     "headline": "Jacaranda Natural Resources LimitedJRL — A$10M IPO",
-     "detail": "Upcoming Jacaranda is a mineral exploration company engaged in the acquisition, exploration and development of gold and copper projects. Upon listing, Jacaranda will hold a 100% interest in the White Cockatoo Project in Queensland, Australia and in the Globe, Nkwe and Motloutse Projects in Botswana. IPO raising A$10M at $0.200, expected to list Wednesday, October 28, 2026 (stage: OPEN).",
-     "url": "https://jacarandaresources.com/",
+     "headline": "Sky Metals and Advance Metals Propose Spin-Out of Gold Assets",
+     "detail": "Sky Metals and Advance Metals plan to spin out five gold projects into a new explorer, targeting a $6 million IPO in 2027.",
+     "url": "https://smallcaps.com.au/article/sky-metals-and-advance-metals-propose-spin-out-of-gold-assets",
      "outlet": "Small Caps",
-     "source_url": "https://smallcaps.com.au/",
-     "published": "2026-10-27T07:07:42.120820",
-     "fetched": "2026-10-26T20:07:42+00:00"
+     "source_url": "https://smallcaps.com.au/feed",
+     "published": "2026-11-13T06:11:43+00:00",
+     "fetched": "2026-11-16T06:13:56+00:00"
     },
     {
-     "headline": "Capability X LimitedCX8 — A$12M IPO",
-     "detail": "Upcoming Development of remote and autonomous technology solutions designed to improve risk management, safety and operational efficiency across marine, ports, rail and industrial environments. IPO raising A$12M at $0.200, expected to list Thursday, November 12, 2026 (stage: OPEN).",
-     "url": "https://www.capabilityx.com/",
+     "headline": "ABC Commodities LimitedABC — A$5M IPO",
+     "detail": "Upcoming Exploration for and development of mineral resources IPO raising A$5M at $0.200, expected to list Monday, November 30, 2026 (stage: OPEN).",
+     "url": "https://www.abccom.com.au/",
      "outlet": "Small Caps",
      "source_url": "https://smallcaps.com.au/",
-     "published": "2026-10-27T07:07:42.120847",
-     "fetched": "2026-10-26T20:07:42+00:00"
+     "published": "2026-11-16T17:14:50.695622",
+     "fetched": "2026-11-16T06:14:50+00:00"
     },
     {
-     "headline": "Maverick Uranium LimitedMAV — A$8M IPO",
-     "detail": "Upcoming Mining exploration (uranium) IPO raising A$8M at $0.200, expected to list Thursday, November 12, 2026 (stage: OPEN).",
-     "url": "https://www.maverickuranium.com.au/",
+     "headline": "Ramsay Generale de Sante (SARGS) — — IPO",
+     "detail": "Upcoming Private hospitalisation and primary care IPO raising — at —, expected to list Tuesday, December 1, 2026 (stage: OPEN).",
+     "url": "https://www.ramsaysante.eu/",
      "outlet": "Small Caps",
      "source_url": "https://smallcaps.com.au/",
-     "published": "2026-10-27T07:07:42.120865",
-     "fetched": "2026-10-26T20:07:42+00:00"
+     "published": "2026-11-16T17:14:50.695669",
+     "fetched": "2026-11-16T06:14:50+00:00"
     }
    ]
   },
   {
    "key": "asia",
    "name": "Asia (Japan/Singapore/Hong Kong/China)",
-   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Hong Kong proposes more homes, less office space at Hung Hom harbourfront. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "Asia (Japan/Singapore/Hong Kong/China) equity capital markets activity captured this run runs to 4 items, led by Akeso shares plummet as Chinese firm’s cancer drug ivonescimab faces FDA setback. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 4,
    "items": [
     {
-     "headline": "Hong Kong proposes more homes, less office space at Hung Hom harbourfront",
-     "detail": "Hong Kong authorities have proposed raising the residential share of a Hung Hom harbourfront development to more than 60 per cent by cutting commercial floor space, citing “strong doubts” over market demand for offices.",
-     "url": "https://www.scmp.com/news/hong-kong/society/article/3372204/hong-kong-proposes-more-homes-less-office-space-hung-hom-harbourfront",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-26T14:04:32+00:00",
-     "fetched": "2026-10-26T20:07:43+00:00"
-    },
-    {
-     "headline": "Anthropic’s IPO filing shows explosive growth, risks and staggering costs",
-     "detail": "Anthropic disclosed steep losses and explosive revenue growth on ⁠Monday as the Claude parent moved closer to a potentially record-breaking IPO, betting on AI’s ability to reshape the global economy.",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3372202/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-26T13:53:04+00:00",
-     "fetched": "2026-10-26T20:07:43+00:00"
-    },
-    {
-     "headline": "The Weeknd’s ‘Hong Kong’ captures nostalgia for bygone era, video director says",
-     "detail": "A new viral song by Canadian singer The Weeknd, “Hong Kong”, is a love letter to the city, the director of the accompanying video has said, adding that he believes nostalgia for the late 1980s and early 1990s era is the secret ingredient…",
-     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372168/weeknds-hong-kong-captures-nostalgia-bygone-era-video-director-says",
-     "outlet": "South China Morning Post",
-     "source_url": "https://www.scmp.com/rss/91/feed",
-     "published": "2026-10-26T09:12:48+00:00",
-     "fetched": "2026-10-26T20:07:43+00:00"
-    },
-    {
-     "headline": "Dongshan Precision retail IPO undersubscribed as Hong Kong mega listing flops: sources",
-     "detail": "Chinese printed circuit board maker Suzhou Dongshan Precision Manufacturing Co failed to excite retail investors in Hong Kong, making it one of the least popular mega initial public offerings (IPOs) in the city so far this year.",
-     "url": "https://www.scmp.com/business/companies/article/3371948/dongshan-precision-retail-ipo-undersubscribed-hong-kong-mega-listing-flops",
+     "headline": "Akeso shares plummet as Chinese firm’s cancer drug ivonescimab faces FDA setback",
+     "detail": "Shares in Hong Kong-listed Akeso plunged as much as 31.8 per cent on Monday morning after the US Food and Drug Administration (FDA) rejected its cancer drug application, raising investor worries over the company’s near-term commercial…",
+     "url": "https://www.scmp.com/business/china-business/article/3374543/akeso-shares-plummet-chinese-firms-cancer-drug-ivonescimab-faces-fda-setback",
      "outlet": "South China Morning Post",
      "source_url": "https://www.scmp.com/rss/92/feed",
-     "published": "2026-10-23T11:01:11+00:00",
-     "fetched": "2026-10-26T20:07:42+00:00"
+     "published": "2026-11-16T05:00:10+00:00",
+     "fetched": "2026-11-16T06:14:51+00:00"
+    },
+    {
+     "headline": "Indebted Hong Kong developer New World offers shares at 81% discount in US$3.2b cash call",
+     "detail": "New World Development’s shares plunged 46 per cent to HK$2.655 as the market opened on Monday, as investors reacted to the developer’s HK$24.9 billion (US$3.2 billion) rights issue, which offers 11 new shares for each existing share at an…",
+     "url": "https://www.scmp.com/business/companies/article/3374507/indebted-hong-kong-developer-new-world-offers-shares-81-discount-us32b-cash-call",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-11-15T13:57:04+00:00",
+     "fetched": "2026-11-16T06:14:51+00:00"
+    },
+    {
+     "headline": "New World plans HK$25 billion rights issue, Cheng family underwriting offering: sources",
+     "detail": "Hong Kong property developer New World Development plans to raise about HK$25 billion (US$3.19 billion) through a rights issue, with the Cheng family underwriting the offering as the debt-laden company seeks to strengthen its balance…",
+     "url": "https://www.scmp.com/business/markets/article/3374279/hong-kongs-new-world-development-suspends-trading-financial-rescue-speculation-mounts",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-11-13T02:14:21+00:00",
+     "fetched": "2026-11-16T06:14:51+00:00"
+    },
+    {
+     "headline": "Li Ka-shing’s CK Hutchison denies suspending AS Watson listing plan",
+     "detail": "CK Hutchison Holdings, the major business vehicle of the family of billionaire Li Ka-shing, denied the reported suspension of a listing plan for its retail business amid cooling enthusiasm for initial public offerings (IPOs) in Hong Kong.",
+     "url": "https://www.scmp.com/business/companies/article/3374240/li-ka-shings-ck-hutchison-denies-suspending-watson-listing-plan",
+     "outlet": "South China Morning Post",
+     "source_url": "https://www.scmp.com/rss/92/feed",
+     "published": "2026-11-12T12:18:54+00:00",
+     "fetched": "2026-11-16T06:14:51+00:00"
     }
    ]
   },
   {
    "key": "us",
    "name": "US",
-   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: Anthropic (ANT Proposed) Files its S-1. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "summary": "US equity capital markets activity captured this run runs to 4 items, led by The IPO Buzz: Anthropic IPO to Make History as First Big AI Frontier IPO. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
    "fresh_count": 4,
    "items": [
     {
-     "headline": "The IPO Buzz: Anthropic (ANT Proposed) Files its S-1",
-     "detail": "Anthropic (ANT Proposed) pulled back the curtain on its IPO by filing its long-awaited S-1 this morning – Monday, Oct. 26, 2026.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/",
+     "headline": "The IPO Buzz: Anthropic IPO to Make History as First Big AI Frontier IPO",
+     "detail": "Anthropic (ANT Proposed) is on the verge of making IPO history. The San Francisco-based company, known for its Claude AI code and platform, is set to price its $61.05 billion IPO this week.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-anthropic-ipo-to-make-history-as-first-big-ai-frontier-ipo/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-26T15:36:45+00:00",
-     "fetched": "2026-10-26T20:07:45+00:00"
+     "published": "2026-11-16T04:49:14+00:00",
+     "fetched": "2026-11-16T06:14:53+00:00"
     },
     {
-     "headline": "The IPO Buzz: Aspen Neuroscience (ASPE Proposed) Sets Terms for $150 Million IPO",
-     "detail": "Aspen Neuroscience, Inc. (ASPE Proposed), a Phase 1/2a biotech targeting Parkinson’s Disease, unveiled the terms for its $150 million IPO early today – Monday, Oct. 26, 2026.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-aspen-neuroscience-aspe-proposed-sets-terms-for-150-million-ipo/",
+     "headline": "The IPO Buzz: vVardis (VVVV) Prices Upsized IPO at $18 – $3 Below Range – Stock Falls on NYSE",
+     "detail": "vVardis Holding AG (VVVV), a Swiss dental tech start-up, upsized its IPO at pricing to 9.72 million shares – up from 8.33 million in the prospectus – and priced the deal at $18.00 – $3.00 below range – to raise $174.96 million on Thursday…",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-vvardis-vvvv-upsizes-ipo-prices-deal-at-18-3-below-range/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-26T13:20:54+00:00",
-     "fetched": "2026-10-26T20:07:45+00:00"
+     "published": "2026-11-13T07:10:02+00:00",
+     "fetched": "2026-11-16T06:14:53+00:00"
     },
     {
-     "headline": "The IPO Buzz: Bambusa Therapeutics (BBTX Proposed) Launches $150 Million IPO",
-     "detail": "Bambusa Therapeutics (BBTX Proposed), a clinical biotech developing drugs to treat atopic dermatitis (“AD”) and COPD, set the terms and launched its $150 million IPO early today – Monday, Oct.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-bambusa-therapeutics-bbtx-proposed-launches-150-million-ipo/",
+     "headline": "The IPO Buzz: Windward Bio (WWB) Prices IPO at $17 Mid-Point – & Stock Pops in NASDAQ Debut",
+     "detail": "Windward Bio (WWB), a biotech based in Basel, Switzerland, priced its IPO at $17.00 – the mid-point of its range – and sold 10.29 million shares – the number in the prospectus – to raise $174.93 million on Thursday night, Nov. 12, 2026.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-windward-bio-wwb-swiss-biotech-prices-ipo-at-17-mid-point/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-26T12:01:19+00:00",
-     "fetched": "2026-10-26T20:07:45+00:00"
+     "published": "2026-11-13T01:59:19+00:00",
+     "fetched": "2026-11-16T06:14:53+00:00"
     },
     {
-     "headline": "The IPO Buzz: The Waiting Game",
-     "detail": "The IPO market is playing the waiting game. IPO investors are anticipating Anthropic’s blockbuster filing – possibly by the end of the week. The IPO Calendar shows no large IPOs on tap for the week of Oct. 19, 2026.",
-     "url": "https://www.iposcoop.com/the-ipo-buzz-the-waiting-game-2/",
+     "headline": "The IPO Buzz: Anthropic (ANT Proposed) Unveils Terms of $61.05 Billion IPO",
+     "detail": "Anthropic (ANT Proposed), known for its Claude AI platform, launched its $61.05 billion IPO today – Tuesday, Nov.",
+     "url": "https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-unveils-terms-of-61-05-billion-ipo/",
      "outlet": "IPOScoop",
      "source_url": "https://www.iposcoop.com/feed/",
-     "published": "2026-10-19T04:11:27+00:00",
-     "fetched": "2026-10-26T20:07:45+00:00"
+     "published": "2026-11-10T12:29:58+00:00",
+     "fetched": "2026-11-16T06:14:53+00:00"
     }
    ]
   },
   {
    "key": "uk",
    "name": "UK",
-   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by Meta unveils $95bn share sale as AI spending drains cash reserves. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "UK equity capital markets activity captured this run runs to 3 items, led by Zilch boss ‘feels good’ on $2bn IPO valuation. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "Meta unveils $95bn share sale as AI spending drains cash reserves",
-     "detail": "Meta has announced plans to raise up to $95bn (£71bn) through share sales to fund its AI expansion, as soaring infrastructure costs put pressure on the Facebook owner’s cash flow.",
-     "url": "https://www.cityam.com/meta-unveils-95bn-share-sale-as-ai-spending-drains-cash-reserves/",
+     "headline": "Zilch boss ‘feels good’ on $2bn IPO valuation",
+     "detail": "The boss of Zilch has said the fintech is confident of maintaining its $2bn valuation on the public markets, as it gears up for an IPO as soon as the second half of next year.",
+     "url": "https://www.cityam.com/zilch-boss-feels-good-on-2bn-ipo-valuation/",
      "outlet": "City A.M.",
-     "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-10-26T18:01:35+00:00",
-     "fetched": "2026-10-26T20:07:52+00:00"
+     "source_url": "https://www.cityam.com/category/markets/feed/",
+     "published": "2026-11-09T11:03:17+00:00",
+     "fetched": "2026-11-16T06:14:59+00:00"
     },
     {
-     "headline": "Anthropic reveals $80bn loss as AI giant files for blockbuster IPO",
-     "detail": "Anthropic has revealed an $80.7bn (£60bn) first-half loss as the AI giant filed for a blockbuster US stock market listing that could value the company at up to $2 trillion.",
-     "url": "https://www.cityam.com/anthropic-reveals-80bn-loss-as-ai-giant-files-for-blockbuster-ipo/",
+     "headline": "How a pension charge tweak could boost investment into British start-ups",
+     "detail": "The financial watchdog’s proposals to relax pension charge cap rules could help boost investment in start-ups and private companies, bosses have said, after efforts to unleash a wave of investment from Britain’s retirement funds have…",
+     "url": "https://www.cityam.com/how-a-pension-charge-tweak-could-boost-investment-into-british-start-ups/",
      "outlet": "City A.M.",
      "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-10-26T14:03:56+00:00",
-     "fetched": "2026-10-26T20:07:52+00:00"
+     "published": "2026-11-13T09:06:51+00:00",
+     "fetched": "2026-11-16T06:15:03+00:00"
     },
     {
-     "headline": "Sheikh Mansour doubles down on Manchester City with £100m injection despite legal row",
-     "detail": "Sheikh Mansour has reaffirmed his commitment to City Football Group despite Manchester City’s ongoing legal battle with the Premier League by investing a further £100m.",
-     "url": "https://www.cityam.com/sheikh-mansour-doubles-down-on-manchester-city-with-100m-injection-despite-legal-row/",
+     "headline": "Wall Street braces for Nvidia fallout as Huang scandal rocks AI stocks",
+     "detail": "Wall Street is bracing for further volatility on Friday after Jensen Huang’s dramatic departure from Nvidia sent shockwaves through global markets, wiping billions off the chipmaker’s value and raising fresh questions over the future of…",
+     "url": "https://www.cityam.com/wall-street-braces-for-nvidia-fallout-as-huang-scandal-rocks-ai-stocks/",
      "outlet": "City A.M.",
-     "source_url": "https://www.cityam.com/feed/",
-     "published": "2026-10-26T13:28:14+00:00",
-     "fetched": "2026-10-26T20:07:52+00:00"
+     "source_url": "https://www.cityam.com/category/markets/feed/",
+     "published": "2026-11-13T10:44:30+00:00",
+     "fetched": "2026-11-16T06:14:59+00:00"
     }
    ]
   },
   {
    "key": "europe",
    "name": "Europe",
-   "summary": "Europe equity capital markets activity captured this run runs to 3 items, led by Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
-   "fresh_count": 3,
+   "summary": "Europe equity capital markets activity captured this run runs to 2 items, led by Anthropic IPO, Nvidia Fallout in Focus; World Leaders Gather in Asia. The remaining items cover the rest of the region's placement, offering and new listing flow as reported by the linked sources.",
+   "fresh_count": 2,
    "items": [
     {
-     "headline": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap",
-     "detail": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
+     "headline": "Anthropic IPO, Nvidia Fallout in Focus; World Leaders Gather in Asia",
+     "detail": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia.",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-16/the-asia-trade-11-16-2026-video",
      "outlet": "Bloomberg",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-25T22:09:07+00:00",
-     "fetched": "2026-10-26T20:07:54+00:00"
+     "published": "2026-11-16T04:10:05+00:00",
+     "fetched": "2026-11-16T06:15:04+00:00"
     },
     {
-     "headline": "Anthropic IPO Is the “One We’ve Been Waiting For”: Bessemer’s Deeter",
-     "detail": "Anthropic’s IPO will finally give public market investors a chance to get into the software side of AI, says Byron Deeter, partner at Bessemer Venture Partners.",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-26/anthropic-ipo-is-the-one-we-ve-been-waiting-for-video",
+     "headline": "Coal India Unit MCL Seeks as Much as $953 Million in Mumbai IPO",
+     "detail": "Mahanadi Coalfields Ltd., a unit of state-owned Coal India Ltd., is seeking to raise as much as 89.81 billion rupees ($953 million) in an initial public offering.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/coal-india-unit-mcl-seeks-as-much-as-953-million-in-mumbai-ipo",
      "outlet": "Bloomberg",
      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-26T18:21:53+00:00",
-     "fetched": "2026-10-26T20:07:54+00:00"
-    },
-    {
-     "headline": "US Stocks Gain as Investors Parse Anthropic IPO Filing",
-     "detail": "US stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday.",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision",
-     "outlet": "Bloomberg",
-     "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-     "published": "2026-10-26T12:38:56+00:00",
-     "fetched": "2026-10-26T20:07:54+00:00"
+     "published": "2026-11-16T03:04:46+00:00",
+     "fetched": "2026-11-16T06:15:04+00:00"
     }
    ]
   },

@@ -3,48 +3,48 @@
   "key": "abcus",
   "name": "ABC News (US)",
   "site": "abcnews.go.com",
-  "summary": "ABC News in the United States, the network's national and world file is leading with These key Senate races will determine which party controls the body next year; LIVE: ABC News Live; 'Star Trek' actor Walter Koenig dies at 90.",
+  "summary": "ABC News in the United States, the network's national and world file is leading with FAA ground stop live updates: Flight cancellations continue into Monday; LIVE: ABC News Live; Apple launches an AI health tool as part of a research study.",
   "note": null,
   "items": [
    {
-    "headline": "These key Senate races will determine which party controls the body next year",
-    "detail": "As both parties prepare for the final leg of the campaign, here are some of the most closely watched Senate races.",
-    "url": "https://abcnews.go.com/Politics/key-senate-races-determine-party-controls-body-year/story?id=137301095",
+    "headline": "FAA ground stop live updates: Flight cancellations continue into Monday",
+    "detail": "The administrator said the ground stop was the result of equipment failure.",
+    "url": "https://abcnews.go.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-26T14:11:32-04:00",
-    "fetched": "2026-10-26T20:08:15+00:00"
+    "published": "2026-11-16T00:16:17-05:00",
+    "fetched": "2026-11-16T06:15:33+00:00"
    },
    {
     "headline": "LIVE: ABC News Live",
     "detail": "24/7 coverage of breaking news and live events",
     "url": "https://abcnews.go.com/video/41463246/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-26T11:24:55-04:00",
-    "fetched": "2026-10-26T20:08:15+00:00"
+    "published": "2026-11-13T21:03:10-05:00",
+    "fetched": "2026-11-16T06:15:33+00:00"
    },
    {
-    "headline": "'Star Trek' actor Walter Koenig dies at 90",
-    "detail": "Walter Koenig's former co-star, George Takei, mourned his death in a Facebook post on Monday.",
-    "url": "https://abcnews.go.com/GMA/Culture/star-trek-actor-walter-koenig-dies-90/story?id=137576960",
+    "headline": "Apple launches an AI health tool as part of a research study",
+    "detail": "On Sunday, Apple announced a new approach, launching the Apple Health AI Usage Study app that they say will answer health questions only using trusted medical research.",
+    "url": "https://abcnews.go.com/US/apple-launches-ai-health-chatbot-part-research-study/story?id=138164909",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-26T15:36:07-04:00",
-    "fetched": "2026-10-26T20:08:15+00:00"
+    "published": "2026-11-15T22:09:48-05:00",
+    "fetched": "2026-11-16T06:15:33+00:00"
    },
    {
-    "headline": "Anthropic preps for IPO in major step for AI company",
-    "detail": "Anthropic, the company behind chatbot Claude, has been among the leaders in AI development.",
-    "url": "https://abcnews.go.com/Business/anthropic-formally-files-initial-public-stock-offering-major/story?id=137570700",
+    "headline": "LSU guard Fulwiley arrested after allegedly fleeing scene of traffic stop",
+    "detail": "MiLaysia Fulwiley is one of the ninth-ranked Tigers’ leading scorers.",
+    "url": "https://abcnews.go.com/Sports/wireStory/lsu-guard-milaysia-fulwiley-arrested-after-allegedly-fleeing-138161807",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-26T14:51:06-04:00",
-    "fetched": "2026-10-26T20:08:15+00:00"
+    "published": "2026-11-15T14:33:13-05:00",
+    "fetched": "2026-11-16T06:15:33+00:00"
    },
    {
-    "headline": "WATCH: Runners take on NYC Marathon with a mission",
-    "detail": "ABC News’ Lara Spencer shares the story of “Team Inspire” as they prepare to run 26.2 miles across New York City.",
-    "url": "https://abcnews.go.com/video/137568845/",
+    "headline": "WATCH: Passenger jet collides with UPS plane on taxiway at Miami International Airport",
+    "detail": "A UPS cargo plane and a Copa Airlines passenger jet collided on a taxiway at Miami International Airport on Saturday night, according to airport officials and the FAA.",
+    "url": "https://abcnews.go.com/video/138162241/",
     "source_url": "https://abcnews.go.com/abcnews/topstories",
-    "published": "2026-10-26T11:45:09-04:00",
-    "fetched": "2026-10-26T20:08:15+00:00"
+    "published": "2026-11-15T20:21:08-05:00",
+    "fetched": "2026-11-16T06:15:33+00:00"
    }
   ]
  }
